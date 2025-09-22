@@ -56,6 +56,10 @@ if %ERRORLEVEL% neq 0 (
     echo ❌ Git push failed!
     echo Repository initialized locally but not pushed to GitHub
     echo You may need to authenticate with GitHub
+    echo.
+    echo Try running these commands manually:
+    echo git push -u origin main
+    echo.
     pause
     exit /b 1
 )
