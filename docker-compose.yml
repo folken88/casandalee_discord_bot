@@ -1,0 +1,39 @@
+services:
+  cass-bot:
+    build: .
+    container_name: cass-discord-bot
+    restart: unless-stopped
+    volumes:
+      - ./logs:/app/logs
+      - ./.env:/app/.env
+      - ./data:/app/data
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
+    environment:
+      - DISCORD_TOKEN=${DISCORD_TOKEN}
+      - CLIENT_ID=${CLIENT_ID}
+      - GUILD_ID=${GUILD_ID}
+      - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - FOUNDRY_URL=${FOUNDRY_URL}
+      - FOUNDRY_USERNAME=${FOUNDRY_USERNAME}
+      - FOUNDRY_PASSWORD=${FOUNDRY_PASSWORD}
+      - GOOGLE_SHEETS_API_KEY=${GOOGLE_SHEETS_API_KEY}
+      - GOOGLE_SHEETS_SPREADSHEET_ID=${GOOGLE_SHEETS_SPREADSHEET_ID}
+      - GOOGLE_SHEETS_TIMELINE_RANGE=${GOOGLE_SHEETS_TIMELINE_RANGE}
+      - GOOGLE_SHEETS_CHARACTERS_RANGE=${GOOGLE_SHEETS_CHARACTERS_RANGE}
+      - GOOGLE_SHEETS_REFRESH_INTERVAL=${GOOGLE_SHEETS_REFRESH_INTERVAL}
+      - BOT_NAME=Casandalee
+      - BOT_PREFIX=/cass
+      - CAMPAIGN_YEAR=4717
+      - CAMPAIGN_MONTH=April
+    networks:
+      - cass-network
+
+networks:
+  cass-network:
+    driver: bridge
+
+
