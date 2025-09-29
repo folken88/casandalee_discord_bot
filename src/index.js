@@ -12,8 +12,10 @@ require('dotenv').config();
 const diceRoller = require('./utils/diceRoller');
 const foundryIntegration = require('./utils/foundryIntegration');
 const campaignContext = require('./utils/campaignContext');
+const timelineSearch = require('./utils/timelineSearch');
 const llmHandler = require('./utils/llmHandler');
 const logger = require('./utils/logger');
+const DailyHistoryScheduler = require('./utils/dailyHistory');
 
 // Create Discord client
 const client = new Client({
@@ -27,6 +29,9 @@ const client = new Client({
 
 // Create commands collection
 client.commands = new Collection();
+
+// Initialize daily history scheduler
+let dailyHistoryScheduler;
 
 // Load command files
 const commandsPath = path.join(__dirname, 'commands');
@@ -47,10 +52,30 @@ if (fs.existsSync(commandsPath)) {
 }
 
 // Bot ready event
-client.once(Events.ClientReady, readyClient => {
+client.once(Events.ClientReady, async readyClient => {
     logger.info(`🎲 Casandalee is ready! Logged in as ${readyClient.user.tag}`);
     logger.info(`📅 Campaign Year: ${process.env.CAMPAIGN_YEAR || '4717'}`);
     logger.info(`🗓️  Campaign Month: ${process.env.CAMPAIGN_MONTH || 'April'}`);
+    
+    // Initialize timeline search
+    try {
+        await timelineSearch.initialize();
+        logger.info('✅ Timeline search initialized successfully');
+    } catch (error) {
+        logger.error('❌ Failed to initialize timeline search:', error);
+    }
+    
+    // Initialize daily history scheduler
+    try {
+        dailyHistoryScheduler = new DailyHistoryScheduler(readyClient);
+        dailyHistoryScheduler.start();
+        // Make it accessible from the client for commands
+        readyClient.dailyHistoryScheduler = dailyHistoryScheduler;
+        logger.info('✅ Daily history scheduler started');
+    } catch (error) {
+        logger.error('❌ Failed to start daily history scheduler:', error);
+    }
+    
     logger.info(`Bot is ready and listening for commands`);
 });
 

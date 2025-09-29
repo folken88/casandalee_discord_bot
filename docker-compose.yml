@@ -7,6 +7,8 @@ services:
       - ./logs:/app/logs
       - ./.env:/app/.env
       - ./data:/app/data
+      # Read-only access to FoundryVTT data directory
+      - ${FOUNDRY_DATA_PATH:-C:/foundryvttstorage/Data}:/foundry/data:ro
     logging:
       driver: "json-file"
       options:
@@ -17,14 +19,12 @@ services:
       - CLIENT_ID=${CLIENT_ID}
       - GUILD_ID=${GUILD_ID}
       - OPENAI_API_KEY=${OPENAI_API_KEY}
-      - FOUNDRY_URL=${FOUNDRY_URL}
-      - FOUNDRY_USERNAME=${FOUNDRY_USERNAME}
-      - FOUNDRY_PASSWORD=${FOUNDRY_PASSWORD}
       - GOOGLE_SHEETS_API_KEY=${GOOGLE_SHEETS_API_KEY}
       - GOOGLE_SHEETS_SPREADSHEET_ID=${GOOGLE_SHEETS_SPREADSHEET_ID}
       - GOOGLE_SHEETS_TIMELINE_RANGE=${GOOGLE_SHEETS_TIMELINE_RANGE}
       - GOOGLE_SHEETS_CHARACTERS_RANGE=${GOOGLE_SHEETS_CHARACTERS_RANGE}
       - GOOGLE_SHEETS_REFRESH_INTERVAL=${GOOGLE_SHEETS_REFRESH_INTERVAL}
+      - FOUNDRY_DATA_PATH=${FOUNDRY_DATA_PATH:-C:/foundryvttstorage/Data}
       - BOT_NAME=Casandalee
       - BOT_PREFIX=/cass
       - CAMPAIGN_YEAR=4717

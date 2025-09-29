@@ -7,12 +7,13 @@ A sophisticated Discord bot for D&D and Pathfinder campaigns, featuring natural 
 ### 🎲 **Core Functionality**
 - **Natural Language Processing** - Ask questions using `@Casandalee` mentions
 - **Dice Rolling** - Standard D&D notation with advantage/disadvantage
-- **Campaign Timeline** - Search through 350+ campaign events
+- **Campaign Timeline** - Search through 350+ campaign events with focused results
 - **Character Reincarnation** - Custom reincarnation table for sea-giant and sahuagin druids
 - **FoundryVTT Integration** - Connect to your FoundryVTT instance for table lookups
 - **Google Sheets Integration** - Real-time campaign data from Google Sheets
 - **Docker Support** - Easy deployment with Docker containers
 - **Log Management** - Automatic log rotation and cleanup
+- **Persistent Personality System** - 72 unique personalities with automatic switching
 
 ### 🗣️ **Natural Language Commands**
 - `@Casandalee when did Hellion die?` - Timeline lookups
@@ -30,6 +31,9 @@ A sophisticated Discord bot for D&D and Pathfinder campaigns, featuring natural 
 - `/refresh [type]` - Refresh data from Google Sheets
 - `/logs [action]` - Manage bot logs (status/cleanup)
 - `/date` - Get current campaign date (auto-updated from timeline)
+- `/today` - Show historical events for today's date
+- `/characters` - List available characters
+- `/daily-history` - Get daily history from timeline
 
 ### 🎭 **Personality System**
 Casandalee has 72 different personalities from her various lives, each with unique speaking styles and worldviews. She was unusual among androids in remembering fragments of all her past lives, stretching back to the Rain of Stars. Her journey includes:
@@ -42,8 +46,10 @@ Casandalee has 72 different personalities from her various lives, each with uniq
 - Final goddess form with divine wisdom
 
 **Personality Selection:**
-- Random roll 1-71: Embodies a specific past life personality
-- Random roll 72-100: Responds as the ascended goddess
+- **Automatic Switching**: Every 1d7 queries or hourly, Casandalee switches personalities
+- **Random roll 1-71**: Embodies a specific past life personality
+- **Random roll 72-100**: Responds as the ascended goddess
+- **Persistent System**: Players can ask "who are you right now?" or "what iteration is this?"
 - Each personality has detailed backstory, unique speaking style, and worldview
 - Memory fragments are not in chronological order
 - Oldest life: Cassandra (pilot of the Divinity, 7000 years ago)
@@ -61,6 +67,8 @@ Casandalee has 72 different personalities from her various lives, each with uniq
 - `docker-force-rebuild.bat` - Complete rebuild with space cleanup (use this for updates)
 - `start-docker.bat` - Start the bot
 - `stop-docker.bat` - Stop the bot
+- `start-local.bat` - Start bot locally (development)
+- `stop-local.bat` - Stop local bot
 
 ### Docker Commands
 - `docker-compose ps` - Check container status

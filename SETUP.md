@@ -12,7 +12,7 @@ copy env.example .env
 ### 2. Configure Your Bot Token
 Edit the `.env` file and update:
 ```
-DISCORD_TOKEN=REDACTED_DISCORD_TOKEN
+DISCORD_TOKEN=your_discord_bot_token_here
 ```
 
 ### 3. Get Your Discord Application ID

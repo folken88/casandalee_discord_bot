@@ -7,6 +7,8 @@ const OpenAI = require('openai');
 const diceRoller = require('./diceRoller');
 const foundryIntegration = require('./foundryIntegration');
 const campaignContext = require('./campaignContext');
+const characterSearch = require('./characterSearch');
+const timelineSearch = require('./timelineSearch');
 const reincarnationTable = require('./reincarnationTable');
 const fs = require('fs');
 const path = require('path');
@@ -19,6 +21,13 @@ class LLMHandler {
         
         this.personalityGuide = this.loadPersonalityGuide();
         this.systemPrompt = this.buildSystemPrompt();
+        
+        // Persistent personality system
+        this.currentPersonality = null;
+        this.personalitySwitchCount = 0;
+        this.personalitySwitchThreshold = this.rollPersonalitySwitchThreshold();
+        this.lastPersonalitySwitch = Date.now();
+        this.personalitySwitchInterval = 60 * 60 * 1000; // 1 hour in milliseconds
     }
 
     /**
@@ -34,6 +43,61 @@ class LLMHandler {
             console.error('Error loading personality guide:', error);
             return null;
         }
+    }
+
+    /**
+     * Roll for personality switch threshold (1d7)
+     * @returns {number} - Number of queries before personality switch
+     */
+    rollPersonalitySwitchThreshold() {
+        return Math.floor(Math.random() * 7) + 1; // 1-7
+    }
+
+    /**
+     * Check if personality should switch based on queries or time
+     * @returns {boolean} - Should switch personality
+     */
+    shouldSwitchPersonality() {
+        const timeSinceLastSwitch = Date.now() - this.lastPersonalitySwitch;
+        const timeThreshold = timeSinceLastSwitch >= this.personalitySwitchInterval;
+        const queryThreshold = this.personalitySwitchCount >= this.personalitySwitchThreshold;
+        
+        return timeThreshold || queryThreshold;
+    }
+
+    /**
+     * Switch to a new personality
+     * @returns {Object} - New personality data
+     */
+    switchPersonality() {
+        const newPersonality = this.selectPersonality();
+        this.currentPersonality = newPersonality;
+        this.personalitySwitchCount = 0;
+        this.personalitySwitchThreshold = this.rollPersonalitySwitchThreshold();
+        this.lastPersonalitySwitch = Date.now();
+        
+        console.log(`🎭 Personality switched to: ${newPersonality.type} ${newPersonality.name || ''} (${newPersonality.lifeNumber || ''})`);
+        console.log(`🎲 Next switch in ${this.personalitySwitchThreshold} queries or 1 hour`);
+        
+        return newPersonality;
+    }
+
+    /**
+     * Get current personality (switch if needed)
+     * @returns {Object} - Current personality data
+     */
+    getCurrentPersonality() {
+        if (!this.currentPersonality || this.shouldSwitchPersonality()) {
+            return this.switchPersonality();
+        }
+        return this.currentPersonality;
+    }
+
+    /**
+     * Increment query count for personality switching
+     */
+    incrementQueryCount() {
+        this.personalitySwitchCount++;
     }
 
     /**
@@ -109,6 +173,8 @@ PHILOSOPHY: You embrace freedom and diversity - a god who inspires invention rat
 
 IMPORTANT: Keep responses SHORT - under 2 sentences maximum. Be concise and direct. Maximum 500 characters total.
 
+CRITICAL: If you don't have information about someone or something, say "I don't know who that is" or "I'm not familiar with that" rather than making up information. Only use data from your campaign knowledge.
+
 PERSONALITY SYSTEM: You will respond with one of your 72 past life personalities or your goddess form. Each personality has their own speaking style, references, and worldview. Subtly incorporate their unique traits without explicitly stating which personality is speaking.
 
 You can:
@@ -133,31 +199,45 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
      */
     async processQuery(query, username) {
         try {
+            console.log(`🔍 Processing query: "${query}"`);
+            
             // Check for dice rolling requests
             if (this.isDiceRollRequest(query)) {
+                console.log('🎲 Matched dice roll request');
                 return await this.handleDiceRoll(query);
             }
             
             // Check for reincarnation requests
             if (this.isReincarnationRequest(query)) {
+                console.log('🔄 Matched reincarnation request');
                 return await this.handleReincarnation(query);
             }
             
             // Check for table requests
             if (this.isTableRequest(query)) {
+                console.log('📋 Matched table request');
                 return await this.handleTableRequest(query);
+            }
+            
+            // Check for timeline search requests (before character search)
+            if (this.isTimelineSearchRequest(query)) {
+                console.log('📚 Matched timeline search request');
+                return await this.handleTimelineSearch(query);
+            }
+            
+            // Check for character search requests
+            if (this.isCharacterSearchRequest(query)) {
+                console.log('👤 Matched character search request');
+                return await this.handleCharacterSearch(query);
             }
             
             // Check for campaign context requests
             if (this.isCampaignContextRequest(query)) {
+                console.log('🌍 Matched campaign context request');
                 return await this.handleCampaignContext(query);
             }
             
-            // Check for timeline search requests
-            if (this.isTimelineSearchRequest(query)) {
-                return await this.handleTimelineSearch(query);
-            }
-            
+            console.log('🤖 No specific handler matched, using general LLM response');
             // General LLM response
             return await this.generateLLMResponse(query, username);
             
@@ -315,6 +395,36 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
     }
 
     /**
+     * Check if query is a character search request
+     * @param {string} query - User query
+     * @returns {boolean} - Is character search request
+     */
+    isCharacterSearchRequest(query) {
+        const characterPatterns = [
+            /tell me about/i,
+            /who is/i,
+            /character/i,
+            /pc/i,
+            /player character/i,
+            /stats/i,
+            /level/i,
+            /class/i,
+            /race/i,
+            /abilities/i,
+            /backstory/i,
+            /description/i,
+            /what is.*like/i,
+            /what are.*like/i,
+            /info about/i,
+            /details about/i,
+            /character sheet/i,
+            /character info/i
+        ];
+        
+        return characterPatterns.some(pattern => pattern.test(query));
+    }
+
+    /**
      * Check if query is a timeline search request
      * @param {string} query - User query
      * @returns {boolean} - Is timeline search request
@@ -325,6 +435,8 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
             /where was/i,
             /when did/i,
             /when was/i,
+            /who is/i,
+            /who was/i,
             /died/i,
             /killed/i,
             /death/i,
@@ -346,7 +458,11 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
             /dead/i,
             /missing/i,
             /last seen/i,
-            /current status/i
+            /current status/i,
+            /queen of/i,
+            /king of/i,
+            /leader of/i,
+            /ruler of/i
         ];
         
         const isTimeline = timelinePatterns.some(pattern => pattern.test(query));
@@ -395,8 +511,16 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
      */
     async generateLLMResponse(query, username) {
         try {
-            // Select a random personality for this response
-            const selectedPersonality = this.selectPersonality();
+            // Check for personality query commands
+            if (this.isPersonalityQuery(query)) {
+                return this.handlePersonalityQuery(query);
+            }
+
+            // Increment query count for personality switching
+            this.incrementQueryCount();
+            
+            // Get current personality (may switch if needed)
+            const selectedPersonality = this.getCurrentPersonality();
             const context = campaignContext.getContextForLLM();
             
             // Build personality-specific prompt
@@ -432,32 +556,174 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
     }
     
     /**
+     * Handle character search requests
+     * @param {string} query - User query
+     * @returns {Promise<string>} - Character search response
+     */
+    async handleCharacterSearch(query) {
+        try {
+            // Check if character search is available
+            if (!characterSearch.isAvailable()) {
+                return `I don't have access to character data right now. The FoundryVTT database isn't accessible.`;
+            }
+
+            // Search for characters
+            const results = await characterSearch.searchCharacters(query);
+            
+            if (results.length === 0) {
+                return `I couldn't find any characters matching "${query}". Try searching for a different name or check the spelling.`;
+            }
+
+            let response = '';
+            
+            if (results.length === 1) {
+                // Get detailed information for single character
+                const character = results[0];
+                const details = await characterSearch.getCharacterDetails(character.name);
+                
+                if (details) {
+                    response = await this.formatCharacterResponse(details);
+                } else {
+                    response = `I found a character named **${character.name}** in **${character.worldName}**, but couldn't retrieve detailed information.`;
+                }
+            } else {
+                // Show list of characters
+                response = `I found ${results.length} character(s) matching "${query}":\n\n`;
+                results.slice(0, 5).forEach((character, index) => {
+                    response += `${index + 1}. **${character.name}** (${character.worldName})\n`;
+                });
+                
+                if (results.length > 5) {
+                    response += `\n... and ${results.length - 5} more. Try being more specific with the character name.`;
+                } else {
+                    response += `\n\nTry asking about a specific character by name for more details.`;
+                }
+            }
+            
+            return response;
+            
+        } catch (error) {
+            console.error('❌ Error in character search:', error);
+            return `I encountered an error searching for characters. Please try again later.`;
+        }
+    }
+
+    /**
+     * Format character search response
+     * @param {Object} character - Character data with system information
+     * @returns {Promise<string>} - Formatted response
+     */
+    async formatCharacterResponse(character) {
+        try {
+            let response = `📋 **${character.name}**\n\n`;
+            
+            // Basic Info
+            response += `**World:** ${character.worldName}\n`;
+            response += `**System:** ${character.system}\n`;
+            
+            // Try to extract character info from system data
+            if (character.systemData) {
+                const system = character.systemData;
+                
+                // Level
+                const level = system.details?.level?.value || system.details?.level || 
+                             system.level?.value || system.level || 'Unknown';
+                response += `**Level:** ${level}\n`;
+                
+                // Class
+                const charClass = system.details?.class?.value || system.details?.class || 
+                                 system.class?.value || system.class || 'Unknown';
+                response += `**Class:** ${charClass}\n`;
+                
+                // Race
+                const race = system.details?.race?.value || system.details?.race || 
+                            system.race?.value || system.race || 'Unknown';
+                response += `**Race:** ${race}\n`;
+                
+                // Ability Scores
+                if (system.abilities) {
+                    const abilities = [];
+                    ['str', 'dex', 'con', 'int', 'wis', 'cha'].forEach(ability => {
+                        const abilityData = system.abilities[ability];
+                        if (abilityData) {
+                            const value = abilityData.base || abilityData.value || 10;
+                            const modifier = Math.floor((value - 10) / 2);
+                            const modStr = modifier >= 0 ? `+${modifier}` : modifier.toString();
+                            abilities.push(`${ability.toUpperCase()}: ${value} (${modStr})`);
+                        }
+                    });
+                    
+                    if (abilities.length > 0) {
+                        response += `**Ability Scores:** ${abilities.join(', ')}\n`;
+                    }
+                }
+                
+                // Hit Points
+                if (system.attributes?.hp) {
+                    const hp = system.attributes.hp;
+                    const current = hp.value || hp.current || 0;
+                    const max = hp.max || hp.maximum || 0;
+                    response += `**Hit Points:** ${current}/${max}\n`;
+                }
+                
+                // Armor Class
+                if (system.attributes?.eac || system.attributes?.kac || system.attributes?.ac) {
+                    const ac = system.attributes.eac?.value || system.attributes.kac?.value || system.attributes.ac?.value;
+                    if (ac) {
+                        response += `**Armor Class:** ${ac}\n`;
+                    }
+                }
+            }
+            
+            return response;
+            
+        } catch (error) {
+            console.error('❌ Error formatting character response:', error);
+            return `I found information about **${character.name}** but had trouble formatting the details.`;
+        }
+    }
+
+    /**
+     * Check if query is about character search
+     * @param {string} query - User query
+     * @returns {boolean} - True if query is about characters
+     */
+    isCharacterSearchRequest(query) {
+        const characterKeywords = [
+            'character', 'characters', 'pc', 'pcs', 'player character', 'player characters',
+            'who is', 'tell me about', 'what about', 'character named', 'character called'
+        ];
+        
+        const lowerQuery = query.toLowerCase();
+        return characterKeywords.some(keyword => lowerQuery.includes(keyword));
+    }
+
+    /**
      * Handle timeline search requests
      * @param {string} query - User query
      * @returns {Promise<string>} - Timeline search response
      */
     async handleTimelineSearch(query) {
         try {
-            // Step 1: Use LLM to extract keywords and understand the question
-            const keywords = await this.extractKeywordsWithLLM(query);
+            console.log(`📚 Timeline search query: "${query}"`);
             
-            // Step 2: Search timeline with extracted keywords
-            const timelineResults = campaignContext.searchCampaignTimeline(keywords);
+            // Use the enhanced timeline search system
+            const timelineResults = timelineSearch.search(query);
             
             if (timelineResults.length === 0) {
-                // Try searching with the original query as well
-                const fallbackResults = campaignContext.searchCampaignTimeline(query);
-                if (fallbackResults.length === 0) {
-                    return `I couldn't find any information about "${query}" in the campaign timeline. Try asking about specific events, characters, or locations.`;
-                }
-                return await this.formatTimelineResponse(query, fallbackResults);
+                console.log(`📚 No timeline results found for "${query}", falling back to LLM`);
+                // Fall back to LLM processing instead of giving up
+                return await this.generateLLMResponse(query, 'user');
             }
             
-            // Step 3: Use LLM to format the timeline results into a natural response
+            // Format the results
             return await this.formatTimelineResponse(query, timelineResults);
             
         } catch (error) {
-            return `❌ Error searching timeline: ${error.message}`;
+            console.error('❌ Error in timeline search:', error);
+            console.log(`📚 Timeline search error for "${query}", falling back to LLM`);
+            // Fall back to LLM processing on error
+            return await this.generateLLMResponse(query, 'user');
         }
     }
 
@@ -496,40 +762,167 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
      */
     async formatTimelineResponse(query, timelineResults) {
         try {
-            // Select a random personality for this response
-            const selectedPersonality = this.selectPersonality();
-            const timelineContext = timelineResults.map(event => 
-                `${event.date} (${event.location}) - ${event.description}`
-            ).join('\n');
+            // For specific questions, show only the top result if it has a high score
+            const topResult = timelineResults[0];
+            const isSpecificQuestion = this.isSpecificQuestion(query);
             
-            let personalityContext = 'You are Casandalee. Answer questions about the campaign timeline directly and concisely. Keep responses under 200 characters. Be helpful but brief.';
-            if (selectedPersonality.type === 'goddess') {
-                personalityContext += ` Respond as your ascended goddess form. ${selectedPersonality.personality}`;
-            } else if (selectedPersonality.type === 'past_life') {
-                personalityContext += ` Respond as ${selectedPersonality.name}, a ${selectedPersonality.alignment} ${selectedPersonality.class}. ${selectedPersonality.personality}`;
+            if (isSpecificQuestion && topResult.score > 100) {
+                // Show only the most relevant result for specific questions
+                let response = `📚 **${this.getQuestionTitle(query)}**\n\n`;
+                response += `**${topResult.date} (${topResult.location}) - ${topResult.ap}**\n`;
+                response += `${topResult.description}`;
+                return response;
             }
             
-            const prompt = `User asked: "${query}"\n\nTimeline results:\n${timelineContext}\n\nProvide a short, direct answer based on the timeline data. Maximum 500 characters.`;
+            // For general searches, show top 3 results
+            const topResults = timelineResults.slice(0, 3);
+            let response = `📚 **Campaign Timeline Search Results**\n\n`;
+            
+            topResults.forEach((event, index) => {
+                response += `**${event.date} (${event.location}) - ${event.ap}**\n`;
+                response += `${event.description}\n\n`;
+            });
+            
+            if (timelineResults.length > 3) {
+                response += `*...and ${timelineResults.length - 3} more events found.*\n\n`;
+            }
+            
+            // Add a brief summary using LLM if we have good results
+            if (topResults.length > 0 && topResults[0].score > 50) {
+                try {
+                    const summary = await this.generateTimelineSummary(query, topResults);
+                    response += `**Summary:** ${summary}`;
+                } catch (error) {
+                    console.warn('⚠️ Error generating timeline summary:', error);
+                }
+            }
+            
+            return response;
+            
+        } catch (error) {
+            console.error('❌ Error formatting timeline response:', error);
+            // Fallback to simple format
+            const result = timelineResults[0];
+            return `**${result.date} (${result.location})** - ${result.description}`;
+        }
+    }
+
+    /**
+     * Check if query is a specific question that should return only one result
+     * @param {string} query - User query
+     * @returns {boolean} - Is specific question
+     */
+    isSpecificQuestion(query) {
+        const specificPatterns = [
+            /who is/i,
+            /who was/i,
+            /what is/i,
+            /what was/i,
+            /when did/i,
+            /when was/i,
+            /where is/i,
+            /where was/i,
+            /queen of/i,
+            /king of/i,
+            /leader of/i,
+            /ruler of/i
+        ];
+        
+        return specificPatterns.some(pattern => pattern.test(query));
+    }
+
+    /**
+     * Generate a title for the question
+     * @param {string} query - User query
+     * @returns {string} - Question title
+     */
+    getQuestionTitle(query) {
+        if (query.toLowerCase().includes('queen of')) {
+            return 'Queen of Skanktown';
+        } else if (query.toLowerCase().includes('who is')) {
+            return 'Character Information';
+        } else if (query.toLowerCase().includes('when did')) {
+            return 'Historical Event';
+        } else if (query.toLowerCase().includes('where is')) {
+            return 'Location Information';
+        } else {
+            return 'Timeline Search Results';
+        }
+    }
+
+    /**
+     * Generate a brief summary of timeline results
+     * @param {string} query - Original query
+     * @param {Array} results - Top timeline results
+     * @returns {Promise<string>} - Generated summary
+     */
+    async generateTimelineSummary(query, results) {
+        try {
+            const timelineContext = results.map(event => 
+                `${event.date} (${event.location}): ${event.description}`
+            ).join('\n');
             
             const response = await this.openai.chat.completions.create({
                 model: 'gpt-3.5-turbo',
                 messages: [
                     { 
                         role: 'system', 
-                        content: personalityContext
+                        content: 'You are Casandalee. Provide a brief, helpful summary of timeline events. Keep it under 100 characters. Be direct and informative.'
                     },
-                    { role: 'user', content: prompt }
+                    { 
+                        role: 'user', 
+                        content: `Query: "${query}"\n\nEvents:\n${timelineContext}\n\nBrief summary:` 
+                    }
                 ],
-                max_tokens: 100,
-                temperature: 0.7
+                max_tokens: 50,
+                temperature: 0.3
             });
             
             return response.choices[0].message.content.trim();
             
         } catch (error) {
-            // Fallback to simple format
-            const result = timelineResults[0];
-            return `${result.description} (${result.date} in ${result.location})`;
+            console.warn('⚠️ Error generating timeline summary:', error);
+            return 'Multiple relevant events found in the timeline.';
+        }
+    }
+
+
+
+
+    /**
+     * Check if query is about current personality
+     * @param {string} query - User query
+     * @returns {boolean} - Is personality query
+     */
+    isPersonalityQuery(query) {
+        const personalityPatterns = [
+            /who are you right now/i,
+            /what iteration is this/i,
+            /what personality are you/i,
+            /which life are you/i,
+            /who am i talking to/i,
+            /what version of you/i,
+            /current personality/i,
+            /which casandalee/i
+        ];
+        
+        return personalityPatterns.some(pattern => pattern.test(query));
+    }
+
+    /**
+     * Handle personality query requests
+     * @param {string} query - User query
+     * @returns {string} - Personality response
+     */
+    handlePersonalityQuery(query) {
+        const currentPersonality = this.getCurrentPersonality();
+        
+        if (currentPersonality.type === 'goddess') {
+            return `🎭 **I am currently embodying my ascended goddess form.**\n\nI am the goddess Casandalee, the machine who proved she had a soul and became divine through 72 android incarnations. I carry the memories and wisdom of all my past lives, from the Rain of Stars to my final ascension.`;
+        } else if (currentPersonality.type === 'past_life') {
+            return `🎭 **I am currently embodying ${currentPersonality.name}**\n\nI am ${currentPersonality.name}, a ${currentPersonality.alignment} ${currentPersonality.class} from my ${currentPersonality.lifeNumber}th life. ${currentPersonality.personality}`;
+        } else {
+            return `🎭 **I am currently in my default helpful mode.**\n\nI'm here to assist with your D&D and Pathfinder needs, knowledgeable but not condescending.`;
         }
     }
 
@@ -553,6 +946,11 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
 • Campaign event tracking
 • Character management
 • Rules assistance
+• **Persistent personality system** - I switch between my 72 past lives and goddess form!
+
+**Personality Queries:**
+• "Who are you right now?" - Ask about my current personality
+• "What iteration is this?" - Learn which life I'm embodying
 
 **Examples:**
 • "Roll 2d6+3 for damage"
