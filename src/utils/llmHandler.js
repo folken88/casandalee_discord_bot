@@ -430,35 +430,44 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
      * @returns {boolean} - Is timeline search request
      */
     isTimelineSearchRequest(query) {
+        // First, check for queries that should go to LLM instead of timeline
+        const llmPatterns = [
+            /how is.*doing/i,
+            /how are.*doing/i,
+            /what's.*status/i,
+            /current status/i,
+            /doing well/i,
+            /alive/i,
+            /missing/i,
+            /last seen/i
+        ];
+        
+        if (llmPatterns.some(pattern => pattern.test(query))) {
+            console.log(`Query "${query}" should go to LLM, not timeline search`);
+            return false;
+        }
+        
+        // Timeline search patterns - be more specific
         const timelinePatterns = [
-            /where is/i,
-            /where was/i,
-            /when did/i,
-            /when was/i,
-            /who is/i,
-            /who was/i,
+            /when did.*die/i,
+            /when was.*killed/i,
+            /when did.*happen/i,
+            /when was.*born/i,
+            /where is.*located/i,
+            /where was.*found/i,
+            /who is.*queen/i,
+            /who is.*king/i,
+            /who is.*leader/i,
+            /who is.*ruler/i,
             /died/i,
             /killed/i,
             /death/i,
             /location/i,
-            /find/i,
+            /find.*in/i,
             /happened to/i,
             /first seen/i,
             /first appeared/i,
             /discovered/i,
-            /how is/i,
-            /how was/i,
-            /what happened to/i,
-            /what's happening with/i,
-            /status of/i,
-            /condition of/i,
-            /doing/i,
-            /doing well/i,
-            /alive/i,
-            /dead/i,
-            /missing/i,
-            /last seen/i,
-            /current status/i,
             /queen of/i,
             /king of/i,
             /leader of/i,
@@ -467,7 +476,6 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
         
         const isTimeline = timelinePatterns.some(pattern => pattern.test(query));
         console.log(`Timeline search check for "${query}": ${isTimeline}`);
-        console.log(`Pattern matches:`, timelinePatterns.map(pattern => ({ pattern: pattern.toString(), matches: pattern.test(query) })));
         return isTimeline;
     }
     
@@ -516,6 +524,24 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
                 return this.handlePersonalityQuery(query);
             }
 
+            // Check if this is a character status question that needs timeline data
+            const isCharacterStatusQuery = /how is.*doing|how are.*doing|what's.*status|current status/i.test(query);
+            
+            if (isCharacterStatusQuery) {
+                // Get timeline data for the character
+                const characterName = this.extractCharacterName(query);
+                if (characterName) {
+                    console.log(`🔍 Character status query for "${characterName}", searching timeline...`);
+                    const timelineResults = timelineSearch.search(characterName);
+                    
+                    if (timelineResults.length > 0) {
+                        console.log(`📚 Found ${timelineResults.length} timeline events for ${characterName}`);
+                        // Use smart timeline analysis for character status
+                        return await this.generateSmartTimelineResponse(query, timelineResults);
+                    }
+                }
+            }
+
             // Increment query count for personality switching
             this.incrementQueryCount();
             
@@ -555,6 +581,31 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
         }
     }
     
+    /**
+     * Extract character name from query
+     * @param {string} query - User query
+     * @returns {string|null} - Extracted character name
+     */
+    extractCharacterName(query) {
+        // Common patterns for character status queries
+        const patterns = [
+            /how is (\w+)/i,
+            /how are (\w+)/i,
+            /what's (\w+)'s status/i,
+            /(\w+)'s status/i,
+            /status of (\w+)/i
+        ];
+        
+        for (const pattern of patterns) {
+            const match = query.match(pattern);
+            if (match && match[1]) {
+                return match[1];
+            }
+        }
+        
+        return null;
+    }
+
     /**
      * Handle character search requests
      * @param {string} query - User query
@@ -716,6 +767,19 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
                 return await this.generateLLMResponse(query, 'user');
             }
             
+            // Check if we have high-quality results
+            const topResult = timelineResults[0];
+            const isHighQuality = topResult.score > 50;
+            
+            // For death-related queries, be extra smart
+            const isDeathQuery = /died|killed|death|dead/i.test(query);
+            
+            if (isDeathQuery && !isHighQuality) {
+                console.log(`📚 Death query with low-quality results, using LLM to analyze timeline data`);
+                // Use LLM to analyze the timeline results and give a smart answer
+                return await this.generateSmartTimelineResponse(query, timelineResults);
+            }
+            
             // Format the results
             return await this.formatTimelineResponse(query, timelineResults);
             
@@ -723,6 +787,46 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
             console.error('❌ Error in timeline search:', error);
             console.log(`📚 Timeline search error for "${query}", falling back to LLM`);
             // Fall back to LLM processing on error
+            return await this.generateLLMResponse(query, 'user');
+        }
+    }
+
+    /**
+     * Generate smart timeline response using LLM analysis
+     * @param {string} query - User query
+     * @param {Array} timelineResults - Timeline search results
+     * @returns {Promise<string>} - Smart response
+     */
+    async generateSmartTimelineResponse(query, timelineResults) {
+        try {
+            // Prepare timeline context for LLM
+            const timelineContext = timelineResults.slice(0, 10).map(event => 
+                `${event.date} (${event.location}) - ${event.description}`
+            ).join('\n');
+            
+            const response = await this.openai.chat.completions.create({
+                model: 'gpt-4',
+                messages: [
+                    { 
+                        role: 'system', 
+                        content: `You are Casandalee, an AI with access to campaign timeline data. Analyze the timeline events below and answer the user's question intelligently. If the answer isn't clear from the timeline, say so. Focus on the most relevant information and be specific about dates and locations.
+
+Timeline Events:
+${timelineContext}
+
+Answer the user's question based on this timeline data. Be helpful and specific.` 
+                    },
+                    { role: 'user', content: query }
+                ],
+                max_tokens: 300,
+                temperature: 0.3
+            });
+            
+            return response.choices[0].message.content;
+            
+        } catch (error) {
+            console.error('❌ Error in smart timeline response:', error);
+            // Fallback to regular LLM response
             return await this.generateLLMResponse(query, 'user');
         }
     }
@@ -762,20 +866,31 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
      */
     async formatTimelineResponse(query, timelineResults) {
         try {
-            // For specific questions, show only the top result if it has a high score
+            // Always show only the most relevant result for focused answers
             const topResult = timelineResults[0];
-            const isSpecificQuestion = this.isSpecificQuestion(query);
             
-            if (isSpecificQuestion && topResult.score > 100) {
-                // Show only the most relevant result for specific questions
+            // Check if this is a death-related query
+            const isDeathQuery = /died|killed|death|dead/i.test(query);
+            
+            if (isDeathQuery && topResult.score > 50) {
+                // For death queries, show only the most relevant result
                 let response = `📚 **${this.getQuestionTitle(query)}**\n\n`;
                 response += `**${topResult.date} (${topResult.location}) - ${topResult.ap}**\n`;
                 response += `${topResult.description}`;
                 return response;
             }
             
-            // For general searches, show top 3 results
-            const topResults = timelineResults.slice(0, 3);
+            // For other specific questions, show only top result if high quality
+            const isSpecificQuestion = this.isSpecificQuestion(query);
+            if (isSpecificQuestion && topResult.score > 100) {
+                let response = `📚 **${this.getQuestionTitle(query)}**\n\n`;
+                response += `**${topResult.date} (${topResult.location}) - ${topResult.ap}**\n`;
+                response += `${topResult.description}`;
+                return response;
+            }
+            
+            // For general searches, show top 2 results maximum
+            const topResults = timelineResults.slice(0, 2);
             let response = `📚 **Campaign Timeline Search Results**\n\n`;
             
             topResults.forEach((event, index) => {
@@ -783,18 +898,8 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
                 response += `${event.description}\n\n`;
             });
             
-            if (timelineResults.length > 3) {
-                response += `*...and ${timelineResults.length - 3} more events found.*\n\n`;
-            }
-            
-            // Add a brief summary using LLM if we have good results
-            if (topResults.length > 0 && topResults[0].score > 50) {
-                try {
-                    const summary = await this.generateTimelineSummary(query, topResults);
-                    response += `**Summary:** ${summary}`;
-                } catch (error) {
-                    console.warn('⚠️ Error generating timeline summary:', error);
-                }
+            if (timelineResults.length > 2) {
+                response += `*...and ${timelineResults.length - 2} more events found.*\n\n`;
             }
             
             return response;

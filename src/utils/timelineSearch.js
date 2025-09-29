@@ -179,13 +179,13 @@ class TimelineSearch {
             
             logger.info(`Timeline search: year=${targetYear}, location=${locationMatch}, keywords=[${keywords.join(', ')}]`);
             
-            // Filter and score results
-            const results = this.timeline.map(event => {
-                const score = this.calculateRelevanceScore(event, targetYear, locationMatch, keywords);
-                return { ...event, score };
-            })
-            .filter(event => event.score > 0)
-            .sort((a, b) => b.score - a.score);
+        // Filter and score results
+        const results = this.timeline.map(event => {
+            const score = this.calculateRelevanceScore(event, targetYear, locationMatch, keywords);
+            return { ...event, score };
+        })
+        .filter(event => event.score > 5) // Balanced filtering - allow more relevant results
+        .sort((a, b) => b.score - a.score);
             
             logger.info(`Found ${results.length} relevant timeline events`);
             return results;
@@ -265,6 +265,13 @@ class TimelineSearch {
             word.length > 2 && !stopWords.includes(word) && !word.match(/^\d+$/)
         ).map(word => word.replace(/[?!.,]/g, '')); // Remove punctuation
         
+        // Add death-related keywords if the query is about death
+        const deathQuery = /died|killed|death|dead/i.test(query);
+        if (deathQuery) {
+            // Add common death-related terms to help with scoring
+            words.push('died', 'killed', 'death', 'dead');
+        }
+        
         return words;
     }
 
@@ -316,6 +323,15 @@ class TimelineSearch {
             const queryPhraseWithOf = keywords.join(' of ');
             if (eventText.includes(queryPhraseWithOf)) {
                 score += 200; // Very high score for exact phrase match with "of"
+            }
+            
+            // Special scoring for death-related events
+            const deathKeywords = ['died', 'killed', 'death', 'dead', 'slain', 'murdered', 'executed'];
+            const hasDeathKeywords = deathKeywords.some(deathWord => eventText.includes(deathWord));
+            const hasCharacterName = keywords.some(keyword => eventText.includes(keyword));
+            
+            if (hasDeathKeywords && hasCharacterName) {
+                score += 150; // Very high score for death events involving the character
             }
             
             // Check for individual keyword matches

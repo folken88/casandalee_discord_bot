@@ -5,18 +5,21 @@ A sophisticated Discord bot for D&D and Pathfinder campaigns, featuring natural 
 ## Features
 
 ### 🎲 **Core Functionality**
-- **Natural Language Processing** - Ask questions using `@Casandalee` mentions
+- **Smart Natural Language Processing** - Intelligent query routing and analysis
 - **Dice Rolling** - Standard D&D notation with advantage/disadvantage
-- **Campaign Timeline** - Search through 350+ campaign events with focused results
+- **Campaign Timeline** - Search through 350+ campaign events with focused, relevant results
 - **Character Reincarnation** - Custom reincarnation table for sea-giant and sahuagin druids
 - **FoundryVTT Integration** - Connect to your FoundryVTT instance for table lookups
 - **Google Sheets Integration** - Real-time campaign data from Google Sheets
 - **Docker Support** - Easy deployment with Docker containers
 - **Log Management** - Automatic log rotation and cleanup
 - **Persistent Personality System** - 72 unique personalities with automatic switching
+- **Smart Character Status** - Intelligent analysis of character conditions and timeline events
 
 ### 🗣️ **Natural Language Commands**
-- `@Casandalee when did Hellion die?` - Timeline lookups
+- `@Casandalee when did Hellion die?` - Smart timeline lookups with focused results
+- `@Casandalee how is Hellion doing?` - Intelligent character status analysis
+- `@Casandalee who is the queen of skanktown?` - Specific character/location queries
 - `@Casandalee reincarnate Bob` - Character reincarnation
 - `@Casandalee roll a d20` - Dice rolling
 - `@Casandalee what's the campaign year?` - Campaign information
@@ -60,6 +63,26 @@ Casandalee has 72 different personalities from her various lives, each with uniq
 - **Cassrilyn (40)**: Tinker who created living clockwork animals as her children
 - **Cassithra (27)**: Inquisitor who killed herself in despair over her cruelty
 - **Casandalee (2)**: Final life who betrayed Unity and ascended to godhood
+
+### 🧠 **Smart Intelligence Features**
+Casandalee now features advanced AI intelligence for better responses:
+
+**Smart Query Routing:**
+- **Character Status Queries**: "How is X doing?" automatically searches timeline and analyzes character status
+- **Death Queries**: "When did X die?" finds the most relevant death events with focused results
+- **Specific Questions**: "Who is the queen of skanktown?" returns focused, single-result answers
+- **Timeline Integration**: All queries can access campaign timeline data for context
+
+**Intelligent Analysis:**
+- **Multi-layer Fallbacks**: Timeline search → Smart LLM analysis → General LLM response
+- **Quality Assessment**: Bot evaluates result relevance and uses appropriate response method
+- **Character Name Extraction**: Automatically identifies character names in status queries
+- **Focused Results**: Shows only the most relevant information, avoiding irrelevant clutter
+
+**Enhanced Scoring:**
+- **Death Event Priority**: Death-related events get higher scores for character queries
+- **Exact Phrase Matching**: Better matching for specific questions like "queen of skanktown"
+- **Balanced Filtering**: Smart relevance scoring ensures quality results without being too restrictive
 
 ## Docker Management
 
