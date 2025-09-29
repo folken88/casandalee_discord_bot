@@ -9,6 +9,7 @@ const foundryIntegration = require('./foundryIntegration');
 const campaignContext = require('./campaignContext');
 const characterSearch = require('./characterSearch');
 const timelineSearch = require('./timelineSearch');
+const actorIndex = require('./actorIndex');
 const reincarnationTable = require('./reincarnationTable');
 const fs = require('fs');
 const path = require('path');
@@ -524,19 +525,31 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
                 return this.handlePersonalityQuery(query);
             }
 
-            // Check if this is a character status question that needs timeline data
-            const isCharacterStatusQuery = /how is.*doing|how are.*doing|what's.*status|current status/i.test(query);
+            // Check if this is a character-related query
+            const isCharacterQuery = this.isCharacterRelatedQuery(query);
             
-            if (isCharacterStatusQuery) {
-                // Get timeline data for the character
-                const characterName = this.extractCharacterName(query);
+            if (isCharacterQuery) {
+                const characterName = this.extractCharacterNameFromQuery(query);
                 if (characterName) {
-                    console.log(`🔍 Character status query for "${characterName}", searching timeline...`);
+                    console.log(`🔍 Character query detected for "${characterName}"`);
+                    
+                    // First try actor index (FoundryVTT data)
+                    if (actorIndex.isAvailable()) {
+                        console.log(`🎭 Searching actor index for "${characterName}"...`);
+                        const actorInfo = await actorIndex.getActorInfo(characterName);
+                        
+                        if (actorInfo) {
+                            console.log(`✅ Found actor data for "${characterName}" in FoundryVTT`);
+                            return await this.generateActorResponse(query, actorInfo);
+                        }
+                    }
+                    
+                    // Fallback to timeline search
+                    console.log(`📚 Searching timeline for "${characterName}"...`);
                     const timelineResults = timelineSearch.search(characterName);
                     
                     if (timelineResults.length > 0) {
                         console.log(`📚 Found ${timelineResults.length} timeline events for ${characterName}`);
-                        // Use smart timeline analysis for character status
                         return await this.generateSmartTimelineResponse(query, timelineResults);
                     }
                 }
@@ -582,18 +595,57 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
     }
     
     /**
-     * Extract character name from query
+     * Check if query is character-related
+     * @param {string} query - User query
+     * @returns {boolean} - Is character-related query
+     */
+    isCharacterRelatedQuery(query) {
+        const characterPatterns = [
+            /how is \w+/i,
+            /how are \w+/i,
+            /what's \w+'s/i,
+            /\w+'s status/i,
+            /status of \w+/i,
+            /is \w+ (dead|alive|doing)/i,
+            /\w+ is (dead|alive)/i,
+            /where is \w+/i,
+            /who is \w+/i,
+            /tell me about \w+/i,
+            /what do you know about \w+/i,
+            /what can you tell me about \w+/i,
+            /\w+ (has|possesses|owns)/i,
+            /\w+ (spells|abilities|inventory|stats)/i,
+            /about \w+/i,
+            /know about \w+/i
+        ];
+        
+        return characterPatterns.some(pattern => pattern.test(query));
+    }
+
+    /**
+     * Extract character name from query (broader patterns)
      * @param {string} query - User query
      * @returns {string|null} - Extracted character name
      */
-    extractCharacterName(query) {
-        // Common patterns for character status queries
+    extractCharacterNameFromQuery(query) {
+        // Common patterns for character queries
         const patterns = [
             /how is (\w+)/i,
             /how are (\w+)/i,
-            /what's (\w+)'s status/i,
+            /what's (\w+)'s/i,
             /(\w+)'s status/i,
-            /status of (\w+)/i
+            /status of (\w+)/i,
+            /is (\w+) (dead|alive|doing)/i,
+            /(\w+) is (dead|alive)/i,
+            /where is (\w+)/i,
+            /who is (\w+)/i,
+            /tell me about (\w+)/i,
+            /what do you know about (\w+)/i,
+            /what can you tell me about (\w+)/i,
+            /about (\w+)/i,
+            /know about (\w+)/i,
+            /(\w+) (has|possesses|owns)/i,
+            /(\w+) (spells|abilities|inventory|stats)/i
         ];
         
         for (const pattern of patterns) {
@@ -604,6 +656,60 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
         }
         
         return null;
+    }
+
+    /**
+     * Extract character name from query (legacy method)
+     * @param {string} query - User query
+     * @returns {string|null} - Extracted character name
+     */
+    extractCharacterName(query) {
+        return this.extractCharacterNameFromQuery(query);
+    }
+
+    /**
+     * Generate actor response using LLM analysis
+     * @param {string} query - User query
+     * @param {Object} actorInfo - Actor information from FoundryVTT
+     * @returns {Promise<string>} - Smart response
+     */
+    async generateActorResponse(query, actorInfo) {
+        try {
+            // Prepare actor context for LLM
+            const actorContext = `Character: ${actorInfo.name} (${actorInfo.world})
+Type: ${actorInfo.type}
+System: ${actorInfo.system}
+
+Stats: ${JSON.stringify(actorInfo.stats, null, 2)}
+Inventory: ${JSON.stringify(actorInfo.inventory.slice(0, 5), null, 2)}
+Spells: ${JSON.stringify(actorInfo.spells.slice(0, 5), null, 2)}
+Abilities: ${JSON.stringify(actorInfo.abilities.slice(0, 5), null, 2)}`;
+            
+            const response = await this.openai.chat.completions.create({
+                model: 'gpt-4',
+                messages: [
+                    { 
+                        role: 'system', 
+                        content: `You are Casandalee, an AI with access to character data from FoundryVTT. Analyze the character information below and answer the user's question intelligently. Be specific about the character's status, abilities, and condition.
+
+Character Data:
+${actorContext}
+
+Answer the user's question based on this character data. Be helpful and specific about their current condition and abilities.` 
+                    },
+                    { role: 'user', content: query }
+                ],
+                max_tokens: 300,
+                temperature: 0.3
+            });
+            
+            return response.choices[0].message.content;
+            
+        } catch (error) {
+            console.error('❌ Error in actor response:', error);
+            // Fallback to simple format
+            return `I found information about **${actorInfo.name}** from ${actorInfo.world}:\n\n**Stats:** Level ${actorInfo.stats.level} ${actorInfo.stats.class} (${actorInfo.stats.race})\n**Hit Points:** ${actorInfo.stats.hitPoints}\n**Armor Class:** ${actorInfo.stats.armorClass}`;
+        }
     }
 
     /**
