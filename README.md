@@ -10,7 +10,6 @@ A sophisticated Discord bot for D&D and Pathfinder campaigns, featuring natural 
 - **Campaign Timeline** - Search through 350+ campaign events with focused, relevant results
 - **Character Reincarnation** - Custom reincarnation table for sea-giant and sahuagin druids
 - **FoundryVTT Integration** - Connect to your FoundryVTT instance for table lookups
-- **Smart Actor Index System** - Lightweight, efficient access to FoundryVTT character data
 - **Google Sheets Integration** - Real-time campaign data from Google Sheets
 - **Docker Support** - Easy deployment with Docker containers
 - **Log Management** - Automatic log rotation and cleanup
@@ -21,8 +20,8 @@ A sophisticated Discord bot for D&D and Pathfinder campaigns, featuring natural 
 - `@Casandalee when did Hellion die?` - Smart timeline lookups with focused results
 - `@Casandalee how is Hellion doing?` - Intelligent character status analysis
 - `@Casandalee who is the queen of skanktown?` - Specific character/location queries
-- `@Casandalee is Vorkstag dead or alive?` - Character status queries using FoundryVTT data
-- `@Casandalee what spells does Tokala have?` - Character abilities and inventory
+- `@Casandalee is Vorkstag dead or alive?` - Character status queries using timeline data
+- `@Casandalee what spells does Tokala have?` - Character abilities and timeline events
 - `@Casandalee reincarnate Bob` - Character reincarnation
 - `@Casandalee roll a d20` - Dice rolling
 - `@Casandalee what's the campaign year?` - Campaign information
@@ -40,8 +39,6 @@ A sophisticated Discord bot for D&D and Pathfinder campaigns, featuring natural 
 - `/today` - Show historical events for today's date
 - `/characters` - List available characters
 - `/daily-history` - Get daily history from timeline
-- `/build-actor-index` - Build lightweight index of FoundryVTT PC characters
-- `/actor name:CharacterName info:basic|stats|inventory|spells|abilities|all` - Query character data
 
 ### 🎭 **Personality System**
 Casandalee has 72 different personalities from her various lives, each with unique speaking styles and worldviews. She was unusual among androids in remembering fragments of all her past lives, stretching back to the Rain of Stars. Her journey includes:
@@ -89,13 +86,6 @@ Casandalee now features advanced AI intelligence for better responses:
 - **Exact Phrase Matching**: Better matching for specific questions like "queen of skanktown"
 - **Balanced Filtering**: Smart relevance scoring ensures quality results without being too restrictive
 
-**Smart Actor Index System:**
-- **Lightweight Index**: Simple text file mapping ActorName|World|DbPath for fast lookups
-- **On-Demand Retrieval**: Only fetches character data when needed, no memory bloat
-- **FoundryVTT Integration**: Direct access to PC character data (stats, inventory, spells, abilities)
-- **Multi-World Support**: Scans all FoundryVTT worlds for character actors
-- **PC Characters Only**: Filters out NPCs to focus on player characters
-- **Read-Only Access**: Safe Docker integration with FoundryVTT data directories
 
 ## Docker Management
 
@@ -105,7 +95,6 @@ Casandalee now features advanced AI intelligence for better responses:
 - `stop-docker.bat` - Stop the bot
 - `start-local.bat` - Start bot locally (development)
 - `stop-local.bat` - Stop local bot
-- `setup-foundry-access.bat` - Configure FoundryVTT data access for Docker
 
 ### Docker Commands
 - `docker-compose ps` - Check container status
@@ -200,7 +189,6 @@ Casandalee now features advanced AI intelligence for better responses:
 | `FOUNDRY_URL` | FoundryVTT instance URL | No |
 | `FOUNDRY_USER` | FoundryVTT username | No |
 | `FOUNDRY_PASSWORD` | FoundryVTT password | No |
-| `FOUNDRY_DATA_PATH` | Path to FoundryVTT data directory (for actor index) | No |
 | `CAMPAIGN_YEAR` | Current campaign year | No |
 | `CAMPAIGN_MONTH` | Current campaign month | No |
 | `GOOGLE_SHEETS_API_KEY` | Google Sheets API key | No |

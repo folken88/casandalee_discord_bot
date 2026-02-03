@@ -8,7 +8,6 @@ services:
       - ./.env:/app/.env
       - ./data:/app/data
       # Read-only access to FoundryVTT data directory
-      - ${FOUNDRY_DATA_PATH:-C:/foundryvttstorage}:/foundry/data:ro
     logging:
       driver: "json-file"
       options:
@@ -24,7 +23,6 @@ services:
       - GOOGLE_SHEETS_TIMELINE_RANGE=${GOOGLE_SHEETS_TIMELINE_RANGE}
       - GOOGLE_SHEETS_CHARACTERS_RANGE=${GOOGLE_SHEETS_CHARACTERS_RANGE}
       - GOOGLE_SHEETS_REFRESH_INTERVAL=${GOOGLE_SHEETS_REFRESH_INTERVAL}
-      - FOUNDRY_DATA_PATH=/foundry/data
       - BOT_NAME=Casandalee
       - BOT_PREFIX=/cass
       - CAMPAIGN_YEAR=4717

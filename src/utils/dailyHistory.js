@@ -190,3 +190,4 @@ class DailyHistoryScheduler {
 module.exports = DailyHistoryScheduler;
 
 
+

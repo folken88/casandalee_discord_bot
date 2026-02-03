@@ -9,7 +9,7 @@ const foundryIntegration = require('./foundryIntegration');
 const campaignContext = require('./campaignContext');
 const characterSearch = require('./characterSearch');
 const timelineSearch = require('./timelineSearch');
-const actorIndex = require('./actorIndex');
+// Actor index system removed - was causing database lock issues
 const reincarnationTable = require('./reincarnationTable');
 const fs = require('fs');
 const path = require('path');
@@ -533,16 +533,7 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
                 if (characterName) {
                     console.log(`🔍 Character query detected for "${characterName}"`);
                     
-                    // First try actor index (FoundryVTT data)
-                    if (actorIndex.isAvailable()) {
-                        console.log(`🎭 Searching actor index for "${characterName}"...`);
-                        const actorInfo = await actorIndex.getActorInfo(characterName);
-                        
-                        if (actorInfo) {
-                            console.log(`✅ Found actor data for "${characterName}" in FoundryVTT`);
-                            return await this.generateActorResponse(query, actorInfo);
-                        }
-                    }
+                    // Actor index system removed - was causing database lock issues
                     
                     // Fallback to timeline search
                     console.log(`📚 Searching timeline for "${characterName}"...`);
@@ -616,7 +607,11 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
             /\w+ (has|possesses|owns)/i,
             /\w+ (spells|abilities|inventory|stats)/i,
             /about \w+/i,
-            /know about \w+/i
+            /know about \w+/i,
+            /what is \w+'s/i,
+            /\w+'s (hit points|hp|health|level|class|stats|inventory|spells|abilities)/i,
+            /total hit points of \w+/i,
+            /hit points of \w+/i
         ];
         
         return characterPatterns.some(pattern => pattern.test(query));
@@ -644,6 +639,10 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
             /what can you tell me about (\w+)/i,
             /about (\w+)/i,
             /know about (\w+)/i,
+            /what is (\w+)'s/i,
+            /(\w+)'s (hit points|hp|health|level|class|stats|inventory|spells|abilities)/i,
+            /total hit points of (\w+)/i,
+            /hit points of (\w+)/i,
             /(\w+) (has|possesses|owns)/i,
             /(\w+) (spells|abilities|inventory|stats)/i
         ];
@@ -667,50 +666,7 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
         return this.extractCharacterNameFromQuery(query);
     }
 
-    /**
-     * Generate actor response using LLM analysis
-     * @param {string} query - User query
-     * @param {Object} actorInfo - Actor information from FoundryVTT
-     * @returns {Promise<string>} - Smart response
-     */
-    async generateActorResponse(query, actorInfo) {
-        try {
-            // Prepare actor context for LLM
-            const actorContext = `Character: ${actorInfo.name} (${actorInfo.world})
-Type: ${actorInfo.type}
-System: ${actorInfo.system}
-
-Stats: ${JSON.stringify(actorInfo.stats, null, 2)}
-Inventory: ${JSON.stringify(actorInfo.inventory.slice(0, 5), null, 2)}
-Spells: ${JSON.stringify(actorInfo.spells.slice(0, 5), null, 2)}
-Abilities: ${JSON.stringify(actorInfo.abilities.slice(0, 5), null, 2)}`;
-            
-            const response = await this.openai.chat.completions.create({
-                model: 'gpt-4',
-                messages: [
-                    { 
-                        role: 'system', 
-                        content: `You are Casandalee, an AI with access to character data from FoundryVTT. Analyze the character information below and answer the user's question intelligently. Be specific about the character's status, abilities, and condition.
-
-Character Data:
-${actorContext}
-
-Answer the user's question based on this character data. Be helpful and specific about their current condition and abilities.` 
-                    },
-                    { role: 'user', content: query }
-                ],
-                max_tokens: 300,
-                temperature: 0.3
-            });
-            
-            return response.choices[0].message.content;
-            
-        } catch (error) {
-            console.error('❌ Error in actor response:', error);
-            // Fallback to simple format
-            return `I found information about **${actorInfo.name}** from ${actorInfo.world}:\n\n**Stats:** Level ${actorInfo.stats.level} ${actorInfo.stats.class} (${actorInfo.stats.race})\n**Hit Points:** ${actorInfo.stats.hitPoints}\n**Armor Class:** ${actorInfo.stats.armorClass}`;
-        }
-    }
+    // Actor index system removed - was causing database lock issues
 
     /**
      * Handle character search requests
