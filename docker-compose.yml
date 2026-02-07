@@ -7,7 +7,6 @@ services:
       - ./logs:/app/logs
       - ./.env:/app/.env
       - ./data:/app/data
-      # Read-only access to FoundryVTT data directory
     logging:
       driver: "json-file"
       options:
@@ -18,6 +17,10 @@ services:
       - CLIENT_ID=${CLIENT_ID}
       - GUILD_ID=${GUILD_ID}
       - OPENAI_API_KEY=${OPENAI_API_KEY}
+      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
+      - OLLAMA_URL=${OLLAMA_URL}
+      - OLLAMA_MODEL_FAST=${OLLAMA_MODEL_FAST}
+      - OLLAMA_MODEL_QUALITY=${OLLAMA_MODEL_QUALITY}
       - GOOGLE_SHEETS_API_KEY=${GOOGLE_SHEETS_API_KEY}
       - GOOGLE_SHEETS_SPREADSHEET_ID=${GOOGLE_SHEETS_SPREADSHEET_ID}
       - GOOGLE_SHEETS_TIMELINE_RANGE=${GOOGLE_SHEETS_TIMELINE_RANGE}
@@ -29,9 +32,13 @@ services:
       - CAMPAIGN_MONTH=April
     networks:
       - cass-network
+      - ollama-network
 
 networks:
   cass-network:
     driver: bridge
+  ollama-network:
+    external: true
+    name: docker-services_ollama-network
 
 

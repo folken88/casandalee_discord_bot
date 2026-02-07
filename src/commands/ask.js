@@ -3,6 +3,9 @@ const llmHandler = require('../utils/llmHandler');
 const logger = require('../utils/logger');
 
 module.exports = {
+    /** Custom timeout: LLM responses can take longer than 5s */
+    timeout: 30000,
+
     data: new SlashCommandBuilder()
         .setName('ask')
         .setDescription('Ask Casandalee anything about the campaign, rules, or world')

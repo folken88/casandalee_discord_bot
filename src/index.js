@@ -10,9 +10,14 @@ require('dotenv').config();
 
 // Import utility modules
 const diceRoller = require('./utils/diceRoller');
-const foundryIntegration = require('./utils/foundryIntegration');
+
 const campaignContext = require('./utils/campaignContext');
 const timelineSearch = require('./utils/timelineSearch');
+const timelineCache = require('./utils/timelineCache');
+const dossierManager = require('./utils/dossierManager');
+const nameResolver = require('./utils/nameResolver');
+const llmRouter = require('./utils/llmRouter');
+const googleSheetsIntegration = require('./utils/googleSheetsIntegration');
 const llmHandler = require('./utils/llmHandler');
 const logger = require('./utils/logger');
 const DailyHistoryScheduler = require('./utils/dailyHistory');
@@ -23,7 +28,8 @@ const client = new Client({
         GatewayIntentBits.Guilds,
         GatewayIntentBits.GuildMessages,
         GatewayIntentBits.MessageContent,
-        GatewayIntentBits.GuildMembers
+        GatewayIntentBits.GuildMembers,
+        GatewayIntentBits.GuildMessageReactions
     ]
 });
 
@@ -56,7 +62,19 @@ client.once(Events.ClientReady, async readyClient => {
     logger.info(`🎲 Casandalee is ready! Logged in as ${readyClient.user.tag}`);
     logger.info(`📅 Campaign Year: ${process.env.CAMPAIGN_YEAR || '4717'}`);
     logger.info(`🗓️  Campaign Month: ${process.env.CAMPAIGN_MONTH || 'April'}`);
-    
+
+    // Set bot avatar from local file
+    try {
+        const avatarPath = path.join(__dirname, '../data/avatar.png');
+        if (fs.existsSync(avatarPath)) {
+            await readyClient.user.setAvatar(avatarPath);
+            logger.info('✅ Bot avatar updated from data/avatar.png');
+        }
+    } catch (avatarError) {
+        // Rate limit or already set — not critical
+        logger.warn('Could not update avatar (rate limit or unchanged):', avatarError.message);
+    }
+
     // Initialize timeline search
     try {
         await timelineSearch.initialize();
@@ -65,6 +83,84 @@ client.once(Events.ClientReady, async readyClient => {
         logger.error('❌ Failed to initialize timeline search:', error);
     }
     
+    // Initialize timeline cache with new-event notification
+    try {
+        const result = await timelineCache.rebuild();
+        timelineCache.startCron((newEvents) => {
+            logger.info(`Timeline cache detected ${newEvents.length} new events`);
+            // TODO: Post notification to Discord channel
+        });
+        logger.info(`✅ Timeline cache initialized: ${result.totalEvents} events`);
+    } catch (error) {
+        logger.error('❌ Failed to initialize timeline cache:', error);
+    }
+
+    // Set up new-event notifications via Google Sheets
+    try {
+        googleSheetsIntegration.onNewEvents(async (newEvents) => {
+            try {
+                // Find the General channel to post notifications
+                const guilds = readyClient.guilds.cache;
+                for (const [, guild] of guilds) {
+                    const generalChannel = guild.channels.cache.find(
+                        ch => ch.name === 'general' && ch.isTextBased()
+                    );
+                    if (generalChannel) {
+                        const embed = new EmbedBuilder()
+                            .setColor(0xFFD700)
+                            .setTitle('📜 New Timeline Events!')
+                            .setDescription(`${newEvents.length} new event(s) added to the campaign timeline.`)
+                            .setTimestamp();
+
+                        const eventList = newEvents.slice(0, 5).map(e =>
+                            `**${e.date}** (${e.location}): ${e.description?.substring(0, 150)}...`
+                        ).join('\n\n');
+                        embed.addFields({ name: 'Recent Additions', value: eventList.substring(0, 1024) });
+
+                        if (newEvents.length > 5) {
+                            embed.setFooter({ text: `...and ${newEvents.length - 5} more. Use /timeline to explore.` });
+                        }
+
+                        await generalChannel.send({ embeds: [embed] });
+                        logger.info(`Posted ${newEvents.length} new event notifications to ${guild.name}/#general`);
+                    }
+                }
+            } catch (notifyError) {
+                logger.error('Error posting new event notification:', notifyError);
+            }
+        });
+        logger.info('✅ New event notifications configured');
+    } catch (error) {
+        logger.error('❌ Failed to configure new event notifications:', error);
+    }
+
+    // Initialize dossier manager and register known characters
+    try {
+        // Register known party members with aliases
+        nameResolver.registerBatch([
+            { name: 'Nomkath', aliases: ['nom', 'nomkat', 'catfolk'] },
+            { name: 'Tokala', aliases: ['tok', 'tokalla', 'half-orc'] },
+            { name: 'Ulfred', aliases: ['ulf', 'ulfred', 'dwarf'] },
+            { name: 'Meyanda', aliases: ['mey', 'meyanda', 'android'] },
+            { name: 'Eldrin', aliases: ['eld', 'eldryn'] },
+            { name: 'Olbryn', aliases: ['olb', 'olbrynn', 'drow'] },
+            { name: 'Rhyaerca', aliases: ['rhy', 'rhyarca', 'rhyaerca'] },
+            { name: 'Casandalee', aliases: ['cass', 'casandalee', 'goddess'] }
+        ]);
+        logger.info(`✅ Name resolver initialized with ${nameResolver.getAllNames().length} names`);
+        logger.info(`✅ Dossier manager loaded ${dossierManager.getAllNames().length} dossiers`);
+    } catch (error) {
+        logger.error('❌ Failed to initialize dossier/name systems:', error);
+    }
+
+    // Check LLM provider health
+    try {
+        const health = await llmRouter.checkHealth();
+        logger.info('LLM Provider Health:', health);
+    } catch (error) {
+        logger.error('❌ Failed to check LLM health:', error);
+    }
+
     // Initialize daily history scheduler
     try {
         dailyHistoryScheduler = new DailyHistoryScheduler(readyClient);
@@ -85,6 +181,19 @@ client.on(Events.InteractionCreate, async interaction => {
     logger.logInteraction('Interaction Received', interaction);
     
     try {
+        // Handle autocomplete interactions
+        if (interaction.isAutocomplete()) {
+            const command = client.commands.get(interaction.commandName);
+            if (command && command.autocomplete) {
+                try {
+                    await command.autocomplete(interaction);
+                } catch (error) {
+                    logger.error(`Autocomplete error for ${interaction.commandName}:`, error);
+                }
+            }
+            return;
+        }
+        
         if (!interaction.isChatInputCommand()) {
             logger.debug('Non-chat input command interaction ignored', { type: interaction.type });
             return;
@@ -121,9 +230,11 @@ client.on(Events.InteractionCreate, async interaction => {
         }
         
         // Add timeout protection for slow commands
+        // Commands can declare a custom timeout (e.g., vision/LLM commands need more time)
+        const timeoutMs = command.timeout || 5000;
         const commandPromise = command.execute(interaction);
         const timeoutPromise = new Promise((_, reject) => {
-            setTimeout(() => reject(new Error('Command execution timeout (5 seconds)')), 5000);
+            setTimeout(() => reject(new Error(`Command execution timeout (${timeoutMs / 1000} seconds)`)), timeoutMs);
         });
         
         await Promise.race([commandPromise, timeoutPromise]);
@@ -222,6 +333,32 @@ client.on(Events.MessageCreate, async message => {
             logger.error('Error processing message:', error);
             await message.reply('Sorry, I encountered an error processing your request. Please try again.');
         }
+    }
+});
+
+// Track emoji reactions on bot messages
+client.on(Events.MessageReactionAdd, async (reaction, user) => {
+    try {
+        // Ignore bot reactions
+        if (user.bot) return;
+
+        // Only track reactions on Cass's messages
+        if (reaction.message.author?.id !== client.user?.id) return;
+
+        const emoji = reaction.emoji.name || reaction.emoji.toString();
+        const messageContent = reaction.message.content || '';
+
+        // Try to identify which character this message is about
+        const allNames = nameResolver.getAllNames();
+        for (const name of allNames) {
+            if (messageContent.toLowerCase().includes(name.toLowerCase())) {
+                dossierManager.addEmojiReaction(name, emoji, user.username);
+                logger.debug(`Emoji ${emoji} on message about ${name} by ${user.username}`);
+                break;
+            }
+        }
+    } catch (error) {
+        logger.error('Error tracking emoji reaction:', error);
     }
 });
 

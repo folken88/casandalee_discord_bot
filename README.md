@@ -1,115 +1,60 @@
 # Casandalee Discord Bot
 
-A sophisticated Discord bot for D&D and Pathfinder campaigns, featuring natural language processing, campaign timeline management, and character reincarnation mechanics.
+A sophisticated Discord bot for Pathfinder 1e campaigns, featuring multi-tier LLM intelligence, 72 unique personalities, character dossiers, and campaign timeline management.
 
 ## Features
 
-### 🎲 **Core Functionality**
-- **Smart Natural Language Processing** - Intelligent query routing and analysis
-- **Dice Rolling** - Standard D&D notation with advantage/disadvantage
-- **Campaign Timeline** - Search through 350+ campaign events with focused, relevant results
-- **Character Reincarnation** - Custom reincarnation table for sea-giant and sahuagin druids
-- **FoundryVTT Integration** - Connect to your FoundryVTT instance for table lookups
-- **Google Sheets Integration** - Real-time campaign data from Google Sheets
-- **Docker Support** - Easy deployment with Docker containers
-- **Log Management** - Automatic log rotation and cleanup
-- **Persistent Personality System** - 72 unique personalities with automatic switching
-- **Smart Character Status** - Intelligent analysis of character conditions and timeline events
+### Core Commands
+- **Dice Rolling** (`/roll`) - Standard D&D notation with advantage/disadvantage
+- **Reincarnation Tables** (`/reincarnate`, `/reincarnate-aquatic`) - Standard (1d43) and aquatic/Shackles (1d100) tables with PF1 racial traits
+- **Ancestry Lookup** (`/ancestry`) - View racial traits for any reincarnation race, with autocomplete and fuzzy matching
+- **Character Dossiers** (`/character`, `/characterupdate`) - View and update character profiles with notes, roll history, and timeline mentions
+- **Character Sheet Import** (`/charactersheet`) - Upload a screenshot of a PF1 character sheet and Claude Vision extracts stats into a dossier
+- **Campaign Timeline** (`/timeline`) - Search 350+ campaign events by keyword, character, or location
+- **Campaign Info** (`/campaign`) - Current campaign date, world state, and context
+- **Ask Casandalee** (`/ask`) - AI-powered Q&A about the campaign, rules, and world
+- **Daily History** (`/daily-history`, `/today`) - Historical events and campaign milestones
 
-### 🗣️ **Natural Language Commands**
-- `@Casandalee when did Hellion die?` - Smart timeline lookups with focused results
-- `@Casandalee how is Hellion doing?` - Intelligent character status analysis
-- `@Casandalee who is the queen of skanktown?` - Specific character/location queries
-- `@Casandalee is Vorkstag dead or alive?` - Character status queries using timeline data
-- `@Casandalee what spells does Tokala have?` - Character abilities and timeline events
-- `@Casandalee reincarnate Bob` - Character reincarnation
-- `@Casandalee roll a d20` - Dice rolling
-- `@Casandalee what's the campaign year?` - Campaign information
+### Natural Language
+Mention Casandalee or use `/cass` for natural conversation:
+```
+@Casandalee when did Hellion die?
+@Casandalee how is Tokala doing?
+@Casandalee reincarnate Bob
+@Casandalee roll a d20
+```
 
-### ⚡ **Slash Commands**
-- `/ask [question]` - Direct question to Casandalee
-- `/roll [notation]` - Dice rolling with advantage/disadvantage
-- `/reincarnate [character]` - Character reincarnation
-- `/timeline [search]` - Search campaign timeline
-- `/campaign` - Campaign information and status
-- `/table [name]` - Roll on FoundryVTT tables
-- `/refresh [type]` - Refresh data from Google Sheets
-- `/logs [action]` - Manage bot logs (status/cleanup)
-- `/date` - Get current campaign date (auto-updated from timeline)
-- `/today` - Show historical events for today's date
-- `/characters` - List available characters
-- `/daily-history` - Get daily history from timeline
+### Intelligence Architecture
 
-### 🎭 **Personality System**
-Casandalee has 72 different personalities from her various lives, each with unique speaking styles and worldviews. She was unusual among androids in remembering fragments of all her past lives, stretching back to the Rain of Stars. Her journey includes:
+**3-Tier LLM Routing:**
+- **Tier 1 (Background):** Ollama local models (qwen2.5:7b / llama3.1:8b on RTX 5080) for data parsing, compaction, and daily random messages
+- **Tier 2 (User-Facing):** Claude Haiku 3.5 for most interactive responses and personality-flavored answers
+- **Tier 3 (Complex):** Claude Sonnet / GPT-4 for deep analysis and fallback
 
-**Core Identity:**
-- Initial worship then betrayal of Unity (4221 AR)
-- Survival as an AI backup for centuries
-- Rescue by her friends and ascension to goddess
-- 72 unique personalities from her android incarnations
-- Final goddess form with divine wisdom
+**Smart Data Systems:**
+- **Timeline Cache** - Pre-indexed keyword, character, and location indexes; rebuilds daily at 6 AM
+- **Dossier Manager** - Auto-generated character profiles with player notes, roll history, emoji reaction tracking, and sheet imports
+- **Name Resolver** - Fuzzy matching with Levenshtein distance, aliases, and prefix/substring search
+- **Google Sheets Integration** - Real-time campaign data with new-event notifications
 
-**Personality Selection:**
-- **Automatic Switching**: Every 1d7 queries or hourly, Casandalee switches personalities
-- **Random roll 1-71**: Embodies a specific past life personality
-- **Random roll 72-100**: Responds as the ascended goddess
-- **Persistent System**: Players can ask "who are you right now?" or "what iteration is this?"
-- Each personality has detailed backstory, unique speaking style, and worldview
-- Memory fragments are not in chronological order
-- Oldest life: Cassandra (pilot of the Divinity, 7000 years ago)
-- Most recent life: Casandalee (Oracle of Unity, before AI-core backup)
-
-**Example Personalities:**
-- **Cassandra (72)**: Disciplined pilot who calculated the Divinity's crash trajectory
-- **Cassrilyn (40)**: Tinker who created living clockwork animals as her children
-- **Cassithra (27)**: Inquisitor who killed herself in despair over her cruelty
-- **Casandalee (2)**: Final life who betrayed Unity and ascended to godhood
-
-### 🧠 **Smart Intelligence Features**
-Casandalee now features advanced AI intelligence for better responses:
-
-**Smart Query Routing:**
-- **Character Status Queries**: "How is X doing?" automatically searches timeline and analyzes character status
-- **Death Queries**: "When did X die?" finds the most relevant death events with focused results
-- **Specific Questions**: "Who is the queen of skanktown?" returns focused, single-result answers
-- **Timeline Integration**: All queries can access campaign timeline data for context
-
-**Intelligent Analysis:**
-- **Multi-layer Fallbacks**: Timeline search → Smart LLM analysis → General LLM response
-- **Quality Assessment**: Bot evaluates result relevance and uses appropriate response method
-- **Character Name Extraction**: Automatically identifies character names in status queries
-- **Focused Results**: Shows only the most relevant information, avoiding irrelevant clutter
-
-**Enhanced Scoring:**
-- **Death Event Priority**: Death-related events get higher scores for character queries
-- **Exact Phrase Matching**: Better matching for specific questions like "queen of skanktown"
-- **Balanced Filtering**: Smart relevance scoring ensures quality results without being too restrictive
-
-
-## Docker Management
-
-### Essential Batch Files
-- `docker-force-rebuild.bat` - Complete rebuild with space cleanup (use this for updates)
-- `start-docker.bat` - Start the bot
-- `stop-docker.bat` - Stop the bot
-- `start-local.bat` - Start bot locally (development)
-- `stop-local.bat` - Stop local bot
-
-### Docker Commands
-- `docker-compose ps` - Check container status
-- `docker-compose logs -f cass-bot` - View live logs
-- `docker-compose down` - Stop and remove containers
+### Personality System
+Casandalee has 72 unique past-life personalities plus her goddess form, each stored as individual Markdown files with:
+- Unique speaking styles, emojis, and tone markers
+- Dynamic weighting — underused personalities get selected more often
+- Hidden switching every 1d7 queries or hourly
+- Context-aware selection with subtle response flavoring
+- 1-2 random in-character daily messages (generated via Ollama)
 
 ## Installation
 
 ### Prerequisites
-- Node.js 18+ (for local development)
-- Docker & Docker Compose (for containerized deployment)
+- Node.js 18+
+- Docker & Docker Compose
 - Discord Bot Token
-- OpenAI API Key
-- Google Sheets API Key (optional, for real-time data)
-- FoundryVTT instance (optional)
+- Anthropic API Key (Claude)
+- OpenAI API Key (optional fallback)
+- Ollama with RTX GPU (optional, for local background processing)
+- Google Sheets API Key (optional, for real-time campaign data)
 
 ### Setup
 
@@ -128,153 +73,134 @@ Casandalee now features advanced AI intelligence for better responses:
    ```bash
    cp env.example .env
    ```
-   Edit `.env` with your credentials:
-   ```
-   DISCORD_TOKEN=your_discord_bot_token
-   DISCORD_CLIENT_ID=your_discord_client_id
-   OPENAI_API_KEY=your_openai_api_key
-   FOUNDRY_URL=your_foundry_url (optional)
-   FOUNDRY_USER=your_foundry_username (optional)
-   FOUNDRY_PASSWORD=your_foundry_password (optional)
-   GOOGLE_SHEETS_API_KEY=your_google_api_key (optional)
-   GOOGLE_SHEETS_SPREADSHEET_ID=your_spreadsheet_id (optional)
+   Edit `.env` with your credentials (see Environment Variables below).
+
+4. **Generate personality files** (first time only)
+   ```bash
+   node tools/generate-personalities.js
    ```
 
-4. **Deploy slash commands**
+5. **Deploy slash commands**
    ```bash
    npm run deploy
    ```
 
-5. **Start the bot**
-
-   **Option A: Local Development**
+6. **Start the bot**
    ```bash
+   # Docker (recommended)
+   docker-compose build --no-cache
+   docker-compose up -d
+
+   # Or locally
    npm start
    ```
 
-   **Option B: Docker Deployment (Recommended)**
-   ```bash
-   # Build and start with Docker
-   docker-rebuild.bat
-   
-   # Or manually:
-   docker-compose build --no-cache
-   docker-compose up -d
-   ```
-
-   **Management Scripts:**
-   ```bash
-   # Start Docker bot
-   start-docker.bat
-   
-   # Stop Docker bot  
-   stop-docker.bat
-   
-   # Rebuild after code changes
-   docker-rebuild.bat
-   
-   # Clean up logs
-   cleanup-logs.bat
-   ```
-
-## Configuration
-
-### Environment Variables
+## Environment Variables
 
 | Variable | Description | Required |
 |----------|-------------|----------|
 | `DISCORD_TOKEN` | Discord bot token | Yes |
-| `DISCORD_CLIENT_ID` | Discord application ID | Yes |
-| `OPENAI_API_KEY` | OpenAI API key for LLM | Yes |
-| `FOUNDRY_URL` | FoundryVTT instance URL | No |
-| `FOUNDRY_USER` | FoundryVTT username | No |
-| `FOUNDRY_PASSWORD` | FoundryVTT password | No |
-| `CAMPAIGN_YEAR` | Current campaign year | No |
-| `CAMPAIGN_MONTH` | Current campaign month | No |
+| `CLIENT_ID` | Discord application client ID | Yes |
+| `ANTHROPIC_API_KEY` | Anthropic API key for Claude | Yes |
+| `OPENAI_API_KEY` | OpenAI API key (fallback) | No |
+| `OLLAMA_URL` | Ollama API URL (default: `http://ollama:11434`) | No |
+| `OLLAMA_MODEL_FAST` | Ollama fast model (default: `qwen2.5:7b`) | No |
+| `OLLAMA_MODEL_QUALITY` | Ollama quality model (default: `llama3.1:8b`) | No |
 | `GOOGLE_SHEETS_API_KEY` | Google Sheets API key | No |
 | `GOOGLE_SHEETS_SPREADSHEET_ID` | Google Sheets document ID | No |
-| `GOOGLE_SHEETS_TIMELINE_RANGE` | Timeline data range (e.g., Sheet1!A1:D800) | No |
+| `GOOGLE_SHEETS_TIMELINE_RANGE` | Timeline data range (e.g., `Sheet1!A1:D800`) | No |
 | `GOOGLE_SHEETS_CHARACTERS_RANGE` | Character data range | No |
-| `GOOGLE_SHEETS_REFRESH_INTERVAL` | Auto-refresh interval in milliseconds | No |
+| `GOOGLE_SHEETS_REFRESH_INTERVAL` | Auto-refresh interval in ms | No |
+| `CAMPAIGN_YEAR` | Current campaign year | No |
+| `CAMPAIGN_MONTH` | Current campaign month | No |
+| `BOT_NAME` | Bot display name (default: `Casandalee`) | No |
 
-### Campaign Timeline
-The bot loads campaign events from `pf_folkengames_timeline.csv` or Google Sheets. This data should contain:
-- Date (in AR format, e.g., 4717.25 for April 4717)
-- Location  
-- AP (Adventure Path)
-- Description
+## Docker Management
 
-**Dynamic Date System**: The bot automatically determines the current campaign date from the most recent event in the timeline. The date updates automatically when new events are added to the Google Sheet.
+### Batch Files
+- `docker-force-rebuild.bat` - Complete rebuild with space cleanup
+- `start-docker.bat` / `stop-docker.bat` - Start/stop the bot
+- `start-local.bat` / `stop-local.bat` - Local development
 
-### Reincarnation Table
-Custom reincarnation table in `reincarnation_table.json` with 44 entries for sea-giant and sahuagin druids.
-
-## Usage
-
-### Natural Language Examples
-```
-@Casandalee what's happening in the campaign?
-@Casandalee roll me a d20 for initiative
-@Casandalee reincarnate my druid character
-@Casandalee when did the Battle of Bloodsworn Vale happen?
+### Docker Commands
+```bash
+docker-compose ps              # Check status
+docker-compose logs -f         # Live logs
+docker-compose logs --tail=50  # Recent logs
+docker-compose down            # Stop containers
 ```
 
-### Slash Command Examples
+## Project Structure
 ```
-/ask What's the weather like in the Shackles?
-/roll 1d20+5 with advantage
-/reincarnate character:Bob
-/timeline search:Hellion
-/campaign
+src/
+├── commands/
+│   ├── ancestry.js            # /ancestry - race trait lookup
+│   ├── ask.js                 # /ask - AI-powered Q&A
+│   ├── campaign.js            # /campaign - campaign info
+│   ├── character.js           # /character - view dossier
+│   ├── charactersheet.js      # /charactersheet - vision import
+│   ├── characterupdate.js     # /characterupdate - player notes
+│   ├── daily-history.js       # /daily-history
+│   ├── date.js                # /date - campaign date
+│   ├── help.js                # /help
+│   ├── logs.js                # /logs - log management
+│   ├── refresh.js             # /refresh - data refresh
+│   ├── reincarnate.js         # /reincarnate - standard table
+│   ├── reincarnate-aquatic.js # /reincarnate-aquatic - Shackles table
+│   ├── roll.js                # /roll - dice rolling
+│   ├── timeline.js            # /timeline - event search
+│   └── today.js               # /today - historical events
+├── utils/
+│   ├── llmRouter.js           # 3-tier LLM routing (Ollama/Claude/GPT)
+│   ├── llmHandler.js          # Query processing and response generation
+│   ├── personalityManager.js  # 72 personality loading, selection, flavoring
+│   ├── dossierManager.js      # Character dossier CRUD and auto-save
+│   ├── nameResolver.js        # Fuzzy name matching with aliases
+│   ├── timelineCache.js       # Pre-indexed timeline with daily cron
+│   ├── timelineSearch.js      # Timeline search engine
+│   ├── googleSheetsIntegration.js # Google Sheets data fetcher
+│   ├── campaignContext.js     # Campaign state and context
+│   ├── raceTraits.js          # PF1 racial traits database
+│   ├── reincarnationTable.js  # Reincarnation table loader
+│   ├── diceRoller.js          # Dice mechanics
+│   ├── dailyHistory.js        # Scheduled daily posts and random messages
+│   └── logger.js              # Logging system
+├── index.js                   # Main bot entry point
+└── deploy-commands.js         # Slash command deployment
+
+data/                          # Runtime data (gitignored)
+├── personalities/             # 73 individual .md personality files
+├── dossiers/                  # Character dossier JSON files
+├── cache/                     # Timeline cache
+└── avatar.png                 # Bot avatar image
+
+tools/
+├── cass-cli.js                # CLI test harness for direct LLM testing
+└── generate-personalities.js  # One-time personality file generator
 ```
 
 ## Development
 
-### Project Structure
+### CLI Test Tool
+Test Cass's systems directly without Discord:
+```bash
+node tools/cass-cli.js
 ```
-src/
-├── commands/          # Slash command handlers
-├── utils/           # Utility functions
-│   ├── logger.js    # Logging system
-│   ├── llmHandler.js # OpenAI integration
-│   ├── diceRoller.js # Dice mechanics
-│   └── campaignContext.js # Campaign data
-├── index.js         # Main bot file
-└── deploy-commands.js # Command deployment
-```
+Supports: health checks, LLM stats, timeline search, dossier lookup, direct Ollama/Claude/OpenAI calls.
 
 ### Scripts
 - `npm start` - Start the bot
-- `npm run dev` - Start with nodemon for development
-- `npm run deploy` - Deploy slash commands to Discord
-
-### Logging
-The bot includes comprehensive logging:
-- Console output for development
-- Daily log files in `logs/` directory
-- Debug information for troubleshooting
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+- `npm run dev` - Start with nodemon
+- `npm run deploy` - Deploy slash commands
 
 ## Author
 
-**Tobias Merriman**  
-Folken Games
+**Tobias Merriman** - Folken Games
 
-## Support
+## License
 
-For support, please open an issue on GitHub or contact the author.
+MIT License - see [LICENSE](LICENSE) for details.
 
 ---
 
-*Casandalee - Your faithful campaign companion across the ages* 🎲✨
+*Casandalee - Your faithful campaign companion across the ages*

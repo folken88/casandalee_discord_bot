@@ -1,0 +1,102 @@
+{
+    "name": "Aquatic Reincarnation (Shackles)",
+    "description": "Custom reincarnation table for aquatic creatures in the Shackles region, designed for Sahuagin Druids",
+    "formula": "1d100",
+    "results": [
+        {
+            "range": [1, 8],
+            "description": "Merfolk",
+            "details": "Common throughout the Fever Sea; insular reef-kin and current-riders."
+        },
+        {
+            "range": [9, 15],
+            "description": "Aquatic Elf",
+            "details": "Reef- or kelp-dwelling elves; wary of surface politics."
+        },
+        {
+            "range": [16, 22],
+            "description": "Gillman",
+            "details": "Azlanti-descended survivors, culturally divided between land and sea."
+        },
+        {
+            "range": [23, 29],
+            "description": "Locathah",
+            "details": "Nomadic shoal-folk; proud traders and fisher-warriors."
+        },
+        {
+            "range": [30, 35],
+            "description": "Cecaelia",
+            "details": "Octopus-blooded mystics; unsettling but respected for occult insight."
+        },
+        {
+            "range": [36, 41],
+            "description": "Sahuagin (Malenti)",
+            "details": "Rare elven-appearing mutants bred for infiltration and espionage."
+        },
+        {
+            "range": [42, 46],
+            "description": "Adaro",
+            "details": "Solitary sharklike hunters; often exiles or renegades."
+        },
+        {
+            "range": [47, 51],
+            "description": "Siyokoy",
+            "details": "Ruin-scavenging eel-folk; pragmatic and opportunistic."
+        },
+        {
+            "range": [52, 56],
+            "description": "Skum (Free-Willed)",
+            "details": "Former aboleth thralls, biologically warped but mentally autonomous."
+        },
+        {
+            "range": [57, 61],
+            "description": "Triton",
+            "details": "Extraplanar sea-knights; culturally hostile to sahuagin and pirates alike."
+        },
+        {
+            "range": [62, 66],
+            "description": "Sea Reaver Orc",
+            "details": "Orcs descended from escaped sahuagin slaves; one traditional orc racial trait replaced with a swim speed and aquatic adaptation."
+        },
+        {
+            "range": [67, 71],
+            "description": "Ship-Bound Half-Elf",
+            "details": "Shackles-born sailors; replace elven bonuses with Skill Focus (Seamanship—pirate or sailor) and Swim, and replace longbow proficiency with rapier, cutlass, or scimitar."
+        },
+        {
+            "range": [72, 76],
+            "description": "Besmaran Changeling",
+            "details": "Changelings bound to Besmara; they do not undergo unwilling hag or sea-hag transformation so long as they remain in the Pirate Queen's service."
+        },
+        {
+            "range": [77, 81],
+            "description": "Grindylow",
+            "details": "Goblin-kin twisted by brine and cruelty; dangerous, cunning, and feared."
+        },
+        {
+            "range": [82, 85],
+            "description": "Iku-Turso (Lesser Spawn)",
+            "details": "Myth-haunted eelfolk; a diminished lineage rather than a full legendary specimen."
+        },
+        {
+            "range": [86, 89],
+            "description": "Ceratioidi",
+            "details": "Abyssal anglerfolk; reincarnation feels ominous and portentous."
+        },
+        {
+            "range": [90, 94],
+            "description": "Human (Shackles Islander)",
+            "details": "Pirate stock, reef-runner, or freed slave of the Fever Sea."
+        },
+        {
+            "range": [95, 96],
+            "description": "Other Aquatic Humanoid (GM's Choice)",
+            "details": "Must plausibly exist in the Shackles or surrounding seas."
+        },
+        {
+            "range": [97, 100],
+            "description": "Player's Choice (GM Approval)",
+            "details": "May require rare reagents, divine favor, or significant roleplay consequences."
+        }
+    ]
+}

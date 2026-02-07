@@ -15,9 +15,11 @@ COPY src/ ./src/
 # Copy data files
 COPY *.csv ./
 COPY *.json ./
+COPY data/ ./data/
 
-# Create data and logs directories
-RUN mkdir -p /app/data
+# Create cache, dossier, and logs directories (data/ already copied)
+RUN mkdir -p /app/data/dossiers
+RUN mkdir -p /app/data/cache
 RUN mkdir -p /app/logs
 
 # Create non-root user

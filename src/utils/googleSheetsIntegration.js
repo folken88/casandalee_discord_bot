@@ -17,6 +17,12 @@ class GoogleSheetsIntegration {
         this.playerCharacters = [];
         this.lastRefresh = null;
         this.refreshTimer = null;
+
+        /** @type {number} - Previous event count for change detection */
+        this.previousEventCount = 0;
+
+        /** @type {Function|null} - Callback for new event notifications */
+        this.onNewEventsCallback = null;
         
         this.initialize();
     }
@@ -129,6 +135,21 @@ class GoogleSheetsIntegration {
             }
             
             logger.info(`✅ Loaded ${this.campaignTimeline.length} timeline events from Google Sheets`);
+
+            // Detect new events
+            if (this.previousEventCount > 0 && this.campaignTimeline.length > this.previousEventCount) {
+                const newEvents = this.campaignTimeline.slice(this.previousEventCount);
+                logger.info(`📢 Detected ${newEvents.length} new timeline events!`);
+
+                if (this.onNewEventsCallback && newEvents.length > 0) {
+                    try {
+                        this.onNewEventsCallback(newEvents);
+                    } catch (callbackError) {
+                        logger.error('Error in new events callback:', callbackError);
+                    }
+                }
+            }
+            this.previousEventCount = this.campaignTimeline.length;
             
         } catch (error) {
             logger.error('Error loading campaign timeline from Google Sheets:', error);
@@ -229,6 +250,14 @@ class GoogleSheetsIntegration {
         return this.sheets !== null && this.spreadsheetId !== null;
     }
     
+    /**
+     * Set callback for when new timeline events are detected
+     * @param {Function} callback - Function receiving array of new events
+     */
+    onNewEvents(callback) {
+        this.onNewEventsCallback = callback;
+    }
+
     /**
      * Cleanup resources
      */

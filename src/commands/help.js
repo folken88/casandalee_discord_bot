@@ -11,34 +11,36 @@ module.exports = {
         .setDescription('Show available commands and features'),
     
     async execute(interaction) {
-        const helpText = `🎲 **Casandalee - D&D Campaign Assistant**
-
-**Available Commands:**
+        const helpText = `**Available Commands:**
 • \`/roll <notation>\` - Roll dice using D&D notation
-• \`/reincarnate [character]\` - Roll on the reincarnation table
-• \`/table <name>\` - Roll on a FoundryVTT table
+• \`/reincarnate [character]\` - Roll on the standard reincarnation table (1d43)
+• \`/reincarnate-aquatic [character]\` - Roll on the aquatic reincarnation table (1d100, Shackles)
+• \`/ancestry [race]\` - View racial traits for available ancestries
+• \`/character <name>\` - View a character's dossier (race, class, notes, roll history)
+• \`/characterupdate <name> <info>\` - Add info to a character's dossier
+• \`/charactersheet <name> [image]\` - Upload a character sheet screenshot to auto-import stats
 • \`/campaign [type]\` - Get campaign information and world state
 • \`/timeline [search]\` - Search the campaign timeline for events
 • \`/help\` - Show this help message
 
 **Features:**
 • Dice rolling with advantage/disadvantage
-• Reincarnation table for sea-giant and sahuagin druids
-• FoundryVTT table integration
+• Multiple reincarnation tables (standard & aquatic/Shackles)
+• Character dossiers with roll history & player notes
+• Character sheet import via screenshot (Claude Vision)
+• Smart name matching (fuzzy search, aliases)
 • Pathfinder world lore and timeline
 • Campaign event tracking with 350+ timeline events
-• Character management
-• Rules assistance
+• AI-powered responses with 72 unique personalities
 • Timeline search by location, AP, or description
 
 **Examples:**
-• "Roll 2d6+3 for damage"
-• "Reincarnate me" or "What should I become?"
-• "What's a good random encounter?"
-• "Tell me about the Pathfinder world"
-• "What happened in Kintargo?"
-• "Search timeline for Silver Ravens"
-• "Help me create a character"
+• "/reincarnate Bob" - Roll standard reincarnation for Bob
+• "/reincarnate-aquatic Noknek" - Roll aquatic reincarnation
+• "/ancestry Human" - View Human racial traits
+• "/character Tokala" - View Tokala's dossier
+• "/characterupdate Tokala is 6'10 tall" - Update a dossier
+• "What happened in Kintargo?" - Search the timeline
 
 Just mention me or use /cass followed by your question!`;
         

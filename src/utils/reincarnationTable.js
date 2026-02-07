@@ -5,6 +5,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const raceTraits = require('./raceTraits');
 
 class ReincarnationTable {
     constructor() {
@@ -48,11 +49,21 @@ class ReincarnationTable {
             throw new Error(`No reincarnation result found for roll ${roll}`);
         }
         
+        // Get race traits from the database
+        const raceName = result.description;
+        const traitData = raceTraits[raceName] || {
+            traits: "No trait data available. Consult GM for racial abilities.",
+            srdLink: null
+        };
+        
         return {
             roll: roll,
-            result: result.description,
+            result: raceName,
             originalRoll: roll,
-            tableName: this.tableData.name
+            tableName: this.tableData.name,
+            traits: traitData.traits,
+            srdLink: traitData.srdLink,
+            lore: traitData.lore || null
         };
     }
     
