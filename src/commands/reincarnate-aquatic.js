@@ -82,6 +82,58 @@ class AquaticReincarnationTable {
 // Create singleton instance
 const aquaticTable = new AquaticReincarnationTable();
 
+/**
+ * Run aquatic reincarnation (used by /reincarnate aquatic subcommand and standalone /reincarnate-aquatic).
+ * @param {Object} interaction - Discord interaction
+ * @param {string} [characterName] - Optional character name (defaults to interaction.user.username)
+ */
+async function executeAquatic(interaction, characterName = null) {
+    const name = characterName ?? interaction.options?.getString('character') ?? interaction.user.username;
+    logger.info('Reincarnate-aquatic command executed', {
+            userId: interaction.user.id,
+            username: interaction.user.username,
+            guildId: interaction.guildId,
+            channelId: interaction.channelId
+        });
+
+    try {
+        if (!aquaticTable.isReady()) {
+                logger.error('Aquatic reincarnation table not loaded');
+            await interaction.reply('❌ Aquatic reincarnation table is not available. Please try again later.');
+            return;
+        }
+
+        logger.info('Rolling on aquatic reincarnation table', { characterName: name });
+        const result = aquaticTable.rollReincarnation();
+        logger.info('Aquatic reincarnation roll completed', { characterName: name, roll: result.roll, result: result.result });
+
+        const embedFields = [
+            { name: 'Roll (d100)', value: `\`${result.roll}\``, inline: true },
+            { name: 'New Form', value: `**${result.result}**`, inline: true }
+        ];
+        if (result.details) embedFields.push({ name: 'Description', value: result.details, inline: false });
+        if (result.traits) embedFields.push({ name: 'Racial Traits', value: result.traits, inline: false });
+        if (result.lore) embedFields.push({ name: 'Lore', value: `*${result.lore}*`, inline: false });
+        if (result.srdLink) embedFields.push({ name: 'Reference', value: `[View on d20PFSRD](${result.srdLink})`, inline: false });
+
+        const embed = new EmbedBuilder()
+            .setColor(0x1E90FF)
+            .setTitle('🌊 Aquatic Reincarnation Result')
+            .setDescription(`**${name}** has been reincarnated from the depths!`)
+            .addFields(embedFields)
+            .setFooter({ text: `Reincarnated by ${interaction.user.username} • Shackles Campaign` })
+            .setTimestamp();
+
+        dossierManager.addRollHistory(name, { type: 'Reincarnation (Aquatic)', roll: result.roll, result: result.result, command: '/reincarnate aquatic' });
+
+        logger.info('Sending aquatic reincarnation response');
+        await interaction.reply({ embeds: [embed] });
+    } catch (error) {
+        logger.error('Error in reincarnate-aquatic command:', error);
+        await interaction.reply(`❌ Error rolling aquatic reincarnation: ${error.message}`);
+    }
+}
+
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('reincarnate-aquatic')
@@ -91,86 +143,8 @@ module.exports = {
                 .setDescription('Character name (optional)')
                 .setRequired(false)
         ),
-    
+    executeAquatic,
     async execute(interaction) {
-        logger.info('Reincarnate-aquatic command executed', {
-            userId: interaction.user.id,
-            username: interaction.user.username,
-            guildId: interaction.guildId,
-            channelId: interaction.channelId
-        });
-        
-        const characterName = interaction.options.getString('character') || interaction.user.username;
-        
-        try {
-            // Check if reincarnation table is loaded
-            if (!aquaticTable.isReady()) {
-                logger.error('Aquatic reincarnation table not loaded');
-                await interaction.reply('❌ Aquatic reincarnation table is not available. Please try again later.');
-                return;
-            }
-            
-            logger.info('Rolling on aquatic reincarnation table', { characterName });
-            
-            // Roll on the reincarnation table
-            const result = aquaticTable.rollReincarnation();
-            
-            logger.info('Aquatic reincarnation roll completed', { 
-                characterName,
-                roll: result.roll,
-                result: result.result
-            });
-            
-            // Build embed fields
-            const embedFields = [
-                { name: 'Roll (d100)', value: `\`${result.roll}\``, inline: true },
-                { name: 'New Form', value: `**${result.result}**`, inline: true }
-            ];
-            
-            // Add table-specific details
-            if (result.details) {
-                embedFields.push({ name: 'Description', value: result.details, inline: false });
-            }
-            
-            // Add racial traits
-            if (result.traits) {
-                embedFields.push({ name: 'Racial Traits', value: result.traits, inline: false });
-            }
-            
-            // Add lore if present (for custom races)
-            if (result.lore) {
-                embedFields.push({ name: 'Lore', value: `*${result.lore}*`, inline: false });
-            }
-            
-            // Add SRD link if available
-            if (result.srdLink) {
-                embedFields.push({ name: 'Reference', value: `[View on d20PFSRD](${result.srdLink})`, inline: false });
-            }
-            
-            // Create embed response
-            const embed = new EmbedBuilder()
-                .setColor(0x1E90FF) // Ocean blue color
-                .setTitle('🌊 Aquatic Reincarnation Result')
-                .setDescription(`**${characterName}** has been reincarnated from the depths!`)
-                .addFields(embedFields)
-                .setFooter({ text: `Reincarnated by ${interaction.user.username} • Shackles Campaign` })
-                .setTimestamp();
-            
-            // Log roll to character dossier
-            dossierManager.addRollHistory(characterName, {
-                type: 'Reincarnation (Aquatic)',
-                roll: result.roll,
-                result: result.result,
-                command: '/reincarnate-aquatic'
-            });
-
-            logger.info('Sending aquatic reincarnation response');
-            await interaction.reply({ embeds: [embed] });
-            logger.info('Aquatic reincarnation response sent successfully');
-            
-        } catch (error) {
-            logger.error('Error in reincarnate-aquatic command:', error);
-            await interaction.reply(`❌ Error rolling aquatic reincarnation: ${error.message}`);
-        }
+        await executeAquatic(interaction);
     }
 };

@@ -6,7 +6,7 @@ A sophisticated Discord bot for Pathfinder 1e campaigns, featuring multi-tier LL
 
 ### Core Commands
 - **Dice Rolling** (`/roll`) - Standard D&D notation with advantage/disadvantage
-- **Reincarnation Tables** (`/reincarnate`, `/reincarnate-aquatic`) - Standard (1d43) and aquatic/Shackles (1d100) tables with PF1 racial traits
+- **Reincarnation Tables** (`/reincarnate standard`, `/reincarnate aquatic`) - Standard (1d43) and aquatic/Shackles (1d100) tables with PF1 racial traits; both options appear when you type `/reincarnate`. The legacy `/reincarnate-aquatic` command still works.
 - **Ancestry Lookup** (`/ancestry`) - View racial traits for any reincarnation race, with autocomplete and fuzzy matching
 - **Character Dossiers** (`/character`, `/characterupdate`) - View and update character profiles with notes, roll history, and timeline mentions
 - **Character Sheet Import** (`/charactersheet`) - Upload a screenshot of a PF1 character sheet and Claude Vision extracts stats into a dossier
@@ -20,7 +20,7 @@ Mention Casandalee or use `/cass` for natural conversation:
 ```
 @Casandalee when did Hellion die?
 @Casandalee how is Tokala doing?
-@Casandalee reincarnate Bob
+@Casandalee reincarnate standard Bob
 @Casandalee roll a d20
 ```
 
@@ -145,8 +145,8 @@ src/
 │   ├── help.js                # /help
 │   ├── logs.js                # /logs - log management
 │   ├── refresh.js             # /refresh - data refresh
-│   ├── reincarnate.js         # /reincarnate - standard table
-│   ├── reincarnate-aquatic.js # /reincarnate-aquatic - Shackles table
+│   ├── reincarnate.js         # /reincarnate (subcommands: standard, aquatic)
+│   ├── reincarnate-aquatic.js # /reincarnate-aquatic - Shackles table (legacy, also used by /reincarnate aquatic)
 │   ├── roll.js                # /roll - dice rolling
 │   ├── timeline.js            # /timeline - event search
 │   └── today.js               # /today - historical events

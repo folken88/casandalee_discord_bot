@@ -13,8 +13,8 @@ module.exports = {
     async execute(interaction) {
         const helpText = `**Available Commands:**
 • \`/roll <notation>\` - Roll dice using D&D notation
-• \`/reincarnate [character]\` - Roll on the standard reincarnation table (1d43)
-• \`/reincarnate-aquatic [character]\` - Roll on the aquatic reincarnation table (1d100, Shackles)
+• \`/reincarnate standard [character]\` - Roll on the standard reincarnation table (1d43)
+• \`/reincarnate aquatic [character]\` - Roll on the aquatic reincarnation table (1d100, Shackles)
 • \`/ancestry [race]\` - View racial traits for available ancestries
 • \`/character <name>\` - View a character's dossier (race, class, notes, roll history)
 • \`/characterupdate <name> <info>\` - Add info to a character's dossier
@@ -35,8 +35,8 @@ module.exports = {
 • Timeline search by location, AP, or description
 
 **Examples:**
-• "/reincarnate Bob" - Roll standard reincarnation for Bob
-• "/reincarnate-aquatic Noknek" - Roll aquatic reincarnation
+• "/reincarnate standard Bob" - Roll standard reincarnation for Bob
+• "/reincarnate aquatic Noknek" - Roll aquatic reincarnation
 • "/ancestry Human" - View Human racial traits
 • "/character Tokala" - View Tokala's dossier
 • "/characterupdate Tokala is 6'10 tall" - Update a dossier

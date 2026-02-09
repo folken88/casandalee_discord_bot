@@ -1,23 +1,43 @@
 /**
- * Reincarnate Command - Handle reincarnation table rolling
+ * Reincarnate Command - Handle reincarnation table rolling (standard and aquatic)
  */
 
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const reincarnationTable = require('../utils/reincarnationTable');
 const dossierManager = require('../utils/dossierManager');
 const logger = require('../utils/logger');
+const { executeAquatic } = require('./reincarnate-aquatic');
 
 module.exports = {
     data: new SlashCommandBuilder()
         .setName('reincarnate')
-        .setDescription('Roll on the reincarnation table to see what you become')
-        .addStringOption(option =>
-            option.setName('character')
-                .setDescription('Character name (optional)')
-                .setRequired(false)
+        .setDescription('Roll on a reincarnation table to see what you become')
+        .addSubcommand(sub =>
+            sub.setName('standard')
+                .setDescription('Roll on the standard reincarnation table (1d43)')
+                .addStringOption(option =>
+                    option.setName('character')
+                        .setDescription('Character name (optional)')
+                        .setRequired(false)
+                )
+        )
+        .addSubcommand(sub =>
+            sub.setName('aquatic')
+                .setDescription('Roll on the aquatic reincarnation table (1d100, Shackles)')
+                .addStringOption(option =>
+                    option.setName('character')
+                        .setDescription('Character name (optional)')
+                        .setRequired(false)
+                )
         ),
     
     async execute(interaction) {
+        const subcommand = interaction.options.getSubcommand();
+        if (subcommand === 'aquatic') {
+            await executeAquatic(interaction);
+            return;
+        }
+
         logger.info('Reincarnate command executed', {
             userId: interaction.user.id,
             username: interaction.user.username,
@@ -28,7 +48,6 @@ module.exports = {
         const characterName = interaction.options.getString('character') || interaction.user.username;
         
         try {
-            // Check if reincarnation table is loaded
             if (!reincarnationTable.isReady()) {
                 logger.error('Reincarnation table not loaded');
                 await interaction.reply('❌ Reincarnation table is not available. Please try again later.');

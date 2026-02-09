@@ -68,6 +68,8 @@ node -e "require('dotenv').config(); const OpenAI = require('openai'); const cli
 
 **Problem**: The `/ask`, `/roll`, etc. commands don't appear in Discord.
 
+**Note**: For reincarnation, use `/reincarnate` then choose the **standard** or **aquatic** subcommand. The aquatic option appears in the subcommand list when you select `/reincarnate`. The standalone `/reincarnate-aquatic` command is still available.
+
 **Solutions**:
 1. Deploy the commands:
    ```bash
