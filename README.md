@@ -14,6 +14,7 @@ A sophisticated Discord bot for Pathfinder 1e campaigns, featuring multi-tier LL
 - **Campaign Info** (`/campaign`) - Current campaign date, world state, and context
 - **Ask Casandalee** (`/ask`) - AI-powered Q&A about the campaign, rules, and world
 - **Daily History** (`/daily-history`, `/today`) - Historical events and campaign milestones
+- **Memory** (`/memory`) - Have Casandalee post a random in-character timeline quote from one of her 72 lives
 
 ### Natural Language
 Mention Casandalee or use `/cass` for natural conversation:
@@ -27,7 +28,7 @@ Mention Casandalee or use `/cass` for natural conversation:
 ### Intelligence Architecture
 
 **3-Tier LLM Routing:**
-- **Tier 1 (Background):** Ollama local models (qwen2.5:7b / llama3.1:8b on RTX 5080) for data parsing, compaction, and daily random messages
+- **Tier 1 (Background):** Ollama local models (qwen2.5:7b / llama3.1:8b on RTX 5080) for data parsing, compaction, and timeline-quote generation
 - **Tier 2 (User-Facing):** Claude Haiku 3.5 for most interactive responses and personality-flavored answers
 - **Tier 3 (Complex):** Claude Sonnet / GPT-4 for deep analysis and fallback
 
@@ -43,7 +44,7 @@ Casandalee has 72 unique past-life personalities plus her goddess form, each sto
 - Dynamic weighting — underused personalities get selected more often
 - Hidden switching every 1d7 queries or hourly
 - Context-aware selection with subtle response flavoring
-- 1-2 random in-character daily messages (generated via Ollama)
+- 1–2 random in-character daily messages (timeline quotes only), posted at random times between 6am–6pm
 
 ## Installation
 
@@ -144,6 +145,8 @@ src/
 │   ├── date.js                # /date - campaign date
 │   ├── help.js                # /help
 │   ├── logs.js                # /logs - log management
+│   ├── memory.js              # /memory - random timeline quote
+│   ├── persona.js             # /persona - current personality
 │   ├── refresh.js             # /refresh - data refresh
 │   ├── reincarnate.js         # /reincarnate (subcommands: standard, aquatic)
 │   ├── reincarnate-aquatic.js # /reincarnate-aquatic - Shackles table (legacy, also used by /reincarnate aquatic)
@@ -175,8 +178,13 @@ data/                          # Runtime data (gitignored)
 └── avatar.png                 # Bot avatar image
 
 tools/
-├── cass-cli.js                # CLI test harness for direct LLM testing
-└── generate-personalities.js  # One-time personality file generator
+├── apply-birth-years.js       # Add birth year to personality files when missing
+├── apply-class-stats.js       # Apply class-based stats to personalities
+├── cass-cli.js               # CLI test harness for direct LLM testing
+├── correlate-timeline-quotes.js # Generate ## Timeline Quote per life (Ollama 5080)
+├── generate-personalities.js # One-time personality file generator
+├── TIMELINE_QUOTES.md        # Run instructions for timeline quote correlation
+└── personality-editor/       # Web editor for personality .md files (port 3960)
 ```
 
 ## Development

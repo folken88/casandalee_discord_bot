@@ -50,6 +50,36 @@ class PersonalityManager {
     }
 
     /**
+     * Reload all personality files from disk (e.g. after editor save).
+     * Resets current personality so next getPersonality() picks fresh.
+     */
+    reload() {
+        this.personalities.clear();
+        this.goddessForm = null;
+        this.current = null;
+        this._loadAll();
+        logger.info('PersonalityManager reloaded from disk');
+    }
+
+    /**
+     * Get all loaded personalities (for editor/API). Goddess = life 0, past lives 1-72.
+     * @returns {{ lifeNumber: number, filename: string, data: Object }[]}
+     */
+    getAllForEditor() {
+        const out = [];
+        if (this.goddessForm) {
+            const { _filename, raw, ...rest } = this.goddessForm;
+            out.push({ lifeNumber: 0, filename: _filename || '00_goddess.md', data: { type: 'goddess', ...rest } });
+        }
+        for (const [lifeNum, data] of this.personalities.entries()) {
+            const { _filename, raw, ...rest } = data;
+            const filename = _filename || `${String(lifeNum).padStart(2, '0')}_unknown.md`;
+            out.push({ lifeNumber: lifeNum, filename, data: { type: 'past_life', lifeNumber: String(lifeNum), ...rest } });
+        }
+        return out.sort((a, b) => a.lifeNumber - b.lifeNumber);
+    }
+
+    /**
      * Load all personality .md files from disk
      */
     _loadAll() {
@@ -68,6 +98,7 @@ class PersonalityManager {
                     path.join(this.personalityDir, file), 'utf8'
                 );
                 const parsed = this._parseMd(content, file);
+                parsed._filename = file;
 
                 if (file === '00_goddess.md') {
                     this.goddessForm = parsed;
@@ -106,8 +137,18 @@ class PersonalityManager {
             tone: 'neutral',
             emojis: ['✨'],
             flavorNotes: [],
+            /** @type {{ str: number, dex: number, con: number, wis: number, int: number, cha: number }|null} Pathfinder ability scores (25-point buy default) */
+            stats: null,
+            /** @type {string[]} Lines used for random daily channel messages ("Name (life#): snippet") */
+            memorySnippets: [],
+            /** @type {number|null} Birth year (AR); -4363 = Rain of Stars, null = goddess/unknown */
+            birthYear: null,
+            /** @type {string|null} Generated quote from timeline correlation (Ollama) */
+            timelineQuote: null,
             raw: content
         };
+
+        content = (content || '').replace(/\r\n/g, '\n').replace(/\r/g, '\n');
 
         // Extract name from first heading
         const nameMatch = content.match(/^# (?:Life \d+: |Goddess Form: )(.+)$/m);
@@ -120,12 +161,24 @@ class PersonalityManager {
         const alignMatch = content.match(/\*\*Alignment:\*\*\s*(.+)/);
         if (alignMatch) data.alignment = alignMatch[1].trim();
 
+        const birthYearMatch = content.match(/\*\*Birth Year:\*\*\s*(-?\d+)|Birth Year:\s*(-?\d+)/i);
+        if (birthYearMatch) {
+            const y = parseInt(birthYearMatch[1] || birthYearMatch[2], 10);
+            if (!isNaN(y)) data.birthYear = y;
+        }
+
+        const timelineQuoteSection = content.match(/## Timeline Quote\s*\n([\s\S]*?)(?=\n\s*## |$)/);
+        if (timelineQuoteSection) {
+            const q = timelineQuoteSection[1].trim();
+            if (q.length) data.timelineQuote = q;
+        }
+
         // Extract personality section
-        const persMatch = content.match(/## Personality\n([\s\S]*?)(?=\n## )/);
+        const persMatch = content.match(/## Personality\n([\s\S]*?)(?=\n## |$)/);
         if (persMatch) data.personality = persMatch[1].trim();
 
         // Extract speech style
-        const speechMatch = content.match(/## Speech Style\n([\s\S]*?)(?=\n## )/);
+        const speechMatch = content.match(/## Speech Style\n([\s\S]*?)(?=\n## |$)/);
         if (speechMatch) data.speechStyle = speechMatch[1].trim();
 
         // Extract tone
@@ -136,6 +189,30 @@ class PersonalityManager {
         const emojiMatch = content.match(/## Preferred Emojis\n(.+)/);
         if (emojiMatch) {
             data.emojis = emojiMatch[1].trim().split(/\s+/).filter(e => e.length > 0);
+        }
+
+        // Extract stats (Pathfinder STR, DEX, CON, WIS, INT, CHA); fallback to full content if section match fails
+        const getStatFromText = (text, key) => {
+            const re = new RegExp(`\\*\\*${key}\\*\\*:\\s*(\\d+)`, 'i');
+            const m = text.match(re);
+            return m ? parseInt(m[1], 10) : undefined;
+        };
+        const statsSection = content.match(/## Stats\s*\n([\s\S]*?)(?=\n\s*## |$)/);
+        const statsBlock = statsSection ? statsSection[1] : content;
+        const str = getStatFromText(statsBlock, 'STR'), dex = getStatFromText(statsBlock, 'DEX'), con = getStatFromText(statsBlock, 'CON');
+        const wis = getStatFromText(statsBlock, 'WIS'), int = getStatFromText(statsBlock, 'INT'), cha = getStatFromText(statsBlock, 'CHA');
+        if ([str, dex, con, wis, int, cha].some(n => n !== undefined)) {
+            data.stats = {
+                str: str ?? 10, dex: dex ?? 10, con: con ?? 10,
+                wis: wis ?? 10, int: int ?? 10, cha: cha ?? 10
+            };
+        }
+
+        // Extract memory snippets (for daily "Name (life#): ..." messages)
+        const snippetsSection = content.match(/## Memory Snippets\n([\s\S]*?)(?=\n## |$)/);
+        if (snippetsSection) {
+            const lines = snippetsSection[1].split(/\n/).map(l => l.replace(/^\s*[-*]\s*/, '').trim()).filter(Boolean);
+            if (lines.length) data.memorySnippets = lines;
         }
 
         return data;
@@ -340,6 +417,18 @@ class PersonalityManager {
      */
     getRandomPersonality() {
         return this.select('');
+    }
+
+    /**
+     * Get a random past-life personality that has a timeline quote (for daily channel messages).
+     * @returns {Object|null} Random personality with timelineQuote, or null if none
+     */
+    getRandomPersonalityWithTimelineQuote() {
+        const withQuote = [...this.personalities.entries()]
+            .filter(([, data]) => data.timelineQuote && String(data.timelineQuote).trim().length > 0)
+            .map(([lifeNum, data]) => ({ lifeNum, ...data }));
+        if (withQuote.length === 0) return null;
+        return withQuote[Math.floor(Math.random() * withQuote.length)];
     }
 
     /**

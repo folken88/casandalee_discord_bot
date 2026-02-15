@@ -206,12 +206,29 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
             if (!reincarnationTable.isReady()) {
                 return `❌ The reincarnation table is not available right now. Please try again later.`;
             }
-            
-            // Roll on the reincarnation table
+
             const result = reincarnationTable.rollReincarnation();
-            
-            return `🔄 **Reincarnation Result**\n\`Roll: ${result.roll}\` → **${result.result}**\n\n*You have been reincarnated into a new form!*`;
-            
+            const baseReply = `🔄 **Reincarnation Result**\n\`Roll: ${result.roll}\` → **${result.result}**\n\n*You have been reincarnated into a new form!*`;
+
+            // Add a one-line personality-flavored reaction from current Cass persona
+            try {
+                const personality = personalityManager.getPersonality(query);
+                const fragment = personalityManager.buildPromptFragment(personality);
+                const reactionPrompt = `Someone just reincarnated. Result: ${result.result}. In one short sentence (under 15 words), as this character, react. No preamble or "I say"—just the reaction.`;
+                const reaction = await llmRouter.route(reactionPrompt, {
+                    task: 'personality',
+                    system: `You are Casandalee. ${fragment}\n\nReply with only one short in-character sentence.`,
+                    maxTokens: 40,
+                    temperature: 0.7
+                });
+                if (reaction.text && reaction.text.trim().length > 0) {
+                    return `${baseReply}\n\n*${reaction.text.trim()}*`;
+                }
+            } catch (reactionErr) {
+                console.warn('Personality reaction for reincarnation failed:', reactionErr.message);
+            }
+
+            return baseReply;
         } catch (error) {
             return `❌ Error rolling reincarnation: ${error.message}`;
         }

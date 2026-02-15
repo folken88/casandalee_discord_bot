@@ -34,6 +34,22 @@ services:
       - cass-network
       - ollama-network
 
+  cass-editor:
+    build: .
+    container_name: cass-personality-editor
+    restart: unless-stopped
+    command: node tools/personality-editor/server.js
+    working_dir: /app
+    ports:
+      - "3960:3960"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - PERSONALITY_EDITOR_PORT=3960
+      - PERSONALITIES_DATA_DIR=/app/data/personalities
+    networks:
+      - cass-network
+
 networks:
   cass-network:
     driver: bridge

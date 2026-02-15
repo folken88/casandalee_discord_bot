@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casandalee Personality Editor</title>
+    <style>
+        :root {
+            --bg: #1a1b26;
+            --surface: #24283b;
+            --text: #c0caf5;
+            --muted: #565f89;
+            --accent: #7aa2f7;
+            --good: #9ece6a;
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            margin: 0;
+            padding: 1rem;
+            min-height: 100vh;
+        }
+        h1 { font-size: 1.25rem; margin: 0 0 1rem; color: var(--accent); }
+        .layout {
+            display: grid;
+            grid-template-columns: 280px 1fr;
+            gap: 1rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        @media (max-width: 800px) { .layout { grid-template-columns: 1fr; } }
+        .list-panel {
+            background: var(--surface);
+            border-radius: 8px;
+            padding: 0.75rem;
+            max-height: 85vh;
+            overflow-y: auto;
+        }
+        .list-panel h2 { font-size: 0.9rem; margin: 0 0 0.5rem; color: var(--muted); }
+        .persona-row {
+            display: block;
+            width: 100%;
+            padding: 0.5rem 0.6rem;
+            margin-bottom: 2px;
+            border: none;
+            border-radius: 6px;
+            background: transparent;
+            color: var(--text);
+            text-align: left;
+            cursor: pointer;
+            font-size: 0.9rem;
+        }
+        .persona-row:hover { background: rgba(122, 162, 247, 0.15); }
+        .persona-row.active { background: rgba(122, 162, 247, 0.25); }
+        .persona-row .num { color: var(--muted); margin-right: 0.5rem; }
+        .persona-row .name { font-weight: 600; }
+        .persona-row .class { color: var(--muted); font-size: 0.8em; }
+        .form-panel {
+            background: var(--surface);
+            border-radius: 8px;
+            padding: 1.25rem;
+            overflow-y: auto;
+        }
+        .form-panel.empty { display: flex; align-items: center; justify-content: center; color: var(--muted); }
+        label {
+            display: block;
+            margin-top: 1rem;
+            margin-bottom: 0.25rem;
+            font-size: 0.85rem;
+            color: var(--muted);
+        }
+        input[type="text"], input[type="number"], textarea {
+            width: 100%;
+            padding: 0.5rem 0.6rem;
+            border: 1px solid var(--muted);
+            border-radius: 6px;
+            background: var(--bg);
+            color: var(--text);
+            font: inherit;
+        }
+        textarea { min-height: 80px; resize: vertical; }
+        .stats-row { display: grid; grid-template-columns: repeat(6, 1fr); gap: 0.5rem; }
+        .stats-row label { margin-top: 0.5rem; }
+        .stats-row input { width: 100%; }
+        .btn {
+            padding: 0.5rem 1rem;
+            border: none;
+            border-radius: 6px;
+            font: inherit;
+            cursor: pointer;
+            margin-top: 1rem;
+        }
+        .btn-primary { background: var(--accent); color: var(--bg); }
+        .btn-primary:hover { filter: brightness(1.1); }
+        .btn-secondary { background: var(--muted); color: var(--text); margin-left: 0.5rem; }
+        .saved { color: var(--good); font-size: 0.85rem; margin-left: 0.5rem; }
+    </style>
+</head>
+<body>
+    <h1>Casandalee Personality Editor</h1>
+    <p style="color: var(--muted); font-size: 0.9rem;">Edit personalities in <code>data/personalities/</code>. The bot watches this folder and reloads on save. Daily random messages use <strong>Memory Snippets</strong> as <em>"Name (life#): snippet"</em>.</p>
+    <p id="dataDirInfo" style="color: var(--muted); font-size: 0.8rem; font-family: monospace;"></p>
+
+    <div class="layout">
+        <div class="list-panel">
+            <h2>Personalities</h2>
+            <div id="list"></div>
+            <button type="button" class="btn btn-secondary" id="btnNew" style="margin-top: 0.5rem; width: 100%;">+ New life (1–72)</button>
+        </div>
+        <div class="form-panel empty" id="formPanel">
+            Select a personality to edit, or create a new one.
+        </div>
+    </div>
+
+    <script>
+        const API = '/api/personalities';
+        const DEFAULT_STATS = { str: 15, dex: 15, con: 14, wis: 12, int: 12, cha: 10 };
+
+        let list = [];
+        let currentFilename = null;
+
+        async function loadList() {
+            const [listRes, configRes] = await Promise.all([fetch(API), fetch('/api/config')]);
+            list = await listRes.json();
+            const config = configRes.ok ? await configRes.json() : {};
+            const dirEl = document.getElementById('dataDirInfo');
+            if (dirEl && config.dataDir) dirEl.textContent = 'Reading from: ' + config.dataDir + (config.fileCount != null ? ' (' + config.fileCount + ' .md files)' : '');
+            renderList();
+        }
+
+        function renderList() {
+            const el = document.getElementById('list');
+            el.innerHTML = list.map(p => `
+                <button type="button" class="persona-row ${p.filename === currentFilename ? 'active' : ''}" data-filename="${encodeURIComponent(p.filename)}">
+                    <span class="num">${p.lifeNumber === 0 ? 'G' : '#' + p.lifeNumber}</span>
+                    <span class="name">${escapeHtml(p.name || p.filename)}</span>
+                    ${p.class ? `<span class="class"> — ${escapeHtml(p.class)}</span>` : ''}
+                </button>
+            `).join('');
+            el.querySelectorAll('.persona-row').forEach(btn => {
+                btn.addEventListener('click', () => selectPersonality(btn.dataset.filename));
+            });
+        }
+
+        function escapeHtml(s) {
+            const div = document.createElement('div');
+            div.textContent = s;
+            return div.innerHTML;
+        }
+
+        async function selectPersonality(encodedFilename) {
+            currentFilename = decodeURIComponent(encodedFilename);
+            renderList();
+            const res = await fetch(API + '/' + encodedFilename);
+            if (!res.ok) return;
+            const data = await res.json();
+            renderForm(data);
+        }
+
+        function renderForm(data) {
+            const panel = document.getElementById('formPanel');
+            panel.classList.remove('empty');
+            const stats = data.stats || DEFAULT_STATS;
+            const snippets = Array.isArray(data.memorySnippets) ? data.memorySnippets.join('\n') : '';
+            panel.innerHTML = `
+                <input type="hidden" id="filename" value="${escapeHtml(data.filename)}">
+                <input type="hidden" id="lifeNumber" value="${data.lifeNumber ?? ''}">
+                <input type="hidden" id="type" value="${data.type || 'past_life'}">
+
+                <label>Name</label>
+                <input type="text" id="name" value="${escapeHtml(data.name || '')}" placeholder="Character name">
+
+                <label>Class</label>
+                <input type="text" id="class" value="${escapeHtml(data.class || '')}" placeholder="e.g. Wizard, Cleric">
+
+                <label>Alignment</label>
+                <input type="text" id="alignment" value="${escapeHtml(data.alignment || '')}" placeholder="e.g. Neutral Good">
+
+                <label>Birth Year (AR; -4363 = Rain of Stars, 2050–4717 typical; blank = unknown)</label>
+                <input type="number" id="birthYear" value="${data.birthYear !== undefined && data.birthYear !== null && data.birthYear !== '' ? escapeHtml(String(data.birthYear)) : ''}" placeholder="e.g. 3200" min="-4363" max="4717" step="1">
+
+                <label>Personality (used in LLM prompt)</label>
+                <textarea id="personality" placeholder="Brief personality description...">${escapeHtml(data.personality || '')}</textarea>
+
+                <label>Speech Style</label>
+                <textarea id="speechStyle" placeholder="How they speak...">${escapeHtml(data.speechStyle || '')}</textarea>
+
+                <label>Tone</label>
+                <input type="text" id="tone" value="${escapeHtml(data.tone || '')}" placeholder="e.g. scholarly, aggressive">
+
+                <label>Preferred Emojis (space-separated)</label>
+                <input type="text" id="emojis" value="${Array.isArray(data.emojis) ? data.emojis.join(' ') : (data.emojis || '')}" placeholder="✨ 🌙 🔮">
+
+                <label>Pathfinder stats (25-point buy)</label>
+                <div class="stats-row">
+                    <div><label>STR</label><input type="number" id="str" min="7" max="18" value="${stats.str ?? 10}"></div>
+                    <div><label>DEX</label><input type="number" id="dex" min="7" max="18" value="${stats.dex ?? 10}"></div>
+                    <div><label>CON</label><input type="number" id="con" min="7" max="18" value="${stats.con ?? 10}"></div>
+                    <div><label>WIS</label><input type="number" id="wis" min="7" max="18" value="${stats.wis ?? 10}"></div>
+                    <div><label>INT</label><input type="number" id="int" min="7" max="18" value="${stats.int ?? 10}"></div>
+                    <div><label>CHA</label><input type="number" id="cha" min="7" max="18" value="${stats.cha ?? 10}"></div>
+                </div>
+
+                <label>Memory Snippets (one per line — used for daily "Name (life#): ..." messages)</label>
+                <textarea id="memorySnippets" placeholder="They came at us day and night...&#10;I was in the surgery for 37 hours." style="min-height: 120px;">${escapeHtml(snippets)}</textarea>
+
+                <label>Timeline Quote (generated by correlate-timeline-quotes.js from campaign timeline; can edit)</label>
+                <textarea id="timelineQuote" placeholder="(Run tools/correlate-timeline-quotes.js to generate)" style="min-height: 60px;">${escapeHtml(data.timelineQuote || '')}</textarea>
+
+                <div>
+                    <button type="button" class="btn btn-primary" id="btnSave">Save</button>
+                    <span class="saved" id="savedMsg"></span>
+                </div>
+            `;
+
+            document.getElementById('btnSave').addEventListener('click', saveCurrent);
+        }
+
+        function getFormPayload() {
+            const snippetsEl = document.getElementById('memorySnippets');
+            const memorySnippets = snippetsEl ? snippetsEl.value.split('\n').map(s => s.trim()).filter(Boolean) : [];
+            return {
+                filename: document.getElementById('filename').value,
+                lifeNumber: document.getElementById('type').value === 'goddess' ? 0 : parseInt(document.getElementById('lifeNumber').value, 10),
+                type: document.getElementById('type').value,
+                name: document.getElementById('name').value.trim(),
+                class: document.getElementById('class').value.trim(),
+                alignment: document.getElementById('alignment').value.trim(),
+                birthYear: (() => { const v = document.getElementById('birthYear').value.trim(); const n = parseInt(v, 10); return v === '' ? null : (isNaN(n) ? null : n); })(),
+                timelineQuote: document.getElementById('timelineQuote') ? document.getElementById('timelineQuote').value.trim() : null,
+                personality: document.getElementById('personality').value.trim(),
+                speechStyle: document.getElementById('speechStyle').value.trim(),
+                tone: document.getElementById('tone').value.trim(),
+                emojis: document.getElementById('emojis').value.trim().split(/\s+/).filter(Boolean),
+                stats: {
+                    str: parseInt(document.getElementById('str').value, 10) || 10,
+                    dex: parseInt(document.getElementById('dex').value, 10) || 10,
+                    con: parseInt(document.getElementById('con').value, 10) || 10,
+                    wis: parseInt(document.getElementById('wis').value, 10) || 10,
+                    int: parseInt(document.getElementById('int').value, 10) || 10,
+                    cha: parseInt(document.getElementById('cha').value, 10) || 10
+                },
+                memorySnippets
+            };
+        }
+
+        async function saveCurrent() {
+            if (!currentFilename) return;
+            const payload = getFormPayload();
+            const res = await fetch(API + '/' + encodeURIComponent(currentFilename), {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(payload)
+            });
+            const msgEl = document.getElementById('savedMsg');
+            if (res.ok) {
+                msgEl.textContent = 'Saved. Bot will reload personalities automatically.';
+                setTimeout(() => { msgEl.textContent = ''; }, 3000);
+            } else {
+                const err = await res.json();
+                msgEl.textContent = 'Error: ' + (err.error || res.status);
+                msgEl.style.color = '#f7768e';
+            }
+        }
+
+        document.getElementById('btnNew').addEventListener('click', () => {
+            const n = prompt('Life number (1–72)?', '37');
+            if (n == null) return;
+            const num = parseInt(n, 10);
+            if (isNaN(num) || num < 1 || num > 72) {
+                alert('Life number must be 1–72');
+                return;
+            }
+            fetch(API, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    lifeNumber: num,
+                    name: 'New Life',
+                    class: '',
+                    alignment: 'True Neutral',
+                    personality: '',
+                    speechStyle: '',
+                    tone: 'neutral',
+                    emojis: ['✨'],
+                    stats: DEFAULT_STATS,
+                    memorySnippets: []
+                })
+            }).then(async res => {
+                if (res.ok) {
+                    const { filename } = await res.json();
+                    await loadList();
+                    selectPersonality(encodeURIComponent(filename));
+                } else {
+                    const err = await res.json();
+                    alert(err.error || 'Failed to create');
+                }
+            });
+        });
+
+        loadList();
+    </script>
+</body>
+</html>

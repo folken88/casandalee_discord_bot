@@ -174,6 +174,17 @@ ${archetype.tone}
 ## Preferred Emojis
 ${archetype.emojis.join(' ')}
 
+## Stats
+- **STR:** 15
+- **DEX:** 15
+- **CON:** 14
+- **WIS:** 12
+- **INT:** 12
+- **CHA:** 10
+
+## Memory Snippets
+- (Add memory lines for daily "Name (life#): ..." channel messages)
+
 ## Flavor Notes
 - When this personality is active, subtly incorporate their speaking style
 - Do NOT explicitly state which personality is speaking
@@ -208,6 +219,17 @@ divine
 
 ## Preferred Emojis
 🌟 ✨ 💫 ⚡ 🔮
+
+## Stats
+- **STR:** 10
+- **DEX:** 10
+- **CON:** 10
+- **WIS:** 10
+- **INT:** 10
+- **CHA:** 10
+
+## Memory Snippets
+- (Goddess form can have memory snippets too)
 
 ## Flavor Notes
 - This is the "default" Casandalee most players expect

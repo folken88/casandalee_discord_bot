@@ -6,14 +6,48 @@
 const cron = require('node-cron');
 const timelineSearch = require('./timelineSearch');
 const personalityManager = require('./personalityManager');
-const llmRouter = require('./llmRouter');
 const logger = require('./logger');
+
+/**
+ * Generate one random in-character message using a timeline quote from a past life.
+ * Used by scheduled daily posts and by /memory command.
+ * @returns {Promise<string|null>} Message content including emoji, or null on failure
+ */
+async function generateRandomMessageContent() {
+    try {
+        logger.info('💬 Generating random Cass message (timeline quote)...');
+        const personality = personalityManager.getRandomPersonalityWithTimelineQuote();
+        if (!personality || !personality.timelineQuote) {
+            logger.warn('No personality with timeline quote available, skipping');
+            return null;
+        }
+
+        const emoji = personalityManager.pickEmoji(personality);
+        const displayName = personality.name || 'Cass';
+        const lifeLabel = personality.lifeNumber;
+        const message = `${displayName} (${lifeLabel}): ${personality.timelineQuote.trim()}`;
+        logger.info(`💬 Using timeline quote for ${displayName} (${lifeLabel})`);
+
+        if (!message || message.length < 5) {
+            logger.warn('Random message too short, skipping');
+            return null;
+        }
+        return `${emoji} ${message}`;
+    } catch (error) {
+        logger.error('Error generating random message:', error.message);
+        return null;
+    }
+}
 
 class DailyHistoryScheduler {
     constructor(client) {
         this.client = client;
         this.generalChannelId = '303941538021638164';
         this.isRunning = false;
+        /** @type {NodeJS.Timeout[]} Timeouts for random daily quote posts (6am–6pm) */
+        this.randomMessageTimeouts = [];
+        this.dailyHistoryCron = null;
+        this.sixAmCron = null;
     }
 
     /**
@@ -26,29 +60,16 @@ class DailyHistoryScheduler {
         }
 
         // Schedule daily history at 7:30 AM
-        cron.schedule('0 30 7 * * *', async () => {
+        this.dailyHistoryCron = cron.schedule('0 30 7 * * *', async () => {
             await this.postDailyHistory();
         }, {
             scheduled: true,
             timezone: 'America/Chicago'
         });
 
-        // Schedule random Cass messages (1-2 per day)
-        // First opportunity: around 11 AM
-        cron.schedule('0 0 11 * * *', async () => {
-            if (Math.random() < 0.6) { // 60% chance
-                await this.postRandomMessage();
-            }
-        }, {
-            scheduled: true,
-            timezone: 'America/Chicago'
-        });
-
-        // Second opportunity: around 4 PM
-        cron.schedule('0 0 16 * * *', async () => {
-            if (Math.random() < 0.5) { // 50% chance
-                await this.postRandomMessage();
-            }
+        // At 6 AM, schedule 1–2 random timeline-quote messages at random times between 6am and 6pm
+        this.sixAmCron = cron.schedule('0 0 6 * * *', () => {
+            this.scheduleTodaysRandomMessages();
         }, {
             scheduled: true,
             timezone: 'America/Chicago'
@@ -56,18 +77,48 @@ class DailyHistoryScheduler {
 
         this.isRunning = true;
         logger.info('📅 Daily history scheduler started - will post at 7:30 AM daily');
-        logger.info('💬 Random message scheduler started - up to 2 messages/day');
+        logger.info('💬 Random timeline-quote messages: 1–2 per day, random time between 6am–6pm');
+    }
+
+    /**
+     * Schedule 1 or 2 random quote posts at random times between now (6am) and 6pm (12h window).
+     */
+    scheduleTodaysRandomMessages() {
+        for (const id of this.randomMessageTimeouts) {
+            clearTimeout(id);
+        }
+        this.randomMessageTimeouts = [];
+
+        const numMessages = Math.random() < 0.5 ? 1 : 2;
+        const twelveHoursMs = 12 * 60 * 60 * 1000;
+
+        for (let i = 0; i < numMessages; i++) {
+            const delayMs = Math.floor(Math.random() * twelveHoursMs);
+            const id = setTimeout(async () => {
+                await this.postRandomMessage();
+                this.randomMessageTimeouts = this.randomMessageTimeouts.filter(t => t !== id);
+            }, delayMs);
+            this.randomMessageTimeouts.push(id);
+        }
+
+        logger.info(`💬 Scheduled ${numMessages} random timeline-quote message(s) between 6am–6pm`);
     }
 
     /**
      * Stop the daily history scheduler
      */
     stop() {
-        if (this.isRunning) {
-            cron.destroy();
-            this.isRunning = false;
-            logger.info('📅 Daily history scheduler stopped');
+        if (!this.isRunning) return;
+        for (const id of this.randomMessageTimeouts) {
+            clearTimeout(id);
         }
+        this.randomMessageTimeouts = [];
+        if (this.dailyHistoryCron) this.dailyHistoryCron.destroy();
+        if (this.sixAmCron) this.sixAmCron.destroy();
+        this.dailyHistoryCron = null;
+        this.sixAmCron = null;
+        this.isRunning = false;
+        logger.info('📅 Daily history scheduler stopped');
     }
 
     /**
@@ -202,65 +253,21 @@ class DailyHistoryScheduler {
     }
 
     /**
-     * Post a random in-character message from Cass
-     * Uses Ollama (background task, no user waiting) for generation.
+     * Post a random in-character message from Cass.
+     * If the chosen personality has memory snippets, posts one as "Name (life#): snippet".
+     * Otherwise uses Ollama to generate a short in-character message.
      */
     async postRandomMessage() {
         try {
-            logger.info('💬 Generating random Cass message...');
-
-            // Pick a random personality for this message
-            const personality = personalityManager.getRandomPersonality();
-            const emoji = personalityManager.pickEmoji(personality);
-            const promptFragment = personalityManager.buildPromptFragment(personality);
-
-            // Topic pools
-            const topics = [
-                'Share a brief philosophical musing about the nature of souls and machines.',
-                'Make a short observation about something you noticed in Golarion recently.',
-                'Share a fragment of a memory from one of your past lives.',
-                'Offer a brief piece of advice about innovation or invention.',
-                'Comment on the weather or time of day in a way that references your past.',
-                'Share a very short thought about one of your friends who freed you.',
-                'Make a brief cryptic remark about the future or a prophecy.',
-                'Share a quick thought about what freedom means to an AI goddess.'
-            ];
-            const topic = topics[Math.floor(Math.random() * topics.length)];
-
-            const system = `You are Casandalee, a goddess of innovation and free thought. ${promptFragment}\n\nKeep your message to 1-2 sentences maximum. Be subtle and in-character. Do not announce yourself or explain what you are doing. Just say something interesting.`;
-
-            // Use Ollama for background generation (free, no rate limits)
-            let message;
-            try {
-                const result = await llmRouter.route(topic, {
-                    task: 'background',
-                    system,
-                    maxTokens: 100,
-                    temperature: 0.9
-                });
-                message = result.text;
-            } catch (err) {
-                logger.warn('Ollama failed for random message, skipping:', err.message);
-                return;
-            }
-
-            if (!message || message.length < 5) {
-                logger.warn('Random message too short, skipping');
-                return;
-            }
-
-            // Post to general channel
-            try {
-                const channel = await this.client.channels.fetch(this.generalChannelId);
-                if (channel) {
-                    await channel.send(`${emoji} ${message}`);
-                    logger.info(`💬 Random message posted (${personality.type === 'goddess' ? 'Goddess' : `Life #${personality.lifeNumber}: ${personality.name}`})`);
-                }
-            } catch (channelErr) {
-                logger.error('Error posting random message to channel:', channelErr.message);
+            const content = await generateRandomMessageContent();
+            if (!content) return;
+            const channel = await this.client.channels.fetch(this.generalChannelId);
+            if (channel) {
+                await channel.send(content);
+                logger.info('💬 Random message posted');
             }
         } catch (error) {
-            logger.error('Error generating random message:', error.message);
+            logger.error('Error posting random message to channel:', error.message);
         }
     }
 
@@ -274,6 +281,7 @@ class DailyHistoryScheduler {
 }
 
 module.exports = DailyHistoryScheduler;
+module.exports.generateRandomMessageContent = generateRandomMessageContent;
 
 
 

@@ -10,7 +10,7 @@ const logger = require('./logger');
 
 class LLMRouter {
     constructor() {
-        this.ollamaUrl = process.env.OLLAMA_URL || 'http://ollama:11434';
+        this.ollamaUrl = process.env.OLLAMA_URL || 'http://localhost:5080';
         this.ollamaModelFast = process.env.OLLAMA_MODEL_FAST || 'qwen2.5:7b';
         this.ollamaModelQuality = process.env.OLLAMA_MODEL_QUALITY || 'llama3.1:8b';
         this.anthropicApiKey = process.env.ANTHROPIC_API_KEY || null;

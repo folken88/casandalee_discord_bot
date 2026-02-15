@@ -20,6 +20,7 @@ const llmRouter = require('./utils/llmRouter');
 const googleSheetsIntegration = require('./utils/googleSheetsIntegration');
 const llmHandler = require('./utils/llmHandler');
 const logger = require('./utils/logger');
+const personalityManager = require('./utils/personalityManager');
 const DailyHistoryScheduler = require('./utils/dailyHistory');
 
 // Create Discord client
@@ -171,7 +172,23 @@ client.once(Events.ClientReady, async readyClient => {
     } catch (error) {
         logger.error('❌ Failed to start daily history scheduler:', error);
     }
-    
+
+    // Watch personality files so edits in the editor take effect without restart
+    try {
+        const personalitiesDir = path.join(__dirname, '../data/personalities');
+        if (fs.existsSync(personalitiesDir)) {
+            fs.watch(personalitiesDir, { recursive: false }, (eventType, filename) => {
+                if (filename && filename.endsWith('.md')) {
+                    logger.info(`Personality file changed: ${filename}, reloading...`);
+                    personalityManager.reload();
+                }
+            });
+            logger.info('✅ Watching data/personalities for changes');
+        }
+    } catch (error) {
+        logger.warn('Could not watch personality directory:', error.message);
+    }
+
     logger.info(`Bot is ready and listening for commands`);
 });
 
@@ -433,7 +450,7 @@ logger.info('Bot process started', {
 
 // Login to Discord
 logger.info('Attempting to login to Discord...');
-client.login(process.env.DISCORD_TOKEN).catch(error => {
+client.login((process.env.DISCORD_TOKEN || '').trim()).catch(error => {
     logger.error('Failed to login to Discord:', error);
     process.exit(1);
 });

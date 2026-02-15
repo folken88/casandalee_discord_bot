@@ -9,8 +9,9 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install --omit=dev --no-package-lock
 
-# Copy source code
+# Copy source code and tools (personality editor)
 COPY src/ ./src/
+COPY tools/ ./tools/
 
 # Copy data files
 COPY *.csv ./
@@ -30,8 +31,8 @@ RUN adduser -S cass -u 1001
 RUN chown -R cass:nodejs /app
 USER cass
 
-# Expose port (if needed for health checks)
-EXPOSE 3000
+# Expose ports: bot (3000), personality editor (3960)
+EXPOSE 3000 3960
 
 # Health check
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \

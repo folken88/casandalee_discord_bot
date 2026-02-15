@@ -117,6 +117,24 @@ node -e "require('dotenv').config(); const OpenAI = require('openai'); const cli
    /refresh timeline
    ```
 
+### /memory or Daily Random Quotes Show Nothing
+
+**Symptoms**: `/memory` returns nothing, or no random timeline quotes appear in the channel.
+
+**Solutions**:
+
+1. **Restart Discord** — Slash commands and replies can be cached; fully quit and reopen the Discord client.
+2. **Ensure timeline quotes exist** — Daily messages and `/memory` use only the **## Timeline Quote** from each personality. Generate them with:
+   ```bash
+   node tools/correlate-timeline-quotes.js
+   ```
+   (Requires Ollama on port 5080; see `tools/TIMELINE_QUOTES.md`.)
+3. **Check bot logs** when you run `/memory`:
+   ```bash
+   docker-compose logs -f cass-bot | grep -E "Memory|timeline quote"
+   ```
+   Look for "Using timeline quote for …" or "No personality with timeline quote available".
+
 ### Docker Container Won't Start
 
 **Symptoms**: `docker-compose up` fails or container immediately stops.

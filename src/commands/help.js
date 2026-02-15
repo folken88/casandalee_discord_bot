@@ -21,6 +21,8 @@ module.exports = {
 • \`/charactersheet <name> [image]\` - Upload a character sheet screenshot to auto-import stats
 • \`/campaign [type]\` - Get campaign information and world state
 • \`/timeline [search]\` - Search the campaign timeline for events
+• \`/memory\` - Have Cass share a random memory or thought (from one of her 72 lives)
+• \`/persona\` - See which personality (past life or goddess form) she is right now
 • \`/help\` - Show this help message
 
 **Features:**
