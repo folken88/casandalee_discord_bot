@@ -3,6 +3,7 @@
  */
 
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
+const { getTimelineEntityEmojis } = require('../utils/timelineEmoji');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -30,16 +31,19 @@ module.exports = {
                 .setTimestamp()
                 .setFooter({ text: 'Casandalee Historical Archive' });
             
-            // Add events
+            // Add events (include server emoji for mapped timeline entities)
+            const guild = interaction.guild ?? null;
             const maxEvents = Math.min(todayEvents.length, 10);
             for (let i = 0; i < maxEvents; i++) {
                 const event = todayEvents[i];
                 const parsedDate = parseEventDate(event.date);
                 const year = parsedDate ? parsedDate.year : 'Unknown';
-                
+                const eventText = `${event.location || ''} ${event.description || ''}`.trim();
+                const entityEmojis = guild ? getTimelineEntityEmojis(guild, eventText) : [];
+                const value = entityEmojis.length > 0 ? `${entityEmojis.join(' ')} ${event.description}` : event.description;
                 embed.addFields({
                     name: `${year} - ${event.location}`,
-                    value: `${event.description}`,
+                    value,
                     inline: false
                 });
             }

@@ -22,7 +22,7 @@ module.exports = {
 
         try {
             await interaction.deferReply();
-            const content = await generateRandomMessageContent();
+            const content = await generateRandomMessageContent(interaction.client);
             const toSend = (content && content.trim().length > 0)
                 ? content.trim()
                 : 'I couldn’t summon a memory right now. Try again in a moment.';

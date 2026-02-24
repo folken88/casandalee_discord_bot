@@ -1,5 +1,6 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const llmHandler = require('../utils/llmHandler');
+const discordUserMap = require('../utils/discordUserMap');
 const logger = require('../utils/logger');
 
 module.exports = {
@@ -24,12 +25,14 @@ module.exports = {
 
         try {
             const question = interaction.options.getString('question');
-            
+            // Use Iron Gods character name when mapped, else Discord username
+            const speakerName = discordUserMap.getCharacterByDiscordId(interaction.user.id) || interaction.user.username;
+
             // Show typing indicator
             await interaction.deferReply();
             
-            // Process with LLM
-            const response = await llmHandler.processQuery(question, interaction.user.username);
+            // Process with LLM (Cass will address speaker by speakerName)
+            const response = await llmHandler.processQuery(question, speakerName);
             
             // Create simple response (no embed, just text)
             await interaction.editReply(response);

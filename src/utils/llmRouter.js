@@ -392,8 +392,21 @@ class LLMRouter {
             }
         }
 
-        // Tier 2: User-facing / personality -> Claude Haiku (fast, cheap)
+        // Tier 2: Personality / user-facing — try 5080 (Ollama) first; API for what it can't handle
         if (task === 'user-facing' || task === 'personality') {
+            try {
+                const text = await this.ollamaGenerate(prompt, {
+                    ...options,
+                    maxTokens: options.maxTokens || 250,
+                    temperature: options.temperature ?? 0.7,
+                    timeout: 45000
+                });
+                if (text && text.trim().length > 0) {
+                    return { text: text.trim(), provider: 'ollama' };
+                }
+            } catch (err) {
+                logger.warn('Ollama (5080) failed for personality, using API:', err.message);
+            }
             if (this.anthropicApiKey) {
                 try {
                     const text = await this.claudeGenerate(prompt, {
@@ -403,7 +416,6 @@ class LLMRouter {
                     return { text, provider: 'claude-haiku' };
                 } catch (err) {
                     logger.warn('Claude Haiku failed, falling back to OpenAI');
-                    // Fall through to tier 3
                 }
             }
         }

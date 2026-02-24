@@ -6,33 +6,55 @@
 const cron = require('node-cron');
 const timelineSearch = require('./timelineSearch');
 const personalityManager = require('./personalityManager');
+const { getAlignmentEmojiForGuild } = require('./alignmentEmoji');
+const { appendTimelineEntityEmojis } = require('./timelineEmoji');
 const logger = require('./logger');
 
 /**
  * Generate one random in-character message using a timeline quote from a past life.
  * Used by scheduled daily posts and by /memory command.
+ * @param {import('discord.js').Client} [client] - Discord client; if provided, server alignment emoji is included when available
  * @returns {Promise<string|null>} Message content including emoji, or null on failure
  */
-async function generateRandomMessageContent() {
+async function generateRandomMessageContent(client) {
     try {
         logger.info('💬 Generating random Cass message (timeline quote)...');
         const personality = personalityManager.getRandomPersonalityWithTimelineQuote();
-        if (!personality || !personality.timelineQuote) {
-            logger.warn('No personality with timeline quote available, skipping');
+        const hasQuote = personality?.timelineQuote && !personalityManager.constructor._isPlaceholderTimelineQuote(personality.timelineQuote);
+        const hasLines = personality?.oneLiners?.length > 0;
+        if (!personality || (!hasQuote && !hasLines)) {
+            logger.warn('No personality with timeline quote or one-liners available, skipping');
             return null;
         }
+        const useOneLiner = hasLines && (!hasQuote || Math.random() < 0.35);
+        const quoteText = useOneLiner && hasLines
+            ? personality.oneLiners[Math.floor(Math.random() * personality.oneLiners.length)].trim()
+            : personality.timelineQuote.trim();
 
         const emoji = personalityManager.pickEmoji(personality);
         const displayName = personality.name || 'Cass';
-        const lifeLabel = personality.lifeNumber;
-        const message = `${displayName} (${lifeLabel}): ${personality.timelineQuote.trim()}`;
-        logger.info(`💬 Using timeline quote for ${displayName} (${lifeLabel})`);
+        const yearLabel = personality.birthYear != null ? String(personality.birthYear) : `life ${personality.lifeNumber}`;
+        const message = `${displayName} ${yearLabel}, ${quoteText}`;
+        logger.info(`💬 Using timeline quote for ${displayName} ${yearLabel}`);
 
         if (!message || message.length < 5) {
             logger.warn('Random message too short, skipping');
             return null;
         }
-        return `${emoji} ${message}`;
+
+        let prefix = emoji;
+        let guild = null;
+        if (client) {
+            const guildId = process.env.GUILD_ID;
+            guild = guildId ? await client.guilds.fetch(guildId).catch(() => null) : null;
+            if (guild && personality.alignment) {
+                const alignmentEmoji = getAlignmentEmojiForGuild(guild, personality.alignment);
+                if (alignmentEmoji) prefix = `${alignmentEmoji} ${emoji}`;
+            }
+        }
+        let out = `${prefix} ${message}`;
+        if (guild && quoteText) out = appendTimelineEntityEmojis(out, guild, quoteText);
+        return out;
     } catch (error) {
         logger.error('Error generating random message:', error.message);
         return null;
@@ -259,7 +281,7 @@ class DailyHistoryScheduler {
      */
     async postRandomMessage() {
         try {
-            const content = await generateRandomMessageContent();
+            const content = await generateRandomMessageContent(this.client);
             if (!content) return;
             const channel = await this.client.channels.fetch(this.generalChannelId);
             if (channel) {

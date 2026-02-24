@@ -98,3 +98,6 @@ Thumbs.db
 # Bot specific
 data/
 temp/
+
+# Tool completion markers (design-persona-lives-5080.js)
+.design-persona-lives-complete

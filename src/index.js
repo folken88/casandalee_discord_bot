@@ -19,6 +19,7 @@ const nameResolver = require('./utils/nameResolver');
 const llmRouter = require('./utils/llmRouter');
 const googleSheetsIntegration = require('./utils/googleSheetsIntegration');
 const llmHandler = require('./utils/llmHandler');
+const discordUserMap = require('./utils/discordUserMap');
 const logger = require('./utils/logger');
 const personalityManager = require('./utils/personalityManager');
 const DailyHistoryScheduler = require('./utils/dailyHistory');
@@ -332,13 +333,15 @@ client.on(Events.MessageCreate, async message => {
                 return;
             }
             
-            logger.info('Processing query with LLM', { query, username: message.author.username });
+            // Use Iron Gods character name when mapped, else Discord username
+            const speakerName = discordUserMap.getCharacterByDiscordId(message.author.id) || message.author.username;
+            logger.info('Processing query with LLM', { query, speakerName, userId: message.author.id });
             
             // Show typing indicator
             await message.channel.sendTyping();
             
-            // Process the query with LLM
-            const response = await llmHandler.processQuery(query, message.author.username);
+            // Process the query with LLM (Cass will address speaker by speakerName)
+            const response = await llmHandler.processQuery(query, speakerName);
             
             logger.info('LLM response generated', { responseLength: response.length });
             

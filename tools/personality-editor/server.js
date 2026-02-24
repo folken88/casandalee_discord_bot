@@ -34,6 +34,7 @@ function parsePersonalityMd(content, filename) {
         stats: null,
         memorySnippets: [],
         birthYear: null,
+        deathYear: null,
         timelineQuote: null  // Generated from timeline correlation (Ollama)
     };
 
@@ -50,6 +51,11 @@ function parsePersonalityMd(content, filename) {
     if (birthYearMatch) {
         const y = parseInt(birthYearMatch[1] || birthYearMatch[2], 10);
         if (!isNaN(y)) data.birthYear = y;
+    }
+    const deathYearMatch = content.match(/\*\*Death Year:\*\*\s*(-?\d+)|Death Year:\s*(-?\d+)/i);
+    if (deathYearMatch) {
+        const y = parseInt(deathYearMatch[1] || deathYearMatch[2], 10);
+        if (!isNaN(y)) data.deathYear = y;
     }
 
     const persMatch = content.match(/## Personality\n([\s\S]*?)(?=\n## |$)/);
@@ -112,6 +118,7 @@ function buildPersonalityMd(payload) {
         lifeNumber,
         type,
         birthYear,
+        deathYear,
         timelineQuote
     } = payload;
 
@@ -120,6 +127,8 @@ function buildPersonalityMd(payload) {
 
     const birthYearLine = !isGoddess && (birthYear !== undefined && birthYear !== null && birthYear !== '')
         ? `\n- **Birth Year:** ${birthYear}` : '';
+    const deathYearLine = !isGoddess && (deathYear !== undefined && deathYear !== null && deathYear !== '')
+        ? `\n- **Death Year:** ${deathYear}` : '';
 
     let md = `${title}
 
@@ -127,7 +136,7 @@ function buildPersonalityMd(payload) {
 - **Name:** ${name || 'Unnamed'}
 - **Class:** ${cls || '—'}
 - **Alignment:** ${alignment || '—'}
-${!isGoddess ? `- **Life Number:** ${lifeNumber}` : '- **Form:** Ascended Goddess'}${birthYearLine}
+${!isGoddess ? `- **Life Number:** ${lifeNumber}` : '- **Form:** Ascended Goddess'}${birthYearLine}${deathYearLine}
 
 ## Personality
 ${personality || ''}

@@ -25,6 +25,7 @@ const MAX_RETRIES = 2;
 
 const args = process.argv.slice(2);
 const DRY_RUN = args.includes('--dry-run');
+const LIST_PLACEHOLDERS = args.includes('--list-placeholders');
 const limitIdx = args.indexOf('--limit');
 const LIMIT = limitIdx >= 0 && args[limitIdx + 1] ? parseInt(args[limitIdx + 1], 10) : null;
 
@@ -108,17 +109,23 @@ function eventsInRange(timeline, startYear, endYear) {
     return timeline.filter(e => e.parsedDate >= startYear && e.parsedDate <= endYear);
 }
 
-/** Fallback written when Ollama fails; treat as "no quote" so we regenerate. */
-const FALLBACK_QUOTE_PATTERN = /^\s*\(I remember the years -?\d+ to -?\d+\.\)\s*$/;
+/** Placeholder text written when Ollama fails; treat as "no quote" so we regenerate. */
+const FALLBACK_QUOTE_PATTERNS = [
+    // "I remember the years X to Y" with optional parentheses/punctuation
+    /^\s*\(?I remember the years -?\d+ to -?\d+\.?\)?\s*$/i,
+    /^\s*I was alive during\s+(?:the years\s+)?-?\d+\s*(?:to|-)\s*-?\d+[.\s]*$/i,
+    /^\s*I (?:lived|was alive) (?:during|from)\s+.*\d+.*\s*(?:to|-)\s*\d+[.\s]*$/i
+];
 
 /**
- * Returns true if the given quote body is the generic fallback (not a real in-character quote).
+ * Returns true if the given quote body is generic filler (not a real in-character quote).
  * @param {string} quoteContent - Trimmed content of the ## Timeline Quote section
  * @returns {boolean}
  */
 function isFallbackQuote(quoteContent) {
     if (!quoteContent || typeof quoteContent !== 'string') return true;
-    return FALLBACK_QUOTE_PATTERN.test(quoteContent.trim());
+    const trimmed = quoteContent.trim();
+    return FALLBACK_QUOTE_PATTERNS.some(p => p.test(trimmed));
 }
 
 function parsePersonalityFile(filePath) {
@@ -190,6 +197,26 @@ function sleep(ms) {
 }
 
 async function main() {
+    const files = fs.readdirSync(PERSONALITY_DIR)
+        .filter(f => f.endsWith('.md') && /^\d{2}_/.test(f) && !f.startsWith('00_'))
+        .sort();
+    const lives = files.map(f => {
+        const filePath = path.join(PERSONALITY_DIR, f);
+        const p = parsePersonalityFile(filePath);
+        return { file: f, filePath, ...p };
+    }).filter(l => l.birthYear != null);
+
+    if (LIST_PLACEHOLDERS) {
+        const withPlaceholder = lives.filter(l => l.hadFallbackQuote);
+        if (withPlaceholder.length === 0) {
+            console.log('No placeholder timeline quotes found. All lives have real quotes or no quote section.');
+        } else {
+            console.log(`${withPlaceholder.length} persona(s) with placeholder/filler timeline quotes (run without --list-placeholders to regenerate via 5080):\n`);
+            withPlaceholder.forEach(l => console.log(`  ${l.file}  ${l.name} (born ${l.birthYear})`));
+        }
+        return;
+    }
+
     console.log('Correlate timeline quotes — Ollama (5080), stable batch run');
     console.log('Options:', { DRY_RUN, DELAY_MS: DELAY_MS / 1000 + 's', limit: LIMIT ?? 'none' });
 
@@ -204,15 +231,6 @@ async function main() {
         console.error('No timeline data. Set GOOGLE_* or ensure pf_folkengames_timeline.csv exists.');
         process.exit(1);
     }
-
-    const files = fs.readdirSync(PERSONALITY_DIR)
-        .filter(f => f.endsWith('.md') && /^\d{2}_/.test(f) && !f.startsWith('00_'))
-        .sort();
-    const lives = files.map(f => {
-        const filePath = path.join(PERSONALITY_DIR, f);
-        const p = parsePersonalityFile(filePath);
-        return { file: f, filePath, ...p };
-    }).filter(l => l.birthYear != null);
 
     console.log(`Personalities with birth year: ${lives.length}`);
 

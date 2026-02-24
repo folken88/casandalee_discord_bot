@@ -145,6 +145,8 @@ class PersonalityManager {
             birthYear: null,
             /** @type {string|null} Generated quote from timeline correlation (Ollama) */
             timelineQuote: null,
+            /** @type {string[]} Extra in-character one-liners (generate-persona-lines.js) */
+            oneLiners: [],
             raw: content
         };
 
@@ -213,6 +215,13 @@ class PersonalityManager {
         if (snippetsSection) {
             const lines = snippetsSection[1].split(/\n/).map(l => l.replace(/^\s*[-*]\s*/, '').trim()).filter(Boolean);
             if (lines.length) data.memorySnippets = lines;
+        }
+
+        // Extract one-liners (generate-persona-lines.js)
+        const oneLinersSection = content.match(/## One-Liners\s*\n([\s\S]*?)(?=\n\s*## |$)/);
+        if (oneLinersSection) {
+            const lines = oneLinersSection[1].split(/\n/).map(l => l.replace(/^\s*[-*]\s*/, '').trim()).filter(Boolean);
+            if (lines.length) data.oneLiners = lines;
         }
 
         return data;
@@ -390,11 +399,11 @@ class PersonalityManager {
         if (!personality) return '';
 
         if (personality.type === 'goddess') {
-            return `\nCURRENT PERSONALITY: Your ascended goddess form. ${personality.personality}\nSpeech style: ${personality.speechStyle || 'Warm, wise, inclusive.'}`;
+            return `\nCURRENT PERSONALITY: You are in your ascended goddess form. Your ultimate alignment as a god is Neutral Good. ${personality.personality}\nSpeech style: ${personality.speechStyle || 'Warm, wise, inclusive.'}\nRespond as the goddess—wise, hopeful, and free.`;
         }
 
         if (personality.type === 'past_life') {
-            return `\nCURRENT PERSONALITY: You are subtly channeling ${personality.name}, a ${personality.alignment} ${personality.class} from your ${personality.lifeNumber}th life. ${personality.personality}\nSpeech style: ${personality.speechStyle || ''}\nDo NOT announce which personality you are. Just subtly flavor your response.`;
+            return `\nCURRENT PERSONALITY: You are roleplaying as ${personality.name}, a ${personality.alignment} ${personality.class} from your ${personality.lifeNumber}th life. Speak, think, and relate to others as that person—using their class, experiences, and alignment (not your goddess alignment). ${personality.personality}\nSpeech style: ${personality.speechStyle || ''}\nBLEEDING KNOWLEDGE: Your past lives bleed into each other; you have hazy awareness of events after this life's death and from other lives. You may reference later timeline events or other lives as if half-remembered.\nDo NOT announce which personality you are. Respond fully in character as ${personality.name}.`;
         }
 
         return '';
@@ -420,15 +429,30 @@ class PersonalityManager {
     }
 
     /**
-     * Get a random past-life personality that has a timeline quote (for daily channel messages).
-     * @returns {Object|null} Random personality with timelineQuote, or null if none
+     * Placeholder text that must never be used for daily messages; exclude from timeline-quote pool.
+     */
+    static _isPlaceholderTimelineQuote(text) {
+        if (!text || typeof text !== 'string') return true;
+        const t = text.trim();
+        return /^\s*\(?I remember the years\s+-?\d+\s+to\s+-?\d+\.?\)?\s*$/i.test(t);
+    }
+
+    /**
+     * Get a random past-life personality that has a timeline quote and/or one-liners (for daily channel messages).
+     * Prefers timeline quote when present (non-placeholder); otherwise or randomly may use one-liner.
+     * @returns {Object|null} Random personality with something to say, or null if none
      */
     getRandomPersonalityWithTimelineQuote() {
-        const withQuote = [...this.personalities.entries()]
-            .filter(([, data]) => data.timelineQuote && String(data.timelineQuote).trim().length > 0)
+        const withContent = [...this.personalities.entries()]
+            .filter(([, data]) => {
+                const q = data.timelineQuote && String(data.timelineQuote).trim();
+                const hasQuote = q.length > 0 && !PersonalityManager._isPlaceholderTimelineQuote(q);
+                const hasLines = data.oneLiners && data.oneLiners.length > 0;
+                return hasQuote || hasLines;
+            })
             .map(([lifeNum, data]) => ({ lifeNum, ...data }));
-        if (withQuote.length === 0) return null;
-        return withQuote[Math.floor(Math.random() * withQuote.length)];
+        if (withContent.length === 0) return null;
+        return withContent[Math.floor(Math.random() * withContent.length)];
     }
 
     /**

@@ -4,6 +4,7 @@
 
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
 const campaignContext = require('../utils/campaignContext');
+const { getTimelineEntityEmojis } = require('../utils/timelineEmoji');
 
 module.exports = {
     data: new SlashCommandBuilder()
@@ -76,12 +77,15 @@ module.exports = {
                 .setFooter({ text: `Requested by ${interaction.user.username}` })
                 .setTimestamp();
             
-            // Add fields for events (Discord has a limit of 25 fields)
+            // Add fields for events (Discord has a limit of 25 fields); include server emoji for mapped timeline entities
+            const guild = interaction.guild ?? null;
             const maxFields = Math.min(events.length, 25);
             for (let i = 0; i < maxFields; i++) {
                 const event = events[i];
                 const fieldName = `${event.date} (${event.location})`;
-                const fieldValue = `${event.ap}: ${event.description}`;
+                const eventText = `${event.ap || ''} ${event.description || ''}`.trim();
+                const entityEmojis = guild ? getTimelineEntityEmojis(guild, eventText) : [];
+                const fieldValue = entityEmojis.length > 0 ? `${entityEmojis.join(' ')} ${event.ap ? event.ap + ': ' : ''}${event.description}` : `${event.ap ? event.ap + ': ' : ''}${event.description}`;
                 
                 embed.addFields({
                     name: fieldName,

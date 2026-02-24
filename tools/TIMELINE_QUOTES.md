@@ -25,6 +25,7 @@ Options:
 
 - **`--dry-run`** — Load data and log what would be done; no Ollama calls, no file writes.
 - **`--limit N`** — Process at most N lives (useful for testing). Example: `--limit 2`.
+- **`--list-placeholders`** — List personas that have placeholder/filler timeline quotes (e.g. "I remember the years X to Y" or "I was alive during..."). No timeline load or Ollama; use before re-running to regenerate.
 
 The script **never overwrites** an existing real `## Timeline Quote`. If a life already has one (or you've edited it), that file is skipped. A quote that is only the fallback `(I remember the years X to Y.)` is treated as missing so a real in-character quote will be generated and written.
 

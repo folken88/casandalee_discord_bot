@@ -178,8 +178,11 @@
                 <label>Alignment</label>
                 <input type="text" id="alignment" value="${escapeHtml(data.alignment || '')}" placeholder="e.g. Neutral Good">
 
-                <label>Birth Year (AR; -4363 = Rain of Stars, 2050–4717 typical; blank = unknown)</label>
+                <label>Birth Year (AR; -4363 = Rain of Stars; blank = unknown)</label>
                 <input type="number" id="birthYear" value="${data.birthYear !== undefined && data.birthYear !== null && data.birthYear !== '' ? escapeHtml(String(data.birthYear)) : ''}" placeholder="e.g. 3200" min="-4363" max="4717" step="1">
+
+                <label>Death Year (AR; optional — some lives very short, some long; blank = use default for continuity)</label>
+                <input type="number" id="deathYear" value="${data.deathYear !== undefined && data.deathYear !== null && data.deathYear !== '' ? escapeHtml(String(data.deathYear)) : ''}" placeholder="e.g. 4233" min="-4363" max="4717" step="1">
 
                 <label>Personality (used in LLM prompt)</label>
                 <textarea id="personality" placeholder="Brief personality description...">${escapeHtml(data.personality || '')}</textarea>
@@ -229,6 +232,7 @@
                 class: document.getElementById('class').value.trim(),
                 alignment: document.getElementById('alignment').value.trim(),
                 birthYear: (() => { const v = document.getElementById('birthYear').value.trim(); const n = parseInt(v, 10); return v === '' ? null : (isNaN(n) ? null : n); })(),
+                deathYear: (() => { const v = document.getElementById('deathYear').value.trim(); const n = parseInt(v, 10); return v === '' ? null : (isNaN(n) ? null : n); })(),
                 timelineQuote: document.getElementById('timelineQuote') ? document.getElementById('timelineQuote').value.trim() : null,
                 personality: document.getElementById('personality').value.trim(),
                 speechStyle: document.getElementById('speechStyle').value.trim(),
