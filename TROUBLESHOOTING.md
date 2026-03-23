@@ -164,6 +164,31 @@ node -e "require('dotenv').config(); const OpenAI = require('openai'); const cli
    docker system prune -a
    ```
 
+### Daily Posts Not Appearing / Cass Is Silent in the Morning
+
+**Symptoms**: No "Today in Golarion History" embed at 7:30 AM, no random timeline quotes during the day, even though the bot is online and responding to commands.
+
+**Cause A — No events for today's date**: The daily history post only fires if there are matching events in the timeline for that calendar day. If there are none, the post is silently skipped. This is expected behaviour.
+
+**Cause B — Scheduler stopped (long uptime)**: The previous `node-cron` implementation would silently stop firing after multi-day uptimes without crashing the process. This has been replaced with a `setInterval`-based heartbeat that is immune to this issue. If you are on an older version, restart the container.
+
+**Diagnosis**:
+```bash
+# Check if scheduler cron fired today
+docker logs cass-discord-bot | grep -E "Generating daily|Found [0-9]+ events|No historical"
+
+# If you see only Google Sheets refresh lines and no scheduler entries, restart:
+docker restart cass-discord-bot
+```
+
+After restart, `_tick()` runs immediately and will catch up on any missed posts.
+
+**Note**: There are two separate daily actions:
+- **7:30 AM Chicago** — "Today in Golarion History" embed (skipped silently if no events match today's date)
+- **6 AM–6 PM Chicago** — 1–2 random in-character timeline quotes at random times
+
+---
+
 ### High Memory Usage
 
 **Problem**: Bot consumes too much memory over time.

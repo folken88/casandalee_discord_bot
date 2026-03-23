@@ -7,7 +7,6 @@
 
 const fs = require('fs');
 const path = require('path');
-const cron = require('node-cron');
 const logger = require('./logger');
 const googleSheetsIntegration = require('./googleSheetsIntegration');
 const nameResolver = require('./nameResolver');
@@ -199,29 +198,39 @@ class TimelineCache {
     }
 
     /**
-     * Start the 6 AM daily cron job
+     * Start the daily cache-rebuild heartbeat (fires at 6:00 AM UTC).
+     * Uses setInterval instead of node-cron to avoid silent timer death
+     * on long-running processes.
      * @param {Function} [onNewEvents] - Callback when new events are detected
      */
     startCron(onNewEvents = null) {
-        // Run at 6:00 AM daily
-        this.cronJob = cron.schedule('0 6 * * *', async () => {
-            logger.info('Running scheduled timeline cache rebuild (6 AM)');
-            const result = await this.rebuild();
+        let lastRebuildDate = null;
 
-            if (result.newEvents.length > 0 && onNewEvents) {
-                onNewEvents(result.newEvents);
+        const check = async () => {
+            const now = new Date();
+            const utcHour = now.getUTCHours();
+            const dateKey = now.toISOString().slice(0, 10);
+
+            if (utcHour >= 6 && lastRebuildDate !== dateKey) {
+                lastRebuildDate = dateKey;
+                logger.info('Running scheduled timeline cache rebuild (6 AM)');
+                const result = await this.rebuild();
+                if (result.newEvents.length > 0 && onNewEvents) {
+                    onNewEvents(result.newEvents);
+                }
             }
-        });
+        };
 
+        this.cronJob = setInterval(check, 60_000);
         logger.info('Timeline cache cron job scheduled for 6:00 AM daily');
     }
 
     /**
-     * Stop the cron job
+     * Stop the rebuild heartbeat.
      */
     stopCron() {
         if (this.cronJob) {
-            this.cronJob.stop();
+            clearInterval(this.cronJob);
             this.cronJob = null;
         }
     }

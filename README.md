@@ -36,7 +36,7 @@ Mention Casandalee or use `/cass` for natural conversation:
 - **Timeline Cache** - Pre-indexed keyword, character, and location indexes; rebuilds daily at 6 AM
 - **Dossier Manager** - Auto-generated character profiles with player notes, roll history, emoji reaction tracking, and sheet imports
 - **Name Resolver** - Fuzzy matching with Levenshtein distance, aliases, and prefix/substring search
-- **Google Sheets Integration** - Real-time campaign data with new-event notifications
+- **Google Sheets Integration** - Daily campaign data sync (refreshes at 6 AM alongside the timeline cache) with new-event notifications
 
 ### Personality System
 Casandalee has 72 unique past-life personalities plus her goddess form, each stored as individual Markdown files with:
@@ -111,7 +111,7 @@ Casandalee has 72 unique past-life personalities plus her goddess form, each sto
 | `GOOGLE_SHEETS_SPREADSHEET_ID` | Google Sheets document ID | No |
 | `GOOGLE_SHEETS_TIMELINE_RANGE` | Timeline data range (e.g., `Sheet1!A1:D800`) | No |
 | `GOOGLE_SHEETS_CHARACTERS_RANGE` | Character data range | No |
-| `GOOGLE_SHEETS_REFRESH_INTERVAL` | Auto-refresh interval in ms | No |
+| `GOOGLE_SHEETS_REFRESH_INTERVAL` | Auto-refresh interval in ms (default: `86400000` = once daily) | No |
 | `CAMPAIGN_YEAR` | Current campaign year | No |
 | `CAMPAIGN_MONTH` | Current campaign month | No |
 | `BOT_NAME` | Bot display name (default: `Casandalee`) | No |
@@ -159,7 +159,7 @@ src/
 │   ├── personalityManager.js  # 72 personality loading, selection, flavoring
 │   ├── dossierManager.js      # Character dossier CRUD and auto-save
 │   ├── nameResolver.js        # Fuzzy name matching with aliases
-│   ├── timelineCache.js       # Pre-indexed timeline with daily cron
+│   ├── timelineCache.js       # Pre-indexed timeline with daily setInterval rebuild
 │   ├── timelineSearch.js      # Timeline search engine
 │   ├── googleSheetsIntegration.js # Google Sheets data fetcher
 │   ├── campaignContext.js     # Campaign state and context
@@ -200,6 +200,9 @@ Supports: health checks, LLM stats, timeline search, dossier lookup, direct Olla
 - `npm start` - Start the bot
 - `npm run dev` - Start with nodemon
 - `npm run deploy` - Deploy slash commands
+
+### Backup / Zipping
+To create a smaller backup zip, **exclude** `node_modules/` (run `npm install` after extracting). The `logs/` folder can be cleared before zipping; `data/` contains dossiers and personalities—keep it for a full backup.
 
 ## Author
 

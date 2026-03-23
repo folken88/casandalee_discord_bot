@@ -23,6 +23,7 @@ const discordUserMap = require('./utils/discordUserMap');
 const logger = require('./utils/logger');
 const personalityManager = require('./utils/personalityManager');
 const DailyHistoryScheduler = require('./utils/dailyHistory');
+const serverSchedule = require('./utils/serverSchedule');
 
 // Create Discord client
 const client = new Client({
@@ -190,7 +191,15 @@ client.once(Events.ClientReady, async readyClient => {
         logger.warn('Could not watch personality directory:', error.message);
     }
 
-    logger.info(`Bot is ready and listening for commands`);
+    // Silently load Discord server scheduled events into LLM context (no channel post on startup)
+    const guildId = process.env.GUILD_ID?.trim();
+    if (guildId) {
+        readyClient.guilds.fetch(guildId)
+            .then(guild => serverSchedule.updateFromGuild(guild))
+            .catch(err => logger.warn('Server schedule initial fetch failed', { error: err.message }));
+    }
+
+        logger.info(`Bot is ready and listening for commands`);
 });
 
 // Handle slash command interactions

@@ -5,7 +5,7 @@
  *
  * Key features:
  *   - Dynamic weighting: underused personalities get a boost
- *   - Hidden switch rolls: 1d7 queries or 1 hour triggers a switch
+ *   - Hidden switch rolls: 1d10 queries or 1 hour triggers a switch
  *   - Emoji flavoring: each personality has preferred emojis
  *   - Tone metadata: each personality has a tone (aggressive, scholarly, etc.)
  *   - Context-aware selection: technical questions bias toward engineer/wizard types
@@ -31,8 +31,8 @@ class PersonalityManager {
         /** @type {number} queries since last switch */
         this.queriesSinceSwitch = 0;
 
-        /** @type {number} switch threshold (1d7) */
-        this.switchThreshold = this._roll1d7();
+        /** @type {number} switch threshold (1d10) */
+        this.switchThreshold = this._roll1d10();
 
         /** @type {number} timestamp of last switch */
         this.lastSwitchTime = Date.now();
@@ -236,6 +236,14 @@ class PersonalityManager {
     }
 
     /**
+     * Roll 1d10 for switch threshold (queries until next auto or post–force-switch).
+     * @returns {number} 1–10
+     */
+    _roll1d10() {
+        return Math.floor(Math.random() * 10) + 1;
+    }
+
+    /**
      * Check if personality should switch
      * @returns {boolean}
      */
@@ -377,7 +385,7 @@ class PersonalityManager {
         if (!this.current || this.shouldSwitch()) {
             this.current = this.select(queryContext);
             this.queriesSinceSwitch = 0;
-            this.switchThreshold = this._roll1d7();
+            this.switchThreshold = this._roll1d10();
             this.lastSwitchTime = Date.now();
 
             const label = this.current.type === 'goddess'
@@ -386,6 +394,24 @@ class PersonalityManager {
             logger.info(`Personality switched to: ${label} (next switch in ${this.switchThreshold} queries or 1 hour)`);
         }
 
+        return this.current;
+    }
+
+    /**
+     * Force-switch to a new random personality (e.g. via /persona switch).
+     * New persona lasts for 1d10 responses, then auto-switch resumes.
+     * @returns {Object} The new personality data
+     */
+    forceSwitchToRandom() {
+        this.current = this.select('');
+        this.queriesSinceSwitch = 0;
+        this.switchThreshold = this._roll1d10();
+        this.lastSwitchTime = Date.now();
+
+        const label = this.current.type === 'goddess'
+            ? 'Goddess Form'
+            : `Life #${this.current.lifeNumber}: ${this.current.name} (${this.current.class})`;
+        logger.info(`Personality force-switched to: ${label} (next switch in ${this.switchThreshold} queries or 1 hour)`);
         return this.current;
     }
 

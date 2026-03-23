@@ -1,5 +1,8 @@
 FROM node:18-alpine
 
+# Timezone data so node-cron "America/Chicago" works (daily posts & quotes)
+RUN apk add --no-cache tzdata
+
 # Set working directory
 WORKDIR /app
 
@@ -34,9 +37,10 @@ USER cass
 # Expose ports: bot (3000), personality editor (3960)
 EXPOSE 3000 3960
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
-  CMD node -e "console.log('Bot is running')" || exit 1
+# Health check — verifies the bot is actively logging (Google Sheets refreshes
+# every ~5 min, so any log written in the last 10 min means the process is alive)
+HEALTHCHECK --interval=5m --timeout=10s --start-period=60s --retries=3 \
+  CMD find /app/logs -name "*.log" -mmin -10 | grep -q . || exit 1
 
 # Start the bot
 CMD ["npm", "start"]

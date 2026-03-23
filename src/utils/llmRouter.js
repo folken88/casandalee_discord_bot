@@ -1,9 +1,10 @@
 /**
  * LLM Router for Casandalee
  * Routes requests to the appropriate LLM backend:
- *   - Tier 1 (Background): Ollama qwen2.5:7b — compaction, parsing, dossier generation
- *   - Tier 2 (User-facing): Claude Haiku 3.5 — most interactive responses
- *   - Tier 3 (Complex): Claude Sonnet / GPT-4 — deep analysis, fallback
+ *   - Tier 1 (Background): Ollama (5080) — compaction, parsing, dossier generation
+ *   - Tier 2 (Personality): Ollama first, then Claude Haiku 4.5, then Ollama fallback, then OpenAI
+ *   - Tier 3 (Complex): Claude Sonnet 4.6 / GPT-4 — deep analysis
+ * From Docker, set OLLAMA_URL to reach Ollama (e.g. http://host.docker.internal:5080 or service name on ollama-network).
  */
 
 const logger = require('./logger');
@@ -168,7 +169,7 @@ class LLMRouter {
      * @param {string} prompt - User prompt
      * @param {Object} options - Configuration options
      * @param {string} [options.system] - System prompt
-     * @param {string} [options.model='claude-3-5-haiku-latest'] - Model name
+     * @param {string} [options.model='claude-haiku-4-5'] - Model name
      * @param {number} [options.maxTokens=300] - Max output tokens
      * @param {number} [options.temperature=0.7] - Temperature
      * @returns {Promise<string>} - Generated text
@@ -179,7 +180,7 @@ class LLMRouter {
             throw new Error('Anthropic API not configured');
         }
 
-        const model = options.model || 'claude-3-5-haiku-latest';
+        const model = options.model || 'claude-haiku-4-5';
         const maxTokens = options.maxTokens || 300;
         const temperature = options.temperature ?? 0.7;
 
@@ -224,7 +225,7 @@ class LLMRouter {
      * @param {string} mediaType - MIME type (e.g., 'image/png', 'image/jpeg')
      * @param {Object} options - Configuration options
      * @param {string} [options.system] - System prompt
-     * @param {string} [options.model='claude-3-5-haiku-latest'] - Model name
+     * @param {string} [options.model='claude-haiku-4-5'] - Model name
      * @param {number} [options.maxTokens=1000] - Max output tokens
      * @returns {Promise<string>} - Generated text
      */
@@ -234,7 +235,7 @@ class LLMRouter {
             throw new Error('Anthropic API not configured');
         }
 
-        const model = options.model || 'claude-3-5-haiku-latest';
+        const model = options.model || 'claude-haiku-4-5';
         const maxTokens = options.maxTokens || 1000;
 
         try {
@@ -296,7 +297,7 @@ class LLMRouter {
             throw new Error('Anthropic API not configured');
         }
 
-        const model = options.model || 'claude-3-5-haiku-latest';
+        const model = options.model || 'claude-haiku-4-5';
 
         try {
             const requestBody = {
@@ -411,12 +412,26 @@ class LLMRouter {
                 try {
                     const text = await this.claudeGenerate(prompt, {
                         ...options,
-                        model: options.model || 'claude-3-5-haiku-latest'
+                        model: options.model || 'claude-haiku-4-5'
                     });
                     return { text, provider: 'claude-haiku' };
                 } catch (err) {
-                    logger.warn('Claude Haiku failed, falling back to OpenAI');
+                    logger.warn('Claude Haiku failed, trying Ollama (5080) then OpenAI');
                 }
+            }
+            // Fallback: 5080 (Ollama) before paid API
+            try {
+                const text = await this.ollamaGenerate(prompt, {
+                    ...options,
+                    maxTokens: options.maxTokens || 250,
+                    temperature: options.temperature ?? 0.7,
+                    timeout: 45000
+                });
+                if (text && text.trim().length > 0) {
+                    return { text: text.trim(), provider: 'ollama-fallback' };
+                }
+            } catch (err) {
+                logger.warn('Ollama (5080) fallback failed:', err.message);
             }
         }
 
@@ -426,7 +441,7 @@ class LLMRouter {
                 try {
                     const text = await this.claudeGenerate(prompt, {
                         ...options,
-                        model: 'claude-3-5-sonnet-latest'
+                        model: 'claude-sonnet-4-6'
                     });
                     return { text, provider: 'claude-sonnet' };
                 } catch (err) {

@@ -4,6 +4,7 @@
  */
 
 const googleSheetsIntegration = require('./googleSheetsIntegration');
+const serverSchedule = require('./serverSchedule');
 
 class CampaignContext {
     constructor() {
@@ -421,6 +422,13 @@ class CampaignContext {
             });
         }
         
+        // Discord server schedule (e.g. Iron Gods session)
+        const scheduleFragment = serverSchedule.getContextFragment();
+        if (scheduleFragment) {
+            context.push('Discord Server Schedule:');
+            context.push(scheduleFragment.trim());
+        }
+
         // Pathfinder world context
         context.push('Pathfinder World Context:');
         context.push('- The Age of Lost Omens began in 4606 AR with the death of Aroden');

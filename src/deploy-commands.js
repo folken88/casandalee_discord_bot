@@ -31,27 +31,28 @@ const rest = new REST().setToken(process.env.DISCORD_TOKEN);
 // Deploy commands
 (async () => {
     try {
-        console.log(`🔄 Started refreshing ${commands.length} application (/) commands.`);
-        
-        // Register commands globally
+        const guildId = process.env.GUILD_ID?.trim();
+
+        // Register to guild first if set (commands appear instantly on that server)
+        if (guildId) {
+            console.log(`🔄 Registering ${commands.length} commands to your server (guild ${guildId})...`);
+            const guildData = await rest.put(
+                Routes.applicationGuildCommands(process.env.CLIENT_ID, guildId),
+                { body: commands }
+            );
+            console.log(`✅ ${guildData.length} commands now available on your server (instant).`);
+        } else {
+            console.warn('⚠️  GUILD_ID not set in .env — registering globally only (can take up to 1 hour to appear).');
+            console.warn('   For instant slash commands: set GUILD_ID=your_server_id in .env, then run this again.');
+        }
+
+        // Also register globally so commands work in DMs / other servers
+        console.log(`🔄 Registering ${commands.length} commands globally...`);
         const data = await rest.put(
             Routes.applicationCommands(process.env.CLIENT_ID),
             { body: commands }
         );
-        
-        console.log(`✅ Successfully reloaded ${data.length} application (/) commands.`);
-        
-        // Also register for specific guild if GUILD_ID is provided
-        if (process.env.GUILD_ID) {
-            console.log(`🔄 Also registering commands for guild ${process.env.GUILD_ID}.`);
-            
-            const guildData = await rest.put(
-                Routes.applicationGuildCommands(process.env.CLIENT_ID, process.env.GUILD_ID),
-                { body: commands }
-            );
-            
-            console.log(`✅ Successfully reloaded ${guildData.length} guild application (/) commands.`);
-        }
+        console.log(`✅ Global: ${data.length} commands registered.`);
         
     } catch (error) {
         console.error('❌ Error deploying commands:', error);

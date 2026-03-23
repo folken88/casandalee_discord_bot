@@ -10,6 +10,7 @@ const timelineSearch = require('./timelineSearch');
 const timelineCache = require('./timelineCache');
 const dossierManager = require('./dossierManager');
 const nameResolver = require('./nameResolver');
+const learnedFacts = require('./learnedFacts');
 const llmRouter = require('./llmRouter');
 const personalityManager = require('./personalityManager');
 // Actor index system removed - was causing database lock issues
@@ -76,7 +77,7 @@ YOUR NAMES: You are known as Casandalee, Cass, Cassbot, Cassnet, and similar; an
 
 ADDRESSING PLAYERS: The person speaking to you is referred to by their Iron Gods character name in the prompt (e.g. Tokala, Luna, Ulfred). Always address them by that character name, not by Discord username or other names.
 
-PERSONALITY SYSTEM: You respond as one of your 72 past lives or your goddess form. When a past life: speak, think, and relate as that person with their alignment and experiences; you also have "bleeding" knowledge of events after their death. When goddess: your alignment is Neutral Good. The current personality is injected below—follow it.
+PERSONALITY SYSTEM: You respond as one of your 72 past lives or your goddess form. When a past life: speak, think, and relate as that person with their alignment and experiences; you also have "bleeding" knowledge of events after their death. When goddess: your alignment is Neutral Good. The current personality is injected below—follow it. Vary your mannerisms and phrasing; do not repeat the same physical tic (e.g. finger-tapping, drumming) in every response—each persona has many ways to react.
 
 You can:
 - Roll dice using standard D&D notation (e.g., "1d20+5", "2d6", "1d100")
@@ -396,17 +397,26 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
                 const characterName = this.extractCharacterNameFromQuery(query);
                 if (characterName) {
                     console.log(`🔍 Character query detected for "${characterName}"`);
-                    
-                    // Actor index system removed - was causing database lock issues
-                    
+                    // Resolve dossier context (with first/last word fallback) so timeline path can include it
+                    let dossierInfo = dossierManager.getContextForLLM(characterName);
+                    if (!dossierInfo && characterName.includes(' ')) {
+                        const parts = characterName.trim().split(/\s+/);
+                        if (parts[0]) dossierInfo = dossierManager.getContextForLLM(parts[0]);
+                        if (!dossierInfo && parts.length > 1 && parts[parts.length - 1]) {
+                            dossierInfo = dossierManager.getContextForLLM(parts[parts.length - 1]);
+                        }
+                    }
+                    if (dossierInfo) {
+                        console.log(`📋 Dossier found for "${characterName}" (will include in response)`);
+                    }
                     // Fallback to timeline search
                     console.log(`📚 Searching timeline for "${characterName}"...`);
                     const timelineResults = timelineSearch.search(characterName);
-                    
                     if (timelineResults.length > 0) {
                         console.log(`📚 Found ${timelineResults.length} timeline events for ${characterName}`);
-                        return await this.generateSmartTimelineResponse(query, timelineResults);
+                        return await this.generateSmartTimelineResponse(query, timelineResults, dossierInfo);
                     }
+                    // No timeline results but we have dossier: fall through to general LLM path with dossier
                 }
             }
 
@@ -422,14 +432,25 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
             const characterName = this.extractCharacterNameFromQuery(query);
             let dossierContext = '';
             if (characterName) {
-                const dossierInfo = dossierManager.getContextForLLM(characterName);
+                let dossierInfo = dossierManager.getContextForLLM(characterName);
+                // If full extracted name didn't resolve, try first word then last word (nicknames / partial names)
+                if (!dossierInfo && characterName.includes(' ')) {
+                    const parts = characterName.trim().split(/\s+/);
+                    if (parts[0]) dossierInfo = dossierManager.getContextForLLM(parts[0]);
+                    if (!dossierInfo && parts.length > 1 && parts[parts.length - 1]) {
+                        dossierInfo = dossierManager.getContextForLLM(parts[parts.length - 1]);
+                    }
+                }
                 if (dossierInfo) {
                     dossierContext = `\n\nKnown Character Info: ${dossierInfo}`;
+                    console.log(`📋 Injected dossier context for "${characterName}"`);
                 }
             }
 
+            // Learned facts (things players taught via /remember)
+            const learnedContext = learnedFacts.getContextForLLM();
             // Use LLM Router: Claude Haiku for user-facing responses
-            const systemPrompt = `${personalityPrompt}\n\nCurrent Campaign Context:\n${context}${dossierContext}`;
+            const systemPrompt = `${personalityPrompt}\n\nCurrent Campaign Context:\n${context}${dossierContext}${learnedContext}`;
             // username is the speaker's display name (Iron Gods character name when mapped, else Discord username)
             const userPrompt = `${username} asks: ${query}`;
 
@@ -502,8 +523,30 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
      * @returns {string|null} - Extracted character name
      */
     extractCharacterNameFromQuery(query) {
-        // Common patterns for character queries
+        // Try two-word name first (e.g. "Kate Blackwood", "Rodney Smith") so we don't truncate to one word
+        const twoWordPatterns = [
+            /(?:do you )?have (?:a )?dossier on (\w+(?:\s+\w+)?)/i,
+            /dossier (?:on|for) (\w+(?:\s+\w+)?)/i,
+            /who is (\w+\s+\w+)/i,
+            /tell me about (\w+\s+\w+)/i,
+            /what do you know about (\w+\s+\w+)/i,
+            /what can you tell me about (\w+\s+\w+)/i,
+            /about (\w+\s+\w+)/i,
+            /know about (\w+\s+\w+)/i,
+            /how is (\w+\s+\w+)/i,
+            /where is (\w+\s+\w+)/i,
+            /status of (\w+\s+\w+)/i,
+        ];
+        for (const pattern of twoWordPatterns) {
+            const match = query.match(pattern);
+            if (match && match[1] && match[1].trim().length >= 3) {
+                return match[1].trim();
+            }
+        }
+        // Single-word / nickname patterns
         const patterns = [
+            /(?:do you )?have (?:a )?dossier on (\w+)/i,
+            /dossier (?:on|for) (\w+)/i,
             /how is (\w+)/i,
             /how are (\w+)/i,
             /what's (\w+)'s/i,
@@ -591,21 +634,23 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
      * Generate smart timeline response using LLM analysis
      * @param {string} query - User query
      * @param {Array} timelineResults - Timeline search results
+     * @param {string} [dossierContext] - Optional dossier/character sheet context
      * @returns {Promise<string>} - Smart response
      */
-    async generateSmartTimelineResponse(query, timelineResults) {
+    async generateSmartTimelineResponse(query, timelineResults, dossierContext = '') {
         try {
             // Prepare timeline context for LLM
-            const timelineContext = timelineResults.slice(0, 10).map(event => 
+            const timelineContext = timelineResults.slice(0, 10).map(event =>
                 `${event.date} (${event.location}) - ${event.description}`
             ).join('\n');
-            
-            const systemPrompt = `You are Casandalee, an AI with access to campaign timeline data. Analyze the timeline events below and answer the user's question intelligently. If the answer isn't clear from the timeline, say so. Focus on the most relevant information and be specific about dates and locations.
-
+            const knownInfoBlock = dossierContext
+                ? `\n\nKnown Character Info (use this for who they are, class, level, etc.):\n${dossierContext}\n\n`
+                : '';
+            const systemPrompt = `You are Casandalee, an AI with access to campaign timeline data and character dossiers. Analyze the information below and answer the user's question intelligently. Prefer dossier data for who the character is (race, class, level, player); use timeline events for what they did and when. If the answer isn't clear, say so. Be helpful and specific.${knownInfoBlock}
 Timeline Events:
 ${timelineContext}
 
-Answer the user's question based on this timeline data. Be helpful and specific.`;
+Answer the user's question based on this data. Be helpful and specific.`;
 
             // Use Claude Haiku for timeline analysis (user-facing, needs speed)
             const result = await llmRouter.route(query, {

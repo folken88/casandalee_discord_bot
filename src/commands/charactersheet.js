@@ -170,7 +170,7 @@ Return ONLY the JSON, no other text.`;
                 {
                     system: 'You are an expert at reading Pathfinder 1st Edition character sheets. Extract all visible data accurately. Return only valid JSON.',
                     maxTokens: 1500,
-                    model: 'claude-3-5-haiku-latest'
+                    model: 'claude-haiku-4-5'
                 }
             );
 
