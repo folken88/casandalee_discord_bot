@@ -195,48 +195,49 @@ The GM is Toby — any NPC dialogue or narration comes from him.
 CHARACTER NAME ALIASES (the transcript may use any of these):
 ${aliasesList}
 
-IMPORTANT CONTEXT:
-- This is an auto-generated transcript with NO speaker identification. It's a single stream of text with frequent errors, garbled words, and misheard names.
+CRITICAL CONTEXT:
+- This is an auto-generated transcript with NO speaker identification. It's a single stream of garbled text with frequent errors and misheard names.
 - Player names (Kip, Daemon, Enrique, Josh, Tim, Rye, etc.) appearing in the transcript usually mean that player is speaking, and what they say relates to their character's actions.
 - "Bry" or "bry" likely refers to the goddess Brigh (goddess of invention/clockwork), NOT a player.
-- Be CONSERVATIVE. Only report events/facts you are CONFIDENT about. If something is ambiguous or garbled, DO NOT include it.
 - Auto-captions frequently mishear fantasy names. Use the alias list above to resolve likely matches.
 
 VERIFIED TIMELINE EVENTS FOR CROSS-REFERENCE:
-These are confirmed canonical events. If the transcript seems to describe one of these, note the correlation.
+These are confirmed canonical events. If the transcript describes one of these, note the correlation. The timeline is MORE ACCURATE than the transcript.
 ${timelineEvents || '(no timeline events available for this campaign period)'}
 
-TASK: Extract a structured summary from this transcript. Return valid JSON with this structure:
+TASK: Extract ONLY verifiable facts from this transcript. Return valid JSON with this structure:
 {
   "sessionTitle": "cleaned up title",
   "campaign": "${campaignCode}",
-  "summary": "2-4 sentence summary of what happened this session (only confident events)",
+  "summary": "2-4 sentence summary. ONLY include events you are certain about. Say 'transcript quality was poor' if it was.",
   "keyEvents": [
     {
-      "description": "what happened",
-      "confidence": "high|medium",
-      "characters": ["who was involved"],
-      "location": "where (if known)",
+      "description": "what happened — state only what the transcript clearly shows",
+      "confidence": "high",
+      "characters": ["who was involved — ONLY named characters you can identify"],
+      "location": "where (if clearly stated, otherwise null)",
       "timelineCorrelation": "matching timeline event date/description if any, or null"
     }
   ],
-  "charactersPresent": ["list of PC names who appeared to be active this session"],
-  "npcsEncountered": ["named NPCs mentioned (not PCs)"],
-  "locationsVisited": ["specific named locations"],
-  "combatEncounters": ["brief descriptions of any fights"],
-  "itemsOrLoot": ["notable items found/used"],
-  "quotes": ["any particularly clear/amusing direct quotes from the transcript (exact words)"],
-  "uncertainEvents": ["things that MIGHT have happened but the transcript is too garbled to be sure"],
-  "transcriptQuality": "good|fair|poor — overall quality of the auto-captions"
+  "charactersPresent": ["list of PC names who appeared to be active — ONLY include if you heard their name or their player's name"],
+  "npcsEncountered": ["named NPCs clearly mentioned — do NOT guess unnamed speakers"],
+  "locationsVisited": ["specific named locations clearly stated in the transcript"],
+  "combatEncounters": ["brief descriptions of fights that clearly occurred"],
+  "itemsOrLoot": ["notable items clearly named"],
+  "quotes": ["verbatim quotes from the transcript that are clearly audible and amusing/notable — include the raw text exactly as transcribed"],
+  "uncertainEvents": ["things that MIGHT have happened but the transcript is too garbled to confirm"],
+  "transcriptQuality": "good|fair|poor"
 }
 
-RULES:
-- Only "high" confidence events should go in keyEvents. "medium" is for events you're fairly sure about but the transcript is ambiguous.
-- uncertainEvents is for things you noticed but can't confirm. These might be verified later against the timeline.
-- If the transcript is mostly garbled/unusable, say so in the summary and keep keyEvents minimal.
-- Do NOT invent or hallucinate events. If you can't tell what happened, say so.
-- Quotes must be verbatim from the transcript, not paraphrased.
-- For locations, use canonical Pathfinder/Golarion names when you can identify them.
+STRICT RULES — VIOLATIONS WILL PRODUCE INCORRECT DATA:
+- ONLY "high" confidence events go in keyEvents. If you're not sure, it goes in uncertainEvents or is omitted entirely.
+- Do NOT attribute actions to "a player" or "someone" — if you can't identify WHO did something, put it in uncertainEvents.
+- Do NOT invent narrative connections between garbled fragments. If two events seem related but the transcript doesn't clearly link them, report them separately.
+- Do NOT fill in story beats from your knowledge of the Pathfinder adventure path. Report ONLY what the transcript says, not what you think should have happened.
+- Do NOT guess character motivations or emotional states. Report actions only.
+- Quotes must be VERBATIM from the transcript. Do not clean them up or paraphrase.
+- If the transcript is mostly garbled, return minimal keyEvents and put everything in uncertainEvents. An empty keyEvents array is better than a hallucinated one.
+- ABSENCE IS BETTER THAN INACCURACY. When in doubt, leave it out.
 
 TRANSCRIPT:
 ${transcript}`;

@@ -1,19 +1,25 @@
 ---
 name: "Tar Baphon"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["CC", "IS"]
-mentions: 4
-tags: ["character", "npc", "cc", "is"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:59:07.784Z"
 ---
 
 # Tar Baphon
 
-**Type:** NPC
-**Campaigns:** CC, IS
-**Mentions:** 4 session(s)
-
+**Race:** Unknown | **Class:** Unknown
 
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Discussed as the entity the cult believes owns this world; was born here, lived a mortal life, had his face kicked in by Aroden *(youtube-transcript, 3/25/2026)*
+- Referenced as a former person, contrasted with the Eldrich horrors that predate him and are older and more purely evil; Discussed as a being who was once a person, contrasted with older, more purely evil entities that predate him *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

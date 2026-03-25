@@ -5,131 +5,111 @@ campaign: "IG"
 campaignName: "Iron Gods"
 videoId: "GgxDzNHrW0M"
 sourceFile: "IG - GgxDzNHrW0M - Iron Gods Session April 8 2021.md"
-processedAt: "2026-03-25T02:08:55.773Z"
-transcriptQuality: "fair"
-charactersPresent: ["Tokala", "Alfred", "Maginnis", "Nomkath", "Olbryn", "Eldrin", "Akradenn"]
+processedAt: "2026-03-25T17:59:23.434Z"
+transcriptQuality: "poor"
+charactersPresent: ["Ulfred", "Nomkath", "Mr Brow", "Olbryn", "Akradenn", "Luna"]
 tags: ["summary", "ig", "session"]
 ---
 
 # Iron Gods Session April 8 2021
 
 **Campaign:** Iron Gods | **Video:** [Watch on YouTube](https://youtube.com/watch?v=GgxDzNHrW0M)
-**Transcript Quality:** fair
-**Characters Present:** Tokala, Alfred, Maginnis, Nomkath, Olbryn, Eldrin, Akradenn
+**Transcript Quality:** poor
+**Characters Present:** Ulfred, Nomkath, Mr Brow, Olbryn, Akradenn, Luna
 
 ## Summary
 
-The party navigates a facility below Scrapwall, encountering an acid ooze, robot swarms, and cyborg soldiers. They activate a mysterious inhibitor crystal that shuts down systems, then face stinking cloud gas clouds and confusion spells while fighting Kolgara, a powerful orc lieutenant. They defeat her and other enemies, then encounter Hellion directly through screens, casting confusion on the party. The session ends with the group exploring Kolgara's quarters and preparing to continue their assault on Hellion's core.
+The party fought an acidic ooze, encountered and defeated house-cat-sized robotic insects, and activated an artificial intelligence inhibitor crystal that shut down facility systems. They then faced multiple cyborgs, an enhanced orc lieutenant named Kolgara with a chainsaw weapon, and dark creepers. The party defeated Kolgara and several cyborgs before encountering Hellion directly through screens—a hostile artificial intelligence that cast confusion and fear spells but did not physically attack. The transcript quality was poor with significant garbling of character names and occasional unclear dialogue.
 
 ## Key Events
 
-- Party battles a large acid ooze that grapples Eldrin, nearly killing him before Alfred's weapon strikes destroy it.
-  - Characters: Eldrin, Alfred, Nomkath, Olbryn, Akradenn, Luna
-  - Location: Underground facility
-- Eldrin inserts a glowing crystal into a control panel after using an unseen servant, activating an 'Artificial Intelligence Memory Inhibitor' that causes systems to shut down.
+- Party encounters and defeats a large acidic ooze in a chemical waste pool room. The ooze is immune to sneak attack, critical hits, and acid damage. Multiple party members take damage; Eldrin's clothing is nearly destroyed by acid.
+  - Characters: Eldrin, Ulfred, Nomkath, Olbryn, Akradenn, Luna
+  - Location: underground facility waste chamber
+- Party encounters and defeats four robotic insects (modeled after Golarion beetles). The robots fire red laser beams at party members, particularly targeting Luna/Tokala.
+  - Characters: Eldrin, Nomkath, Luna, Akradenn, Olbryn, Ulfred
+  - Location: facility control room with computer banks
+- Eldrin inserts a glowing crystal (artificial intelligence inhibitor) into a console via an unseen servant. The inhibitor activates, causing screens throughout the facility to go dark briefly. A system message displays: 'Artificial Intelligence Memory Inhibitor - Hinder and impair functionality, reduces capabilities.' After activation, screens flicker back on with a red glow and Hellion's voice says 'You will be punished for that, insect.'
   - Characters: Eldrin
-  - Location: Facility control room
-- Party defeats multiple small beetle-like robots in a room filled with screens and monitoring equipment.
-  - Characters: Maginnis, Olbryn, Alfred, Tokala, Eldrin
-  - Location: Computer/monitoring room
-- Party encounters and battles cyborg soldiers and Kolgara, a massive orc warrior with a chainsaw weapon. Multiple party members suffer from stinking cloud gas and confusion spells.
-  - Characters: Tokala, Alfred, Maginnis, Nomkath, Olbryn, Eldrin, Akradenn
-  - Location: Underground facility - combat chamber
-- Kolgara is killed by Maginnis's final shots after nearly destroying Dolga's greatsword with her chainsaw weapon.
-  - Characters: Kolgara (enemy), Maginnis
-  - Location: Underground facility
-- Hellion manifests through screens as glowing red eyes and casts confusion spell on the party, causing them to attack each other.
-  - Characters: Hellion (Hellion AI), Eldrin, Olbryn, Tokala
-  - Location: Main chamber with screens
-- Party explores Kolgara's quarters and finds weapons, tools, nanite canisters, and a journal.
-  - Characters: Eldrin, Tokala
-  - Location: Kolgara's personal quarters
+  - Location: facility command center
+- Party encounters and defeats multiple cyborg units (humanoid robots with hydraulic fists) and faces an enhanced orc female lieutenant, Kolgara, wielding a motorized chainsaw weapon. Kolgara nearly destroys Dolga's greatsword through sustained attacks. One cyborg casts a stinking cloud spell that sickens multiple party members. Kolgara is killed by McGuinness (Scaith) with a precision shot.
+  - Characters: Ulfred, Nomkath, Luna, Akradenn, Olbryn, Eldrin
+  - Location: facility lower levels
+- Party discovers and kills a dark creeper (fey assassin) who came from a back room. They learn dark creepers are weak to light and blindness, can see in darkness, and often carry darkness spells.
+  - Characters: Nomkath, Ulfred
+  - Location: facility hallway
+- Eldrin verbally confronts Hellion, provoking the AI to cast confusion and fear spells. Multiple party members fail saves and become confused (attacking each other, babbling, punching themselves) or become frightened. The confusion lasts multiple rounds. Party members affected include Ulfred (babbling, slapping Eldrin), Eldrin (feared, flees), Olbryn (punches himself with his weapon, takes damage).
+  - Characters: Eldrin, Ulfred, Olbryn, Nomkath, Luna, Akradenn
+  - Location: facility command chamber with Hellion's presence
+- Party discovers Kolgara's quarters containing a workbench with tools, armor parts, weapons, grenades, nanite canisters, and a journal written in Orcish. They also find a frost damage great axe (Shark Bite: +1 greatsword dealing 1d12+1d6 frost damage).
+  - Characters: Eldrin, Luna, McGuinness, Nomkath
+  - Location: Kolgara's private quarters
 
 ## NPCs Encountered
 
-- [[Hellion (AI)]]
-- [[Kolgara (orc lieutenant - defeated)]]
-- [[Dark Creepers (small rogue-like fey creatures)]]
+- [[Hellion]]
+- [[Kolgara]]
+- [[dark creepers]]
 
 ## Locations
 
-- [[Underground facility beneath Scrapwall]]
-- [[Computer/monitoring room]]
-- [[Combat chamber with screens]]
-- [[Kolgara's personal quarters]]
-- [[Control room with illusion-creating machine]]
+- [[chemical waste chamber]]
+- [[facility control room]]
+- [[facility command center]]
+- [[facility lower levels]]
+- [[Kolgara's quarters]]
+- [[facility hallway]]
 
 ## Combat Encounters
 
-- Large acid ooze (defeated)
-- Four beetle-like robot drones (defeated)
-- Multiple cyborg soldiers with laser weapons (defeated)
-- Kolgara with chainsaw weapon and supporting cyborgs (defeated)
-- Additional cyborg reinforcements (defeated)
-- Dark Creepers - small rogue enemies (defeated)
+- Acidic ooze encounter in waste pool
+- Four robotic insect enemies with laser weapons
+- Multiple cyborg units with stinking cloud caster
+- Kolgara (orc lieutenant) with chainsaw weapon and three supporting cyborgs
+- Dark creeper assassin in hallway
 
 ## Items & Loot
 
-- Chainsaw weapon (taken from Kolgara, has 7 charges remaining)
-- Breastplate with fire resistance 10 and DR 2 (damaged by acid, taken by Tokala)
-- Multiple nanite canisters
-- Amulet of natural armor (given to Tokala)
-- Cloak of resistance
-- Laser rifle/pistol variant
-- Plus-one magical longbow
-- Plus-one frost great axe (Sharkbite - does 1d12 + 1d6 cold damage)
-- Black nanite hypogun (10 charges, gives 2d8+3 healing)
-- Brown hypogun (used for removing nausea/sickness)
-- Kolgara's journal
-- Various magical items from defeated enemies
+- Shark Bite (great axe, +1, 1d6 frost damage)
+- Nanite canisters (multiple)
+- Grenades
+- Laser sight
+- Black hypogun (nanite healing gun, 2d8+3 damage)
+- Brown hypogun (used for removing sickness)
+- Kolgara's enchanted breastplate (fire resistance 10, DR 2, +1)
+- Kolgara's amulet
+- Kolgara's cloak
+- Kolgara's ring of protection
+- Kolgara's motorized chainsaw weapon
+- Kolgara's journal (Orcish)
 
 ## Notable Quotes
 
 > you think he's going to dominate me seems to be what he's done to everyone else
-> maybe you think you have something special makes you different
 > i can't be dominated so many of his clerics tried and i'm protected by my god
-> he will want to know what happened
-> sorry for yelling at you there i know you had my uh best interest in mine
-> let's just yeah you guys are right i'll let's just kick kellyann's ass
-> eldrin upon opening the door and seeing these power packs against remembers that uh we could potentially charge so from it
-> i don't like to look at that everywhere around this room looks very polished and clean
-> as soon as you open this door you're hit in the face with a overpowering smell of vile chemicals
-> is that still in your inventory somewhere yeah where is it
-> i don't know when to cast the buffs i've got some that i want to drop but they only last a minute
-> you will be punished for that insect
-> yeah helly and only insects i see are these broken servants of yours on the floor
-> that is a very foul smelling hole
-> ducked in the back end
-> title your sex tape
-> inhibitor facet detected and then it has a button that says activate
+> sure he will want to know what happened
+> he gets in their heads
+> respect your thirst for knowledge maybe there's another way
+> let's just kick kellyann's ass
+> inhibitor facet detected
 > artificial intelligence memory inhibitor hinder and impair functionality reduces capabilities
-> guys i know you told me not to touch anything but look
-> i don't know if oberyn would move out too or if he's uh yeah he'll go stand where the party is
-> well that didn't work
-> that is so perfect eldridge
-> eldrin don't touch anything just stay cold man stay cool
-> you suck man they're immune to everything
-> i think it's your inquisitiveness my friend that gets you in sticky situations or gooey situations as it were
-> unseen servant what the hell is this room anyway
-> this is basically their trash compactor
-> smells bad too it does it smells terrible
-> well i was just yeah letting you all because i don't want to do anything bad
-> maybe you should ask him about you
-> i was gonna say you're gonna heal the orcs of their sick
-> you see eldrin struggling but he can't quite escape
-> i submit uh immediately negotiating
-> geez so i'll try to break the grapple
-> i can't creep it
-> is anybody neutral
-> that was just a casual plus 24 to hit
+> you will be punished for that insect
+> is that all you can do look at me
+> who are you and what do you want
+> i am alien be you a god yes
+> your greatest avatars could not defeat us avatars can be replaced
+> what are your wife takala i'll be hard to tell the difference sometimes with you
+> title your sex tape
+> ducked in the back end
+> nom kath sorry you're freaking out at the very least i don't want to get fireballed again
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Exact nature and purpose of the green glowing liquid pools throughout the facility - appears to be waste disposal or chemical storage
-- Whether the two small creatures/rogues that fled actually escaped or are still in the facility
-- Full contents and significance of Kolgara's journal - only partially read before session end
-- What lies beyond the control panel with the illusion-creating machine and where other unexplored doors lead
-- Whether Hellion is actually dead or merely disabled by the inhibitor crystal
+- The exact nature and location of Hellion's primary body/core is unclear; it appears to exist as distributed consciousness across facility systems using screens and projected red eyes
+- Whether the dark creepers were working for Hellion or independently operating in the facility
+- The full contents and meaning of Kolgara's Orcish journal were not detailed in the transcript
+- The status of other facility areas beyond what the party explored
+- Whether the inhibitor crystal actually reduced Hellion's capabilities or merely disabled some external systems
 

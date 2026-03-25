@@ -170,7 +170,7 @@ class VaultSearch {
      */
     byText(query, maxResults = 20) {
         const idx = this.buildIndex();
-        const terms = query.toLowerCase().split(/\s+/).filter(Boolean);
+        const terms = query.toLowerCase().replace(/[?!.,;:'"()]/g, '').split(/\s+/).filter(Boolean);
 
         const scored = [];
         for (const note of idx) {
@@ -314,7 +314,7 @@ class VaultSearch {
         const idx = this.buildIndex();
         const queryLower = query.toLowerCase();
         const STOP_WORDS = new Set(['the','a','an','is','was','were','are','did','do','does','when','where','who','what','how','why','about','have','has','had','can','could','will','would','should','this','that','with','from','for','and','but','not','die','died','dies','kill','killed','happen','happened']);
-        const queryTerms = queryLower.split(/\s+/).filter(t => t.length > 2 && !STOP_WORDS.has(t));
+        const queryTerms = queryLower.replace(/[?!.,;:'"()]/g, '').split(/\s+/).filter(t => t.length > 2 && !STOP_WORDS.has(t));
         const timelineNotes = idx.filter(n => (n.frontmatter.type || '').toLowerCase() === 'timeline');
 
         const matchingRows = [];

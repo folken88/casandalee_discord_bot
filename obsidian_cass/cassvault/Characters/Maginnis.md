@@ -1,19 +1,22 @@
 ---
 name: "Maginnis"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: ["McGinnis", "Mcginnis"]
-campaign: ["IG"]
-mentions: 24
-tags: ["character", "npc", "ig"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:45:12.261Z"
 ---
 
 # Maginnis
 
-**Type:** NPC
-**Campaigns:** IG
-**Mentions:** 24 session(s)
-**Also known as:** McGinnis, Mcginnis
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Referenced as someone who could potentially help arrange a meeting outside the palace *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

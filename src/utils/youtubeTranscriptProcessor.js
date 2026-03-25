@@ -318,8 +318,14 @@ class YouTubeTranscriptProcessor {
         // Step 7: Save processed data to vault (summaries, characters, places, timeline)
         await this.saveToVault(video, extraction, campaignCode);
 
-        // Step 8: Post persona-flavored summary to Discord
-        await this.postSummaryEmbed(video, extraction, campaignCode);
+        // Step 8: Post summary to Discord ONLY for new episodes (published in last 7 days)
+        const publishDate = video.publishedAt ? new Date(video.publishedAt) : null;
+        const sevenDaysAgo = new Date(Date.now() - 7 * 24 * 60 * 60 * 1000);
+        if (publishDate && publishDate > sevenDaysAgo) {
+            await this.postSummaryEmbed(video, extraction, campaignCode);
+        } else {
+            logger.info(`Skipping Discord post for old video "${video.title}" (published ${video.publishedAt || 'unknown'})`);
+        }
 
         // Step 9: Mark as processed
         this.state.processedVideoIds.push(video.videoId);

@@ -26,6 +26,7 @@ const DailyHistoryScheduler = require('./utils/dailyHistory');
 const serverSchedule = require('./utils/serverSchedule');
 const YouTubeTranscriptProcessor = require('./utils/youtubeTranscriptProcessor');
 const conversationLogger = require('./utils/conversationLogger');
+const dripSummarizer = require('./utils/dripSummarizer');
 
 // Create Discord client
 const client = new Client({
@@ -257,6 +258,13 @@ client.once(Events.ClientReady, async readyClient => {
         }
     } catch (error) {
         logger.error('❌ Failed to start YouTube transcript processor:', error);
+    }
+
+    // Drip summarizer: process 2 unsummarized transcripts per day
+    try {
+        dripSummarizer.start();
+    } catch (error) {
+        logger.error('❌ Failed to start drip summarizer:', error);
     }
 
     // Silently load Discord server scheduled events into LLM context (no channel post on startup)

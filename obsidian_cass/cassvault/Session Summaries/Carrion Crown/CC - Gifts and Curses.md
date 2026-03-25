@@ -5,7 +5,7 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "qQE7DuYFzDw"
 sourceFile: "CC - qQE7DuYFzDw - Gifts and Curses dnd pathfinder carrioncrown ttrpg gaming ustalav.md"
-processedAt: "2026-03-25T01:50:59.082Z"
+processedAt: "2026-03-25T17:41:09.016Z"
 transcriptQuality: "poor"
 charactersPresent: []
 tags: ["summary", "cc", "session"]
@@ -19,7 +19,7 @@ tags: ["summary", "cc", "session"]
 
 ## Summary
 
-The transcript is severely corrupted with auto-caption errors and appears to consist primarily of musical interludes, applause, and fragmented song lyrics. No coherent game events, dialogue, or mechanical actions could be reliably extracted from the available text.
+Transcript quality was poor. Only fragments of dialogue are audible, consisting primarily of musical interludes and applause. No clear game events, character actions, or narrative progression could be reliably extracted.
 
 
 
@@ -28,7 +28,7 @@ The transcript is severely corrupted with auto-caption errors and appears to con
 
 ## Notable Quotes
 
-> early this morning when you knocked upon my door
+> early this morning when you knocked on my door
 > I believe it is time to go
 > me and the devil walking side by side
 
@@ -36,6 +36,7 @@ The transcript is severely corrupted with auto-caption errors and appears to con
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Possible reference to 'the devil' in song lyrics—could be thematic/narrative relevance or merely song content
-- Possible morning scene or departure sequence suggested by lyrics about knocking on a door and time to go
+- Possible reference to someone knocking on a door early in the morning (context unclear)
+- Possible reference to departing or traveling ('time to go')
+- Possible reference to two characters walking together ('me and the devil walking side by side') — could be metaphorical or literal, characters unidentified
 

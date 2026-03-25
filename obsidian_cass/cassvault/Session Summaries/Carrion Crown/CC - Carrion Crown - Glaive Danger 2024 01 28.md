@@ -5,116 +5,107 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "3avYdKvS9Pc"
 sourceFile: "CC - 3avYdKvS9Pc - Carrion Crown - Glaive Danger 2024 01 28.md"
-processedAt: "2026-03-25T01:19:48.141Z"
-transcriptQuality: "fair"
-charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas", "Rissa"]
+processedAt: "2026-03-25T17:10:28.953Z"
+transcriptQuality: "poor"
+charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
 tags: ["summary", "cc", "session"]
 ---
 
 # Carrion Crown - Glaive Danger 2024 01 28
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=3avYdKvS9Pc)
-**Transcript Quality:** fair
-**Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas, Rissa
+**Transcript Quality:** poor
+**Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
 
 ## Summary
 
-CP-USS engaged in a massive battle at an undead-infested fortress against a vampire trickster (tech-league operative) equipped with a Numerian dimension-door headband, her ghoul and undead minions, and a malevolent cleric. The party narrowly defeated the vampire after she nearly killed Kai with a critical glaive strike; Kai was killed twice in this session. Key turning point came when Danger pinned the vampire with a phase-locked arrow, preventing her dimensional escape, and Gaspar charged into her gaseous form and destroyed her with positive energy channeling.
+CP-USS fought a major battle at a fortress against the Whispering Way's forces, including a vampire trickster operative equipped with Numerian tech. The party was heavily damaged—Kai died twice (once to a critical hit from a burning glaive-wielding undead, once to friendly fire), and several other party members took significant harm. Despite heavy casualties and the vampire turning to mist form, the party ultimately defeated her and most of the undead forces through coordinated attacks and healing. Transcript quality was poor.
 
 ## Key Events
 
-- Kai is killed by a Burning Guard Knight with a critical hit from a glaive (105 damage), becoming the second death in the campaign.
-  - Characters: Kai, Burning Guard Knight (enemy)
-  - Location: Unnamed Fortress courtyard
-- Gaspar fires a 40mm glitter grenade into the stable to reveal and disable the invisible vampire trickster's invisibility.
-  - Characters: Gaspar, Vampire Trickster (enemy)
-  - Location: Fortress stables
-- The vampire trickster is revealed to be wearing a Numerian-made headband device that allows automatic dimension door teleportation after she crits, enabling her to reposition across the battlefield repeatedly.
-  - Characters: Vampire Trickster (enemy)
-  - Location: Fortress stables
-- Danger shoots the vampire with a phase-locked arrow, dimensionally anchoring her and preventing her from using the teleportation device.
-  - Characters: Rodney Danger Smith, Vampire Trickster (enemy)
+- CP-USS initiated combat against a large force of undead and Whispering Way operatives at a fortress, including Lorirdaak soldiers, ghouls, zombies, clerics, and a vampire trickster rogue
+  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
+  - Location: Fortress (location name unclear)
+- Kai was killed by a critical hit from a burning glaive-wielding Fallen Ember paladin undead, taking 105 damage
+  - Characters: Kai
   - Location: Fortress courtyard
-- Elfrip casts Fireball, destroying the stable building and reducing the vampire's cover, while also taking multiple scorching ray attacks from the vampire.
-  - Characters: Elfrip, Vampire Trickster (enemy)
-  - Location: Fortress stables
-- The vampire trickster transforms into a mist/gaseous form after taking significant damage, becoming intangible but still capable of vampiric touch attacks.
-  - Characters: Vampire Trickster (enemy), Gaspar
-  - Location: Fortress courtyard
-- Gaspar charges into the vampire's gaseous form and uses positive energy channeling, dealing 19 damage (half reduced from spell), and the vampire attempts a vampiric touch that deals 4 con damage to him.
-  - Characters: Gaspar, Vampire Trickster (enemy)
-  - Location: Fortress courtyard
-- The vampire trickster is destroyed when Gaspar finishes her with positive energy while she is in gaseous form, after which remaining undead begin to rebel against their compulsion due to loss of their controller.
-  - Characters: Gaspar, Vampire Trickster (enemy), Dinvaya
-  - Location: Fortress courtyard
-- Kate Blackwood transforms into werewolf form (4 limbs, 40+ ft movement) after drinking a Bakiri draft and participates in the melee against the undead.
-  - Characters: Kate Blackwood
-  - Location: Fortress courtyard
-- Denvaya is hit with a Hold Person spell by the ghoul cleric but successfully resists with a very high will save; the cleric is subsequently destroyed by Denvaya's Searing Light spell.
-  - Characters: Dinvaya, Ghoul Cleric (enemy)
-  - Location: Fortress courtyard
-- The party discovers the vampire had a cranial bomb (Technic League device) in her head that was previously disabled.
-  - Characters: Party
+- Gaspar fired a glitter bomb grenade at the vampire trickster's position in a stable/woodshed, preventing her from turning invisible
+  - Characters: Gaspar
+  - Location: Fortress, stable area
+- The vampire trickster wore a Numerian visor/headpiece with technical features, including dimension door capability triggered by crits
+  - Characters: vampire trickster
   - Location: Fortress
-- The vampire trickster's Numerian headband is looted; the party discusses custody arrangement between Elfrip and Gaspar for the item, as it benefits both but was designed for an arcane trickster.
-  - Characters: Elfrip, Gaspar, Party
+- Rodney Danger Smith fired a phase-locked arrow at the vampire, dimensionally anchoring her and preventing teleportation
+  - Characters: Rodney Danger Smith
+  - Location: Fortress
+- Elfrip cast a massive fireball that leveled a wooden stable building and damaged multiple enemies, but the vampire made her evasion save
+  - Characters: Elfrip
+  - Location: Fortress, stable
+- The vampire was forced into gaseous mist form after taking heavy damage. Gaspar waded into her mist form and dealt positive energy damage, killing her
+  - Characters: Gaspar
+  - Location: Fortress
+- Gaspar failed a Will save against the Ton Bakiri draft buff and attempted to attack Dismas, but was disabled/grabbed by Rissa before he could land the blow
+  - Characters: Gaspar, Dismas, Rissa
+  - Location: Fortress
+- The vampire carried a cranial bomb (Technic League device) that had been disabled. She also had a Numerian headband/visor that enhanced certain spells
+  - Characters: vampire trickster
   - Location: Fortress
 
 ## NPCs Encountered
 
-- [[Vampire Trickster (tech-league operative, unnamed)]]
-- [[Ghoul Cleric (enemy)]]
-- [[Burning Guard Knights (multiple)]]
-- [[Lorzobun Orc soldiers (undead, enslaved)]]
-- [[Flaming Skeleton/Beheaded creatures (multiple)]]
-- [[Zombie Lumberjacks (multiple)]]
-- [[Zombie Alchemists (multiple)]]
-- [[Headless Zombies (multiple)]]
+- [[Rissa (the Beast in beast form)]]
+- [[vampire trickster operative]]
 
 ## Locations
 
-- [[Unnamed Fortress (primary combat location)]]
-- [[Fortress courtyard]]
-- [[Fortress stables]]
-- [[Castle walls/parapets]]
-- [[Fortress granary (mentioned, where secret door was built previously)]]
+- [[Fortress]]
+- [[Stable]]
+- [[Courtyard]]
 
 ## Combat Encounters
 
-- Extended battle against vampire trickster, ghoul cleric, multiple ghoul knights, Lorzobun orc soldiers, flaming skeletons, zombie lumberjacks, zombie alchemists, and various undead minions at an unnamed fortress
-- Kai killed by Burning Guard Knight's critical glaive strike (105 damage)
-- Vampire trickster repeatedly repositioning via dimension door ability
-- Elfrip's Fireball destroying the stables and partially killing multiple undead
-- Multiple scorching ray attacks from vampire against party members
-- Gaspar charging into gaseous vampire form and using positive energy to destroy her
-- Remaining undead ceasing combat after vampire's destruction due to loss of control
+- Large-scale battle vs mixed undead force: Lorirdaak soldiers, ghouls, zombies, flaming skeletal creatures, burning paladin undead, ghoul clerics, and vampire trickster rogue
+- Kai killed by burning glaive-wielding Fallen Ember (105 damage crit)
+- Vampire trickster vs party with dimension door teleportation and sneak attack abilities
+- Gaspar vs vampire in gaseous mist form with positive energy damage
 
 ## Items & Loot
 
-- Vampire Trickster's Numerian headband (dimension door device, crit-triggered relocation, bonuses to Fireball and Scorching Ray)
-- Vampire Trickster's cranial bomb (Technic League device, disabled)
-- Multiple great swords (from undead knights)
-- Magical great axes (previously left in fortress, now being collected)
-- Vampire Trickster's badge/technical items
-- Previous session's chest of loot (still in fortress)
+- Glitter bomb grenade (fired by Gaspar)
+- Phase-locked arrow (fired by Rodney)
+- Numerian visor/headpiece (worn by vampire, with dimension door and spell-enhancement properties)
+- Cranial bomb (Technic League device in vampire's skull, disabled)
+- Numerian headband (enhanced Fireball/scorching ray damage, contested between Elfrip and another character)
+- Multiple great axes (dropped by various undead, six referenced)
 
 ## Notable Quotes
 
 > I'm in my vampire era
-> you guys keep dying then the fasma pope is going to have to cut back on Outreach for like orphanages and schools and stuff it's worth it
-> I'm go nuts
+> if we all die it doesn't cost anyone anything because no one will pay to Res us because vampires look if you guys keep dying then the fasma pope is going to have to cut back on Outreach for like orphanages and schools
 > what is his shoes
+> he's going to drop me with those and I'm going to just get hit
+> I'm go nuts
 > glaive danger
-> there can only be one miss kova
-> I would like to thank uh boundry for not making me roll dog [ __ ] that time
+> the power of drugs
+> I'm going to be die
+> you're going to be die
+> what is his shoes what is his shoes what is his shoes
+> Kai is dead
+> I'm an innocent victim in all this
+> I used to be a bounty hunter and this is more fun
 > I'm cool I'm cool
+> remember giving the [expletive] out it's so hilarious
+> She just took a got an arrow sticking out of her head
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Whether the Numerian headband will be permanently assigned to one character or used as a rotating item between Elfrip and Gaspar
-- What Kai will do when resurrected; whether the party has resurrection capability at hand or must seek it out
-- The identity and final status of the other Lorzobun orc soldiers still imprisoned in the fortress
-- Whether there are additional undead threats remaining in the fortress beyond those encountered
+- Whether the Lorirdaak soldiers were former allies or always enemies (transcript suggests they were captured)
+- Exact number of undead destroyed and defeated
+- Whether any party members besides Kai actually died permanently
+- The full nature and mechanics of the vampire's Numerian technology
+- Details about what 'hide from undead greater' spell effects may have been active
+- Whether the flaming skulls were fully destroyed or merely dispersed
+- The exact damage Kai took from various attacks before the killing blow
 

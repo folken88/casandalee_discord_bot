@@ -1,19 +1,31 @@
 ---
 name: "Bruce"
-type: pc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["HV"]
-mentions: 5
-tags: ["character", "pc", "hv"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T17:07:45.198Z"
 ---
 
 # Bruce
 
-**Type:** Player Character
-**Campaigns:** HV
-**Mentions:** 5 session(s)
-
+**Race:** Unknown | **Class:** Unknown
 
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Has 24 strength, considered as a candidate to be enlarged with Ant Hall spell to help carry dragon loot; Has 24 strength, receives Antall spell cast on him, carries dragon skin and other equipment with light load; Party member with the most HP, being considered as recipient of cure critical wounds potion.; Party member with the most HP. Being discussed for receiving cure critical potions.; Party member whose cooking is joked about as potentially causing sickness; Found in the corner fighting an octopus per Hell's instructions. Brought to the magical waters location; Player character who is octopus fighting and makes dad jokes; Player character mentioned as present in combat scenario; Described as very melee specialized. Shifts to dragon form and attacks the water elemental with fire damage.; Chris's character, just arrived back to the session.; Player character receiving healing from wand, at 160/220 HP after healing; Can fit through passages in dragon form; has a perception roll of 20; Rolls perception check (natural 20) *(youtube-transcript, 3/25/2026)*
+- Player character mentioned as having more magical items/power than expected.; Character in giant form that Skipio squeezes through during combat; Mentioned as being susceptible to someone's gaze attack along with Hell Knights; Bruce is a dragon and is being attacked. He has stone skin active and high AC (23+). Players debate shooting him.; Player character involved in combat positioning; Player character (chris) engaged in melee combat to the east with Draymus, dealing damage.; Deflects a claw attack using dragon scales. A Hell Knight captain's head rolls beneath him. He is about to be attacked by a female paladin.; Targeted by the Lord of The Citadel with a Destruction spell in Celestial; takes 44 damage after resisting with a Fort save DC 24; Being attacked by an inheritor holy gun-wielding cleric who quotes Holy Scripture; takes multiple touch attacks for significant damage; Hurt during combat, targeted by enemy; Healed by Lor for 35 HP after being damaged by the Tyrannosaur; Jumped backwards to avoid a creature's gore attack; being heavily damaged by a Knight Inheritor; Takes damage from Lord's judgment rifle attack, reduced by stone skin. Nearly killed but survives.; Very low on health during combat; healed by someone for 23 HP; Dragon character who has been on the bench for a long time and is under-geared. Squeezes through windows and moves across the battlefield.; Player character (Bruce) involved in combat, mentions being shot by Night Inheritor; Player character (chris) involved in combat.; Player character receiving multiple magic item upgrades including a plus five sword, belt of physical might, and discussing armor options; Player character receiving equipment, has high AC from magical items including a cup providing significant AC bonus *(youtube-transcript, 3/25/2026)*
+
+## Notes & Updates
+
+- Has 24 strength, considered as a candidate to be enlarged with Ant Hall spell to help carry dragon loot; Has 24 strength, receives Antall spell cast on him, carries dragon skin and other equipment with light load; Party member with the most HP, being considered as recipient of cure critical wounds potion.; Party member with the most HP. Being discussed for receiving cure critical potions.; Party member whose cooking is joked about as potentially causing sickness; Found in the corner fighting an octopus per Hell's instructions. Brought to the magical waters location; Player character who is octopus fighting and makes dad jokes; Player character mentioned as present in combat scenario; Described as very melee specialized. Shifts to dragon form and attacks the water elemental with fire damage.; Chris's character, just arrived back to the session.; Player character receiving healing from wand, at 160/220 HP after healing; Can fit through passages in dragon form; has a perception roll of 20; Rolls perception check (natural 20) *(youtube-transcript, 3/25/2026)*
+- Player character mentioned as having more magical items/power than expected.; Character in giant form that Skipio squeezes through during combat; Mentioned as being susceptible to someone's gaze attack along with Hell Knights; Bruce is a dragon and is being attacked. He has stone skin active and high AC (23+). Players debate shooting him.; Player character involved in combat positioning; Player character (chris) engaged in melee combat to the east with Draymus, dealing damage.; Deflects a claw attack using dragon scales. A Hell Knight captain's head rolls beneath him. He is about to be attacked by a female paladin.; Targeted by the Lord of The Citadel with a Destruction spell in Celestial; takes 44 damage after resisting with a Fort save DC 24; Being attacked by an inheritor holy gun-wielding cleric who quotes Holy Scripture; takes multiple touch attacks for significant damage; Hurt during combat, targeted by enemy; Healed by Lor for 35 HP after being damaged by the Tyrannosaur; Jumped backwards to avoid a creature's gore attack; being heavily damaged by a Knight Inheritor; Takes damage from Lord's judgment rifle attack, reduced by stone skin. Nearly killed but survives.; Very low on health during combat; healed by someone for 23 HP; Dragon character who has been on the bench for a long time and is under-geared. Squeezes through windows and moves across the battlefield.; Player character (Bruce) involved in combat, mentions being shot by Night Inheritor; Player character (chris) involved in combat.; Player character receiving multiple magic item upgrades including a plus five sword, belt of physical might, and discussing armor options; Player character receiving equipment, has high AC from magical items including a cup providing significant AC bonus *(youtube-transcript, 3/25/2026)*
+- Player character being discussed; password reference indicates this is Chris's character; Player character who breaks formation and runs outside the invisibility sphere, becoming visible to enemies; Player character receiving protection buffs from other party members; Player Chris's character who is being buffed before combat. Already well-equipped and doesn't need many buffs. Needs pro alignment and possibly Bear's Endurance, Heroism, and Prayer buffs.; Player character who runs into the room and holds the right flank. Hasted.; Redesigned from the ground up and is much more formidable than before; Player character in the atrium area who will see the teleporting paladins appear; Mentioned as part of the party in the atrium during combat.; Character whose Stone skin buff is stolen by the Asmodian enchanter; Standing in combat, being charged by a Sword Knight from the East Hall; A target that the Knight Inheritor positions to attack next turn; Revamped character who is both a strong spellcaster and melee combatant; Character has been revamped and is described as an amazing spellcaster and beater hybrid with incredible mobility, high fly speed, and tanky stats *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

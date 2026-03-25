@@ -5,8 +5,8 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "vbGM_mA9lLc"
 sourceFile: "CC - vbGM_mA9lLc - Carrion Crown - Blind Justice no video 2023 10 29.md"
-processedAt: "2026-03-25T01:53:09.362Z"
-transcriptQuality: "fair"
+processedAt: "2026-03-25T17:43:22.017Z"
+transcriptQuality: "poor"
 charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
 tags: ["summary", "cc", "session"]
 ---
@@ -14,98 +14,94 @@ tags: ["summary", "cc", "session"]
 # Carrion Crown - Blind Justice Session 2 (2023-10-29)
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=vbGM_mA9lLc)
-**Transcript Quality:** fair
+**Transcript Quality:** poor
 **Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
 
 ## Summary
 
-CP-USS conducts a dangerous raid into a Technic League underground facility to rescue hostages being held for experimentation. After a brutal multi-round combat against barbarians, wizards, and witches in tight tunnels, the party fights through confusion spells, black tentacles, and coordinated enemy tactics. They successfully extract six hostages with the help of Beva (a transformed dwarf blacksmith) and escape via Meyanda's upgraded Beast-powered truck, though Kate Blackwood is killed in combat but later resurrected via scroll.
+CP-USS descends into an underground complex to rescue hostages from the Whispering Way's Technic League allies. After a brutal multi-stage combat involving barbarians, wizards, and tentacle spells, the party successfully rescues six hostages (including several Shudderwood barbarian nobles) and escapes via Meyanda's upgraded truck (containing the Beast of Lepidstadt's brain). Kate Blackwood is killed during the escape but resurrected via scroll. Transcript quality was poor with significant auto-caption errors and technical issues.
 
 ## Key Events
 
-- Beva arrives as a fiery elemental dwarf warrior (on fire, carrying a burning meteor staff) to reinforce the party in combat
-  - Characters: Beva, Dismas, Kovira, Kai, Gaspar, Danger, Dinvaya
-  - Location: Underground Technic League facility
-- Party battles multiple waves of barbarians and wizards in confined tunnel spaces; enemy casters cast confusion (multiple), black tentacles, volcanic storm, and other area control spells
-  - Characters: Gaspar, Kai, Danger, Dinvaya, Kovira, Dismas, Elfrip, Val
-  - Location: Underground Technic League facility tunnels
-- Danger repeatedly fails confusion saves and shoots allies multiple times; Kate Blackwood is killed by enemy fire during combat
-  - Characters: Danger, Kate Blackwood
-  - Location: Underground facility
-- Party discovers torture chamber with victims in experimental tanks and discovers a teleportation circle leading deeper into enemy territory
-  - Characters: Dinvaya, Elfrip, Kovira
-  - Location: Torture/experimentation chamber
-- Party frees six hostages (including two noble/elder types, four others in various states of weakness from torture and stat damage)
-  - Characters: Kovira, Gaspar, Kai, Dinvaya, Danger, Elfrip
-  - Location: Experimentation chamber and connected areas
-- Meyanda arrives with upgraded Beast-powered truck to extract party and hostages; truck is heavily modified with weapons systems and carries the Beast of Lepidstadt's brain in a jar wired to the controls
-  - Characters: Meyanda, Beast of Lepidstadt (Rissa), all PCs
-  - Location: Canyon outside underground facility
-- Party escapes in the truck while it engages remaining Technic League forces with vehicle-mounted weapons; truck scales cliff and flees toward Torch
-  - Characters: Meyanda, all PCs
-  - Location: Canyon → Torch
-- Kate Blackwood is resurrected via scroll of Raise Dead after Meyanda stabilizes her corpse with magical robots and clamps
-  - Characters: Kate Blackwood, Meyanda
-  - Location: Inside the Beast-powered truck
+- CP-USS engages enemy forces in cave dungeon with barbarians, wizards, and a tech-witch wielding spell strike. Combat includes black tentacles, confusion spells, and multiple near-party-wipes.
+  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
+  - Location: Underground complex (location unnamed in transcript)
+- Party discovers teleportation circle in torture chamber and multiple hostages trapped in magical containment tanks.
+  - Characters: Dinvaya, Dismas, Kai
+  - Location: Underground torture/lab complex
+- Kate Blackwood is killed during combat (details unclear from transcript, but party recovers her body).
+  - Characters: Kate Blackwood
+  - Location: Underground complex / canyon exit
+- Party escapes via Meyanda's upgraded truck (Beast of Lepidstadt's brain integrated into vehicle control system). Truck has mounted weaponry, armor plating, and crosses cliff terrain.
+  - Characters: Meyanda, Gaspar, Kovira, Kai, Elfrip, Dinvaya, Rodney Danger Smith, Dismas
+  - Location: Canyon exit / Torch
+- Kate Blackwood is resurrected using a scroll of Raise Dead after rescue.
+  - Characters: Kate Blackwood
+  - Location: Inside the truck / Torch
+- Six hostages rescued from underground facility. Hostages identified as barbarian nobles/elders with severe stat damage and physical trauma from torture/experimentation.
+  - Characters: Gaspar, Kovira, Kai, Dismas, Dinvaya
+  - Location: Underground complex
+- Beva (Meyanda's dwarf blacksmith companion) appears as fiery-headed barbarian/mage with flame aura and enters combat alongside party.
+  - Characters: Beva, Meyanda
+  - Location: Underground complex
+- Val (Connor's daughter, barbarian/magus) joins combat mid-way with Kate's sword bearing ice/blood.
+  - Characters: Val
+  - Location: Underground complex
 
 ## NPCs Encountered
 
-- [[Beva (dwarf blacksmith, fire elemental form)]]
-- [[Val (Connor's daughter, barbarian/magus)]]
-- [[Meyanda (drives the Beast truck)]]
-- [[Beast of Lepidstadt / Rissa (brain in jar controlling truck)]]
-- [[Technic League barbarians]]
-- [[Technic League wizards]]
-- [[Technic League witches]]
-- [[Six hostages (varying backgrounds, including apparent nobles/elders)]]
+- [[Meyanda]]
+- [[Beva]]
+- [[Val]]
+- [[Hostages (unnamed barbarian nobles)]]
 
 ## Locations
 
-- [[Underground Technic League facility (tunnels, offices, torture chamber)]]
-- [[Experimentation chamber with pods]]
-- [[Torture/dissection room]]
-- [[Canyon (outside facility)]]
-- [[Torch (destination)]]
+- [[Underground complex (torture chamber, lab, containment room)]]
+- [[Canyon]]
+- [[Torch]]
+- [[Foundry Tavern (mentioned)]]
 
 ## Combat Encounters
 
-- Multi-round tunnel combat against barbarians, wizards, and witches with enemy spellcasters casting confusion, black tentacles, volcanic storm, and scorching rays
-- Final escape combat in canyon with remaining Technic League forces against truck-mounted weapons
+- Multi-round battle vs. barbarians, wizards, and tech-witches in underground complex with confusion spells, black tentacles, and scorching rays
+- Enemy wizard summons black tentacles trapping multiple party members
+- Skirmish with Technic League forces in canyon near truck escape route
 
 ## Items & Loot
 
-- Two magical badges (from witches, worth ~4,000-40,000 gold per badge)
-- Two magical cloaks (from witches)
+- Two magical cloaks (from tech-witches)
+- Two magical badge pins (from tech-witches, worth ~4000-40000 gp per party discussion)
+- Potions (unspecified types)
 - Compound bow
-- Gems
-- Pipe bombs
-- Potions (various, looted from witches and snipers)
+- Gems (multiple, unspecified)
+- Pipe bombs (multiple)
+- Sealed container of soup
 - Chain shirt
-- Various random equipment from victim collection box
-- Scroll of antall (used to enhance carrying/support)
-- Books/notes from witches
+- Magical dagger (from witch corpse)
+- Scroll of Raise Dead (used to resurrect Kate)
+- Scroll of Antall (found on witch)
 
 ## Notable Quotes
 
-> that was rough
-> we were I believe mid combat
-> get all ConEd up
-> sounds like that dog needs to get all ConEd up
-> hell yeah
-> you son of a [ __ ]
-> the Risen shall fall and the Fallen be judged
-> where the hood at
-> she brings the truck which is going to bring all of the tech League people on top of us
+> that would have been a great time for the crit but oh well no kid
+> where the [ __ ] is it right here
+> you son of a [ __ ] that is so true me as well
+> sounds like that dog needs to get all ConEd up hell yeah
+> two for one special on raised dead
+> all the bad guys were dead and we were about to pick up their treasure that doesn't seem what I remember correct at all
+> we are so ConEd up even [ __ ] kir is tempted to Fireball us
 > Beast somehow knew that Kate died and asked me to come help you
-> if you've got a way to call to her soul you can have her back
+> mayanda says I did what I could to stabilize her body
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Exact nature of the six hostages rescued (some appear to be nobles/elders based on dialogue, but not clearly identified)
-- How many Technic League forces escaped the canyon encounter
-- The exact modifications Meyanda made to the truck and their full capabilities
-- Status of the teleportation circle after party departure (was it ever destroyed or just abandoned?)
-- Any remaining Technic League presence at the facility or pursuit beyond the canyon
+- Specific names/identities of six rescued hostages (referred to as 'barbarian nobles' or 'elders' but not individually named in transcript)
+- Exact nature of Technic League's experimental procedures on hostages (vague references to 'horrible things,' vivisection, stat damage)
+- Whether any Technic League forces were killed vs. escaped (mentions 'a few loose [ __ ]' survived but numbers unclear)
+- Complete layout/nature of underground complex (multiple passages, rooms mentioned but not fully mapped)
+- Exact mechanical nature of how Beast's brain controls the truck (described as wires and steering wheel moving rhythmically)
+- Whether Siege of Torch was already underway or began after this mission (mentioned Technic League 'swarms over' but timeline unclear)
 

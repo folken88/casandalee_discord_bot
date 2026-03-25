@@ -5,9 +5,9 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "eCrxiDQ2qf4"
 sourceFile: "CC - eCrxiDQ2qf4 - Carrion Crown - Sail 2024 05 27.md"
-processedAt: "2026-03-25T01:44:16.385Z"
+processedAt: "2026-03-25T17:34:55.542Z"
 transcriptQuality: "poor"
-charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
+charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Duran"]
 tags: ["summary", "cc", "session"]
 ---
 
@@ -15,79 +15,92 @@ tags: ["summary", "cc", "session"]
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=eCrxiDQ2qf4)
 **Transcript Quality:** poor
-**Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
+**Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Duran
 
 ## Summary
 
-CP-USS departs Ascanor Lodge and travels toward the Stairs of the Moon to confront the source of the Shudderwood werewolf power. During their journey, they encounter and lay to rest a ghostly haunt of ancient soldiers, then witness and intervene in a massive nighttime battle between the Silver Hides and the Broken Ones at a riverside location. The party buffs extensively and engages in a large-scale combat with multiple werewolf factions.
+CP-USS and allies departed Ascanor Lodge to reach the Stairs of the Moon, taking shelter in Duran's extravagant magical tent. They encountered a haunted campsite with ghostly soldiers from centuries past, which they peacefully resolved by using Disguise Self to impersonate their former commander and ordering them to stand down. The party then learned of a werewolf clan battle in progress (Silver Hides vs. Broken Ones and other factions) to their northeast and decided to intervene, arriving mid-combat with heavy magical buffs. Transcript quality was poor with frequent technical issues.
 
 ## Key Events
 
-- CP-USS plans departure from Ascanor Lodge. Duran (a guest ally) sets up an ostentatiously loud luxury tent with magical tent components, magical music (Ruff Riders Anthem), and hot tub. Party members convince him to tone down the visibility for stealth purposes.
+- Party departs Ascanor Lodge heading toward the Stairs of the Moon with Duran and his entourage, establishing a six-day travel window for their mission.
   - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas, Duran
-  - Location: Shudderwood (near Ascanor Lodge)
-- Party marches toward Stairs of the Moon. On Day 2, they discover an ancient ghostly haunt of soldiers (centuries-old, likely from the Butcher of Catomir's army) standing guard over a long-abandoned campsite on a hill that the Silver Hides deliberately avoid.
-  - Characters: Kovira, Kate Blackwood, Gaspar, Kai, Elfrip
-  - Location: Shudderwood, ancient campsite/hill
-- Kate disguises herself as the Butcher of Catomir using Disguise Other. She approaches the ghostly soldiers and tells them the war is over and they can go home. They salute her, sheath their swords, and fade away, ending the haunt.
-  - Characters: Kate Blackwood
-  - Location: Shudderwood, ancient campsite
-- During the night, Kovira detects an ice storm/magical disturbance to the northeast. The party realizes werewolf factions are fighting. After scouting by Kovira and Elfrip, they determine the Silver Hides are battling other clans (likely Broken Ones).
-  - Characters: Kovira, Elfrip, Kate Blackwood, Gaspar
-  - Location: Shudderwood, northeast of their camp
-- Party buffs extensively (Protection from Energy communal for cold damage, Haste, Blessing of Fervor, Bull's Strength, Shield of Wings, and other spells) and decides to intervene to help the Broken Ones (allies they paid) against the Silver Hides (who collude with the Whispering Way).
+  - Location: Ascanor Lodge / Shudderwood
+  - Timeline: 4717.03.25 — CP-USS Departs Ascanor Lodge for the Stairs of the Moon
+- Kovira scouts a hillside and discovers a haunted campsite with ghostly soldiers in ancient armor, determined to be from Grandpa's (the Butcher of Chastel's) era based on heraldic crests.
+  - Characters: Kovira
+  - Location: Shudderwood (haunted hill campsite)
+- Kate Blackwood casts Disguise Self to impersonate the Butcher of Chastel and successfully orders the haunted soldiers to stand down, causing the haunt to dissipate peacefully.
+  - Characters: Kate Blackwood, Kovira
+  - Location: Shudderwood (haunted hill campsite)
+- During second watch, Kovira detects signs of distant ice magic and a possible werewolf clan conflict to the northeast, approximately 600+ feet away.
+  - Characters: Kovira
+  - Location: Shudderwood (party campsite)
+- Party buff themselves (Protection from Energy [cold], Haste, Blessing of Fervor, Bears Endurance, Bulls Strength, Prayer) and advance rapidly toward the werewolf battle with the intent to support the Broken Ones against the Silver Hides.
   - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Duran
-  - Location: Shudderwood
-- Large-scale battle begins at a riverside location near waterfalls. Party is caught in multiple Ice Storms cast by Silver Hide mystics. Elfrip casts Fireball dealing significant damage. Gaspar fires grenades from his grenade launcher, hitting multiple Silver Hide warriors.
-  - Characters: Elfrip, Gaspar, Kate Blackwood, Kai, Kovira, Dinvaya, Rodney Danger Smith, Duran
-  - Location: Shudderwood, riverside with waterfalls
-- Broken One forces engage Silver Hide warriors in melee. A giant bear (likely a Broken One shifter) fights Silver Hide soldiers. Kate fires arrows at Silver Hide targets from range. Battle involves complex terrain (ice storms, river, waterfalls, difficult movement).
-  - Characters: Kate Blackwood, Gaspar, Kai, Elfrip, Dinvaya
-  - Location: Shudderwood, riverside battle site
+  - Location: Shudderwood (battlefield with waterfalls/river)
+- Large-scale combat erupts involving CP-USS, the Broken Ones (allied werewolves), Silver Hide werewolves, and other factions. Elfrip uses Fireball, Gaspar fires grenades from his launcher, Kai uses vampiric touch, and Kate engages in melee combat.
+  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Duran
+  - Location: Shudderwood (river/waterfall battlefield, southeastern sector)
 
 ## NPCs Encountered
 
-- [[Duran (werewolf ally/guest)]]
-- [[Broken Ones (werewolf clan allies)]]
-- [[Silver Hides (werewolf clan enemies)]]
-- [[Ghostly soldiers (ancient haunt)]]
+- [[Duran]]
+- [[Dur Stands (Duran's bodyguards/retinue)]]
+- [[Ghostly soldiers (haunted campsite)]]
+- [[Broken Ones (werewolf clan/archers)]]
+- [[Silver Hides (werewolf clan, hostile)]]
+- [[Broken One Bear Shifters]]
 
 ## Locations
 
 - [[Ascanor Lodge]]
-- [[Shudderwood (forest)]]
-- [[Ancient campsite (hill with ghostly haunt)]]
-- [[Riverside location with waterfalls (battle site)]]
+- [[Shudderwood (general region)]]
+- [[Haunted hill campsite (with ghostly soldiers)]]
+- [[Party campsite (with Duran's tent)]]
+- [[Battlefield with waterfalls and river (Shudderwood, northeast sector)]]
 
 ## Combat Encounters
 
-- Large-scale werewolf faction battle: CP-USS + Broken Ones vs. Silver Hides. Multiple ice storms cast by Silver Hide mystics. Fireball exchanges, grenade launcher fire, melee combat between bears and werewolf warriors. Battle involved 35+ entities and continued past the transcript's end.
+- Large-scale werewolf clan battle: CP-USS + Broken Ones vs. Silver Hides and associated forces
+- Multiple ice storms deployed by Silver Hide casters to control movement
+- Melee combat between Kate (wolf form) and Silver Hide soldiers
+- Fireball and ashstorm spells by Elfrip
+- Grenade launcher attacks by Gaspar (300 gold in ordinance expended)
+- Vampiric touch spell strike by Kai on a Silver Hide warrior
+- Arrow combat between Broken Ones and Silver Hides
 
 ## Items & Loot
 
-- Jorts (Sharwood Johns) - mentioned as available merchandise, armor that reduces check penalty
-- Scroll of Haste (used in combat prep)
-- Various spell scrolls and prepared spells
+- Duran's extravagant magical tent (20,000-25,000 gp value, contains dimensional pocket, mage's private sanctum, hot tub, baked sourdough, music system)
+- Corona laser pistol (ranged weapon used by Dinvaya)
+- 5 grenades/bombs (from broken ones, 300 gp total expended by Gaspar)
+- Shardwood Jorts (mentioned as available for purchase in Chastel)
+- Andy werewolf arrows (held by Duran's archers)
 
 ## Notable Quotes
 
-> I have pushed record I've pushed record behave may we never speak of this again
-> I'm fully planning to Gaslight the guests by doing monstrous physique into something else
-> I will shoot a werewolf not you Kate
-> I won't rest until I have the king of werewolves head above my toilet back home
-> where're the cops I [ __ ] an entire mummy
+> I'm fully planning to Gaslight the guests by doing monstrous physique into something else so I can pretend that I didn't blow this secret front of them
+> where're the cops I [ __ ] an entire mummy I don't remember eating him
+> I will shoot a werewolf not you Kate I shall go for slaying them is too easy you can do better than that
+> I won't rest until I have the king of werewolves head above my toilet back home in Chastel
+> my dice are made of Marble
 > I got 40 D6 of assorted bombs in my baggie hope I don't trip
-> please don't make me sleep next to him [referring to Kai after being blown up]
-> these Jorts cuz they do give they reduce your armor check penalty by one and they're cheap
-> I'm fully planning to Gaslight the guests by doing monstrous physique into something else
-> this is a [ __ ] Toby op these Jorts
+> plus one Amulet of severed balls
+> we keep hell packed with fresh Souls that's right I sure do
+> I am become mouth
+> blame it on the tanks of sea
+> two detectives sitting in a hot tub 5 ft apart cuz you're not gay
+> Just Surrender your magic items to the goblin the dude's [ __ ] goated
+> I've come a long way to kill a werewolf how exciting
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Exact status and casualties of the werewolf battle at session end (transcript was truncated mid-combat)
-- Whether the Broken Ones won or lost the battle against the Silver Hides
-- What long-term alliance shifts occur with the werewolf clans as a result of CP-USS's intervention
-- Whether Dismas participated in the opening sequence at Ascanor or was elsewhere (mentioned he'd arrive eventually)
+- Unknown outcome of the werewolf clan battle; transcript ends mid-combat
+- Exact casualty counts and which factions prevailed remain unclear
+- Duran's actual combat performance and final placement on battlefield uncertain due to late arrival and poor visibility
+- Whether Dismas was present or absent from this session (Chris Rodney player) — arrived late and status unclear
+- Specific nature of the third silver hide warrior caught in Cirri's Fireball (token tracking issue noted)
 

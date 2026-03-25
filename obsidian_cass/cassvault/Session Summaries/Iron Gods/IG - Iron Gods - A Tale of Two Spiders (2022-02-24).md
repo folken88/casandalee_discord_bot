@@ -5,89 +5,95 @@ campaign: "IG"
 campaignName: "Iron Gods"
 videoId: "8QEaQN6aOHc"
 sourceFile: "IG - 8QEaQN6aOHc - Iron Gods - A Tale of Two Spiders 2022 02 24.md"
-processedAt: "2026-03-25T02:05:04.797Z"
-transcriptQuality: "fair"
-charactersPresent: ["Ulfred", "Nomkath", "Mr Brow", "Olbryn", "Akradenn", "Luna", "Kroktah"]
+processedAt: "2026-03-25T17:55:35.411Z"
+transcriptQuality: "poor"
+charactersPresent: ["Ulfred", "Nomkath", "Mr Brow", "Olbryn", "Akradenn", "Luna", "Hirsek"]
 tags: ["summary", "ig", "session"]
 ---
 
 # Iron Gods - A Tale of Two Spiders (2022-02-24)
 
 **Campaign:** Iron Gods | **Video:** [Watch on YouTube](https://youtube.com/watch?v=8QEaQN6aOHc)
-**Transcript Quality:** fair
-**Characters Present:** Ulfred, Nomkath, Mr Brow, Olbryn, Akradenn, Luna, Kroktah
+**Transcript Quality:** poor
+**Characters Present:** Ulfred, Nomkath, Mr Brow, Olbryn, Akradenn, Luna, Hirsek
 
 ## Summary
 
-The party negotiates with Hirsek, a tiefling mercenary employed by the Technic League, and convinces him to abandon his contract and join them. After some tense discussion and a cavity search joke, he agrees. The party then travels to the Scar of the Spider valley, tests out an inflatable raft (which causes Tokala to become seasick), and discovers evidence of both giant natural spiders and androids in the area. They locate a spider cave infested with dangerous red mold and send Croktaw in to scout; she discovers two infected giant spiders and combat is about to begin.
+The party negotiated with Hirsek (a tiefling mercenary employed by the Technic League) and successfully recruited him after he agreed to abandon his Technic League contract. They investigated Kuratan, finding evidence of a necromancer who had raised undead there, and discovered that the town had been destroyed 5-6 days prior by unknown forces. The party then traveled into the Scar of the Spider valley, discovered two types of giant spiders (organic natural spiders separate from the mechanical spider-like entities they'd previously encountered), found an abandoned campsite of three android scouts, and discovered a massive infected spider corpse in a cave before encountering two more infected, diseased spiders. Transcript quality was poor.
 
 ## Key Events
 
-- Party negotiates with Hirsek (tiefling mercenary) to leave Technic League and join the party instead of killing him
-  - Characters: Hirsek, Tokala, Kroktah, Ulfred, Akradenn, Luna, Nomkath, Mr Brow
-  - Location: Kuratan (ruins of a town)
-- Party discovers evidence of a massive magical explosion/detonation somewhere northwest in the Scar of the Spider valley during night watch
+- Hirsek, a tiefling mercenary, agreed to join the party after renouncing his contract with the Technic League in exchange for treasure shares and companionship.
+  - Characters: Hirsek, Kroktah, Tokala
+  - Location: Kuratan
+- The party discovered that Kuratan was destroyed 5-6 days prior, with bodies missing and evidence of a recent necromancer raising undead in the ruins.
+  - Characters: Nomkath, Ulfred, Olbryn
+  - Location: Kuratan
+- The party looted a necromancer corpse, obtaining a ring of protection +2, amulet of natural armor +2, cloak of resistance +2, batteries, a flashlight, and a lighter.
+  - Characters: Nomkath, Ulfred
+  - Location: Kuratan
+- A distant explosion was heard in the northwestern part of the valley at night, felt as a shockwave miles away, consistent with massive technological detonation.
   - Characters: Nomkath, Hirsek
-  - Location: Scar of the Spider (river valley, southern entrance)
-- Party travels up the river valley in the Scar of the Spider using an inflatable motorized raft, causing Tokala and Ulfred to become ill from the motion
-  - Characters: Tokala, Ulfred, Mcginnis, Nomkath, Akradenn, Luna, Kroktah, Hirsek
-  - Location: Scar of the Spider (river)
-- Party discovers the remains of three androids' campsite with no signs of struggle; spiders did not capture them
-  - Characters: Kroktah, party
-  - Location: Scar of the Spider (river valley, near cliffs)
-- Croktaw uses wild shape to become a giant spider and scouts a cave infested with dangerous red mold. She discovers two large spiders that are infected/dying from the mold infestation. Combat is about to begin.
+  - Location: Scar of the Spider
+- The party identified that the Scar of the Spider contains natural, organic giant spiders distinct from the mechanical spider-like creatures encountered previously.
+  - Characters: Kroktah, Hirsek, Tokala, Akradenn
+  - Location: Scar of the Spider
+- The party found an abandoned campsite of three humanoid creatures (possibly androids) who left no signs of struggle or departure, with bedrolls still extended.
+  - Characters: Kroktah, Nomkath, Ulfred
+  - Location: Scar of the Spider
+- Kroktah (in giant spider wildshape form) scouted a cave and discovered a massive dead spider corpse covered in red mold/fungal infection at all joints, and two living infected giant spiders approaching her.
   - Characters: Kroktah
-  - Location: Scar of the Spider (cave near northern cliffs)
+  - Location: Spider Cave, Scar of the Spider
 
 ## NPCs Encountered
 
 - [[Hirsek]]
-- [[Casandalee (referenced via tablet)]]
-- [[Eldrin (deceased, referenced)]]
 
 ## Locations
 
-- [[Kuratan (ruins)]]
-- [[Scar of the Spider (river valley)]]
-- [[Spider cave (infested with red mold)]]
+- [[Kuratan]]
+- [[Scar of the Spider]]
+- [[Spider Cave]]
 
 ## Combat Encounters
 
-- Combat with two infected giant spiders in cave (initiative rolled but not resolved yet)
+- Party defeated a necromancer and animated zombies in Kuratan (recap from previous session)
+- Initiative about to be rolled against two infected giant spiders in cave at session end
 
 ## Items & Loot
 
-- Ring of Protection +2 (from necromancer, Nomkath took it)
-- Amulet of Natural Armor +2 (distributed)
+- Ring of Protection +2
+- Amulet of Natural Armor +2
 - Cloak of Resistance +2
-- Two batteries and a flashlight
-- Lighter (Hirsek took as souvenir)
-- Inflatable motorized raft (tested and confirmed functional)
+- Batteries (quantity unclear)
+- Flashlight
+- Lighter
+- Healing ointment (Soothe) - created by Kroktah with spell
 
 ## Notable Quotes
 
-> i'm going to kill you right
 > i'm going to kill him now
+> i am a mercenary i take uh take money for for to do things
 > those dirty dogs murdered my wife and son
-> i don't care if you're an acolyte if you ate the crackers and drink the juice at their service if you're the janitor from [ __ ] chainsaw the receptionist i'm gonna lock the doors and burn you alive with the rest of
-> there is no morals in who or where it goes
-> this is the scarf [ __ ] everything want to kill you
-> i love when these things end without bloodshed as it happens so rarely
+> i would like to know this too
+> i'm not sure we should trust him anyway uh given the way he just slinked in here shooting from behind the corner kind of cowardly
+> well no you see friends this is what i want to explain to you why are paths meet here in this place because i was hiding here from the be south side
+> if you will renounce your ties to them we're all good otherwise i think he's going to be winding that thing up again
+> this is what i mean by professional relationship we can't harm each other in a professional relationship
+> i will come with you i will take part in some of your adventures
+> i can't feel it
+> i think he's legitimate don't think that he's lying
 > i think we can always kill him later if we feel like it
-> can't be worse than a verisian bath house so
-> i am not making a report i am i'm not one for journal keeping or writing in general really
-> perhaps you could do well without me but perhaps not
-> i love your guys's attitude it's good it's winning it's very windy
-> i have been here a month and i have almost died more times than i am comfortable telling you
-> those dirty dogs murdered my wife and son
+> fake people and sick spiders man
+> i i am one with nature and nature is one with me
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- The exact nature and origin of the explosion heard in the distance (Nomkath suspects major technical detonation but source unclear)
-- Whether the three androids disappeared voluntarily, were captured by something other than spiders, or met some other fate
-- Relationship between the giant organic spiders and the giant mechanical spiders/scorpions the party encountered before
-- How long the infected spiders have been in the cave
-- Whether there are more spiders in the cave beyond the two Croktaw saw
+- Whether Hirsek was truthful about all his claims regarding the Technic League's mission (high charisma/bluff check was made)
+- The exact nature and origin of the explosion heard in the distance
+- What happened to the three android scouts/fake people who left the campsite
+- Relationship between the organic giant spiders and the mechanical spider-entities encountered earlier in the campaign
+- Whether the mold/infection affects all creatures equally or has selective properties
 

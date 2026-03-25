@@ -5,7 +5,7 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "YILS44CZ41w"
 sourceFile: "CC - YILS44CZ41w - Carrion Crown - To Ko-Boldly Go 2023 08 08.md"
-processedAt: "2026-03-25T01:39:39.413Z"
+processedAt: "2026-03-25T17:30:20.767Z"
 transcriptQuality: "poor"
 charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
 tags: ["summary", "cc", "session"]
@@ -19,85 +19,72 @@ tags: ["summary", "cc", "session"]
 
 ## Summary
 
-The party encountered a large kobold stronghold and engaged in an extended, chaotic combat featuring numerous enemies, pipe bomb grenades, and magical items. The goblin NPCs (referred to separately from the main party) fought alongside members who eventually defeated multiple kobold warriors, monks, rangers, clerics, and a magus in a series of interconnected chambers. Significant magical loot was recovered including a horn of sonic effects and various enchanted weapons.
+The transcript quality was poor and heavily garbled. CP-USS (now playing as goblins) engaged in a massive combat encounter against kobolds in an underground complex, involving extensive use of pipe bombs/grenades, wild shape transformations, and multiple rounds of chaotic melee. The party ultimately defeated numerous kobold enemies including monks, fighters, rangers, clerics, and a magus, then looted the complex and discovered various magical items and treasure.
 
 ## Key Events
 
-- Party discovers and engages a major kobold complex with at least 20+ enemies
+- Combat began when a rogue stepped on a trap and took 8 piercing damage, triggering initiative
+  - Characters: Elfrip
+  - Location: Underground kobold complex
+- One or more party members used pipe bombs to collapse a chamber containing multiple kobolds, killing them
+  - Characters: Elfrip, Dismas
+  - Location: Underground kobold complex - chamber
+- A character transformed into a bear via wild shape during combat
+  - Characters: Charles (likely a druid)
+  - Location: Underground kobold complex
+- The party defeated a large number of kobold enemies including full-plate armored fighters, monks, rangers, a cleric, and a magus wielding electrical weapons
   - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
-  - Location: Kobold stronghold/catacombs
-- A trap is triggered near the start of combat, dealing 8 piercing damage to a character attempting to scout
-  - Characters: Dismas
-  - Location: Kobold stronghold hallway
-- Party uses pipe bomb grenades extensively, collapsing at least one chamber and killing multiple enemies
-  - Characters: Rodney Danger Smith, Gaspar
-  - Location: Kobold stronghold chambers
-- A large armored kobold leader (referred to as 'Earl') wielding a water hammer and other magic items is encountered and defeated
-  - Characters: Party members
-  - Location: Kobold stronghold main chambers
-- A magical horn that amplifies sonic damage and spells is discovered among the treasure
-  - Characters: Party members
-  - Location: Kobold stronghold treasure area
-- A powerful ring of wild shape enhancement and resistance is discovered
-  - Characters: Party members
-  - Location: Kobold stronghold treasure
-- A luxury extradimensional backpack ('thick boy') capable of holding 200 cubic feet is found
-  - Characters: Party members
-  - Location: Kobold stronghold treasure area
+  - Location: Underground kobold complex
+- The party looted the defeated enemies and complex, finding a magical horn, magical weapons including a plus-one dagger (the Archivist), plus-one magic spears, magical sideswords, a magical ring that enhances wild shape, and a dimensional storage bag called 'the thick boy'
+  - Characters: Elfrip, Dismas, Gaspar
+  - Location: Underground kobold complex
+- The party discovered dozens of welcome mats that kobolds had stolen and were using as bedrolls
+  - Characters: Gaspar
+  - Location: Underground kobold complex - sleeping chamber
 
 ## NPCs Encountered
 
-- [[Multiple kobold warriors]]
-- [[Kobold monks]]
-- [[Kobold rangers]]
-- [[Kobold clerics]]
-- [[Kobold magus]]
-- [[Kobold archer]]
+- [[Multiple kobold fighters, monks, rangers, clerics, and a magus]]
 
 ## Locations
 
-- [[Kobold stronghold]]
-- [[Underground catacombs]]
-- [[Multiple interconnected chambers]]
-- [[Kobold sleeping chambers]]
+- [[Underground kobold complex]]
+- [[Chamber with collapsed ceiling]]
+- [[Kobold sleeping chamber]]
 
 ## Combat Encounters
 
-- Initial encounter with trapped hallway and multiple kobold warriors
-- Chamber collapse via pipe bomb grenades killing 5+ kobolds
-- Extended melee combat with heavily armored kobold 'Earls' wielding magical weapons
-- Combat involving a blue kobold magus with dual electrical chain weapons
-- Series of encounters with reinforcing kobold forces from multiple entrances
+- Extended multi-round combat against approximately 15-20 kobolds including full-plate armored fighters with magical spears, monks, rangers with crusader arrows, clerics with healing and channeling abilities, and a magus with electrical dual-wielding chain weapons
 
 ## Items & Loot
 
-- Sonic damage horn (60-foot cone, 1d6 damage, doubles buff spell durations)
-- Plus One ring with fire/cold resistance and wild shape enhancement
-- Plus One magic wakazashi (rope)
-- Plus One dagger (the Archivist - transforms into thieves tools)
-- Plus One silver long sword
-- Extradimensional backpack (thick boy) - 200 cubic feet capacity, 95% weight reduction
-- Multiple sets of plate armor (cobalt-sized)
-- Multiple man traps
-- Crusader arrows
-- 44 welcome mats (stolen from caravan)
-- Various mundane weapons and armor
+- Magical horn (60-foot cone sonic damage, doubles duration and targets of buff spells)
+- The Archivist (plus-one dagger with shape-changing ability, doubles as thieve's tools with +5 bonus)
+- Plus-one magic spears
+- Plus-one sideswords (chained pair)
+- Magical ring (armor bonus, resist 10 fire/cold, enhances wild shape by 4 levels)
+- The Thick Boy (dimensional storage backpack, 200 cubic feet capacity, 95% weight reduction)
+- Approximately 44 welcome mats
+- Plus-two race's armor
+- Multiple ordinary magical weapons and armor pieces
+- Gold (amount not clearly stated)
 
 ## Notable Quotes
 
 > take this you little [ __ ]
-> that's for the heels
-> [ __ ] eat big [ __ ] eye
-> what the [ __ ] is it expensive
-> i hate them blue guys
-> black air force one activity
+> he's been around the corner waiting to ambush one of you just taking grenade damage such patients much
+> this is like black air force one activity
+> what the [ __ ] is going on in here
+> I'm wetter than a blind lesbian in a fish market
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Possible involvement of a separate 'main party' distinct from the goblins fighting in the complex - transcript suggests two groups but this is ambiguous
-- Details of what happened to Gaspar during his solo fight in the northern hallway - he may have been fighting alone or with others
-- Whether the infernal healing potion used by one character was intentional or accidental consumption
-- The exact sequence of events with the invisible rogue who appeared late in combat
+- Possible involvement of NPCs named Taylor and Arnaud Blackwood mentioned in passing without clear context
+- Multiple rounds of healer channeling that revived defeated kobolds
+- Specifics of what 'the thick boy' backpack contains and its exact contents
+- Whether Gaspar was present or deceased during portions of the combat (transcript unclear on his location)
+- Exact mechanics of the magical horn and whether any spells were actually cast through it
+- Whether the party fully explored or left the complex
 

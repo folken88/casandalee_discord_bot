@@ -1,19 +1,22 @@
 ---
 name: "Nox"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["HR"]
-mentions: 2
-tags: ["character", "npc", "hr"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:13:23.384Z"
 ---
 
 # Nox
 
-**Type:** NPC
-**Campaigns:** HR
-**Mentions:** 2 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Sneaky Rogue player, initially not heard on stream, audio issues *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

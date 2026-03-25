@@ -5,9 +5,9 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "_Aw4jqbZGrA"
 sourceFile: "CC - _Aw4jqbZGrA - Carrion Crown - Dollar Store Cthulhu 2023 06 25.md"
-processedAt: "2026-03-25T01:41:28.735Z"
+processedAt: "2026-03-25T17:32:01.217Z"
 transcriptQuality: "fair"
-charactersPresent: ["Gaspar", "Kovira", "Kai", "Dismas", "Danger", "Kate Blackwood"]
+charactersPresent: ["Gaspar", "Kovira", "Kai", "Dismas", "Rodney Danger Smith", "Kate Blackwood"]
 tags: ["summary", "cc", "session"]
 ---
 
@@ -15,114 +15,96 @@ tags: ["summary", "cc", "session"]
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=_Aw4jqbZGrA)
 **Transcript Quality:** fair
-**Characters Present:** Gaspar, Kovira, Kai, Dismas, Danger, Kate Blackwood
+**Characters Present:** Gaspar, Kovira, Kai, Dismas, Rodney Danger Smith, Kate Blackwood
 
 ## Summary
 
-CP-USS conducts a successful trial defending the Beast of Lepidstadt against murder charges. Through expert testimony about golem mechanics, evidence linking rogues Vorkstag and Grime to the crimes, and a dramatic psychic interrogation by Kate Blackwood, they prove the Beast was mind-controlled and not responsible for most crimes. The court banishes the Beast from Lepidstadt rather than execute him. The party then secretly escorts the Beast out of the city and learns his creator—Count Caromarc—resides at Schloss Caromarc to the northeast. The Beast agrees to hide in a swamp while CP-USS prepares to investigate the castle. The party levels up to 6 and acquires equipment before departing.
+The CP-USS squad conducted a trial for the Beast of Lepidstadt, presenting evidence that the creature was controlled by others rather than acting of its own volition. Through expert testimony about golems and their control mechanisms, combined with evidence implicating the rogue criminals Vorkstag and Grime, the Beast was exonerated of most charges and banished from Lepidstadt rather than executed. The party then made arrangements to sneak the Beast out of the city and prepare for an expedition to investigate Schloss Caromarc, the castle to the northeast where the control device is believed to be located.
 
 ## Key Events
 
-- Beast interrogated and confirms he was commanded by 'not father' to steal green statue from university; points northeast to Schloss Caromarc
-  - Characters: Beast, Gaspar, Kai, Kovira
+- The Beast reveals through mime and gestures that he is controlled by a large stovetop-sized magical device located to the northeast near Schloss Caromarc, and that he was commanded to steal a small green statue from the university.
+  - Characters: Gaspar, Kovira, Kai, Dismas, Rodney Danger Smith
+  - Location: Lepidstadt Police Precinct basement
+- Officer Kovira testifies as an expert that the Beast is a flesh golem and that golems cannot act without commands from a control device. She explains that Vorkstag and Grime possessed stolen cadavers and could have constructed the Beast.
+  - Characters: Kovira
+  - Location: Lepidstadt Courthouse
+- Kate Blackwood uses detect thoughts to establish telepathic communication with the Beast and testifies about his thoughts. The Beast confirms he was commanded to go to the university and that he has a father who created him, not knowing where his father currently is.
+  - Characters: Kate Blackwood
+  - Location: Lepidstadt Courthouse
+- The Beast reveals through Kate that he was made by 'Father' and that there is another entity called 'Not Father' who recently used his father's control device. Not Father is described as scary, able to make dead things walk, and command ghosts.
+  - Characters: Kate Blackwood
   - Location: Lepidstadt Courthouse basement
-  - Timeline: 4717.01.22
-- Officer Kai testifies about Vorkstag and Grime's capabilities (wall-climbing, invisibility) and the cabinet of skins found at Chemic Works
-  - Characters: Kai, Barrister Cable, Prosecutor Heiger
+- Officer Gaspar presents evidence that the murders at Hergstag were committed by wraiths (not the Beast), that the murders at Morast show no evidence of the Beast's involvement, and that the Beast has never been to Morast or been bitten by a caiman as reported.
+  - Characters: Gaspar
   - Location: Lepidstadt Courthouse
-  - Timeline: 4717.01.22
-- Officer Danger testifies that Beast has no gator bite scar despite prosecution claiming a gator bit him during Morast murders; skin suit shows gator bite marks
-  - Characters: Danger, Barrister Cable
+- The judges rule that the Beast be banished permanently from Lepidstadt rather than executed, finding that his actions were involuntary and under the control of others.
+  - Characters: Gaspar, Kovira, Kai, Dismas, Rodney Danger Smith
   - Location: Lepidstadt Courthouse
-  - Timeline: 4717.01.22
-- Officer Dismas (Paladin of Pharasma) testifies Beast has no soul but detects as non-evil and non-undead; notes Beast consumes yogurt with passion
-  - Characters: Dismas, Barrister Cable
+- Judge Daramid pays the CP-USS squad for their work on the trial and authorizes 3,000 gold of credit at city shops. She also asks them to investigate Schloss Caromarc and determine how the Beast was created and controlled.
+  - Characters: Gaspar, Kovira, Kai, Dismas
   - Location: Lepidstadt Courthouse
-  - Timeline: 4717.01.22
-- Officer Gaspar provides comprehensive testimony exonerating Beast from Hergstag murders (wraiths), Morast crimes (surgical precision, gator scar), and Sanctuary arson (no fire capability); states control device likely at Schloss Caromarc
-  - Characters: Gaspar, Prosecutor Heiger
+- Kate Blackwood is recruited and deputized as a CP-USS officer with a badge made from a dead officer's credentials.
+  - Characters: Kate Blackwood
   - Location: Lepidstadt Courthouse
-  - Timeline: 4717.01.22
-- Kate Blackwood uses Detect Thoughts to psychically interrogate Beast; Beast confirms he was commanded to steal statue, did not kill guards intentionally, gave statue to 'tiny flying goblin,' and is controlled by 'not father' using father's machine
-  - Characters: Kate Blackwood, Beast
-  - Location: Lepidstadt Courthouse
-  - Timeline: 4717.01.22
-- Beast reveals 'father' is old human man at Schloss Caromarc; father originally commanded him to kill Orcs and trolls, made him years ago, but has not commanded him to harm the city; 'not father' is scary, makes dead walk, and commands ghosts
-  - Characters: Beast, Kate Blackwood
-  - Location: Lepidstadt Courthouse
-- Count Alden Caromarc identified as Beast's 'father' through knowledge history check; he was deposed ~30-40 years ago, resigned under threat of prosecution, and has lived in total seclusion at Schloss Caromarc
-  - Characters: Gaspar, Kai
+- The party arranges to sneak the Beast out of Lepidstadt using a hearse with a tarp, avoiding the rioting crowd outside the courthouse. The Beast receives his equipment: a giant bow called the Great Buffalo Hunt, an ogre hook, a cloak of stealth, and an Amulet of Mighty Fists.
+  - Characters: Gaspar, Kovira, Kai, Dismas, Rodney Danger Smith, Kate Blackwood
   - Location: Lepidstadt
-- Court renders judgment: Beast banished permanently from Lepidstadt with threat of deadly force if he returns; banishment viewed as leniency given golem nature and involuntary actions
-  - Characters: Judge Ambrose Cards, Judge Daramid, Judge Aldar, Beast
+- Gaspar is promoted to Captain of the CP-USS and given a captain's badge that functions as a ring of protection and amulet of natural armor.
+  - Characters: Gaspar
   - Location: Lepidstadt Courthouse
-  - Timeline: 4717.01.22
-- CP-USS secretly escorts Beast out of Lepidstadt using hearse at night to avoid riot mob; Beast given his equipment: Great Buffalo Hunt bow, ogre hook, magical arrows, Cloak of Elvenkind, Amulet of Mighty Fists
-  - Characters: Gaspar, Kai, Kovira, Dismas, Danger, Kate Blackwood, Beast
-  - Location: Lepidstadt outskirts
-  - Timeline: 4717.01.22
-- Beast agrees to hide in swamp near Schloss Caromarc for one week while CP-USS investigates castle and deals with 'not father' to avoid accidental mind-control murder
-  - Characters: Beast, Gaspar
-  - Location: Lepidstadt
-- Judge Daramid provides 3,000 gold line of credit for CP-USS to purchase supplies and upgrade equipment before Schloss Caromarc investigation
-  - Characters: Judge Daramid, CP-USS
-  - Location: Lepidstadt
-- Kate Blackwood deputized as CP-USS officer with own badge (formerly Officer Kelton's); Gaspar promoted to Captain of CP-USS
-  - Characters: Kate Blackwood, Gaspar, Judge Daramid
-  - Location: Lepidstadt
-- Party acquires multiple Haunt Siphons, various magic items and equipment upgrades; party reaches character level 6 *(medium confidence)*
-  - Characters: Party
-  - Location: Lepidstadt
+- The party levels up to level 6 after the trial concludes.
+  - Characters: Gaspar, Kovira, Kai, Dismas, Rodney Danger Smith, Kate Blackwood
 
 ## NPCs Encountered
 
-- [[Beast of Lepidstadt]]
+- [[Judge Daramid]]
+- [[Judge Ambrose Cards]]
+- [[Judge Aldar]]
+- [[Judge Jeremy]]
 - [[Barrister Cable]]
 - [[Prosecutor Heiger]]
-- [[Judge Ambrose Cards]]
-- [[Judge Daramid]]
-- [[Judge Aldar]]
-- [[Carl (restored vision witness)]]
-- [[Sergeant of the Guard]]
+- [[Carl]]
 - [[Kendra Lorrimor]]
+- [[The Beast (defendant)]]
 - [[Ives]]
-- [[Count Alden Caromarc (referenced)]]
 
 ## Locations
 
+- [[Lepidstadt Police Precinct]]
 - [[Lepidstadt Courthouse]]
-- [[Lepidstadt (Precinct 13)]]
-- [[Schloss Caromarc (referenced, northeast of Lepidstadt)]]
+- [[Lepidstadt (general)]]
 
 
 ## Items & Loot
 
-- Great Buffalo Hunt (legendary bow, +1 magic arrows)
-- Ogre Hook (Beast's weapon)
-- Cloak of Elvenkind (worn by Beast)
-- Amulet of Mighty Fists (+1 to melee, electrical damage)
-- Custom magical arrows (designed to survive bow)
-- Multiple Haunt Siphons
-- Various protective items and magical equipment
+- Haunt Siphons (purchased)
+- Ring of Protection +1 (purchased)
+- The Great Buffalo Hunt (bow)
+- Ogre Hook
+- Amulet of Mighty Fists
+- Cloak of Elvenkind
+- Captain's Badge (Gaspar)
 
 ## Notable Quotes
 
-> does this Beast match the creature you saw leaving that night to your best regulation and he says well maybe maybe it was dark and saw him by firelight
-> while you were fighting the guards were you in control of your actions he turns and holds up his hand towards Gaspar in the and Barrister cable as he asked this yes he was so you were in control of yourself as you injured 11 City Guards yes but they started it
-> father made him to kill City but never commanded him to the city
-> not father used father's machine
-> the father's machine makes two mind one
+> dollar store Cthulhu ceramic
+> he makes sort of a rumbling sound
+> they took his stuff
+> he has a bow
+> father made him to kill City but never commanded him to do that
 > not father is scary
-> father's other creations are mean and stupid
-> I don't want a four foot arrow in my gut
+> not father makes a dead walk and commands ghosts
+> he lived
+> we should just put like a cadaver yeah well it's got a whale we can make it whale with magic
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Exact nature of 'not father' entity and relationship to Whispering Way unclear; could be separate antagonist or WW agent
-- Beast's true name unknown; whether count Caromarc created him or if 'father' is different person
-- Identity and capabilities of 'tiny flying goblin' unclear; possibly a familiar or servant of Vorkstag/Grime
-- Whether Count Caromarc is still alive at Schloss Caromarc
-- Full scope of other creations Caromarc has made (mention of troll-part and orc-part creatures)
+- Kendra Lorrimor's exact involvement in the case beyond providing expert testimony on golems
+- The true nature and purpose of the small green statue stolen from the university
+- Whether Count Caromarc is actually alive or what his current mental state is
+- The specific nature of the entity called 'Not Father' and its relationship to the control device
+- Whether other creations of the count exist at Schloss Caromarc beyond those mentioned
 

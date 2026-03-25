@@ -1,19 +1,22 @@
 ---
 name: "North"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["HR", "SS"]
-mentions: 2
-tags: ["character", "npc", "hr", "ss"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T15:37:57.845Z"
 ---
 
 # North
 
-**Type:** NPC
-**Campaigns:** HR, SS
-**Mentions:** 2 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Technic League Captain who can arrange for teleport wards to be disabled at the palace *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

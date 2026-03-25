@@ -1,19 +1,22 @@
 ---
 name: "Rickety Squibs"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["SS"]
-mentions: 4
-tags: ["character", "npc", "ss"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T15:11:04.635Z"
 ---
 
 # Rickety Squibs
 
-**Type:** NPC
-**Campaigns:** SS
-**Mentions:** 4 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Identifies the split sail design as a Chelish weapon system mount and advises on disguising the ship *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

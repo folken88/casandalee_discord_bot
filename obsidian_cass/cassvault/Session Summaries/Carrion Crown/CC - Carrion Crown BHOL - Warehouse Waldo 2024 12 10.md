@@ -5,8 +5,8 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "0muw3v70jHk"
 sourceFile: "CC - 0muw3v70jHk - Carrion Crown BHOL - Warehouse Waldo 2024 12 10.md"
-processedAt: "2026-03-25T01:16:30.242Z"
-transcriptQuality: "fair"
+processedAt: "2026-03-25T17:07:35.361Z"
+transcriptQuality: "poor"
 charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
 tags: ["summary", "cc", "session"]
 ---
@@ -14,90 +14,90 @@ tags: ["summary", "cc", "session"]
 # Carrion Crown BHOL - Warehouse Waldo 2024 12 10
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=0muw3v70jHk)
-**Transcript Quality:** fair
+**Transcript Quality:** poor
 **Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
 
 ## Summary
 
-The party conducted an assassination job, investigating and ultimately attacking a warehouse belonging to their target. They engaged in combat with Red Runner gang thugs and multiple vampires, using disintegrate and fireball spells to devastating effect. After clearing the warehouse, they captured Roland Redeye, the gang leader, and brought him back to their hideout for interrogation. Through charm and mind-reading spells, they learned their target is a vampire with 10+ vampire associates, and are now planning their next move.
+The party conducted a warehouse assault on a location owned by their assassination target. During the operation, they encountered and defeated multiple vampires, thugs, and a powerful spellcaster. They captured the Red Runner gang leader Roland Redeye, who revealed critical intelligence about their target's vampire network before being charmed into cooperation. Transcript quality was poor due to heavy auto-caption errors and audio issues affecting multiple players throughout.
 
 ## Key Events
 
-- Party initiated combat at the warehouse belonging to their assassination target, discovering the presence of at least 3 vampires among the defending forces
-  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
-  - Location: Warehouse (Red Runner gang territory)
-- Pinkney (caster) cast Fireball in the warehouse alley, hitting multiple enemies and accidentally catching an invisible witch and unknown additional targets in the blast radius
-  - Characters: Gaspar
+- Combat erupts at the warehouse with party fighting a vampire in heavy armor, Red Runner gang thugs, and a powerful spellcaster. Stray transforms into spider form, drawing initial vampire aggression.
+  - Characters: Stray, Kayla, Rev, Switch, William, Kelda
+  - Location: Warehouse (Target's property, marked 'W' on map)
+- Kayla uses disintegrate spell, severely damaging a vampire but not killing it. Later uses fireball spell in the alley, catching multiple unidentified targets including an invisible witch.
+  - Characters: Kayla
   - Location: Warehouse alley
-- One vampire (hexer) survived a disintegrate spell but was later killed by a second disintegrate cast by Gaspar, taking 102 damage and being completely disintegrated
-  - Characters: Gaspar
+- William casts magic circle against evil around himself to hold position against remaining threats. Survives direct attack from vampire.
+  - Characters: William
   - Location: Warehouse
-- Party captured Roland Redeye (Redeye Mcroy), leader of the Red Runner gang, using glitter dust to blind him and Switch's grappling skills to subdue him
-  - Characters: Dismas, Kate Blackwood
+- Switch subdues and captures Red Runner gang leader Roland Redeye using grapple and arm bar technique after Kayla hits him with glitter dust spell.
+  - Characters: Switch, Roland Redeye, Kayla
+  - Location: Warehouse interior
+- Captured gang leader reveals under charm spell that the assassination target has a vampire inner circle including her husband (out of town) and at least 9-10 additional vampires. She has multiple lairs: a winery, a graveyard, and a favorite restaurant.
+  - Characters: Switch, Roland Redeye
+  - Location: Party headquarters
+- Party defeats all warehouse threats. William remains behind to speak with city police/constables arriving at the scene. Presents himself as a priest of Pharasma who found the scene and is blessing the dead.
+  - Characters: William
   - Location: Warehouse
-- Party transported captured gang leader to their hideout and used charm person and detect thoughts spells to extract information
-  - Characters: Elfrip, Gaspar, Kovira
-  - Location: Party hideout
-- Interrogation revealed the assassination target is a vampire with a vampire husband (currently out of town) and an inner circle of 9-10 additional vampires. Target frequents a winery, graveyard, and favorite restaurant
-  - Characters: Gaspar, Elfrip, Dismas, Kate Blackwood, Kovira
-  - Location: Party hideout
-- Rodney (William's character) gave a statement to city guards at the warehouse scene, claiming to be a priest of Pharasma and blessing the dead. Guards initially skeptical but deferred to his religious authority
-  - Characters: Rodney Danger Smith
-  - Location: Warehouse
-- Party decided to turn captured gang leader over to police rather than harbor him, planning to set an ambush when the target's forces attempt to break him out of custody
+- Party plans to turn over captured gang leader to police precinct rather than keeping him at temple or headquarters, hoping to bait the vampire target into conflict on their terms.
   - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
-  - Location: Party hideout
+  - Location: Party headquarters
 
 ## NPCs Encountered
 
-- [[Roland Redeye (Redeye Mcroy)]]
+- [[Roland Redeye]]
 - [[Red Runner gang thugs]]
-- [[Vampire hexer]]
+- [[Vampire spellcaster (hexer)]]
 - [[Battle-sworn vampire]]
 - [[Invisible witch]]
 - [[Police captain]]
 - [[Police sergeant]]
-- [[City constables]]
+- [[Police constables]]
 
 ## Locations
 
-- [[Warehouse (Red Runner territory)]]
+- [[Warehouse (Red Runner/target location)]]
 - [[Warehouse alley]]
-- [[Party hideout]]
+- [[Party headquarters]]
+- [[Police precinct (planned)]]
 
 ## Combat Encounters
 
-- Party vs. Red Runner gang thugs, vampire hexer, battle-sworn vampire, and invisible witch at warehouse. Combat involved multiple spell effects (Fireball, Lightning Bolt, Disintegrate, Black Tentacles, Glitter Dust) and wild animal forms (lion, spider). Two vampires killed, gang leader subdued.
-- Extended warehouse combat with multiple rounds of attacks, spellcasting, and tactical positioning. Notable spell damage: Fireball (AoE), Lightning Bolt (44 damage to one enemy), Disintegrate (102 damage killing hexer vampire).
+- Battle with multiple Red Runner thugs and vampire combatants in warehouse
+- Disintegrate spell kills vampire hexer
+- Fireball spell catches multiple hidden targets in warehouse
+- Lightning bolt kills multiple thugs
+- Melee combat with battle-sworn vampire (defeated by William)
+- Grapple/subdual of gang leader by Switch
 
 ## Items & Loot
 
-- Silence and Sculptor daggers (used effectively in combat)
-- Blackwood repeating crossbow with spell shot capability
-- Marran compact bow
-- Crossbow (William's character)
-- Scythe (William's character)
-- Rapier (Switch's weapon)
-- Healing potions (used during combat and after)
-- Magic circle components (silver for ritual)
+- Silence and Sculptor daggers (Switch)
+- Blackwood repeating crossbow (Kayla, with spell shot feature)
+- Maranax compact bow (Kayla)
+- Healing potions (used during combat)
+- Glitter dust spell components
 
 ## Notable Quotes
 
-> Papa might cry tears of joy though they may just be from all the smoke
-> Look what your master and his beloved pets have accomplished
-> The weakness of this group is it doesn't have a devoted healer
-> We are so unprepared
-> They've got a number of places they'll be but they won't know you've destroyed the warehouse until probably midday or maybe evening tomorrow
-> Snitches do get stitches
-> I want to do that then okay I'll take you right I don't want to go forgotten the meaning of loyalty
+> you guys have been hired to kill a person and you spent most of last time farting around the city like professionals investigating the Target
+> the target owns a warehouse not that far this is your home base this red letter B on the map be hole the Blackhand operatives League or beole as you guys affectionately call it
+> that's definitely Roland Redeye mroy who is the leader of the gang the red runners
+> they'll kill me if I say anything I'm just I'm dead I'm already dead
+> her whole inner Circle our vampires she is her husband is although I think he's out of town and she's got like you just saw three of them there's at least nine or 10 more
+> you've gotten probably at best until sundown tomorrow when they figure out the warehouse has been hit and change up their schedule
+> demonetized I'm going to stop the recording started over there allegedly
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Exact nature and capabilities of the invisible witch hit by multiple spells remains unclear from transcript
-- Whether the target vampire's husband is definitely out of town or if his location is uncertain
-- Specific details about the target's powers and weaknesses beyond being a vampire
-- Whether the police precinct has corruption that could affect the gang leader's safety if turned over to them
-- Identity and exact location of other vampire associates in the target's inner circle
+- Exact number of additional vampires at target's other locations unclear - stated as '9-10 more' but phrasing ambiguous
+- Nature of invisible witch encountered in fireball - unclear if ally or enemy combatant
+- Current location and status of target's husband - stated as 'out of town' but details unclear
+- Exact identities of vampire 'inner circle' members beyond the three killed in warehouse
+- Whether police precinct has incorruptible divine casters - William expressed doubt about their reliability
+- Success probability of ambush plan at police precinct against vampire assault team
 

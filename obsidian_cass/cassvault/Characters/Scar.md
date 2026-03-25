@@ -1,19 +1,22 @@
 ---
 name: "Scar"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["CC", "IG"]
-mentions: 5
-tags: ["character", "npc", "cc", "ig"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:13:23.445Z"
 ---
 
 # Scar
 
-**Type:** NPC
-**Campaigns:** CC, IG
-**Mentions:** 5 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- A rogue character who usually spearheads stealth operations and has strong bluff skills. Currently AFK during the encounter. *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

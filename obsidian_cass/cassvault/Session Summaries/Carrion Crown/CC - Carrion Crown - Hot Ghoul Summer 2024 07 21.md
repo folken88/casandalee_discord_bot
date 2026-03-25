@@ -5,7 +5,7 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "08I3hh6obPU"
 sourceFile: "CC - 08I3hh6obPU - Carrion Crown - Hot Ghoul Summer 2024 07 21.md"
-processedAt: "2026-03-25T01:15:40.141Z"
+processedAt: "2026-03-25T17:06:45.488Z"
 transcriptQuality: "fair"
 charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
 tags: ["summary", "cc", "session"]
@@ -19,127 +19,116 @@ tags: ["summary", "cc", "session"]
 
 ## Summary
 
-CP-USS clears out Willowmere estate (the Willow-Meir summer home), a compound infested with undead including multiple fat boys (plague-infected undead that emit nauseating gas clouds). The party battles through the main house's hallway using black tentacles as crowd control, then clears the kitchen and remaining rooms. They loot the estate extensively, discovering a family heirloom ring that becomes mysteriously stuck on Kate Blackwood's finger (suspected to be cursed). Meyanda contacts them via magical message, and they plan to meet at Booknook estate the following day.
+CP-USS clears Willowmere estate (a summer mansion in Ardeal) of undead including multiple fat boy demons that produce lethal stench clouds. They discover the estate was abandoned after a cult visit threatened the owners. The party loots the mansion extensively, finding magical items, food supplies, and notably a cursed ring that becomes stuck on Kate Blackwood's hand. They prepare to rest at the estate and send word to Meyanda to meet them at Booknook the next day.
 
 ## Key Events
 
-- CP-USS breaches the main entrance to Willowmere, the sealed summer home. The party chops through an iron-spike-reinforced oak door.
-  - Characters: Gaspar, Kate Blackwood, Kai
-  - Location: Willowmere Estate
-- Black tentacles spell deployed down hallway to crowd-control skeletons and zombies. The spell acts as an effective filter, grappling and restraining enemies over multiple rounds.
-  - Characters: Dismas
-  - Location: Willowmere main hallway
-- Multiple fat boy encounters. These plague-infected undead release nauseating gas clouds (DC 20 Fortitude saves) on death and potentially during combat. The party uses ranged attacks and area spells to destroy them while managing the fart clouds.
-  - Characters: Gaspar, Kai, Kate Blackwood, Elfrip, Dismas, Danger, Kovira, Dinvaya
-  - Location: Willowmere main house and kitchen
-- Elfrip uses dispel magic to clear nauseating gas clouds, allowing the party to continue fighting and looting.
-  - Characters: Elfrip
-  - Location: Willowmere compound
-- Party discovers kitchen with preserved food, magical items, and spices. They find tater tot hot dish, blood caiman tacos, ghoul pie (grants immunity to ghoul fever for 4 hours), and a large collection of spices and cooking supplies.
-  - Characters: Party
+- CP-USS breaches the main hall of Willowmere and encounters undead werewolves, skeletons, and zombies defended by black tentacle spell from Dismas. Multiple waves of undead emerge from the building.
+  - Characters: Dismas, Gaspar, Kate Blackwood, Kai, Elfrip, Dinvaya, Rodney Danger Smith, Kovira
+  - Location: Willowmere estate, main hall
+- Party encounters fat boy demons that emit DC20 stench clouds on death, dealing Constitution damage and causing nausea. Multiple fart clouds fill the mansion during combat.
+  - Characters: Gaspar, Kate Blackwood, Kai, Elfrip, Dinvaya, Rodney Danger Smith, Dismas, Kovira
+  - Location: Willowmere estate, interior
+- Kitchen is destroyed with lightning bolt and plasma grenades while fighting a fat boy demon. Party uses Fireball and other spells to clear the area.
+  - Characters: Gaspar, Elfrip
   - Location: Willowmere kitchen
-- A marble statue of Tresaun Wier in golden armor is discovered in one of the estate's rooms, matching an image from a party journal.
-  - Characters: Party
-  - Location: Willowmere statue room
-- Party finds a letter indicating the estate's owners (the Willow-Meir family) evacuated after a supernatural visitor threatened them. They released staff and refused to stay despite pleas. Sir Thorne, apparently a guardian, stayed behind.
-  - Characters: Party
-  - Location: Willowmere dining room
-- Party opens a vault/safe door containing significant treasure: a giant skeleton (juvenile elasmosaur, ~30 ft long, 1300 lbs), gems (diamonds, emeralds, garnets, pearls, rubies), a family heirloom ring (Seal of Willow-Meir, +1 ring of protection radiating magic), scrolls of Darkness, Dimensional Anchor, and Dispel Evil, and a wand of Knock with 15 charges remaining.
-  - Characters: Danger Smith, Party
-  - Location: Willowmere vault
-- Kate Blackwood puts on an ornate silver ring found in the estate. The ring becomes mysteriously stuck on her finger and cannot be removed. The party suspects it is cursed.
+- Party discovers the estate's contents and loots: magical items including a wand of knock (15 charges), scrolls, a dinosaur skeleton (juvenile elasmosaur, ~1300 lbs), gems (diamonds, emeralds, garnets, pearls, rubies), food supplies in preserved cupboards, and various magical gear.
+  - Characters: Kovira, Kate Blackwood, Gaspar, Danger, Elfrip
+  - Location: Willowmere estate
+- A letter is found from the estate owners stating they are fleeing within the hour due to a threatening visitor who promised to return. They mention releasing staff and that Sir Thorne refused to leave. The family hoped to outlast 'this storm' and be forgotten.
+  - Location: Willowmere estate, letter found in room
+- Kate Blackwood puts on a silver ring found in a wardrobe and discovers it cannot be removed from her hand. The ring appears to be cursed.
   - Characters: Kate Blackwood
-  - Location: Willowmere wardrobe room
-- Meyanda makes magical contact with the party via Taylor Blackwood's message ability. She reports a 'huge metal thing' (the truck) at Chastel's east gates. The party arranges to meet Meyanda at Booknook estate the following day.
-  - Characters: Kate Blackwood, Meyanda
-  - Location: Willowmere / Chastel gates (remote contact)
-- Party rests at Willowmere overnight after clearing the compound. Denva prepares to cast remove curse the following day to free Kate from the ring.
-  - Characters: Party
-  - Location: Willowmere Estate
-- Final storage room cleared, containing diving suit, underwater gear (compass, goggles, pen, paper), merfolk's comb (grants water breathing for 8 hours when consumed), and horseshoes game.
-  - Characters: Party
-  - Location: Willowmere storage room
+  - Location: Willowmere estate, wardrobe room
+- Meyanda sends a message (via Taylor Blackwood) indicating she is at the east gates of Chastel in a large metal vehicle and will meet the party. Party arranges to meet at Booknook the next day.
+  - Characters: Kate Blackwood
+  - Location: Chastel gates / Willowmere
+  - Timeline: 4717.04.06 — Meyanda visits Chastel for first time and meets Arnaud and Taylor Blackwood
+- Dinvaya casts remove curse on Kate to attempt to remove the ring after it becomes stuck. Party also discovers a shawl of lifekeeping and other magical items in storage.
+  - Characters: Dinvaya, Kate Blackwood
+  - Location: Willowmere estate
 
 ## NPCs Encountered
 
-- [[Tresaun Wier (statue/historical figure)]]
-- [[Sir Thorne (mentioned as guardian who stayed)]]
-- [[Meyanda (remote contact)]]
-- [[Taylor Blackwood (relayed message)]]
+- [[Taylor Blackwood]]
+- [[Meyanda]]
 
 ## Locations
 
-- [[Willowmere Estate (summer home of Willow-Meir family)]]
-- [[Willowmere main hallway]]
-- [[Willowmere kitchen]]
-- [[Willowmere statue room]]
-- [[Willowmere vault]]
-- [[Willowmere wardrobe/bedroom areas]]
-- [[Willowmere storage room]]
+- [[Willowmere estate (main hall)]]
+- [[Willowmere estate (kitchen)]]
+- [[Willowmere estate (dining room)]]
+- [[Willowmere estate (bedrooms)]]
+- [[Willowmere estate (wardrobes)]]
+- [[Willowmere estate (bathrooms)]]
+- [[Willowmere estate (storage rooms)]]
+- [[Booknook (mentioned as destination)]]
 
 ## Combat Encounters
 
-- Main hallway: skeletons, zombies, and multiple undead werewolf hybrids entangled by black tentacles
-- Kitchen: fat boy (plague undead) caught in web spell, multiple undead werewolves
-- Bathroom: fat boy encountered by Gaspar; destroyed by Elfrip's fireball between Gaspar's legs
+- Battle in main hall: undead werewolves, skeletons, and zombies defended by black tentacles spell. Multiple waves emerge from the building.
+- Kitchen fight: fat boy demon that produces stench cloud, destroyed by lightning bolt and plasma grenades.
+- Bathroom encounter: fat boy demon lunges at Gaspar, detonated by Elfrip's fireball between Gaspar's legs.
 
 ## Items & Loot
 
-- Juvenile elasmosaur skeleton (~30 ft long, 1300 lbs, 4500 gold value)
+- Wand of knock (15 charges remaining)
+- Scrolls of various spells (disguise self, etc.)
+- Juvenile elasmosaur skeleton (~1300 lbs, 4500 gp value)
 - Gems: diamonds, emeralds, garnets, pearls, rubies
-- Seal of Willow-Meir (family heirloom +1 ring of protection, 2400 gold value)
-- Scroll of Darkness
-- Scroll of Dimensional Anchor
-- Scroll of Dispel Evil
-- Wand of Knock (15 charges)
-- Wand of Levitate
-- Wand of Remove Disease
-- Wand of Restoration
-- Potions: cure light wounds, cure moderate wounds, remove paralysis, remove curse, various brews
-- Apron of Pharasma (heat protection +2 fire saves, +5 cooking checks)
-- Boots of the Cat (minimum fall damage)
-- Dancing Scarves (+2 AC when moving 10+ feet, cloak slot)
-- Dissident Gloves (Sarenrae holy symbol, can imprint on objects)
-- Belt of Tumbling (+4 acrobatics to avoid AoOs)
-- Shawl of Life-Keeping (stores up to 10 HP, auto-heals wearer if reduced to -1 or below)
-- Merfolk's Comb (grants water breathing for 8 hours when consumed)
-- Grenade launcher with ammunition
-- Parasol (fashion/Mary Poppins reference)
-- Heated gloves (4 hours of warmth)
-- Barbarian's Banana Bread
-- Blood Caiman Tacos (30-minute breath-holding)
-- Ghoul Pie (immunity to ghoul fever for 4 hours, with slice already eaten)
-- Tater Tot Hot Dish (multiple servings)
-- Large quantities of cooking spices and supplies
-- Tobacco and hookah pipe
-- Children's coloring book (mid Journey artwork depicting cult and monsters)
-- Sanctified Rings (pair, connection-based, worth 2400 gold)
-- Mysterious silver ring (CURSED - stuck on Kate Blackwood's finger, undetermined properties)
+- Seal of Willowmere (ring of protection +1, family heirloom)
+- Boots of the cat
+- Parasols (multiple)
+- Shawl of lifekeeping
+- Belt of tumbling
+- Dissident gloves (Sarenrae symbol)
+- Dancing scarves
+- Chief of remembrance
+- Merfolk's comb
+- Underwater compass, goggles, pen, paper
+- Diving suit and wet suit
+- Horseshoes (game item)
+- Stiletto boots
+- Heated gloves
+- Apron of Pharasma (Pharasmat's Apron)
+- Food items: fresh baked goods, blood caiman tacos, ghoul pie, tater tot hot dish, honey
+- Spices and cooking supplies
+- Caden Brew (30-rack)
+- Cursed silver ring (stuck on Kate's hand)
+- Grenade launcher with spare grenades
+- Multiple potions (cure light wounds, cure moderate wounds, remove paralysis, remove curse, etc.)
 
 ## Notable Quotes
 
 > oh yeah all right the recording is started so don't say anything terrible something terrible catastroph anything terrible
-> she says she knows you
-> you chop off you see little shards of iron spikes go flying everywhere
-> it is just a pile of shredded metal and wood at the bottom
-> the fuling games new new link f1. fuling games.com
-> wood is my natural enemy
-> I'm going to drink another potion nobody be weird about it
-> Fireball it the door Choppers have spent their standard action
-> damn this bow's kick ass
+> I I'd be willing to push yeah I'm pretty Juiced most of my good [ __ ] is 10 minutes per level
+> we are due for a death it's been too long
+> I'm going to drink another potion nobody be weird about it I'm going to do it I'm GNA do itting you here I go it's chocolate milk
+> we chop down the front door to this place and kill everything in it
+> there's a zombie Chef yes chef zombie Chef oh is Charles here Charles do you want to stream [ __ ] you Garrett yes [ __ ] me
+> I love the little sound
+> black tentacles the hallway they are quick that's [ __ ] hilarious
+> I shove him into it okay I just dab him the thing about where he's standing is it will grab him again next round unless he makes a check
+> he wanders straight up to the group F my neighbor just heard me yell [ __ ] you Garrett yes yeah [ __ ] me yes yeah [ __ ] me ooh what is what is the DC 20 oh my God
+> I am going to run back this way am I out of it here uh a little farther okay there you go
+> oh wait here's a letter on the table
+> we have had we have had a visitor one which promises to visit again with more in one day's time
+> I'm going to use lightning bolt [ __ ] yeah bro
 > paint me like one of your French ghouls
-> I'm just scratching his chin pulling on any which bar you can get his hands on
-> the physically can't what happened is it eating your hand
-> I want you to hold it up when you're flying and you'll be like Marry Poppins
-> my neighbor just heard me yell [ __ ] you Garrett
+> we have released the staff completely though some have beg to stay against our Council we leave within the hour and will not return this season
+> it won't come off oh God what the [ __ ]
+> is there does it detect is it magical uh it's on Kate's hand which is in her pocket so I can't detect Magic on it
+> I want to see how beautiful it is will you just take your hand out and show it to alre okay the ring actually needs to come off
+> so I don't I'm hoping there isn't another thing I left in and this is on purpose uh cuz that's possible too but uh I'm remembering that clearly now
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- The exact nature/purpose of the mysterious silver ring is unknown; it is definitely cursed and stuck on Kate's finger, but its effects beyond that are undetermined
-- The full extent of what might be living/undead elsewhere in the compound is unclear; the party killed major threats but may have missed isolated undead
-- The identity and current status of 'Sir Thorne' (mentioned as a guardian who refused to leave) is unclear—he may be among the undead encountered or elsewhere
-- Whether other cursed or dangerous items remain hidden in the compound (Anon's comment about intentionally placing something cursed suggests there may be more)
-- The precise nature of the supernatural 'visitor' that threatened the Willow-Meir family and forced evacuation is not yet determined
+- Whether all undead at the estate were fully cleared or if more might remain in unexplored sections
+- The exact nature and curse of the silver ring on Kate's hand — attempted removal by Dinvaya's remove curse spell, but outcome unclear at end of session
+- What the gloves, vest, and other items found in various wardrobes specifically do (descriptions were mostly unavailable during looting)
+- Whether the estate's owners (the Willowmere family) are still alive or what happened to them after they fled
+- The identity of 'Sir Thorne' mentioned in the letter and whether he was among the undead encountered
+- Whether Meyanda successfully reaches Booknook by the next day as arranged
 

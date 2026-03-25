@@ -5,89 +5,109 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "bfdfZlSp_N0"
 sourceFile: "CC - bfdfZlSp_N0 - Carrion Crown Alts - Next of Skin 2024 02 18.md"
-processedAt: "2026-03-25T01:42:15.484Z"
-transcriptQuality: "fair"
-charactersPresent: ["Conetta", "Farah", "Leanne", "Savage", "Kai", "Curiosity", "Joy Bridge"]
+processedAt: "2026-03-25T17:32:51.231Z"
+transcriptQuality: "poor"
+charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
 tags: ["summary", "cc", "session"]
 ---
 
 # Carrion Crown Alts - Next of Skin 2024 02 18
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=bfdfZlSp_N0)
-**Transcript Quality:** fair
-**Characters Present:** Conetta, Farah, Leanne, Savage, Kai, Curiosity, Joy Bridge
+**Transcript Quality:** poor
+**Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
 
 ## Summary
 
-The party uses Locate Object to track down a guard's stolen skin suit in the Southeast District, leading to a battle with street-based wizard gang members extorting tolls. They eventually locate a hidden house where they find a severed head and a threatening note from the fugitives. The next morning, the city morgue contacts them about a mutilated corpse matching a barrister's description found in a dumpster two days prior. Investigation identifies the victim as Elias Varner, a law clerk, and the party attempts to gather information from his fellow lawyers with mixed success.
+The party hunted down a pair of fugitives (Vorkstag and Grine) using the Locate Object spell to track a stolen guard's skin suit through the southeastern district of Lepidstadt. They encountered and defeated a gang of street-level wizards, then discovered the fugitives had abandoned their hideout in an overgrown house near the Black Whale, where they found evidence of multiple murders and a note suggesting coordinated hunting. The following morning, they identified their latest victim as law clerk Elias Varner and attempted to gather information from his housemates. Transcript quality was poor throughout.
 
 ## Key Events
 
-- Party uses Locate Object spell cast through Farah to track a stolen guard's skin suit to the Southeast District, near the area where cats have been disappearing.
-  - Characters: Farah, Savage, Conetta, Tryu, Kai, Curiosity, Joy Bridge
-  - Location: Southeast District, Lepidstadt
-- Party encounters a street gang of wizard dropouts calling themselves 'Street Mancers' who attempt to extort tolls. Combat ensues with multiple enemies defeated, including use of glitter dust, color spray, scorching ray, and magic missiles.
-  - Characters: Conetta, Tryu, Joy Bridge, Curiosity, Farah, Savage, Kai
-  - Location: Alley in Southeast District
-- Party locates a house with the stolen skin suit still inside. They discover a severed head of Corporal Koval, multiple guard and civilian corpses outside, and a threatening note warning they will 'never sleep again, never trust again' and 'we are everyone.'
-  - Characters: Farah, Conetta, Leanne, Savage, Kai, Curiosity, Joy Bridge
-  - Location: Abandoned house in Southeast District
-- Dr. Voss at the city morgue reports finding a mutilated corpse in a suitcase, identified as Elias Varner, a law clerk. The body shows signs of being ambushed and cut with a hook weapon, with pieces missing. Death appears to have occurred approximately two days prior.
-  - Characters: Dr. Voss, Party members
-  - Location: City Morgue, Lepidstadt
-- Party interviews Corporal Todd Wilkins at City Center Barracks and learns that Elias Varner, a law clerk who works at the courthouse, has been missing for two days. He was last seen at the trial of the Beast.
-  - Characters: Conetta, Kendra, Corporal Todd Wilkins, Farah
-  - Location: City Center Barracks, Lepidstadt
-- Party visits the communal law clerk housing where Elias Varner lived. Multiple young lawyers resist questioning until Farah uses Fascinate and Suggestion to compel cooperation and extract a mental image of Varner's appearance.
-  - Characters: Farah, Conetta, Party members, Young lawyers (multiple)
-  - Location: Law clerk housing, North Sector, Lepidstadt
+- Party uses Locate Object spell to track the stolen guard's skin suit through the southeastern district, discovering it is being worn by the fugitives.
+  - Characters: Farah, Savage, Conetta, Leen, Joy Bridge, Curiosity, Kai
+  - Location: Lepidstadt, southeastern district
+  - Timeline: Approximately 4717.02.18 evening
+- Party encounters and defeats a gang of street-level wizards calling themselves 'Street Mancers' who demand a toll in an alleyway. Combat results in multiple enemy deaths.
+  - Characters: Conetta, Farah, Savage, Leen, Joy Bridge, Curiosity, Kai
+  - Location: Lepidstadt alleyway, southeastern district
+- Locate Object spell leads party to an overgrown, abandoned house containing evidence the fugitives recently occupied: a discarded guard's skin suit, a severed head identified as Corporal Koval, and a threatening note promising constant pursuit.
+  - Characters: Farah, Savage, Conetta, Leen, Joy Bridge, Curiosity, Kai
+  - Location: Abandoned house, southeast Lepidstadt near Black Whale prison
+- Party discovers a pile of six corpses outside the house (four guards and two other humans), indicating the fugitives have killed significantly more people than previously known.
+  - Characters: Farah, Savage, Conetta, Leen, Joy Bridge, Curiosity, Kai
+  - Location: Abandoned house exterior, southeast Lepidstadt
+- Party rests overnight at Kendra's house with watches set due to threat indicated in the note. Morning brings messenger summons to the city morgue.
+  - Characters: Farah, Savage, Conetta, Leen, Joy Bridge, Curiosity, Kai
+  - Location: Kendra Lorrimor's residence, Lepidstadt
+  - Timeline: Night of 4717.02.18 into morning of 4717.02.19
+- Dr. Voss at the city morgue shows party a corpse in pieces—a male mid-30s barrister found in a dumpster in southeast Lepidstadt near Black Whale. Body shows evidence of having been killed by a hook weapon severing the neck/jugular, compressed into a suitcase, and partially eaten.
+  - Characters: Farah, Savage, Conetta, Leen, Joy Bridge, Curiosity, Kai
+  - Location: Lepidstadt city morgue
+  - Timeline: Morning of 4717.02.19
+- Party identifies victim as law clerk Elias Varner (not a barrister) through Corporal Todd Wilkins at city center barracks, learning Varner went missing two days ago and was last seen at the Beast trial.
+  - Characters: Conetta, Leen, Corporal Todd Wilkins (NPC)
+  - Location: Lepidstadt city center barracks
+  - Timeline: Morning of 4717.02.19
+- Party goes to Varner's communal lodging for law clerks and attempts to interrogate his housemates using Fascinate, Suggestion, and Detect Thoughts spells to learn about Varner's appearance and disappearance. Housemates resist with legal arguments.
+  - Characters: Farah, Conetta, multiple young lawyers (NPCs)
+  - Location: Communal housing, northern sector Lepidstadt
+  - Timeline: Morning of 4717.02.19
+- Kendra Lorrimor researches creatures that steal skins and identifies them as 'skin stealers'—rare fey creatures that strip skin in minutes and always wear stolen skin, appearing as skinless corpses beneath.
+  - Characters: Kendra Lorrimor (NPC)
 
 ## NPCs Encountered
 
-- [[Street Mancers (wizard gang members, deceased)]]
 - [[Kendra Lorrimor]]
 - [[Dr. Voss]]
 - [[Corporal Todd Wilkins]]
-- [[Young lawyers at communal housing]]
-- [[Rat (rodent informant)]]
+- [[Multiple Street Mancers]]
+- [[Multiple young lawyers]]
+- [[Unnamed rat (rodent contact)]]
 
 ## Locations
 
-- [[Southeast District, Lepidstadt]]
-- [[Abandoned house in Southeast District]]
-- [[Black Whale Prison (referenced)]]
-- [[City Morgue, Lepidstadt]]
-- [[City Center Barracks]]
-- [[Law clerk communal housing, North Sector]]
+- [[Lepidstadt southeastern district]]
+- [[Alleyway (unnamed)]]
+- [[Abandoned overgrown house]]
+- [[Lepidstadt city morgue]]
+- [[City center barracks]]
+- [[Communal lodging for law clerks, northern sector]]
 
 ## Combat Encounters
 
-- Street Mancers gang battle: Party of 7 vs. approximately 8-9 wizard gang members using wands and scrolls of color spray, glitter dust, scorching ray, magic missile, and confusion. All enemies defeated or killed.
+- Street Mancers gang (approximately 8 low-level wizard enemies) - party victorious, multiple enemies killed or knocked unconscious
 
 ## Items & Loot
 
-- Wand of Color Spray (4 charges remaining)
-- Wand of Magic Missile (14 charges)
-- Wand of Magic Missile (second, full charges)
-- Scroll of Glitter Dust (multiple)
-- Scroll of Scorching Ray
-- Wand of Burning Hands (12 charges)
-- Approximately 100 gold from the gang members
-- Enchante starter kits (provided by Kendra with various alchemical items)
+- Wand of color spray (4 charges remaining)
+- Wand of magic missile (14 charges)
+- Scroll of glitter dust (multiple)
+- Wand of burning hands (12 charges)
+- Scroll of scorching ray
+- Approximately 100 gold total from Street Mancers
+- Guard's skin suit (found in abandoned house)
+- Threatening note (found in abandoned house)
+- Barrister's suitcase (empty, used to contain victim)
 
 ## Notable Quotes
 
-> I'm afraid you've come into a restricted area you're going to have to pay a toll to either go back or forward
-> If it's one of you reading this I hope you know your peril we will never leave it be we will never stop hunting you and we are everywhere we are everyone you will never sleep again never trust again never rest we are everyone we are no one we are always just behind you and we will never stop
-> I'm actually not obligated to talk to you under any city ordinances I'm aware of
-> rats got to live free
+> incoming vomit blast
+> that screen was too spicy
+> we are everyone we are no one we are always just behind you and we will never stop
+> the toll is paid with your innards
+> I'm your huckleberry
+> bones and meat
+> my pants are appreciated
+> we don't know her we've never seen her
+> quit being a creep
+> they are all just meat
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- The exact number and nature of corpses piled outside the abandoned house (transcript mentions 'multiple' guard and civilian bodies but counts vary)
-- Whether the fugitives have acquired additional skin suits beyond the one located
-- The precise timeline of when Elias Varner was killed relative to when his body was disposed of in the suitcase
-- Whether any of the young lawyers encountered may have unknowingly interacted with the Skin Stealer in disguise
+- Whether the two large people seen by the rats who left the house correspond to Vorkstag and Grine, or if there may be additional fugitives
+- Whether the skin stealers have acquired additional skin suits since the one in the abandoned house
+- Whether the fugitives remain in the southeastern quadrant or have relocated
+- The exact mechanism by which party will attempt to track the fugitives next, as Locate Object cannot be reconfigured to track the skin itself on a new wearer without seeing that person first
 

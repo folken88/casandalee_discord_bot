@@ -1,19 +1,22 @@
 ---
 name: "Vaughan"
-type: pc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["SS"]
-mentions: 31
-tags: ["character", "pc", "ss"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:51:21.808Z"
 ---
 
 # Vaughan
 
-**Type:** Player Character
-**Campaigns:** SS
-**Mentions:** 31 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Being held by the wrist off the ground by Bolty, squirming. He was caught by Bolty. *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

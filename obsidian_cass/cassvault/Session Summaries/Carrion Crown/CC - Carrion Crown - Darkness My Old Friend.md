@@ -5,8 +5,8 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "2paR0edm2Z8"
 sourceFile: "CC - 2paR0edm2Z8 - Carrion Crown - Darkness My Old Friend 2024 10 14.md"
-processedAt: "2026-03-25T01:18:24.216Z"
-transcriptQuality: "fair"
+processedAt: "2026-03-25T17:09:10.938Z"
+transcriptQuality: "poor"
 charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
 tags: ["summary", "cc", "session"]
 ---
@@ -14,100 +14,75 @@ tags: ["summary", "cc", "session"]
 # Carrion Crown - Darkness My Old Friend
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=2paR0edm2Z8)
-**Transcript Quality:** fair
+**Transcript Quality:** poor
 **Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
 
 ## Summary
 
-CP-USS infiltrates the vampire-infested fortress of Northgarde by underwater approach, eliminates ~25 vampire spawn and three Sentinels while maintaining stealth through Hide from Undead spells and silence bubbles. They capture and interrogate a wounded Sentinel via detect thoughts, learning that the fortress captain—a paladin who resurrects daily at the temple at sunset—has been killing vampires in large numbers. The party discovers the vampires are trapped by ancient runes and were promised immortality by the Whispering Way. They now plan to reach the temple by sunset to aid the paladin against the gathered vampire forces.
+CP-USS infiltrates Northgarde, a vampire-infested fortress. After a stealthy entry and initial combat eliminating ~25 vampire spawn and 4 Sentinels using silence, darkness, and haunt siphons, the party discovers a captured Sentinel and interrogates him via detect thoughts. They learn the missing paladin (Captain of the Guard) resurrects daily at sunset in the temple, fights the vampire horde nightly, and wears a powerful helmet that disintegrates undead within 30 feet. The party plans to reach the temple before sunset to aid her. Transcript quality was poor due to auto-captions.
 
 ## Key Events
 
-- CP-USS eliminates approximately 25 vampire spawn and citizen vampires, plus 3 Sentinels using coordinated ranged attacks, melee engagement, and haunt siphon 3.0 grenades in darkness. Combat is entirely silent due to Silence spells from Kate Blackwood and Kovira.
-  - Characters: Kovira, Kate Blackwood, Gaspar, Kai, Elfrip, Dinvaya, Rodney Danger Smith, Dismas
-  - Location: Northgarde, streets near graveyard
-  - Timeline: 4717.04.27 | Carrion Hill onwards — CP-USS tracking the Whispering Way
-- Denva casts Hide from Undead (Greater, communal) allowing the entire party to become invisible to all undead detection including life sense, enabling escape and regrouping.
-  - Characters: Dinvaya
-  - Location: Northgarde streets
-- Party captures a wounded Sentinel through coordinated grapple and nonlethal damage using a Cure Light Wounds wand, then interrogates it via Detect Thoughts without killing it.
-  - Characters: Kate Blackwood, Kai, Danger, Gaspar, Denva
-  - Location: Northgarde warehouse with corn and cheese storage
-- Via Detect Thoughts interrogation, the party learns: (1) The fortress captain is a paladin who resurrects daily at the temple at sunset, cursing and charging vampires each time; (2) She is immune to dominate and fear spells, triggering a magical effect from her helmet that disintegrates vampires within 30 feet; (3) The Whispering Way promised vampires immortality but they are now trapped on the island by ancient runes that were repurposed to contain rather than exclude; (4) Approximately 100-200 vampires remain including one high priest, several mages with divine spells (clerics/inquisitors), two dozen high-ranking soldiers, two dozen scouts, and many civilian vampires; (5) The paladin kills approximately 50 vampires per night.
-  - Characters: Kate Blackwood, Gaspar, Kai
-  - Location: Northgarde warehouse
-  - Timeline: Likely relates to an unnamed female paladin captain of Northgarde's guard
-- The party discovers the temple at the top of the keep contains destroyed statues that had artifacts inside, including a magical helmet that the paladin found on the first night of resurrection. She has been collecting these artifacts.
-  - Characters: Party (via interrogation)
-  - Location: Northgarde Temple, top of keep
-- Party observes two numbered rune circles (marked with the number '2') on the ground outside towers—these are part of the defensive/containment spell system that has trapped the vampires.
-  - Characters: Denva
-  - Location: Northgarde, near northeastern and southeastern towers
-- Party determines they must reach the temple by sunset (approximately 7 PM local time, a few hours away) to potentially aid or coordinate with the paladin against the assembled vampire forces.
-  - Characters: Party consensus
-  - Location: Northgarde warehouse
+- CP-USS clears initial vampire spawn encounter (~25 spawn, 3 Sentinels) using coordinated silence, darkness spell, and haunt siphon explosions without alerting the main fort
+  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
+  - Location: Northgarde - northern courtyard area
+  - Timeline: 4717.04.10 onwards (CP-USS enters Northgarde)
+- Party encounters and neutralizes a wounded Sentinel near warehouse; uses detect thoughts to interrogate it
+  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
+  - Location: Northgarde - warehouse district
+- Interrogated Sentinel reveals the missing Paladin Captain resurrects nightly at sunset in the temple, fights the vampire horde, wears a magical helmet that disintegrates undead within 30 feet, and has killed hundreds of vampires over multiple nights
+  - Characters: Kate Blackwood
+  - Location: Northgarde - temple
+- Sentinel reveals the Whispering Way set up runes (numbered protective wards) around Northgarde to trap the vampires on the island; vampires believe they were promised immortality but are now imprisoned
+  - Location: Northgarde
+- Party learns approximately 100-300+ vampires remain in Northgarde: 1 high priest (golden plate, vampire, high-level spellcaster), handful of wizards/mages, couple dozen high-ranking inquisitor/cleric-type soldiers, couple dozen scouts, ~40-50 regular soldiers, and ~200 civilian spawn
+  - Location: Northgarde
+- Sentinel reveals the Paladin cannot be turned into a vampire and theorizes she may be immune to domination/fear (likely a Paladin class feature), which triggers the helmet's disintegration effect when vampires attempt mind control on her
+  - Characters: Harrison (as external analysis)
 
 ## NPCs Encountered
 
-- [[Unnamed Paladin Captain of Northgarde (not met in person, learned of via interrogation)]]
-- [[Multiple Vampire Sentinels]]
-- [[Vampire Scouts]]
-- [[Vampire Citizen Spawn]]
-- [[High Priest Vampire]]
-- [[Vampire Mages]]
-- [[Vampire Clerics/Inquisitors]]
+- [[Sentinel (interrogated, captured)]]
+- [[Unknown Paladin Captain of the Guard (referenced; not directly encountered)]]
 
 ## Locations
 
-- [[Northgarde (vampire-infested fortress)]]
-- [[Northeastern Guard Tower (collapsed, stone erupted from underground)]]
-- [[Graveyard/central plaza]]
-- [[Marketplace building]]
-- [[Printing press building]]
-- [[Warehouse (food/supplies storage with corn, cheese, bread, horseshoes, pickaxes, coffee)]]
-- [[Eastern Tower (also spiked from underground)]]
-- [[Temple at top of keep (highest point of Northgarde)]]
+- [[Northgarde - northern courtyard/graveyard area]]
+- [[Northgarde - marketplace/merchant building]]
+- [[Northgarde - printing press building]]
+- [[Northgarde - warehouse (southern refuge)]]
+- [[Northgarde - streets]]
+- [[Northgarde - temple (reference only)]]
 
 ## Combat Encounters
 
-- Initial vampire spawn ambush in streets: approximately 25 vampire citizens and 3 Sentinels killed in coordinated silence-bubble combat using ranged attacks and melee engagement. Haunt Siphon 3.0 grenades with 30-second timers deployed as retreat gifts.
-- Scout ambush detection: One rogue vampire scout with exceptional stealth critically shot in the head by Dismas before combat began.
+- Initial vampire spawn swarm (~25 spawn + 3 Sentinels) defeated via coordinated use of silence spells, darkness, and haunt siphon grenades
+- Scattered encounters with individual vampire spawn and Sentinels during street combat
+- Capture and interrogation of Sentinel (non-lethal combat)
 
 ## Items & Loot
 
-- Boiled corn (245 bags)
-- Broad cloth (245 bolts)
-- Lumber/plank (76 two-by-fours)
-- Horseshoes (265)
-- Mason's hammer (1)
-- Pickaxes (4)
-- Great Forest rolls with fresh cabbage, mushrooms, dill (multiple)
-- Cheese (wheels and bricks, substantial quantity)
-- Coffee (25 bags) - consumed for +9 HP
-- Wrapped preserved food
-- Magical artifacts from temple statues (found by paladin, specifics unknown to party)
-- Magical helmet (found by paladin in destroyed temple statue, causes disintegration aura vs. vampires)
+- Warehouse contents: boiled corn (165), broadcloth (245), lumber planks (76), horseshoes (265), mason's hammer (1), pickaxes (4), wrapped food (cheese, mushroom bread), coffee (25 bags - grants +9 HP per use)
+- Food/supplies acquired: Great Forest rolls, dill bread, edible cheese wheels
 
 ## Notable Quotes
 
-> I ain't afraid of no ghost, no ghost, nor fail
-> You're out of combat whoa whoa whoa whoa
-> This is a lot of lesser, it my turn now right
-> We need to develop The Haun Siphon 4.0
-> You know what, whenever the real big guys show up you can dump all your like fireballs and lightning bolts and [ __ ]
-> She can't do it forever we're close
-> She can't die we can't kill her she comes back she's killed so many of us we've killed her so many times
-> I was promised immortality this ain't it
-> She'll be back soon we have to kill her as quickly as possible
-> Every time you detonate Undead with Haun Ty 4.0 you can upload your photos straight to Elon Musk's filter
+> um I didn't realize that I thought we had broken that by the end but I guess not okay um now we somehow have not yet been too loud did not realize
+> just caress his face real creepy like
+> I don't like these jokes been so grateful for the silence spell right around now
+> we could just start printing stuff and then we would have a bunch of money from all the stuff we printed
+> I mean we could just also just do it with levitate um we would like see in viz we are also inz we are levitating and we get as high up as we can and just [ __ ] air strike whatever is running around
+> one is we are the most annoying people ever and we Rel levitate and we reinis
+> oh yeah if she's barricade herself in then I would think they would be she would be under siege
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- The exact nature and scope of the magical helmet's power—players infer disintegration aura but may have details wrong
-- Whether the paladin is aware of the party's presence or will be hostile upon meeting
-- The specific identity of the high priest vampire and other notable vampire leaders
-- Whether the Whispering Way representatives are still present in Northgarde or have departed
-- The exact mechanics of how the runes trap vampires—whether they can be disabled and if the paladin has found a way around them
+- Exact number of vampires killed in initial encounter may be higher or lower than ~25 spawn + 3-4 Sentinels (transcript garbled on casualty count)
+- Specific layout and contents of destroyed Sentinel tower to the east unclear
+- Exact mechanics of the runes and whether they can be disabled is uncertain from this session
+- Whether the party will attempt to reach the temple before sunset is still being debated
+- Identity and exact role of the captured Sentinel within vampire hierarchy
+- Precise nature of the Paladin's immunity to vampirism and helmet mechanics
 

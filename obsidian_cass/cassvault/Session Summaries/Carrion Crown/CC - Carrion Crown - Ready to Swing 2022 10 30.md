@@ -5,105 +5,94 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "VqPh_J3ns2A"
 sourceFile: "CC - VqPh_J3ns2A - Carrion Crown - Ready to Swing 2022 10 30.md"
-processedAt: "2026-03-25T01:37:09.841Z"
-transcriptQuality: "fair"
-charactersPresent: ["Gaspar", "Kovira", "Dismas", "Dinvaya", "Kate Blackwood", "Elfrip", "Rodney Danger Smith", "Finbarr/Maria (as guest player)"]
+processedAt: "2026-03-25T17:27:38.200Z"
+transcriptQuality: "poor"
+charactersPresent: ["Gaspar", "Kovira", "Dismas", "Dinvaya", "Elfrip", "Rodney Danger Smith"]
 tags: ["summary", "cc", "session"]
 ---
 
 # Carrion Crown - Ready to Swing 2022 10 30
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=VqPh_J3ns2A)
-**Transcript Quality:** fair
-**Characters Present:** Gaspar, Kovira, Dismas, Dinvaya, Kate Blackwood, Elfrip, Rodney Danger Smith, Finbarr/Maria (as guest player)
+**Transcript Quality:** poor
+**Characters Present:** Gaspar, Kovira, Dismas, Dinvaya, Elfrip, Rodney Danger Smith
 
 ## Summary
 
-CP-USS explored the second floor of Harrowstone Prison, encountering Vesorianna (the Warden's wife) who revealed critical information: the Whispering Way took the Warden's spirit, three powerful ghosts remain imprisoned below, and she has limited time before a ritual completes. The party cleared several rooms including encounters with a murderous sentient straight jacket, giant face-hugging spiders in the chapel, haunted manacles, and a terrifying invisible poltergeist in the infirmary. They recovered magical items including Skane (an ancient Executioner's scythe), a wand of cure light wounds, and multiple healing potions before deciding to return to the Temple of Pharasma to rest and gather supplies.
+CP-USS explored Harrowstone Prison's upper levels, discovering a haunted straight jacket and giant spiders in various rooms. They met Visoriana, the warden's ghost wife, who revealed three powerful ghosts remain in the dungeon below and that her existence is being unmade by a Whispering Way ritual—they have approximately three days. The party acquired magical items including the Scythe of Skeane (an ancient executioner's weapon with Pharasma symbolism) and various healing supplies. Transcript quality was poor with frequent audio issues and garbled speech.
 
 ## Key Events
 
-- CP-USS encounters Vesorianna, the ghost of the Warden's wife, in the prison laundry room. She reveals the Whispering Way visited, took the Warden's spirit with an unknown device, and that she is holding back three remaining ghosts but will fade in approximately three days due to a ritual being performed against her.
-  - Characters: Gaspar, Kovira, Dismas, Dinvaya, Kate Blackwood, Elfrip, Rodney Danger Smith, Vesorianna (NPC)
-  - Location: Harrowstone Prison, Second Floor - Laundry Room
-  - Timeline: 4717.04.27 or later - ongoing investigation at Harrowstone
-- Party defeats a sentient, murderous straight jacket (a haunt) that wrapped around Gaspar and tried to strangle him. Dismas shot it with an enchanted bullet, destroying it.
+- Party encountered and defeated a haunted straight jacket that grappled Gaspar in the laundry room. The jacket was destroyed after taking gunfire and being hit with channeled positive energy.
   - Characters: Gaspar, Dismas, Kovira, Dinvaya
-  - Location: Harrowstone Prison, Second Floor - Laundry Room
-- Vesorianna confirms she holds two of the five major ghosts contained: one wrapped in holy symbols and chains (implied to be the Splatterman based on context), and the Piper of Illmarsh. She identifies the three remaining ghosts as the Marauder (who would recoil at his own hammer), the Splatterman (who wants his spell book), and the Lopper (who would want his axe). She also describes the leader of the Whispering Way: a thin, gray-skinned man in black robes and bone breastplate carrying a black staff with a skull wrapped in black cloth.
-  - Characters: Vesorianna (NPC)
-  - Location: Harrowstone Prison, Second Floor - Laundry Room
-- Party encounters giant poisonous spiders in the Chapel of Harrowstone. Multiple party members are bitten and poisoned (staggered effect lasting one round). Party defeats all spiders after several rounds of combat.
-  - Characters: Gaspar, Dismas, Kovira, Dinvaya, Kate Blackwood, Elfrip, Rodney Danger Smith, Finbarr (Maria)
-  - Location: Harrowstone Prison, First Floor - Chapel
-- Party discovers and loots the Chapel, finding: Scroll of Lesser Restoration, Wand of Cure Light Wounds (15 charges), a vial of expensive cologne (Calvin Carpenter musk), and Skane - an ancient magical Executioner's scythe (+1 enchantment, double weapon, with special properties related to death rites of Pharasma and permanent Sanctified Corpse if gems are sacrificed).
-  - Characters: Gaspar, Kovira, Dismas, Finbarr (Maria)
-  - Location: Harrowstone Prison, First Floor - Chapel
-- Party encounters and defeats a haunt of enchanted manacles in the Induction Chamber. Dismas uses the gunslinger trick 'Blast Lock' to destroy the manacles' locks, and Gaspar channels positive energy to finish them.
-  - Characters: Dismas, Gaspar
-  - Location: Harrowstone Prison, First Floor - Induction Chamber
-- Party encounters a permanent invisible Poltergeist in the Infirmary that appears only to attack, frightening party members and throwing objects. After a difficult battle involving readied actions, holy water, and coordinated attacks, the party defeats it. They find 3 Potions of Cure Light Wounds, 2 Scrolls of Cure Light Wounds, 1 Scroll of Cure Moderate Wounds, and 1 Potion of Cure Moderate Wounds.
-  - Characters: Gaspar, Kovira, Dismas, Finbarr (Maria), Elfrip
-  - Location: Harrowstone Prison, First Floor - Infirmary
-- Party learns Vesorianna cannot leave her room (the Warden's office suite), that the Warden is likely buried in rubble near the collapsed elevator where prisoners rioted, and that Vesorianna's husband had a badge of office that may contain his power and help banish the remaining ghosts permanently.
-  - Characters: Vesorianna (NPC)
-  - Location: Harrowstone Prison, Second Floor - Warden's Office
+  - Location: Harrowstone Prison, second floor laundry
+- Party met Visoriana, the ghost of the warden's wife, in a sewing room. She revealed her husband's spirit was taken by the Whispering Way, three major ghosts remain imprisoned below, and she is being unmade by a ritual with approximately three days remaining. She disclosed the other two ghosts she holds: the Piper of Illmarsh and Father Charlatan.
+  - Characters: Gaspar, Kovira, Dismas, Dinvaya, Elfrip, Rodney Danger Smith
+  - Location: Harrowstone Prison, second floor sewing room
+- Party found chapel containing a +1 magical scythe named Skeane with Pharasma death symbolism, an ancient executioner's weapon. The scythe has gem sockets (gems were pried out) and can cast Sanctified Corpse spell. It can be used as a double weapon.
+  - Characters: Gaspar, Kovira
+  - Location: Harrowstone Prison, ground floor chapel
+- Party fought giant spiders in an infirmary/barracks area, with multiple party members poisoned and staggered by spider venom. The spiders were defeated through coordinated attacks.
+  - Characters: Gaspar, Kovira, Dinvaya, Dismas, Elfrip
+  - Location: Harrowstone Prison, ground floor
+- Party disabled a haunted manacle haunt in the induction chamber using Dismas's 'Blast Lock' gunslinger ability to destroy the locks, and Dinvaya's channel energy to eliminate the remaining haunted manacles.
+  - Characters: Dismas, Dinvaya
+  - Location: Harrowstone Prison, ground floor induction chamber
+- Party encountered and defeated a poltergeist (invisible spirit) in the infirmary. The creature threw objects at the party, caused fear effects, and was ultimately destroyed when the party coordinated ready actions to strike when it appeared.
+  - Characters: Gaspar, Kovira, Dismas, Dinvaya, Elfrip
+  - Location: Harrowstone Prison, ground floor infirmary
+- Party acquired healing items including potions of cure light wounds, potions of cure moderate wounds, scrolls of cure spells, a wand of cure light wounds (15 charges), and a scroll of lesser restoration.
+  - Characters: Gaspar, Kovira, Dismas, Dinvaya, Elfrip, Rodney Danger Smith
+  - Location: Harrowstone Prison, various rooms
 
 ## NPCs Encountered
 
-- [[Vesorianna (ghost of the Warden's wife)]]
-- [[Father Grimbrass (mentioned, not directly encountered this session)]]
+- [[Visoriana (warden's ghost wife)]]
+- [[Father Charlatan (ghost, held by Visoriana)]]
+- [[Piper of Illmarsh (ghost, held by Visoriana)]]
 
 ## Locations
 
-- [[Harrowstone Prison - Second Floor (Laundry, Sewing Room/Workshop)]]
-- [[Harrowstone Prison - First Floor (Chapel, Induction Chamber, Infirmary)]]
-- [[Temple of Pharasma (endpoint)]]
+- [[Harrowstone Prison (second floor)]]
+- [[Harrowstone Prison (ground floor)]]
+- [[Temple of Pharasma (referenced, party planning to go)]]
 
 ## Combat Encounters
 
-- Sentient Straight Jacket (haunt) - 1 round, party victory
-- Giant Poisonous Spiders (6+ creatures) in Chapel - ~5 rounds, multiple party members poisoned, party victory
-- Haunted Manacles (haunt) in Induction Chamber - 1 round, party victory
-- Invisible Poltergeist in Infirmary - ~6 rounds, party members frightened, party victory
+- Haunted straight jacket (laundry room) - defeated
+- Giant spiders (multiple encounters, infirmary area) - defeated
+- Haunted manacles haunt (induction chamber) - destroyed
+- Poltergeist (invisible spirit, infirmary) - defeated
 
 ## Items & Loot
 
-- Skane (ancient +1 magical Executioner's scythe, double weapon, with Pharasma death rite properties)
+- Skeane - +1 magical scythe (executioner's weapon with Pharasma symbolism)
 - Wand of Cure Light Wounds (15 charges)
 - Scroll of Lesser Restoration
-- Scroll of Cure Moderate Wounds (1)
-- Scrolls of Cure Light Wounds (2)
-- Potion of Cure Moderate Wounds (1)
-- Potions of Cure Light Wounds (3)
-- Vial of Calvin Carpenter cologne (expensive, musky scent)
+- 3x Potions of Cure Light Wounds
+- 2x Scrolls of Cure Light Wounds
+- 1x Scroll of Cure Moderate Wounds
+- 1x Potion of Cure Moderate Wounds
+- Calvin Carpenter cologne (found in chapel)
 
 ## Notable Quotes
 
-> anyone who breaks the the hand chain will be immediately berated by all other party members no I'll be immediately stoned to death
-> well no tough yeah we might damage their gear I want their gear oh my God
-> it says Donald J Trump
-> I know the best people everybody says I know the best people
-> are you the new guard
-> the prisoners
-> what are your intentions
-> to stop the evil that's coming from this place
-> I am the story on a hot my husband is the warden
-> men and women in dark robes who spoke only in Whispers
-> I hold them back as best I can and I now have the piper and father charlatan under my control
-> how long can we control them
-> not long someone is weakling me every day I do not have long
-> I sensing that his badge his item of station has absorbed much of his spirit and Power
-> he could be cruel he could be hard but he was effective
-> this is a famed Executioner's weapon used by a number of heathen Kings and Warlords
+> I am the story on a hot, my husband is the warden
+> they must all be defeated at once
+> I will be trapped under their thumb [if the ritual succeeds]
+> if you defeat them and bring me my husband's symbol of station I can banish them forever
+> the splatterman would want spell book rather badly
+> lopper would definitely love to have his ax
+> we live in here now we live here now
+> you notice that Finn has taken such a wild and awkward swing at the in the wrong direction that you are startled by this and you just dump the holy water all over Finn
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Exact duration before Vesorianna fades - stated as 'three days' but may be based on nightly ritual murders rather than calendar days
-- Whether the device used to capture the Warden's spirit could be replicated or is unique to the Whispering Way
-- Whether other ghosts in Harrowstone besides the five major ones can be permanently defeated
-- Status of Father Grimbrass and his relationship to the Splatterman's spell book
-- Whether items belonging to the ghosts (hammer, axe, spell book) are currently in the dungeon or elsewhere
+- Exact mechanics of how long Visoriana has left before the ritual completes (stated as 'three days' but unclear if this is consecutive days or based on number of ritual murders)
+- Identity and nature of the Whispering Way's leader who visited the prison (described as 'thin gray-skinned human in black robes with bone breastplate carrying a black staff with skull')
+- Exact location in the dungeon where the warden's body/spirit might be found
+- Whether destroying the splatterman's spell book will actually harm the ghost or just prevent it from using the book
+- The full capabilities and weaknesses of the three remaining major ghosts beyond Visoriana's basic descriptions
 

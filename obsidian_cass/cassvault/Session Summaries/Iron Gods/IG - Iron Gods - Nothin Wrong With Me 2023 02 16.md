@@ -5,9 +5,9 @@ campaign: "IG"
 campaignName: "Iron Gods"
 videoId: "CGtozHJN4X4"
 sourceFile: "IG - CGtozHJN4X4 - Iron Gods - Nothin Wrong With Me 2023 02 16.md"
-processedAt: "2026-03-25T02:06:47.124Z"
+processedAt: "2026-03-25T17:57:20.754Z"
 transcriptQuality: "fair"
-charactersPresent: ["Ulfred", "Nomkath", "Mr Brow", "Olbryn", "Akradenn", "Luna", "Tokala"]
+charactersPresent: ["Ulfred", "Nomkath", "Mr Brow", "Olbryn", "Takala", "Luna"]
 tags: ["summary", "ig", "session"]
 ---
 
@@ -15,86 +15,88 @@ tags: ["summary", "ig", "session"]
 
 **Campaign:** Iron Gods | **Video:** [Watch on YouTube](https://youtube.com/watch?v=CGtozHJN4X4)
 **Transcript Quality:** fair
-**Characters Present:** Ulfred, Nomkath, Mr Brow, Olbryn, Akradenn, Luna, Tokala
+**Characters Present:** Ulfred, Nomkath, Mr Brow, Olbryn, Takala, Luna
 
 ## Summary
 
-The party establishes a safe house in an abandoned neighborhood in Starfall's Kill Box district and scouts local gang factions. Nomkath makes contact with the Mockery, an underground thieves' guild run by a former Black Sovereign intelligence officer, who tasks them with destroying a drug manufacturing lab beneath the Red River bar. The session ends as the party approaches the lab entrance, having disabled an alarm spell and prepared for combat.
+The party establishes a safe house in an abandoned Dead Block neighborhood in Starfall's Kill Box district after the previous night's incident with guards. Through careful scouting, they identify local gang factions (the Junkers and the V's), make contact with the Mockery (a thieves' guild led by a former Black Sovereign intelligence officer), and discover a drug manufacturing lab beneath the Red River bar. They identify the facility and prepare to assault it, discovering it contains black alchemy and is guarded by Black Sovereign soldiers and a severely mutilated elf spellcaster. The session ends as they approach combat.
 
 ## Key Events
 
-- Party establishes a safe house in an abandoned residential block in Kill Box after a recent gang battle
-  - Characters: Ulfred, Nomkath, Mr Brow, Olbryn, Akradenn, Luna
+- Party scouts Kill Box and learns about local gang dynamics. The Junkers are mercenary brawlers; the Flying V's are disciplined and honorable; the Fallen are a third gang with spellcasters. A major three-way battle occurred 3-4 months ago that left the Dead Block abandoned, apparently involving the Templars.
+  - Characters: Nomkath, Ulfred, Olbryn, Takala, Luna
   - Location: Kill Box, Starfall
-- Nomkath scouts local gangs and discovers the Junkers, the Vs (Flying Vs), and the Fallen as the major factions in Kill Box
-  - Characters: Nomkath, Olbryn, Ulfred, Tokala
-  - Location: Kill Box streets, Starfall
-- Nomkath and Luna visit the Red River bar and make contact with Soria, a woman with cybernetic enhancements, who directs them to Starfall Blades
+- Nomkath visits an underground market through a black-market shop and meets a man who directs him to Starfall Blades, giving him a marked napkin with an 'M' symbol.
   - Characters: Nomkath, Luna
-  - Location: Red River bar, Kill Box, Starfall
-- Nomkath meets with the Mockery at their secret headquarters beneath Starfall Blades weapon shop. The leader is revealed to be a former Black Sovereign intelligence officer
-  - Characters: Nomkath, Luna, Mockery Leader (former Black Sovereign intelligence officer)
-  - Location: Starfall Blades / Mockery hideout, Starfall
-- The Mockery leader tasks the party with destroying a drug laboratory beneath the Red River that manufactures substances supplied to the Black Sovereign and his troops
-  - Characters: Nomkath, Mockery Leader, Tokala, Olbryn, Ulfred
-  - Location: Red River bar, Starfall
-- Party stakes out the Red River area and discovers the lab entrance in a hidden alley behind the bar. They observe Black Sovereign guards making a delivery
-  - Characters: Nomkath, Luna, Olbryn, Crocodile (scouting)
-  - Location: Red River alley, Starfall
-- Party approaches the lab entrance at night. Luna's poor stealth (nat 1) alerts guards, but they are called away by a woman with red glowing eyes who appears to deliberately distract them
-  - Characters: Nomkath, Luna, Tokala, Olbryn, Ulfred, Red-eyed woman (NPC)
-  - Location: Red River back alley, Starfall
-- Party disables an alarm spell on the lab door and enters, discovering a warehouse-like facility with multiple tables of alchemical equipment and five Black Sovereign guards. An scarred elf alchemist/spellcaster is present at the far end
-  - Characters: Nomkath, Olbryn, Tokala, Ulfred, Luna, Scarred Elf Alchemist
-  - Location: Drug laboratory beneath Red River, Starfall
+  - Location: Kill Box, Starfall
+- Nomkath and Luna visit the Red Reaver bar and meet a woman with cybernetic eye (described as having a reconstructed face and high-tech equipment). She directs them to Starfall Blades and appears to give them information about local trade.
+  - Characters: Nomkath, Luna
+  - Location: Red Reaver bar, Kill Box
+- At Starfall Blades weapon shop, a smith reacts with surprise to the marked napkin from the woman at the Red Reaver, crumples it, burns it, and then leaves to fetch someone. A man with close-cropped hair and a strange marking appears and leads them through a secret door network to the Mockery's guild hall.
+  - Characters: Nomkath, Luna
+  - Location: Starfall Blades, Kill Box / The Mockery hideout
+- The party meets the leader of the Mockery, who Luna recognizes as a former intelligence officer of the Black Sovereign (implied to be named Drow Mock or similar). He reveals there is a drug manufacturing lab beneath the Red Reaver that produces a substance used to keep the Black Sovereign and his soldiers docile and compliant. He requests the party destroy this lab.
+  - Characters: Nomkath, Luna
+  - Location: The Mockery guild hall
+- The Mockery leader provides a communication set matching the party's frequency and gives Takala a nodachi sword as a gift. He identifies the drug lab as being guarded by a powerful spellcaster/alchemist and Black Sovereign soldiers.
+  - Characters: Nomkath, Takala, Luna
+  - Location: The Mockery guild hall
+- The party stakes out the Red Reaver and observes Black Sovereign soldiers entering the bar and disappearing into a back alley for 30 minutes, suggesting a delivery or pickup operation.
+  - Characters: Nomkath, Olbryn, Luna
+  - Location: Red Reaver bar / alley
+- Nomkath discovers a hidden latch mechanism at the bottom of a metal shed behind the Red Reaver, presumably the entrance to the drug lab. He does not activate it to avoid triggering an alarm.
+  - Characters: Nomkath
+  - Location: Alley behind Red Reaver bar
+- The party gathers to assault the drug lab. Luna critically fails a stealth check and makes noise; a woman with glowing red eyes (identified by Luna as a figure from the Palace of Fallen Stars) appears and redirects the guards, seemingly helping the party.
+  - Characters: Ulfred, Nomkath, Olbryn, Takala, Luna
+  - Location: Red Reaver area
+- The party enters the lab facility and finds a warehouse with chemical equipment, tables, racks, and shelves. Five Black Sovereign guards are present. At the far end is a severely mutilated tall elf with oatmeal-textured burned skin, missing eyebrows, and a permanent snarl, wearing purple metallic armor and working with delicate instruments.
+  - Characters: Ulfred, Nomkath, Olbryn, Takala, Luna
+  - Location: Drug lab beneath Red Reaver
 
 ## NPCs Encountered
 
-- [[Soria (cybernetic woman at Red River bar)]]
+- [[Soria (woman with cybernetic eye at Red Reaver)]]
+- [[The Mockery leader (described as former Black Sovereign intelligence officer)]]
 - [[Fahad (blacksmith at Starfall Blades)]]
-- [[Mockery Leader (former Black Sovereign intelligence officer, possibly named Drav'mock or similar)]]
-- [[Red-eyed woman (mysterious NPC who aided party)]]
-- [[Scarred Elf Alchemist (lab overseer)]]
+- [[Woman with glowing red eyes at Red Reaver (appears to be connected to Palace of Fallen Stars)]]
 
 ## Locations
 
-- [[Kill Box (slum neighborhood, Starfall)]]
-- [[Dead Block (abandoned residential area, Kill Box)]]
-- [[Forge shops (Kill Box east side)]]
-- [[Red River bar (Kill Box)]]
-- [[Street of Lights (major thoroughfare, Starfall)]]
-- [[Starfall Blades (weapon shop, neutral territory)]]
-- [[Starfall Underground Market (illegal goods market)]]
-- [[Mockery headquarters (secret guild hall beneath Starfall Blades)]]
-- [[Drug laboratory (beneath Red River bar)]]
+- [[Dead Block (safe house location)]]
+- [[Kill Box district]]
+- [[Great Forge sector]]
+- [[Street of Lights]]
+- [[Red Reaver bar]]
+- [[Starfall Blades weapon shop]]
+- [[The Mockery guild hall (accessed via secret doors)]]
+- [[Drug lab beneath Red Reaver]]
 
 
 ## Items & Loot
 
-- Nodachi sword (given to Tokala by Mockery leader)
-- Masterwork weapons (available at Starfall Blades)
-- Com set (frequency 99.9, provided by Mockery leader)
-- Chameleon scales (used by Olbryn for disguise)
-- Potions of Disguise, Wands of Disguise, Cure potions (available at Mockery)
+- Nodachi sword (given to Takala by Mockery leader)
+- Marked napkin with 'M' symbol (from Soria)
+- Communication set/com set (given by Mockery leader)
 
 ## Notable Quotes
 
+> nothin wrong with me
+> we're deep in the kill box hiding from the Betrayal
+> it's a 10-year plan but it's sure Surefire not to fail
 > I too like crime
-> all right that's it
-> I found the entrance I didn't try going in because I didn't want to trigger anything
-> elements of the current order that we don't like and we would enjoy seeing thrown down
-> our leader is a drug addict
+> that skunk rat
+> I hope he doesn't have anything to do with that my son
+> it wasn't intentional we were set up
+> is our leader is a drug addict
 > so is ours
-> this drug weakens the mind weakens the resistance turns them docile makes them easier to manipulate
-> my family enjoys destroying things
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- The exact nature of the red-eyed woman's identity and why she helped the party is unclear
-- Whether the scarred elf alchemist is the primary target or if there are other important figures in the lab
-- The full extent of the drug's effects and withdrawal symptoms
-- Whether the party will encounter additional resistance beyond the five visible guards
-- Whether Tokala will attempt to sample the drug despite warnings about its addictive nature
+- Exact nature and strength of the drug being manufactured (called both 'poison' and 'drug' inconsistently)
+- Whether the woman with glowing red eyes and reconstructed face is a named NPC or how she relates to previous story beats
+- The identity of the severely mutilated elf spellcaster at the lab (transcript quality made this unclear)
+- Whether the party will be able to conduct a surprise round or if combat will be fully fair initiative
 

@@ -1,19 +1,22 @@
 ---
 name: "Captain Freya Kusanagi"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["HV"]
-mentions: 4
-tags: ["character", "npc", "hv"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T17:07:45.380Z"
 ---
 
 # Captain Freya Kusanagi
 
-**Type:** NPC
-**Campaigns:** HV
-**Mentions:** 4 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Appears in demonic black armor with horned helmet and gore-dripping sword, described as 'an old friend', gives small salute to Jamal *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

@@ -5,9 +5,9 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "nXZqehS3hgo"
 sourceFile: "CC - nXZqehS3hgo - Carrion Crown - Marathon of Mystery 2022 05 22.md"
-processedAt: "2026-03-25T01:49:47.341Z"
+processedAt: "2026-03-25T17:40:13.987Z"
 transcriptQuality: "fair"
-charactersPresent: ["Gaspar", "Kovira", "Dismas", "Josh", "Todd", "Elfrip"]
+charactersPresent: ["Gaspar", "Kovira", "Dismas", "Elfrip", "Dinvaya", "Todd (the professor's assistant, newly recruited)", "Josh (cleric, unidentified character name)"]
 tags: ["summary", "cc", "session"]
 ---
 
@@ -15,134 +15,101 @@ tags: ["summary", "cc", "session"]
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=nXZqehS3hgo)
 **Transcript Quality:** fair
-**Characters Present:** Gaspar, Kovira, Dismas, Josh, Todd, Elfrip
+**Characters Present:** Gaspar, Kovira, Dismas, Elfrip, Dinvaya, Todd (the professor's assistant, newly recruited), Josh (cleric, unidentified character name)
 
 ## Summary
 
-The party's research assistant Todd arrives in Ravengro after a disastrous journey and learns of Professor Lorrimor's murder. After briefing with the party, they investigate the graveyard where the Professor died, discovering a secret underground tomb complex beneath a Ratherson family mausoleum. They encounter and defeat giant centipedes guarding the crypt, discover a cache of valuable supplies and magical items left by followers of Pharasma, and encounter the Professor's reanimated corpse. Upon returning to town, they're called to investigate a cursed blood message ("VE") at the Warden Hawkin memorial, which they learn references the warden's wife Vesorianna. Exhausted and low on resources, the party rests while deputies guard the mysterious curse.
+The party investigates the graveyard near Ravengro after learning Professor Lorrimor may have hidden supplies there. They discover an underground tomb complex with mummified bodies and ancient treasure, but are ambushed by giant centipedes. After securing the supplies and reburying the professor, they return to town to find a curse at the Harrowstone Memorial—blood spelling 'VE' that cannot be removed or washed away. The session ends with the party resting and planning their next steps.
 
 ## Key Events
 
-- Todd arrives in Ravengro after being thrown from a mule and learns the Professor is dead
-  - Characters: Todd/Charles, Kendra Lorrimor
+- CP-USS (specifically Todd as the professor's assistant) arrives in Ravengro and learns of the professor's death. The party brings him into their confidence regarding the investigation.
+  - Characters: Todd, Gaspar, Kovira, Kai, Dismas
   - Location: Ravengro
-- Party investigates graveyard and encounters 11 undead (skeletons and zombies) emerging from graves, including the Professor's reanimated corpse
-  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas, Todd
+- The party explores the graveyard at night and is attacked by approximately 11 undead (skeletons and zombies). Several are killed by channel energy from a cleric (Josh's character), and the group defeats all of them through combat.
+  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Dismas, Josh (unidentified cleric character)
   - Location: Ravengro Graveyard
-- Josh (Denver/Enrique) channels positive energy to destroy multiple undead in one action
-  - Characters: Josh/Denver
+- The party discovers a secret mausoleum entrance beneath the Ratherson family tomb, accessed through a hidden sarcophagus. They find an underground chamber with additional sarcophagi marked with Pharasma's symbols.
+  - Characters: Gaspar, Kovira
+  - Location: Underground tomb beneath Ravengro Graveyard
+- Giant centipedes attack the party in the underground tomb. The group defeats them after several rounds of combat, with poison damage affecting some party members.
+  - Characters: Gaspar, Kovira, Dismas, Denver (enlarged cleric), Todd
+  - Location: Underground tomb chamber
+- The party discovers a large wooden chest containing treasure: gold knuckles, potions, scrolls, arrows, holy water, a haunt siphon, and a spirit planchette. They divide the supplies among themselves.
+  - Characters: Gaspar, Kovira, Dismas, Denver, Todd
+  - Location: Underground chamber south of mausoleum
+- The party reburial all 11 undead bodies in the cemetery and locks the secret doors, attempting to leave no trace of their discovery.
+  - Characters: Gaspar, Kovira, Denver, Dismas
   - Location: Ravengro Graveyard
-- Party discovers secret passage behind Pharah Ratherson sarcophagus in the Ratherson family mausoleum, leading to underground crypt complex
-  - Characters: Gaspar, Kovira, Dismas
-  - Location: Ravengro, Ratherson Mausoleum
-- Party encounters and defeats giant centipedes in the underground chamber, sustaining poison damage
-  - Characters: Gaspar, Kovira, Dismas, Todd, Josh, Elfrip
-  - Location: Underground crypt beneath Ravengro
-- Party discovers a cache of supplies in the underground tomb: potions, scrolls, holy water, arrows, gold knuckles +1, haunt siphons, and a spirit planchet
-  - Characters: Gaspar, Kovira, Dismas, Josh, Todd, Elfrip
-  - Location: Underground crypt chamber
-- Party spends approximately 3 hours burying 11 zombie bodies and closing the secret tomb entrance to prevent town discovery
-  - Characters: Gaspar, Kovira, Dismas, Josh, Todd, Elfrip
-  - Location: Ravengro Graveyard
-- Party reports findings to Father Grimero at Temple of Pharasma; he agrees not to alert the town to prevent mass hysteria but confirms the cache was meant to be found
-  - Characters: Gaspar, Kovira, Josh, Todd, Elfrip, Dismas
+- The party visits the Temple of Pharasma and speaks with Father Grimero about the undead attack and the cache of supplies. Grimero agrees to keep the incident secret to prevent mass hysteria.
+  - Characters: Josh (cleric), Gaspar, Todd
   - Location: Temple of Pharasma, Ravengro
-- Deputy summons party to investigate cursed blood message "VE" at Warden Hawkin memorial; blood is magically preserved and cannot be removed
-  - Characters: Gaspar, Kovira, Dismas, Josh, Todd, Elfrip, Sheriff
-  - Location: Warden Hawkin Memorial, Ravengro
-- Party identifies "VE" as likely referring to Vesorianna, the warden's wife whose name appears on the memorial plaque
-  - Characters: Gaspar, Josh
-  - Location: Warden Hawkin Memorial
-  - Timeline: 4716.12.15 | Ravengro | The Warden's Ghost is taken from Harrowstone Prison in Ravengro
-- Party discovers drained possum corpse near memorial with precise jugular cut, blood used to create the magical curse writing *(medium confidence)*
-  - Characters: Dismas, Todd
-  - Location: Warden Hawkin Memorial, Ravengro
-- Party informs Sheriff of cemetery undead encounter and advises recruiting more defensive deputies; Sheriff confirms he only has 3 deputies total
-  - Characters: Gaspar, Josh, Todd, Kovira, Sheriff
-  - Location: Warden Hawkin Memorial
+- A curse appears at the Harrowstone Memorial: the letters 'V' and 'E' written in blood that cannot be washed or scraped off. High-level magic analysis suggests this is a powerful curse related to the warden's wife, Vesoriana.
+  - Characters: Gaspar, Kovira, Josh, Todd, Dismas
+  - Location: Harrowstone Memorial, Ravengro (by the river)
+- The party discovers a dead possum (not rabbit) drained of blood near the memorial with a precise jugular cut, suggesting it was used as the source for the magical blood writing.
+  - Characters: Dismas, Gaspar
+  - Location: Harrowstone Memorial area
+- The sheriff is informed of the undead attack in the cemetery and agrees to keep the information private. The party requests he post a deputy at the memorial to prevent further vandalism.
+  - Characters: Gaspar, Sheriff of Ravengro, Deputy Timmy
+  - Location: Harrowstone Memorial/Ravengro streets
 
 ## NPCs Encountered
 
 - [[Kendra Lorrimor]]
-- [[Father Grimero]]
-- [[Sheriff]]
+- [[Father Grimero (Temple of Pharasma)]]
+- [[Sheriff (of Ravengro)]]
 - [[Deputy Timmy]]
-- [[Multiple townspeople/deputies]]
+- [[Other deputies and acolytes]]
 
 ## Locations
 
 - [[Ravengro (town)]]
-- [[Ravengro Graveyard]]
+- [[Ravengro Graveyard (north of town)]]
 - [[Ratherson Family Mausoleum]]
-- [[Underground crypt complex]]
+- [[Underground tomb complex (beneath the graveyard)]]
 - [[Temple of Pharasma]]
-- [[Warden Hawkin Memorial]]
-- [[Lorrimor manor/house]]
+- [[Harrowstone Memorial (by the river)]]
 
 ## Combat Encounters
 
-- Graveyard undead encounter: 11 total undead (approximately 6 skeletons, 5 zombies) including burning skeleton and headless corpse of Professor Lorrimor. Party used grease spell, channel energy, and melee attacks. All undead destroyed.
-- Giant centipede swarm: 8+ giant centipedes in underground crypt. Party defeated all centipedes after sustaining poison damage. No party deaths.
+- Ambush by approximately 11 undead (skeletons and zombies) in the graveyard. Multiple undead killed by channel energy from the cleric.
+- Combat with giant centipedes in the underground tomb chamber. Party defeated all centipedes after several rounds, with poison damage affecting some members.
 
 ## Items & Loot
 
-- Gold knuckles +1 (taken by Josh)
-- 5 potions of cure light wounds (distributed to party)
-- 2 potions of lesser restoration (taken by Josh and Gaspar)
-- 2 scrolls of turn undead
-- 2 scrolls of hide from undead
-- The Ladyfinger (item, taken by Todd)
-- 4 haunt siphons (distributed to party)
-- Holy water (multiple vials)
-- Scroll of daylight (taken by Todd/Charles)
-- Scroll of protection from evil (taken by Josh/Denver)
-- 10 +1 arrows (distributed between Kovira and Sidney)
-- 5 ghost touch arrows +1 (distributed)
-- 5 +2 undead bane arrows (distributed)
-- 2 ever-burning torches
-- 12 silver arrows
-- Spirit planchet (brass, kept by party - noted as dangerous)
-- Arrows of various types (split between bow users)
+- Gold knuckles +1
+- Potions of cure light wounds (5)
+- Potions of lesser restoration (2)
+- Scrolls of detect undead (2)
+- Scrolls of hide from undead (2)
+- Ladyfinger (item)
+- Holy water (4 vials)
+- Haunt siphons (3)
+- Plus-one arrows (10)
+- Ghost touch arrows +1 (5)
+- Undead bane arrows +1 (2)
+- Ever-burning torches (2)
+- Silver arrows (12)
+- Spirit planchette (brass)
+- Protection from evil scroll
+- Daylight scroll
 
 ## Notable Quotes
 
-> okay the recording started so don't say anything terrible
-> [ __ ]
-> immediate immediate sorry i'm not an excellent opening entry from sid
-> who are you todd and i was on a research trip for professor lorimer but he [ __ ] gave me a [ __ ] for brains donkey that [ __ ] me over
-> tired tired bruised hungry thirsty frustrated annoyed
-> sorry about your buddy
-> i missed his funeral
-> such a [ __ ] cheapskate
-> they call us sipus
-> it's serious business being in cpus
-> the undead are a menace
-> if any of you ever laugh at the abbreviation c puss you're out of sipus
-> the whispering way cultists whenever someone learns too much about the whispering way the cult finds them kills them and smashes their heads so they can't tell anybody their secrets even after death
-> it turned you into a head bowl
-> head margarita red margarita
-> holy [ __ ]
-> we need this to be fewer zombies
-> i just met you guys and that guy's coming closer to me wow it was very dangerous
-> now i literally just met you guys gotta go
-> V E
-> victory in europe
-> never trust a mason
-> we've been at it three hours
-> i'm so god damn tired
-> can we take back a sample of the blood... you can't remove it
-> it feels like it's not gonna work even as i'm saying it
-> just as obviously looks magical or anomalous
-> what the [ __ ] is this
+> it's the city police undead specialist squad sipus
+> just i just met you guys and that guy's coming closer to me wow
+> did we just like fuck up a ton of a ton of dinkles over there oh yeah i cancelled them
+> you have something in your eye let me get it for you
+> leave the homeless out of this
+> did you think it's just initials or if someone was actually trying to draw a whole deal across we don't hear unknown yeah i guess there's really no way to know
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Whether the mysterious 'VE' curse on the memorial is directly connected to Vesorianna or if it's a separate threat entirely
-- Whether more of the name will be written or if this is a complete message
-- The identity and motivation of whoever performed the blood curse ritual
-- Whether the spirit planchet was intentionally left in the cache or was already there
-- Connection between the Whispering Way and the events in Ravengro (cemetery undead, blood curse) - unclear if directly related
-- Whether the footprints in the crypt belonged to the Professor before his death or someone else investigating the cache
+- Unclear if the footprints in the underground chamber definitively belonged to the professor or someone else investigating the same location.
+- The exact nature and purpose of the spirit planchette is discussed but not tested in-game; full mechanics uncertain.
+- Whether the curse at the memorial will expand or if additional messages will appear.
+- The connection between the memorial vandalism and the undead attack in the graveyard is not yet confirmed by the party.
 

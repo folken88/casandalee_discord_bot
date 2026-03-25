@@ -5,102 +5,94 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "cVDaQ4pZdFY"
 sourceFile: "CC - cVDaQ4pZdFY - Carrion Crown - Tactile Genius 2023 02 12.md"
-processedAt: "2026-03-25T01:42:38.984Z"
-transcriptQuality: "fair"
-charactersPresent: ["Gaspar", "Kovira", "Dismas", "Dinvaya", "Rodney Danger Smith", "Elfrip"]
+processedAt: "2026-03-25T17:33:12.387Z"
+transcriptQuality: "poor"
+charactersPresent: ["Gaspar", "Kovira", "Kai", "Dinvaya", "Rodney Danger Smith", "Dismas", "Kate Blackwood"]
 tags: ["summary", "cc", "session"]
 ---
 
 # Carrion Crown - Tactile Genius 2023 02 12
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=cVDaQ4pZdFY)
-**Transcript Quality:** fair
-**Characters Present:** Gaspar, Kovira, Dismas, Dinvaya, Rodney Danger Smith, Elfrip
+**Transcript Quality:** poor
+**Characters Present:** Gaspar, Kovira, Kai, Dinvaya, Rodney Danger Smith, Dismas, Kate Blackwood
 
 ## Summary
 
-CP-USS clears the Black Whale prison ship of undead threats, including elite zombie guards and the former captain of a CP-USS squad now undead and wielding magical abilities. After intense combat in the cargo hold involving a create pit spell, blink, and slowed conditions, they defeat the enemies and loot the armory, recovering several magical items including a keen +1 mithril longsword with healing and spell-strike return mechanics.
+CP-USS clears the Black Whale prison ship of undead, discovering it infested with zombie guards, ghouls, and the undead Captain—a former skilled wizard and pirate hunter. After brutal combat in the cargo hold involving pit spells and tactical blinking, the party defeats the Captain and loots the armory, discovering magical items including a Shining Crusade blade and various supplies. Transcript quality was poor with frequent audio cuts and speaker identification issues.
 
 ## Key Events
 
-- CP-USS battles heavily armored zombie guards with spears and shields on the first deck of the Black Whale
+- Party boards the Black Whale prison ship to clear undead infestation in the cargo hold.
   - Characters: Gaspar, Kovira, Dismas, Dinvaya, Rodney Danger Smith
-  - Location: Black Whale Prison Ship - Crew Deck
-- Party descends to cargo hold and encounters the undead Captain (former CP-USS captain), a wizard who casts create pit, slowing spell, and uses blink to evade attacks
-  - Characters: Gaspar, Kovira, Dismas, Dinvaya, Rodney Danger Smith, Elfrip
-  - Location: Black Whale Prison Ship - Cargo Hold
-- Gaspar is caught in the create pit spell and falls 20 feet, taking falling damage and becoming trapped until rescued by Elfrip
-  - Characters: Gaspar, Elfrip
-  - Location: Black Whale Prison Ship - Cargo Hold
-- Rodney Danger Smith is affected by slow spell, reducing his movement and action economy for multiple rounds
+  - Location: Black Whale Prison Ship - Cargo Deck
+  - Timeline: 4717.01.21 | Lepidstadt | CP-USS begins investigating the Black Whale prison
+- Party encounters the undead Captain, former CP-USS member and skilled wizard/pirate hunter who uses create pit spell and blink spell, along with undead zombie guards in combat.
+  - Characters: Gaspar, Kovira, Dismas, Dinvaya, Rodney Danger Smith, Kate Blackwood
+  - Location: Black Whale Prison Ship - Cargo Deck
+- Gaspar falls into a 20-foot extradimensional pit created by the Captain's spell, requiring rescue by Dinvaya with a ladder and assistance.
+  - Characters: Gaspar, Dinvaya
+  - Location: Black Whale Prison Ship - Cargo Deck
+- Rodney Danger Smith shoots the undead Captain through a crack in shelving, defeating him and ending the encounter.
   - Characters: Rodney Danger Smith
-  - Location: Black Whale Prison Ship - Cargo Hold
-- Party defeats the undead Captain after extended combat; Rodney Danger Smith lands final shot through supply racks
-  - Characters: Rodney Danger Smith, Dismas, Elfrip, Kovira, Dinvaya, Gaspar
-  - Location: Black Whale Prison Ship - Cargo Hold
-- Party loots armory and finds seven +1 crossbow bolts, potions of cure light and cure moderate wounds, a bronze war medal (amulet of natural armor +1), mithril dagger, and a magical longsword (keen +1, returns spell strike/smite/bane on crits vs evil/undead)
-  - Characters: Gaspar, Kovira, Dismas, Dinvaya, Rodney Danger Smith, Elfrip
+  - Location: Black Whale Prison Ship - Cargo Deck
+- Party discovers and loots the prison Armory, finding magical items including a Shining Crusade rapier (plus one keen sword with conductive properties and healing cure light wounds on critical hits against undead), an amulet of natural armor +1, multiple potions, ammunition, and various masterwork weapons.
+  - Characters: Gaspar, Kovira, Dismas, Dinvaya, Rodney Danger Smith, Kate Blackwood
   - Location: Black Whale Prison Ship - Armory
+- Party recovers multiple CP-USS badges from the defeated undead Captain and zombie guards.
+  - Characters: Gaspar, Dismas
+  - Location: Black Whale Prison Ship
 
 ## NPCs Encountered
 
-- [[The Captain (undead former CP-USS captain)]]
-- [[Elite zombie prison guards]]
+- [[The Captain (undead former CP-USS member and wizard)]]
+- [[Undead zombie guards (former prison guards)]]
 
 ## Locations
 
-- [[Black Whale Prison Ship - Top Deck (Warden's Quarters)]]
-- [[Black Whale Prison Ship - Crew Deck]]
-- [[Black Whale Prison Ship - Cargo Hold]]
-- [[Black Whale Prison Ship - Armory]]
+- [[Black Whale Prison Ship]]
+- [[Cargo Deck]]
+- [[Crew Deck]]
+- [[Armory]]
 
 ## Combat Encounters
 
-- Fight with zombie guards and corpses in warden's quarters
-- Extended combat in cargo hold against the undead Captain (wizard with blink, create pit, and slow spells) and elite zombie guards with spears and long swords
+- Initial encounter with multiple zombie and ghoul corpses on the top deck of the Black Whale
+- Extended battle with the undead Captain (skilled wizard with blink and create pit spells) and two zombie guards with long swords and spears in the cargo hold
 
 ## Items & Loot
 
-- C-USS badges (multiple)
-- Silver arrows
-- Masterwork chainmail (multiple)
-- Masterwork shields and spears
-- Long swords
-- Supple brand wine (worth 50 gold each, approx 600 gold total)
-- Caden Brew (24-pack, 12 pounds, worth 2 gold)
-- Yogurt (430 pounds, 85 gold)
-- Target dummies (760 pounds)
-- +1 crossbow bolts (7 total)
-- Potions of cure light wounds
+- Shining Crusade rapier (plus one keen, conductive, heals on crits vs undead)
+- Amulet of natural armor +1
+- Potion of cure light wounds
 - Potion of cure moderate wounds
-- Bronze war medal (amulet of natural armor +1)
-- Mithril dagger
-- Keen +1 mithril longsword (with conductive variant: returns spell strike/smite/bane charge on critical vs evil foes or undead; casts cure light wounds + freedom movement 1 round on critical vs undead)
-- Black and blueberry pie in ramekin (delivered by Anna)
-- Crusader arrows (4)
-- Crusader bolts (4)
-- Silver arrows (20)
-- Silver crossbow bolts (7)
-- Masterwork short sword
+- Multiple silver and crusader arrows and bolts
+- Seven plus one crossbow bolts
+- Masterwork chain mail and shields
+- Masterwork long spears and long swords
+- CP-USS badges (multiple)
+- Caden Brew (24 pack of beer)
+- Calvin Carpenter wine (bottles worth 50 gold each)
+- Target dummies (700+ pounds)
+- Yogurt containers
 
 ## Notable Quotes
 
 > what y'all doing blood and [ __ ] everywhere
 > don't worry we got four more boats we ain't even done with this one yet
-> you see like a dozen Dead zombies around this door with the party all stacked up having funneled all of them into this little room
-> these people have got a whole Bay here and they had six clearly huge River or even ocean-going vessels and they've just lashed them together with all the mass taken down they're not seaworthy at all
 > the Pit's course stone walls have a climb DC of 25
-> nothing personal kid
-> I'm delicious
-> oh [ __ ] about getting around this [ __ ]
-> that's a lot better than we've had in the past
-> we can hand a vacolite from here
+> he's got a [ __ ] blur on
+> huffing supple brand wine and more like
+> holy [ __ ] holy [ __ ]
+> this is a 10 foot ladder
+> that is wanting to hit that will hit him if money take money take money pick money pick Money Two
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Possible gathering of undead on other ships heard after initial combat (Sid heard ruckus, but this was not confirmed in detail)
-- Exact nature and capabilities of the undead Captain's magical abilities beyond what was observed in combat
-- Whether there are more threats on the remaining boats
+- Possibility that the party heard sounds of undead gathering on other ships adjacent to the Black Whale after the initial combat
+- Unclear if the undead Captain was using other spells beyond create pit and blink
+- Unclear how many more ships remain to be cleared (mentioned 'four more boats' but unclear if this was literal count or casual reference)
+- Partial audio regarding what Sydney/Kovira was doing or saying during some rounds of combat due to 'AFK' notation
 

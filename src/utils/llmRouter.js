@@ -1,31 +1,28 @@
 /**
  * LLM Router for Casandalee
  * Routes requests to the appropriate LLM backend:
- *   - Tier 1 (Background): Ollama (5080) — compaction, parsing, dossier generation
- *   - Tier 2 (Personality): Ollama first, then Claude Haiku 4.5, then Ollama fallback, then OpenAI
- *   - Tier 3 (Complex): Claude Sonnet 4.6 / GPT-4 — deep analysis
- * From Docker, set OLLAMA_URL to reach Ollama (e.g. http://host.docker.internal:5080 or service name on ollama-network).
+ *   - Tier 1 (Background): Ollama — compaction, parsing, dossier generation
+ *   - Tier 2 (Personality): Claude Haiku first, Ollama fallback
+ *   - Tier 3 (Complex): Claude Sonnet, Ollama fallback
+ * From Docker, OLLAMA_URL should be http://ollama:11434 (Docker network).
  */
 
 const logger = require('./logger');
 
 class LLMRouter {
     constructor() {
-        this.ollamaUrl = process.env.OLLAMA_URL || 'http://localhost:5080';
+        this.ollamaUrl = process.env.OLLAMA_URL || 'http://ollama:11434';
         this.ollamaModelFast = process.env.OLLAMA_MODEL_FAST || 'qwen2.5:7b';
         this.ollamaModelQuality = process.env.OLLAMA_MODEL_QUALITY || 'llama3.1:8b';
         this.anthropicApiKey = process.env.ANTHROPIC_API_KEY || null;
-        this.openaiApiKey = process.env.OPENAI_API_KEY || null;
 
         // Lazy-loaded clients
         this._anthropicClient = null;
-        this._openaiClient = null;
 
         // Stats tracking
         this.stats = {
             ollama: { calls: 0, errors: 0, totalTokens: 0 },
-            claude: { calls: 0, errors: 0, totalTokens: 0 },
-            openai: { calls: 0, errors: 0, totalTokens: 0 }
+            claude: { calls: 0, errors: 0, totalTokens: 0 }
         };
     }
 
@@ -48,33 +45,8 @@ class LLMRouter {
     }
 
     /**
-     * Get or create the OpenAI client (lazy-loaded)
-     * @returns {Object|null} - OpenAI SDK client
-     */
-    getOpenAIClient() {
-        if (!this.openaiApiKey) return null;
-        if (!this._openaiClient) {
-            try {
-                const OpenAI = require('openai');
-                this._openaiClient = new OpenAI({ apiKey: this.openaiApiKey });
-            } catch (err) {
-                logger.error('Failed to load OpenAI SDK:', err.message);
-                return null;
-            }
-        }
-        return this._openaiClient;
-    }
-
-    /**
-     * Send a request to Ollama (local LLM on RTX 5080)
+     * Send a request to Ollama (local LLM)
      * Best for: background tasks, data parsing, compaction, dossier generation
-     * @param {string} prompt - User/task prompt
-     * @param {Object} options - Configuration options
-     * @param {string} [options.system] - System prompt
-     * @param {string} [options.model] - Override model (default: fast)
-     * @param {number} [options.maxTokens=500] - Max output tokens
-     * @param {number} [options.temperature=0.3] - Temperature
-     * @returns {Promise<string>} - Generated text
      */
     async ollamaGenerate(prompt, options = {}) {
         const model = options.model || this.ollamaModelFast;
@@ -122,9 +94,6 @@ class LLMRouter {
 
     /**
      * Send a chat request to Ollama (multi-turn format)
-     * @param {Array} messages - Chat messages [{role, content}]
-     * @param {Object} options - Configuration options
-     * @returns {Promise<string>} - Generated text
      */
     async ollamaChat(messages, options = {}) {
         const model = options.model || this.ollamaModelFast;
@@ -166,13 +135,6 @@ class LLMRouter {
     /**
      * Send a request to Claude (Anthropic)
      * Best for: user-facing responses, personality-flavored content
-     * @param {string} prompt - User prompt
-     * @param {Object} options - Configuration options
-     * @param {string} [options.system] - System prompt
-     * @param {string} [options.model='claude-haiku-4-5'] - Model name
-     * @param {number} [options.maxTokens=300] - Max output tokens
-     * @param {number} [options.temperature=0.7] - Temperature
-     * @returns {Promise<string>} - Generated text
      */
     async claudeGenerate(prompt, options = {}) {
         const client = this.getAnthropicClient();
@@ -219,15 +181,6 @@ class LLMRouter {
 
     /**
      * Send an image + prompt to Claude for vision analysis
-     * Best for: character sheet parsing, image description
-     * @param {string} prompt - Text prompt describing what to extract
-     * @param {Buffer} imageBuffer - Image data as Buffer
-     * @param {string} mediaType - MIME type (e.g., 'image/png', 'image/jpeg')
-     * @param {Object} options - Configuration options
-     * @param {string} [options.system] - System prompt
-     * @param {string} [options.model='claude-haiku-4-5'] - Model name
-     * @param {number} [options.maxTokens=1000] - Max output tokens
-     * @returns {Promise<string>} - Generated text
      */
     async claudeVision(prompt, imageBuffer, mediaType, options = {}) {
         const client = this.getAnthropicClient();
@@ -272,11 +225,6 @@ class LLMRouter {
             this.stats.claude.calls++;
             this.stats.claude.totalTokens += (response.usage?.output_tokens || 0);
 
-            logger.debug(`Claude Vision [${model}] responded`, {
-                inputTokens: response.usage?.input_tokens,
-                outputTokens: response.usage?.output_tokens
-            });
-
             return response.content?.[0]?.text?.trim() || '';
         } catch (err) {
             this.stats.claude.errors++;
@@ -287,9 +235,6 @@ class LLMRouter {
 
     /**
      * Send a chat request to Claude (multi-turn)
-     * @param {Array} messages - Chat messages [{role, content}]
-     * @param {Object} options - Configuration options
-     * @returns {Promise<string>} - Generated text
      */
     async claudeChat(messages, options = {}) {
         const client = this.getAnthropicClient();
@@ -327,56 +272,10 @@ class LLMRouter {
     }
 
     /**
-     * Send a request to OpenAI GPT (fallback/complex analysis)
-     * @param {string} prompt - User prompt
-     * @param {Object} options - Configuration options
-     * @param {string} [options.system] - System prompt
-     * @param {string} [options.model='gpt-3.5-turbo'] - Model name
-     * @param {number} [options.maxTokens=200] - Max output tokens
-     * @param {number} [options.temperature=0.7] - Temperature
-     * @returns {Promise<string>} - Generated text
-     */
-    async openaiGenerate(prompt, options = {}) {
-        const client = this.getOpenAIClient();
-        if (!client) {
-            throw new Error('OpenAI API not configured');
-        }
-
-        const model = options.model || 'gpt-3.5-turbo';
-
-        try {
-            const messages = [];
-            if (options.system) {
-                messages.push({ role: 'system', content: options.system });
-            }
-            messages.push({ role: 'user', content: prompt });
-
-            const response = await client.chat.completions.create({
-                model,
-                messages,
-                max_tokens: options.maxTokens || 200,
-                temperature: options.temperature ?? 0.7
-            });
-
-            this.stats.openai.calls++;
-            this.stats.openai.totalTokens += (response.usage?.total_tokens || 0);
-
-            return response.choices[0].message.content?.trim() || '';
-        } catch (err) {
-            this.stats.openai.errors++;
-            logger.error(`OpenAI error [${model}]:`, err.message);
-            throw err;
-        }
-    }
-
-    /**
      * Smart routing: choose the best backend for the task
      * @param {string} prompt - The prompt
      * @param {Object} options - Options including task type
      * @param {string} options.task - Task type: 'background', 'user-facing', 'complex', 'personality'
-     * @param {string} [options.system] - System prompt
-     * @param {number} [options.maxTokens] - Max tokens
-     * @param {number} [options.temperature] - Temperature
      * @returns {Promise<{text: string, provider: string}>} - Response and which provider was used
      */
     async route(prompt, options = {}) {
@@ -393,21 +292,8 @@ class LLMRouter {
             }
         }
 
-        // Tier 2: Personality / user-facing — try 5080 (Ollama) first; API for what it can't handle
+        // Tier 2: Personality / user-facing — Claude Haiku first (best quality), Ollama fallback
         if (task === 'user-facing' || task === 'personality') {
-            try {
-                const text = await this.ollamaGenerate(prompt, {
-                    ...options,
-                    maxTokens: options.maxTokens || 250,
-                    temperature: options.temperature ?? 0.7,
-                    timeout: 45000
-                });
-                if (text && text.trim().length > 0) {
-                    return { text: text.trim(), provider: 'ollama' };
-                }
-            } catch (err) {
-                logger.warn('Ollama (5080) failed for personality, using API:', err.message);
-            }
             if (this.anthropicApiKey) {
                 try {
                     const text = await this.claudeGenerate(prompt, {
@@ -416,10 +302,10 @@ class LLMRouter {
                     });
                     return { text, provider: 'claude-haiku' };
                 } catch (err) {
-                    logger.warn('Claude Haiku failed, trying Ollama (5080) then OpenAI');
+                    logger.warn('Claude Haiku failed, falling back to Ollama:', err.message);
                 }
             }
-            // Fallback: 5080 (Ollama) before paid API
+            // Fallback: Ollama (free, local)
             try {
                 const text = await this.ollamaGenerate(prompt, {
                     ...options,
@@ -431,11 +317,11 @@ class LLMRouter {
                     return { text: text.trim(), provider: 'ollama-fallback' };
                 }
             } catch (err) {
-                logger.warn('Ollama (5080) fallback failed:', err.message);
+                logger.warn('Ollama fallback failed:', err.message);
             }
         }
 
-        // Tier 3: Complex analysis -> Claude Sonnet or GPT-4
+        // Tier 3: Complex analysis -> Claude Sonnet, then Ollama quality model
         if (task === 'complex') {
             if (this.anthropicApiKey) {
                 try {
@@ -445,34 +331,12 @@ class LLMRouter {
                     });
                     return { text, provider: 'claude-sonnet' };
                 } catch (err) {
-                    logger.warn('Claude Sonnet failed, falling back to GPT-4');
-                }
-            }
-
-            if (this.openaiApiKey) {
-                try {
-                    const text = await this.openaiGenerate(prompt, {
-                        ...options,
-                        model: 'gpt-4'
-                    });
-                    return { text, provider: 'gpt-4' };
-                } catch (err) {
-                    logger.error('GPT-4 also failed:', err.message);
+                    logger.warn('Claude Sonnet failed, falling back to Ollama quality model');
                 }
             }
         }
 
-        // Final fallback: try whatever is available
-        if (this.openaiApiKey) {
-            try {
-                const text = await this.openaiGenerate(prompt, options);
-                return { text, provider: 'openai-fallback' };
-            } catch (err) {
-                logger.error('OpenAI fallback failed:', err.message);
-            }
-        }
-
-        // Try Ollama as absolute last resort
+        // Final fallback: Ollama quality model as absolute last resort
         try {
             const text = await this.ollamaGenerate(prompt, {
                 ...options,
@@ -480,19 +344,17 @@ class LLMRouter {
             });
             return { text, provider: 'ollama-fallback' };
         } catch (err) {
-            throw new Error('All LLM providers failed');
+            throw new Error('All LLM providers failed (Claude + Ollama)');
         }
     }
 
     /**
      * Check which providers are available
-     * @returns {Promise<Object>} - Provider availability
      */
     async checkHealth() {
         const health = {
             ollama: false,
-            claude: false,
-            openai: false
+            claude: false
         };
 
         // Check Ollama
@@ -508,15 +370,11 @@ class LLMRouter {
         // Check Claude
         health.claude = !!this.anthropicApiKey;
 
-        // Check OpenAI
-        health.openai = !!this.openaiApiKey;
-
         return health;
     }
 
     /**
      * Get usage statistics
-     * @returns {Object} - Usage stats per provider
      */
     getStats() {
         return { ...this.stats };

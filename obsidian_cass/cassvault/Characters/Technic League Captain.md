@@ -1,19 +1,25 @@
 ---
 name: "Technic League Captain"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["IG"]
-mentions: 4
-tags: ["character", "npc", "ig"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:30:05.211Z"
 ---
 
 # Technic League Captain
 
-**Type:** NPC
-**Campaigns:** IG
-**Mentions:** 4 session(s)
-
+**Race:** Unknown | **Class:** Unknown
 
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Possibly the owner of the elaborate bedroom with astrophysics knowledge. Described as a hill giant well-versed in astrophysics. *(youtube-transcript, 3/25/2026)*
+- Mentioned as a reason why barbarians/Black Sovereign are paranoid about magic and resistant to magical effects. Party previously dismantled the organization.; Referenced as a previous encounter that the party learned from regarding strategy *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

@@ -1,19 +1,22 @@
 ---
 name: "Justice Gorls"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["CC"]
-mentions: 3
-tags: ["character", "npc", "cc"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T15:55:23.714Z"
 ---
 
 # Justice Gorls
 
-**Type:** NPC
-**Campaigns:** CC
-**Mentions:** 3 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Female town elder/keeper; conversing with party about missing keepers and cult visitors; expresses frustration about male co-workers' incompetence *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

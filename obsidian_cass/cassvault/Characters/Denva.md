@@ -1,19 +1,26 @@
 ---
 name: "Denva"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["CC", "IG"]
-mentions: 4
-tags: ["character", "npc", "cc", "ig"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T15:55:23.773Z"
 ---
 
 # Denva
 
-**Type:** NPC
-**Campaigns:** CC, IG
-**Mentions:** 4 session(s)
-
+**Race:** Unknown | **Class:** Unknown
 
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Denva is noted as being able to cast restoration spells herself and can cast greater restoration to help remove negative levels from party members.; Has channels per day ability; party concerned about disappointing her upon return *(youtube-transcript, 3/25/2026)*
+- Crafting items while being bodyguarded by Dismas and Rodney Danger Smith *(youtube-transcript, 3/25/2026)*
+- Can activate wands and scrolls; only person who can cast resurrection spell, though Alfred can also do it *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

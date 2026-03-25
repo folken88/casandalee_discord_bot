@@ -5,7 +5,7 @@ campaign: "IG"
 campaignName: "Iron Gods"
 videoId: "9MLxNaCqLTI"
 sourceFile: "IG - 9MLxNaCqLTI - Iron Gods - Space Plumbers - 2021 07 22.md"
-processedAt: "2026-03-25T02:05:34.365Z"
+processedAt: "2026-03-25T17:55:58.468Z"
 transcriptQuality: "fair"
 charactersPresent: ["Ulfred", "Nomkath", "Mr Brow", "Olbryn", "Akradenn", "Luna"]
 tags: ["summary", "ig", "session"]
@@ -19,100 +19,94 @@ tags: ["summary", "ig", "session"]
 
 ## Summary
 
-The party explored an underground facility housing a nanotech laboratory and discovered an air elemental (Sasho) bound by planar contract to a wizard named Zaud who took the android body of Casandalee. After freeing Sasho, the party spent three days neutralizing mutagenic poison gas that had been leaking into Yadenvey's water supply, earning the town's gratitude. They then traveled to the Smoke Wood forest seeking information about Zaud and found themselves tracking an injured hill giant to its camp, where they discovered three wounded giants and prepared for combat.
+The party explores an underground facility in Yadenvey and encounters Sasho, an air elemental bound by planar contract to the deceased wizard Zaud. After freeing Sasho via dismissal spell, they discover a nanotech laboratory and a chemical production chamber leaking mutagenic gas into the town's water supply. The party spends several days neutralizing the poison and repairing equipment. They then travel toward the Smoke Wood forest to investigate a smoking tower, following a trail of injured hill giants.
 
 ## Key Events
 
-- Party discovers an air elemental servant (Sasho) bound by planar contract to Zaud in an underground facility beneath Yadenvey. The elemental reveals Zaud took the android body of Casandalee and that Zaud is a researcher interested in gases and clouds.
-  - Characters: Eldrin, Sasho, Party
-  - Location: Underground facility beneath Yadenvey
-- Party uses dismissal spell (prepared by Ulfred after swapping prepared spells) to release Sasho from his planar contract, freeing him to return to the Plane of Elemental Air.
-  - Characters: Ulfred, Sasho
-  - Location: Nanotech laboratory
-- Party discovers a nanotech laboratory with blueprints and crafting equipment. They find a gas mask, working comm set, batteries, nanite canisters, and flesh head grenades in a locked cabinet.
+- Party encounters Sasho, an air elemental servant bound to the deceased wizard Zaud. Sasho guards a control room and agrees to help the party after they promise to cast dismissal to free him.
+  - Characters: Ulfred, Eldrin, Nomkath, Mr Brow, Olbryn, Akradenn, Luna
+  - Location: Underground facility in Yadenvey
+- Party discovers a nanotech laboratory with a computer terminal that can store blueprints and formulas for technology construction.
   - Characters: Eldrin, Nomkath
   - Location: Nanotech laboratory
-- Party enters a chamber with hazardous mutagenic gas leaking from broken chemical/android creation machinery. The gas has been contaminating Yadenvey's water table and causing mutations, birth defects, and illness among the townspeople.
-  - Characters: Eldrin, Party
-  - Location: Chemical/android creation facility
-- Over three days, party neutralizes the mutagenic gas using neutralize poison spells (2 from Ulfred per day, 2 from scrolls donated by Brother Gahar). This permanently stops the leak and will gradually improve the town's health.
-  - Characters: Ulfred, Brother Gahar
-  - Location: Underground facility beneath Yadenvey
-- Eldrin repairs two broken comm sets at the nanotech laboratory workbench, giving the party long-range (1 mile) communication devices. Eldrin upgrades the arc rifle by salvaging the arc pistol.
+- Party finds a hazardous materials chamber with leaking mutagenic gas that has been contaminating Yadenvey's water table and causing mutations in the population.
+  - Characters: Eldrin, Ulfred
+  - Location: Chemical production chamber
+- Party recovers working and broken comm sets, a filter mask, nanite canisters, and other equipment from a locked cabinet.
+  - Characters: Nomkath, Tokala
+  - Location: Nanotech laboratory
+- Over three days, Ulfred casts neutralize poison with assistance from scrolls donated by Brother Gahar to clean the mutagenic gas from the facility and stop contamination.
+  - Characters: Ulfred, Eldrin
+  - Location: Chemical production chamber
+- Eldrin repairs two broken comm sets and upgrades the arc rifle using an arc pistol as parts.
   - Characters: Eldrin
   - Location: Nanotech laboratory
-- Party receives warm reception from Yadenvey townspeople and Red Fang. Red Fang provides updates on Zaud: he visited 6-7 years ago, was interested in the town's mutations, asked questions about history, had a long wild beard, and was vague about his origins. He mentioned 'research' as his purpose.
-  - Characters: Red Fang, Party, Zaud
+- Party learns from Red Fang that a wild-haired wizard named Zaud visited Yadenvey 6-7 years ago, asking questions about the town's mutations and curses. He was vague about his origins and left without explanation.
+  - Characters: Red Fang
   - Location: Yadenvey
-- Party learns of Smoke Wood forest to the north, which contains hill giants and a mysterious tower at its center that appears to burn endlessly with smoke. Party decides to investigate this tower as a lead to find Zaud.
-  - Characters: Party, Red Fang
-  - Location: Yadenvey
-- Party travels for 4-5 days toward Smoke Wood forest. On day 5, they discover a clearing with massive pine trees snapped at 15 feet height in 50-foot diameter area—evidence of hill giants harvesting building materials.
-  - Characters: Nomkath, Party
-  - Location: Edge of Smoke Wood forest
-- Party follows trail of injured hill giant through forest. Nomkath discovers dried blood on trees and footprints, tracking the giant to a camp containing three injured hill giants. Party plans ambush with flying units attacking from above while melee fighters flank from below.
-  - Characters: Nomkath, Mcginnis, Ulfred, Eldrin, Party
-  - Location: Smoke Wood forest, hillside camp
+- Party discovers the Smoke Wood forest contains a burning tower at its center and is inhabited by hill giants. They decide to investigate rather than avoid the area.
+  - Characters: All party members
+  - Location: Smoke Wood forest
+- Party tracks an injured hill giant into the Smoke Wood forest and discovers a camp with three wounded hill giants that appear to have been in a major battle.
+  - Characters: Nomkath, Mcginnis, Eldrin, Akradenn
+  - Location: Smoke Wood forest
+- Party prepares ambush strategy against three hill giants: Alfred and Mcginnis will sneak up invisibly while Eldrin and Akradenn will fly up to attack at range after drawing the giants' attention.
+  - Characters: Alfred, Mcginnis, Eldrin, Akradenn, Nomkath, Tokala, Ulfred, Luna
+  - Location: Smoke Wood forest
 
 ## NPCs Encountered
 
-- [[Sasho (air elemental)]]
+- [[Sasho]]
+- [[Zaud]]
 - [[Red Fang]]
 - [[Brother Gahar]]
-- [[Zaud (mentioned, not encountered)]]
 
 ## Locations
 
-- [[Yadenvey (underground facility)]]
+- [[Yadenvey]]
+- [[Underground facility in Yadenvey]]
 - [[Nanotech laboratory]]
-- [[Chemical/android creation chamber]]
-- [[River ford]]
+- [[Chemical production chamber]]
 - [[Smoke Wood forest]]
-- [[Forest clearing with snapped trees]]
-- [[Hill giant camp]]
 
 ## Combat Encounters
 
-- Prepared but not yet initiated: Three injured hill giants at forest camp (initiative rolled, combat paused before execution)
+- Party prepares for combat with three injured hill giants but session ends before combat resolves
 
 ## Items & Loot
 
-- Gas mask (ionized filter, immunity to inhaled toxins when powered, +3 resistance bonus unpowered)
-- Working comm set (1 mile range, audio/visual, frequency-based, recordings capable)
-- Broken comm set (repaired during session)
-- Second broken comm set (repaired during session)
-- Batteries (5 zero-charge units, 2 charged units found)
+- Comm sets (2 repaired)
+- Filter mask (ionized filters for toxin/disease immunity)
 - Nanite canisters
-- Flesh head grenades (multiple)
-- Arc rifle (upgraded from arc pistol salvage, now does 3d6 shock damage with stun setting option)
-- Laser rifle (taken from gearsman body)
-- Mithril shirt (sold for 550 gold)
-- Elven studded leather masterwork (sold for 160 gold)
-- Masterwork dagger (sold for 150 gold)
-- Scroll of remove curse (purchased and added to Alfred)
-- Various soup rations (multiple types including prawn chowder, swamp goulash, miso beef ramen)
+- Flesh head grenades
+- Batteries
+- Arc rifle (upgraded)
+- Laser carbine
+- Silk rope bundle
+- Various potions including invisibility potions and monstrous physique potions
 
 ## Notable Quotes
 
-> you guys punched each other in the face and mcginnis nearly killed a party member
-> get confused and lose control your bowel function
-> as i thought this terminal accept my spell's magical charge
-> master zout
+> the voice says i know of no hellion
+> come for cassandra lee do you know where she is
+> she is not here she is dead
+> planar contract
+> master said he would return in days it has been years
+> you serve brigh
 > i swear that just give me a bit and i can let you out
-> he is a researcher he studies gases and clouds
-> plane of elemental air
-> he is quietly seething with rage
-> it's gonna be like chest deep for alfred but he weighs so damn much he's the least likely to get dragged down river
-> it looks like there might have been something if you could if when you use the communicator you need to start with okay i looks like there's something that maybe some of the giants were here
-> i always get to smash some giant heads
+> i know that voice
+> master zout
+> yes it turns out there were gears oh yes well we dealt with them killed the museum they had some dastardly plan to poison the people here
+> i say we gotta find this guy and kill him
+> i don't know about kill him but i mean if we could find the the android body he he took maybe maybe she is still alive in there
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Exact nature of what killed Casandalee's android body (Sasho referred to 'constructs' - unclear if androids or magical constructs)
-- Current status of Zaud - location and whether he still possesses Casandalee's body unknown
-- Whether mutagenic gas contamination will fully resolve or if ongoing water purification will be needed
-- Nature of the 'burning tower' at center of Smoke Wood - unclear if related to Zaud or separate phenomenon
-- Reason the three hill giants are injured and weakened - no clear explanation given
+- Whether Casandalee was actually destroyed by constructs or by Zaud himself
+- The exact purpose or nature of Zaud's research and why he took Casandalee's body
+- Whether Sasho will actually help the party after being released or if he will simply leave
+- The outcome of the planned ambush on the three hill giants
+- The connection between the wizard Zaud, the smoking tower, and the mutagenic gas facility
 

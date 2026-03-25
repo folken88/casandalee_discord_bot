@@ -1,19 +1,22 @@
 ---
 name: "Rust"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["IG"]
-mentions: 2
-tags: ["character", "npc", "ig"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:03:29.423Z"
 ---
 
 # Rust
 
-**Type:** NPC
-**Campaigns:** IG
-**Mentions:** 2 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- A wizard who is shot by the party during combat. The party discusses using him as a conduit to harm a Paladin through magical connection. *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

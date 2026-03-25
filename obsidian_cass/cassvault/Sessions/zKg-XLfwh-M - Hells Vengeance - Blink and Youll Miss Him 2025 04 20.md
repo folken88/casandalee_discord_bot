@@ -4,7 +4,7 @@ type: raw-transcript
 videoId: "zKg-XLfwh-M"
 campaign: "HV"
 publishedAt: ""
-capturedAt: "2026-03-25T05:10:10.688Z"
+capturedAt: "2026-03-25T05:23:34.255Z"
 tags: [session, transcript, hv]
 ---
 

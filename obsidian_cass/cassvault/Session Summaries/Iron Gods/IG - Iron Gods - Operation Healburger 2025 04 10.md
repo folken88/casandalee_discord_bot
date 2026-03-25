@@ -5,9 +5,9 @@ campaign: "IG"
 campaignName: "Iron Gods"
 videoId: "69D-Kmr1O7s"
 sourceFile: "IG - 69D-Kmr1O7s - Iron Gods - Operation Healburger 2025 04 10.md"
-processedAt: "2026-03-25T02:03:15.437Z"
+processedAt: "2026-03-25T17:53:49.588Z"
 transcriptQuality: "fair"
-charactersPresent: ["Ulfred", "Nomkath", "Mr Brow", "Olbryn", "Akradenn", "Luna", "Mockery"]
+charactersPresent: ["Ulfred", "Nomkath", "Mr Brow", "Olbryn", "Akradenn", "Luna", "Mockery", "Meyanda", "Casandalee", "Zernabith", "Kevoth-Kul", "Tekhmakool", "Cole Inkit"]
 tags: ["summary", "ig", "session"]
 ---
 
@@ -15,90 +15,98 @@ tags: ["summary", "ig", "session"]
 
 **Campaign:** Iron Gods | **Video:** [Watch on YouTube](https://youtube.com/watch?v=69D-Kmr1O7s)
 **Transcript Quality:** fair
-**Characters Present:** Ulfred, Nomkath, Mr Brow, Olbryn, Akradenn, Luna, Mockery
+**Characters Present:** Ulfred, Nomkath, Mr Brow, Olbryn, Akradenn, Luna, Mockery, Meyanda, Casandalee, Zernabith, Kevoth-Kul, Tekhmakool, Cole Inkit
 
 ## Summary
 
-The party successfully infiltrates the Palace of Fallen Stars and executes Operation Healburger, curing the Black Sovereign of his numerian fluid addiction by preparing and serving him a burger made from juvenile Tarrasque meat. However, immediately after the Black Sovereign's awakening and recovery from addiction, Unity launches a devastating attack on the palace using advanced Spartan-class robots and repeater tanks equipped with rail guns and plasma weapons, forcing the party into a massive combat encounter.
+After months of planning, the party successfully prepared a healburger from the juvenile Tarrasque meat and delivered it to the Black Sovereign at a feast in the Palace of Fallen Stars. The Black Sovereign consumed the burger and was cured of his addiction to Numerian fluids. However, the event was interrupted by a massive attack from advanced Unity robots equipped with rail guns, repeater tanks, and armed drones that began assaulting the palace. Combat ensued with the party and palace inhabitants fighting back against the mechanical invaders.
 
 ## Key Events
 
-- Party retrieves Meyanda from the hospital and together with Nomkath and Ulfred successfully infiltrates the palace kitchens, passing guards with bluff checks and assisting the royal chef in preparing the Healburger from the Juvi-Tarrasque meat using precise chemical processes to reduce toxicity while preserving flavor.
-  - Characters: Olbryn, Nomkath, Ulfred, Meyanda
-  - Location: Palace of Fallen Stars, Kitchen
-  - Timeline: 4717.03.14 - Party embarks to prepare the cure
-- Party secures guest invitations to the Black Sovereign's feast by negotiating with Zernabith (new Technic League leader), arriving at the palace with disguised members Luna and Mockery to witness the Healburger serving.
-  - Characters: Akradenn, Mr Brow, Nomkath, Olbryn, Ulfred, Luna, Mockery, Zernabith
-  - Location: Palace of Fallen Stars, Grand Hall
-  - Timeline: 4717.03.14 - Healburger served to the Black Sovereign
-- The Black Sovereign successfully consumes the Healburger and is cured of his addiction to Numerian fluids, regaining mental clarity for the first time in years and recognizing his manipulation by the Technic League.
+- The party successfully prepared a healburger from juvenile Tarrasque meat in the palace kitchen with help from the palace chef, who carefully processed the meat to remove its lethal venom while preserving its healing properties.
+  - Characters: Ulfred, Nomkath, Meyanda
+  - Location: Palace of Fallen Stars - Kitchen
+  - Timeline: 4717.03.14 - Party embarks to hunt the Juvi-Tarrasque
+- The party attended a feast at the Palace of Fallen Stars as guests of Zernabith (the current Technic League leader). They arrived with seven members including Luna and Mockery in disguise.
+  - Characters: Ulfred, Nomkath, Mr Brow, Akradenn, Olbryn, Luna, Mockery
+  - Location: Palace of Fallen Stars - Main Hall
+- The Black Sovereign ate the healburger and was cured of his addiction to Numerian fluids. He appeared confused and disoriented after eating it, as if waking from a long intoxication.
   - Characters: Kevoth-Kul
-  - Location: Palace of Fallen Stars, Grand Hall
-  - Timeline: 4717.03.14 - The Black Sovereign eats a healburger and is cured
-- Immediately after the Black Sovereign's awakening, Unity launches a coordinated attack on the palace using Spartan-class gearsmen (elite combat robots with rail guns and plasma weapons) and large repeater tanks equipped with devastating laser barrages, attacking from multiple windows and killing numerous barbarian guards and civilians.
-  - Characters: Party, Kevoth-Kul, Zernabith, Techmakool, Biscuits and Gravy, Cole Inkit
-  - Location: Palace of Fallen Stars, Grand Hall
-  - Timeline: 4717.03.14 - Unity attacks the Palace of Fallen Stars
-- Nomkath steals a mysterious cursed bracer from the impaled Arbiter robot in the palace entrance hall—a black metal item with three diamond-shaped windows displaying randomly scrolling symbols of money, lords, countries, and military ranks.
-  - Characters: Nomkath
-  - Location: Palace of Fallen Stars, North Hall
-- Combat begins in the Grand Hall with initiative rolled. Akradenn casts Wall of Force (150 sq ft, 300 HP) to shield against rail gun fire from the northwest. The party faces multiple Spartan robots, repeater tanks with plasma cannons, and flesh-burrowing insect swarms that attack from within victims' bodies.
-  - Characters: Akradenn, Ulfred, Luna, Mr Brow, Nomkath, Olbryn, Mockery
-  - Location: Palace of Fallen Stars, Grand Hall
+  - Location: Palace of Fallen Stars - Throne Room
+  - Timeline: 4717.03.14 - The Black Sovereign eats a healburger and is cured of his addiction to Numerian Fluids
+- Advanced Unity robots attacked the Palace of Fallen Stars during the feast. The attack included rail gun-equipped Spartans, repeater tanks with laser barrages, smaller armed drones, and insect-like drones that bored into flesh. The robots targeted the party and appeared to be specifically hunting for Casandalee (who was in Nomkath's backpack).
+  - Characters: Kevoth-Kul, Zernabith, Tekhmakool, Cole Inkit
+  - Location: Palace of Fallen Stars - Throne Room
+- The party stole a cursed bracer from a dead Arbiter robot displayed in the palace. The bracer is a black metal item with three black glass windows that display constantly changing symbols. It appeared to replace the wearer's magical protections with random bonuses/penalties.
+  - Characters: Nomkath, Mr Brow
+  - Location: Palace of Fallen Stars - North Hall
+- Zernabith transformed into a silver dragon in response to the robot attack, choosing to stay and fight rather than flee.
+  - Characters: Zernabith
+  - Location: Palace of Fallen Stars - Throne Room
+- Acradenn cast wall of force to shield the throne area and guest table from incoming rail gun fire, creating a 150 square foot barrier with 300 hit points and hardness 30.
+  - Characters: Akradenn
+  - Location: Palace of Fallen Stars - Throne Room
 
 ## NPCs Encountered
 
 - [[Zernabith]]
-- [[Kevoth-Kul (Black Sovereign)]]
+- [[Kevoth-Kul]]
 - [[Cole Inkit]]
-- [[Biscuits and Gravy]]
-- [[Techmakool]]
-- [[Tur Rock (Giant)]]
-- [[Meyanda]]
-- [[Casandalee (in backpack, low-power mode)]]
-- [[Royal Chef]]
-- [[Various Starfall City Guards]]
-- [[Barbarian Soldiers]]
-- [[Blood Sworn Warriors]]
+- [[Tekhmakool]]
+- [[Biscuits and Gravy (Bashki)]]
+- [[Palace Chef]]
+- [[Tur Rock (the giant)]]
+- [[The Witch]]
 
 ## Locations
 
 - [[Palace of Fallen Stars - Kitchen]]
-- [[Palace of Fallen Stars - North Hall (with impaled robot gallery)]]
-- [[Palace of Fallen Stars - Main Hall and Stairs]]
-- [[Palace of Fallen Stars - Grand Hall/Throne Room (250 ft diameter domed hall with six tables)]]
+- [[Palace of Fallen Stars - North Hall]]
+- [[Palace of Fallen Stars - Main Hall]]
+- [[Palace of Fallen Stars - Throne Room]]
+- [[Hospital (mentioned as party base)]]
 
 ## Combat Encounters
 
-- Major combat with Spartan-class gearsmen (elite robots with rail guns and shoulder/foot jets), repeater tanks with triple-barrel plasma cannons, and flesh-burrowing insect swarms throughout the Grand Hall. Multiple rail gun shots penetrate walls and tables. Repeater tanks deal 50+ damage per barrage. Party benefits from Haste, False Life, Heroism, and Akradenn's Wall of Force. At least 2-3 barbarians killed by plasma fire, several others wounded by burrowing insects causing ability damage.
+- Battle in the Throne Room against Unity robots: Spartan-class gearsmen with rail guns, repeater tanks with triple laser batteries, armed drones, and insect-like flesh-boring drones. Multiple barbarians and city guard engaged the robots while the party defended themselves and the Black Sovereign.
+- Previous encounter (referenced): Long-range artillery attack in the desert while hunting the juvenile Tarrasque
 
 ## Items & Loot
 
-- Shadows Refuge Armor (found on Black Seers - shining black steel, deploying black smoke, shadow walk/jaunt abilities, vampiric shadow shield dealing 1d6+level damage to attackers)
-- Void Vortex Bow (composite longbow +2, summons endless ammunition, shoots piercing/electrical/negative energy as needed, can fire void balls)
-- Shadow Burst Sword (plus four keen, crafted from forbidden magics, cooled in tears of those defying Zon-Kuthon, extra d10 on confirmed crit)
-- Black Seers' Loot: 7 Sacrificial Daggers (300 gp each), 7 Amulets of Natural Armor +1 (2000 gp each), 7 Rings of Protection +1, 7 Cloaks of Resistance +3, 7 Headbands of Charisma +2, plus gold coins
-- Mysterious Cursed Bracer (stolen by Nomkath from Arbiter's arm - black metal with three diamond-shaped windows displaying randomly scrolling symbols, adjusts rolls by 1d12-5, disables other protective items)
+- Healburger (prepared from juvenile Tarrasque meat)
+- Cursed Bracer (black metal with three black glass windows displaying changing symbols; grants 1d12-5 to rolls, replaces protective amulets and rings)
+- Void Vortex Bow (composite longbow +2 from dead assassin, shoots void energy)
+- Shadow Burst sword (+4 keen, extra d10 on crits, from dead assassin)
+- Shadows Refuge Armor (light armor with shadow walk/jaunt abilities)
+- Various Technic League equipment from Black Seer corpses (sacrificial daggers, amulets of natural armor +1, rings of protection +1, cloaks of resistance +3, headbands of charisma +2)
 
 ## Notable Quotes
 
+> Damn these some wrinkly dead [ __ ]
 > Whatever, man. You guys are stabbing them all. How's it?
-> Don't touch that. It's cursed. Absolutely cursed. You idiot. Don't you know where that creature is? Even dead. Don't go near it, fool.
-> I smell wizard. The other one's like, 'Smells like pee.'
-> Better check your diaper then.
-> Blacksmith, aren't you?
-> Are you going to finish that?
+> That sword's so edgy you might get cut just looking at it.
+> That's the whole country of Nadal is just very edgy.
+> Namast got a [ __ ] lightsaber. He's done sword shopping forever.
+> I I am pushing it with the with the lightsaber because it is is a shortsord lightsaber and Toby's being uh cupcake GM as usual.
+> Do you want a plus4 Keen Impact long sword? Not too big. I'm a knife guy.
 > TRAITOR!
+> I smell wizard.
+> Smells like pee.
+> These are the ones who'll be doing the the spellcasting.
 > This is [ __ ] I didn't sign up for this.
+> Are you going to finish that?
+> Good strike, my lord. These are not ours.
 > This wasn't us. This was not We were up to no good, but this weren't it.
-> I definitely probably should have just had her teleport out, but she's at this point more curious than scared.
+> You think I want to get burrowed by bees?
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Possible connection between the bracer Nomkath stole and the robot attacks - the cursed item may have broadcast the party's location to Unity
-- Exact nature and origin of the mysterious bracer with scrolling symbols remains unknown - could be a tracking device, divination tool, or something else entirely
-- Whether Zernabith's transformation into a silver dragon indicates she intends to fight alongside the party or simply protect herself
-- The exact targeting pattern of the rail guns - Mr Brow and Nomkath believe they're being specifically targeted, possibly because of Casandalee's presence in Nomkath's backpack or due to the stolen bracer
+- Whether the cursed bracer that Nomkath stole is actually the source of the robot targeting, or if it was purely Casandalee's presence
+- The exact reason Unity launched this coordinated attack at this specific moment
+- Whether there was a traitor/informant in the party's planning of Operation Healburger
+- What the Black Sovereign's reaction to Zernabith's apparent betrayal (keeping him drugged) will be once the fighting ends
+- Whether Tekhmakool and other palace residents will survive the robot assault
+- The full capabilities and number of robots still attacking the palace
 

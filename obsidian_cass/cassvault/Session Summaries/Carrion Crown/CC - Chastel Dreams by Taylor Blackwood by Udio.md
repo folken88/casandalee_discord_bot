@@ -5,8 +5,8 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "dO7XvrwHrcg"
 sourceFile: "CC - dO7XvrwHrcg - Chastel Dreams by Taylor Blackwood by Udio.md"
-processedAt: "2026-03-25T01:43:06.820Z"
-transcriptQuality: "poor — This is not a game session transcript at all. It appears to be song lyrics or a musical composition. There is no dialogue, narration, character actions, or game mechanics present. The auto-caption has produced a document that is entirely unsuitable for extracting RPG session events."
+processedAt: "2026-03-25T17:33:38.725Z"
+transcriptQuality: "poor"
 charactersPresent: []
 tags: ["summary", "cc", "session"]
 ---
@@ -14,14 +14,17 @@ tags: ["summary", "cc", "session"]
 # Chastel Dreams by Taylor Blackwood by Udio
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=dO7XvrwHrcg)
-**Transcript Quality:** poor — This is not a game session transcript at all. It appears to be song lyrics or a musical composition. There is no dialogue, narration, character actions, or game mechanics present. The auto-caption has produced a document that is entirely unsuitable for extracting RPG session events.
+**Transcript Quality:** poor
 **Characters Present:** unknown
 
 ## Summary
 
-This transcript appears to be primarily a musical composition or song, not a tabletop RPG session. The content consists of lyrics about Chastel, Old Town, rivers, memories, and lost love, with no discernible game mechanics, character actions, dice rolls, or NPC interactions recorded.
+Transcript quality was poor. The session appears to be primarily a musical interlude or intro sequence set in Chastel with lyrical content about memories and lost dreams in the town. No clear gameplay events, character actions, or combat encounters could be reliably extracted from the audio.
 
 
+## NPCs Encountered
+
+- [[Taylor Blackwood]]
 
 ## Locations
 
@@ -32,13 +35,15 @@ This transcript appears to be primarily a musical composition or song, not a tab
 ## Notable Quotes
 
 > chased Old Town by the River
-> Sound where the waters flow but heart stay still in a place we know where dreams grow slow
+> where the waters flow but heart stay
+> still in a place we know where dreams grow slow
 > I can feel the love lost in the breeze in ch Town
-> town where memories drown in the rivers all they come and go we used to dream but now it seems the love we had is drifting down street
+> Town where memories drown in the rivers all they come and go
+> we used to dream but now it seems the love we had is drifting down street
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- The title and lyrical content reference 'Taylor Blackwood' and 'Chastel,' which appear in the verified timeline (4717.04.06: Meyanda visits Chastel and meets Taylor and Arnaud Blackwood), but this transcript contains no session content that can be correlated with that event or any other canonical event.
+- The transcript may contain references to Chastel and possibly Taylor Blackwood, but the content is primarily musical/lyrical rather than gameplay narration. It is unclear if this represents actual session content or is an intro/outro sequence.
 

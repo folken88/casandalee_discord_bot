@@ -1,19 +1,25 @@
 ---
 name: "Bujon"
-type: pc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["SS", "HR"]
-mentions: 34
-tags: ["character", "pc", "ss", "hr"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:31:45.764Z"
 ---
 
 # Bujon
 
-**Type:** Player Character
-**Campaigns:** SS, HR
-**Mentions:** 34 session(s)
-
+**Race:** Unknown | **Class:** Unknown
 
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Referenced in conversation about his name, has mirror images active; Hits opponent for 23 damage with fire spell, dealing 39 fire damage total; opponent still stands *(youtube-transcript, 3/25/2026)*
+- Player (graham) is controlling Bujon in combat, using jolt attack and throwing an axe as a distraction tactic *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

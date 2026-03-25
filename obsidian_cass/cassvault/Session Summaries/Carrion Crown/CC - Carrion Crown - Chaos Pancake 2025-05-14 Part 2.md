@@ -5,9 +5,9 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "dRF7uNHlQUk"
 sourceFile: "CC - dRF7uNHlQUk - Carrion Crown - Chaos Pancake 2025 05 14 Part-2.md"
-processedAt: "2026-03-25T01:43:48.305Z"
+processedAt: "2026-03-25T17:34:28.857Z"
 transcriptQuality: "poor"
-charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
+charactersPresent: ["Gaspar", "Kate Blackwood", "Kovira", "Elfrip", "Dinvaya", "Kai", "Rodney Danger Smith", "Dismas"]
 tags: ["summary", "cc", "session"]
 ---
 
@@ -15,74 +15,83 @@ tags: ["summary", "cc", "session"]
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=dRF7uNHlQUk)
 **Transcript Quality:** poor
-**Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
+**Characters Present:** Gaspar, Kate Blackwood, Kovira, Elfrip, Dinvaya, Kai, Rodney Danger Smith, Dismas
 
 ## Summary
 
-CP-USS battles a series of creatures in what appears to be an underground facility in Carrion Hill, including gale wardens and chaos beasts. During the combat, they discover and acquire the Black Mallcodex, a dangerous summoning grimoire left behind by Keeper Grove. After defeating Grove, they discover he created a pocket dimension using the Black Mallcodex that remains open and inhabited by unknown entities.
+CP-USS battles multiple aberrations and keepers in Carrion Hill, including a chaos beast and a multi-classed spellcaster (Keeper Grove). During the fight, they discover the Black Mallcodex, a dangerous summoning grimoire, and uncover that Keeper Grove opened a dimensional portal using the book. The party must decide how to handle both the artifact and the portal.
 
 ## Key Events
 
-- CP-USS engages in combat against multiple gale wardens (lobotomized humanoids) in an underground jail/dungeon complex.
-  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
-  - Location: Carrion Hill (underground facility/jail)
-  - Timeline: 4717.04.27 - CP-USS battles in jail underneath Crow-Barracks
-- Keeper Grove (final enemy) casts multiple spells including cloud kill and attempts plane shift. He is killed by a sneak attack that causes his body to erupt in a geyser of purple blood, filling the room.
-  - Characters: Gaspar, Dinvaya, Elfrip
-  - Location: Carrion Hill (underground facility)
-  - Timeline: 4717.04.27 - Keeper Grove confronted in jail and killed
-- A chaos beast emerges from Keeper Grove's body after his death, described as a creature with tentacles and an armored face that fills the cavern.
-  - Characters: Gaspar, Dinvaya, Elfrip, Kate Blackwood
-  - Location: Carrion Hill (underground facility)
-  - Timeline: 4717.04.27 - Another Chaos-Beast revealed
-- CP-USS loots Keeper Grove's corpse and finds the Black Mallcodex, a dangerous summoning artifact that is self-aware, whispers constantly, and has a 25% chance of leaving a dimensional gate open when used to summon creatures.
+- CP-USS engages in combat with multiple gale wardens and chaos beast entities in what appears to be the Crow-Barracks jail area.
+  - Characters: Gaspar, Kate Blackwood, Kovira, Elfrip, Dinvaya, Kai, Rodney Danger Smith, Dismas
+  - Location: Carrion Hill - Crow-Barracks (underground jail)
+  - Timeline: 4717.04.27 | Carrion Hill | Keeper Grove confronted in the Jail underneath Crow-Barracks
+- Keeper Grove is killed in combat. His body erupts into a geyser of purple blood and viscera when struck by a magical attack.
+  - Characters: Gaspar, Keeper Grove
+  - Location: Carrion Hill - Crow-Barracks jail
+  - Timeline: 4717.04.27 | Carrion Hill | Keeper Grove confronted in the Jail underneath Crow-Barracks and he is killed, another Chaos-Beast revealed.
+- A second chaos beast erupts from Keeper Grove's corpse and fills the room with its form. It has tentacles and adjusts its shape to fit the cavern.
+  - Characters: Gaspar, Kate Blackwood, Kovira, Elfrip, Dinvaya, Kai, Rodney Danger Smith, Dismas
+  - Location: Carrion Hill - Crow-Barracks jail
+  - Timeline: 4717.04.27 | Carrion Hill | another Chaos-Beast revealed
+- CP-USS discovers the Black Mallcodex (Black M'Codex), a summoning grimoire described as an artifact of unimaginable power with a 25% chance of leaving a dimensional gate open (1d4 rounds) when summoning creatures. The book whispers, has a personality, and imposes wisdom-draining effects on readers.
   - Characters: Kate Blackwood
-  - Location: Carrion Hill (Keeper Grove's office/library)
-- A knowledge arcana check reveals that Keeper Grove opened a pocket dimension using the Black Mallcodex. The portal remains open and active in a cell, and there is no way to close it from the material plane side. The dimension is inhabited and its inhabitants are now aware of CP-USS's presence.
-  - Characters: Kovira, Kate Blackwood
-  - Location: Carrion Hill (southeastern most cell)
-- The gale wardens (now conscious) form a line and turn to face south, apparently responding to stimuli or commands. CP-USS considers leaving them to guard the dimensional portal entrance. *(medium confidence)*
-  - Characters: Gaspar, Kate Blackwood
-  - Location: Carrion Hill (underground facility hallway)
+  - Location: Carrion Hill - Crow-Barracks (Keeper Grove's office/area)
+- Keeper Grove used the Black Mallcodex to open a pocket dimensional portal in one of the cells. The portal is sustained and cannot be closed from the material plane side. Things inside the portal are now alerted to the party's presence and are buffing.
+  - Characters: Keeper Grove, Gaspar, Kate Blackwood, Kovira, Elfrip, Dinvaya, Kai
+  - Location: Carrion Hill - Crow-Barracks jail (southeastern most cell)
+- CP-USS finds another Amulet of the Keeper on Keeper Grove's corpse, along with a cloak of resistance and a wing of protection +2.
+  - Characters: Kovira
+  - Location: Carrion Hill - Crow-Barracks jail
+- The gale wardens (lobotomized prisoners) in the area stand down after the keepers are defeated. They appear to have been magically compelled to serve.
+  - Characters: Gaspar, Kate Blackwood, Kovira, Elfrip, Dinvaya, Kai, Rodney Danger Smith, Dismas
+  - Location: Carrion Hill - Crow-Barracks
 
 ## NPCs Encountered
 
 - [[Keeper Grove]]
 - [[Elodie]]
-- [[Rissa]]
+- [[Gale wardens (lobotomized prisoners)]]
 
 ## Locations
 
 - [[Carrion Hill]]
-- [[Underground facility/jail complex (beneath Crow-Barracks)]]
+- [[Crow-Barracks]]
+- [[Underground jail beneath Crow-Barracks]]
 
 ## Combat Encounters
 
-- Multiple gale wardens (lobotomized humanoids) in underground facility
-- Keeper Grove (multi-class spellcaster/divine caster) - killed by sneak attack
-- Chaos Beast emerging from Keeper Grove's corpse
+- Battle against gale wardens and first chaos beast in the jail area
+- Confrontation with Keeper Grove (multi-classed spellcaster/thurge)
+- Combat with second chaos beast that emerges from Keeper Grove's corpse
 
 ## Items & Loot
 
-- Black Mallcodex (summoning grimoire artifact) - dangerous, self-aware, whispers constantly
-- Amulet of the Keeper (multiple found)
+- Black Mallcodex (Black M'Codex) - dangerous summoning grimoire artifact
+- Amulet of the Keeper
 - Cloak of Resistance
 - Wing of Protection +2
+- A strange book from Keeper Grove's library/office
 
 ## Notable Quotes
 
 > I'm going to lick your skin off.
-> We're all going to be fired as we kill a bunch of cos.
-> This town sucks. This town is giving us every reason to blow it up.
+> Mr. Gaspar, why you smell like rotten eggs? You farting over there?
+> Chaos pancakes. Chaos pancakes.
+> This is like a [ __ ] Billy Mays ad. It's like Billy Mays here. Put out a little mystery.
+> This is like a [ __ ] ICBM. This is like a dirty bomb.
 > Goodbye, suckers.
 > We got to go in the goop hole.
+> There are three keepers of Carrion Hill.
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Possible connection to three keepers of Carrion Hill mentioned at the end - unclear if this refers to NPCs or locations yet to be discovered
-- The nature and contents of the pocket dimension remain unknown
-- Unclear if all gale wardens encountered were originally residents of Carrion Hill or victims brought from elsewhere
-- A stone statue mentioned ('Greg') remains in the dungeon awaiting potential stone-to-flesh resurrection
+- Whether the chaos beast was fully defeated or if combat continued (transcript becomes increasingly garbled in this section)
+- The exact contents or nature of the 'strange book' found in Keeper Grove's office before discovering it was the Black Mallcodex
+- Whether Elfrip actually touched the dimensional portal and what happened as a result (transcript is heavily corrupted here)
+- The identity of 'Greg' - a statue found earlier that was supposedly to be turned to flesh (players discuss this but it's unclear if this happened in this session or previously)
+- Whether CP-USS ultimately enters the dimensional portal or seals/guards it
 

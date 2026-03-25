@@ -1,19 +1,22 @@
 ---
 name: "Sarah"
-type: pc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["SS"]
-mentions: 2
-tags: ["character", "pc", "ss"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T15:11:04.630Z"
 ---
 
 # Sarah
 
-**Type:** Player Character
-**Campaigns:** SS
-**Mentions:** 2 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Can cast resist heat/resist energy spells to help protect party members from volcanic damage *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

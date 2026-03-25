@@ -5,101 +5,85 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "NFtX2IgkqMY"
 sourceFile: "CC - NFtX2IgkqMY - Carrion Crown - Working Vacation 2022 04 10.md"
-processedAt: "2026-03-25T01:32:05.819Z"
-transcriptQuality: "fair"
-charactersPresent: ["Gaspar", "Kovira", "Dismas", "Dinvaya", "Elfrip", "Denver", "Taz"]
+processedAt: "2026-03-25T17:22:44.742Z"
+transcriptQuality: "poor"
+charactersPresent: ["Gaspar", "Kovira", "Dinvaya", "Dismas", "Josh's character (unnamed angel/paladin)", "Emmanuel's character (Taz - monk)"]
 tags: ["summary", "cc", "session"]
 ---
 
 # Carrion Crown - Working Vacation 2022 04 10
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=NFtX2IgkqMY)
-**Transcript Quality:** fair
-**Characters Present:** Gaspar, Kovira, Dismas, Dinvaya, Elfrip, Denver, Taz
+**Transcript Quality:** poor
+**Characters Present:** Gaspar, Kovira, Dinvaya, Dismas, Josh's character (unnamed angel/paladin), Emmanuel's character (Taz - monk)
 
 ## Summary
 
-CP-USS completes the skeletal champion threat at Farrah's family mausoleum by destroying the undead creature and sanctifying its remains. They then meet with Judge Darymid, who secretly recruits them for a dangerous mission to Ravengro to investigate the death of Professor Petros Lorrimor and recover stolen magical artifacts. After traveling via magical portal to Vigil Keep (a fortress guarding the imprisoned Whispering Tyrant), they are guided through a horrifying wall of undead and sent toward Ravengro, where they encounter bandits on the road.
+CP-USS defeats a skeletal champion haunting a mausoleum in Lepidstadt, then receives a covert assignment from Judge Darymid to travel to Ravengro to recover magical artifacts belonging to the deceased Professor Petros Lorrimor and investigate his death. The party is transported via portal to Vigil Keep, where they encounter celestial guardians and learn of the hordes of undead surrounding the Whispering Tyrant's fortress. They depart on the road toward Ravengro and encounter bandits at a crossroads. Transcript quality was poor with frequent audio artifacts and truncation.
 
 ## Key Events
 
-- CP-USS defeats the skeletal champion (Farrah's grandfather) in the mausoleum after it rises from dormancy. The creature is destroyed through a combination of positive energy channeling and direct attacks, then sanctified with a scroll of sanctify corpse.
+- CP-USS kills the skeletal champion (grandpa) in the mausoleum after it rises from rest and attacks. The creature is destroyed by combined attacks and then sanctified via scroll of sanctify corpse.
   - Characters: Gaspar, Kovira, Dinvaya, Dismas
-  - Location: Ravengro (Farrah's family mausoleum)
-- Farrah is placed in the care of the Temple of Pharasma (Church of Pharasma) as a student/acolyte, separating her from the undead creature.
-  - Characters: Farrah Richton, Kovira, Dismas
-  - Location: Lepidstadt (Temple of Pharasma)
-- Judge Darymid recruits CP-USS in a sealed, scry-proof room for a covert mission. She reveals that Professor Petros Lorrimor (a deceased scholar and member of a secret order) died in Ravengro, and dangerous magical artifacts he was studying have been stolen or triggered by his death. She contracts them to investigate his death, recover the artifacts, and protect his daughter Kendra.
-  - Characters: Judge Embreth Darymid, Gaspar, Kovira, Dismas, Dinvaya
-  - Location: Lepidstadt (Police Precinct, holding cell 5)
-- CP-USS is transported via magical portal by the mysterious figure 'Trust' to Vigil Keep, an ancient fortress built to contain the imprisoned Whispering Tyrant. The cost of transport is 2500 gold.
-  - Characters: Gaspar, Kovira, Dismas, Dinvaya, Elfrip
-  - Location: Lepidstadt (Lepidstadt University, Arcane Knowledge Tower) to Vigil Keep
-- At Vigil Keep, CP-USS meets with a high-ranking Paladin of Iomedae and learns about the wall of undead surrounding the fortress—creatures called to Gallosspire in their hundreds or thousands by the Whispering Tyrant's subconscious influence while it sleeps.
-  - Characters: CP-USS party, High-ranking Paladin NPC
+  - Location: Lepidstadt - Mausoleum
+  - Timeline: 4717.04.10 - Session date correlates with timeline events
+- Judge Darymid meets CP-USS in a magically sealed room and reveals she belongs to a secret order. She hires them for a covert month-long mission to recover magical artifacts from Professor Petros Lorrimor's home in Ravengro and investigate his death.
+  - Characters: Gaspar, Kovira, Dinvaya, Dismas, Judge Darymid
+  - Location: Lepidstadt - Police Precinct (secure room)
+- CP-USS is transported via portal to Vigil Keep, a fortress built to contain the Whispering Tyrant. They witness thousands of undead circling the fortress, drawn by the sleeping tyrant's unconscious call.
+  - Characters: Gaspar, Kovira, Dinvaya, Dismas, Josh's character, Emmanuel's character
   - Location: Vigil Keep
-- Gabriel (an 18th-level Aasimar Deva angel) guides CP-USS through the wall of undead on the path away from Vigil Keep toward Ravengro. The party camps safely one night and then encounters bandits on the road at a crossroads.
-  - Characters: CP-USS party, Gabriel (Aasimar Deva guide)
-  - Location: Road between Vigil Keep and Ravengro
-- Combat breaks out on the road when bandits ambush CP-USS. Taz (the newly recruited monk) parkours up a cliff and punches one bandit. Combat is ongoing at transcript end.
-  - Characters: CP-USS party, Bandits
-  - Location: Road in Ustalav (between Vigil Keep and Ravengro)
+- An azimar named Gabriel (described as an 18th level mulvanic deva) guides CP-USS through the wall of undead surrounding Gallowspire and points them toward the road to Ravengro.
+  - Characters: Gaspar, Kovira, Dinvaya, Dismas, Josh's character, Emmanuel's character, Gabriel
+  - Location: Outside Vigil Keep
+- CP-USS encounters bandits at a crossroads. Combat initiates with arrows fired from concealed positions on a cliff. At least one bandit is shot and killed.
+  - Characters: Gaspar, Kovira, Dinvaya, Dismas, Josh's character, Emmanuel's character
+  - Location: Crossroads on the road to Ravengro
 
 ## NPCs Encountered
 
-- [[Judge Embreth Darymid]]
-- [[Farrah Richton]]
+- [[Judge Darymid]]
 - [[Trust (portal mage)]]
-- [[Magistrate Rawls]]
-- [[High-ranking Paladin of Iomedae]]
-- [[Gabriel (Aasimar Deva)]]
-- [[Caleb (high-level wizard at Vigil Keep, cameo from another campaign)]]
-- [[Ives (knowledgeable NPC at precinct)]]
-- [[Various bandits on the road]]
+- [[Gabriel (azimar celestial)]]
+- [[Bandits (unnamed)]]
 
 ## Locations
 
-- [[Farrah's mausoleum (Ravengro area)]]
-- [[Temple of Pharasma (Lepidstadt)]]
-- [[Lepidstadt Police Precinct (cell 5, sealed room)]]
-- [[Lepidstadt University (Arcane Knowledge Tower)]]
-- [[Vigil Keep (fortress containing the Whispering Tyrant)]]
-- [[Wall of undead around Gallosspire]]
-- [[Road toward Ravengro]]
+- [[Lepidstadt - Mausoleum]]
+- [[Lepidstadt - Police Precinct]]
+- [[Lepidstadt - University (Arcane Knowledge Tower)]]
+- [[Vigil Keep]]
+- [[Road to Ravengro]]
+- [[Crossroads]]
 
 ## Combat Encounters
 
-- Skeletal Champion (Farrah's grandfather) - defeated via channeled positive energy, attacks, and sanctification
-- Bandits on the road - ongoing combat with archers in cover on a cliff
+- Skeletal champion in mausoleum - defeated with combined melee and ranged attacks, then sanctified
+- Bandits at crossroads - ongoing combat with archers in concealed positions on cliff
 
 ## Items & Loot
 
-- Scroll of Sanctify Corpse (purchased)
-- Scroll of Remove Fear (purchased)
-- Scroll of Remove Sickness (purchased)
-- Folding ladder (retrieved from precinct)
-- Grappling hook and rope (from handy haversack)
+- Scroll of Remove Fear
+- Scroll of Remove Sickness
+- Shuriken (non-masterwork)
+- Folding ladder
 
 ## Notable Quotes
 
-> you guys are hanging out at the precinct when judge ambroth daramid your friend your sponsor the person who hired you shows up and looks very distressed
-> i detect evil at will constantly okay
-> i have a job for you it is far away dangerous but will pay you well and it's very important to me personally and to lebstod and ustelov
-> this is a job that is far away dangerous but will pay you well
-> do any of you know a man named petrus lorimer used to teach at the university here
-> the professor borrowed from our store of captured items and artifacts several items to study in his retirement home of raven grove and these items have a sort of gayest a sort of trip magical tripwire on them
-> she opens the outer gate porculus into the outer path and you step outside and see more guards and it gets very much colder out here
-> they are attracted by the tyrant spring tyrant whenever spring tyrants lives up in that fortress
-> be safe you you seem good whole souls to me but not strong enough to return this way not yet
-> that's far enough hand over all your money your gear and you can live
-> we don't have any money and our gear sucks
+> all right just note that at will detect evil does still involve verbal and semantic components you are holding up your holy symbol pointing and saying aloud detect evil
+> i wish i could have changed the verbal and somatic component of my paladin's detect evil 2. every time i cast it i have to flip over a table and scream at people
+> listen men i need barrels of oil i need holy water i hate men with fat dicks and maces turn all that up for me
+> operation beat him to death is a go
+> this is a guy with pants he's jacked as hell
+> she says i have a job for you it is far away dangerous but will pay you well and it's very important to me personally and to lebstod and ustelov
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Exact relationship between the skeletal champion and Farrah's family—appears to be cursed/bound to protect family but full details unclear
-- Specific nature of the magical artifacts stolen from Professor Lorrimor—described only as 'books' but the judge doesn't know which ones
-- Whether the bandits on the road are random encounters or part of a larger threat
-- Josh and Emmanuel's internet connectivity issues occurred multiple times during the session; unclear if they logged back in properly by the end
+- Farrah's exact emotional state or long-term plans after being left at the temple of Pharasma
+- The full identity and capabilities of the mysterious woman 'Trust' who operates the portals
+- How many bandits are actually present at the crossroads encounter (combat is still ongoing at transcript end)
+- Details about the nature of the magical artifacts Professor Lorrimor possessed and why they are important
+- Josh and Emmanuel's internet connectivity issues - unclear if they were able to fully participate in the later combat
 

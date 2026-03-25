@@ -5,7 +5,7 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "u-vZAa_pESk"
 sourceFile: "CC - u-vZAa_pESk - Brian Where.md"
-processedAt: "2026-03-25T01:52:48.458Z"
+processedAt: "2026-03-25T17:42:57.638Z"
 transcriptQuality: "poor"
 charactersPresent: []
 tags: ["summary", "cc", "session"]
@@ -19,7 +19,7 @@ tags: ["summary", "cc", "session"]
 
 ## Summary
 
-This transcript appears to be primarily a musical intro/outro sequence with lyrics about loss and memories at Ascanor Lodge. No actual gameplay or narrative content could be reliably extracted from the auto-generated captions.
+Transcript quality was poor. The entire transcript appears to be song lyrics with no intelligible dialogue or game narration. No verifiable game events could be extracted.
 
 
 
@@ -31,12 +31,15 @@ This transcript appears to be primarily a musical intro/outro sequence with lyri
 
 ## Notable Quotes
 
-> Brian where did you go in the heart of Ascanor Lodge
-> Ascanor Lodge still stands tall but the warmth you brought has fled
+> all the love that slipped away
+> Brian and asking her Lodge memories fade in the rooms where we stayed
+> ran where did you go in the heart of as LOD our love used to Glow
+> ryan where did you go in the shadow of as large
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- The lyrics reference 'Brian' and Ascanor Lodge repeatedly, which may relate to a character or NPC named Brian (possibly 'Bry'/'Brigh' but context unclear). The song's emotional tone suggests a significant loss or departure related to this location.
+- The song references 'Ascanor Lodge' and names that sound like 'Brian' and 'Ryan' but no clear connection to game events could be established
+- Unclear if this is an intentional in-game song, a session intro, or a transcription error
 

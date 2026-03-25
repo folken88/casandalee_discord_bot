@@ -1,19 +1,22 @@
 ---
 name: "Ser-Toche"
-type: pc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["SS"]
-mentions: 32
-tags: ["character", "pc", "ss"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:51:21.796Z"
 ---
 
 # Ser-Toche
 
-**Type:** Player Character
-**Campaigns:** SS
-**Mentions:** 32 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Monk character attempting to convince Queen Blossom to surrender. Uses flurry of blows to disarm her, knock her spear away, and catch it. Demonstrates impressive AC and combat prowess.; Charges into combat against the bugs, very effective in the last two rounds despite goofing off earlier. Burns resist energy communal spell. *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

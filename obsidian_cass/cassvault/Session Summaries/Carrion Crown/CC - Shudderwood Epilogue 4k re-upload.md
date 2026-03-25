@@ -5,7 +5,7 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "gHYd-YURX7s"
 sourceFile: "CC - gHYd-YURX7s - Shudderwood Epilogue 4k re-upload.md"
-processedAt: "2026-03-25T01:45:01.165Z"
+processedAt: "2026-03-25T17:35:36.862Z"
 transcriptQuality: "poor"
 charactersPresent: []
 tags: ["summary", "cc", "session"]
@@ -19,12 +19,21 @@ tags: ["summary", "cc", "session"]
 
 ## Summary
 
-Unable to extract session content. The transcript appears to contain only a musical piece or intro sequence with no discernible gameplay, dialogue, or narrative content related to the Carrion Crown campaign.
+Transcript quality was poor. The provided audio appears to be entirely musical content with no discernible tabletop RPG dialogue, gameplay, or character interaction.
 
 
 
 
 
 
+## Notable Quotes
 
+> I am lost in a rainbow now
+> rainbow is gone
+
+## Uncertain Events
+
+*These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
+
+- The entire transcript may be intro/outro music or an audio encoding error. No game content is audible.
 

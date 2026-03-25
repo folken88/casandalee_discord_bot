@@ -5,9 +5,9 @@ campaign: "IG"
 campaignName: "Iron Gods"
 videoId: "H8JeHHekNO4"
 sourceFile: "IG - H8JeHHekNO4 - Iron Gods - Back On Our Bullshit - 2022 01 20.md"
-processedAt: "2026-03-25T02:09:37.691Z"
+processedAt: "2026-03-25T17:59:59.274Z"
 transcriptQuality: "fair"
-charactersPresent: ["Ulfred", "Nomkath", "Mr Brow", "Olbryn", "Akradenn", "Luna"]
+charactersPresent: ["Ulfred", "Nomkath", "Mr Brow", "Olbryn", "Akradenn", "Luna", "Meyanda"]
 tags: ["summary", "ig", "session"]
 ---
 
@@ -15,39 +15,27 @@ tags: ["summary", "ig", "session"]
 
 **Campaign:** Iron Gods | **Video:** [Watch on YouTube](https://youtube.com/watch?v=H8JeHHekNO4)
 **Transcript Quality:** fair
-**Characters Present:** Ulfred, Nomkath, Mr Brow, Olbryn, Akradenn, Luna
+**Characters Present:** Ulfred, Nomkath, Mr Brow, Olbryn, Akradenn, Luna, Meyanda
 
 ## Summary
 
-The party returns to Torch after destroying the Choking Tower, spending time shopping and settling affairs. They depart Torch heading west toward the Scar of the Spider, following Casandalee's datapad coordinates. During their journey, they discover an abandoned and destroyed campsite showing evidence of a massive insectoid or robotic creature—possibly a giant mechanical spider-like entity similar to Hellion. The party investigates the scene, finding warrior corpses and evidence of laser weapons.
+The party returns to Torch after destroying the Choking Tower, settling affairs and equipping for travel west. They journey toward Kura Town en route to the Scar of the Spider, discovering an abandoned campsite with warrior corpses killed by what appears to be a massive metallic insectoid creature using laser weapons. Transcript quality was poor with significant audio degradation in final segments.
 
 ## Key Events
 
-- Party arrives in Torch after Choking Tower campaign and conducts shopping and resupply at Yadenveigh and Torch. Azers are gifted magical armor modifications; magic cooking equipment is handed to Reginald; multiple wands and supplies are purchased.
-  - Characters: Ulfred, Nomkath, Mr Brow, Olbryn, Akradenn, Luna
-  - Location: Torch, Yadenveigh
-  - Timeline: 4717.01.02 - IG Party returns to Torch to 'vacation'
-- Meyanda is encountered in armor with a pistol, having distinguished herself in service to the city. Connor mentions a recent mercenary expedition to Aldronard's Grave that successfully retook it from a hostile tribe, with Saranrae dedication.
-  - Characters: Meyanda, Connor, Denver, Val
-  - Location: Torch, Foundry Tavern
-- Nomkath receives expertly crafted armor from the Azers and Alfred that provides silent movement, reflective properties, and optimal protection. The craftsmanship is exceptional (natural 20 rolled).
-  - Characters: Nomkath, Ulfred, Azers
-  - Location: Torch, Denver's Forge
-- Luna (Croctaw) visits the underground habitat beneath Torch and discovers the remains of Cassathan (her people) who were subjected to undeath for thousands of years. She recognizes tribal leader Hetweth's corpse and consumes ritual flesh, experiencing a vision of his imprisonment.
-  - Characters: Luna, Nomkath
-  - Location: Torch Underground Habitat
-- Party departs Torch with newly purchased horses (unnamed, not to be named due to likely danger ahead) heading west toward Scar of the Spider via Lockstar Hotel and Kura Town.
-  - Characters: Ulfred, Nomkath, Mr Brow, Olbryn, Akradenn, Luna
-  - Location: Torch to Lockstar Hotel
-- During second watch, Nomkath and Ulfred both experience an unexplained shiver/sense of dread. Nomkath detects distant smoke on the wind from the west but cannot determine proximity. The feeling is instinctive rather than rational.
-  - Characters: Nomkath, Ulfred
-  - Location: Camp west of Lockstar Hotel
-- Luna (flying as a bird scout) discovers an abandoned and destroyed campsite in a nearby gulch showing evidence of a massive creature attack. Six warrior corpses (one burned with its skull opened and brain removed), a dead horse, shattered weapons, scattered gold, and laser blast marks are found. Puncture marks in the ground suggest legs the size of buildings.
+- Party returns to Torch and settles various affairs including giving magical cookware to Reginald to recreate soups, meeting with the reformed android Meyanda, and taking Kroktah to the underground habitat beneath Torch where Cassandra Lee's people once lived.
+  - Characters: Ulfred, Nomkath, Mr Brow, Olbryn, Akradenn, Luna, Meyanda
+  - Location: Torch
+  - Timeline: 4717.01.02 | Torch - IG Party returns to Torch to vacation
+- Kroktah discovers skeletons of her own species (Cassathans) in the underground habitat, learns the facility has existed for thousands of years, and realizes her entire civilization may be extinct due to the long passage of time.
   - Characters: Luna
-  - Location: Gulch near the main road west of Lockstar Hotel
-- Party investigates the destroyed campsite. Akradenn identifies laser weapon damage and high-intensity energy marks. Nomkath uses survival skills to determine a giant spider-like or insectoid creature (possibly metallic/robotic, similar to Hellion) with smooth blade-like legs measuring approximately 8 inches in diameter attacked the camp. The creature moved north-northwest from the site.
-  - Characters: Nomkath, Akradenn, Luna, Ulfred
-  - Location: Destroyed campsite in gulch
+  - Location: Underground Habitat beneath Torch
+- Party acquires horses and departs Torch toward Kura Town with the wagon left behind at their mansion. They encounter an abandoned campsite containing the bodies of six warriors killed by a massive insectoid creature using laser weapons.
+  - Characters: Ulfred, Nomkath, Mr Brow, Olbryn, Akradenn, Luna
+  - Location: Kura Town region / Road west of Lockstar Hotel
+- During second watch, Nomkath and Ulfred both experience an uncanny feeling and smell distant smoke. Nomkath's commune with nature spell confirms people were nearby but are now gone. The next day, the scout discovers evidence of a massive metallic insectoid creature similar to Hellion that killed warriors at the campsite.
+  - Characters: Nomkath, Ulfred, Luna
+  - Location: Camp west of Lockstar Hotel / Abandoned campsite in gulch
 
 ## NPCs Encountered
 
@@ -55,61 +43,55 @@ The party returns to Torch after destroying the Choking Tower, spending time sho
 - [[Connor]]
 - [[Denver]]
 - [[Val]]
-- [[Tokala]]
-- [[Maginnis]]
-- [[Reginald]]
-- [[Azers]]
-- [[Long Dreamer]]
 - [[Red Fang]]
+- [[Reginald]]
+- [[Long Dreamer]]
+- [[Casandalee]]
 
 ## Locations
 
 - [[Torch]]
-- [[Yadenveigh]]
 - [[Foundry Tavern]]
-- [[Denver's Forge]]
-- [[Underground Habitat (beneath Torch)]]
+- [[Dogal's Cairn]]
+- [[Underground Habitat beneath Torch]]
+- [[Nexus Market / Yadenvale]]
 - [[Lockstar Hotel]]
-- [[Destroyed Campsite (in gulch near main road)]]
+- [[Abandoned campsite west of Lockstar]]
 
 
 ## Items & Loot
 
-- Wands of Infernal Healing (3)
-- Scroll of Raise Dead (from Erastil Temple)
-- Handy Haversack (from Community Hands shop)
-- Ring of Force Shield
+- Handy Haversack (4000 gold)
+- Ring of Force Shield (4250 gold)
+- Multiple Wands of Infernal Healing
+- Scroll of Raise Dead
+- Amulet of Natural Armor +4
 - Magic Cookware (given to Reginald)
-- Soup samples (Miso Beef Ramen, Tomato Bisque, Chicken Noodle, Mixed Vegetable)
-- Brow Brew
-- Nomkath's custom armor (enchanted by Azers)
-- Several hundred gold pieces (found at destroyed campsite)
-- Masterwork weapons (found at destroyed campsite, well-worn)
-- Hellion AI Inhibitor Facet (carried by party)
+- Brow Brew (soup samples)
+- Hellion Crystal/AI Inhibitor facet
+- Emergency Raft
+- 5 horses (light combat-trained)
+- Masterwork weapons at abandoned campsite
+- Several hundred gold at abandoned campsite
 
 ## Notable Quotes
 
-> quit laying around
-> he lives amongst the stars now
-> it was glorious dropped a building on his ass
-> by the way are they freaking out about our flame dwarves
-> where's your elf friend
-> he didn't make it
-> there's not enough left of him to bury we gave him a really big send-off
-> all right so i think it's been a while but i think last time main party was as they often are shopping
-> you must sit and tell me about it we're back in town for a few days and i have nothing to do
-> that's what the melee are for right
-> i guess she's all right
-> these will not survive do not name these horses
-> how could something that big just step on a horse without it getting out of the way and where the hell did it go
+> dropped a building on his ass
+> he lives amongst the stars now mcginnis says something like that like you see it's like twinkle in the sky
+> greased up and confused that's the way we like the barbarians
+> that's the gun that set me free
+> i never thought i'd be standing here side by side with you
+> the only one that even knows or cares that they even existed
+> this tech is poisoned to the soul this is what killed killed my tribe as far as i'm concerned
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Possible timeline of the destroyed campsite attack relative to when the party camped (Nomkath detected smoke/presence the night before discovering the camp the next day)
-- Identity of the six warriors killed in the destroyed campsite
-- Exact nature and origin of the giant mechanical/insectoid creature (confirmed similar to Hellion but potentially larger)
-- Whether the creature is still in the region or if it moved far away
-- Connection between the creature and the giant wasp attacks mentioned in Numerian folklore
+- The exact nature and origin of the massive metallic insectoid creature (possibly a giant scorpion robot similar to creatures mentioned in legend).
+- Whether the creature spotted near the abandoned campsite is still in the region or has moved on.
+- The identity and purpose of the six warriors killed at the campsite.
+- Whether the laser weapons used on the campsite bodies indicate the creature is an autonomous robot or piloted.
+- The connection between the smoke Nomkath smelled during watch and the abandoned campsite discovered the next day.
+- Whether the creature's ability to move silently despite its massive size indicates cloaking technology or other advanced capabilities.
 

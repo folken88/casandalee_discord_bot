@@ -5,7 +5,7 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "JXWeYcYQyXk"
 sourceFile: "CC - JXWeYcYQyXk - Teyanda Arms Company Spring Catalogue.md"
-processedAt: "2026-03-25T01:28:51.229Z"
+processedAt: "2026-03-25T17:19:33.501Z"
 transcriptQuality: "poor"
 charactersPresent: []
 tags: ["summary", "cc", "session"]
@@ -19,19 +19,16 @@ tags: ["summary", "cc", "session"]
 
 ## Summary
 
-This session appears to be an in-character advertisement or comedic interlude featuring a fictional arms company (Teyanda Arms Company) presenting new product offerings. The transcript consists almost entirely of what sounds like a parody commercial or catalog presentation for weapons or magical items, with no clear indication of actual tabletop gameplay or party interaction.
+transcript quality was poor. The session appears to be a comedic/promotional bit featuring fictional product advertisements for weapons called 'Haun Siphon' versions 4.0 and 5.0, attributed to 'TI Arms Company' (possibly 'Teyanda'). No actual gameplay events are clearly discernible from the audio.
 
 
-## NPCs Encountered
-
-- [[Gaspar (referenced as customer/spokesperson)]]
 
 
 
 ## Items & Loot
 
-- Haun Siphon 4.0 (incorporeal incendiary weapon)
-- Haun Siphon 5.0 (30% holier version, first quarter 4717 release)
+- Haun Siphon 4.0 (described as 'incorporeal incendiaries')
+- Haun Siphon 5.0 (described as '30% holier than thou')
 
 ## Notable Quotes
 
@@ -44,7 +41,6 @@ This session appears to be an in-character advertisement or comedic interlude fe
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Unclear if this was an actual session or a pre-recorded advertisement played as a joke/interlude
-- No clear indication of which players were present or what their characters were doing
-- Possible reference to Gaspar as a customer/company representative, but context is ambiguous
+- Possible reference to 'gasar' (likely Gaspar) as a customer or involved party, but context is too garbled to confirm
+- The entire session may be a comedic advertisement break or bonus content rather than actual gameplay
 

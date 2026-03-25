@@ -5,8 +5,8 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "k7UBhhEJ25A"
 sourceFile: "CC - k7UBhhEJ25A - Carrion Crown - My Sirona 2024 10 20.md"
-processedAt: "2026-03-25T01:47:37.886Z"
-transcriptQuality: "fair — The auto-caption transcript has numerous garbled words, incomplete sentences, and audio artifacts (echo issues, fan noise). Character actions and combat mechanics are generally clear, but NPC dialogue and some spell names are frequently misheard or misspelled. The session flow is understandable but requires context knowledge to parse some passages. Multiple technical interruptions (Foundry bugs, audio issues) interrupt narrative flow but are handled gracefully by the GM and players."
+processedAt: "2026-03-25T17:38:12.209Z"
+transcriptQuality: "poor"
 charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
 tags: ["summary", "cc", "session"]
 ---
@@ -14,93 +14,113 @@ tags: ["summary", "cc", "session"]
 # Carrion Crown - My Sirona 2024 10 20
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=k7UBhhEJ25A)
-**Transcript Quality:** fair — The auto-caption transcript has numerous garbled words, incomplete sentences, and audio artifacts (echo issues, fan noise). Character actions and combat mechanics are generally clear, but NPC dialogue and some spell names are frequently misheard or misspelled. The session flow is understandable but requires context knowledge to parse some passages. Multiple technical interruptions (Foundry bugs, audio issues) interrupt narrative flow but are handled gracefully by the GM and players.
+**Transcript Quality:** poor
 **Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
 
 ## Summary
 
-CP-USS infiltrates an island fortress controlled by the Whispering Way, discovering a mysterious vampire-creating entity and engaging in a massive battle within Northgarde Temple. After hiding in a cheese warehouse and ransacking a tinker shop, the party calls upon a resurrected Paladin (Dame Sirona, now a Deva) to aid them. The session culminates in a chaotic multi-front combat where Sirona tears through vampire forces while the party provides support, with significant complications including a hidden Rogue assassin and the appearance of a greater vampire threat.
+CP-USS arrived at an island fortress in what appears to be the final assault against the Whispering Way. After sneaking onto the island and hiding in a cheese warehouse, they prepared to aid a resurrected Paladin (Sirona, now a Deva of Sarenrae) who manifests at sundown to battle vampires. The party buffed up, gathered supplies from a tinkerer's shop, and engaged in a massive combat encounter in and around a temple, with the Paladin proving to be a formidable ally against the vampire forces. Transcript quality was poor with frequent audio issues and garbled speaker identification.
 
 ## Key Events
 
-- CP-USS hides in a collapsed warehouse on the island and captures a vampire, interrogating it via brain-baking to learn about the Paladin resurrection and daily attacks.
-  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
-  - Location: Island Fortress (Lower Town)
-- The party ransacks a tinker shop and acquires a Divine Precision scope with built-in true sight capability, which Dismas mounts on his sword (Radium).
-  - Characters: Dismas, Gaspar, Kai
-  - Location: Island Fortress (Tinker Shop)
-- At sunset, Dame Sirona (revealed to be a Deva of Saranrae) descends into the temple with massive AOE attacks, immediately killing multiple vampires with her mere presence and a devastating channel.
-  - Characters: All party members (witnessing)
-  - Location: Northgarde Temple
-  - Timeline: 4717.04.12 (Dame Sirona ascends as Deva; 4717.04.10 date is when she previously died)
-- Gaspar fires multiple grenades (including one 2,900 gold instant-death blast) into the vampire forces, obliterating large groups but wasting significant resources.
-  - Characters: Gaspar
-  - Location: Northgarde Temple (Exterior)
-- A high-level Rogue assassin (former North Guard Scout) emerges from hiding and critically wounds Kovira twice in succession, nearly killing her before magical intervention saves her.
+- CP-USS hides in a warehouse on the island after being detected; they successfully capture and interrogate a vampire captain using magic items and restraint techniques
+  - Characters: Kovira, Dismas, Dinvaya, Gaspar, Kate Blackwood
+  - Location: Island fortress, warehouse
+- The party raids a tinkerer's shop and acquires a high-tech scope with magical properties (true sight capability when charged with spell slots), firearms and ammunition, and other supplies
+  - Characters: Kovira, Kai, Gaspar, Kate Blackwood, Elfrip, Dismas
+  - Location: Tinkerer's shop in island town
+- At sundown, a resurrected Paladin (Sirona, now a Deva) manifests in the temple with fiery wings and holy power, immediately engaging vampires. The party observes her extraordinary combat prowess
+  - Characters: Sirona, Gaspar, Kovira, Kai, Dismas, Rodney Danger Smith, Kate Blackwood, Elfrip, Dinvaya
+  - Location: North Guard temple
+  - Timeline: 4717.04.12 | Ardeal | Dame Sirona dies in Northgarde. She ascends to become a Deva of Saranrae...
+- Major combat encounter in temple courtyard and interior: party uses fireballs, the Paladin uses channel energy and holy attacks, numerous vampires (citizens, soldiers, witchers, a rogue) are killed
+  - Characters: Sirona, Gaspar, Kovira, Kai, Dismas, Kate Blackwood, Elfrip, Dinvaya, Rodney Danger Smith
+  - Location: North Guard temple complex
+- A skilled vampire rogue appears and nearly kills Kovira with dual sneak attacks; Kovira is saved from unconsciousness by Kai using Paladin sacrifice; the rogue is later killed by Kai inside a force sphere
   - Characters: Kovira, Kai, Dismas
-  - Location: Northgarde Temple (Interior)
-- Elfrip casts Damnation Stride to teleport the party (himself, Denivaya, Kate, and Gaspar) into the heart of the temple battle to support Dame Sirona.
-  - Characters: Elfrip, Dinvaya, Kate Blackwood, Gaspar
-  - Location: Northgarde Temple (Central Chamber)
-- Kai casts Emergency Force Sphere to trap herself with a Rogue assassin and the Rogue inside, and uses Magic Missile to explosively destroy the Rogue while Kovira is trapped in the bubble.
-  - Characters: Kai, Kovira
-  - Location: Northgarde Temple (Central Chamber)
-- A greater vampire (possibly the progenitor type theorized in old texts) appears at the back of the temple, casts deep darkness, and either dimension doors or shifts to the Ethereal Plane to evade immediate combat.
-  - Characters: Dismas (perceives via true sight)
-  - Location: Northgarde Temple (Northwest/Back)
-- A high priest vampire (likely the former high priest of Northgarde, now undead) is confirmed casting blessing of fervor on vampire subordinates, buffing their combat effectiveness. *(medium confidence)*
-  - Characters: Dismas (perceives)
-  - Location: Northgarde Temple
+  - Location: Temple interior
+- Elfrip casts damnation stride to teleport himself, Gaspar, Kate Blackwood, and Dinvaya into the temple to aid Sirona; Dinvaya channels positive energy to heal and damage vampires
+  - Characters: Elfrip, Gaspar, Kate Blackwood, Dinvaya, Sirona
+  - Location: Temple interior
+- Dismas detects and reports a large dark entity (not a conventional vampire) appearing in/entering the temple via dimension door or the Ethereal realm; exact nature unclear but suspected to be a vampire progenitor
+  - Characters: Dismas
+  - Location: Temple interior, northwest section
 
 ## NPCs Encountered
 
-- [[Dame Sirona (Deva of Saranrae)]]
-- [[Various vampire spawn (Citizens/Soldiers/Sentinels/Witchers)]]
-- [[High Priest Vampire (identity unclear, casting blessings)]]
-- [[Greater Vampire (progenitor type, mysterious)]]
+- [[Sirona (Deva of Sarenrae)]]
+- [[Various vampire soldiers, witchers, rogues, and citizens]]
+- [[Vampire high priest/cleric of North Guard]]
+- [[Unidentified large dark entity]]
 
 ## Locations
 
-- [[Island Fortress (Lower Town)]]
-- [[Collapsed Warehouse]]
-- [[Tinker Shop]]
-- [[Saranite Temple (Small/Serenite Temple)]]
-- [[Northgarde Temple (Main/Central Chamber)]]
+- [[Island fortress]]
+- [[Warehouse (storage building)]]
+- [[Tinkerer's shop]]
+- [[Sarenrae temple (small)]]
+- [[Priest's house]]
+- [[North Guard temple (main temple complex)]]
+- [[Temple courtyard]]
+- [[Temple interior]]
 
 ## Combat Encounters
 
-- Island patrol vampires (passively observed, hide from Undead active)
-- Tinker shop assault (disabled trap, minor skirmish hinted)
-- Northgarde Temple exterior: Wave of vampire spawn from wall positions
-- Northgarde Temple interior: Multi-round melee involving dozens of vampires (Citizens, Soldiers, Sentinels, Witchers, Rogues), high priest vampire, and Dame Sirona
-- Rogue Assassin encounter: Critical strikes against Kovira and Kai
-- Greater Vampire appearance: Dimension door/Ethereal shift (combat not fully resolved)
+- Party hidden in warehouse; no active combat initially
+- Tinkerer's shop raid (no combat, traps encountered)
+- Major temple assault: ~40-50 vampires engaged in multiple waves including citizen vampires, soldiers in plate armor, witchers (vampire inquisitors), a skilled rogue with dual shortswords, and a vampire high priest/cleric
+- Kai vs vampire rogue (inside force sphere) — rogue nearly fatal, Kai uses magic missile for decisive kill
+- Sirona (Paladin/Deva) vs massed vampire forces — she uses channel energy, sword attacks, and appears to be extremely effective
 
 ## Items & Loot
 
-- Divine Precision Scope (4X scope with true sight activation, mounted on Dismas's sword Radium)
-- Pipe bombs (from tinker shop, quantity unspecified)
-- Buckshot (rifled ammunition)
-- White gold items (minor value, considered but mostly left)
-- Boiled corn and cheese wheels (warehouse supplies, comedic focus)
+- Scope with built-in capabilities (divine precision optic, true sight when charged with 4th level spell slot, see invisible when charged with 1st level spell slot, pinpoint accuracy, 1-6X zoom)
+- Ammunition (buckshot, mythril rounds, white gold materials)
+- Pipe bombs
+- Potions of cure light/cure serious wounds
+- Scroll of dimensional anchor
+- Scroll of spider climb (communal)
+- Scroll of darkvision (communal)
+- Wand of cure light wounds
+- Cheeses (significant quantities in warehouse)
+- Boiled corn (supply for siege preparation)
 
 ## Notable Quotes
 
+> recording is started prepare your butts ready
 > set let's kick some Fang ass
+> we Navy sealed onto the island we were sneaky until we got caught
+> thanks to den a bunch of fledgling [ __ ] right yeah we killed some higher caliber ones too
+> we dragged a vampire in here like the [ __ ] KGB disappearing a dissident
 > that's the first time in this game any game I've ever seen a vampire [ __ ] disappear by the CIA off the street
-> vampire taser vampire
-> I don't cotton into these country vampires [ __ ] boring parties
-> it's the most expensive one
-> I'm not locked in here with you I'm locked in here with a [ __ ] tling Bane crossbow bolt fired from a Blackwood crossbow
-> can't miss those blows her head off
+> Josh went ape [ __ ] Josh was [ __ ] 9k Pathfinder player last week he Zapped him with a wand of cure light so that he would be just under zero but not die
+> henceforth Josh's wand of cure light shall be known as uh vampire taser
+> I spy something with my little eye that starts with cheese
+> ain't nobody slepping
+> don't cotton into these country vampires [ __ ] boring parties
+> damn we can throw you in our trunk fast
+> I lived out of my own trunk for decades NBD
+> that escalated quickly
+> always does with us
+> can also move if you need to
+> she says that escalated quickly
+> oh my [ __ ] hell yeah
+> we adopt her
+> D rather no that was too much
+> there you are
+> call HR
+> Mommy needs a potion
+> I didn't know it was like this
+> it is now it this is how D and D goes the higher level you go the more the spellcasters is Tre
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- The exact identity and nature of the greater vampire (progenitor theory mentioned but unconfirmed)
-- Whether the high priest vampire is the same individual referenced in earlier plot hooks
-- The full extent of damage/casualties among vampire forces (numbers approximate)
-- Exact mechanics of how the greater vampire escaped (dimension door vs. Ethereal Plane shift)
-- Whether there are additional vampire forces beyond those engaged
+- Exact nature and power level of the large dark entity Dismas detected — theories suggest a vampire progenitor or creator, possibly extradimensional or ethereal
+- Whether the Paladin (Sirona) can be permanently recruited or if she is a temporary manifestation
+- The fate of the vampire high priest and whether additional high-level vampire casters remain in the fortress
+- Whether the party successfully defeated all vampire forces or if major threats remain
+- How Rodney Danger Smith's role in the combat was executed (limited clear audio of his actions in final rounds)
+- Exact casualty count and status of all party members at session end
 

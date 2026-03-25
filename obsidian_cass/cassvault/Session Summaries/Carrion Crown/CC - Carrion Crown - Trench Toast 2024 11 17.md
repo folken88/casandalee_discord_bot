@@ -5,9 +5,9 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "FTAfyhd3gGo"
 sourceFile: "CC - FTAfyhd3gGo - Carrion Crown - Trench Toast 2024 11 17.md"
-processedAt: "2026-03-25T01:26:32.499Z"
+processedAt: "2026-03-25T17:17:30.648Z"
 transcriptQuality: "fair"
-charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
+charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Dismas", "Rodney Danger Smith"]
 tags: ["summary", "cc", "session"]
 ---
 
@@ -15,82 +15,76 @@ tags: ["summary", "cc", "session"]
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=FTAfyhd3gGo)
 **Transcript Quality:** fair
-**Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
+**Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Dismas, Rodney Danger Smith
 
 ## Summary
 
-CP-USS arrives at the Penitent Hearth Inn in Ardeal where they meet a mysterious winged celestial warrior and gather intelligence on the Whispering Way's movements. The party then travels south and discovers a cursed, haunted battlefield near Feldgrau—a site of ancient Shining Crusade conflict and more recent brutal occupation. They prepare extensively with buffs and enter the battlefield at night, engaging a massive encounter with dozens of ghostly soldiers (both dual-wielding melee ghosts and spell-casting burned warriors) who drain Constitution and deal cold/negative energy damage. Dismas and Danger join mid-combat as reinforcements.
+CP-USS stayed at the Penitent Hearth Inn where they encountered Gabriel, a mysterious winged paladin. They learned that the Whispering Way cultists had passed through recently with undead companions, including one becoming a lich. The party then traveled south and discovered a cursed battlefield near Feldgrau scarred by ancient Shining Crusade wars and more recent trench warfare. They engaged a large encounter with dozens of tortured ghost soldiers—both burned casters and armored melee combatants—who drained Constitution and cast cold/negative energy spells. Dismas and Rodney joined mid-combat to help thin the undead ranks.
 
 ## Key Events
 
-- CP-USS stays at the Penitent Hearth Inn and gathers information from Sylvia about the Whispering Way cultists who passed through. Sylvia reveals the cult had 10+ members, several undead, and at least one becoming a lich.
-  - Characters: Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Gaspar, Rodney Danger Smith
-  - Location: Penitent Hearth Inn, Ardeal
-- A celestial warrior (winged, metallic-skinned figure wearing red/gold armor with a large sword) meets the party at the inn, discusses their mission against the Whispering Way, and departs by flying away mid-night.
-  - Characters: Party at inn
-  - Location: Penitent Hearth Inn, Ardeal
-- Party travels south and encounters a cursed battlefield with trenches—the site of the Shining Crusade war (1000 years ago) and more recent brutal occupation where a noble massacred the town of Feldgrau (~20 years ago). Knowledge history checks reveal mass graves and hauntings.
-  - Characters: Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Gaspar
-  - Location: Feldgrau / battlefield south of Ardeal
-  - Timeline: Historical context related to regional conflicts in Ustalav
-- Party casts Whispering Lore to commune with the land, receiving visions of ghostly soldiers—burned from fiery deaths and pierced with arrows—who are confused and in pain, walking the battlefield as if still at war.
-  - Characters: Dinvaya
-  - Location: Feldgrau battlefield
-- Large combat encounter: CP-USS and reinforcements (Dismas, Danger) battle approximately 20+ ghostly undead on a cursed battlefield. Enemies include dual-wielding melee ghosts that drain Constitution and spell-casting burned warriors who cast cold/negative energy AOE attacks (Cold Pain of Death, fire snakes).
-  - Characters: Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Gaspar, Rodney Danger Smith, Dismas
-  - Location: Feldgrau battlefield
-- During combat, several party members take Constitution damage from ghost melee attacks. Kovira is reduced to approximately 5 HP after taking multiple hits from dual-wielding ghosts. Multiple characters reach low health.
-  - Characters: Kovira, Kai, Kate Blackwood, Elfrip
-  - Location: Feldgrau battlefield
-- Dismas and Danger use ranged attacks effectively, with Danger's rifle shots dealing massive damage to ghosts (including a shot that appears to be enhanced by dragon power, obliterating a ghost for 81+ negative HP in a single shot).
-  - Characters: Rodney Danger Smith, Dismas
-  - Location: Feldgrau battlefield
+- CP-USS stays at the Penitent Hearth Inn. Gabriel, a winged celestial paladin, is encountered as a fellow guest. He discusses his own errand to the World Wound.
+  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Dismas
+  - Location: Penitent Hearth Inn
+  - Timeline: 4717.04.15
+- Sylvia (innkeeper) reveals the Whispering Way cult passed through with masked members and undead followers about two weeks ago. She mentions one of them is on the path to lichdom.
+  - Characters: Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood
+  - Location: Penitent Hearth Inn
+- The party travels south and discovers an old cursed battlefield with trenches from both the Shining Crusade (1000 years ago) and more recent Ardeal-Baroy conflict (20 years ago). Feldgrau was massacred and never resettled due to hauntings.
+  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood
+  - Location: Feldgrau Battlefield
+- CP-USS uses Whispering Lore spell. Dinvaya and Elfrip sense the battlefield is cursed and haunted with confused, tormented ghost soldiers—some burned, some with arrows through vital organs.
+  - Characters: Dinvaya, Elfrip
+  - Location: Feldgrau Battlefield
+- Combat begins at nightfall. Dozens of ghost soldiers—torched warrior casters and armored dual-wielding forever-war soldiers—emerge. The burned ones cast cold/negative energy spells; the armored ones drain Constitution on touch.
+  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood
+  - Location: Feldgrau Battlefield
+- Dismas and Rodney Danger Smith arrive partway through combat. Both engage effectively against the ghost soldiers using ghost-touch arrows and magical attacks.
+  - Characters: Dismas, Rodney Danger Smith, Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood
+  - Location: Feldgrau Battlefield
+- Kate and Kai suffer Constitution drain from ghost melee attacks. Kovira drops to 5 HP from sustained cold/negative energy damage and con loss.
+  - Characters: Kate Blackwood, Kai, Kovira
+  - Location: Feldgrau Battlefield
 
 ## NPCs Encountered
 
+- [[Gabriel]]
 - [[Sylvia]]
 - [[Vex]]
-- [[Gabriel]]
-- [[Mysterious celestial warrior (winged, metallic-skinned, red/gold armor)]]
 
 ## Locations
 
 - [[Penitent Hearth Inn]]
-- [[Ardeal]]
-- [[Feldgrau]]
-- [[Cursed Battlefield (site of Shining Crusade and recent massacre)]]
+- [[Feldgrau Battlefield]]
 
 ## Combat Encounters
 
-- Large battlefield encounter with approximately 20-25 ghostly undead: dual-wielding melee soldiers (draining Constitution on touch) and spell-casting burned warriors (Cold Pain of Death, fire snakes dealing cold/negative energy damage). Combat lasted multiple rounds with reinforcements (Dismas, Danger) arriving mid-fight.
+- Large pitched battle against ~20+ ghost soldiers on a cursed battlefield: mixture of burned warrior casters using cold/negative energy cone attacks and armored dual-wielding melee soldiers draining Constitution on touch. Party was vastly outnumbered but had preparation time and buffing advantage.
 
 ## Items & Loot
 
-- Scroll of Overland Flight (purchased/added to spellbook for Kai)
-- Scroll of Teleport (discussed but not purchased due to level restrictions)
-- Beast Brew (beer sent as gift to mysterious patron)
-- Cloak of resistance +2 (equipped by Elfrip)
-- Mithral/Adamantine materials (party has significant stocks for crafting)
-- Hell's Hot Cocoa potions (multiple, providing cold resistance and initiative bonus)
-- Potion of Haste (discussed)
+- Hell's Hot Cocoa potions (multiple uses noted)
+- Cloak of Resistance +2
+- Scroll of Teleport (discussed but not purchased)
+- Scroll of Overland Flight
+- Weapons noted: Curator (magical glaive), Beast Brew (referenced as merchant brand)
 
 ## Notable Quotes
 
-> please don't disturb other patrons
-> I understand they are a plague on this land
-> you probably know they're demons themselves
-> the cult has the heart of the previous pack leader and the demon wolves want it
-> if they passed more than a few miles from here I might not know about them
-> this ground is cursed and no one will ever be able to settle here until that's dealt with
-> we're chasing demon wolves and I only know one dog that rides horses and she's right here and I'm bad at it
+> you guys are invisible to Undead yeah pretty invisible
+> they're going to take half damage from physical weapons and they're going to drain your con and there's 20 of them so you are in danger
+> she wants to take the lead she wants to take the lead in the death game
+> I came here to talk to you tiny Goblin and it was lovely
+> it's like plus five to initiative but it does something bad gives you cold resistance
+> I have a lot of items on me that do stuff like that cuz I can't do it myself
+> the burned are more dangerous because they're AOE spell casting but the Forever War soldiers are dual wielders so they're draining twice as much con per round
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Whether the mysterious celestial warrior (Gabriel) is a pre-established NPC or new encounter—his connection to the party's mission unclear
-- Exact nature of the 'Herold helmet' artifact that Kai is wearing and its specific mechanical effects
-- Whether the ghosts will be fully destroyed or if additional waves are coming
-- Status of the party's mission regarding the Whispering Way—were the cultists tracked through this region or is this a coincidental stop?
-- Meaning of the ghostly swords that match 'Curator' in style—possibly thematic but details unclear
+- Whether Gabriel's full nature/purpose was revealed beyond being a celestial paladin heading to the World Wound
+- The exact number of remaining ghost soldiers still active on the battlefield at session end (combat was ongoing)
+- Whether the party successfully cleansed/destroyed all haunts or merely engaged a wave of them
+- Details on what scrolls/services were ultimately purchased at the inn (multiple discussions about purchasing but transcript unclear on finalization)
 

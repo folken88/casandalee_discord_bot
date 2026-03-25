@@ -1,19 +1,22 @@
 ---
 name: "Lord Mayor"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["HR", "HV"]
-mentions: 2
-tags: ["character", "npc", "hr", "hv"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:03:29.380Z"
 ---
 
 # Lord Mayor
 
-**Type:** NPC
-**Campaigns:** HR, HV
-**Mentions:** 2 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Celestial cleric who cast cure critical wounds on Bruce but was critically hit by the Tyrannosaur's horns and thrown against a wall, taking 80 damage *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

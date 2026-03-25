@@ -1,9 +1,8 @@
 /**
  * LLM Handler for Casandalee
- * Processes queries and generates intelligent responses using OpenAI
+ * Processes queries and generates responses using Claude (Anthropic) + Ollama
  */
 
-const OpenAI = require('openai');
 const diceRoller = require('./diceRoller');
 const campaignContext = require('./campaignContext');
 const timelineSearch = require('./timelineSearch');
@@ -15,7 +14,6 @@ const transcriptKnowledge = require('./transcriptKnowledge');
 const llmRouter = require('./llmRouter');
 const vaultSearch = require('./vaultSearch');
 const personalityManager = require('./personalityManager');
-// Actor index system removed - was causing database lock issues
 const reincarnationTable = require('./reincarnationTable');
 const conversationLogger = require('./conversationLogger');
 const fs = require('fs');
@@ -23,10 +21,6 @@ const path = require('path');
 
 class LLMHandler {
     constructor() {
-        this.openai = new OpenAI({
-            apiKey: process.env.OPENAI_API_KEY
-        });
-        
         this.systemPrompt = this.buildSystemPrompt();
     }
 
@@ -503,22 +497,12 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
                 console.log(`🤖 Response from ${result.provider}: "${result.text?.substring(0, 100)}"`);
                 return result.text;
             } catch (routerError) {
-                // Fallback to direct OpenAI if router fails entirely
-                console.warn('LLM Router failed, falling back to direct OpenAI:', routerError.message);
-                const response = await this.openai.chat.completions.create({
-                    model: 'gpt-3.5-turbo',
-                    messages: [
-                        { role: 'system', content: systemPrompt },
-                        { role: 'user', content: userPrompt }
-                    ],
-                    max_tokens: 200,
-                    temperature: 0.7
-                });
-                return response.choices[0].message.content;
+                console.error('LLM Router failed (Claude + Ollama both down):', routerError.message);
+                return `Sorry, I'm having trouble processing your request right now. Both Claude and Ollama are unavailable. Please try again later.`;
             }
-            
+
         } catch (error) {
-            console.error('OpenAI API error:', error);
+            console.error('LLM error:', error);
             return `Sorry, I'm having trouble processing your request right now. Please try again later.`;
         }
     }

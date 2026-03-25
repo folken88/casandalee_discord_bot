@@ -1,19 +1,22 @@
 ---
 name: "Hellion"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["IG"]
-mentions: 4
-tags: ["character", "npc", "ig"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:13:23.558Z"
 ---
 
 # Hellion
 
-**Type:** NPC
-**Campaigns:** IG
-**Mentions:** 4 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Referenced as an AI that the inhibitor facet would have worked on *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

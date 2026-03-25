@@ -5,9 +5,9 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "ri8u8Kqx_Ds"
 sourceFile: "CC - ri8u8Kqx_Ds - Carrion Crown - Misfortunate Sons 2023 02 26.md"
-processedAt: "2026-03-25T01:51:27.837Z"
+processedAt: "2026-03-25T17:41:35.140Z"
 transcriptQuality: "fair"
-charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Dismas"]
+charactersPresent: ["Gaspar", "Kovira", "Dinvaya", "Dismas", "Kate Blackwood"]
 tags: ["summary", "cc", "session"]
 ---
 
@@ -15,96 +15,107 @@ tags: ["summary", "cc", "session"]
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=ri8u8Kqx_Ds)
 **Transcript Quality:** fair
-**Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Dismas
+**Characters Present:** Gaspar, Kovira, Dinvaya, Dismas, Kate Blackwood
 
 ## Summary
 
-CP-USS explores the Black Whale prison ship and encounters Officer Ishai, a corrupted C-Plus agent now serving the Whispering Way as a powerful necromantic Oracle. After a grueling nine-round combat featuring burning skeleton guards, waves of zombies, and Ishai's devastating spellcasting and touch attacks, the party defeats and kills her. They discover extensive evidence of Whispering Way involvement, recover significant magical loot, collect a 5,000 gold bounty for eliminating her, and level to 5th level.
+CP-USS (now Deputy Ustalav Marshalls) investigates the Black Whale prison ship and encounters the traitorous Officer Ishai, an Oracle of an evil deity wearing Whispering Way regalia. After a brutal 9-round combat where the party struggles with poor attack rolls, they defeat Ishai and secure significant loot including the Whisper Skin armor, spell books, potions, and 5,000 gold bounty. The party levels to 5th level and Kovira becomes an Arcane Trickster.
 
 ## Key Events
 
-- CP-USS breaches the lower decks of the Black Whale through a locked door and encounters a zombie guard, triggering combat.
-  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Dismas
-  - Location: Black Whale (lower deck)
-- Burning skeleton guards emerge from the upper decks, forcing the party to defend a narrow walkway while dealing with waves of zombie guards.
-  - Characters: Gaspar, Kovira, Kai, Dinvaya, Dismas
-  - Location: Black Whale (walkway between boats)
-- Officer Ishai Ibn (thought to be dead) is revealed as the commander of the Black Whale and a servant of the Whispering Way. She is a high-level Oracle of an evil deity with significant magical power.
-  - Characters: Ishai Ibn, Gaspar, Kovira, Kai, Dinvaya, Dismas, Elfrip
-  - Location: Black Whale
-- Ishai uses dread bolt, bone shaker, and lich's touch spells to devastate the party. She wears whisper skin armor (a magical item marked with the Whispering Way symbol) and proves to be an extremely dangerous combatant with high AC and spell resistance.
-  - Characters: Ishai Ibn, Gaspar, Kovira, Dinvaya, Dismas
-  - Location: Black Whale
-- After a nine-round combat where the party struggles with poor attack rolls, Kovira uses hold person to paralyze Ishai. Dismas then delivers the killing blow with his scythe in a critical hit, decapitating her as she whispers a curse in an unknown language.
-  - Characters: Dismas, Kovira, Ishai Ibn
-  - Location: Black Whale
-- The party recovers extensive loot including whisper skin armor (Whispering Way symbol), spell book of Titimus Manlius, multiple magical wands, potions of bull strength and haste, a cloak of resistance +1, ring of protection +1, amulet of natural armor +1, silver arrows, and over 5,000 gold in equipment value plus currency.
-  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Dismas
-  - Location: Black Whale
-- CP-USS returns to headquarters where Ives identifies Ishai as a former talented officer and recognizes the whisper skin armor as bearing the symbol of the Whispering Way. A 5,000 gold bounty is issued for her elimination.
-  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Dismas, Ives
-  - Location: CP-USS Headquarters
-- All party members level to 5th level. Kovira becomes eligible for Arcane Trickster prestige class. Kai gains Heavy Armor Proficiency.
-  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Dismas
-  - Location: CP-USS Headquarters
+- CP-USS enters the Black Whale prison ship and encounters the first sealed compartment below deck with a zombie guard
+  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
+  - Location: Black Whale prison ship
+- Party battles undead guards and burning skeletons across the walkway between ship compartments, with heavy rain and mysterious fire on the upper deck
+  - Characters: Gaspar, Kovira, Dinvaya, Dismas
+  - Location: Black Whale walkway between boats
+- Officer Ishai, thought to be dead, appears as the primary antagonist - a powerful Oracle wielding negative energy spells and Lich's Touch ability. She nearly kills multiple party members
+  - Characters: Ishai (NPC/enemy), Gaspar, Kovira, Dinvaya, Dismas
+  - Location: Black Whale prison ship
+- Kovira uses a Hold Person spell from a wand to immobilize Ishai temporarily during the fight
+  - Characters: Kovira, Ishai
+  - Location: Black Whale prison ship
+- Gaspar decapitates Ishai with his scythe after a lengthy combat. Ishai whispers a final phrase in an unknown language before dying
+  - Characters: Gaspar, Ishai
+  - Location: Black Whale prison ship
+- Party discovers Ishai wore the Whisper Skin armor bearing the gagged skull symbol of the Whispering Way, revealing her allegiance to the death cult
+  - Characters: Gaspar, Kovira, Dinvaya, Dismas, Kate Blackwood
+  - Location: Black Whale prison ship
+- Party recovers significant loot from Ishai's cabin including spell books, potions of bull strength and haste, scrolls, magical weapons, and approximately 1,043 gold pieces per party member plus 5,000 gold bounty
+  - Characters: Gaspar, Kovira, Dinvaya, Dismas, Kate Blackwood
+  - Location: Black Whale prison ship
+- Party returns to CP-USS headquarters where Ives confirms Ishai was a talented officer who worked for them for years and was part of the previous team, now revealed as the cause of the Black Whale riot
+  - Characters: Gaspar, Kovira, Dinvaya, Dismas, Kate Blackwood, Ives (NPC)
+  - Location: Lepidstadt - CP-USS headquarters
+- Party levels to 5th level. Kovira gains Arcane Trickster class levels and the Ranged Legerdemain ability
+  - Characters: Kovira, Gaspar, Dinvaya, Dismas, Kate Blackwood
 
 ## NPCs Encountered
 
-- [[Officer Ishai Ibn]]
-- [[Ives]]
+- [[Ishai (Officer/Necromancer Oracle)]]
+- [[Ives (CP-USS headquarters)]]
 
 ## Locations
 
-- [[Black Whale (prison ship)]]
-- [[CP-USS Headquarters]]
+- [[Black Whale prison ship]]
+- [[Black Whale walkway/docking area]]
+- [[CP-USS headquarters, Lepidstadt]]
 
 ## Combat Encounters
 
-- Zombie guard with spear on lower deck walkway
-- Multiple waves of zombie guards emerging from doorway
-- Two burning skeleton guards with glaives and high fire aura damage
-- Officer Ishai Ibn (Oracle necromancer) - nine-round boss fight with dread bolt, bone shaker, lich's touch spells and touch attacks
+- Battle with zombie guard, soldier with spear, and multiple zombie minions on the lower deck walkway
+- Encounter with burning skeleton warriors and fiery undead entities
+- Extended 9-round combat with Officer Ishai, an Oracle wielding Lich's Touch, negative energy spells, and bone shaker ability, supported by remaining zombie guards
 
 ## Items & Loot
 
-- Whisper skin armor +2 (with shadow step ability, Whispering Way symbol)
-- Spell book of Titimus Manlius
-- Wand of magic missile
-- Wand of cure moderate wounds
-- Wand of remove disease
-- Potion of bull strength
-- Potion of haste
-- Cloak of resistance +1
-- Ring of protection +1
-- Amulet of natural armor +1
+- Whisper Skin armor (special enchanted chainmail with shadow step ability, bearing Whispering Way symbol)
+- Spell book of Titimus Manlius (famed wizard)
+- Wand of Cure Moderate Wounds
+- Wand of Magic Missile
+- Wand of Pure Mod (likely Cure Mod)
+- Wand of Remove Disease
+- Potion of Bull Strength (4 total)
+- Potion of Haste
+- Scroll of Heroism
 - 12 silver arrows
-- 4 C-Plus bedrolls (military-grade)
-- Masterwork maces, glaives, breastplate, full plate
-- 5,000+ gold in equipment and currency (approximately 1,043 gold per party member after split)
-- 4 potions of heroism (scroll form)
-- 5,200 gold recovered from equipment sales receipts
+- Amulet of Natural Armor +1
+- Cloak of Resistance +1
+- Ring of Protection +1
+- Captain's gold-plated C+ badge
+- Masterwork weapons (maces, glaive, full plate armor, breastplate)
+- 4 C+ standard issue military bedrolls
+- Approximately 1,043 gold pieces per party member
+- 5,000 gold bounty (total) for killing Ishai
 
 ## Notable Quotes
 
-> you see most of his face is eaten off he is Undead
-> did we scope the other side of the boat from above to see if anyone is hanging out on these
+> what the [ __ ] if I've got these two tokens selected is there any way to deselect one of them
+> we look forward to Ben via the half work Barb
+> oh job well done let's go home
+> protection from door
 > I don't want to Pilot Chris's character well he ain't here we'll have danger guard the dinghy
-> let's just kite him to the Cutlass
-> I tell you what whether you see this combat tracker oh my I would just never tell you to do what you did
-> I don't want to be flanked by this thing
-> I am more effective at range I could hide from Undead and reposition
+> watch this Gaspar bangs on the door a bunch of times really hard then he listens
+> oh [ __ ] she opens the door and you see a man standing there in the chain mail this weapon and shield and it's his head slowly turns and you see most of his face is eaten off he is Undead
+> holy [ __ ]
+> sexy lizard mommy be careful
+> that his officer ishai IBN that is a c plus officer thought to be dead
+> she doesn't look dead
 > you mean the spell you smuck son of a [ __ ]
+> I'm down
+> hard enough off with the head
+> you hear her whispering in some language that none of you speak and then she explains
 > she was a talented officer she she worked for us for years those were her friends
-> well you can look at it we should make sure it's not cursed or something
-> I'm just gonna throw it in the dinghies I was just gonna be overweight while I was
-> you have not rolled a 15 in your last 15 rolls
+> she killed her entire team and was living on a five boat prison full of zombies and almost killed all of us
+> that's symbol of the Whispering Way
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Exact nature of the curse or final phrase Ishai whispered in an unknown language (Gaspar attempted to transcribe it for later translation)
-- Whether there are additional boats or sections of the Black Whale remaining to clear, and what threat level they might pose
-- The full details of Ishai's backstory with the original C-Plus team and her conversion to the Whispering Way
-- Whether Rodney Danger Smith (played by Chris, absent this session) was on the Black Whale or remained elsewhere - his status during the ship exploration is unclear
+- Whether there are additional undead threats remaining on the Black Whale or if they have cleared the most dangerous sections
+- What the exact nature of Ishai's final whispered curse or statement was (described as an unknown language with hissing sounds)
+- The full details of how Ishai infiltrated and corrupted the original CP-USS team or when her allegiance to the Whispering Way began
+- Whether Maria/the player of Kate Blackwood will continue with the campaign (mentioned as potentially busy)
+- The exact specifications of some enchantments and spell details due to transcript quality
 

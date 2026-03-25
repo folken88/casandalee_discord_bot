@@ -1,26 +1,29 @@
 ---
-name: """Luna"""
+name: "Luna"
 type: character
-race: """Angel Blood Aasimar"""
-class: """Bloodrager (Primalist Spelleater)"""
+race: "Unknown"
+class: "Unknown"
 level: 15
-player: Rye
-campaign: "["IG"]"
-aliases: ""["Luna Kresnik"]""
-tags: ""["character", "pc"]""
-created: """2026-02-14T00:00:00.000Z"""
-updated: ""2026-03-24T23:00:49.499Z""
+player: "Rye"
+aliases: []
+tags: ["character", "pc"]
+created: ""
+updated: "2026-03-25T16:45:11.685Z"
 ---
 
 # Luna
 
-**Race:** Angel Blood Aasimar | **Class:** Bloodrager (Primalist Spelleater) | **Level:** 15 | **Player:** Rhy
+**Race:** Unknown | **Class:** Unknown | **Level:** 15 | **Player:** Rye
 
 HP 345/345. Phoenix bloodline; Celestial Totem. Melee + bloodrager spells. Weapons: Cold Hearted Iron, The Space Bone, Void Vortex; XM-53 launcher. Synced from Foundry VTT.
 
 ## Notes & Updates
 
 - [Foundry sync] Level 15 Aasimar Bloodrager (Spelleater). HP 345/345. Phoenix bloodline, Vital Strike, Outflank. Equipment: Krastus' Technic League Captain Badge, Swarmbane Clasp, Handy Haversack. *(foundry-sync, 2/13/2026)*
+- Party member with survival skill; was randomly shooting people in the kitchen; Has a void bow and can contribute area-effect spells like lightning bolt and Cloud Kill to the plan; A spellcaster who is also melee-capable. Party is considering whether to put silence spell on her. She will be pre-buffed before combat.; Referenced as a size comparison for one of the cat folk Namcath encountered. *(youtube-transcript, 3/25/2026)*
+- Party member with vague memory of the palace layout from 10 years ago when she was drinking and fighting there; Has natural disguise abilities; used Knowledge Local to remember palace layout from 10 years ago; rolled 19; Can provide information about the Dark Seers and the layout of the palace. Believes the quickest route to the harem is via the west side of the palace.; Provided memory/directions on the quickest route through the palace (west then south); Provides knowledge about the layout of the facility, remembering that a door opens to guard quarters and that the hereum is accessible via the western and southern route; Character who makes a knowledge local check about a room on the first floor; realizes it's important but can't remember why; Player character attempting to navigate and recall information about the building layout; made a knowledge local check; Mentioned as having identified a door as important to investigate. She suggests the bedroom belongs to Tech or another high-ranking lieutenant.; Uses dark vision to examine the darkened corner of the room; Player mentioned Luna is dead in context of discussing a level one ranger with a magical bow; Entered the West servants gate area with the party. Recognized a side parlor/drug den from previous exploration. Attempted to access the guard's store room but found it too busy.; Drops her disguise. Reveals she left the palace long ago due to issues, not being kicked out. Mentions fighting frequently and throwing smart hill giants out of the palace. *(youtube-transcript, 3/25/2026)*
+- Character needing a deeper voice, players discussing voice options; Player character (rye) involved in discussion about poisoning/enchanting food, specifically burgers as a delivery method for spells.; Party member, barbarian, has provided information to Casandalee for simulations. Mentioned as potentially being able to make knowledge local checks about the chef.; Party member mentioned regarding magic buffs for duels and HP comparisons. Rye is the player controlling Luna.; Player character, made attacks with mixed results (crit confirms, misses, hits), made Fort save DC 23 to avoid silencing; Player character in combat, has concealment immunity, uses reach weapon, hits hard; Player character in combat, being attacked by an enlarged enemy with 15ft reach; Mentioned as a potential target for spiritual weapon attack; has mirror images that could be affected; Party member, possibly the tankiest character. Discussed as potential replacement for Takala or as a target for disguise magic.; Identified as a good maze target by the enemy witch; Player character mentioned as potentially repositioning differently depending on fight objectives *(youtube-transcript, 3/25/2026)*
+- Party member whose knowledge of the Black Sovereign and palace is 10 years old and outdated; Character with a giant sword, not particularly stealthy. Picked up the boss character. Considering stealth mission participation.; Took damage from the Become Chad spell cast by a level 12 Wizard; Lifts Nomkath onto her shoulders to help him reach and sense a target in the guest bedroom; Last person to see Kevoth-Kul sober, decades ago. Providing insight into his capabilities and nature. *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

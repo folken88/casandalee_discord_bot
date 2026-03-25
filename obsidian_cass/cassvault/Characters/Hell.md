@@ -1,19 +1,22 @@
 ---
 name: "Hell"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["HV"]
-mentions: 3
-tags: ["character", "npc", "hv"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:13:23.569Z"
 ---
 
 # Hell
 
-**Type:** NPC
-**Campaigns:** HV
-**Mentions:** 3 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- The inhibitor device was previously used on Helen with significant effect, impairing her functionality and causing negatives to charisma, skill checks, saving throws, initiative, and attack rolls. *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

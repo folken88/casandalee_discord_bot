@@ -5,94 +5,99 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "XeMFw9c2hlw"
 sourceFile: "CC - XeMFw9c2hlw - Carrion Crown - Detect Pathetic 2023 01 15.md"
-processedAt: "2026-03-25T01:39:21.527Z"
-transcriptQuality: "fair"
-charactersPresent: ["Gaspar", "Kovira", "Dismas", "Dinvaya", "Fin", "Kate Blackwood", "Rodney Danger Smith"]
+processedAt: "2026-03-25T17:30:00.752Z"
+transcriptQuality: "poor"
+charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas", "Finn"]
 tags: ["summary", "cc", "session"]
 ---
 
 # Carrion Crown - Detect Pathetic 2023 01 15
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=XeMFw9c2hlw)
-**Transcript Quality:** fair
-**Characters Present:** Gaspar, Kovira, Dismas, Dinvaya, Fin, Kate Blackwood, Rodney Danger Smith
+**Transcript Quality:** poor
+**Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas, Finn
 
 ## Summary
 
-CP-USS returned to Lepidstadt after two months in the field, having defeated the Devil in Gray and secured forbidden tomes from Ravengro. Judge Darymid briefed them on multiple crises: the Black Whale prison is overrun with undead and inaccessible, a 'cosplay death' cult of college students keeps attempting to break in, and a real creature called the Beast has been captured and imprisoned in the courthouse basement. The party shopped for supplies, delivered Professor Lorrimor's tomes to Dr. Crowell at the university, and learned about the Black Whale's layout from a former guard before preparing to investigate the prison.
+CP-USS returned to Lepidstadt after two months in the field. They briefed Judge Darymid on their activities, including clearing Harrowstone, defeating the Devil in Gray, and acquiring forbidden tomes. The judge tasked them with three urgent problems: clearing the Black Whale prison of undead, managing a zombie-themed college cult on the docks, and preventing mob justice against a captured creature (the Beast of Lepidstadt). The party spent the day shopping, recruiting Finn as a new officer, and gathering intelligence about the Black Whale's layout from a former guard. Transcript quality was poor with significant audio garbling.
 
 ## Key Events
 
-- CP-USS arrives in Lepidstadt after two-month field mission. Judge Darymid briefs them on three major problems: Black Whale prison sealed/infested, cult trying to break in, and Beast of Lepidstadt in courthouse custody.
-  - Characters: Gaspar, Kovira, Dismas, Dinvaya, Fin, Kate Blackwood
-  - Location: Lepidstadt, Courthouse
-  - Timeline: 4717.04.27 — No direct match, but consistent with ongoing investigations
-- Judge Darymid assigns CP-USS tasks: secure Black Whale prison, stop the cult, and handle the Beast situation before a trial hearing in four days.
-  - Characters: Judge Darymid
-  - Location: Lepidstadt, Courthouse
-- Party recruits Fin (formerly referred to as 'Maria') as a new CP-USS officer. Judge Darymid swears her in officially.
-  - Characters: Fin, Judge Darymid
-  - Location: Lepidstadt, Courthouse
-- Party secures 2 free Haunt Siphons from Grave Charge (temple of Pharasma) and buys 2 more. Grave Charge agrees to mass-produce them (3-4 per day) for anti-undead operations.
-  - Characters: Dinvaya, Party
-  - Location: Lepidstadt, Grave Charge
-- Party delivers Professor Petros Lorrimor's forbidden tomes to Dr. Crowell at Lepidstadt University. Crowell confirms the Whispering Way is responsible for Lorrimor's death and reveals he has been secretly researching them for decades.
-  - Characters: Gaspar, Party, Dr. Crowell
-  - Location: Lepidstadt University
-  - Timeline: Relates to 4716.12.22 — Lorrimor's death by Phantasmal Killer
-- Party learns about 'cosplay death' — a college fad where students dress as zombies and shamble on the docks near Black Whale. Two students attempted to row out to the prison and went missing.
-  - Characters: Party
-  - Location: Lepidstadt University campus
-- Party interviews Lawrence, a former Black Whale guard, and obtains detailed layout information about the six chained prison ships (Cutlass, Sable Skull, Rift Wake, Scorching Marie, Wave, Talisman).
-  - Characters: Lawrence (NPC), Party
-  - Location: Lepidstadt, Guard Precinct
+- CP-USS returns to Lepidstadt after approximately two months in the field and reports to Judge Darymid at the courthouse.
+  - Characters: Kovira, Gaspar, Dismas, Dinvaya, Finn
+  - Location: Lepidstadt - Courthouse
+  - Timeline: 4717.03.14 - CP-USS returns to Lepidstadt
+- Judge Darymid pays CP-USS 1,000 gold from Professor Lorrimor's will and assigns them three missions: secure the Black Whale prison, control the zombie cult on the docks, and manage the Beast of Lepidstadt situation before a trial hearing in four days.
+  - Characters: Judge Darymid, Kovira, Gaspar, Dismas, Dinvaya
+  - Location: Lepidstadt - Courthouse
+- Finn is officially recruited and sworn in as a C-PUSS officer by Judge Darymid, receiving a badge and weekly pay of 7 gold.
+  - Characters: Finn, Judge Darymid
+  - Location: Lepidstadt - Courthouse
+- CP-USS delivers Professor Lorrimor's forbidden tomes to Dr. Crowell at Lepidstadt University. They learn that the original CP-USS team (including Captain Titulus Manlius and Samson with a holy shovel) has not been heard from since being sent to the Black Whale.
+  - Characters: Gaspar, Kovira, Dr. Crowell
+  - Location: Lepidstadt - University
+- At Grave Charge temple, the party arranges for mass production of Haunt Siphons (3-4 per day) and acquires four Haunt Siphons to use against undead in the Black Whale.
+  - Characters: Dismas, Gaspar, Dinvaya
+  - Location: Lepidstadt - Grave Charge (Temple of Pharasma)
+- The party learns that a college group called 'Cosplay Death' has been gathering on the docks near the Black Whale at night, wearing white makeup and shambling as zombies. Two fraternity members who rowed out to the Black Whale have not returned.
+  - Characters: Gaspar
+  - Location: Lepidstadt - University Campus
+- A former Black Whale guard named Lawrence provides the party with detailed layout information about the prison complex, including the six ship names (Cutlass, Sable Skull, Rift Wake, Scorching Marie, The Wave, Talisman) and cell distribution.
+  - Characters: Lawrence (NPC guard), Kovira
+  - Location: Lepidstadt - Guard House/Precinct
 
 ## NPCs Encountered
 
-- [[Judge Embreth Darymid]]
+- [[Judge Darymid]]
+- [[Kendra Lorrimor]]
 - [[Dr. Crowell]]
 - [[Lawrence (former Black Whale guard)]]
-- [[Grave Charge clerics/craftspeople]]
+- [[Grave Charge temple clerics]]
+- [[University students (unnamed)]]
 
 ## Locations
 
-- [[Lepidstadt]]
-- [[Courthouse]]
-- [[Grave Charge (temple of Pharasma)]]
-- [[Lepidstadt University]]
-- [[Guard Precinct]]
-- [[Black Whale Prison (not yet entered)]]
+- [[Lepidstadt - Courthouse]]
+- [[Lepidstadt - Starbucks/Coffee Shop]]
+- [[Lepidstadt - University]]
+- [[Lepidstadt - University Campus]]
+- [[Lepidstadt - Grave Charge Temple]]
+- [[Lepidstadt - Guard House/Precinct]]
+- [[Lepidstadt - Docks (Black Whale Prison location)]]
 
 
 ## Items & Loot
 
-- 2 Haunt Siphons (free from Grave Charge)
-- 2 Haunt Siphons (purchased for 320 gold each)
-- Scrolls: Remove Curse (×2), Cure Serious Wounds (×2), Detect Undead, Hide from Undead, Feather Fall, Protection from Arrows, Acid Arrow
-- Potions: Cure Light Wounds (various), Cure Moderate Wounds, Cure Serious Wounds, Lesser Restoration (wand), Cure Light Wounds (wand with 61 charges)
+- 1,000 gold from Professor Lorrimor's will
+- Multiple Haunt Siphons (4 acquired for use against undead)
 - Wand of Protection from Evil (50 charges)
 - Wand of Shield of Faith
-- 1,000 gold from Judge Darymid (split 5 ways = 200 per person)
-- Additional gold from item sales (~350 per person)
+- Wand of Lesser Restoration
+- Multiple cure potions and scrolls
+- Scrolls of Remove Curse, Remove Disease, Protection from Arrows
+- Holy Shovel (Sanctus Trella) - artifact from original CP-USS team (not taken, left in shop display)
 
 ## Notable Quotes
 
-> where the [ __ ] is my [ __ ] team
-> I don't know what these are wait is that the order that's the purple one that one's mine
-> yeah you unlocked it looks like they uh they locked the door they barred it they piled Furniture in front of it and then something tore the roof of their house off
-> the judge is not Superstition it is a real creature and we have captured it and put it in jail in the basement of this building
+> where is my [ __ ] team
+> I don't know what these are
+> I need my City prison back the black whale is still off limits since you left
 > the public is already building a wicker man
-> I need my C plus Squad back on the beat
-> Petros Larimer is kind of a nerd who probably never should have left the university himself and immediately got killed by [ __ ] evil assassins
-> the Whispering Way is Disciples of the the Tyrant himself they have existed since he ceased to exist
-> six Hulks tied together there's little floaty wood bridges that go between them
+> don't let him kill the Beast
+> quite a lot of sack
+> I don't even want to know where yours went
+> they throw an excellent party
+> I've heard it's off limits and I know well your predecessors were sent there as their last mission and I have not heard from Captain titmus or Sanson
+> the only signature we find is that when they do use someone or interrogate someone or remove someone usually their head or face or mouth any ability to speak with them with speak with dead spells or other magics eliminated
+> cosplay death
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Whether Rodney Danger Smith is still with the party or remained in Courtaud (transcript mentions him staying behind but unclear if he rejoined)
-- The exact nature and capabilities of the Beast of Lepidstadt (described only as 'real' and destructive, no concrete details given)
-- What exactly happened to the previous CP-USS team (CP-USS 18) at Black Whale prison — strongly implied they are dead/missing
-- Whether the 'cosplay death' cult members who rowed out are actually dead or just missing
+- Whether the two fraternity members who rowed to the Black Whale are dead or possessed by undead (transcript suggests they have not returned)
+- The exact nature of the 'Beast of Lepidstadt' — multiple descriptions exist (werewolf, giant, other creature)
+- Whether anyone on the city guard or judiciary knows what the original CP-USS team encountered before losing contact at the Black Whale
+- The specific reason Judge Darymid remained silent about what should be done with the Beast, beyond securing it
+- Whether Dr. Crowell's claim to have hidden his research from the Whispering Way for decades is accurate or whether they already know of his opposition
 

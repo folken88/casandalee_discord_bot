@@ -1,19 +1,22 @@
 ---
 name: "Kendra Lorrimor"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: ["Kendra"]
-campaign: ["CC"]
-mentions: 14
-tags: ["character", "npc", "cc"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:59:07.654Z"
 ---
 
 # Kendra Lorrimor
 
-**Type:** NPC
-**Campaigns:** CC
-**Mentions:** 14 session(s)
-**Also known as:** Kendra
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Teleported the party to a location; mentioned as having reported to Daramid *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

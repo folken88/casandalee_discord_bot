@@ -5,9 +5,9 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "-fJ4jdlXgSg"
 sourceFile: "CC - -fJ4jdlXgSg - Carrion Crown - Beast Mode 2023 08 13.md"
-processedAt: "2026-03-25T01:14:16.264Z"
+processedAt: "2026-03-25T17:05:20.883Z"
 transcriptQuality: "poor"
-charactersPresent: ["Gaspar", "Kovira", "Kate Blackwood", "Elfrip", "Rodney Danger Smith"]
+charactersPresent: ["Gaspar", "Kovira", "Kate Blackwood", "Elfrip"]
 tags: ["summary", "cc", "session"]
 ---
 
@@ -15,75 +15,78 @@ tags: ["summary", "cc", "session"]
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=-fJ4jdlXgSg)
 **Transcript Quality:** poor
-**Characters Present:** Gaspar, Kovira, Kate Blackwood, Elfrip, Rodney Danger Smith
+**Characters Present:** Gaspar, Kovira, Kate Blackwood, Elfrip
 
 ## Summary
 
-CP-USS explores the interior of Shloss Caromarc's tower after defeating undead harpies on a massive bridge spanning the falls. They discover the Beast (Rissa) is attempting to rescue its creator 'Father' from the tower's upper levels, where a dangerous Promethean construct called 'Not Father' is being controlled by a machine at the peak. The party learns the Beast has been injured in a previous encounter with the Promethean and confirms that electrical energy can heal it. They prepare to rest before ascending the tower to confront the final threats.
+The CP-USS party continued exploring Schloss Caromarc after resting. They encountered and defeated four undead harpies on a magical bridge over a massive waterfall while battling in formation. After the encounter, they learned from the Beast that his creator ("Father") is trapped in a tower above, guarded by a dangerous Promethean construct. Transcript quality was poor throughout.
 
 ## Key Events
 
-- Party encounters four undead harpies with enchanting voices attempting to lure characters off a 250-foot bridge spanning Aramark Falls. Combat ensues over approximately three rounds.
-  - Characters: Gaspar, Kovira, Kate Blackwood, Elfrip, Rodney Danger Smith
-  - Location: Bridge spanning Aramark Falls at Shloss Caromarc
-- One harpy is killed by Gaspar using the sword Curator, with explicit dialogue 'you belong in a museum.' Party uses Fireball and Lightning Bolt spells to damage/eliminate harpies.
-  - Characters: Gaspar, Elfrip
-  - Location: Bridge spanning Aramark Falls
-- The Beast (Rissa) appears on the far side of the bridge. Party communicates with it and learns it went to the tower's top floor the previous night and was attacked by the Promethean, taking Fireball damage and falling off the tower.
-  - Characters: The Beast (Rissa), Gaspar, Kovira, Kate Blackwood, Elfrip
-  - Location: Far side of bridge / base of tower
-  - Timeline: 4717.04.25 - relates to ongoing investigation at Shloss Caromarc
-- Party learns the tower has three levels containing: dead mother (bottom), Father (middle, possibly trapped/controlled), and the Promethean construct (top). A control machine at the tower's peak uses a lightning rod.
+- Party rested after defeating the tree, with Gaspar delivering a blessing that granted everyone +10 HP.
+  - Characters: Gaspar
+  - Location: Schloss Caromarc
+- Four undead harpies attacked the party on a 125-foot stone bridge spanning a 250-foot drop over a waterfall and canyon.
+  - Characters: Gaspar, Kovira, Kate Blackwood, Elfrip
+  - Location: Bridge at Schloss Caromarc
+- Elfrip cast Fireball and Lightning Bolt at the harpies; Gaspar used Curator to kill at least one harpy; combat lasted multiple rounds with harpies using flyby attacks and their charming song.
+  - Characters: Elfrip, Gaspar, Kovira, Kate Blackwood
+  - Location: Bridge at Schloss Caromarc
+- The Beast of Lepidstadt (a constructed Golem) communicated telepathically with the party, revealing that its creator "Father" is trapped in a tower above and that a dangerous Promethean construct guards him.
   - Characters: Gaspar, Kovira, Kate Blackwood, Elfrip, The Beast
-  - Location: Shloss Caromarc tower
-- Beast reveals it was created by Caromarc and had a family (wife and daughter who were tree-like creatures). The Beast draws stick figures to depict them. Party learns the Promethean (described as spider-like, black with eight legs/spikes) cannot be controlled and was created as Caromarc's attempt at a better version of the Beast.
-  - Characters: The Beast (Rissa), Gaspar, Kovira
-  - Location: Shloss Caromarc
-  - Timeline: 4717.04.25 - relates to Beast's origin story
-- Party discovers Promethean heals from Lightning Bolt spells rather than taking damage. They test healing the Beast using Shocking Grasp cantrip, which successfully closes wounds and restores health. Blue light appears in the Beast's seams when healed.
-  - Characters: Kovira, The Beast, Gaspar, Kate Blackwood
-  - Location: Base of tower
-- Party rests before ascending tower. Kai remains dead (body sent to town with Dinvaya and the Harrow Hearse). Party is reduced to four active members: Gaspar, Kovira, Kate, and Elfrip (plus The Beast outside).
-  - Characters: Gaspar, Kovira, Kate Blackwood, Elfrip, Dinvaya, Kai
-  - Location: Shloss Caromarc hallway
-  - Timeline: 4717.02.07 - references Kai's death from earlier session
+  - Location: Schloss Caromarc
+  - Timeline: 4717.02.21 | Torch | The Beast of Lepidstadt is reborn in her new body as Clarissa 'Rissa' Elssa Caromarc
+- The Beast revealed that it was attacked by the Promethean last night and fell from the tower; the Promethean heals when struck by lightning bolts.
+  - Characters: The Beast
+  - Location: Tower at Schloss Caromarc
+- The party learned the Beast's creator has memories of a wife and daughter (tree-like creatures) who died, and the Beast was constructed using their brain/essence.
+  - Characters: The Beast
+  - Location: Schloss Caromarc
+- The party prepared to rest before attempting to enter the tower to face the Promethean and rescue Father.
+  - Characters: Gaspar, Kovira, Kate Blackwood, Elfrip
+  - Location: Schloss Caromarc
 
 ## NPCs Encountered
 
-- [[The Beast / Rissa Elssa Caromarc]]
-- [[Four Undead Harpies (unnamed, all destroyed)]]
-- [[Promethean construct (mentioned, not yet fought)]]
-- [[Father / Caromarc's creator figure (mentioned, status unknown)]]
+- [[The Beast of Lepidstadt]]
+- [[Father (mentioned, not encountered)]]
+- [[Promethean construct (mentioned, not encountered)]]
 
 ## Locations
 
-- [[Bridge spanning Aramark Falls]]
-- [[Shloss Caromarc tower (exterior)]]
-- [[Tower base / entry level]]
+- [[Schloss Caromarc]]
+- [[Bridge (125 feet long, over 250-foot drop)]]
+- [[Tower (interior structure with multiple levels)]]
 
 ## Combat Encounters
 
-- Four Undead Harpies on bridge - harpies used flyby attacks with claws and enchanting song; party used ranged attacks, Fireball, and Lightning Bolt; all four harpies defeated. Gaspar killed final harpy with Curator, dealing 69 damage.
+- Four undead harpies on the bridge - harpies used flyby attacks with claw strikes and charming song, party used ranged and melee attacks plus spellcasting (Fireball, Lightning Bolt, Curator sword strikes)
 
 ## Items & Loot
 
-- Harpy bodies (searched, no discernible loot found)
-- Various equipment recovered from Caromarc's halls and redistributed (armor, weapons, magical items moved to Harrow Hearse for transport to town)
+- Curator (sword wielded by Gaspar)
+- Harpy feathers (recovered from defeated enemies)
+- Various equipment redistributed among party members
 
 ## Notable Quotes
 
 > you belong in a museum
-> Father's Big Creations
-> lightning heals him
-> we will do what we can to help father and not get eaten by anything
+> hug me [ __ ]
+> it doesn't matter for her yet
+> do you like trivia
+> I've been told that I brave through a fall
+> you did great it's exterminated in the entire
+> they're not indestructible pardon
+> electricity heals him
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Exact nature/abilities of the control machine on tower's peak - unclear if it controls Promethean or something else
-- Whether Father is alive, dead, or controlled by the machine at the tower's top
-- What Dead Mother on bottom level actually is - possibly a corpse or another creation
-- Whether Promethean can be reasoned with or negotiated with at all
-- The identity/nature of who or what originally created Caromarc and his creations
+- Whether Kai was permanently killed or is being transported back to town for resurrection
+- The exact nature and capabilities of the Promethean construct at the top of the tower
+- Whether Father is still alive or has been killed/destroyed
+- What 'the machine on the top of the tower' exactly is and how it controls the Beast
+- The relationship between Caromarc and Father - whether Father created the Beast or vice versa
+- How many levels/rooms are actually in the tower
 

@@ -5,100 +5,97 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "HPi7ebfq_Ik"
 sourceFile: "CC - HPi7ebfq_Ik - Carrion Crown - Discovery 2023 03 18.md"
-processedAt: "2026-03-25T01:28:20.720Z"
-transcriptQuality: "fair"
-charactersPresent: ["Gaspar", "Kovira", "Dinvaya", "Elfrip", "Kai"]
+processedAt: "2026-03-25T17:19:06.512Z"
+transcriptQuality: "poor"
+charactersPresent: ["Tim (Gaspar)", "Sydney (Kovira)", "Graham (Kai)", "Anna (Elfrip)", "Josh (Dinvaya)", "Mandi (Kate Blackwood)", "Chris (Rodney Danger Smith)", "Harrison (Dismas)"]
 tags: ["summary", "cc", "session"]
 ---
 
 # Carrion Crown - Discovery 2023 03 18
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=HPi7ebfq_Ik)
-**Transcript Quality:** fair
-**Characters Present:** Gaspar, Kovira, Dinvaya, Elfrip, Kai
+**Transcript Quality:** poor
+**Characters Present:** Tim (Gaspar), Sydney (Kovira), Graham (Kai), Anna (Elfrip), Josh (Dinvaya), Mandi (Kate Blackwood), Chris (Rodney Danger Smith), Harrison (Dismas)
 
 ## Summary
 
-CP-USS (Detective Kai newly recruited) investigates the Beast of Lepidstadt's trial by interviewing the accused creature, visiting Lepidstadt University to examine the museum break-in, and questioning the Three Sisters witnesses from the Hergstag village incident. The investigation reveals inconsistencies in witness testimony: the Beast gently deposited a dead child rather than attacking, the creature appears to be a golem (magically created, not alive or undead), and the stolen Seasage Effigy may be the real motive. The party has approximately 26 hours until the trial begins.
+The CP-USS team (newly joined by Detective Kai) clears the Black Whale prison of undead, then investigates the Beast's trial by interviewing witnesses and examining the museum where the Seasage Effigy was stolen. They discover the Beast is likely a golem and interview the Three Sisters from Hergstag Village, whose testimony contains inconsistencies suggesting they may have blamed the Beast for deaths it didn't commit. Transcript quality was poor with frequent speaker misidentifications and audio interference.
 
 ## Key Events
 
-- Kai is assigned by Judge Darymid to assist CP-USS in investigating the Beast of Lepidstadt before its trial, joining Gaspar, Kovira, Dinvaya, and later Elfrip at Precinct 13.
-  - Characters: Kai, Gaspar, Kovira, Dinvaya, Elfrip, Judge Darymid
-  - Location: Lepidstadt
-  - Timeline: 4717.01.21 | Lepidstadt | Detective Kai Gin recruited to CP-USS
-- CP-USS clears the Black Whale prison of undead infestation, discovering former rogue CP-USS officer in anti-magic cell (severed head and body).
-  - Characters: Gaspar, Kovira, Dinvaya, Elfrip, Kai
-  - Location: Black Whale Prison, Lepidstadt bay
-- The party interrogates the Beast in the courthouse basement. It is a large humanoid creature (9-10 feet tall) made of stitched-together body parts, magically created, appears to have childlike intellect, and does not speak.
-  - Characters: Gaspar, Kovira, Dinvaya, Elfrip, Kai
-  - Location: Courthouse basement, Lepidstadt
-- Dr. Crowell at Lepidstadt University identifies the Beast as likely a golem (magically created construct, not alive or undead, resistant to magic). The stolen item from the museum is the Seasage Effigy, a 8-inch jade figurine of a tentacled alien creature worth ~100 gold.
-  - Characters: Kovira, Dr. Crowell
-  - Location: Lepidstadt University museum
-  - Timeline: 4717.01.22 | Lepidstadt | CP-USS begins investigating the charges against the Beast of Lepidstadt
-- The Three Sisters (Garrow, Starla, Flicked) who run a windmill in Lepidstadt give conflicting/incomplete testimony about the Hergstag village incident seven months ago. They admit they never witnessed the Beast kill any children, only saw it gently place the body of Elsa on her doorstep. One child (Karin/Karen) was found dead in a locked room with no marks. The party suspects the sisters are emotionally comforting themselves with blame rather than reporting what they actually witnessed.
-  - Characters: Gaspar, Kai, Kovira, Garrow, Starla, Flicked
-  - Location: Windmill, west Lepidstadt
-- The party discovers the Seasage Effigy was stolen from Lepidstadt University and is likely in the Beast's possession. The timing (stolen 5 days ago vs. Hergstag incident 7 months ago) suggests potential manipulation or connection to a creator.
-  - Characters: Gaspar, Kovira, Kai, Dinvaya, Elfrip
-  - Location: Lepidstadt
-  - Timeline: 4717.12.31 | Lepidstadt | The Beast of Lepidstadt steals the Seasage Effigy from Lepidstadt University
-- Positive energy healing does not affect the Beast, consistent with golem nature (not alive, not undead).
-  - Characters: Dinvaya, Beast of Lepidstadt
-  - Location: Courthouse basement
+- CP-USS completes clearing the Black Whale prison of undead (approximately 110 zombies and several named undead including the zombie cook and Captain Samson). Bodies are disposed of via incineration by city cleanup crews.
+  - Characters: Kovira, Gaspar, Dinvaya, Dismas, Kai
+  - Location: Black Whale Prison, Lepidstadt
+- Detective Kai is recruited to CP-USS by Judge Darymid and assigned to assist with the Beast's murder trial, which begins in approximately 26 hours.
+  - Characters: Kai, Darymid (NPC)
+  - Location: Lepidstadt Courthouse
+  - Timeline: 4717.01.21 — Kai recruited to CP-USS
+- CP-USS interviews the Beast in the courthouse basement. The creature is a large humanoid (approximately 9-10 feet tall) made of stitched-together body parts with potent magic aura. It does not speak and refuses healing magic (positive energy channel has no effect). A tiny yogurt cup is given to the Beast, which it consumes.
+  - Characters: Gaspar, Kovira, Dinvaya, Dismas, Kai, Beast (defendant)
+  - Location: Lepidstadt Courthouse, basement cell
+- CP-USS visits Lepidstadt University Museum. Professor Dr. Crowell reveals that the Seasage Effigy (a jade figurine, ~8 inches tall, valued at 100 gold pieces) was stolen during the Beast's rampage. The theft location shows less damage than surrounding areas, suggesting the Beast may have targeted it specifically. Dr. Crowell suggests the Beast could be a golem, referencing a visiting wizard from decades ago who created a golem.
+  - Characters: Gaspar, Kovira, Dinvaya, Dismas, Kai, Dr. Crowell (NPC)
+  - Location: Lepidstadt University Museum
+  - Timeline: 4717.01.22 — CP-USS investigates Beast charges
+- CP-USS interviews the Three Sisters (Garrow, Starla, and Flick) who run the windmill on the west side of Lepidstadt. They recount the Hergstag Village incident from 7 months prior: seven children disappeared/died. The Beast appeared carrying one dead child (Elsa) with a broken body and placed her gently on her doorstep. Villagers forced the Beast away with pitchforks. One child (Aaron) was found dead in a locked room with no marks and returned as a ghost. The sisters admit they never saw the Beast actually kill any children.
+  - Characters: Gaspar, Kovira, Dinvaya, Dismas, Kai, Garrow (NPC), Starla (NPC), Flick (NPC)
+  - Location: Windmill, west side of Lepidstadt
+- Gaspar uses Discern Lies and detects that the Three Sisters are not deliberately lying but are emotionally motivated to blame the Beast for comfort, and their timeline/details are incomplete or misremembered.
+  - Characters: Gaspar
+  - Location: Windmill, west side of Lepidstadt
 
 ## NPCs Encountered
 
-- [[Judge Embreth Darymid]]
-- [[Gustav Cable (defense attorney)]]
-- [[The Beast of Lepidstadt]]
-- [[Dr. Crowell (museum curator)]]
-- [[Garrow (Three Sisters witness)]]
-- [[Starla (Three Sisters witness)]]
-- [[Flicked (Three Sisters witness)]]
-- [[Andy (front desk clerk at Precinct 13)]]
-- [[Finn (Precinct 13 staff)]]
-- [[Rodney Danger Smith (mentioned, not present)]]
-- [[Dismas (mentioned, not present)]]
+- [[Judge Darymid (Embreth Darymid)]]
+- [[Barrister Gustav Cable (defense attorney)]]
+- [[The Beast (defendant, unnamed golem creature)]]
+- [[Dr. Crowell (museum professor)]]
+- [[Garrow (Three Sisters)]]
+- [[Starla (Three Sisters)]]
+- [[Flick (Three Sisters)]]
+- [[Carl (blind witness, not interviewed)]]
+- [[Lazny (Morath Village elder, not interviewed)]]
 
 ## Locations
 
-- [[Lepidstadt]]
-- [[Black Whale Prison]]
+- [[Black Whale Prison, Lepidstadt]]
 - [[Precinct 13 (CP-USS headquarters)]]
-- [[Courthouse (basement and legal library)]]
-- [[Lepidstadt University (museum)]]
-- [[Windmill on west side of Lepidstadt]]
-- [[Hergstag village (not visited, but discussed)]]
+- [[Lepidstadt Courthouse]]
+- [[Lepidstadt University Museum]]
+- [[Windmill, west side of Lepidstadt]]
+- [[Hergstag Village (referenced, not visited in this session)]]
 
 ## Combat Encounters
 
-- Clearing Black Whale prison of ~110 zombies over two days; five former named CP-USS operatives were among the most dangerous
+- Clearing approximately 110 zombies from the Black Whale prison over two days, including named undead such as the zombie cook and Captain Samson
 
 ## Items & Loot
 
-- Masterwork cleaver (evil-tainted, needs cleaning)
-- 800 pounds of enchanted forever-yogurt cups
-- 1100 cat toys (found on Black Whale, mostly discarded)
-- Silver CP-USS badges (magical protection item)
-- Multiple old-style police badges (no legal authority, one from old prison warden)
+- Masterwork cleaver (from zombie cook, contaminated with evil aura, sent to evidence locker)
+- Stink grenades
+- Multiple CP-USS badges (silver badges recovered)
+- 800 pounds of enchanted yogurt cups (preserved with cheap 6-month enchantment)
+- 1100 cat toys (recovered but fate unclear)
+- Seasage Effigy (jade figurine, ~8 inches tall, stolen by Beast, current location unknown)
 
 ## Notable Quotes
 
-> if the Beast is innocent I don't want to punish him for like something he didn't do
-> Wizards are often fascinated by goals you make a goal you make an iron goleman flesh Golem Avenue
+> I would punch a judge
+> Wizards are often fascinated by golems. You make a golem, you make an iron golem, flesh golem... out of pots of dead things
 > he sat her down very gently on her doorstep
-> there is just half a day from here a town that I believe all or see puss
+> I got this rash here I think it might be the ghoul rot
+> if one of the townspeople had found Elsa and brought her back I don't think he would have been as quick to judge someone who didn't look like a nine foot tall pile with monster
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Whether the Beast actually killed the children in Hergstag or if the deaths were caused by something else (possibly a wizard/creator or ghosts); testimony is contradictory and witnesses admit they never saw the Beast kill anyone
-- The significance of the Seasage Effigy being stolen and why the Beast wanted it
-- Whether the Beast has a creator still controlling it, or if it is autonomous
-- The true nature of the 'ghost children' haunting Hergstag and whether they are genuine or manifestations of something else
-- Whether the last child (Karin/Karen) found dead in a locked room was killed by the Beast, a ghost, or something else
-- Whether the Whispering Way has any involvement with the Beast (unclear from this session)
+- Whether the Seasage Effigy is still in the Beast's possession or has been consumed/discarded
+- The true identity and origin of the Beast (golem confirmed as possibility, but creator unknown)
+- Whether the Beast can actually speak or understand language
+- The exact cause of death for the six children from Hergstag whose bodies were never found
+- The role, if any, of the missing Seasage Effigy in the children's deaths or resurrection as ghosts
+- Whether a wizard or other entity is controlling the Beast remotely
+- Whether there is an active haunting in Hergstag Village that CP-USS will need to address
+- The status of Dismas in this session (referenced but minimal dialogue; unclear if actively present or off-screen)
 

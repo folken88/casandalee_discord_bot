@@ -5,8 +5,8 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "5L1op1QMw18"
 sourceFile: "CC - 5L1op1QMw18 - Carrion Crown -Butterfly Effect 2024 06 15.md"
-processedAt: "2026-03-25T01:21:05.707Z"
-transcriptQuality: "poor"
+processedAt: "2026-03-25T17:11:45.050Z"
+transcriptQuality: "fair"
 charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
 tags: ["summary", "cc", "session"]
 ---
@@ -14,91 +14,90 @@ tags: ["summary", "cc", "session"]
 # Carrion Crown - Butterfly Effect 2024-06-15
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=5L1op1QMw18)
-**Transcript Quality:** poor
+**Transcript Quality:** fair
 **Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
 
 ## Summary
 
-CP-USS enters the Stairs of the Moon temple to retrieve a Whispering Way cultist's body. They encounter a ghostly wolf spirit (Vilkacis) that possesses Kai, forcing him to attack Dinvaya before Kovira dispels it. The party defeats the spirit, then descends deeper into an ancient Desna temple where they meet a powerful celestial entity and discover the corpse of a female cultist (Alanna Moepaia) who deliberately killed herself to protect secrets. The party recovers her equipment, including maps with several marked locations, poisons, and robes belonging to the Whispering Way.
+CP-USS descended into the Stairs of the Moon temple to retrieve the corpse of a Whispering Way cultist. A ghostly wolf spirit possessed Kai during exploration, forcing the party to dispel it and engage in combat. They recovered the cultist's body, discovered a map marking multiple locations, and communed with an ancient angel of Desna in the temple's lower chamber. The session ended with preparation to cast Speak with Dead on the corpse to interrogate it.
 
 ## Key Events
 
-- Ghostly wolf spirit (Vilkacis) attempts to possess party members. Successfully possesses Kai and forces him to make a full sneak attack against Dinvaya (33 damage) before Kovira casts Dispel Magic to remove the possession.
-  - Characters: Kai, Dinvaya, Kovira, Gaspar, Kate, Dismas, Elfrip
-  - Location: Stairs of the Moon - central cavern chamber
-- CP-USS kills the Vilkacis ghost spirit using multiple damage sources, including Dismas's rifle, spell damage from multiple casters, and finally Gaspar's Haunt Siphon grenade.
-  - Characters: Gaspar, Dismas, Kovira, Kate, Elfrip
-  - Location: Stairs of the Moon - central cavern
-- Party descends to lower temple level and encounters a massive ghostly purple butterfly (celestial entity, possibly an Azata or angel of Desna) sitting on central platform. The entity communicates telepathically and shares information about the deceased cultist.
-  - Characters: Elfrip, Dinvaya, Kovira, Kai, Gaspar, Kate, Dismas
-  - Location: Stairs of the Moon - temple of Desna lower sanctum
-- Party recovers corpse of female Whispering Way cultist identified as Alanna Moepaia (Vaerian name). She deliberately killed herself to protect cultist secrets. Celestial entity confirms this through telepathic memory sharing.
-  - Characters: Elfrip
-  - Location: Stairs of the Moon - Desna temple lower sanctum
-- Party acquires significant magical loot from cultist: Whispering Way robes (+5 AC, constant air bubble, acid resistance 20), various poisons, spell components (3,000 gp worth of onyx gems for Create Undead), spirit compass, scroll belt with invisibility scroll, ring of protection, and other cursed/enchanted items. Items are catalogued but testing for curses is deferred.
-  - Characters: Kate, Kovira
+- CP-USS encounters a ghostly wolf spirit in the Stairs of the Moon temple that attempts to possess Kai; Kovira dispels the possession, forcing the spirit to manifest as a visible translucent creature; the party defeats it using Haunt Siphon grenades.
+  - Characters: Kai, Kovira, Gaspar, Dismas, Rodney Danger Smith, Elfrip, Kate Blackwood, Dinvaya
+  - Location: Stairs of the Moon, Shudderwood
+- The party recovers the corpse of a cultist named Alain Morapaia who died in the temple; they discover she was bitten by a werewolf and deliberately bled to death to prevent interrogation by destroying her own head.
+  - Characters: Kovira, Gaspar, Elfrip, Kate Blackwood, Kai, Dinvaya, Dismas, Rodney Danger Smith
+  - Location: Stairs of the Moon, lower temple chamber
+- CP-USS encounters an ancient purple butterfly-shaped angel of Desna in the lower temple; the angel confirms it allowed the cultist to die peacefully and provides a telepathic memory of the cultist's final conversation about protecting secrets and mentioning a heart and Tar.
+  - Characters: Kovira, Gaspar, Elfrip, Kate Blackwood, Kai, Dinvaya, Dismas, Rodney Danger Smith
+  - Location: Stairs of the Moon, lower temple chamber with central platform and statues
+- The party recovers several magical items from the cultist's possession including Whispering Way robes with air bubble and acid resistance, an invisibility scroll belt, a ring of protection, a spirit compass, and deadly poisons; they also find a map marked with multiple X locations including Lepidstadt, Ravengro, and other sites.
+  - Characters: Kovira, Gaspar, Elfrip, Kate Blackwood, Kai, Dinvaya, Dismas, Rodney Danger Smith
   - Location: Stairs of the Moon
-- Party discovers map in cultist's possession marked with four X locations: one at Lepidstadt, one at Ravengro, one at current location (Stairs of the Moon), and two others in remote wilderness areas near Calimshan/Osirion region.
-  - Characters: Gaspar, Dismas
-  - Location: Stairs of the Moon
-- Celestial entity (Desna-aligned) informs party that the Vilkacis spirit was recently called away by Estovion but will return soon (within a day, possibly sooner). Entity suggests Estovion may have been attempting to distract the party or to actually kill them since he knows they're pursuing the Whispering Way.
-  - Characters: All party members
-  - Location: Stairs of the Moon - temple sanctum
+- The party tests potentially cursed items from the cultist (ring and robes) in front of allies to verify they cause no harmful effects; all items test safely.
+  - Characters: Kate Blackwood, Kovira
+  - Location: Camp near Stairs of the Moon
 
 ## NPCs Encountered
 
-- [[Estovion Lazarov (mentioned/not present)]]
-- [[Celestial entity (Desna-aligned purple butterfly/moth)]]
-- [[Alanna Moepaia (deceased cultist)]]
-- [[Duran/Durationians (mentioned, camp guards, werewolves)]]
+- [[Estovion Lazarov (mentioned; arranged werewolf meeting)]]
+- [[Duran (werewolf, stayed behind at camp)]]
+- [[Meyanda (mentioned)]]
+- [[Desna (goddess, not directly encountered)]]
+- [[Vesorianna (referenced from prior events)]]
+- [[Alain Morapaia (deceased cultist, corpse recovered)]]
+- [[Ancient angel of Desna (Vasilisa - telepathic encounter)]]
 
 ## Locations
 
 - [[Stairs of the Moon]]
-- [[Stairs of the Moon - central cavern/bowl chamber]]
-- [[Stairs of the Moon - temple of Desna (lower sanctum)]]
-- [[Ascanor Lodge (mentioned, party base)]]
+- [[Upper temple chamber with dark doorway]]
+- [[Ramp descending into bowl-shaped cavern]]
+- [[Lower temple chamber with central platform]]
+- [[Camp near Stairs of the Moon]]
 
 ## Combat Encounters
 
-- Vilkacis (ghostly wolf spirit possessing Kai) - 3 rounds: Kai makes full sneak attack on Dinvaya (33 damage); Kovira casts Dispel Magic to remove possession; party attacks visible spirit with rifles, spells, and grenades; Gaspar uses Haunt Siphon 3.0 grenade to permanently destroy the spirit.
+- Ghostly wolf spirit (Vasilisa or related entity) - possessed Kai, manifested as intangible translucent creature, defeated with Haunt Siphon grenades after multiple rounds of combat involving Dispel Magic, Shocking Grasp, magical attacks, and grenade launcher strikes
 
 ## Items & Loot
 
-- Whispering Way full outfit/robes (provides +5 AC, constant air bubble, acid resistance 20, concealment/disguise)
-- Plague doctor mask (enchanted air bubble component)
-- Spirit Compass (for detecting spirits/undead)
-- Scroll belt (loaded with Invisibility scroll)
-- Ring of Protection +1 (tested, appears unaffected by curse)
-- Bracers of Armor +2 (worn by recovered cultist)
-- 3,000 gp worth of onyx gems (components for Create Undead spells)
-- Various deadly poisons (specific types catalogued but not detailed in confident summary)
-- Magical dagger (Brently Molepox dagger - grants 3 rounds invisibility in dim/darkness)
-- Spell components and alchemical materials
-- Map with marked locations (Lepidstadt, Ravengro, current location, and two wilderness sites)
-- Manifesto/notes on Caromarc's will influencing all his creations
-- Spell books and arcane research notes
+- Whispering Way robes (+5 armor class, air bubble constant, acid resistance 20)
+- Ring of protection (low-grade evil aura, tested and found safe)
+- Scroll belt (holds invisibility spell and other scrolls)
+- Spirit compass (for detecting undead)
+- Masterwork dagger (Morninglight dagger, invisibility in dim light for 3 rounds)
+- Map with marked locations (Lepidstadt, Ravengro, and other sites marked with X's)
+- Onyx gems (worth ~3,000 gold, components for Create Undead spell)
+- Manifesto/writings (evil philosophy text)
+- Deadly poisons (multiple types in cultist's pack)
+- Spell book of Titus Medanis
+- Black market book (worth couple hundred gold)
+- Various plague masks and dark robes
 
 ## Notable Quotes
 
 > I keep a haste potion between my butt cheeks for when I'm approaching climax
 > everyone here is gay
-> I have you on the record saying you wanted to
-> The curse of lycanthropy is about as sophisticated a method to become a werewolf as anybody can manage
-> there is nothing down here in ions
-> You will be kind in action
-> if you are in the possession of evil for a long time
-> The spirit feels some individual interest in the wearer of the bastard blade
+> I just got to hear that in a different voice titty sprinkles
+> I wanted to kill Dena when you mentioned I was like she's the cleric
+> new people get beheaded by an Axe Murderer that's what happened last time you brought a friend to the campaign
+> we have no idea what's in here AAR doesn't detect us Undead
+> I keep a haste potion between my butt checks for when I'm approaching climax I assume my partner has already had dozens
+> what's the name of our our next opponent
+> don't worry about get we'll go to another map then you can arrange arrange cors
+> it's like the eagles the Lord of the Rings you can CH ass out now back
+> we kill Kai this time
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Whether Estovion intentionally sent Vilkacis to kill the party or merely to distract them during their retrieval mission
-- Exact nature of the celestial entity's relationship to Desna (Azata, Deva, or other type of celestial)
-- Whether the Whispering Way robes contain a subtle curse or compulsion that wasn't detected by party's caution
-- What the two unmarked X locations on the map represent
-- Whether Alanna Moepaia's suicide spell cast (mentioned by celestial) was a glyph of warding or similar trap
-- Full nature of Whispering Way's plans involving whatever they intend to free from 'prison'
-- Identity and nature of the second intelligence/mind mentioned as existing within Vilkacis alongside the spirit
+- Exact nature of the second entity detected inside the cultist's mind during Kai's possession (possibly Aoan or another spirit entity)
+- The relationship between Estovion Lazarov and the ghostly wolf spirit - whether he intentionally sent it or it manifested independently
+- Whether the angel (Vasilisa) provided all the information it possessed about Whispering Way plans or held back certain details
+- The specific purposes of the other three X-marked locations on the recovered map beyond Lepidstadt and Ravengro
+- The nature and full extent of potential magical compulsions or geas spells placed on the cultist's corpse beyond the basic observation of a geas-like protection
+- How the demon wolves mentioned by the angel relate to the Whispering Way's plans or if they were summoned/controlled separately
 

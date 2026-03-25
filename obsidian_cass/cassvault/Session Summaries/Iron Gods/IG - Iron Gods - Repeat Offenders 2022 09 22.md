@@ -5,90 +5,72 @@ campaign: "IG"
 campaignName: "Iron Gods"
 videoId: "IhD-q8RPCkk"
 sourceFile: "IG - IhD-q8RPCkk - Iron Gods - Repeat Offenders 2022 09 22.md"
-processedAt: "2026-03-25T02:10:30.116Z"
-transcriptQuality: "fair"
-charactersPresent: ["Ulfred", "Nomkath", "Mr Brow", "Olbryn", "Akradenn", "Luna", "McGinnis", "Azuma"]
+processedAt: "2026-03-25T18:00:45.137Z"
+transcriptQuality: "poor"
+charactersPresent: ["Ulfred", "Nomkath", "Mr Brow", "Olbryn", "Akradenn", "Luna"]
 tags: ["summary", "ig", "session"]
 ---
 
 # Iron Gods - Repeat Offenders 2022 09 22
 
 **Campaign:** Iron Gods | **Video:** [Watch on YouTube](https://youtube.com/watch?v=IhD-q8RPCkk)
-**Transcript Quality:** fair
-**Characters Present:** Ulfred, Nomkath, Mr Brow, Olbryn, Akradenn, Luna, McGinnis, Azuma
+**Transcript Quality:** poor
+**Characters Present:** Ulfred, Nomkath, Mr Brow, Olbryn, Akradenn, Luna
 
 ## Summary
 
-The party assaults the Dominion hive with a direct frontal attack. After a brutal battle with the Annihilator robot (a larger version of Hellion's destroyed chassis), Tokala destroys its reactor core in a massive explosion. The group then discovers stasis chambers holding two injured half-orc prisoners and decides to free them. Moving deeper into the complex, they encounter a tentacled bio-mechanical incubator that spawns disease-ridden spider creatures, which they defeat in a challenging combat encounter.
+The party assaults the Dominion of the Black's hive entrance. They defeat a massive damaged Annihilator robot in a fierce battle, with Tokala destroying its core reactor. They then discover stasis chambers containing two injured half-orc prisoners and a bio-weapon incubation chamber that spawns disease-ridden cyborg spiders. Transcript quality was poor with significant audio issues and auto-caption errors.
 
 ## Key Events
 
-- Party camps near the hive entrance and rests. Tokala and Nomkath experience shared dreams of hiding from Dominion forces searching for them. They recognize a psychic connection and use lucid dreaming to evade detection.
-  - Characters: Tokala, Nomkath
-  - Location: Forest near Dominion hive
-- McGinnis drives the Nomad toward the hive, receiving a Survival check from Azuma that allows the party to arrive with five preparation rounds of buffs active before combat begins.
-  - Characters: McGinnis, Azuma, all party members
-  - Location: Valley approach to Dominion cave
-- Party arrives at the hive entrance and is ambushed by the Annihilator robot—a massive six-legged construct with tentacle tail, multiple sensor eyes, and chain gun weapon. It is heavily damaged with blast marks and dents.
-  - Characters: all party members
-  - Location: Dominion hive entrance chamber
-- The Annihilator fills the chamber with a barrage of gunfire, injuring multiple party members. Nomkath is struck for 38 damage. Alfred takes 36 damage. Olbryn takes full brunt of the attack and is heavily wounded.
-  - Characters: Nomkath, Ulfred, Olbryn, McGinnis, Azuma
-  - Location: Dominion hive entrance chamber
-- Tokala engages the robot in melee combat with his spiritual weapon (appearing as a chainsaw-sword), dealing significant damage and striking the exposed reactor core. McGinnis provides heavy laser fire. Oberyn casts lightning bolt, which the robot attempts to minimize by rotating its damaged side away.
-  - Characters: Tokala, McGinnis, Olbryn, Ulfred
-  - Location: Dominion hive entrance chamber
-- Tokala drives his chainsaw directly into the Annihilator's fusion reactor core. McGinnis holds fire to allow safe retreat. The reactor explodes early, dealing 87 fire damage to nearby combatants. Tokala is pinned under stone slab he summoned to protect himself. Nomkath is blasted into a junk pile but survives.
-  - Characters: Tokala, McGinnis, Nomkath, Olbryn, Ulfred
-  - Location: Dominion hive entrance chamber
-- Party discovers stasis chamber room containing two badly injured, sedated half-orc males. After debate, they decide to free them despite significant injuries and potential mental contamination risks. The party uses knowledge engineering to carefully wake them without lethal harm.
-  - Characters: McGinnis, Nomkath, Ulfred, Kroktah, all party members
-  - Location: Stasis chamber room (south of entrance chamber)
-- Party moves north and east through passages, discovering a tentacled bio-mechanical wall creature that spawns disease-ridden hybrid spider creatures. Oberyn initiates combat with magic missiles. Multiple ergophrus (disease-infected cyber-organic spiders) are deployed.
-  - Characters: Olbryn, Zuma, all party members
-  - Location: Passage/tunnel chamber east of entrance
-- Combat with ergophrus creatures. Olbryn polymorphs one spider into a tiny chipmunk. Party defeats most spiders efficiently. The chipmunk version fires disease-infected bone fragments as projectile weapons. Tokala contracts implant rejection disease from being hit by infected projectiles.
-  - Characters: Olbryn, Tokala, Ulfred, McGinnis, Nomkath, Azuma
-  - Location: Passage/tunnel chamber
-- Party determines the tentacled incubator machine grows 1-2 spiders per day and is a significant threat if left active. Machine has high hardness and HP, would take many minutes even for Tokala to destroy, but is currently spent of spiders. *(medium confidence)*
-  - Characters: all party members
-  - Location: Passage/tunnel chamber
+- Party arrives at the Dominion hive entrance and encounters a massive Annihilator robot, larger and more damaged than Hellion. Tokala uses a chainsaw spiritual weapon to destroy its fusion reactor in a coordinated final strike by the party.
+  - Characters: Tokala, Nomkath, Olbryn, Akradenn, Luna, Ulfred, Mr Brow
+  - Location: Dominion Hive - Main Chamber
+- Party discovers stasis chamber with two sedated half-orc prisoners badly injured but alive and uninfected. After debate, they initiate the wake-up protocol but leave the Orcs to recover while the party continues deeper.
+  - Characters: Mr Brow, Nomkath, Tokala
+  - Location: Dominion Hive - Stasis Chamber
+- Party encounters a bio-weapon incubation chamber with tentacled wall-mounted device that spawns disease-ridden cyborg spider creatures. Party defeats multiple waves of these creatures in combat.
+  - Characters: Olbryn, Akradenn, Tokala, Ulfred, Mr Brow, Nomkath, Luna
+  - Location: Dominion Hive - North Passage/Spider Incubation Chamber
 
 ## NPCs Encountered
 
-- [[Azuma]]
+- [[Casandalee]]
+- [[Zuma]]
 
 ## Locations
 
-- [[Forest near Dominion hive]]
-- [[Valley approach to Dominion cave]]
-- [[Dominion hive entrance chamber]]
-- [[Stasis chamber room]]
-- [[Passage/tunnel chamber (east)]]
+- [[Dominion Hive - Main Entrance]]
+- [[Dominion Hive - Main Chamber]]
+- [[Dominion Hive - Stasis Chamber]]
+- [[Dominion Hive - North Passage]]
 
 ## Combat Encounters
 
-- Annihilator robot (massive six-legged construct with tentacle tail, sensor eyes, chain gun; heavily damaged)
-- Ergophrus spider creatures (disease-infected hybrid cyber-organic spiders spawned from tentacled incubator; includes one polymorphed into tiny chipmunk)
+- Annihilator Robot (massive six-legged construct with plasma weaponry and rotting acid core)
+- Ergophrus Spider Creatures (disease-ridden cyborg bio-weapons, spawned from wall incubation chamber; includes one polymorphed to tiny chipmunk form)
 
 ## Items & Loot
 
-- Wand of infernal healing (acquired/refilled for Nomkath)
-- Medical/healing supplies used on freed orc prisoners
+- Wand of Infernal Healing (multiple charges)
+- Dominion Laser (fire damage weapon)
 
 ## Notable Quotes
 
-> that was so ridiculously loud I couldn't hear anything being said
+> he pulls off his sunglasses as the like David Caruso
+> if you're gonna be slinging bullets my way you better be ready for it uh throw back my friend
 > fall back that thing's gonna blow
-> I'm gonna have to get something better for my blades
-> God damn good Slingers and wizards get in there before they get it
-> Friendship over with Alpha chipmunk
+> that's a good thing I was already bald
+> I am cussing him out in a highlight specifically in Hallett
+> the lesson is don't make friends with Enrique characters
+> every time you befriend one of my characters I must kill them
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Whether the freed half-orc prisoners will survive and potentially aid the party later
-- Full extent of Dominion facilities beyond the visible chambers—there may be additional encounters deeper in the hive
-- Whether Tokala's implant rejection disease will progress or if he can be healed before the disease becomes critical
+- Whether the Dominion incubation chamber can be destroyed or if the party will attempt to disable it
+- Fate of the two half-orc prisoners and whether they will rejoin the party or cause complications
+- Whether additional Dominion forces await deeper in the hive beyond the current chamber
+- The nature and extent of the fleshy biological walls and green glowing substance throughout the hive
 

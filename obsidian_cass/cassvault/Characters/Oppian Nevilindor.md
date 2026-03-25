@@ -1,19 +1,25 @@
 ---
 name: "Oppian Nevilindor"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["HV"]
-mentions: 2
-tags: ["character", "npc", "hv"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T17:07:45.155Z"
 ---
 
 # Oppian Nevilindor
 
-**Type:** NPC
-**Campaigns:** HV
-**Mentions:** 2 session(s)
-
+**Race:** Unknown | **Class:** Unknown
 
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Referenced as a previous high-level cleric and experienced warrior that the party fought before; described as having the ear of demigods with many buff spells *(youtube-transcript, 3/25/2026)*
+- Mentioned as definitely dead and not aligned with the party at any point *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

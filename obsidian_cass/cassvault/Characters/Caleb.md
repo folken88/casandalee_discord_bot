@@ -1,19 +1,22 @@
 ---
 name: "Caleb"
-type: pc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["HR"]
-mentions: 4
-tags: ["character", "pc", "hr"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:30:05.542Z"
 ---
 
 # Caleb
 
-**Type:** Player Character
-**Campaigns:** HR
-**Mentions:** 4 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Enemy combatant with less HP than others but more reach and speed, described as wicked. Stunning her was noted as significant *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

@@ -5,7 +5,7 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "1XwZht9wcJg"
 sourceFile: "CC - 1XwZht9wcJg - Carrion Crown - I Can Fix Him 2023 10 01.md"
-processedAt: "2026-03-25T01:16:59.381Z"
+processedAt: "2026-03-25T17:07:59.982Z"
 transcriptQuality: "fair"
 charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
 tags: ["summary", "cc", "session"]
@@ -19,75 +19,76 @@ tags: ["summary", "cc", "session"]
 
 ## Summary
 
-CP-USS travels to Torch, Numeria via teleportation to assist with a new project: transferring the Beast's consciousness into a new wooden golem body constructed by Count Caromarc. Upon arrival, they discover Torch is under siege by approximately 5,000 barbarians (a mix of junker tribe and fallen gang refugees) manipulated by the Technic League as a distraction. Kovira conducts invisible reconnaissance of the siege forces and identifies at least one wizard/mage among the encamped troops, while the party begins planning how to disrupt the siege.
+CP-USS arrives in Torch via teleportation to assist with a siege by barbarian forces believed to be manipulated by the Technic League. The party meets with Meyanda and Dolga to begin assembling a new wooden golem body for the Beast using parts from Count Caromarc's creations. Kovira scouts the enemy encampment outside the city to gather intelligence on their forces and leadership before engagement.
 
 ## Key Events
 
-- CP-USS teleports from Lepidstadt to Torch via two castings of teleport by the android woman 'Trust'. They are warned en route that Torch is under siege.
+- CP-USS teleports from Lepidstadt to Torch via magistrate Rolls and an Android named Trust, arriving in a town under siege by approximately 5,000 barbarians from multiple displaced tribes.
   - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
-  - Location: Lepidstadt University → Torch, Numeria
-  - Timeline: 4717.02.28 onwards (CP-USS traveling back to Ustalav)
-- Party meets with Conor (leader of Torch) who briefs them on the siege: ~5,000 barbarians from junker tribe and 'fallen' gang, supported/manipulated by Technic League operatives (estimate ~dozen observed). Barbarians believe Torch holds their 'spiritual guides' (false pretext). Technic League likely using siege as distraction to prevent Torch from aiding other allies.
-  - Characters: Gaspar, Kovira, Kai, Dinvaya, Conor
-  - Location: Torch, Numeria
-- Party visits Dolga's Foundry and meets Meyanda, the android from Numeria. After explaining their goal, Meyanda and the fiery dwarf craftsperson agree to help assemble and transfer the Beast's brain into the wooden golem body constructed by Count Caromarc.
-  - Characters: Gaspar, Kovira, Dinvaya, Kate Blackwood, Meyanda, Dolga (fiery dwarf)
-  - Location: Dolga's Foundry, Torch
-- Meyanda reveals an underground advanced facility beneath Torch (accessed via hidden elevator in the foundry) - described as a 'trauma ward' - where the Beast's brain will be kept and eventually transferred to the new body.
-  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Dismas, Meyanda
+  - Location: Torch
+  - Timeline: Between 4717.02.28 and session start
+- Dinvaya and Kai explain they know people in Torch (Toala, Alred) and that the city is under siege by the Junker Clan and other refugees, believed to be manipulated by the Technic League.
+  - Characters: Dinvaya, Kai, Conor
+  - Location: Torch
+- CP-USS visits Meyanda at Dolga's Foundry. Gaspar shows Meyanda the Golem parts from Count Caromarc and the Beast's brain in a jar. Meyanda agrees to help assemble a new body for the Beast and arranges access to an underground facility.
+  - Characters: Gaspar, Dinvaya, Meyanda, Dolga
+  - Location: Torch - Dolga's Foundry
+- Meyanda reveals an underground facility beneath Torch containing advanced pre-collapse technology (described as a 'trauma ward'). She places the Beast's brain on life support and begins assembling the new organic-material golem body.
+  - Characters: Meyanda, Gaspar, Kate Blackwood, Dinvaya
   - Location: Underground facility beneath Torch
-- Kate Blackwood connects psychically with the Beast's brain in the jar. She relays that the Beast never felt like themselves in the original body and queries whether the new body will make them feel more authentic. Party decides to proceed with the transfer.
-  - Characters: Kate Blackwood, Beast
-  - Location: Underground facility, Torch
-- Kovira conducts invisible reconnaissance of the siege encampment to the east of Torch. She observes multiple barbarian tribes camped in organized positions, identifies at least one wizard/mage among them, notes they are complacent and not expecting immediate attack or counterattack from the town. Reports findings to the party.
+- Kate Blackwood communicates with the Beast's brain via psychic contact to confirm its willingness to transfer to the new body.
+  - Characters: Kate Blackwood
+  - Location: Underground facility beneath Torch
+- Kovira scouts the enemy encampment outside Torch while invisible and flying, observing multiple tribes with distinct equipment, at least two mages/wizards, and a complacent force that is not expecting immediate attack or counterattack.
   - Characters: Kovira
-  - Location: Siege encampment east of Torch
+  - Location: Outside Torch, enemy encampment
 
 ## NPCs Encountered
 
-- [[Trust (android teleporter)]]
-- [[Conor (leader of Torch)]]
-- [[Professor Croll (museum curator, Lepidstadt)]]
-- [[Magistrate Rolls (Lepidstadt Wizarding Academy)]]
-- [[Meyanda (android craftsperson)]]
-- [[Dolga (dwarf blacksmith, fiery-haired)]]
+- [[Magistrate Rolls]]
+- [[Trust (Android)]]
+- [[Conor]]
+- [[Meyanda]]
+- [[Dolga]]
+- [[Professor Croll]]
+- [[Kendra Lorrimor (mentioned)]]
 
 ## Locations
 
 - [[Lepidstadt University]]
-- [[Lepidstadt Wizarding Academy]]
-- [[Torch, Numeria]]
+- [[Torch]]
 - [[Dolga's Foundry]]
 - [[Underground facility beneath Torch]]
-- [[Siege encampment (east of Torch)]]
 
 
 ## Items & Loot
 
-- Golem parts from Count Caromarc's construction (85 lbs)
-- Beast's brain in jar
-- Fly potion (provided by Conor)
-- Invisibility potion (provided by Conor)
-- Person Remover potion (consumed by Kovira for reconnaissance)
-- Nose Diamond drug (purchased)
+- Golem parts from Count Caromarc
+- Beast's brain in a jar
+- Potion of Expeditious Retreat (sold by Dinvaya)
+- Nose Diamonds (purchased, caused issues with Kai's character sheet)
+- Wand of Levitate
+- Fly potion (given by Conor)
+- Invisibility potion (given by Conor)
+- Potion of Person Remover (used by Kovira for scouting)
 
 ## Notable Quotes
 
 > you could walk there in three weeks if it weren't for the hills than the cannibals
-> this there's a problem in the town you wish to teleport to they are being sieged by an army
-> state of the art corpse metal band name
-> the articulation on these joints would be a brilliant design if they weren't made of wood
-> it is basically wooden Android
-> clear the pad please
+> there's a problem in the town you wish to teleport to they are being sieged by an army
+> these angry barbarians are supported or manipulated by the technque league
 > don't get too Technical
-> I can fix him
+> I am called trust
+> wooden buddy
+> it's basically wooden Android
+> I can fix him says woman who is worse
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Exact nature of the Technic League's presence in Numeria and current operations
-- Identity or objectives of specific Technic League operatives in the siege force
-- Whether the wooden golem body will be functional for extended combat
-- Full extent of the underground facility's capabilities beyond the 'trauma ward'
+- Possible previous relationship or history between Dinvaya and other adventuring groups in Torch (mentioned Toala and Alred as 'other friends')
+- Exact nature of Meyanda's reaction to the Beast's predicament - she seemed unmoved and professional rather than sympathetic
+- Whether the Technic League directly sent operatives or merely manipulated the barbarians indirectly
+- The full extent of the underground technology beneath Torch and its origins
 

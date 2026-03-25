@@ -5,7 +5,7 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "Da8xT6rFE3M"
 sourceFile: "CC - Da8xT6rFE3M - Justice Gorls - High End Art from Caliphas.md"
-processedAt: "2026-03-25T01:24:40.863Z"
+processedAt: "2026-03-25T17:15:31.154Z"
 transcriptQuality: "poor"
 charactersPresent: []
 tags: ["summary", "cc", "session"]
@@ -19,17 +19,22 @@ tags: ["summary", "cc", "session"]
 
 ## Summary
 
-Unable to extract session events. The transcript consists almost entirely of auto-generated music/audio artifacts and does not contain identifiable dialogue, narration, or game content.
+Transcript quality was poor. The auto-generated transcript consists almost entirely of garbled audio fragments with no intelligible game content, speaker identification, or narrative coherence. No verifiable session events could be extracted.
 
 
 
 
 
 
+## Notable Quotes
+
+> pimp
+> spin feel
+> me you know I th them [ __ ] them love
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- The session title references 'Caliphas' and 'high end art,' suggesting the party may have traveled to or been in Caliphas during this session, but no transcript evidence supports this.
+- The transcript may contain game content, but it is too severely garbled to identify any events, character actions, locations, or dialogue with confidence.
 

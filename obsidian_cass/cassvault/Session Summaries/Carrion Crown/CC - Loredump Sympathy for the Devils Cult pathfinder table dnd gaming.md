@@ -5,7 +5,7 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "jyZQGbzasQk"
 sourceFile: "CC - jyZQGbzasQk - Loredump Sympathy for the Devils Cult pathfinder table dnd gaming.md"
-processedAt: "2026-03-25T01:47:09.507Z"
+processedAt: "2026-03-25T17:37:44.099Z"
 transcriptQuality: "poor"
 charactersPresent: []
 tags: ["summary", "cc", "session"]
@@ -19,31 +19,27 @@ tags: ["summary", "cc", "session"]
 
 ## Summary
 
-This transcript appears to be a heavily garbled auto-caption of a narrative/roleplay scene involving a character who was bitten by a wolf and fled underground. A dialogue occurs between this character and another (possibly named Thalia or similar) regarding obtaining 'the heart of the back' and destroying a body to protect secrets. The audio quality is extremely poor with significant Music interruptions, making confident event reconstruction impossible.
+Transcript quality was poor. A dialogue fragment appears to involve discussion of a wolf bite, retrieving a heart, and a character named Thalia or similar being told they will die or be destroyed to protect secrets. Speaker identification is not possible from the audio.
 
 
 
-## Locations
-
-- [[Underground location (implied by 'fled down here')]]
 
 
 
 ## Notable Quotes
 
 > how came you here I was bitten by a wolf
-> and I fled down here
-> I must die to protect our cause
-> but you are already dying and yet yet also killing yourself
+> why well I we need the heart of the back
+> I must die to protect our cause but you are already dying and yet yet also killing yourself
 > I Must Destroy my body to protect Secrets
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- A character was bitten by a wolf and fled to an underground location
-- Someone or some group needed/obtained 'the heart of the back' (possibly mishearing 'heart of the Beast' or similar)
-- A character named Thalia (or similar) may be present in the scene
-- There may be discussion of ritual suicide or self-destruction to protect secrets
-- Possible reference to granting peace/rest to a character after suffering
+- A character claims to have been bitten by a wolf and fled to an unspecified location
+- Someone references needing 'the heart of the back' (possibly mishearing 'the heart of the beast' or similar)
+- A character (possibly named Thalia) discusses self-destruction to protect secrets
+- An NPC tells the character they will 'go in peace after your lifetime of pain'
+- Possible reference to someone's name being asked for at the end
 

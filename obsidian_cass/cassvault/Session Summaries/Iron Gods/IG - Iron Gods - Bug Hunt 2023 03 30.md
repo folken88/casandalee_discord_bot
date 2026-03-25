@@ -5,97 +5,101 @@ campaign: "IG"
 campaignName: "Iron Gods"
 videoId: "CkeTo11dbg4"
 sourceFile: "IG - CkeTo11dbg4 - Iron Gods - Bug Hunt 2023 03 30.md"
-processedAt: "2026-03-25T02:07:09.857Z"
-transcriptQuality: "fair"
-charactersPresent: ["Ulfred", "Nomkath", "Mr Brow (Olbryn)", "Tokala", "Akradenn (Alfred)", "Luna"]
+processedAt: "2026-03-25T17:57:46.585Z"
+transcriptQuality: "poor"
+charactersPresent: ["Ulfred", "Nomkath", "Mr Brow", "Olbryn", "Akradenn", "Luna", "Tokala", "Kroktah"]
 tags: ["summary", "ig", "session"]
 ---
 
 # Iron Gods - Bug Hunt 2023 03 30
 
 **Campaign:** Iron Gods | **Video:** [Watch on YouTube](https://youtube.com/watch?v=CkeTo11dbg4)
-**Transcript Quality:** fair
-**Characters Present:** Ulfred, Nomkath, Mr Brow (Olbryn), Tokala, Akradenn (Alfred), Luna
+**Transcript Quality:** poor
+**Characters Present:** Ulfred, Nomkath, Mr Brow, Olbryn, Akradenn, Luna, Tokala, Kroktah
 
 ## Summary
 
-The party conducted an undercover operation in Starfall's underground market to locate and apprehend a Technic League captain involved in illicit dealings. After Tokala was incapacitated by local drugs, the party set up an ambush. When the target was identified meeting with important contacts inside a locked room, combat erupted with multiple waves of Technic League soldiers, mages, and a mysterious gearsman-like woman. Unexpectedly, a group of Scrapwall Orcs under a priestess tunneled in from above to aid Tokala, turning the tide of battle and forcing the primary targets to flee.
+The party conducted a stakeout at an illegal underground market in Starfall, waiting to identify a Technic League captain and specialty merchant. After Tokala was incapacitated by a drug overdose and revived with a stimulant, combat erupted when the party engaged a merchant meeting and several waves of Technic League soldiers and mages. Unexpected allies—Scrapwall Orcs led by a priestess—arrived mid-combat through a cave-in, turning the tide. Though the party successfully defeated most enemies and dealt heavy casualties to the Technic League, the merchant (a mysterious metallic woman) and a Technic League official escaped. Transcript quality was poor due to heavy auto-caption errors.
 
 ## Key Events
 
-- Party identified the Technic League captain and associates meeting in a locked room within the underground market. Croctail scouted the meeting room as a cockroach and attempted to infect a guard with Bubonic Plague.
-  - Characters: Croctail, Tokala, Nomkath, Olbryn, Alfred, Luna
+- Party administers 'Go Nuts' stimulant to revive Tokala from drug-induced sleep, causing haste and fidgeting side effects
+  - Characters: Tokala, Ulfred
+  - Location: Underground Market - Drug Shop
+- Party stakes out the Starfall underground market awaiting identification of a Technic League captain and specialty merchant
+  - Characters: Nomkath, Kroktah, Olbryn, Akradenn, Ulfred, Luna, Tokala
   - Location: Starfall Underground Market
-  - Timeline: 4717.03.14 or prior (party in Starfall investigating Technic League)
-- Combat erupted with approximately 10-13 Technic League soldiers, several mages/wizards with laser pistols, and a mysterious hooded woman with a whip-like energy weapon. The woman appeared gearsman-like or robotic in nature, with bronze metallic skin and glowing yellow eyes.
-  - Characters: Ulfred, Nomkath, Mr Brow/Olbryn, Tokala, Alfred, Luna, Croctail
-  - Location: Starfall Underground Market - central cavern
-- A group of Scrapwall Orcs, led by a female priestess/witch with the ability to move through stone, tunneled into the cavern from above via earth magic, causing minor seismic events and cave-ins. They arrived to support Tokala.
-  - Characters: Tokala, Scrapwall Orcs, Scrapwall Priestess/Witch
-  - Location: Starfall Underground Market - ceiling/tunnels
-- The primary Technic League captain and most mages/wizards escaped during the combat. The mysterious woman fled through a stone wall (swimming through it) with her bodyguard. The captain went up the stairs and escaped the immediate area.
-  - Characters: Technic League Captain, The mysterious woman (gearsman-like), Various Technic League soldiers
+  - Timeline: 4717.03.14 - Party in Starfall
+- Combat erupts at the underground market between the party and multiple waves of Technic League soldiers, gunslinger-types, and mages; a mysterious metallic-skinned woman with yellow eyes is identified as likely being a target
+  - Characters: Nomkath, Kroktah, Olbryn, Akradenn, Ulfred, Luna, Tokala
   - Location: Starfall Underground Market
-- Croctail was knocked unconscious and fell into the underground river after being concentrated-fired on by Technic League mages. Olbryn rescued her from drowning and healed her.
-  - Characters: Croctail, Olbryn
-  - Location: Starfall Underground Market - river/creek
-- The Scrapwall Orcs repeatedly used a large horn as a megaphone to celebrate kills and communicate, causing loud noise and seismic events that alerted the entire city to the battle's location.
-  - Characters: Scrapwall Orcs, Scrapwall Priestess
+- Scrapwall Orcs led by a priestess tunnel into the combat via cave-in, becoming unexpected allies; they attack Technic League forces alongside the party
+  - Characters: Tokala, Scrapwall Orcs (unnamed), Priestess (unnamed)
   - Location: Starfall Underground Market
+- The metallic-skinned woman (likely a Technic League captain or specialist) escapes up stairs; a male merchant/official also escapes; party pursues but fails to apprehend them
+  - Characters: Party (pursuing), Metallic Woman, Male Official/Merchant
+  - Location: Starfall Underground Market / Stairs
+- Party successfully kills multiple Technic League soldiers, mages, and bodyguards during sustained combat; several enemies flee or are killed by chain lightning and area spells
+  - Characters: Party, Technic League forces (multiple unnamed)
+  - Location: Starfall Underground Market
+- Croktah (in cockroach form via wild shape) is shot down by Technic League mages and falls unconscious into an underground river; later rescued and healed by Olbryn
+  - Characters: Kroktah, Olbryn, Technic League Mages
+  - Location: Starfall Underground Market / Underground River
 
 ## NPCs Encountered
 
-- [[Drug dealer (half-orc behind counter)]]
-- [[Technic League Captain (bald, furry eyebrows, richly dressed)]]
-- [[Mysterious woman/gearsman-like being (bronze skin, yellow eyes, whip weapon)]]
-- [[Technic League soldiers (10-13 total)]]
-- [[Technic League mages/wizards with laser pistols]]
-- [[Scrapwall Orcs (multiple warriors)]]
-- [[Scrapwall Priestess/Witch (female, long ears, earth magic, stone-swimming ability)]]
+- [[Drug Dealer (half-orc, charming, behind underground market counter)]]
+- [[Metallic Woman (yellow eyes, hairless, bronze skin, likely Technic League captain or specialist)]]
+- [[Male Merchant/Official (bald, thick beard, wore animal furs, escaped during combat)]]
+- [[Priestess of Goram (Scrapwall Orc, led allies into battle)]]
+- [[Scrapwall Orcs (warriors with tattoos resembling cybernetics, multiple)]]
+- [[Technic League Soldiers (multiple, unnamed)]]
+- [[Technic League Gunslingers (brown dusters, laser pistols, multiple unnamed)]]
+- [[Technic League Mages (multiple, some with mirror image, some flew away)]]
 
 ## Locations
 
-- [[Starfall (city)]]
-- [[Starfall Underground Market (central cavern)]]
-- [[Drug shop (within market)]]
-- [[Locked meeting room (guarded)]]
-- [[Underground river/creek]]
-- [[Stone cavern tunnels]]
+- [[Starfall (general)]]
+- [[Starfall Underground Market (Kill Box)]]
+- [[Drug Shop (within underground market)]]
+- [[Underground River (beneath market)]]
+- [[Stairs (leading to merchant meeting room)]]
+- [[Merchant Meeting Room]]
 
 ## Combat Encounters
 
-- Major ambush of Technic League forces: ~10-13 armored soldiers, several mages with laser pistols, one mysterious gearsman-like woman with whip weapon
-- Surprise arrival and combat with Scrapwall Orcs and priestess (supporting Tokala)
-- Multiple wizards attempted to escape via flying, pursued by Olbryn and Nomkath
+- Large-scale battle at underground market involving: 4 Technic League warriors, 4 gunslingers, 3+ mages, multiple bodyguards, 1 metallic woman with whip attacks, versus party of 8 characters
+- Second wave: Scrapwall Orcs (at least 5-7 warriors) plus priestess arriving via cave-in
+- Additional encounters: Wizard groups attempting to flee south, chain lightning engagement with remaining mages and Scrapwall Orcs
 
 ## Items & Loot
 
-- Go Nuts drug (stimulant - causes 48 hours wakefulness, -10 stealth, Constitution damage)
-- Tokala's chain sword (retrieved during combat)
-- Tokala acquired/maintained by the Scrapwall Orcs as a 'battle lord'
+- Go Nuts (stimulant in packet with orange paste, causes haste and fidgeting)
+- Chain Sword (given to Tokala during combat by Olbryn)
+- Pipe Bomb (used by Luna against enemies)
+- Laser Pistols (used by Technic League gunslingers)
+- Staffs with strange attachments (used by Technic League hooded figures)
 
 ## Notable Quotes
 
-> they gave me two I don't know why it's not my fault it's their fault
-> you need a bag of go nuts
-> oh that's right it was just this gross like syrup orange paste
-> he's lost in the Dreamscape one [ __ ] round away from Kuda growing McGinnis
-> this guy's He's a brave Soldier the alternative is death
-> he is here and she points through through the Mayhem at tokawa
-> kill the bald one
-> when you sort of stammer for a second she says the battle frenzy has consumed him everyone kill everything
-> they expect one of us in the wreckage brother
+> just grind it up and then hold it under his nose and he'll snort it promise
+> he's like you need a bag of go nuts
 > I thought I lost you guys what's a little tear away as he whips the chainsaw out
-> you're looking a little flat [ __ ] Pancake Man
-> we won't even mention the horn
+> they expect one of us in the wreckage brother
+> [ __ ] the technically and fires
+> witness me to sign this dude in half
+> we don't need to be identified as part of this attack
+> the [ __ ] cockroach is a wizard or some [ __ ]
+> she swims through Stone [ __ ] what
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Whether the Technic League captain successfully escaped with any critical information or items
-- The exact nature and abilities of the mysterious gearsman-like woman (possibly an android, construct, or other being)
-- The full extent of the Scrapwall Orcs' connection to Tokala and why they arrived to support him
-- Whether the power relay or other critical items were being sold in the locked meeting room
-- The identity and significance of the Scrapwall Priestess and her stone-swimming ability
+- Whether the male merchant who escaped actually possessed the item the party was trying to intercept; unclear what was being sold
+- Identity and exact nature of the metallic woman (possibly a construct, possibly a gearsman, possibly something else); her relationship to Technic League
+- The exact purpose of the Scrapwall Orc ambush: whether they were hired to help the party or simply attacked the Technic League independently
+- How Tokala reacted to the alliance with Scrapwall Orcs and whether this creates complications
+- Full extent of damage to the underground market structure from repeated cave-ins and seismic events
+- Exact casualty counts and identification of all slain enemies
 

@@ -5,9 +5,9 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "RYPopZPAkuo"
 sourceFile: "CC - RYPopZPAkuo - Carrion Crown - A Tailored Swift End 2023 10 22.md"
-processedAt: "2026-03-25T01:34:48.135Z"
+processedAt: "2026-03-25T17:25:25.714Z"
 transcriptQuality: "fair"
-charactersPresent: ["Gaspar (Tim)", "Kovira (Sydney)", "Kai (Graham)", "Elfrip (Anna)", "Dinvaya (Josh)", "Kate Blackwood (Mandi)", "Rodney Danger Smith (Chris)", "Dismas (Harrison)"]
+charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
 tags: ["summary", "cc", "session"]
 ---
 
@@ -15,90 +15,75 @@ tags: ["summary", "cc", "session"]
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=RYPopZPAkuo)
 **Transcript Quality:** fair
-**Characters Present:** Gaspar (Tim), Kovira (Sydney), Kai (Graham), Elfrip (Anna), Dinvaya (Josh), Kate Blackwood (Mandi), Rodney Danger Smith (Chris), Dismas (Harrison)
+**Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
 
 ## Summary
 
-CP-USS interrogates a captured Technic League barbarian and uses detect thoughts to scout a secret facility holding tribal elders hostage in a canyon near Torch. They learn the facility has multiple guards, wizards, and snipers equipped with freezing weapons. The party prepares extensively with buffs, invisibility, levitation, and silence spells, then attempts a coordinated sneak attack on the two snipers guarding the canyon entrance.
+The party interrogated captured Tech League soldiers and a barbarian to learn about a secret facility holding tribal elders in a canyon. Using detect thoughts and slaver drops, they gathered intelligence on facility layout, guard positions, and command structure. The party then prepared extensively with buffs, spells, and equipment before planning an approach to infiltrate and assault the facility, focusing on eliminating snipers first via invisibility and levitation.
 
 ## Key Events
 
-- CP-USS uses detect thoughts on a captured barbarian soldier to scout the facility holding the tribal elders. Kate gains detailed memories of the canyon location, guard positions (3 barbarians + 2 snipers at entrance), internal facility layout, and discovers two high-ranking Technic League commanders running the operation.
-  - Characters: Kate Blackwood, Gaspar, Kovira, Dismas, Dinvaya, Kai, Elfrip
-  - Location: Torch City Jail (interrogation), Canyon facility (memory vision)
-- The facility is located in a canyon with 50-foot cliffs. Guards are positioned at the entrance with snipers on elevated positions. The compound appears to be an ancient pre-fabricated structure (possibly dwarven) with 8-10 rooms, containing holding tanks, operating tables, and torture equipment. Multiple Technic League wizards are present.
+- Party interrogates a captured barbarian in jail who is experiencing withdrawal from a drug, claiming he needs to 'load his save.' They determine he is not loyal to the Tech League and use diplomatic/bluff approaches combined with slaver drops to extract information about the facility.
+  - Characters: Gaspar, Kovira, Kate Blackwood, Dinvaya, Kai, Rodney Danger Smith, Dismas, Elfrip
+  - Location: Torch City Jail
+- Kate uses a wand of detect thoughts on a dead Tech League wizard to learn about facility security: multiple wizards, snipers, and barbarian guards at entrance. She also glimpses memories of two high-ranking female Tech League commanders and torture chambers with stacked corpses.
   - Characters: Kate Blackwood
-  - Location: Desert Canyon facility (east of Torch, north of Scrap Wall)
-- Meyanda provides a magical Scrambler device that jams electronic and magical communication (message/sending spells) in a 500-foot radius for 5 minutes, intended to prevent the facility from calling for reinforcements.
-  - Characters: Meyanda
-  - Location: Torch City
-- CP-USS purchases supplies including pipe bombs (8d6 damage in 10-foot radius), healing potions, and upgrades Kai's gear with exotic weapon proficiency to operate a high-powered rifle with explosive ice ammunition.
-  - Characters: Kai, Dismas, party
-  - Location: Torch City shops and taverns
-- The party executes a complex infiltration plan: levitate invisibly into the canyon, use spider climb and levitation to approach snipers from above on the cliff faces, cast silence spells to prevent communication, and coordinate a surprise melee attack on the first sniper while ranged attackers target the second.
-  - Characters: Gaspar, Kai, Dismas, Dinvaya, Kate Blackwood, Kovira
-  - Location: Canyon facility entrance
-- During the stealth approach, the party's heavy armor creates noise. Kai's footfalls disturb dust, alerting the eastern sniper. Denva's armor also makes noise exiting the silence spell. Only Dismas and Kovira successfully approach without detection.
-  - Characters: Kai, Denva, Dismas, Kovira
-  - Location: Canyon cliff faces
-- Combat begins as the snipers become alert and raise their rifles. The party has positioning on the cliffs but surprise may be partially compromised due to stealth failures.
-  - Characters: all PCs, snipers, barbarian guards
-  - Location: Canyon facility entrance
+  - Location: Torch (corpse interrogation site)
+- Through interrogation, party learns the facility is in a canyon with one guarded entrance, approximately 10-15 rooms, contains tanks and operating tables where barbarians believe their 'save files' are made. Guards include 3 barbarians + 2 snipers at entrance, 9-10 soldiers, 4-5 additional snipers, and 3 wizards inside.
+  - Characters: Gaspar, Kovira, Kate Blackwood, Dinvaya
+- Party acquires a Scrambler device from Meyanda that disrupts electronic and magical communication (message spells, sendings) in 500ft radius for 5 minutes. Party plans to use this to prevent reinforcements during the assault.
+  - Characters: Dinvaya, Meyanda (NPC)
+  - Location: Torch
+- Party extensively buffs before assault: Gasper receives Celestial Healing Greater, multiple characters get minute-per-level buffs, silence spells prepared, invisibility wand charges tracked. Party adopts strategy of invisible levitation approach from southern canyon approach, targeting snipers first before engaging interior forces.
+  - Characters: Gaspar, Kovira, Kai, Kate Blackwood, Dinvaya, Rodney Danger Smith, Dismas, Elfrip
+  - Location: Torch/approaching Torch
+- Combat begins with party approaching facility. Kai's levitation descent creates dust that alerts a sniper. Denva's armor makes noise exiting silence spell, alerting another sniper. The two snipers notice something is amiss despite party invisibility. Rodney Danger Smith moves silently and undetected to his position.
+  - Characters: Kai, Denva, Rodney Danger Smith, Kovira
+  - Location: Canyon facility entrance area
 
 ## NPCs Encountered
 
-- [[Connor (Torch City Guard contact)]]
-- [[Meyanda (associate providing equipment)]]
-- [[Captured Barbarian (interrogated)]]
-- [[Dead Technic League Wizard (speak with dead)]]
-- [[Dead Technic League Soldiers (speak with dead)]]
-- [[The Trickster (commander - information only)]]
-- [[High-ranking female commander (information only)]]
-- [[Black Sovereign (mentioned, not present)]]
+- [[Connor (bar owner, provides intelligence)]]
+- [[Meyanda (provides Scrambler device)]]
 
 ## Locations
 
-- [[Torch City]]
 - [[Torch City Jail]]
 - [[The Foundry Tavern]]
 - [[Doga's Foundry (shop)]]
-- [[Brigh's Temple]]
-- [[Desert Canyon (near Torch, north of Scrap Wall, east of Starfall)]]
+- [[Torch City]]
+- [[Canyon facility (under assault)]]
 
 ## Combat Encounters
 
-- Stealth approach and positioning against 2 snipers and guards at canyon facility entrance (combat initiated but not fully resolved in transcript)
+- Infiltration/assault on Tech League canyon facility with 2 snipers and ground forces - combat in progress at transcript end
 
 ## Items & Loot
 
-- Storm Mask (dragon clan bone mask - grants +2 untyped intimidate, see through fog/mist 30 ft, limited sword fight ability)
-- Scrambler device (jams magical/electronic comms in 500 ft radius for 5 minutes)
-- Pipe Bombs 2.0 (8d6 damage, 10 ft radius - purchased multiple)
-- Various grenades (flechette, incendiary - 5d6 damage types)
-- Potions of healing (various sizes purchased)
-- Cloak of Resistance +2 (purchased by one character)
-- Spider Climb potions (gifted to Kai)
-- Wand of Levitate (48 charges remaining)
-- Wand of Invisibility (charges expended during infiltration)
-- High-powered rifle with exotic ice/freeze ammunition (Kai equipped)
+- Storm Mask (dragon bone mask with intimidate bonus, see through fog)
+- Slaver Drops (drug for interrogation)
+- Scrambler device (disrupts magical/electronic communication)
+- Wand of Invisibility (charges used for approach)
+- Wand of Levitation (charges used for approach)
+- Spider Climb potions
+- Pipe bombs (8d6 damage)
+- Exotic weapon proficiency (given to Kai for gun)
+- Cloak of Resistance +2
 
 ## Notable Quotes
 
-> you're so hot
-> I think we should probably just invis in and all fall on them
-> stay out of trouble
-> load my save
-> you're save file is corrupted so you're not going to load save
-> the snipers are the scariest thing in his mind
-> exploding ice when it hits someone they freeze and shatter into a billion pieces
+> you're going to try to he's a bit spooky looking
+> I float like a good boy
+> do we're 10 ft we have to be back with the rest of the party
+> this plan sucks dick
+> he does you you can tell that the stealth alerts are going off
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Whether the full surprise round was achieved given the stealth check failures on Kai and Denva
-- Exact status of the facility's see invisibility defenses (information suggested they sometimes have it active)
-- Whether the snipers can see the party members now that stealth is compromised
-- Full roster of the 'other two capitanos' mentioned - one was confirmed dead/arrested as Auren Vrood, but identity of replacements unclear
-- Whether the Technic League will attempt to reinforce the facility despite the Scrambler being active
+- The exact outcomes of the ongoing combat as transcript cuts off mid-combat
+- Whether the party successfully eliminates the snipers before full alarm is raised
+- The full identity and capabilities of the two female Tech League commanders glimpsed in memories
+- Whether the barbarians truly believe they can 'load their save' or if this is a shared delusion from Tech League propaganda
 

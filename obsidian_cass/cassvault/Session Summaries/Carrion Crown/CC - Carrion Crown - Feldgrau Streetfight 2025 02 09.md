@@ -5,8 +5,8 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "7jEgqZ1hr70"
 sourceFile: "CC - 7jEgqZ1hr70 - Carrion Crown - Feldgrau Streetfight 2025 02 09.md"
-processedAt: "2026-03-25T01:22:50.192Z"
-transcriptQuality: "fair"
+processedAt: "2026-03-25T17:13:46.717Z"
+transcriptQuality: "poor"
 charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
 tags: ["summary", "cc", "session"]
 ---
@@ -14,115 +14,115 @@ tags: ["summary", "cc", "session"]
 # Carrion Crown - Feldgrau Streetfight 2025 02 09
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=7jEgqZ1hr70)
-**Transcript Quality:** fair
+**Transcript Quality:** poor
 **Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
 
 ## Summary
 
-CP-USS engages the Whispering Way in a massive street battle in Feldgrau. The party eliminates multiple high-ranking cultists including the three Gunslingers (Bet, Pride, Deadshot), two powerful casters, and their leader Orin Vrood. After clearing the immediate threats and recovering significant magical loot, the party begins investigating Orin Vrood's sealed journal and considering clearing the manor's dungeons.
+CP-USS engages the Whispering Way in a major street battle in Feldgrau. The party defeats multiple Gunslinger constructs, several Whispering Way casters (including Auren Vrood and Orin Rud), and numerous undead minions. After a brutal combat, they recover significant magical loot and begin interrogating captured enemies.
 
 ## Key Events
 
-- Sylvia casts a mass buff spell granting all party members free self-cast spell/item actions at the start of combat
-  - Characters: Sylvia, Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
-  - Location: Feldgrau streets
-  - Timeline: 4717.04.22 - Feldgrau Streetfight
-- Danger delivers the shot of his life, using phase-locking arrows to prevent Orin Vrood from teleporting despite his displacement and blink effects
-  - Characters: Rodney Danger Smith, Orin Vrood
-  - Location: Feldgrau rooftops
-  - Timeline: 4717.04.22 - Feldgrau Streetfight
-- Three Gunslingers (Bet, Pride, Deadshot) are killed by party members including Danger's arrows and party's channel energy
-  - Characters: Rodney Danger Smith, Gaspar
-  - Location: Feldgrau streets
-  - Timeline: 4717.04.22 - Feldgrau Streetfight
-- Elfrip casts Fire Snake spell, hitting two Gunslingers and a rook, with spell resistance stopping it from reaching Orin Vrood
-  - Characters: Elfrip, Orin Vrood
-  - Location: Feldgrau
-  - Timeline: 4717.04.22 - Feldgrau Streetfight
-- Multiple Whispering Way blade masters and undead engage the party, with Dismas nearly killed multiple times but saved by divine intervention and allies
-  - Characters: Dismas, Kai, Gaspar, Sylvia
-  - Location: Feldgrau streets
-  - Timeline: 4717.04.22 - Feldgrau Streetfight
-- Gaspar arrests Orin Vrood for the murder of Professor Petros Lorrimor before executing him with an adamantine weapon after triggering his smiting judgment
-  - Characters: Gaspar, Orin Vrood
-  - Location: Feldgrau
-  - Timeline: 4717.04.22 - Feldgrau Streetfight
-- Party recovers significant loot including Judge and Jury (enchanted pistols), Thundering Silencer (scoped rifle), Pride's Ending (advanced breastplate), and Orin Vrood's mask
+- CP-USS initiates combat against Whispering Way forces in Feldgrau streets. Multiple undead constructs, three Gunslinger grave knights, and Whispering Way casters engage the party.
   - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
   - Location: Feldgrau
-  - Timeline: 4717.04.22 - Feldgrau Streetfight
-- Orin Vrood's mask is carefully removed using Mage Hand, revealing he had undergone extensive magical/surgical modifications and was likely near achieving lichdom
-  - Characters: Kovira, Gaspar
+  - Timeline: 4717.04.22
+- Danger uses Sylvia's aerial vision to phase-lock arrow Orin Rud, preventing his teleportation.
+  - Characters: Rodney Danger Smith, Orin Rud
   - Location: Feldgrau
-  - Timeline: 4717.04.22 - Feldgrau Streetfight
-- Party recovers Orin Vrood's journal which is encoded but contains references to obtaining the Warden soul, Pack Lord heart, and bone shards - unclear recipients
+- Three Gunslinger grave knights (Bet, Pride, Deadshot) are destroyed by party action. Danger kills Pride and Deadshot with arrows from extreme range (220+ feet).
+  - Characters: Rodney Danger Smith, Pride, Deadshot, Bet
+  - Location: Feldgrau
+- Auren Vrood is killed and arrested by the party during combat.
+  - Characters: Auren Vrood
+  - Location: Feldgrau
+  - Timeline: 4717.04.22
+- Orin Rud is dropped from the air by dispelling his fly spell, then killed by Gaspar using adamantine-bypassing judgment.
+  - Characters: Gaspar, Orin Rud
+  - Location: Feldgrau
+- The party recovers Orin Rud's mask from his remains using Arcane Trickster disable device from range.
   - Characters: Kovira
   - Location: Feldgrau
-  - Timeline: 4717.04.22 - Feldgrau Streetfight
-- Serona takes Elfrip on a spectacular flight through the solar system, showing him the planets of Golarion before returning him safely
+- Party discovers Orin Rud's journal encoded with information about Warden soul, Pack Lord heart, bone shard, and workshop location.
+  - Location: Feldgrau
+- Dismas is killed by blade master attacks during the battle but is revived by Sylvia's healing magic.
+  - Characters: Dismas, Sylvia
+  - Location: Feldgrau
+- Kai is healed from near-death by Sylvia's 150 HP healing spell.
+  - Characters: Kai, Sylvia
+  - Location: Feldgrau
+- Serona demonstrates her spelcasting capability by casting various support spells including oath of sacrifice and multiple healing spells throughout combat.
+  - Characters: Serona
+  - Location: Feldgrau
+- Party recovers significant magical loot including Judge and Jury pistols (Pride's weapons), thundering silencer rifle (Deadshot), and multiple Whispering Way robes and items.
+  - Location: Feldgrau
+- Serona takes Elfrip on a tour of the solar system, showing him Golarion and nearby planets before returning to Feldgrau.
   - Characters: Serona, Elfrip
-  - Location: Golarion orbit
+  - Location: Feldgrau and outer space
 
 ## NPCs Encountered
 
-- [[Orin Vrood]]
-- [[Bet (Gunslinger)]]
-- [[Pride (Gunslinger)]]
-- [[Deadshot (Gunslinger)]]
-- [[Sylvia (dragon ally)]]
-- [[Vex (dragon ally)]]
-- [[Serona (Deva/outsider ally)]]
-- [[Mathus Mordrinacht (mentioned, not directly encountered)]]
-- [[Multiple Whispering Way cultists and undead]]
+- [[Orin Rud]]
+- [[Auren Vrood]]
+- [[Pride]]
+- [[Bet]]
+- [[Deadshot]]
+- [[Sylvia]]
+- [[Vex]]
+- [[Adamaris]]
+- [[Arnaude]]
+- [[Taylor Blackwood]]
+- [[Meyanda]]
 
 ## Locations
 
 - [[Feldgrau]]
-- [[Feldgrau streets]]
-- [[Feldgrau rooftops]]
-- [[Golarion (solar system overview)]]
 
 ## Combat Encounters
 
-- Large-scale street battle against Whispering Way forces including three Gunslingers, multiple blade masters, true vampires, grave mulls, and various undead constructs
-- Orin Vrood dropped from the sky and defeated with ranged attacks from Danger and close combat from Gaspar
-- Eastern flank battle against werewolves and Whispering Way cultists
+- Street battle against Whispering Way forces in Feldgrau featuring multiple zombie constructs, grave knights, blade masters, casters, and three Gunslinger constructs (Bet, Pride, Deadshot)
+- Encounter with Orin Rud and Whispering Way casters including multiple wizards and rogues
+- Simultaneous werewolf battle on eastern flank where party allies (demon wolves) fight Whispering Way personnel
 
 ## Items & Loot
 
-- Judge and Jury (enchanted pistols with special synergy effects)
-- Thundering Silencer (scoped sniper rifle, ~9000 gold value)
-- Pride's Ending (plus three Numerian breastplate with DR5 magic, fire/cold resistance 10, retribution ability)
-- Orin Vrood's Mask (blackened adamantine, plus six item with true seeing, speak with dead, fear aura, non-detection)
+- Judge and Jury pistols (Pride's weapons)
+- Thundering Silencer rifle (Deadshot)
+- Mask of Orin Rud (Orin's Skull Mask)
+- Plus Three Numerian Breastplate (Pride's Ending)
+- Cloak of Resistance +4
 - Belt of Mighty Constitution +4
 - Wand of Mount Communal (12 charges)
-- Orin Vrood's encoded journal (references Warden soul, Pack Lord heart, bone shards)
-- Multiple Whispering Way robes (4+ sets)
-- Multiple Tyrant's Bands
-- Potions of invisibility, cure moderate wounds, expeditious retreat, and others
-- Whispering Blades
-- Fire Giant full plate (400 lbs, 5000 gold)
-- Multiple plus-one cold iron shortswords from blade masters
-- Priceless Numerian pistols (from Gunslingers Bet and Pride)
-- Multiple ammunition types
-- Heads of deceased cultists for interrogation
+- Multiple Whispering Way robes and silence daggers
+- Tyrant's Band rings
+- Orin Rud's encoded journal
+- Fire Giant full plate (400 lb, 5000 gold)
+- Multiple cold iron shortswords
+- Various potions (invis, cure moderate wounds, etc.)
 
 ## Notable Quotes
 
-> I loosen the lid
+> okay recording is started
+> I'm ready to die oh my God
+> natural 20 roll out holy [ __ ]
+> you light him up for about 80 and he stumbles backwards but still on his feet
+> the shot of your life
 > you are under arrest for the murder of Petro Laurer
-> stop resisting somebody bring me my Adam mantin sword
-> we are the Paul bearers we are the Shepherds of the rightest death the great ladies judg is not optional
-> I blame you for something you might not have done and you went ah yes
-> Toby Toby Toby toy toy toy
+> this guy was trying to become a lich
+> we are the Paul bearers we are the Shepherds of the rightest death the great ladies judgment is not optional
+> I loosen the lid there
+> not that kind of campaign
+> she flies you through the solar system at unimaginable speeds
+> they will literally never ever believe you
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Whether Orin Vrood is truly dead or if his body/mask contains a phylactery requiring additional destruction
-- The identity of the recipients of the Warden soul, Pack Lord heart, and bone shards mentioned in the journal
-- The exact contents of the encoded journal - Kate would need INT +7 or higher to decode it
-- Whether there are additional threats in the manor's dungeon beneath Feldgrau
-- The status of any other high-ranking Whispering Way members still at large
+- Exact nature and extent of injuries to werewolf allies (party notes multiple were killed and disintegrated)
+- Whether all Whispering Way forces in Feldgrau were eliminated or if some escaped
+- Details of what is actually encoded in Orin Rud's journal beyond references to warden soul, pack lord heart, and bone shard
+- Full details of the workshop mentioned in the journal and what threats it may contain
+- Status of undead enemies that were held or defeated - unclear if all were permanently destroyed
+- Exact number of Whispering Way personnel the party captured vs killed
 

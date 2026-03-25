@@ -5,124 +5,139 @@ campaign: "HV"
 campaignName: "Hells Vengeance"
 videoId: "JIvFjnWcR4U"
 sourceFile: "HV - JIvFjnWcR4U - Hells Vengeance -  Dropping The Rock 2023 10 08.md"
-processedAt: "2026-03-25T01:58:06.595Z"
-transcriptQuality: "poor"
-charactersPresent: ["Jamal", "Draymus", "Reese", "Bruce", "Jason", "Charles (Queen of Pain/Akasha)", "Harrison", "El Guapo", "Bob Applewood"]
+processedAt: "2026-03-25T17:48:10.206Z"
+transcriptQuality: "fair"
+charactersPresent: ["Jamal", "Reese", "Bruce", "Draymus", "Jason", "El Guapo", "Bob Applewood", "Hell Knight Lupus", "Hell Knight Aalla", "Hell Knight Skipio", "Hell Knight Galla", "Quapa Pain (succubus devil)", "Freya Kusanagi"]
 tags: ["summary", "hv", "session"]
 ---
 
 # Hells Vengeance - Dropping The Rock (2023-10-08)
 
 **Campaign:** Hells Vengeance | **Video:** [Watch on YouTube](https://youtube.com/watch?v=JIvFjnWcR4U)
-**Transcript Quality:** poor
-**Characters Present:** Jamal, Draymus, Reese, Bruce, Jason, Charles (Queen of Pain/Akasha), Harrison, El Guapo, Bob Applewood
+**Transcript Quality:** fair
+**Characters Present:** Jamal, Reese, Bruce, Draymus, Jason, El Guapo, Bob Applewood, Hell Knight Lupus, Hell Knight Aalla, Hell Knight Skipio, Hell Knight Galla, Quapa Pain (succubus devil), Freya Kusanagi
 
 ## Summary
 
-The party assaults Citadel Dinyar in Isger after extensive reconnaissance and preparation. They attempt a sophisticated entry using invisibility sphere, silence, and airwalk to breach the fortress undetected. A critical failure when a hell knight fumbles throwing the silence stone into the river compromises stealth, triggering massive combat involving multiple high-level paladins, clerics, and celestial allies of the Glorious Reclamation, as well as enemy reinforcements including Captain Freya Kusanagi teleporting in with her infernal allies. The combat is ongoing and extremely complex, with dozens of combatants, numerous spell effects, and high-level tactics from both sides.
+The party conducts reconnaissance near Citadel Dinyar and plans a coordinated assault. After discovering minimal enemy presence on the walls, they execute an infiltration using invisibility, silence, and air walk spells. The plan goes awry when a hell knight fails a throw, dropping the silence stone into the river. Despite this setback, the party enters combat against multiple high-level opponents including Master Uki (a skilled warrior), several paladins, angels, and Corin with her team of high-level clerics and devils. A massive multi-party battle ensues with significant casualties on both sides.
 
 ## Key Events
 
-- Party scouts Citadel Dinyar from the woods; Reese uses clairvoyance to observe guards on castle walls and confirms relatively few defenders
+- Party scouts from hiding spot in the woods, uses clairvoyance to observe castle walls and confirms only Squires are visible as guards
   - Characters: Reese, Draymus
-  - Location: Woods southwest of Citadel Dinyar, Isger
-- Party plans and executes entry strategy: invisibility sphere, silence spell on rock, and airwalk to approach castle from cliff side
-  - Characters: Jamal, Draymus, Reese, Bruce, multiple hell knights
-  - Location: Citadel Dinyar, Isger
-- Hell Knight Lupus critically fails to throw silence stone through castle window; the stone is fumbled and falls into the river, compromising stealth advantage
-  - Characters: hell knight Lupus, others
-  - Location: Citadel Dinyar, Isger
-- Party enters map room of Citadel; Jamal encounters master swordsman who begins combat with devastating precision attacks
-  - Characters: Jamal, unknown warrior (referred to as 'Master UK')
-  - Location: Map Room, Citadel Dinyar
-- Captain Freya Kusanagi teleports into the atrium with multiple allies including asmodian clerics, questioners, redactors, hell knight reinforcements, and other celestial/infernal combatants
-  - Characters: Captain Freya Kusanagi, Lorun Unterholm, asmodian allies, hell knights
-  - Location: Atrium and map room, Citadel Dinyar
-  - Timeline: 4717.02.13+ — Freya was stripped of her rank in Egorian but appears to have restored infernal backing
-- Multiple combat rounds occur involving dozens of combatants; Jason (cleric) banishes two good-aligned angels using banishment spell within 30ft radius
-  - Characters: Jason, angel enemies
-  - Location: Atrium/map room complex, Citadel Dinyar
-- Reese shoots and kills enemy squire with devastating critical hit using storm caller bow with lightning/frost effects; confirmed as first kill of combat
+  - Location: Forest near Citadel Dinyar
+- Party attempts to throw a silence spell stone as a 'grenade' during approach to castle windows; Hell Knight Lupus fails the throw and the stone flies into the river instead
+  - Characters: Lupus, entire party
+  - Location: Outside Citadel Dinyar cliffs
+- Party executes air walk + invisibility sphere approach, runs up castle walls and enters through map room windows
+  - Characters: Jamal, Reese, Bruce, Draymus, Hell Knights
+  - Location: Citadel Dinyar - Map Room entrance
+- Party encounters a man in the map room who was praying in front of a statue, reveals himself as a major threat with exceptional swordsmanship and blindfighting
+  - Characters: Jamal, Master Uki
+  - Location: Citadel Dinyar - Map Room
+- Master Uki strikes Jamal three times in quick succession, deals 60+ damage per hit while Jamal is invisible (negating his mirror images)
+  - Characters: Jamal, Master Uki
+  - Location: Citadel Dinyar - Map Room
+- Large-scale reinforcement arrives via teleportation: Corin (caster), multiple asmodian specialists, Lor (blood-covered), and Captain Freya Kusanagi in demonic armor appear
+  - Characters: Corin, Freya Kusanagi, Lor, Asmodian clerics/specialists
+  - Location: Citadel Dinyar - Atrium/Map Room area
+  - Timeline: 4717.04.04+ (Freya involved in major battles)
+- Movanic deva (greater angel mounted on Nightmare) enters combat; party collectively attempts to target Corin the teleporting wizard
+  - Characters: Movanic Deva, Corin, party members
+  - Location: Citadel Dinyar - Atrium
+- Reese (as Arcane Archer) makes a critical arrow shot through a Squire's head in the atrium, destroying it with lightning damage from Storm Caller bow
   - Characters: Reese
-  - Location: Atrium, Citadel Dinyar
-- Multiple reinforcement waves arrive: paladins, celestial warriors, enemy spellcasters including a white-haired wizard with contingencies
-  - Characters: enemy forces
+  - Location: Citadel Dinyar - Atrium
+- Freya engages Master Uki in one-on-one melee combat; both exhibit exceptional martial prowess; Freya speaks in Taldane to Uki in combat
+  - Characters: Freya Kusanagi, Master Uki
+  - Location: Citadel Dinyar - hallway/garden area
+- Jason (cleric) casts dismissal/banishment spells, successfully removes at least one good-aligned angel from the battle
+  - Characters: Jason, angels
+  - Location: Citadel Dinyar - Atrium
+- Draymus transforms into a dragon form and immediately kills a Squire in brutal fashion by biting/eating it
+  - Characters: Draymus
+  - Location: Citadel Dinyar - Atrium
+- Draymus casts persistent Suffocation on a sixth sword knight paladin, forcing multiple save DC 28 checks; paladin becomes incapacitated
+  - Characters: Draymus, Sixth Sword Knight paladin
+  - Location: Citadel Dinyar
+- Party discovers that Squires have a status sharing spell cast on them - allowing all enemies to instantly know when one dies and its location
+  - Characters: party, enemies
   - Location: Citadel Dinyar
 
 ## NPCs Encountered
 
-- [[Captain Freya Kusanagi]]
-- [[Master UK (swordsman)]]
-- [[Lorun Unterholm]]
-- [[Corin (asmodian leader)]]
-- [[asmodian questioner]]
-- [[asmodian enchanter]]
-- [[asmodian redactor]]
-- [[white-haired wizard]]
-- [[movanic deva]]
-- [[brani angel archers]]
-- [[hound archons]]
-- [[celestial warriors]]
-- [[paladins (multiple)]]
-- [[hell knight reinforcements]]
-- [[various squires]]
-- [[nightmare horse]]
-- [[multiple summoned/teleported entities]]
+- [[Master Uki (blind-fighting swordmaster)]]
+- [[Corin (white-haired wizard)]]
+- [[Lor (blood-covered asmodian officer)]]
+- [[Movanic Deva (greater angel on Nightmare)]]
+- [[Asmodian Questioner]]
+- [[Asmodian Enchanter]]
+- [[Asmodian Redactor]]
+- [[Briny Angel Archer]]
+- [[Hound Archons (multiple)]]
+- [[Brani Angels (peerless archers)]]
+- [[Sixth Sword Knight (paladin)]]
+- [[Knight Inheritor (paladin)]]
+- [[Various Squires (expendable soldiers with status-sharing spell)]]
+- [[Greater Angel (good-aligned, fascinated by Litany of Eloquence)]]
 
 ## Locations
 
-- [[Woods southwest of Citadel Dinyar]]
-- [[River Bank (Remesiana region)]]
+- [[Forest southwest of Citadel Dinyar (1 mile away)]]
+- [[Castle docks/river area]]
 - [[Citadel Dinyar - exterior cliffs]]
-- [[Citadel Dinyar - map room]]
-- [[Citadel Dinyar - northeast atrium]]
-- [[Citadel Dinyar - various halls and corridors]]
+- [[Citadel Dinyar - Map Room]]
+- [[Citadel Dinyar - Northeast Atrium]]
+- [[Citadel Dinyar - hallway/garden areas]]
+- [[Rope Trick (hidden extradimensional hideout)]]
 
 ## Combat Encounters
 
-- Master UK (swordsman) vs. Jamal - multiple precision attacks dealing 60+ damage per hit; Jamal attempts hold person and fails to incapacitate
-- Reese vs. enemy squire - critical hit with storm caller bow, headshot confirmed, lightning damage explosion
-- Multiple party members vs. paladins, clerics, and celestial reinforcements in atrium/map room
-- Jason casting banishment on good-aligned angels within 30ft radius (succeeded on 1, failed on 1)
-- Freya Kusanagi engaging Master UK in single combat after tactical positioning
-- Captain Freya's allies (hell knights, infernal casters) engaging enemy paladins
-- Asmodian forces vs. party and hell knight allies
-- El Guapo vs. paladin opponents
-- Large-scale melee involving 20+ combatants with overlapping spell effects, fire damage zones, stun effects, and summoned creatures
+- Master Uki vs. Jamal (warrior vs. rogue): Uki lands three successive attacks despite Jamal being invisible, dealing 60+ damage per hit
+- Reese critical headshot on Squire in atrium, destroying it with lightning from Storm Caller bow
+- Large multi-party battle: party vs. Corin's reinforcements including paladins, angels, asmodian casters, Freya, Lor, and multiple devil allies
+- Freya one-on-one melee with Master Uki
+- Draymus (dragon form) vs. Squire (instant kill)
+- Draymus persistent Suffocation spell vs. Sixth Sword Knight
+- Jason's banishment/dismissal spells removing angels from battle
+- Quapa Pain (succubus) sonic scream AOE hitting multiple targets
+- Lor on Nightmare mount trampling enemies
+- Multiple hell knights engaging paladins and other enemies
 
 ## Items & Loot
 
-- Storm Caller bow (Reese's composite longbow with distance weapon quality)
-- Master UK's +5 adamantine katana
-- Various weapons of enemy combatants (swords, lances, greatswords)
-- Dispel magic (spell used via bullseye shot)
-- Silence stone (fumbled, fell into river)
+- Storm Caller (composite longbow, deals lightning/ice/shock damage, has distance property)
+- Master Uki's sword (plus five adamantine Katana, extremely sharp)
+- Freya's demonic black armor and sword
+- Various weapons carried by paladins and angels
+- Rope Trick (extradimensional space)
+- Various spell components and wands
 
 ## Notable Quotes
 
-> fall down seven times get up eight times
 > so it is time
+> fall down seven times get up eight times
 > I was just the urge to say something cool at him
-> look out behind you
-> she glares at you out of the sight of her helmet: you won't hurt me there are rules for policemen
-> crouching tiger hidden dragon
-> taste my sword
-> get his ass
+> the guy to the South or one of the paladins in the East Atrium
+> dishonorable
+> you won't hurt me there are rules for policemen
+> Crouching Tiger [implied reference]
+> she prefers to fight invisibly
 > when you have to shoot shoot don't talk
-> that is the most metal [ __ ] I've heard this minute
+> I saw it [first] miss miss miss
 > my dad works at folding games and he says they wouldn't do that twice
-> one tapped that's baby
+> drop the rock of Silence into the ocean
+> he dropped it he watched it slowly sail 200 ft down to the river
+> take it out on the squires it's okay
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Exact identity and capabilities of 'Master UK' (the blind-fighting swordsman) - referenced as having incredible speed/skill but full background unclear
-- Current status of wizard enemy who cast dimension door and teleported away before full identification
-- Whether the white-haired wizard's contingency spell was successfully dispelled or merely reduced in power
-- Full extent of Freya Kusanagi's current infernal backing and rank restoration
-- Exact objectives of the assault on Citadel Dinyar beyond combat elimination
-- Status of dragon that was mentioned as defeated in previous session but not confirmed present in this assault
-- True identity of some reinforcing paladins and their organizational affiliation
-- Outcome of Jamal's hold person spell on Master UK - transcript indicates he may have resisted but exact mechanic unclear
+- Exact status/fate of all non-major NPC combatants (many Squires, some angels may have escaped or been banished)
+- Whether Corin's contingency spell actually triggered or if she escaped via dimension door
+- Current HP status of most party members (combat was ongoing when transcript ended)
+- Whether there are additional enemy forces not yet engaged in the fortress
+- Exact nature of the magical contingency on enemy Squires that alerts their allies
+- Whether the teleporting enchanter wizard may have had an escape plan similar to Corin
 

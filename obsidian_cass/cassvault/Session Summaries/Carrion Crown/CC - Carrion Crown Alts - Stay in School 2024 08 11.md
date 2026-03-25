@@ -5,98 +5,94 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "YayalwIofuc"
 sourceFile: "CC - YayalwIofuc - Carrion Crown Alts - Stay in School 2024 08 11.md"
-processedAt: "2026-03-25T01:40:07.472Z"
-transcriptQuality: "fair"
-charactersPresent: ["Savage (leader, Huguan humanoid)", "Trey", "Farah Richton", "Curiosity (Android/construct)", "Joy Bridge (Dwarf Inquisitor)"]
+processedAt: "2026-03-25T17:30:45.613Z"
+transcriptQuality: "poor"
+charactersPresent: ["Savage (played by Mandi — field commander of L-PIU)", "Trey (player name; character name unclear but present)", "Farah (Farrah Richton, played by Harrison)", "Dismas (played by Harrison; appears briefly)", "Curiosity (android-like character, played by someone)", "Joy Bridge (dwarf inquisitor, played by Chris)", "Rodney Danger Smith (RDS, mentioned but not actively played)"]
 tags: ["summary", "cc", "session"]
 ---
 
 # Carrion Crown Alts - Stay in School 2024 08 11
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=YayalwIofuc)
-**Transcript Quality:** fair
-**Characters Present:** Savage (leader, Huguan humanoid), Trey, Farah Richton, Curiosity (Android/construct), Joy Bridge (Dwarf Inquisitor)
+**Transcript Quality:** poor
+**Characters Present:** Savage (played by Mandi — field commander of L-PIU), Trey (player name; character name unclear but present), Farah (Farrah Richton, played by Harrison), Dismas (played by Harrison; appears briefly), Curiosity (android-like character, played by someone), Joy Bridge (dwarf inquisitor, played by Chris), Rodney Danger Smith (RDS, mentioned but not actively played)
 
 ## Summary
 
-L-PIU (the alternate party) departs Lepidstadt on a mission to apprehend Estovion Lazarov at Ascanor Lodge after receiving a warrant from Judge Darymid. Before leaving, they receive a continental breakfast, supplies, and intelligence about the target's magical abilities and the dangers of Shudderwood. Shortly after departing the city, they encounter a group of young noble-born bandits (the Road Kings) who attempt to rob them. Combat ensues, resulting in two bandits killed and three stabilized. The party then crosses a river and begins making camp as evening falls.
+The L-PIU squad (Lepidstadt Police Investigative Unit alternative members) receives a warrant to arrest Estovion Lazarov at Ascanor Lodge in Shudderwood. After shopping and receiving supplies in Lepidstadt, they depart south. Shortly after leaving the city, they encounter a group of wealthy young bandits (the 'Road Kings') attempting to rob travelers. Combat ensues, resulting in two bandit deaths and three stabilized survivors. The party crosses a river and begins camping for the night. Transcript quality was poor with frequent auto-caption errors.
 
 ## Key Events
 
-- Judge Darymid summons L-PIU to the precinct at 6 AM and delivers a warrant for Estovion Lazarov's arrest, charging him with crimes associated with the Whispering Way. Darymid notes that Estovion is a formidable wizard capable of using extraplanar travel, invisibility, gaseous form, and other escape spells.
-  - Characters: Judge Darymid, Savage, Trey, Farah, Curiosity, Joy Bridge
+- Judge Darymid summons L-PIU at 6 AM with a scroll warrant for Estovion Lazarov's arrest at Ascanor Lodge, connected to Whispering Way crimes.
+  - Characters: Judge Darymid, Kendra Lorrimor
   - Location: Lepidstadt Police Precinct P-133
-  - Timeline: Post 4717.04.27, during L-PIU's alternate timeline
-- L-PIU conducts shopping in Lepidstadt, purchasing supplies including dispel magic scrolls, potions, anti-werewolf items, and various utility items. Kendra provides funds for the mission.
-  - Characters: Savage, Trey, Farah, Curiosity, Joy Bridge, Kendra Lorrimor
-  - Location: Lepidstadt markets (Grave Charge, Tram Shop, Valerie's Vagaries)
-- L-PIU departs Lepidstadt south on the Road to Chastel. Rissa offers to carry messages to/from Seus and provides intelligence about Shudderwood, mentioning friendly werewolf contacts and warning of psychic spiders.
-  - Characters: Savage, Trey, Farah, Curiosity, Joy Bridge, Rissa
-  - Location: Lepidstadt gates and South Road
-- L-PIU encounters the Road Kings, a gang of young noble-born bandits in glamping tents off the South Road. Combat initiates after Trey's failed diplomacy check (natural 1). Two bandits are killed (one decapitated by Curiosity's void ray, one knocked unconscious by Savage), three are stabilized. The party interrogates the leader, Patch Dangerson, and learns they are fans of Seus who have only been banditing for three days.
-  - Characters: Savage, Trey, Farah, Curiosity, Joy Bridge, Patch Dangerson, Road Kings
-  - Location: South Road, approximately 10 city blocks south of Lepidstadt
-- L-PIU crosses a river using various methods: Farah summons a phantom steed (cinnamon) and crosses via fire horse, others swim across with success checks, and Curiosity uses levitation to float across slowly.
-  - Characters: Savage, Trey, Farah, Curiosity, Joy Bridge
-  - Location: River ford (location of ancient destroyed Duran Stone bridge from prior conflict)
-- L-PIU makes camp for the evening and establishes watch rotations. Farah experiences a strong psychic flash of her grandfather's memory from this location during the ancient war over the bridge. *(medium confidence)*
-  - Characters: Savage, Trey, Farah, Curiosity, Joy Bridge
-  - Location: Clearing south of river crossing
+  - Timeline: 4717.04.03 — Darymid issues warrant for Estovion's arrest; L-PIU departs to execute it
+- L-PIU departs Lepidstadt south toward Shudderwood, provisioned with supplies including bedrolls, trail rations, and magical items.
+  - Characters: Savage, Trey, Farah, Dismas, Curiosity, Joy Bridge
+  - Location: South Road from Lepidstadt
+- L-PIU encounters the 'Road Kings,' a bandit group led by Patch Dangerson (a young noble) who attempt to rob the party on the South Road. Combat begins after a failed diplomacy check.
+  - Characters: Savage, Trey, Farah, Dismas, Curiosity, Joy Bridge, Patch Dangerson
+  - Location: South Road, south of Lepidstadt
+- During combat, Curiosity casts Void Ray, disintegrating one bandit's head. Other bandits are subdued; two die, three are stabilized by Joy Bridge. Farah uses Detect Thoughts on the captured Patch Dangerson to learn the Road Kings have been active for 3 days and admire the party's reputation.
+  - Characters: Curiosity, Farah, Patch Dangerson, Joy Bridge
+  - Location: South Road, south of Lepidstadt
+- Party crosses a river at the Duer Stones (a natural ford). Farah experiences a psychic flashback of an ancient battle where a stone bridge was destroyed. The party camps for the night.
+  - Characters: Farah, Dismas, Curiosity
+  - Location: Duer Stones Ford, Shudderwood
 
 ## NPCs Encountered
 
-- [[Judge Embreth Darymid]]
+- [[Judge Darymid]]
 - [[Kendra Lorrimor]]
-- [[Rissa (Wood Golem / Beast of Lepidstadt reborn)]]
-- [[Patch Dangerson (Road King leader)]]
-- [[Conetta (City Guard Captain, appears in opening scene)]]
+- [[Rissa (the golem messenger)]]
+- [[Patch Dangerson (Road Kings leader)]]
+- [[Road Kings (bandit group members, mostly unnamed)]]
 
 ## Locations
 
-- [[Lepidstadt (City)]]
 - [[Lepidstadt Police Precinct P-133]]
-- [[The Dogwatch Tavern]]
-- [[Grave Charge (magic shop)]]
-- [[Tram Shop]]
-- [[Valerie's Vagaries]]
+- [[Grave Charge (shop)]]
+- [[Lepidstadt (city general)]]
 - [[South Road]]
-- [[Glamping camp (Road Kings)]]
-- [[River crossing / Duran Stone ford]]
-- [[Forest clearing (camp)]]
+- [[Duer Stones Ford]]
+- [[Shudderwood (forest region)]]
 
 ## Combat Encounters
 
-- Road Kings ambush: Trey fails diplomacy (natural 1), triggering combat with ~8 bandits. Savage is hit multiple times. Farah casts haste and summons spiritual axes. Curiosity casts a void ray (empowered), dealing massive damage and killing two bandits. Joy Bridge uses prayer buff. Savage grapples the leader (Patch Dangerson). Combat ends with party victorious; two killed, three stabilized, one escaped.
+- Road Kings ambush on South Road: L-PIU vs. ~7-8 bandits led by Patch Dangerson. One bandit decapitated by Curiosity's Void Ray (critical hit), one knocked unconscious by Kai-like melee fighter, three stabilized by Joy Bridge's healing, remaining survivors fled or were subdued. Combat lasted approximately 10 rounds with haste and buff spells active.
 
 ## Items & Loot
 
-- Approximately 750 gold looted from Road Kings
-- Chain shirts (deliberately antiqued to appear Shining Crusade era, but recently manufactured)
-- Blackwood repeating crossbows (imported from Chle)
-- Continental breakfast supplies from Kendra (8 bedrolls, 120 trail rations)
-- Mission supplies satchel from Darymid
-- Dispel magic scrolls (purchased)
-- Potions and anti-werewolf items (purchased)
+- 750 gold from Road Kings corpses
+- Falsely antiqued chain shirts (Shining Crusade style, recently made)
+- Blackwood repeating crossbows
+- Supplies provided: 8 bedrolls, 120 trail rations
+- Scrolls purchased: Dispel Magic (multiple), Glitterdust, Disguise Self, Darkness, Daylight, and others
 - Wand of Lesser Restoration (given to Joy Bridge)
+- Potions of various types (purchased for Joy Bridge/Chris's character)
 
 ## Notable Quotes
 
+> it's 2:30 a.m. now you are to be at the precinct at 6 a.m.
+> I have 45 gold the [ __ ]
+> all cops are Brunk
 > stay in school
-> I'm going to [ __ ] murder you
-> they're rich get them
-> you can have another one
-> your style is unorthodox but effective
-> I don't know if that's like part of our mission but probably have to walk by anyway
-> we mean you no harm we're just passing through
-> all cops are brun
-> don't like it take us back turn around
+> they roll a natural one
+> I'm just going to [ __ ] murder you you [ __ ]
+> They're rich get them
+> watch me pull a dur stand
+> Keep my Lord Duran's name out your [ __ ] mouth
+> I know I shot a kid
+> he just kills and kills
+> oh no yes
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Whether the stabbed/dying bandits will be found and recovered by other parties or if their deaths will be discovered
-- The exact nature of Rissa's current status and relationship to the party (she is clearly the Beast of Lepidstadt in a new form)
-- Whether Patch Dangerson will report the party to law enforcement or if the memory manipulation attempt (if made) succeeded
-- The exact mechanics of how Farah's psychic flashes work and whether they will be relevant to the mission
+- Whether the slain bandits' families will seek revenge or investigation
+- Exact nature of Farah's psychic link to her grandfather's past and what it portends
+- Whether Patch Dangerson will inform authorities about L-PIU's role in the deaths (though Farah attempted to cloud his memory)
+- What 'blurst watch' means (may be a mishearing of 'burst' or inside joke)
+- Details on other L-PIU members: Tim's character (Gaspar/William Gaspar) status unclear; Anna (Elfrip) was not clearly present
 

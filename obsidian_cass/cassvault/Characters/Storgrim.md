@@ -1,19 +1,35 @@
 ---
 name: "Storgrim"
-type: pc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["SS"]
-mentions: 43
-tags: ["character", "pc", "ss"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:51:21.700Z"
 ---
 
 # Storgrim
 
-**Type:** Player Character
-**Campaigns:** SS
-**Mentions:** 43 session(s)
-
+**Race:** Unknown | **Class:** Unknown
 
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Captain of TPK, will handle negotiations for ship division along with Holden; Captain of the TPK, mentioned as being in command and making decisions about ship repairs and crew payments; Captain considering whether to repair or sell the TPK ship; wife (Mandi's character) advises selling treasure to fund ship repairs for patrolling and profit; Has 12,500 gold in personal currency/weight list; Captain, taking care of financial matters and ship repairs; Captain of TPK, willing to give regular Chelish sailors a chance despite their former allegiance, sees common folk as separate from leadership beliefs; Captain of the ship, has strong anti-Chelish sentiment, pushed multiple officers into the sea to reach his position, loves the idea of hiring skilled crew; Pointed out by Sha-Feng during conversation with draconic NPC. Referenced in context of party acquiring items from dead draconic people. *(youtube-transcript, 3/25/2026)*
+- Orc who heard stories about the Technic League stronghold explosion and speaks about the old days under the young Sovereign *(youtube-transcript, 3/25/2026)*
+- Daemon's character, has Step Up feat, attempted to kill the Chelish Marine with deadly aim; Charges across the deck with haste, grabs the captain's corpse, and throws it down the hatch in a WWE-style move, causing a sickening crunch on the gun deck below; Received haste buff from Darla's spell.; Mentioned as being shot at by Bronze Fleet; involved in combat; Curses in Dwarven at Sha-Feng for setting their ship on fire with the lightning bolt. He is in combat and being flanked by an officer.; Captain of the ship, involved in combat on the gangway with Bronze Fleet forces; Captain of the TPK. Captain Poor acknowledges that although TPK didn't bring a ship to the fight, they fought bravely and were first over the rail, so will be treated as part of the action.; Captain Storgrim is present during treasure division after the battle. Referred to as 'Captain Storgrim' and 'Stogram'; Captain of the TPK, receives a friendly wink from the Lady of Tidewater Rock upon arrival; Marries Lady Augusta in a wedding ceremony. Becomes Lord of Tidewater Rock.; Being addressed about his dowry and items of station; his ex-husband is dead and trapped in the dungeons with a ring that brings him home; Posting up defensively in response to hearing footsteps from the east; Takes 20 points of damage from the undead ex-husband; Sara casts heal on him during combat; Captain being cut to pieces by an opponent in combat; taking significant damage but continuing to fight *(youtube-transcript, 3/25/2026)*
+- Has been in emergency surgery for the last couple hours and has emerged alive; A pet (likely a dog) that had emergency surgery and survived *(youtube-transcript, 3/25/2026)*
+
+## Notes & Updates
+
+- Captain of TPK, will handle negotiations for ship division along with Holden; Captain of the TPK, mentioned as being in command and making decisions about ship repairs and crew payments; Captain considering whether to repair or sell the TPK ship; wife (Mandi's character) advises selling treasure to fund ship repairs for patrolling and profit; Has 12,500 gold in personal currency/weight list; Captain, taking care of financial matters and ship repairs; Captain of TPK, willing to give regular Chelish sailors a chance despite their former allegiance, sees common folk as separate from leadership beliefs; Captain of the ship, has strong anti-Chelish sentiment, pushed multiple officers into the sea to reach his position, loves the idea of hiring skilled crew; Pointed out by Sha-Feng during conversation with draconic NPC. Referenced in context of party acquiring items from dead draconic people. *(youtube-transcript, 3/25/2026)*
+- Orc who heard stories about the Technic League stronghold explosion and speaks about the old days under the young Sovereign *(youtube-transcript, 3/25/2026)*
+- Daemon's character, has Step Up feat, attempted to kill the Chelish Marine with deadly aim; Charges across the deck with haste, grabs the captain's corpse, and throws it down the hatch in a WWE-style move, causing a sickening crunch on the gun deck below; Received haste buff from Darla's spell.; Mentioned as being shot at by Bronze Fleet; involved in combat; Curses in Dwarven at Sha-Feng for setting their ship on fire with the lightning bolt. He is in combat and being flanked by an officer.; Captain of the ship, involved in combat on the gangway with Bronze Fleet forces; Captain of the TPK. Captain Poor acknowledges that although TPK didn't bring a ship to the fight, they fought bravely and were first over the rail, so will be treated as part of the action.; Captain Storgrim is present during treasure division after the battle. Referred to as 'Captain Storgrim' and 'Stogram'; Captain of the TPK, receives a friendly wink from the Lady of Tidewater Rock upon arrival; Marries Lady Augusta in a wedding ceremony. Becomes Lord of Tidewater Rock.; Being addressed about his dowry and items of station; his ex-husband is dead and trapped in the dungeons with a ring that brings him home; Posting up defensively in response to hearing footsteps from the east; Takes 20 points of damage from the undead ex-husband; Sara casts heal on him during combat; Captain being cut to pieces by an opponent in combat; taking significant damage but continuing to fight *(youtube-transcript, 3/25/2026)*
+- Has been in emergency surgery for the last couple hours and has emerged alive; A pet (likely a dog) that had emergency surgery and survived *(youtube-transcript, 3/25/2026)*
+- Character with a fighting style built on movement, charges furiously 20 ft every round. Mentioned as the slowest character with a movement-based fighting style.; Takes 10 piercing damage from lizard folk archer; uses dark vision to spot a gargantuan centipede moving in the darkness; gets bitten by the centipede and becomes fatigued after failing a fort save; Takes approximately 60 points of damage from a fancy ranger's volley of glowing arrows; Takes acid arrow damage from a female archer; arrows glow green and splash acid on his armor and clothes, causing smoke; Attacked by a 35-foot-long centipede, bitten and grabbed. Exhausted and down to 6 hit points. In critical condition during combat.; About to be impregnated with an embryo by a large creature; Sha-Feng pushes him out of the way and takes the attack instead; described as bald cyborg who is glowing; Unconscious during combat, receives healing from Shaong; Healed significantly during combat. Was at negative health but healing stabilized him.; Exhausted, can only move 5 feet. Receives cure serious wounds from Rhyarca. Participates in combat against the bugs.; May have blacked out in the middle of the fight. Weird things have happened.; Exhausted dwarf captain who is frustrated with party infighting during combat. Threatens violence, references previously beating someone to death and feeding them to sharks.; Captain of the ship; expresses reluctance about taking a scaly lizard person onto crew; asked about recruiting the female lizardfolk survivor; Grumpy from tiredness, votes against keeping Queen Blossom initially, but is outvoted by the crew's democracy.; Deliberately excluded from receiving windipede eggs by other party members *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

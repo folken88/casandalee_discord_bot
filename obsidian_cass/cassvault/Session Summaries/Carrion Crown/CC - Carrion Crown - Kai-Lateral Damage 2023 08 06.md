@@ -5,9 +5,9 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "1c47dDMP1NM"
 sourceFile: "CC - 1c47dDMP1NM - Carrion Crown - Kai-Lateral Damage 2023 08 06.md"
-processedAt: "2026-03-25T01:17:23.588Z"
+processedAt: "2026-03-25T17:08:24.058Z"
 transcriptQuality: "poor"
-charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas", "Buhan (newly recovered petrified sorcerer)"]
+charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
 tags: ["summary", "cc", "session"]
 ---
 
@@ -15,78 +15,83 @@ tags: ["summary", "cc", "session"]
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=1c47dDMP1NM)
 **Transcript Quality:** poor
-**Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas, Buhan (newly recovered petrified sorcerer)
+**Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
 
 ## Summary
 
-The party recovers a petrified sorcerer (Buhan, the Storm of Chelyats) from a wizard's dungeon and loots valuable artifacts from other petrified adventurers. They then encounter and defeat a hallway full of disciplined zombie guards (approximately 14 undead warriors with spears and shields) on an elevated platform. The session concludes with extensive discussion and preparation for the final confrontation with a trapped, malevolent tree entity in a water-filled chamber below.
+CP-USS explores a dungeon containing petrified adventurers and magical artifacts. After using basilisk blood to restore one statue—a pirate sorcerer named Buhan—the party recovers valuable items including a Numerian advanced breastplate, a +1 keen wakazashi, pipe bombs, and other loot. They then encounter and defeat a hallway of organized zombie guards at an upper level door, before discovering a massive trapped tree creature (a tentacled alien) imprisoned in a chamber below, which they plan to confront after exploring and preparing. Transcript quality was poor with significant auto-caption errors.
 
 ## Key Events
 
-- Party uses basilisk blood to restore a petrified sorcerer (Buhan, the Storm of Chelyats) who was turned to stone during a previous battle. He has been petrified for an unknown duration and has memory loss.
-  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
-  - Location: Mad wizard's dungeon (Caromarc facility)
-- Party loots four petrified corpses, obtaining: a Numerian slick breastplate (advanced magical armor), a Numerian helmet with fortification bonuses and perception penalty, a +1 keen wakazashi made of glaurkite (treats as adamantite), a quiver, a ring with skull and crossbones (priest of Besmara), two pipe bombs (explosive devices with fuses), and other valuables.
-  - Characters: party
-  - Location: Mad wizard's dungeon
-- Party climbs rope to access a 30-foot elevated platform and a side hallway. They encounter approximately 14 zombie guards in disciplined military formation with spears and shields. Combat ensues with Alfred (a flying cleric) making initial attacks, followed by melee and ranged combat from the party.
-  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas, Alfred (NPC goblin)
-  - Location: Elevated platform in wizard's dungeon cage system
-- Party defeats all zombie guards through coordinated combat including melee attacks, ranged arrows, channel positive energy, and spell use. Kai and Danger Smith both take spear wounds but survive.
-  - Characters: Kai, Rodney Danger Smith, Gaspar, Dismas
-  - Location: Elevated platform
-- Party discusses tactics for confronting the final threat: a massive, malevolent tree entity trapped in a water-filled chamber below. The tree is confirmed to be an alien creature disguised as a tree, composed of tentacles and malevolence, immune to fear and mind-affecting effects, with 120-foot blindsense.
-  - Characters: party
-  - Location: Wizard's dungeon - tree chamber below
-- Party learns the tree is trapped in a summoning circle/dimensional anchor prison that prevents teleportation. Opening the door and crossing the seal with hostile action would break the barrier and allow the tree to escape.
-  - Characters: party
-  - Location: Wizard's dungeon
+- Party uses basilisk blood to restore a petrified statue, revealing Buhan, a sorcerer of storms with electrical abilities, who was petrified for an unknown duration and experiences disorientation from memory loss
+  - Characters: Buhan, Kovira, Gaspar, Dismas, Dinvaya
+  - Location: Basilisk chamber in dungeon
+- Party recovers magical loot from other petrified statues: a +1 keen wakazashi (Glaukit, strikes as adamantite) for one character, a Numerian slick breastplate (advanced bulletproof-style armor) for Dinvaya, an exotic helmet with fortification and perception penalty, pipe bombs (Numerian explosives with fuses), and other items
+  - Characters: Dinvaya, Kai, Kovira
+  - Location: Basilisk chamber
+- Party encounters and defeats a hallway of approximately 14 organized zombie guards wielding spears and shields with military discipline at a 30-foot elevated upper level door, using AOE spells and melee attacks
+  - Characters: Gaspar, Alfred, Kate, Kai, Dismas, Dinvaya
+  - Location: Upper level hallway, 30 feet above ground
+- Party discovers a massive imprisoned tree-like creature (actually a tentacled alien ball of malevolence) trapped in a water-filled chamber via dimensional anchor seals, immune to teleportation and fear, with blindsight and AOE mind-control abilities
+  - Characters: Gaspar, Dinvaya, Kai, Kovira, Dismas, Kate
+  - Location: Tree chamber (lowest level of facility)
+- Party learns the facility is Count Caromarc's secret zoo/experimental facility from 40 years ago, now abandoned, with sabotaged infrastructure including collapsed staircases, removed catwalks, and flooded chambers
+  - Characters: Party discussion
+  - Location: Shloss Caromarc facility
+  - Timeline: 4717.02.12 | Shloss Caromarc | The Promethean and the Beast are both destroyed atop Shloss Caromarc
+- Kai fails to climb rope with Buhan present, splashes into water; later Kai is stabbed through the chest by a zombie guard but prevents spear from hitting his heart by holding it in place
+  - Characters: Kai
+  - Location: Upper level hallway and chamber
 
 ## NPCs Encountered
 
-- [[Alfred (goblin, flying cleric companion)]]
-- [[Caromarc (mentioned as facility owner, mad scientist, currently in asylum)]]
+- [[Buhan (the restored pirate sorcerer, also called 'the Storm of Cheliacs')]]
+- [[Alfred (a goblin ally, described as having religious devotion to fire gods)]]
 
 ## Locations
 
-- [[Mad wizard's dungeon (Shloss Caromarc facility)]]
-- [[Basilisk cage/zoo system]]
-- [[Elevated platform with rope access]]
-- [[Zombie-guard hallway]]
-- [[Tree chamber (described but not yet entered)]]
+- [[Basilisk chamber (Shloss Caromarc facility)]]
+- [[Upper level hallway (30 feet elevated)]]
+- [[Tree chamber (water-filled, lowest level)]]
+- [[Caromarc facility (mountain-side structure)]]
 
 ## Combat Encounters
 
-- Approximately 14 disciplined zombie guards in military formation with spears and shields on an elevated platform. Party uses channel positive energy, melee combat, ranged attacks, and spell effects. All zombies defeated.
+- Approximately 14 zombie guards with spears and shields in military formation in upper level hallway; party used AOE spells (burning hands, channel positive energy, lightning bolts) and melee attacks with Alfred providing healing
 
 ## Items & Loot
 
-- Numerian slick breastplate (advanced armor with bonuses vs. touch AC)
-- Numerian helmet (provides fortification, +8 vs. head/face attacks, -5 perception penalty)
-- +1 keen wakazashi made of glaurkite (strikes as adamantite)
-- Quiver (non-magical)
-- Ring with skull and crossbones (symbol of Besmara, priest's item)
-- Two pipe bombs (fused explosive devices)
-- Jar of pink putty (addictive healing drug/opioid)
+- +1 Keen Wakazashi (Glaukit, ancient pre-civiliztion weapon, strikes as adamantite)
+- Numerian Slick Breastplate (advanced medium armor, bulletproof, +6 AC to touch, +8 vs face/head/eye attacks)
+- Exotic helmet with fortification (20% chance to negate sneak attacks, -5 perception penalty, +8 vs attacks targeting face)
+- Pipe bombs (Numerian explosives with fuses, tube with nails and explosive charge, requires 5 seconds to detonate)
+- Addictive drug 'soothe' in jar (pink putty, numbing pain relief, highly addictive opiate-like)
 - Platinum teeth (valuable)
-- Miscellaneous gold and currency
-- Various masterwork items from zombie guards
+- Masterwork weapons and equipment from statues
+- Crushing coins and currency (approximately 14,000 copper mentioned)
 
 ## Notable Quotes
 
-> you have determined that the statue to the South the one that is fairly fleeing the combat while all of his allies are killed has not been shoot on by the vastness
-> the storm of chelyats bested by a spicy lizard
-> I stare at them and have no memory correct
-> it is a thoughtless malevolence it's an objects she detected this before it was a Undead anime
-> it doesn't want me bro
+> we all chose to spew gibberish while he's doing a [ __ ] soundtrack
+> the ideal man yeah
+> very cute very dumb yes
+> but wait here's the way I describe it oh now Mary's room with five adventurers turned to stone there was a basilisk in term one of them to Stone but they killed it
+> that son of a [ __ ] [ __ ]
+> I look confused and terrified
+> the storm of chelyats
+> who wears the medium armor
 > don't die
+> we are just about out of this wand of pro evil someone's been using it before every town
+> get a backbone
+> there's like a 20 chance that we'll die if we go in that room but I mean compared to be hit by my bastards blade
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Exact duration Buhan was petrified (referenced as potentially decades but unclear)
-- Whether the tree entity is actually an alien creature or a corrupted plant-based lifeform (description as 'alien' was somewhat ambiguous in auto-captions)
-- The exact nature of the summoning circle/dimensional anchor system and whether it has been compromised
-- How many additional encounters or challenges exist in the facility before the final tree confrontation
+- Exact nature of how long Buhan was petrified; transcript suggests 'decades' but is unclear
+- Identity and exact composition of all eight petrified statues; only one was fully restored
+- Whether the tree creature was intentionally trapped by Caromarc or accidentally imprisoned
+- Full details of the dungeon's layout and number of remaining chambers
+- Whether other surviving creatures or enemies remain in unexplored areas
 

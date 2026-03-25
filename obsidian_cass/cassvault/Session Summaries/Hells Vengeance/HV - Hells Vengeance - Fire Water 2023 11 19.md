@@ -5,9 +5,9 @@ campaign: "HV"
 campaignName: "Hells Vengeance"
 videoId: "3cp98ah1caw"
 sourceFile: "HV - 3cp98ah1caw - Hells Vengeance - Fire  Water 2023 11 19.md"
-processedAt: "2026-03-25T01:57:06.134Z"
+processedAt: "2026-03-25T17:47:05.316Z"
 transcriptQuality: "fair"
-charactersPresent: ["Jamal", "Draymus", "Reese", "Bruce", "Jason"]
+charactersPresent: ["Jason", "Reese", "Jamal", "Draymus", "Bruce"]
 tags: ["summary", "hv", "session"]
 ---
 
@@ -15,100 +15,82 @@ tags: ["summary", "hv", "session"]
 
 **Campaign:** Hells Vengeance | **Video:** [Watch on YouTube](https://youtube.com/watch?v=3cp98ah1caw)
 **Transcript Quality:** fair
-**Characters Present:** Jamal, Draymus, Reese, Bruce, Jason
+**Characters Present:** Jason, Reese, Jamal, Draymus, Bruce
 
 ## Summary
 
-The party defeats a gold dragon at Citadel Dinyar and harvests its valuable scales and skin using a devil contract to acquire a specialized fireproof skinning dagger. They sell loot in Egorian, receive diamonds from the Church of Asmodeus for bounties, and journey to Saint Ilia's Fountain in the Menador Mountains to begin the ritual to defile sacred waters. They encounter and destroy an Elder Water Elemental guarding the fountain, then discover a hidden military encampment and secret passage beyond the waterfall.
+The party harvested dragon scales and loot from a recently slain gold dragon using a contract devil to procure specialized tools. After selling goods in Egorian and receiving four diamonds as payment from the Temple of Asmodeus, they shadow walked north to a sacred Fountain of Iomedae to begin desecrating it as part of a larger ritual. They encountered and defeated an Elder Water Elemental guardian, then discovered a hidden passage with signs of recent military occupation.
 
 ## Key Events
 
-- Party successfully skins a slain gold dragon, harvesting scales worth 32,000 gold and dragon skin hide
-  - Characters: Reese, Jamal, Draymus, Bruce, Jason
+- Party procures fire-forged skinning dagger from contract devil Teru in exchange for a headband of wisdom and belt of constitution
+  - Characters: Jason
+  - Location: Portal to Hell / Woods outside Egorian
+- Reese successfully harvests dragon scales (780 lbs, worth 32,000 gold) from the slain gold dragon
+  - Characters: Reese
   - Location: Citadel Dinyar
-  - Timeline: 4717.04.14 - Citadel Dinyar scouting/assault phase
-- Party contracts with devil Teru to acquire fireproof adamantine skinning dagger (Fire-forged Dagger) in exchange for Belt of Mighty Constitution +2 and Headband of Wisdom +2
-  - Characters: Jason, Reese, Draymus
-  - Location: Egorian (summoned devil contract)
-- Party receives 4 diamonds (5,000 gp each) from Church of Asmodeus as reward for delivering bounties on slain paladins
-  - Characters: Jason, Jamal, Draymus, Reese, Bruce
-  - Location: Egorian - Midnight Temple
-- Party sells magical items and equipment for approximately 10,033 gp per character after 50% merchant valuation
-  - Characters: all PCs
+- Party sells loot in Egorian and receives approximately 10,033 gold per character plus four 5,000 gold diamonds from Temple of Asmodeus as bounty payment
+  - Characters: Jason, Reese, Jamal, Draymus, Bruce
   - Location: Egorian
-- Reforging contract negotiated: Inheritor's Light (+5 Holy Sword) to be reforged into evil Sawtooth Saber for 10,000 gp
-  - Characters: Jason
-  - Location: Egorian - Church of Asmodeus
-- Party uses Shadow Walk spell to travel ~400 miles to Saint Ilia's Fountain in Menador Mountains (Northern Cheliax)
-  - Characters: Jason, Jamal, Draymus, Reese, Bruce
-  - Location: Menador Mountains - Saint Ilia's Fountain
-- Party encounters and defeats an Elder Water Elemental (17 HD, CR unknown) guarding Saint Ilia's sacred fountain pool
-  - Characters: Jason, Jamal, Draymus, Reese, Bruce
-  - Location: Saint Ilia's Fountain - sacred pool
-- Draymus uses shared wound spell (Sympathetic Wound) against the Elemental; Bruce uses Dragon Form with Lightning Breath; Jason casts Suffocate spell
-  - Characters: Draymus, Bruce, Jason
-  - Location: Saint Ilia's Fountain
-- Party discovers that the sacred fountain is actually located behind the waterfall in a cave system, not in the initial pool
-  - Characters: Jason, Jamal, Draymus, Reese, Bruce
-  - Location: Saint Ilia's Fountain - waterfall cave
-- Jason scouts behind waterfall using Clairvoyance; discovers military encampment with cleaned-up bedroom area and arrow-making tools with recent use
-  - Characters: Jason
-  - Location: Menador Mountains - Saint Ilia's cave system
-- Party discovers shattered statue of Herculean figure in cave system; secret door detected behind statue on west wall (air flow indicates passage)
-  - Characters: Jason, Jamal, Draymus, Reese, Bruce
-  - Location: Menador Mountains - cave interior
+- Party shadow walks to northern Cheliax to reach a sacred Fountain of Iomedae
+  - Characters: Jason, Reese, Jamal, Draymus, Bruce
+  - Location: Northern Cheliax / Menador Mountains region
+- Party encounters and defeats an Elder Water Elemental (40 feet long, 17 hit dice) guarding the Sacred Fountain
+  - Characters: Jason, Reese, Jamal, Draymus, Bruce
+  - Location: Sacred Fountain of Iomedae
+- Through clairvoyance and exploration, party discovers a hidden illusory passage leading to a cave with recent military occupation
+  - Characters: Jason, Reese, Jamal, Draymus
+  - Location: Caves behind Sacred Fountain
+- Party discovers a shattered statue and evidence of a secret door on the western wall of the cave
+  - Characters: Jason, Reese, Jamal, Draymus, Bruce
+  - Location: Cave chamber behind Sacred Fountain
 
 ## NPCs Encountered
 
-- [[Teru (Contract Devil)]]
-- [[High Priest of Church of Asmodeus]]
-- [[Bob (former companion, now independent)]]
-- [[El Guapo (disappeared in capital)]]
-- [[Corrine (Hell Knight liaison)]]
+- [[Teru (contract devil)]]
+- [[High Priest of Temple of Asmodeus]]
+- [[Bob]]
+- [[El Guapo]]
+- [[Corrine]]
 
 ## Locations
 
 - [[Egorian (capital)]]
+- [[Citadel Dinyar]]
 - [[Midnight Temple]]
-- [[Scroll Tide (potion shop)]]
-- [[Starfall Arcany (general store)]]
+- [[Sacred Fountain of Iomedae]]
 - [[Menador Mountains]]
-- [[Saint Ilia's Fountain]]
-- [[Sacred cave system behind waterfall]]
+- [[Northern Cheliax]]
+- [[Caves behind Sacred Fountain]]
 
 ## Combat Encounters
 
-- Elder Water Elemental (17 HD) - defeated at Saint Ilia's Fountain sacred pool
+- Elder Water Elemental (40 feet long, 17 hit dice) at Sacred Fountain - defeated after multiple rounds
 
 ## Items & Loot
 
-- Fire-forged Dagger (+2 Dagger, fireproof, acid-proof, +5 bonus to skinning/extraction)
-- Bundle of Gold Dragon Scales (780 lbs, worth 32,000 gp)
-- 4 Diamonds (5,000 gp each) - for Raise Dead spells
-- Belt of Mighty Constitution +2 (traded to devil)
-- Headband of Wisdom +2 (traded to devil)
-- Plus 5 Holy Sword - Inheritor's Light (sent for reforging)
-- Various potions purchased: Cure Critical Wounds, Air Bubble, Disguise Self (Peasant), Potion of Play Instrument, Tree Shape, Sense Vitals, etc.
-- Masterwork Flute (100 gp - purchased for bard performance)
-- Total gold per character: ~10,033 gp after sales
+- Fire-forged dagger (immune to fire and acid damage, +5 to harvesting checks)
+- Dragon scales bundle (780 lbs, 32,000 gold value)
+- Four diamonds (5,000 gold each, usable for resurrection spells)
+- Approximately 10,033 gold per character
+- Various magical items and potions purchased (cure critical wounds, air bubble, tree shape, etc.)
 
 ## Notable Quotes
 
+> you have been given four diamonds Each of which is worth 5,000 gold
 > this should be sufficient and there's you know it's a little little over but given your stature and the the benefit of of the feat you've accomplished here we think it's it's worth it for the church to give you this
-> I see this as an absolute win
-> the High priest that you're dealing with walks out of the room comes back in and hands you a tiny just tiny little pouch barely big enough to hold a couple of d20s in it and it's in red velvet
-> how fun oh never no answers needed what do you offer
-> you have offended my family and you have offended a shin Temple
-> Malachi bloodthorn
-> there is a stone platform to the West with a shattered statue looks like a herculan physique on a humanoid
+> he says how can I help you today Jason I need to hold an adamantine fireproof skinning dagger
+> the dagger is much more valuable than that
+> pleasure doing business with you likewise
+> I go get Jason teach them IA dummer's lesson you you stay here you'll get lost I'll go get Jason stay here in the forest where you have no idea where you are
+> this should be sufficient and there's you know it's a little little over but given your stature
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Unclear if El Guapo successfully completed his tasks in Egorian or if he has abandoned the party
-- Uncertain about the identity/purpose of the military encampment in the cave - could be Glorious Reclamation, could be independent forces
-- Unclear what 'S rank' rating system means for Citadel Dinyar assault (no party members/NPCs dying)
-- Uncertain if the secret door behind the statue is trapped or guarded
-- Unclear if Bruce is still with the party after this session or if he remains independent
+- Whether the party will successfully desecrate the Sacred Fountain (they found the location but had not yet performed the ritual at session end)
+- The nature of the military occupation indicated by the cave - unclear if Glorious Reclamation or another force
+- Identity of the soldier/occupant in the cave chamber
+- Whether additional guardians exist beyond the Water Elemental
 

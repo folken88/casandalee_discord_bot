@@ -1,19 +1,22 @@
 ---
 name: "Vorkstag"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["CC"]
-mentions: 2
-tags: ["character", "npc", "cc"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T15:19:28.712Z"
 ---
 
 # Vorkstag
 
-**Type:** NPC
-**Campaigns:** CC
-**Mentions:** 2 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Discussion about whether Vorkstag is dead; noted that he can non-detect himself and will never be picked up by detection spells. If he infiltrates law enforcement, it would probably be the left side, not the group. *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

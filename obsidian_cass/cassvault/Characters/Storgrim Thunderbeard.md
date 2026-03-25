@@ -25,3 +25,6 @@ HP 105/105 | Dwarf Fighter | Level 7
 ## Session Appearances
 
 *Session activity from YouTube transcripts will appear here.*
+
+### Shackles - Death & Bungi 2025 10 16
+A dwarf character, salt beard from a cityish area; Thunderbeards are known for gunnery, cannons, and rifles; has clan relations with the Hammer family

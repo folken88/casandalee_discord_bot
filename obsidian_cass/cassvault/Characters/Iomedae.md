@@ -1,19 +1,22 @@
 ---
 name: "Iomedae"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["HV", "IS"]
-mentions: 8
-tags: ["character", "npc", "hv", "is"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:03:29.287Z"
 ---
 
 # Iomedae
 
-**Type:** NPC
-**Campaigns:** HV, IS
-**Mentions:** 8 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Referenced through a symbol on a sword's hilt. A sword made of pure light with Iomedae's symbol is wielded by a warrior approaching from the Eastern front. *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

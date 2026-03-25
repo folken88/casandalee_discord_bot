@@ -5,8 +5,8 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "Ak-GU_F4_t0"
 sourceFile: "CC - Ak-GU_F4_t0 - Carrion Crown - Local Atrocities 2024 03 31.md"
-processedAt: "2026-03-25T01:23:23.746Z"
-transcriptQuality: "fair"
+processedAt: "2026-03-25T17:14:16.864Z"
+transcriptQuality: "poor"
 charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
 tags: ["summary", "cc", "session"]
 ---
@@ -14,34 +14,41 @@ tags: ["summary", "cc", "session"]
 # Carrion Crown - Local Atrocities 2024 03 31
 
 **Campaign:** Carrion Crown | **Video:** [Watch on YouTube](https://youtube.com/watch?v=Ak-GU_F4_t0)
-**Transcript Quality:** fair
+**Transcript Quality:** poor
 **Characters Present:** Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
 
 ## Summary
 
-CP-USS scouts encounter a massive Tyrant Remnant (thousand-year-old undead giant) patrolling Shudderwood and wisely decide not to engage. The party then negotiates safe passage through Broken Ones werewolf territory, paying 400 gold to avoid combat. They investigate the Standing Stones (an ancient site of necromantic significance used as a cult waypoint) before continuing toward Ascanor Lodge.
+CP-USS traveled through Shudderwood, encountering a haunted valley with hanging corpses, a massive undead creature that they wisely avoided, and negotiated passage through the Broken Ones werewolf clan. They investigated the Standing Stones (marked by cultist activity a month prior) and continued toward Ascanor Lodge. Transcript quality was poor with frequent technical issues.
 
 ## Key Events
 
-- Party discovers and observes a 25-foot-tall armored skull giant (Tyrant Remnant) wielding two 20-foot greatswords. The creature has a 80-foot detect life range and immediately spots Kovira when she approaches. Party wisely retreats without engaging.
-  - Characters: Kovira, Kai, Gaspar, Dismas, Dinvaya, Kate Blackwood, Rodney Danger Smith, Elfrip
-  - Location: Shudderwood (Eastern section, near swampy area)
-- Party encounters a hunting party of 12 Broken Ones werewolves (including their leader). After initial arrow fire, Kate shifts to werewolf form and negotiates safe passage by claiming Whispering Way opposition and Blackwood Clan protection. Party pays 400 gold (50 gold per person) for safe escort to edge of Broken Ones territory.
-  - Characters: Kate Blackwood, Kovira, Kai, Gaspar, Dismas, Dinvaya, Rodney Danger Smith, Elfrip
-  - Location: Shudderwood (Silent Path)
-  - Timeline: 4717.03.22 - CP-USS is in Shudderwood traveling to Ascanor Lodge
-- Party investigates the Standing Stones, an ancient site from The Shining Crusade era. Spellcraft reveals elaborate protective wards, necromantic runes, and runes that only activate at night. Evidence shows the Whispering Way camped here ~1.5 months ago with 20-40 people, treating the site with reverence. The stones radiate significant evil aura.
-  - Characters: Kai, Gaspar, Kovira, Elfrip, Dinvaya
-  - Location: Standing Stones (Shudderwood, south of Silent Path)
-- Kate reveals to the party that she is a werewolf and can shift forms at will. The revelation was a surprise to Kai. Rissa (Beast of Lepidstadt reborn) delivers magical items including a mythral greatsword for Kai and confirms she already knew Kate's secret.
-  - Characters: Kate Blackwood, Kai, Rissa, Gaspar, Kovira
-  - Location: Shudderwood (camp)
+- Party encountered a haunted valley with hanging corpses displaying signs of historical massacre from approximately 100 years ago (the Chastel Massacre). The haunt was determined to be a relatively harmless residual phenomenon.
+  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
+  - Location: Hanging Valley, Shudderwood
+  - Timeline: 4701.04.22 (Chastel Massacre reference)
+- Party detected a massive 25-foot-tall undead skeletal giant with 20-foot greatswords via Kovira's scouting. The creature was immediately hostile with a detection range of approximately 80 feet. Party decided to retreat rather than engage.
+  - Characters: Kovira, Kai, Gaspar, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
+  - Location: Shudderwood, near Silent Path
+- Party was ambushed by archers firing from extreme range (~255 feet). Rodney Danger Smith saved Kai and Gaspar by tackling them out of the line of fire. Three arrows struck trees where they had been standing.
+  - Characters: Kai, Gaspar, Rodney Danger Smith
+  - Location: Silent Path, Shudderwood
+- Kate Blackwood shifted into werewolf form and approached the attacking werewolves to negotiate. After initial hostility, party negotiated passage through Broken Ones territory for 400 gold (50 gold per party member) with the promise that the cultists would be dealt with.
+  - Characters: Kate Blackwood, Gaspar, Kai, Rodney Danger Smith
+  - Location: Silent Path, Shudderwood
+- Party investigated the Standing Stones, an ancient site of necromantic significance. They found evidence of the Whispering Way's camp from approximately one month prior (consistent with timeline events around 4717.01.24). The stones were heavily enchanted with protection magic and necromantic runes.
+  - Characters: Gaspar, Kai, Kovira, Elfrip
+  - Location: Standing Stones, Shudderwood
+  - Timeline: 4717.01.24 (Whispering Way activity)
+- Party continued travel toward Ascanor Lodge and made camp away from the Standing Stones due to the evil aura radiating from them.
+  - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
+  - Location: Shudderwood, south of Standing Stones
 
 ## NPCs Encountered
 
+- [[Broken Ones werewolf clan leader (name not clearly given)]]
 - [[Rissa (Beast of Lepidstadt)]]
-- [[Broken Ones hunting party leader (unnamed werewolf)]]
-- [[Broken Ones archers]]
+- [[Clarissa/Rissa Elssa Caromarc]]
 
 ## Locations
 
@@ -52,30 +59,29 @@ CP-USS scouts encounter a massive Tyrant Remnant (thousand-year-old undead giant
 
 ## Combat Encounters
 
-- Arrow ambush from Broken Ones archers (resolved diplomatically without full combat)
-- Encounter with Tyrant Remnant (25-ft skeletal giant) - observed and fled without engagement
+- Archery ambush from unknown archers at extreme range (~255 feet), three arrows fired at party
+- Encounter with Broken Ones werewolf clan (resolved through negotiation rather than combat)
 
 ## Items & Loot
 
-- Mythral Greatsword (loaned by Rissa to Kai)
-- Magical items delivered by Rissa
-- Ring of Protection +2 (Kovira equipped)
-- Amulet of Natural Armor (returned to inventory)
+- Mythral Greatsword (delivered by Rissa)
+- Ring of Protection (improved)
+- Various magical items delivered by Rissa
 
 ## Notable Quotes
 
-> don't leave me (haunting spirits at Hanging Valley)
-> the old laws don't hold right now Broker / why the pack Lord Is Dead We At War
-> we are here to kill them and prevent them from doing further harm
-> I will protect you against any bad people don't worry
-> I suck at lying I guess (Rissa)
-> I hope you are victorious in your battle against werewolves whose names do not begin with K (Rissa)
+> don't leave me (repeated whisper from hanging corpses)
+> the old laws don't hold right now broker why the pack Lord Is Dead We At War
+> we will protect you thank you thank you very much
+> I wish gasar would shut the [ __ ] up (Taron reference/joke)
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- The exact composition and size of the Whispering Way encampment at the Standing Stones - transcript indicates 20-40 people but details are somewhat garbled
-- Whether the Tyrant Remnant operates under Whispering Tyrant's direct command or residual programming - Toby states this as fact but it may be GM speculation
-- The specific nature and purpose of the Standing Stones' nighttime-only runes - unclear if they pose an active threat or are merely historical enchantments
+- Nature of the massive undead giant creature - described as potentially a Remnant from the Whispering Tyrant's forces, possibly operating under direct command
+- Identity of the archers in the ambush - unclear if Silverhides, Whispering Way, or another faction
+- Exact casualty count from the Chastel Massacre - transcript mentions 'unknown thousands' but is unclear
+- Whether the party actually encountered or just observed the undead giant
+- Details of what Rissa delivered and what items were actually kept vs. stored
 

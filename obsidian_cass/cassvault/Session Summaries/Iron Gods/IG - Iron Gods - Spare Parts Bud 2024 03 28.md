@@ -5,9 +5,9 @@ campaign: "IG"
 campaignName: "Iron Gods"
 videoId: "DP4tNVeKwTQ"
 sourceFile: "IG - DP4tNVeKwTQ - Iron Gods - Spare Parts Bud 2024 03 28.md"
-processedAt: "2026-03-25T02:07:40.515Z"
+processedAt: "2026-03-25T17:58:15.447Z"
 transcriptQuality: "fair"
-charactersPresent: ["Akradenn", "Nomkath", "Mr Brow", "Ulfred", "Luna", "Olbryn"]
+charactersPresent: ["Nomkath", "Mr Brow", "Olbryn", "Akradenn", "Luna", "Ulfred"]
 tags: ["summary", "ig", "session"]
 ---
 
@@ -15,99 +15,97 @@ tags: ["summary", "ig", "session"]
 
 **Campaign:** Iron Gods | **Video:** [Watch on YouTube](https://youtube.com/watch?v=DP4tNVeKwTQ)
 **Transcript Quality:** fair
-**Characters Present:** Akradenn, Nomkath, Mr Brow, Ulfred, Luna, Olbryn
+**Characters Present:** Nomkath, Mr Brow, Olbryn, Akradenn, Luna, Ulfred
 
 ## Summary
 
-The party infiltrates the Palace of Fallen Stars in Starfall. They capture and interrogate a barbarian guard, obtaining detailed palace layout information through Cassandalee's mind-reading abilities. They execute a stealth operation to kill another guard and raid a hidden weapons cache, then teleport to Garton's lab to plan their assault on the Black Sovereign. The party debates various strategies for either healing the Black Sovereign of his Numerian fluid addiction or confronting him directly, ultimately settling on a plan to have him ingest healing potions (the 'double heal burger' plan).
+The party infiltrates the Palace of Fallen Stars in Starfall while hiding in a broom closet. After using mind-affecting spells to incapacitate guards and extract information via Casandalee, they kidnap a diplomat from Taldor named Allan Quartermain and raid a hidden weapons cache. The session ends with extensive planning about how to cure the Black Sovereign's addiction to Numerian Fluids—ultimately settling on the 'double heal burger' plan.
 
 ## Key Events
 
-- Party captures and uses ego whip to incapacitate a barbarian guard for interrogation/mind-reading
-  - Characters: Mr Brow, Nomkath, Ulfred, Luna
+- Party uses ego whip and thought sense to incapacitate a barbarian guard without alerting others, downloads his memories via Casandalee
+  - Characters: Mr Brow, Nomkath
   - Location: Palace of Fallen Stars, First Floor
-- Cassandalee downloads memories from the incapacitated barbarian, obtaining detailed palace layout including guard positions, secret doors, and Black Sovereign's inner circle locations
-  - Characters: Nomkath, Mr Brow, Casandalee
-  - Location: Palace of Fallen Stars, Broom Closet
-- Party rescues a prisoner identified as Allan Quartermain, an apparent Taldoran diplomat/military officer who was being held captive
-  - Characters: Nomkath, Akradenn, Allan Quartermain
+- Party frees Allan Quartermain, a imprisoned Taldor diplomat, from a magically sealed guest chamber
+  - Characters: Akradenn, Allan Quartermain
   - Location: Palace of Fallen Stars, Guest Lounge
-- Nomkath silently kills a barbarian guard in the Training Hall and loots the secret weapons cache
-  - Characters: Nomkath, Akradenn
+- Nomkath silently kills a barbarian guard in the Training Hall to access a secret weapons cache, hides body
+  - Characters: Nomkath
   - Location: Palace of Fallen Stars, Training Hall
-- Party teleports two incapacitated barbarians to Binox, who agrees to use them as experimental subjects and spare parts
-  - Characters: Akradenn, Binox
-  - Location: Binox's Lair / Palace of Fallen Stars
-- Party teleports to Garton's lab on the second floor of the Palace to plan their next moves
-  - Characters: Akradenn, Ulfred, Nomkath, Mr Brow, Luna, Olbryn
-  - Location: Palace of Fallen Stars, Second Floor - Garton's Lab
+- Party loots secret weapons chamber containing magical items (cloaks of resistance, amulets, rings, falcatas, sovereign hammers, prayer book)
+  - Characters: Nomkath, Olbryn
+  - Location: Palace of Fallen Stars, Training Hall Secret Chamber
+- Party teleports two incapacitated barbarians to Brinox's facility, who agrees to harvest them for parts and upgrades
+  - Characters: Olbryn, Brinox
+  - Location: Brinox's Lair / Palace of Fallen Stars
+- Party learns the Black Sovereign's inner circle includes: Cole (consort), Tech Makul (cybernetic general), Mockery (old friend in disguise), Becki (powerful witch spellcaster), and T'rock (11-foot Oracle of Gorum with glowing turquoise veins)
+  - Characters: Casandalee, Luna
+  - Location: Palace of Fallen Stars
+  - Timeline: 4717.03.11
 
 ## NPCs Encountered
 
 - [[Casandalee]]
 - [[Allan Quartermain]]
-- [[Binox]]
-- [[Black Sovereign Kevoth-Kul (discussed, not met)]]
-- [[Cool/Lady Cole (Black Sovereign's consort, discussed)]]
-- [[Tech Makul (Barbarian captain, discussed)]]
-- [[Mockery/Draw Mock (discussed)]]
-- [[Becki (witch, discussed)]]
-- [[Tokala (stone giant oracle, mentioned)]]
-- [[Chef Gorgo (mentioned)]]
+- [[Chef Gorgo]]
+- [[Zerth (mentioned, not present)]]
+- [[Brinox]]
+- [[Cole]]
+- [[Tech Makul]]
+- [[Mockery]]
+- [[Becki]]
+- [[T'rock]]
+- [[The Black Sovereign (Kevoth-Kul) - mentioned, not present]]
 
 ## Locations
 
-- [[Palace of Fallen Stars, First Floor - Broom Closet]]
-- [[Palace of Fallen Stars, First Floor - Main Hall]]
-- [[Palace of Fallen Stars, First Floor - Guest Lounge]]
-- [[Palace of Fallen Stars, First Floor - Training Hall]]
-- [[Palace of Fallen Stars, Second Floor - Garton's Lab]]
-- [[Binox's Lair (via teleport)]]
+- [[Palace of Fallen Stars (Broom Closet)]]
+- [[Palace of Fallen Stars (First Floor - Main Hall)]]
+- [[Palace of Fallen Stars (Training Hall)]]
+- [[Palace of Fallen Stars (Guest Lounge)]]
+- [[Palace of Fallen Stars (Secret Weapons Chamber)]]
+- [[Gartone's Lab (second floor)]]
+- [[Brinox's Lair (teleported to)]]
 
 ## Combat Encounters
 
-- Ego whip incapacitation of first barbarian guard (no actual combat)
-- Silent assassination of second barbarian guard by Nomkath (one attack, no resistance)
+- Ego whip attack on first barbarian guard (incapacitation, no combat)
+- Silent assassination of second barbarian guard via plasma blade through the heart
 
 ## Items & Loot
 
-- Starfire Blade (taken from first barbarian)
-- Multiple cloaks of resistance (+1)
-- Multiple amulets of natural armor (+1)
-- Multiple rings of protection (+1)
-- Book of War Prayers (duplicate of Ulfred's)
-- Potions of healing
-- Potions of spider climb
-- Potions of protection
-- Falcata weapons (+1 enchantment)
-- Sovereign long hammers (+1 magic, dwarf design, 3 total)
-- Delorainian compound bow (+1 magic)
-- Hundreds of normal arrows
-- Various pouches and jewelry
+- Seven Cloaks of Resistance (+1)
+- Seven Amulets of Natural Armor (+1)
+- Seven Rings of Protection (+1)
+- Book of War Prayers (featuring Gorum priests)
+- Potions of Healing
+- Potions of Spider Climb
+- Potions of Protection
+- Falcatas (+1 magic weapons)
+- Delmarian Compound Bow (+1 magic)
+- Sovereign Long Hammers (+1 magic, three of them, 30 lbs each)
+- Starfire Blade (taken from first guard)
 
 ## Notable Quotes
 
-> we'll start the recording if you want to
-> try to run simulations in here you can there's a bit of a risk because you're all sort of in like cassand VR mode
-> I can probe their minds and share that with cassand
-> there's a bit of a risk because you're all sort of in like cassand VR mode when you're doing a Sim
-> we're all sort of in like cassand VR mode when you're doing a Sim and so you're sort of distracted
-> can I tell from his brain waves alone can I tell from his brain waves alone that he was a big bastard
-> I put Bane sound effects on all of your spell
 > no one cared who I was till I put on the mask
-> I hit the wrong button that was not I was not waiting to do that
-> we have a second level Barbarian working for us then
-> this guy's not sure where Cass says but there's a secret door in the training Hall
-> the double heel Burger scop
-> there would be a lot of Innocence caught in the middle of that Armageddon option three
+> try to run simulations in here you can there's a bit of a risk because you're all sort of in like cassand VR mode
+> Brent has called someone a damn fascist
+> magic underwear take his magical underwear
+> he would just basically go straight through the heart from the side
+> I have the the most fun person I've ever Se take damage from it
+> the double heel Burger
+> plan B is duel him
+> if he's expecting or hoping that the Technic League will provide him with some other drug or something then I think that is also a sneaky way to get him to ingest a heal spell
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Whether the party will successfully contact Zerth and arrange a meeting with the Black Sovereign
-- Whether the 'double heal burger' plan will actually convince the Black Sovereign to ingest the healing potions
-- The location and contents of the Black Sovereign's Numerian fluid drug stash (noted as needing to be found and destroyed)
-- Whether Chef Gorgo will cooperate with the party or need to be mind-wiped
-- The exact mechanics of how Cassandalee's divination simulation will work and what it will reveal about the Black Sovereign's potential responses
+- Whether Garrion (Gartone) is actually dead or if he might still be alive somewhere
+- The exact nature and location of the Black Sovereign's drug stash (confirmed to exist but not yet located)
+- What Brent's character Allan Quartermain's full backstory and allegiances are (his microphone was broken for much of the session)
+- Whether the barbarians have discovered the missing guards yet
+- The exact capabilities and weaknesses of T'rock as described (11-foot tall with glowing turquoise veins)
+- Whether the party will actually attempt the 'double heal burger' plan or pursue a different approach
 

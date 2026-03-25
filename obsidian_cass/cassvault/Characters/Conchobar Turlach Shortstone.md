@@ -6,9 +6,9 @@ class: "Bard"
 level: 6
 player: "Multiple Owners"
 aliases: []
-tags: ["character", "pc", "pc"]
+tags: ["character", "pc"]
 created: "2026-02-25T00:00:00.000Z"
-updated: "2026-02-25T00:00:00.000Z"
+updated: "2026-03-25T15:11:04.531Z"
 ---
 
 # Conchobar Turlach Shortstone
@@ -16,6 +16,10 @@ updated: "2026-02-25T00:00:00.000Z"
 **Race:** Gnome | **Class:** Bard | **Level:** 6 | **Player:** Multiple Owners
 
 HP 66/66 | Gnome Bard | Level 6
+
+## Notes & Updates
+
+- Referenced as 'Konabar', provides tactical advice to TPK crew *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

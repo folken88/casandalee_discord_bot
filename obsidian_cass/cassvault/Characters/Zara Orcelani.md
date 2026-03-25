@@ -1,19 +1,22 @@
 ---
 name: "Zara Orcelani"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["HV"]
-mentions: 2
-tags: ["character", "npc", "hv"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:03:29.414Z"
 ---
 
 # Zara Orcelani
 
-**Type:** NPC
-**Campaigns:** HV
-**Mentions:** 2 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Identified as the queen of the new capital (implied to be the leader of the Glorious Reclamation forces). She is the one who teleported away from the battlefield. *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

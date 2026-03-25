@@ -5,7 +5,7 @@ campaign: "CC"
 campaignName: "Carrion Crown"
 videoId: "ErAuK0WGftk"
 sourceFile: "CC - ErAuK0WGftk - Carrion Crown - You Look Different 2024 05 12.md"
-processedAt: "2026-03-25T01:26:05.718Z"
+processedAt: "2026-03-25T17:17:07.777Z"
 transcriptQuality: "fair"
 charactersPresent: ["Gaspar", "Kovira", "Kai", "Elfrip", "Dinvaya", "Kate Blackwood", "Rodney Danger Smith", "Dismas"]
 tags: ["summary", "cc", "session"]
@@ -19,81 +19,83 @@ tags: ["summary", "cc", "session"]
 
 ## Summary
 
-CP-USS arrives at Ascanor Lodge to investigate cult activity and attempts to question Eston Lazarov, the lodge master. After he flees and turns invisible, the party pursues him through the lodge and hedge maze in a chaotic combat, ultimately capturing him. Upon interrogation, Eston reveals the Whispering Way recently visited to make a deal with the werewolf leader Mathus Mordrinacht, gave him a heart (likely of a slain packmate), and departed southeast. He also reveals a powerful ancient werewolf spirit called the Vasis protects the lodge and offers to summon it to clear a path to the Stairs of the Moon, where a cult victim's body may lie and can be interrogated via Speak with Dead.
+CP-USS arrives at Ascanor Lodge and attempts to interrogate the lodge master Estovion about his past involvement with the Whispering Way. When Estovion flees and turns invisible, a chaotic combat ensues in the lodge's ballroom and hedge maze involving dancing, glitter bombs, multiple naked party members, and Lord Duran's arrival. After apprehending Estovion through coordinated efforts, the party learns he was a cult member decades ago but has since distanced himself, and that the Whispering Way recently departed southeast with stolen artifacts, likely heading toward the old capital. The party agrees to help Estovion summon a protective spirit in six days to access the Stairs of the Moon for further investigation.
 
 ## Key Events
 
-- Eston Lazarov vanishes from the dance hall and turns invisible, triggering a chase through the lodge
-  - Characters: Kate Blackwood, Kai, Gaspar, Rodney Danger Smith, Kovira, Dismas, Dinvaya, Elfrip
-  - Location: Ascanor Lodge - dance hall and hedge maze
-  - Timeline: 4717.03.22 - CP-USS at Ascanor Lodge
-- Party captures Eston after he casts gaseous form; he is bound, gagged, and interrogated
-  - Characters: Gaspar, Kai, Rodney Danger Smith, Kate Blackwood, Elfrip
-  - Location: Ascanor Lodge - storage shed
-- Eston reveals the Whispering Way visited Ascanor Lodge to meet with Mathus Mordrinacht and make a deal; they gave him a heart and departed southeast
-  - Characters: Eston Lazarov
+- CP-USS confronts Estovion Lazarov at Ascanor Lodge. When Kate attempts to speak with him, he reads her mind, perceives them as a threat, and attempts to escape by turning invisible.
+  - Characters: Kate Blackwood, Estovion Lazarov
   - Location: Ascanor Lodge
-  - Timeline: 4717.01.24 - Estovion arranges meeting between Auren Vrood and Mathus Mordrinacht (related event)
-- Eston discloses he is connected to an ancient, extremely powerful werewolf spirit called the Vasis through distant familial ties; the Vasis haunts the Stairs of the Moon and will kill anyone who harms Eston
-  - Characters: Eston Lazarov, Kate Blackwood
-  - Location: Ascanor Lodge / Stairs of the Moon (referenced)
-- Eston agrees to summon the Vasis at midnight six days from now to clear a supernatural path to the Stairs of the Moon for CP-USS
-  - Characters: Eston Lazarov, Gaspar, Kate Blackwood
-  - Location: Ascanor Lodge
-- Party learns a cult victim's body lies in the Stairs of the Moon temple, preserved by the Vasis; body can be questioned via Speak with Dead
-  - Characters: Eston Lazarov, Kate Blackwood
-  - Location: Stairs of the Moon
-  - Timeline: 4717.01.31 - Kvalca Sain killed by Whispering Way (likely the body referenced)
-- Lord Duran joins the party as a companion for their departure from Ascanor Lodge in the morning *(medium confidence)*
-  - Characters: Lord Duran, Gaspar
+  - Timeline: 4717.04.06
+- Extended combat in the lodge ballroom and hedge maze. Multiple party members pursue Estovion while other lodge patrons and guards become involved. The party uses tactics including glitter bombs, dimension door, flying, and physical combat.
+  - Characters: Kai, Elfrip, Kate Blackwood, Gaspar, Rodney Danger Smith, Dinvaya, Kovira, Lord Duran
+  - Location: Ascanor Lodge ballroom and hedge maze
+- Estovion is successfully apprehended and restrained. The party binds and gags him to prevent spellcasting.
+  - Characters: Gaspar, Kai, Rodney Danger Smith, Estovion Lazarov
+  - Location: Ascanor Lodge hedge maze
+- Kate Blackwood reads Estovion's mind and learns he was a member of the Whispering Way approximately 20 years ago but has since severed his involvement and regrets his past association.
+  - Characters: Kate Blackwood, Estovion Lazarov
+  - Location: Ascanor Lodge storage shed
+- Through mental interrogation, Estovion reveals the Whispering Way has departed southeast (past Shudderwood toward the old capital), aided the Silverhides/Mathus Mordrinacht in killing Sirona, and stole artifacts including a heart. He states the Whispering Way operates on centuries-long plans to restore the Whispering Tyrant.
+  - Characters: Estovion Lazarov, Kate Blackwood
+  - Location: Ascanor Lodge storage shed
+- Kate discovers through mind reading that Estovion is a distant descendant of the Vasitis, an ancient and extremely powerful werewolf spirit that haunts Shudderwood. This spirit is feared by even the demon wolves and protects Ascanor Lodge.
+  - Characters: Kate Blackwood, Estovion Lazarov
+  - Location: Ascanor Lodge storage shed
+- CP-USS negotiates with Estovion. In exchange for keeping his name secret from the werewolf clans, not spreading word of cult involvement at the lodge, and leaving peacefully, Estovion agrees to summon the Vasitis spirit at midnight six days hence to clear the Stairs of the Moon of the spirit's presence so the party can investigate there.
+  - Characters: Gaspar, Kate Blackwood, Kai, Rodney Danger Smith, Estovion Lazarov
+  - Location: Ascanor Lodge storage shed
+- Lord Duran assists the party during the combat and confrontation, holding off lodge staff and helping subdue Estovion. He agrees to join the party in their travels.
+  - Characters: Lord Duran, Gaspar, Kate Blackwood, Kai, Rodney Danger Smith
   - Location: Ascanor Lodge
 
 ## NPCs Encountered
 
-- [[Eston Lazarov (Ascanor Lodge master)]]
-- [[Lord Duran (noble guest/companion)]]
-- [[Madame Aan (lodge owner/operator)]]
-- [[Mathus Mordrinacht (werewolf leader, referenced)]]
-- [[The Vasis (ancient werewolf spirit, referenced)]]
-- [[Delross (lodge huntsman)]]
-- [[Lodge Bryants (guards)]]
-- [[Lodge Beckies (servants)]]
+- [[Estovion Lazarov]]
+- [[Lord Duran]]
+- [[Delross (Huntsman)]]
+- [[Madame Aan]]
+- [[Lodge Bryants (generic guards)]]
+- [[Duraen Stand (NPCs)]]
 
 ## Locations
 
-- [[Ascanor Lodge - dance hall]]
-- [[Ascanor Lodge - hedge maze]]
-- [[Ascanor Lodge - storage shed]]
-- [[Ascanor Lodge - various rooms]]
+- [[Ascanor Lodge]]
+- [[Ascanor Lodge ballroom]]
+- [[Ascanor Lodge hedge maze]]
+- [[Ascanor Lodge storage shed]]
+- [[Shudderwood (referenced)]]
+- [[Stairs of the Moon (referenced)]]
 
 ## Combat Encounters
 
-- Chase and capture of Eston Lazarov through the lodge and hedge maze; Eston casts gaseous form to escape; party uses dispel magic, glitter bomb, dimension door, flying, grappling, and silencing arrow (Greater Hushing Arrow) to subdue him; Lord Duran aids the party and impresses them with combat prowess
+- Extended chase and combat in Ascanor Lodge ballroom and hedge maze against Estovion (invisible/gaseous), lodge guards, and various patrons over approximately 12+ rounds of combat
 
 ## Items & Loot
 
-- Greater Hushing Arrow (used to silence Eston)
-- Eston's personal journal (previously read by party)
-- Rope (used for restraints)
+- Hushing Arrow (greater) - used to silence Gaspar by Rodney Danger Smith
+- Glitter bomb - used to reveal invisible Estovion
+- Dimensional anchor scroll - used on Estovion to prevent teleportation
+- Rope - used to bind Estovion
+- Potion of fly - drunk by Elfrip
 
 ## Notable Quotes
 
-> "You look different" (Eston to Kate, callback at session end)
-> "I can't guarantee your safety" (Eston's threat if harmed further)
-> "This is my home and I will not run away from my home" (Eston, refusing to flee)
-> "Everything with them is a long long game... they helped me with a problem 20 years ago" (Eston on the Whispering Way)
-> "The cult is gone they did their damage and went their way" (Eston)
-> "I didn't see them but I believe they're rolling with a large group of Undead" (Eston on WW forces)
-> "I can barely control the spirit here I have no control over it there" (Eston on the Vasis)
-> "You'll know when it's there because it will be supernaturally cold" (Eston on how to detect the Vasis)
-> "Slippery since I had tapeworms" (Dismas, running joke)
+> You look different
+> slippery since I had tapeworms
+> I would never
+> short King to the Stars
+> this one turns into a werewolf so it's the worst pet I've ever had
+> a goblin and a werewolf walk into a bar the goblin Ducks
+> to be known as the wolf-like thing of extreme power
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Whether Madame Aan is truly uninvolved with the cult or hiding something (Dinvaya considered pursuing her but did not); alignment detection showed no active evil on her
-- The exact nature and power level of the Vasis spirit (described as ultra-powerful, wraith-like, but details unclear)
-- Whether Eston truly intends to summon the Vasis at the promised time or may deceive the party (party is trusting him based on the implicit threat from the spirit and their agreement)
-- The identity of the cult victim's body at the Stairs of the Moon (assumed to be Kvalca Sain based on timeline, but not confirmed)
+- The exact nature of what Madam Aan was fleeing with and whether she has any direct connection to the Whispering Way (Estovion claims no involvement, but Dinvaya follows her and the transcript quality makes her ultimate fate unclear)
+- Whether Lord Duran will remain a reliable ally or if his racist attitudes will create future conflict
+- The specific mechanics of how Estovion transforms to/from gaseous form and whether he has other escape methods available
+- Whether the party successfully deceived the lodge guests about what occurred
+- The exact timeline and logistics of traveling to Stairs of the Moon and whether Estovion will honor his agreement to summon the Vasitis
 

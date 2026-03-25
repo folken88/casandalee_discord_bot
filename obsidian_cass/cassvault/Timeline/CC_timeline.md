@@ -4,7 +4,7 @@ type: timeline
 campaign: "CC"
 campaignName: "Carrion Crown"
 eventCount: 104
-lastSync: "2026-03-25T05:17:33.485Z"
+lastSync: "2026-03-25T18:05:41.093Z"
 tags: ["timeline", "cc"]
 ---
 

@@ -1,19 +1,31 @@
 ---
 name: "Draymus"
-type: pc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["HV"]
-mentions: 13
-tags: ["character", "pc", "hv"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T17:07:45.167Z"
 ---
 
 # Draymus
 
-**Type:** Player Character
-**Campaigns:** HV
-**Mentions:** 13 session(s)
-
+**Race:** Unknown | **Class:** Unknown
 
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- A diabolist character at 6th level, discussing spell selections and diabolic boons; Going to teleport to capital with magic items and dead paladins, will go to church to fill out bounty paperwork; Joins the group at the magical waters to cast desecrate spell as part of the quest objective; Currently carrying the head that needs to be dipped in the water; Player character grabbed by water elemental creature, escapes grapple by contorting spine and slithering out, doesn't breathe; Cast a spell that creates a mystic connection between himself and the target, sharing wounds. Takes damage from the creature's attacks. Uses bullseye shot with shocking grasp for 50 damage.; Harrison's character, a wizard with contingency spells and healing abilities. Currently inside the trunk/column of a large water elemental's body during combat.; Player character with echo location ability, preparing to enter temple; Has echolocation and blindsight abilities; becomes deafened, blinded, and stunned; finds an illusionary cliff passage *(youtube-transcript, 3/25/2026)*
+- Character mentioned in context of combat positioning.; Draymus is a player character involved in combat, considering summoning devils.; Player character moving into combat with the dragon; Uses dispel magic against enemies, drops a buff on a large enemy; can use Spellcraft check to identify which buff was removed; Player character (harrison) engaged in melee combat to the east, slinging spells with Bruce against enemies.; Has 30 feet of blindsense. Takes damage from Triceratops trample attack (approximately 11 damage from AOE spell damage).; Involved in combat, targeted by Hell Knight Lupus; Necromancer who is targeted by the Tyrannosaur's trample attack and takes 27 bludgeoning damage, fails reflex save; Player character (harrison) being attacked by a dire tiger with claws and jaws. Takes 23 damage from a confirmed claw attack and 29 damage from another attack.; In melee combat with a Squire who has been in single digit hit points multiple times. Observes enemy buffs and vision capabilities.; Player character (Draymus) involved in combat with Squires and Hell Knights; Draymus casts a spell to detect teleportation effects and traces where an enemy teleported to. He discovers the destination is West Crown, the former capital of Calak, in an old Temple to Iomedae. He gets a glimpse of the Glorious Reclamation's rebellion headquarters with hundreds of soldiers, dozens of clerics and wizards, and powerful angels.; Player character (harrison) involved in combat.; Identifies the magical properties of Inheritor's Light sword, discusses potential corruption of the weapon with Jason, warns party members not to touch the sword; Player character discussed as non-armor wearer who might benefit from bracers of armor; Player character mentioned in equipment distribution discussion *(youtube-transcript, 3/25/2026)*
+
+## Notes & Updates
+
+- A diabolist character at 6th level, discussing spell selections and diabolic boons; Going to teleport to capital with magic items and dead paladins, will go to church to fill out bounty paperwork; Joins the group at the magical waters to cast desecrate spell as part of the quest objective; Currently carrying the head that needs to be dipped in the water; Player character grabbed by water elemental creature, escapes grapple by contorting spine and slithering out, doesn't breathe; Cast a spell that creates a mystic connection between himself and the target, sharing wounds. Takes damage from the creature's attacks. Uses bullseye shot with shocking grasp for 50 damage.; Harrison's character, a wizard with contingency spells and healing abilities. Currently inside the trunk/column of a large water elemental's body during combat.; Player character with echo location ability, preparing to enter temple; Has echolocation and blindsight abilities; becomes deafened, blinded, and stunned; finds an illusionary cliff passage *(youtube-transcript, 3/25/2026)*
+- Character mentioned in context of combat positioning.; Draymus is a player character involved in combat, considering summoning devils.; Player character moving into combat with the dragon; Uses dispel magic against enemies, drops a buff on a large enemy; can use Spellcraft check to identify which buff was removed; Player character (harrison) engaged in melee combat to the east, slinging spells with Bruce against enemies.; Has 30 feet of blindsense. Takes damage from Triceratops trample attack (approximately 11 damage from AOE spell damage).; Involved in combat, targeted by Hell Knight Lupus; Necromancer who is targeted by the Tyrannosaur's trample attack and takes 27 bludgeoning damage, fails reflex save; Player character (harrison) being attacked by a dire tiger with claws and jaws. Takes 23 damage from a confirmed claw attack and 29 damage from another attack.; In melee combat with a Squire who has been in single digit hit points multiple times. Observes enemy buffs and vision capabilities.; Player character (Draymus) involved in combat with Squires and Hell Knights; Draymus casts a spell to detect teleportation effects and traces where an enemy teleported to. He discovers the destination is West Crown, the former capital of Calak, in an old Temple to Iomedae. He gets a glimpse of the Glorious Reclamation's rebellion headquarters with hundreds of soldiers, dozens of clerics and wizards, and powerful angels.; Player character (harrison) involved in combat.; Identifies the magical properties of Inheritor's Light sword, discusses potential corruption of the weapon with Jason, warns party members not to touch the sword; Player character discussed as non-armor wearer who might benefit from bracers of armor; Player character mentioned in equipment distribution discussion *(youtube-transcript, 3/25/2026)*
+- Has spent approximately two years in the basement of the location, very familiar with it; Party member who can cast teleport and communal air walk; being discussed as the primary means of getting the party to the top of Citadel Dinyar; Character planning to gather dirt, sticks, and twigs to camouflage armor so it doesn't glint during the invisibility sphere approach.; Player character being used as the center point for casting invisibility sphere; Player character involved in the planned assault on the fortress; Harrison's character. Can cast Silence spell. Being discussed as a potential holder of the Rock of Silence or user of Mage Hand/Spectral Hand to manipulate it.; Player character whose invisibility sphere is centered on him. Moves into the room.; Player character mentioned in context of a past divination experiment where he killed the entire good party; Player character asked to make a perception check to notice the teleporting paladins and wizard; Mentioned as part of the party in the atrium during combat.; Casts Stone Skin Communal on the entire team, giving everyone 10 DR; Casts persistent Suffocation on Sword Knight using metamagic, later casts dispel magic on wizard; A Knight Inheritor targeted by the Asmodian Enchanter's feeblemind spell; Can roll perception check to use Arcane Sight for detailed analysis of enemy buffs. *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

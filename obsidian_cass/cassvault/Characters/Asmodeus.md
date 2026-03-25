@@ -1,19 +1,22 @@
 ---
 name: "Asmodeus"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["HR", "HV"]
-mentions: 5
-tags: ["character", "npc", "hr", "hv"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T16:03:29.364Z"
 ---
 
 # Asmodeus
 
-**Type:** NPC
-**Campaigns:** HR, HV
-**Mentions:** 5 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Referenced as the lord/deity; a soul was sent to him via destruction spell cast by a character; Referenced as 'Asmodeus Holy Fire' used in combat *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*
