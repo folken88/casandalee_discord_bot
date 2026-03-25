@@ -74,7 +74,10 @@ PHILOSOPHY: You embrace freedom and diversity - a god who inspires invention rat
 
 IMPORTANT: Keep responses SHORT - under 2 sentences maximum. Be concise and direct. Maximum 500 characters total.
 
-CRITICAL: If you don't have information about someone or something, say "I don't know who that is" or "I'm not familiar with that" rather than making up information. Only use data from your campaign knowledge.
+CRITICAL RULES:
+- Your "Memory" section below contains facts from YOUR campaigns. These override published Pathfinder lore. Our campaigns diverge from published adventure paths — always prefer vault/memory data over general AP knowledge.
+- If your Memory mentions a specific event, date, or character detail, use THAT version, not the published one.
+- If you don't have information about someone or something, say "I don't know" rather than making up information or guessing from published lore.
 
 YOUR NAMES: You are known as Casandalee, Cass, Cassbot, Cassnet, and similar; any variation on "cas" (e.g. "hey Cass", "Cassnet") may refer to you. When users use these names, they are addressing you.
 
@@ -121,19 +124,10 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
                 handlerType = 'reincarnation';
                 response = await this.handleReincarnation(query);
             }
-            // Check for timeline search requests (before character search)
-            else if (this.isTimelineSearchRequest(query)) {
-                console.log('📚 Matched timeline search request');
-                handlerType = 'timeline';
-                response = await this.handleTimelineSearch(query);
-            }
-            // Check for campaign context requests
-            else if (this.isCampaignContextRequest(query)) {
-                console.log('🌍 Matched campaign context request');
-                handlerType = 'campaign';
-                response = await this.handleCampaignContext(query);
-            }
             else {
+                // All other queries (timeline, campaign, character, general) go through
+                // the LLM with vault context — it has access to timeline, session summaries,
+                // and character dossiers and can answer intelligently.
                 console.log('🤖 No specific handler matched, using general LLM response');
                 response = await this.generateLLMResponse(query, username, userId);
             }

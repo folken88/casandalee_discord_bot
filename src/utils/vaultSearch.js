@@ -187,7 +187,14 @@ class VaultSearch {
                 score += 50;
             }
             if (allMatch && score > 0) {
-                scored.push({ note, score });
+                // Boost structured/curated content over raw transcripts
+                const type = (note.frontmatter.type || '').toLowerCase();
+                if (type === 'timeline') score *= 10;           // Timeline is authoritative
+                else if (type === 'session-summary') score *= 5; // Summaries are curated
+                else if (type === 'character') score *= 4;       // Character dossiers
+                else if (type === 'raw-transcript') score *= 0;  // Never inject raw transcripts
+
+                if (score > 0) scored.push({ note, score });
             }
         }
 

@@ -5,7 +5,6 @@ services:
     restart: unless-stopped
     volumes:
       - ./logs:/app/logs
-      - ./.env:/app/.env
       - ./data:/app/data
       - ./obsidian_cass:/app/obsidian_cass
     logging:
@@ -13,34 +12,16 @@ services:
       options:
         max-size: "10m"
         max-file: "3"
+    env_file:
+      - .env
     environment:
-      - DISCORD_TOKEN=${DISCORD_TOKEN}
-      - CLIENT_ID=${CLIENT_ID}
-      - GUILD_ID=${GUILD_ID}
-      - OPENAI_API_KEY=${OPENAI_API_KEY}
-      - ANTHROPIC_API_KEY=${ANTHROPIC_API_KEY}
-      - OLLAMA_URL=${OLLAMA_URL}
-      - OLLAMA_MODEL_FAST=${OLLAMA_MODEL_FAST}
-      - OLLAMA_MODEL_QUALITY=${OLLAMA_MODEL_QUALITY}
-      - GOOGLE_SHEETS_API_KEY=${GOOGLE_SHEETS_API_KEY}
-      - GOOGLE_SHEETS_SPREADSHEET_ID=${GOOGLE_SHEETS_SPREADSHEET_ID}
-      - GOOGLE_SHEETS_TIMELINE_RANGE=${GOOGLE_SHEETS_TIMELINE_RANGE}
-      - GOOGLE_SHEETS_CHARACTERS_RANGE=${GOOGLE_SHEETS_CHARACTERS_RANGE}
-      - GOOGLE_SHEETS_REFRESH_INTERVAL=${GOOGLE_SHEETS_REFRESH_INTERVAL}
       - BOT_NAME=Casandalee
       - BOT_PREFIX=/cass
       - CAMPAIGN_YEAR=4717
       - CAMPAIGN_MONTH=April
-      - YOUTUBE_PLAYLIST_IDS=${YOUTUBE_PLAYLIST_IDS}
-      - YOUTUBE_PLAYLIST_CAMPAIGNS=${YOUTUBE_PLAYLIST_CAMPAIGNS}
-      - YOUTUBE_SUMMARY_CHANNEL_ID=${YOUTUBE_SUMMARY_CHANNEL_ID}
-      - YOUTUBE_CHECK_INTERVAL=${YOUTUBE_CHECK_INTERVAL}
-      - YOUTUBE_PLAYER_MAP=${YOUTUBE_PLAYER_MAP}
-      - YOUTUBE_MAX_VIDEOS_PER_CYCLE=${YOUTUBE_MAX_VIDEOS_PER_CYCLE}
     networks:
       - cass-network
       - ollama-network
-
 
 networks:
   cass-network:
@@ -48,5 +29,3 @@ networks:
   ollama-network:
     external: true
     name: docker-services_ollama-network
-
-

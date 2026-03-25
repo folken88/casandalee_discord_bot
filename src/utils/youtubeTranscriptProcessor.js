@@ -1260,6 +1260,12 @@ source: google-sheets + session-transcripts
     async postSummaryEmbed(video, extraction, campaignCode) {
         if (!this.client || !this.summaryChannelId) return;
 
+        // Don't post if summary generation failed or had no events
+        if (!extraction || !extraction.summary || extraction.summary.includes('generation failed')) {
+            logger.debug(`Skipping Discord post for "${video.title}" — no meaningful summary`);
+            return;
+        }
+
         try {
             const channel = await this.client.channels.fetch(this.summaryChannelId);
             if (!channel || !channel.isTextBased()) {
