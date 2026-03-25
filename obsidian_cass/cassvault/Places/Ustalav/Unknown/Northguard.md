@@ -20,3 +20,6 @@ Location where party previously encountered vampires and fear attacks, where a c
 ### Carrion Crown - Howling Filth 2025 04 27
 Mentioned in this session.
 
+
+### Carrion Crown - The Corpse Locker 2025 02 23
+City destroyed by ghouls in two days

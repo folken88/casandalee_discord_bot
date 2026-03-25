@@ -8,7 +8,7 @@ player: "Enrique"
 aliases: []
 tags: ["character", "pc"]
 created: ""
-updated: "2026-03-25T16:45:12.465Z"
+updated: "2026-03-25T19:12:33.079Z"
 ---
 
 # Mr Brow
@@ -31,6 +31,9 @@ updated: "2026-03-25T16:45:12.465Z"
 - Player character (Mr. Brow/TBR). Discussed as potentially being promoted to Technic League Captain to gain advantages against the Black Sovereign's crown.; Discussed making him a captain as part of combat strategy *(youtube-transcript, 3/25/2026)*
 - Character being considered for stealth recovery crew. Alfred is thinking about Brow/Evers.; Disguised as a barbarian, encounters a well-dressed man in blue military outfit with black mustache and gray beard *(youtube-transcript, 3/25/2026)*
 - Attacked with ego whip psychic ability, his intelligence reduced by 10, knocked unconscious/comatose for 14 rounds; Hears legends about the Become Chad spell and considers learning it; brings in a captive and sits in corner on high alert; Party member who is incapacitated; party discusses whether to trust him again and considers snooping while he's unconscious *(youtube-transcript, 3/25/2026)*
+- Has a way of incapacitating people, possibly through addiction or disease *(youtube-transcript, 3/25/2026)*
+- Approaching the hospital, trying to locate Nomcat *(youtube-transcript, 3/25/2026)*
+- Offering friendly mental communication, has invisibility and perception on himself and CN viz; Comments on the mental sensitivity of certain races and the Technic League Captain's intellect; Mind sharing with the group; Discussed his life in Starfall and his views on the Technic League; Entering a mental communication network and having conversations with others; Killed Ster Clender and is known for being scary and having a high kill count.; Discussed as a potential spy and mentioned in conversation about the Black Sovereign's past; Propaganda leader, implanting memories; Absorbs history of people around him, curious about Torch and Scrap Wall *(youtube-transcript, 3/25/2026)*
 
 ## Roll History
 

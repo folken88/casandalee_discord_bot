@@ -23,3 +23,9 @@ Party member, presumably able to cast detect spells based on context of spell av
 
 ### Carrion Crown - Howling Filth 2025 04 27
 Mentioned as someone good at Sense Motive checks; A party member involved in the investigation. Uses Discern Lies spell repeatedly on Elodie and makes appraisal checks.
+
+### Carrion Crown - Pier Reviewed 2025 04 13
+Teleported back to Lepstad to inform Darymid; Had the wand of Mount Communal; Discussed spellcraft and ways to clean the cult workshop; Had a Northguard thick boy and mule back cords, used them to carry more items; Had invisibility spell, but used it up; Tracking the cult with all possible skill and haste across Suavevita County
+
+### Carrion Crown - The Corpse Locker 2025 02 23
+Had heroism buff applied to her, was reading an encrypted book; Blocked a double sworded attack with decapitator; Told Al to use holy Smite, took damage from enemies; Using scrap horn to cast fear spell, provoking an aoo from an enemy; Had a little scrape, was fine; Blocked multiple pounce attacks from the Whispering Way minions.; attempted to read the Evil Book

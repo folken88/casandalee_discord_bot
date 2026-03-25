@@ -20,3 +20,9 @@ A port settlement on Firegrass Island where the party has been operating. Leader
 ### Shackles - Drow Envy 2026 03 05
 Mentioned in this session.
 
+
+### Shackles - So anyways, I started decapitating.. 2025 08 21
+A port city on Firegrass Island, defended by the TPK Crew
+
+### Shackles - Who's Ready To Farty? 2025 07 03 19 12 35
+A port on Firegrass Island

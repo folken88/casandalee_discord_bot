@@ -11,7 +11,7 @@ const logger = require('./logger');
 const SESSIONS_DIR = path.join(__dirname, '../../obsidian_cass/cassvault/Sessions');
 const SUMMARIES_DIR = path.join(__dirname, '../../obsidian_cass/cassvault/Session Summaries');
 const STATE_PATH = path.join(__dirname, '../../data/cache/summary-state.json');
-const BATCH_SIZE = 2; // transcripts per run
+const BATCH_SIZE = 5; // transcripts per run
 
 class DripSummarizer {
     constructor() {

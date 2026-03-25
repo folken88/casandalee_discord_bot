@@ -1,19 +1,22 @@
 ---
 name: "Professor Lorrimor"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: ["Lorrimor"]
-campaign: ["CC"]
-mentions: 2
-tags: ["character", "npc", "cc"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T18:34:44.324Z"
 ---
 
 # Professor Lorrimor
 
-**Type:** NPC
-**Campaigns:** CC
-**Mentions:** 2 session(s)
-**Also known as:** Lorrimor
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Murdered near Harrowstone Prison, Ravengro *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

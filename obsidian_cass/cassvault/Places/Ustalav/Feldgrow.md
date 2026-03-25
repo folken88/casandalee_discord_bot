@@ -20,3 +20,6 @@ Location where the Whispering Way's smart members died
 ### Carrion Crown - Howling Filth 2025 04 27
 Mentioned in this session.
 
+
+### Carrion Crown - Pier Reviewed 2025 04 13
+A town with a cult workshop that was destroyed by the party

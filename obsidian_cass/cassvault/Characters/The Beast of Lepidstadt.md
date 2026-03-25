@@ -1,19 +1,22 @@
 ---
 name: "The Beast of Lepidstadt"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["CC"]
-mentions: 2
-tags: ["character", "npc", "cc"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T18:34:44.329Z"
 ---
 
 # The Beast of Lepidstadt
 
-**Type:** NPC
-**Campaigns:** CC
-**Mentions:** 2 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Apprehended and banished from Lepidstadt for vandalism *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

@@ -8,14 +8,17 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T15:19:28.712Z"
+updated: "2026-03-25T18:17:36.391Z"
 ---
 
 # Vorkstag
 
+**Race:** Unknown | **Class:** Unknown
+
 ## Notes & Updates
 
 - Discussion about whether Vorkstag is dead; noted that he can non-detect himself and will never be picked up by detection spells. If he infiltrates law enforcement, it would probably be the left side, not the group. *(youtube-transcript, 3/25/2026)*
+- Escaped CP-US at the Chymic Works. *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

@@ -4,7 +4,7 @@ type: timeline
 campaign: "IG"
 campaignName: "Iron Gods"
 eventCount: 90
-lastSync: "2026-03-25T18:05:41.088Z"
+lastSync: "2026-03-25T19:09:42.391Z"
 tags: ["timeline", "ig"]
 ---
 
@@ -104,3 +104,68 @@ tags: ["timeline", "ig"]
 | 4717.03.14 | Starfall | The Black Sovereign eats a healburger and is cured of his addiction to Numerian Fluids. Unity attacks the Palace of Fallen Stars. |
 | 4717.03.16 | Starfall | The Black Sovereign makes Tokala, Brow, Ulfred, Luna, Nomkath, and Olbryn War Chiefs of Numeria. Matriarch's Tiara purchased. |
 | 4717.03.19 | Silver Mount | Nomkath, Tokala, Ulfred, Olbryn, Luna, Akraden, Mr Brow, and Casandalee sneak into Silvermount via Entryway 40. |
+
+### From: Iron Gods - Headway 2024 03 07
+
+- **Technic League activity in the hospital** *(Hospital)*
+  - Characters: [[Enrique]]
+- **Mr. Brown approaches the hospital, tries to locate Nomcat** *(Hospital courtyard)*
+  - Characters: [[Mr. Brown]], [[Nomcat]]
+- **Character used non-detection to evade Wizards** *(Starfall)*
+  - Characters: [[Zuma]], [[Suuma]]
+- **Character created an illusion of themselves walking in the opposite direction** *(Starfall)*
+  - Characters: [[Suuma]]
+- **Mr. Brow and Nam Cath establish mental communication** *(The compound)*
+  - Characters: [[Mr. Brow]], [[Nam Cath]]
+- **Mr. Brow senses Nam Cath's presence despite invisibility and stealth** *(Outside the compound, near the Fountain)*
+  - Characters: [[Mr. Brow]], [[Nam Cath]]
+- **Conversation about scanning minds and protecting others** *(Library)*
+  - Characters: [[Enrique]], [[Cassand]], [[Nam cath]]
+- **The group encounters a mysterious individual who admires them for their actions** *(Unknown)*
+  - Characters: [[Orin]], [[Cass]], [[Mysterious Individual]]
+- **Acodin shares his memories with the group, showing them his life in Starfall** *(Starfall)*
+  - Characters: [[Acodin]], [[the group]]
+- **Discussion about the Technic League's treatment of psychics** *(Starfall)*
+  - Characters: [[Mr. Brow]], [[The Halfling (psychic)]]
+- **The party is discussing Meyanda's past and her connection to the gears men** *(Starfall)*
+  - Characters: [[Meyanda]]
+- **Cassand interrogates the narrator about Meyanda** *(Starfall)*
+  - Characters: [[Cassand]], [[narrator]]
+- **Kevoth-Kul unites the Numeria tribes and becomes Black Sovereign** *(Numeria)* — Correlates to: 4688.00
+  - Characters: [[Kevoth-Kul]]
+- **Meyanda makes a deal with the Skulks to guard the Black Hill Caves** *(Black Hill Caves, Torch)*
+  - Characters: [[Meyanda]], [[Skulks]]
+- **Khonnir Baine robs the skulks and enters the habitat, returns with a dormant repair drone** *(Black Hill Caves)*
+  - Characters: [[Khonnir Baine]], [[Skulks]]
+- **Mr. Brow enters a mental communication network and has conversations with others** *(Castet, possibly Namc's neighborhood)*
+  - Characters: [[Toala]], [[Cass]], [[Mr. Brow]]
+- **Kevoth-Kul unites Numeria tribes and becomes Black Sovereign** *(Numeria)* — Correlates to: 4688.00.00
+  - Characters: [[Kevoth-Kul]]
+- **Khonnir Baine robs Skulks and enters habitat module** *(Black Hill Caves)*
+  - Characters: [[Khonnir Baine]]
+- **Meyanda makes deal with Skulks to guard Black Hill Caves** *(Torch)*
+  - Characters: [[Meyanda]]
+- **Ster Clender was killed by Mr. Brow in a mental psychic struggle.** *(Unknown)*
+  - Characters: [[Mr. Brow]], [[Ster Clender]]
+- **The party plans to take out the rest of the Technic League and bring the city under proper management.** *(Unknown)*
+  - Characters: [[Party]], [[Technic League]]
+- **The party plans to take out the Black Sovereign, who is currently in a state of constant intoxication.** *(Unknown)*
+  - Characters: [[Party]], [[Black Sovereign]]
+- **The party is deciding how to approach the Black Sovereign** *(Not specified)*
+  - Characters: [[Theala]], [[Kevoth-Kul (Black Sovereign)]]
+- **The primary technologist in town was violently killed, cutting off the supply of a drug used to keep the Black Sovereign happy** *(Town)*
+  - Characters: [[Technic League]], [[Black Sovereign]]
+- **Party discusses plan to infiltrate and overthrow Kevoth-Kul** *(Starfall Palace)*
+  - Characters: [[Kevoth-Kul]], [[Tala]], [[Garton]]
+- **Discussion about whether to heal or kill Kevoth-Kul** *(Starfall City, palace of the Black Sovereign)*
+  - Characters: [[Kevoth-Kul]], [[players]]
+- **Kevoth-Kul deposed by the Technic League** *(Numeria)*
+  - Characters: [[Technic League]]
+- **Party considers installing Toala as leader** *(Numeria)*
+  - Characters: [[Toala]], [[Ry]], [[Luna]]
+- **Players discuss character sheets, health levels, and spells** *(Starfall)*
+  - Characters: [[Mr. Brow]], [[Luna]]
+- **Enrique introduces a new character to the party** *(Starfall)*
+  - Characters: [[New Character (unspecified)]]
+- **Enrique's character kills a Technically Captain and carries his sword**
+  - Characters: [[Enrique]]

@@ -1,19 +1,25 @@
 ---
 name: "Mathus Mordrinacht"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["CC"]
-mentions: 3
-tags: ["character", "npc", "cc"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T19:22:18.807Z"
 ---
 
 # Mathus Mordrinacht
 
-**Type:** NPC
-**Campaigns:** CC
-**Mentions:** 3 session(s)
-
+**Race:** Unknown | **Class:** Unknown
 
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Consumed a portion of Kvalca Sain's heart. *(youtube-transcript, 3/25/2026)*
+- Consumed a portion of Kvalca Sain's heart. *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

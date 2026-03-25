@@ -8,7 +8,7 @@ player: "Daemon"
 aliases: []
 tags: ["character", "pc"]
 created: ""
-updated: "2026-03-25T16:45:12.452Z"
+updated: "2026-03-25T19:12:33.050Z"
 ---
 
 # Nomkath
@@ -27,6 +27,7 @@ HP 180/180. Carries Compact AI Core (Casandalee), Null Blade, DVL-10 Saboteur, A
 - Mentioned as one of the sneaky people needed for the brain-bake/kidnapping plan. *(youtube-transcript, 3/25/2026)*
 - Character receiving greater invisibility and other buffs before combat; Mentioned as a target in the back field - appears to be an older gray-haired woman spellcaster.; Character invisible in front of the party to the north *(youtube-transcript, 3/25/2026)*
 - Telepathic character who can read minds and detect brain waves. Scanning area for enemies and their locations.; Uses psychic powers to sense a target in the locked bedroom, reduces guard's Acrobatics/Perception by 10 with a spell; Player character who goes invisible to scout a weapons stash; uses stealth to avoid detection; Uses magic to slowly lower a falling barbarian to the ground silently after being stabbed; Performed a silent, clean kill on a 230 HP Barbarian - described as the most silent and cleanest kill ever seen. Can only perform this type of strike a few times per day. *(youtube-transcript, 3/25/2026)*
+- Trying to reach out to him telepathically *(youtube-transcript, 3/25/2026)*
 
 ## Roll History
 

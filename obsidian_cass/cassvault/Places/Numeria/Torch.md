@@ -29,3 +29,9 @@ City where the party is based; has a hospital where Maya is located
 
 ### Iron Gods - Spare Parts, Bud 2024 03 28
 Settlement mentioned as potential teleportation destination; has underground areas beneath it
+
+### Iron Gods - Dune Trap
+settlement with Meyanda's involvement in the Skulk deal
+
+### Iron Gods -  Party Crashers 2024 03 14
+A settlement where Meyanda makes a deal with the Skulks; City or settlement mentioned in the context of Meyanda's deal with the Skulks; The party's current location; Mentioned as a location related to Meyanda's deal with the Skulks; A settlement near the Black Hill Caves; A settlement with Meyanda's power relay

@@ -8,14 +8,17 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T15:55:23.735Z"
+updated: "2026-03-25T19:12:33.121Z"
 ---
 
 # Keeper Maya Dice
 
+**Race:** Unknown | **Class:** Unknown
+
 ## Notes & Updates
 
 - One of three town keepers; the magical/magically versed keeper. Whereabouts unknown, possibly missing. *(youtube-transcript, 3/25/2026)*
+- Defeated in Starfall *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

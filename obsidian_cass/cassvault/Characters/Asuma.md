@@ -1,19 +1,22 @@
 ---
 name: "Asuma"
-type: pc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["IG"]
-mentions: 4
-tags: ["character", "pc", "ig"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T19:12:33.072Z"
 ---
 
 # Asuma
 
-**Type:** Player Character
-**Campaigns:** IG
-**Mentions:** 4 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Was being scryed by a Wizard, had a hallucination of the character walking in the opposite direction *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

@@ -8,14 +8,23 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T16:51:21.832Z"
+updated: "2026-03-25T19:17:58.156Z"
 ---
 
 # Riarka
 
+**Race:** Unknown | **Class:** Unknown
+
 ## Notes & Updates
 
 - Character attempting to communicate with Queen Blossom using hand signals and limited Draconic. Appears to be trying to calm the lizard ranger.; Wants to collect heads for interrogation purposes; party discusses whether she's a psychopath; described as potentially doing 'crazier' things *(youtube-transcript, 3/25/2026)*
+- Healed Holden with a spell *(youtube-transcript, 3/25/2026)*
+
+## Notes & Updates
+
+- Character attempting to communicate with Queen Blossom using hand signals and limited Draconic. Appears to be trying to calm the lizard ranger.; Wants to collect heads for interrogation purposes; party discusses whether she's a psychopath; described as potentially doing 'crazier' things *(youtube-transcript, 3/25/2026)*
+- Healed Holden with a spell *(youtube-transcript, 3/25/2026)*
+- Having a large amount of gold in her necklace and being indestructible; At the helm of the ship, about to get shot at *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 
@@ -25,3 +34,9 @@ Dead character being brought to the feast, similar to Koncha from a previous vis
 
 ### Shackles - It's a Bug Story, Baby Just Say Yes 2025 09 11
 Character attempting to communicate with Queen Blossom using hand signals and limited Draconic. Appears to be trying to calm the lizard ranger.; Wants to collect heads for interrogation purposes; party discusses whether she's a psychopath; described as potentially doing 'crazier' things
+
+### Shackles - So anyways, I started decapitating.. 2025 08 21
+Assisting with a pirate or sailor check; Collecting heads in a bag, participating in negotiations with a corpse; Navigating the old pilot's path
+
+### Shackles - Who's Ready To Farty? 2025 07 03 19 12 35
+Having a large amount of gold in her necklace and being indestructible; At the helm of the ship, about to get shot at

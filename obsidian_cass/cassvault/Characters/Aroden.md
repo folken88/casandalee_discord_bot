@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T16:13:23.516Z"
+updated: "2026-03-25T18:25:30.332Z"
 ---
 
 # Aroden
@@ -19,6 +19,12 @@ updated: "2026-03-25T16:13:23.516Z"
 
 - Mentioned as having defeated Tar Baphon in the past *(youtube-transcript, 3/25/2026)*
 - A technically skilled individual with a Captain badge; Nomkath reveals a lightsaber hilt to him as proof of identity and capability; Helped the party in some capacity; made money in arena fights *(youtube-transcript, 3/25/2026)*
+
+## Notes & Updates
+
+- Mentioned as having defeated Tar Baphon in the past *(youtube-transcript, 3/25/2026)*
+- A technically skilled individual with a Captain badge; Nomkath reveals a lightsaber hilt to him as proof of identity and capability; Helped the party in some capacity; made money in arena fights *(youtube-transcript, 3/25/2026)*
+- Carried a Technic League badge *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

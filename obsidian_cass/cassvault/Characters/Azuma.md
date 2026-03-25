@@ -1,19 +1,22 @@
 ---
 name: "Azuma"
-type: pc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["IG"]
-mentions: 3
-tags: ["character", "pc", "ig"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T19:12:33.061Z"
 ---
 
 # Azuma
 
-**Type:** Player Character
-**Campaigns:** IG
-**Mentions:** 3 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Helped with non-detection and evading Wizards *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

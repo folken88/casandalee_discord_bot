@@ -8,7 +8,7 @@ player: "Mandi"
 aliases: []
 tags: ["character", "pc"]
 created: ""
-updated: "2026-03-25T16:59:07.757Z"
+updated: "2026-03-25T19:22:18.922Z"
 ---
 
 # Kate Blackwood
@@ -25,6 +25,10 @@ HP 129/129 | Skinwalker Mindblade Kensai Magus | Level 11
 - Party member, presumably able to cast detect spells based on context of spell availability discussion; Receiving heroism from Elodie; moving with the group through the city; Mentioned as having read about towns in eastern Ustalav and their histories; Offered a potion of restoration lesser; mentioned as someone who can cast restoration spells *(youtube-transcript, 3/25/2026)*
 - Using sense motive and discern lies to read a female NPC's emotional state and intentions; Using telepathy to read minds of a council member in a bar; picks up annoyance, desire to drink, negative thoughts about town and job, and awareness that another council member has been missing for days; Casting detect thoughts on the bard, attempting to read her mind; Discussed the Duristan family's wealth from government contracts. Member of the Blackwood family which makes money from river trade and werewolf scenic tours through dangerous areas.; Players discussing Kate's presence on the town map and her role in the upcoming night; Party member who brings gossip while waiting, particularly about vampires. Recasts bless spell.; Up front with Dinvaya, forming a melee wall formation; Running to a position and gets hit by an invisible tentacled creature. She is grappled and takes 15 damage. She counterattacks and severely damages the creature, cutting off half its tentacles.; Failed DC24 fear save, became panicked and unable to act effectively in combat; Delayed her turn to Gaspar. Party positioning is noted as bad, largely due to her fault. Will zip the party west after Gaspar acts.; Fights aberrations with bane weapon, takes constitution damage, coordinates retreat with Gaspar through looks and nonverbal communication; Receives protection from fire (Protect Fire spell); Cast lightning bolt hitting three invisible creatures, they made saves. Later hit by an invisible creature for 17 damage; Player character hit by friendly fire; has lower HP and is being protected tactically; Takes significant damage during combat, reduced to about 60 hit points. Participates in shooting enemies.; Takes lesser restoration healing for constitution damage *(youtube-transcript, 3/25/2026)*
 - Mentioned as someone good at Sense Motive checks; A party member involved in the investigation. Uses Discern Lies spell repeatedly on Elodie and makes appraisal checks. *(youtube-transcript, 3/25/2026)*
+- Teleported back to Lepstad to inform Darymid; Had the wand of Mount Communal; Discussed spellcraft and ways to clean the cult workshop; Had a Northguard thick boy and mule back cords, used them to carry more items; Had invisibility spell, but used it up; Tracking the cult with all possible skill and haste across Suavevita County *(youtube-transcript, 3/25/2026)*
+- Recruited to CP-USS *(youtube-transcript, 3/25/2026)*
+- Had heroism buff applied to her, was reading an encrypted book; Blocked a double sworded attack with decapitator; Told Al to use holy Smite, took damage from enemies; Using scrap horn to cast fear spell, provoking an aoo from an enemy; Had a little scrape, was fine; Blocked multiple pounce attacks from the Whispering Way minions.; attempted to read the Evil Book *(youtube-transcript, 3/25/2026)*
+- Rolled initiative, had C invis up; Was recruited to CP-USS, and helped point out some metals that were missed. *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

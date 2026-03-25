@@ -21,3 +21,6 @@ HP 156/156 | Half-Orc Slayer | Level 11
 ## Session Appearances
 
 *Session activity from YouTube transcripts will appear here.*
+
+### Carrion Crown - The Corpse Locker 2025 02 23
+Recruited to CP-USS, killed in a friendly-fire incident

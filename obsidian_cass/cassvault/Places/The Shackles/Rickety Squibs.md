@@ -20,3 +20,6 @@ A location where ships can be refurbished and resold. Rickety operates a shipyar
 ### Shackles - Drow Envy 2026 03 05
 Mentioned in this session.
 
+
+### Shackles - So anyways, I started decapitating.. 2025 08 21
+A settlement where the Man's Promise was renamed 'The Pillager's Knife'

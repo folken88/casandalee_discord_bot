@@ -8,14 +8,17 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T16:59:07.777Z"
+updated: "2026-03-25T18:34:30.018Z"
 ---
 
 # Dva
 
+**Race:** Unknown | **Class:** Unknown
+
 ## Notes & Updates
 
 - Hidden somewhere, can perform restoration magic when the party returns to her location *(youtube-transcript, 3/25/2026)*
+- Answered questions and provided information about the terrain of Windward Island *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

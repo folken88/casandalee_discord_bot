@@ -29,3 +29,12 @@ A fortress island being supported by the party. Saboteurs escaped from here head
 
 ### Shackles - It's a Bug Story, Baby Just Say Yes 2025 09 11
 Island fortress to the west of Windward Island, currently being blockaded
+
+### Shackles - In The Rear With The Beer 2025 08 28
+An island fortress being blockaded by Chelish & Bronze Fleet ships; Island fortress, blockaded by Chelish & Bronze Fleet ships; An island fortress being blockaded by Chelish and Bronze Fleet ships; Island fortress being blockaded by Chelish & Bronze Fleet ships
+
+### Shackles - So anyways, I started decapitating.. 2025 08 21
+An island fortress being blockaded by Chelish & Bronze Fleet ships; A sealed island fortress, blockaded by Chelish and Bronze Fleet ships; A island fortress being blockaded by Chelish and Bronze Fleet ships; Island fortress, blockaded by Chelish & Bronze Fleet ships; Island fortress being blockaded by Chelish & Bronze Fleet ships; A city on Windward Island that is currently blockaded by Chelish and Bronze Fleet ships.; An island fortress being blockaded by Chelish and Bronze Fleet ships
+
+### Shackles - Who's Ready To Farty? 2025 07 03 19 12 35
+An island fortress being blockaded by Chelish & Bronze Fleet ships; Independent port, run by a widow who is feared in the South; An island fortress with a blockade, strategically placed along sea lanes; Island fortress being blockaded by Chelish & Bronze Fleet ships

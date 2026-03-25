@@ -8,7 +8,7 @@ player: "Josh"
 aliases: []
 tags: ["character", "pc"]
 created: ""
-updated: "2026-03-25T16:59:07.768Z"
+updated: "2026-03-25T18:34:44.287Z"
 ---
 
 # Dinvaya
@@ -23,6 +23,8 @@ HP 140/140. Inquisitor (Black Powder Inquisition) + Magus dip. Ranged and judgme
 - Referenced as being gone/dead. Was the party's healer but is no longer available.; Was standing next to a bad guy when detect evil was cast; is now gone; Received a Scroll of Eagle Splendor to improve diplomacy and charisma-based checks; Referenced as 'D', was affected by witnessing Kai's death in a previous session; Assigned to stand guard along with Dismas and Danger while others rest before arrest.; Dinvaya (Dva) is casting spell immunity communal confusion as a buff *(youtube-transcript, 3/25/2026)*
 - Standing watch during rest period *(youtube-transcript, 3/25/2026)*
 - Leading the charge in full plate armor, jogging through streets; has wolf buff increasing base move to 60 ft; Failed fear save, became panicked *(youtube-transcript, 3/25/2026)*
+- Casted Freedom of Moon on Gaspar to prevent him from being captured by grabby corpses *(youtube-transcript, 3/25/2026)*
+- Recruited to CP-USS and assigned to the Richton case *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

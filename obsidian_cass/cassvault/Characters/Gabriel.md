@@ -1,19 +1,22 @@
 ---
 name: "Gabriel"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["CC", "HR"]
-mentions: 7
-tags: ["character", "npc", "cc", "hr"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T19:22:18.864Z"
 ---
 
 # Gabriel
 
-**Type:** NPC
-**Campaigns:** CC, HR
-**Mentions:** 7 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Known and perilous, from Kargo *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

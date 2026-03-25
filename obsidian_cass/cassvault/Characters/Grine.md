@@ -1,19 +1,25 @@
 ---
 name: "Grine"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["CC"]
-mentions: 2
-tags: ["character", "npc", "cc"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T19:22:18.822Z"
 ---
 
 # Grine
 
-**Type:** NPC
-**Campaigns:** CC
-**Mentions:** 2 session(s)
-
+**Race:** Unknown | **Class:** Unknown
 
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Escaped CP-US at the Chymic Works. *(youtube-transcript, 3/25/2026)*
+- Escaped CP-US at the Chymic Works.; Escaped CP-USS at the Chymic Works.; Escaping CP-USS at the Chymic Works *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

@@ -8,14 +8,17 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T16:45:12.573Z"
+updated: "2026-03-25T19:12:33.196Z"
 ---
 
 # Kevoth-Kul Black Sovereign
 
+**Race:** Unknown | **Class:** Unknown
+
 ## Notes & Updates
 
 - Party discussing plans to intervene with him regarding drug addiction. Debating his intelligence, will save, and physical capabilities. He is stronger, smarter, wiser, and more charismatic than most barbarians. Has not been seen sober except by Luna decades ago.; The party is discussing various plans to deal with him, including poisoning, dueling, and explosives. He is noted as having very high saves and being extremely tanky.; Discussed as the most likely survivor if the party died, described as 'the tankiest' character. Referenced as being addicted to fluids long-term, making him extremely hard to kill, compared to Super Shredder from Teenage Mutant Ninja Turtles II. *(youtube-transcript, 3/25/2026)*
+- Discussed as a powerful warrior, leader, and addict; his past and legacy mentioned *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 
@@ -25,3 +28,6 @@ Described as the highest level Barbarian in the country with improved uncanny do
 
 ### Iron Gods - Spare Parts, Bud 2024 03 28
 Party discussing plans to intervene with him regarding drug addiction. Debating his intelligence, will save, and physical capabilities. He is stronger, smarter, wiser, and more charismatic than most barbarians. Has not been seen sober except by Luna decades ago.; The party is discussing various plans to deal with him, including poisoning, dueling, and explosives. He is noted as having very high saves and being extremely tanky.; Discussed as the most likely survivor if the party died, described as 'the tankiest' character. Referenced as being addicted to fluids long-term, making him extremely hard to kill, compared to Super Shredder from Teenage Mutant Ninja Turtles II.
+
+### Iron Gods - Headway 2024 03 07
+Discussed as a powerful warrior, leader, and addict; his past and legacy mentioned

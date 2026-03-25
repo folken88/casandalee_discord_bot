@@ -1,19 +1,25 @@
 ---
 name: "Judge Embreth Darymid"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: ["Judge Darymid"]
-campaign: ["CC"]
-mentions: 14
-tags: ["character", "npc", "cc"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T19:22:18.827Z"
 ---
 
 # Judge Embreth Darymid
 
-**Type:** NPC
-**Campaigns:** CC
-**Mentions:** 14 session(s)
-**Also known as:** Judge Darymid
+**Race:** Unknown | **Class:** Unknown
 
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Introduced Farrah Richton to Kendra Lorrimor.; Re-opened her investigation into the Whispering Way with help from K.Lorrimor and Detective Richton. *(youtube-transcript, 3/25/2026)*
+- Introduced Farrah Richton to Kendra Lorrimor.; Re-opened her investigation into the Whispering Way with help from K.Lorrimor and Detective Richton.; Introducing Farrah Richton to Kendra Lorrimor, re-opening investigation into the Whispering Way *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

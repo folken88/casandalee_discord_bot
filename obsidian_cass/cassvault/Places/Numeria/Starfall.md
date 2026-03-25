@@ -29,3 +29,12 @@ Capital city of Numeria, home to the Palace of Fallen Stars; Capital of Numeria,
 
 ### Iron Gods - Spare Parts, Bud 2024 03 28
 Capital city of the Black Sovereign, has a black market for cybernetic enhancements; Capital of the Black Sovereign, location of the Palace of Fallen Stars; Capital city of the Black Sovereign, ruled by Kevoth-Kul. Contains the Black Sovereign's palace and serves as the seat of power.; Capital of Numeria where technology is still relatively rare despite being more common than elsewhere in the region.
+
+### Iron Gods - Dune Trap
+capital of Kevoth-Kul, Black Sovereign
+
+### Iron Gods -  Party Crashers 2024 03 14
+Capital of Numeria, home to Black Sovereign Kevoth-Kul and Technic League; The Barbarians' compound, locked down and patrolled by soldiers; A location in the campaign world where characters discussed acquiring items; Capital of Numeria and home of Kevoth-Kul; Dusty city with a constant dust storm, Technic League compound is on fire; The capital of Numeria, where Kevoth-Kul is the Black Sovereign; Capital of Numeria, home to Kevoth-Kul and Technic League; Kevoth-Kul's capital and the last Black Sovereign's stronghold; Capital of Numeria, location of Kevoth-Kul's throne room; Capital city of Kevoth-Kul, seat of his power and authority; Capital of Numeria, where Kevoth-Kul is located
+
+### Iron Gods - Headway 2024 03 07
+A city in Numeria where the character is hiding from Wizards; A town in Numeria where the group is staying, and Acodin has been living; A city in Numeria where Mr. Brow and the Halfling (psychic) live; A city where the party is discussing Meyanda's past; Capital of the Numeria tribes, allied with the Technic League; Capital city of the Black Sovereign, mentioned as a place where the party will approach Kevoth-Kul

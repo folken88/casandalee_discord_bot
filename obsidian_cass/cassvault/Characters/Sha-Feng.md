@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: "2026-03-25T15:11:04.497Z"
-updated: "2026-03-25T16:51:21.750Z"
+updated: "2026-03-25T19:17:58.286Z"
 ---
 
 # Sha-Feng
@@ -28,7 +28,8 @@ updated: "2026-03-25T16:51:21.750Z"
 - One of the party members in combat, rolls initiative; Received haste buff from Darla's spell.; Casts a massive lightning bolt that hits six enemies, sets two ships on fire, and kills three Bronze Fleet soldiers. The spell catches both the Wicked Chains and Red Courage decks on fire.; Captain Sha-Feng makes a comment about enemies standing together, drops ordinary and officer enemies; Referenced as being in goblin form, loved by the druid's pet, was the one brought back in goblin form by the druid; Healed by 21 HP, mostly recovered from recent combat; Mentioned as casting a second level spell and vanishing as a swift action *(youtube-transcript, 3/25/2026)*
 - Performs tumbling maneuvers and brutally kills a navigator by caving in her skull; A character with reach abilities and flurry attacks. Tumbled into combat and hit an opponent, then used five-foot steps to move next to Holden and delivered another punch to Captain Titus. *(youtube-transcript, 3/25/2026)*
 - Shot multiple times by a Bronze Fleet officer with a revolver, hit multiple times but no vital damage *(youtube-transcript, 3/25/2026)*
-- Runs up and pushes Storgrim out of the way, taking an embryo impregnation attack meant for him; Casts spiky ice and snowballs at Queen Blossom, missing her touch AC of 15. Appears to be enjoying the combat.; Hobgoblin character in combat situation in dark hallway; Running low on bullseye rum, rationing it for later use. Receives healing from Sara.; Offers food as an apology for carnage; character eats it. GM notes she seems emotionally calm despite trauma, which is concerning *(youtube-transcript, 3/25/2026)*
+- Was killed and reincarnated as a hobgoblin, then later as a hobgoblin again; Being taken by Sahuagin, reincarnated as a Hobgoblin; Was reincarnated as a hobgoblin after being killed by the Sahuagin; Reincarnated as a hobgoblin, received phase spider jerky from Thragorn; Member of the Pillager's Knife crew, reincarnated as a hobgoblin; Being killed and reincarnated as a Hobgoblin; Ship's cook and killed by Sahuagin, reincarnated as a Hobgoblin *(youtube-transcript, 3/25/2026)*
+- Is barfed on by Jello Victor *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 
@@ -43,3 +44,12 @@ Player mentions having Sha-Feng's arm in a bag, planning to cook and eat it even
 
 ### Shackles - It's a Bug Story, Baby Just Say Yes 2025 09 11
 Runs up and pushes Storgrim out of the way, taking an embryo impregnation attack meant for him; Casts spiky ice and snowballs at Queen Blossom, missing her touch AC of 15. Appears to be enjoying the combat.; Hobgoblin character in combat situation in dark hallway; Running low on bullseye rum, rationing it for later use. Receives healing from Sara.; Offers food as an apology for carnage; character eats it. GM notes she seems emotionally calm despite trauma, which is concerning
+
+### Shackles - In The Rear With The Beer 2025 08 28
+Was killed and reincarnated as a Hobgoblin; Killed and reincarnated as a Hobgoblin; Being taken by Sahuagin, reincarnated as a Hobgoblin; Ship's cook and killed by Sahuagin, reincarnated as a Hobgoblin
+
+### Shackles - So anyways, I started decapitating.. 2025 08 21
+Taken by Sahuagin, reincarnated as a Hobgoblin; Being taken by Sahuagin, reincarnated as a Hobgoblin; Being reincarnated as a hobgoblin, being taken by Sahuagin; Killed and reincarnated as a Hobgoblin; Was killed and reincarnated as a Hobgoblin; Ship's cook and killed by Sahuagin, reincarnated as a Hobgoblin
+
+### Shackles - Who's Ready To Farty? 2025 07 03 19 12 35
+Was killed and reincarnated as a hobgoblin, then later as a hobgoblin again; Being taken by Sahuagin, reincarnated as a Hobgoblin; Was reincarnated as a hobgoblin after being killed by the Sahuagin; Reincarnated as a hobgoblin, received phase spider jerky from Thragorn; Member of the Pillager's Knife crew, reincarnated as a hobgoblin; Being killed and reincarnated as a Hobgoblin; Ship's cook and killed by Sahuagin, reincarnated as a Hobgoblin

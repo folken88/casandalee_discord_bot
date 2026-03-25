@@ -4,7 +4,7 @@ type: timeline
 campaign: "CC"
 campaignName: "Carrion Crown"
 eventCount: 104
-lastSync: "2026-03-25T18:05:41.093Z"
+lastSync: "2026-03-25T19:09:42.395Z"
 tags: ["timeline", "cc"]
 ---
 
@@ -118,3 +118,89 @@ tags: ["timeline", "cc"]
 | 4717.04.26 | Carrion Hill | CP-USS Battle of the Brewery. Elfrip killed but raised. Keeper Hyve killed and Chaos-Beast insider her revealed. |
 | 4717.04.27 | Carrion Hill | Keeper Grove confronted in the Jail underneath Crow-Barracks and he is killed, another Chaos-Beast revealed. Gaolers spared. |
 | 4717.04.30 | Carrion Hill | Carrion Hill is liberated from the dark portal opened underneath it. CP-USS heads south and visits an elven enclave in Southeast Ustalav. |
+
+### From: Carrion Crown - The Corpse Locker 2025 02 23
+
+- **The group lost an encrypted book** *(Bungus in the middle (Numeria))*
+  - Characters: [[Kate]], [[Kai]], [[Tim]]
+- **Kate decrypted a journal with letters from someone to someone named 'A'** *(Lepidstadt (Ustalav))*
+  - Characters: [[Kate]]
+- **The Beast of Lepidstadt was found not-guilty of all murder charges, but was banished from Lepidstadt for vandalism.** *(Lepidstadt)* — Correlates to: 4717.02.01
+  - Characters: [[The Beast of Lepidstadt]]
+- **Kai was killed in a friendly-fire incident while battling an ancient evil tree.** *(Shloss Caromarc)* — Correlates to: 4717.02.07
+  - Characters: [[Kai]]
+- **The Promethean and the Beast were both destroyed atop Shloss Caromarc.** *(Shloss Caromarc)*
+  - Characters: [[The Promethean]], [[The Beast]]
+- **Vorkstag killed Judge Aldaar before he and Grine were killed by Savage Security at Judge Darymid's home.** *(Lepidstadt)* — Correlates to: 4717.02.03
+  - Characters: [[Vorkstag]], [[Grine]], [[Judge Aldaar]]
+- **Kendra Lorrimor became a Foster-Parent and formally adopted Farrah Richton as her ward.** *(Lepidstadt)* — Correlates to: 4717.02.04
+  - Characters: [[Kendra Lorrimor]], [[Farrah Richton]]
+- **Ghouls caused a huge mass at Northguard to try and slow down CP-USS** *(Northguard)*
+  - Characters: [[CP-USS]]
+- **Ancient relic of the war used to watch Western Shwood, no longer answers to control** *(Western Shwood)*
+- **Wolves are pursued farther than imagined, cannot afford another frontal assault** *(Unknown)*
+  - Characters: [[CP-USS]]
+- **Kai was killed in a friendly-fire incident while battling an ancient evil tree.** *(Shloss Caromarc)* — Correlates to: 4717.02.07
+  - Characters: [[Kai]]
+- **Farrah Richton is being investigated by L sleepers for her bonded spirit wolf.** *(Lepidstadt)*
+  - Characters: [[Farrah Richton]], [[L sleepers]]
+- **Kai was killed in a friendly-fire incident while battling an ancient evil tree.** *(Shloss Caromarc)* — Correlates to: 4717.02.07
+  - Characters: [[Kai]]
+- **The Whispering Way reached Ascanor Lodge and visited Estovion.** *(Shudderwood)*
+  - Characters: [[Estovion]], [[Whispering Way]]
+- **The Devil in Gray was slain by CP-USS.** *(Courtaud)*
+  - Characters: [[CP-USS]]
+- **The party discusses and decides to upgrade Rev Vadra** *(Lepidstadt)*
+  - Characters: [[Denva]], [[Deni]]
+- **The party discovers the Thundering Silencer rifle and its upgrades** *(Lepidstadt)*
+  - Characters: [[Denva]], [[Deni]]
+- **The group discusses reforging the Tyrant's bands into badges that can detect Undead**
+  - Characters: [[Densus]], [[Harrison]]
+- **A bomb is set off in the streets of Feldgr, causing destruction and chaos** *(Feldgr)*
+  - Characters: [[Josh]], [[Kai]]
+- **Josh mentioned that regular Armor class is largely irrelevant most of the time** *(Lepidstadt)*
+  - Characters: [[Josh]]
+- **Retiring the stroke pit, removing its cell value of 100,000 gold** *(The workshop)*
+  - Characters: [[Kai]], [[Jamal]]
+- **The party investigates a mansion, searching for traps and secret doors.** *(Felg Grow)*
+  - Characters: [[Kai]], [[Dismas]]
+- **The party explored a dark and musty area with a strong smell of death** *(Underground chamber or tomb)*
+  - Characters: [[Gasper]]
+- **Skeletons attacked the party from the South Hall** *(The basement of a building)*
+  - Characters: [[Kate]], [[Gaspar]]
+- **Combat against blade Masters** *(The Halls)*
+  - Characters: [[Al]], [[Kate]], [[Gaspar]], [[Kai]]
+- **More enemies come to attack the party** *(The Halls)*
+  - Characters: [[Al]], [[Kate]], [[Gaspar]], [[Kai]]
+- **Using scrap horn to cast fear spell, causing enemies to flee and provoke an aoo** *(Basement)*
+  - Characters: [[Inquisitor]], [[Kate]]
+- **Enemies fleeing from the scrap horn's fear spell, provoking an aoo and attacking the party** *(Basement)*
+  - Characters: [[Inquisitor]], [[Kate]]
+- **Party members using their spells to attack enemies, causing damage and killing some of them** *(Basement)*
+  - Characters: [[Inquisitor]], [[Kate]], [[Gasper]]
+- **CP-SS fights against skeletons in a room** *(Unknown location)*
+  - Characters: [[Gaspar]], [[Kate]], [[Kai]]
+- **The party fought against the Whispering Way minions in a hallway.** *(Lepidstadt)*
+  - Characters: [[Kai]], [[Kate]]
+- **Kai was killed by friendly fire while battling an ancient evil tree.** *(Shloss Caromarc)* — Correlates to: 4717.02.07
+  - Characters: [[Kai]]
+- **Combat with Blade Masters and Butch and the Sundance Kid** *(Whispering Way Workshop)*
+  - Characters: [[Kai]], [[Dismas]], [[Al]]
+- **The team investigates a cellar with hundreds of corpses and various body parts** *(Lepidstadt)*
+  - Characters: [[Toby]], [[Gasper]]
+- **The Whispering Way is found to have used a Temple as a corpse locker** *(Lepidstadt)*
+  - Characters: [[Toby]]
+- **Found Necromancer tools and an Evil Book** *(Unknown location ( possibly a hideout or lair))*
+  - Characters: [[Players]]
+- **The party reads a book on creating Advanced Undead constructs** *(A dungeon)*
+  - Characters: [[Dismas]], [[Gaspar]]
+- **The Beast of Lepidstadt was found not-guilty of all murder charges, but was banished from Lepidstadt for vandalism.** *(Lepidstadt)* — Correlates to: 4717.02.01
+  - Characters: [[Beast of Lepidstadt]], [[Kendra Lorrimor]]
+- **The Promethean and the Beast were both destroyed atop Shloss Caromarc.** *(Shloss Caromarc)*
+  - Characters: [[Promethean]], [[Beast]]
+- **Kai was killed in a friendly-fire incident while battling an ancient evil tree.** *(Shloss Caromarc)* — Correlates to: 4717.02.07
+  - Characters: [[Kai]], [[CP-USS]]
+- **Professor Petros Lorrimor's death is determined to be murder by 'Phantasmal Killer' spell.** *(Ravengro)* — Correlates to: 4716.12.22
+  - Characters: [[Kovira]], [[CP-USS]]
+- **Farrah Richton escapes Lepidstadt Asylum, several guards are killed by 'a skeleton with axes'.** *(Lepidstadt)*
+  - Characters: [[Farrah Richton]], [[The Beast of Lepidstadt]]
