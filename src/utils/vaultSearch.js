@@ -307,47 +307,69 @@ class VaultSearch {
         const { campaign, discordUserId, maxTokens = 4000 } = options;
         const sections = [];
         let totalChars = 0;
+        const includedPaths = new Set();
 
-        // 1. If we know who's asking, get their character info
+        // 1. TIMELINE FIRST — search all timeline files for matching rows
+        // This is the most authoritative data and must come first
+        const idx = this.buildIndex();
+        const queryLower = query.toLowerCase();
+        const STOP_WORDS = new Set(['the','a','an','is','was','were','are','did','do','does','when','where','who','what','how','why','about','have','has','had','can','could','will','would','should','this','that','with','from','for','and','but','not','die','died','dies','kill','killed','happen','happened']);
+        const queryTerms = queryLower.split(/\s+/).filter(t => t.length > 2 && !STOP_WORDS.has(t));
+        const timelineNotes = idx.filter(n => (n.frontmatter.type || '').toLowerCase() === 'timeline');
+
+        const matchingRows = [];
+        for (const note of timelineNotes) {
+            const lines = note.body.split('\n');
+            for (const line of lines) {
+                if (!line.startsWith('|') || line.startsWith('| Date') || line.startsWith('|---')) continue;
+                const lineLower = line.toLowerCase();
+                // Require ALL non-stop query terms to match for timeline precision
+                if (queryTerms.length > 0 && queryTerms.every(t => lineLower.includes(t))) {
+                    matchingRows.push(line.trim());
+                }
+            }
+        }
+
+        if (matchingRows.length > 0) {
+            const timelineContext = `[TIMELINE — Verified canonical events]\n| Date | Location | Event |\n|------|----------|-------|\n${matchingRows.slice(0, 15).join('\n')}`;
+            sections.push(timelineContext);
+            totalChars += timelineContext.length;
+        }
+
+        // 2. If we know who's asking, get their character info
         if (discordUserId) {
             const userNotes = this.byDiscordId(discordUserId);
             if (userNotes.length > 0) {
                 const summary = this._summarizeNote(userNotes[0]);
                 sections.push(`[Asking player's character]\n${summary}`);
                 totalChars += summary.length;
+                includedPaths.add(userNotes[0].path);
             }
         }
 
-        // 2. Direct name matches for query terms
+        // 3. Direct name matches (characters, places)
         const nameHits = this.byName(query);
         for (const note of nameHits.slice(0, 3)) {
             if (totalChars > maxTokens) break;
+            if (includedPaths.has(note.path)) continue;
+            if ((note.frontmatter.type || '').toLowerCase() === 'timeline') continue; // already handled
+            if ((note.frontmatter.type || '').toLowerCase() === 'conversation-log') continue; // skip logs
             const summary = this._summarizeNote(note);
             sections.push(`[${note.folder || 'Note'}: ${note.filename}]\n${summary}`);
             totalChars += summary.length;
+            includedPaths.add(note.path);
         }
 
-        // 3. Full text search for broader matches
+        // 4. Full text search for session summaries and character notes
         const textHits = this.byText(query, 10);
         for (const note of textHits) {
             if (totalChars > maxTokens) break;
-            // Skip if already included
-            if (nameHits.some(n => n.path === note.path)) continue;
+            if (includedPaths.has(note.path)) continue;
+            if ((note.frontmatter.type || '').toLowerCase() === 'conversation-log') continue;
             const summary = this._summarizeNote(note, true); // compact
             sections.push(`[${note.folder || 'Note'}: ${note.filename}]\n${summary}`);
             totalChars += summary.length;
-        }
-
-        // 4. Campaign-specific context if specified
-        if (campaign && totalChars < maxTokens) {
-            const campaignNotes = this.byCampaign(campaign);
-            for (const note of campaignNotes.slice(0, 5)) {
-                if (totalChars > maxTokens) break;
-                if (sections.some(s => s.includes(note.filename))) continue;
-                const summary = this._summarizeNote(note, true);
-                sections.push(`[${note.folder}: ${note.filename}]\n${summary}`);
-                totalChars += summary.length;
-            }
+            includedPaths.add(note.path);
         }
 
         if (sections.length === 0) {

@@ -4,7 +4,7 @@ type: raw-transcript
 videoId: "yu7L1splrog"
 campaign: "IG"
 publishedAt: ""
-capturedAt: "2026-03-25T05:11:25.169Z"
+capturedAt: "2026-03-25T05:14:28.283Z"
 tags: [session, transcript, ig]
 ---
 
