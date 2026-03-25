@@ -305,13 +305,14 @@ class LLMRouter {
                     logger.warn('Claude Haiku failed, falling back to Ollama:', err.message);
                 }
             }
-            // Fallback: Ollama (free, local)
+            // Fallback: Ollama fast model (free, local, fits in VRAM)
             try {
                 const text = await this.ollamaGenerate(prompt, {
                     ...options,
+                    model: this.ollamaModelFast,
                     maxTokens: options.maxTokens || 250,
                     temperature: options.temperature ?? 0.7,
-                    timeout: 45000
+                    timeout: 60000
                 });
                 if (text && text.trim().length > 0) {
                     return { text: text.trim(), provider: 'ollama-fallback' };

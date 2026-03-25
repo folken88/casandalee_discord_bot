@@ -23,6 +23,16 @@ class DripSummarizer {
      * Runs once at startup (after 5 min delay), then every 24 hours
      */
     start() {
+        // Check if there's actually work to do before scheduling
+        const state = this._loadState();
+        const allTranscripts = this._getAllTranscripts();
+        const remaining = allTranscripts.filter(t => !state.summarized.includes(t));
+
+        if (remaining.length === 0) {
+            logger.info('✅ Drip summarizer: all transcripts already summarized, not scheduling');
+            return;
+        }
+
         // First run after 5 minutes (let everything else initialize)
         setTimeout(() => {
             this._run();
@@ -30,7 +40,7 @@ class DripSummarizer {
             this.timer = setInterval(() => this._run(), 24 * 60 * 60 * 1000);
         }, 5 * 60 * 1000);
 
-        logger.info(`✅ Drip summarizer scheduled (${BATCH_SIZE}/day)`);
+        logger.info(`✅ Drip summarizer scheduled (${BATCH_SIZE}/day, ${remaining.length} remaining)`);
     }
 
     stop() {
