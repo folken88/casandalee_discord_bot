@@ -4,7 +4,7 @@ type: timeline
 campaign: "IS"
 campaignName: "Inner Sea (Shared)"
 eventCount: 16
-lastSync: "2026-03-25T05:13:53.327Z"
+lastSync: "2026-03-25T05:17:33.478Z"
 tags: ["timeline", "is"]
 ---
 

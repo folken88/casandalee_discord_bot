@@ -474,6 +474,11 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
                 });
                 if (vaultMemory) {
                     vaultContext = `\n\n${vaultMemory}`;
+                    console.log(`🧠 Vault context injected: ${vaultMemory.length} chars`);
+                    // Log first 300 chars of vault context for debugging
+                    console.log(`🧠 Vault preview: ${vaultMemory.substring(0, 300).replace(/\n/g, ' | ')}`);
+                } else {
+                    console.log('🧠 Vault search returned empty');
                 }
             } catch (err) {
                 console.log(`⚠️ Vault search error (non-fatal): ${err.message}`);
@@ -484,6 +489,9 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
             // username is the speaker's display name (Iron Gods character name when mapped, else Discord username)
             const userPrompt = `${username} asks: ${query}`;
 
+            console.log(`📝 System prompt size: ${systemPrompt.length} chars`);
+            console.log(`📝 Vault context included: ${vaultContext.length > 0 ? 'YES' : 'NO'}`);
+
             try {
                 const result = await llmRouter.route(userPrompt, {
                     task: 'personality',
@@ -491,8 +499,8 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
                     maxTokens: 200,
                     temperature: 0.7
                 });
-                
-                console.log(`🤖 Response from ${result.provider}`);
+
+                console.log(`🤖 Response from ${result.provider}: "${result.text?.substring(0, 100)}"`);
                 return result.text;
             } catch (routerError) {
                 // Fallback to direct OpenAI if router fails entirely
