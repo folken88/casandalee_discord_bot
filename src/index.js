@@ -422,22 +422,27 @@ client.on(Events.MessageCreate, async message => {
             const speakerName = discordUserMap.getCharacterByDiscordId(message.author.id) || message.author.username;
             logger.info('Processing query with LLM', { query, speakerName, userId: message.author.id });
             
-            // Show typing indicator
+            // Show typing indicator (refresh every 8s so it doesn't expire during LLM fallback)
             await message.channel.sendTyping();
-            
-            // Process the query with LLM (Cass will address speaker by speakerName)
-            const response = await llmHandler.processQuery(query, speakerName, message.author.id, message.channel.name);
-            
-            logger.info('LLM response generated', { responseLength: response.length });
-            
-            // Send simple text response (no embed)
-            await message.reply(response);
-            logger.info('Natural language response sent successfully');
-            
-        } catch (error) {
-            logger.error('Error processing message:', error);
-            await message.reply('Sorry, I encountered an error processing your request. Please try again.');
-        }
+            const typingInterval = setInterval(() => {
+                message.channel.sendTyping().catch(() => {});
+            }, 8000);
+
+            try {
+                // Process the query with LLM (Cass will address speaker by speakerName)
+                const response = await llmHandler.processQuery(query, speakerName, message.author.id, message.channel.name);
+                clearInterval(typingInterval);
+
+                logger.info('LLM response generated', { responseLength: response.length });
+
+                // Send simple text response (no embed)
+                await message.reply(response);
+                logger.info('Natural language response sent successfully');
+            } catch (error) {
+                clearInterval(typingInterval);
+                logger.error('Error processing message:', error);
+                await message.reply('Sorry, I encountered an error processing your request. Please try again.');
+            }
     }
 });
 
