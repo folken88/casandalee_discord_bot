@@ -17,7 +17,8 @@ const logger = require('./logger');
 
 class PersonalityManager {
     constructor() {
-        this.personalityDir = path.join(__dirname, '../../data/personalities');
+        const vaultDir = process.env.OBSIDIAN_VAULT_PATH || path.join(__dirname, '../../obsidian_cass/cassvault');
+        this.personalityDir = path.join(vaultDir, 'Personas');
 
         /** @type {Map<number, Object>} life number -> personality data */
         this.personalities = new Map();

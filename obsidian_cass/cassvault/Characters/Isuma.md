@@ -1,0 +1,26 @@
+---
+name: "Isuma"
+type: character
+race: "Kasatha"
+class: "Ranger"
+level: 12
+
+aliases: []
+tags: ["character"]
+created: "2026-02-14T00:00:00.000Z"
+updated: "2026-02-14T00:00:00.000Z"
+---
+
+# Isuma
+
+**Race:** Kasatha | **Class:** Ranger | **Level:** 12
+
+HP 156/156. Ranger; Favored Enemy Dominion; firearms combat style. Weapons: Zero Rifle, Bone Kukri. Spells: Gravity Bow, Longstrider, Nondetection, Freedom of Movement. Aurumvorax Hide Armor. Synced from Foundry VTT.
+
+## Notes & Updates
+
+- [Foundry sync] Level 12 Kasatha Ranger. HP 156/156. Favored Terrain Forest; Quarry, Evasion. Equipment: Zero Rifle, Aurumvorax Hide Armor, Isuma's Datapad. *(foundry-sync, 2/13/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

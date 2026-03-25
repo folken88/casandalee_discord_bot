@@ -11,10 +11,13 @@ const timelineCache = require('./timelineCache');
 const dossierManager = require('./dossierManager');
 const nameResolver = require('./nameResolver');
 const learnedFacts = require('./learnedFacts');
+const transcriptKnowledge = require('./transcriptKnowledge');
 const llmRouter = require('./llmRouter');
+const vaultSearch = require('./vaultSearch');
 const personalityManager = require('./personalityManager');
 // Actor index system removed - was causing database lock issues
 const reincarnationTable = require('./reincarnationTable');
+const conversationLogger = require('./conversationLogger');
 const fs = require('fs');
 const path = require('path');
 
@@ -99,38 +102,54 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
      * @param {string} username - Username of the person asking
      * @returns {Promise<string>} - Generated response
      */
-    async processQuery(query, username) {
+    async processQuery(query, username, userId = null, channelName = null) {
+        let handlerType = 'general';
         try {
             console.log(`🔍 Processing query: "${query}"`);
-            
+
+            let response;
+
             // Check for dice rolling requests
             if (this.isDiceRollRequest(query)) {
                 console.log('🎲 Matched dice roll request');
-                return await this.handleDiceRoll(query);
+                handlerType = 'dice';
+                response = await this.handleDiceRoll(query);
             }
-            
             // Check for reincarnation requests
-            if (this.isReincarnationRequest(query)) {
+            else if (this.isReincarnationRequest(query)) {
                 console.log('🔄 Matched reincarnation request');
-                return await this.handleReincarnation(query);
+                handlerType = 'reincarnation';
+                response = await this.handleReincarnation(query);
             }
-            
             // Check for timeline search requests (before character search)
-            if (this.isTimelineSearchRequest(query)) {
+            else if (this.isTimelineSearchRequest(query)) {
                 console.log('📚 Matched timeline search request');
-                return await this.handleTimelineSearch(query);
+                handlerType = 'timeline';
+                response = await this.handleTimelineSearch(query);
             }
-            
             // Check for campaign context requests
-            if (this.isCampaignContextRequest(query)) {
+            else if (this.isCampaignContextRequest(query)) {
                 console.log('🌍 Matched campaign context request');
-                return await this.handleCampaignContext(query);
+                handlerType = 'campaign';
+                response = await this.handleCampaignContext(query);
             }
-            
-            console.log('🤖 No specific handler matched, using general LLM response');
-            // General LLM response
-            return await this.generateLLMResponse(query, username);
-            
+            else {
+                console.log('🤖 No specific handler matched, using general LLM response');
+                response = await this.generateLLMResponse(query, username, userId);
+            }
+
+            // Log the conversation to vault
+            conversationLogger.log({
+                discordUsername: username,
+                discordId: userId || 'unknown',
+                query,
+                response,
+                channel: channelName,
+                handlerType
+            });
+
+            return response;
+
         } catch (error) {
             console.error('Error processing query:', error);
             return `Sorry, I encountered an error processing your request: ${error.message}`;
@@ -383,7 +402,7 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
      * @param {string} username - Username
      * @returns {Promise<string>} - Generated response
      */
-    async generateLLMResponse(query, username) {
+    async generateLLMResponse(query, username, userId = null) {
         try {
             // Check for personality query commands
             if (this.isPersonalityQuery(query)) {
@@ -449,8 +468,25 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
 
             // Learned facts (things players taught via /remember)
             const learnedContext = learnedFacts.getContextForLLM();
+            // Session transcript knowledge (from processed YouTube recordings)
+            const transcriptContext = transcriptKnowledge.getContextForLLM(query);
+
+            // Vault RAG: search Cass's Obsidian brain for relevant memories
+            let vaultContext = '';
+            try {
+                const vaultMemory = vaultSearch.contextFor(query, {
+                    discordUserId: userId,
+                    maxTokens: 3000,
+                });
+                if (vaultMemory) {
+                    vaultContext = `\n\n${vaultMemory}`;
+                }
+            } catch (err) {
+                console.log(`⚠️ Vault search error (non-fatal): ${err.message}`);
+            }
+
             // Use LLM Router: Claude Haiku for user-facing responses
-            const systemPrompt = `${personalityPrompt}\n\nCurrent Campaign Context:\n${context}${dossierContext}${learnedContext}`;
+            const systemPrompt = `${personalityPrompt}\n\nCurrent Campaign Context:\n${context}${dossierContext}${learnedContext}${transcriptContext}${vaultContext}`;
             // username is the speaker's display name (Iron Gods character name when mapped, else Discord username)
             const userPrompt = `${username} asks: ${query}`;
 

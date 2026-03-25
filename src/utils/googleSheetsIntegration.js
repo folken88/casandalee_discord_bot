@@ -4,6 +4,8 @@
  */
 
 const { google } = require('googleapis');
+const fs = require('fs');
+const path = require('path');
 const logger = require('./logger');
 
 class GoogleSheetsIntegration {
@@ -11,7 +13,7 @@ class GoogleSheetsIntegration {
         this.sheets = null;
         this.spreadsheetId = process.env.GOOGLE_SHEETS_SPREADSHEET_ID;
         this.apiKey = process.env.GOOGLE_SHEETS_API_KEY;
-        this.refreshInterval = parseInt(process.env.GOOGLE_SHEETS_REFRESH_INTERVAL) || 300000; // 5 minutes default
+        this.refreshInterval = parseInt(process.env.GOOGLE_SHEETS_REFRESH_INTERVAL) || 86400000; // Once daily default
         
         this.campaignTimeline = [];
         this.playerCharacters = [];
@@ -90,9 +92,12 @@ class GoogleSheetsIntegration {
             // Load player characters
             await this.loadPlayerCharacters();
             
+            // Sync timeline to Obsidian vault
+            this.syncTimelineToVault();
+
             this.lastRefresh = new Date();
             logger.info(`✅ Google Sheets data refreshed at ${this.lastRefresh.toISOString()}`);
-            
+
             return true;
             
         } catch (error) {
@@ -256,6 +261,78 @@ class GoogleSheetsIntegration {
      */
     onNewEvents(callback) {
         this.onNewEventsCallback = callback;
+    }
+
+    /**
+     * Sync timeline events to Obsidian vault as per-campaign markdown files.
+     * Creates one file per campaign code (IG, SS, CC, HV, HR, IS).
+     */
+    syncTimelineToVault() {
+        try {
+            const vaultDir = process.env.OBSIDIAN_VAULT_PATH || path.join(__dirname, '../../obsidian_cass/cassvault');
+            const timelineDir = path.join(vaultDir, 'Timeline');
+            if (!fs.existsSync(timelineDir)) fs.mkdirSync(timelineDir, { recursive: true });
+
+            if (!this.campaignTimeline || this.campaignTimeline.length === 0) return;
+
+            const CAMPAIGN_NAMES = {
+                IG: 'Iron Gods', SS: 'Skull & Shackles', CC: 'Carrion Crown',
+                HV: 'Hells Vengeance', HR: 'Hells Rebels', IS: 'Inner Sea (Shared)'
+            };
+
+            // Group events by campaign code
+            // JG (Justice Gorls) merges into CC (Carrion Crown) — same region, 10 years earlier
+            const byCampaign = {};
+            for (const event of this.campaignTimeline) {
+                let code = (event.ap || 'IS').toUpperCase();
+                if (code === 'JG') code = 'CC'; // Justice Gorls is CC prequel content
+                if (!byCampaign[code]) byCampaign[code] = [];
+                byCampaign[code].push(event);
+            }
+
+            let totalWritten = 0;
+            for (const [code, events] of Object.entries(byCampaign)) {
+                const name = CAMPAIGN_NAMES[code] || code;
+                const filePath = path.join(timelineDir, `${code}_timeline.md`);
+
+                // Sort by date
+                events.sort((a, b) => {
+                    const da = parseFloat(a.date) || 0;
+                    const db = parseFloat(b.date) || 0;
+                    return da - db;
+                });
+
+                let md = `---
+title: "${name} Timeline"
+type: timeline
+campaign: "${code}"
+campaignName: "${name}"
+eventCount: ${events.length}
+lastSync: "${new Date().toISOString()}"
+tags: ["timeline", "${code.toLowerCase()}"]
+---
+
+# ${name} Timeline
+
+*Synced from Google Sheets — ${events.length} events. This file is authoritative for dated campaign events.*
+
+| Date | Location | Event |
+|------|----------|-------|
+`;
+                for (const e of events) {
+                    const desc = (e.description || '').replace(/\|/g, '\\|').replace(/\n/g, ' ');
+                    const loc = (e.location || '').replace(/\|/g, '\\|');
+                    md += `| ${e.date} | ${loc} | ${desc} |\n`;
+                }
+
+                fs.writeFileSync(filePath, md, 'utf8');
+                totalWritten += events.length;
+            }
+
+            logger.info(`✅ Timeline synced to vault: ${Object.keys(byCampaign).length} campaign files, ${totalWritten} total events`);
+        } catch (err) {
+            logger.error('Error syncing timeline to vault:', err.message);
+        }
     }
 
     /**

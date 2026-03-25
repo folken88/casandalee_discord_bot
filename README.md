@@ -32,14 +32,28 @@ Mention Casandalee or use `/cass` for natural conversation:
 - **Tier 2 (User-Facing):** Claude Haiku 3.5 for most interactive responses and personality-flavored answers
 - **Tier 3 (Complex):** Claude Sonnet / GPT-4 for deep analysis and fallback
 
+**Obsidian Vault Brain (`obsidian_cass/cassvault/`):**
+Cass's entire knowledge base lives in an Obsidian-compatible markdown vault — browsable, editable, and version-controlled:
+- **Characters/** - 53 live read-write character dossiers
+- **Personas/** - 72 past-life personalities + goddess form
+- **Sessions/** - 239 raw YouTube session transcripts (auto-captions)
+- **Session Summaries/** - 234 Haiku-extracted summaries with key events, NPCs, locations
+- **Timeline/** - Per-campaign timeline files synced daily from Google Sheets
+- **Logs/** - Daily conversation logs (every Discord interaction)
+- **Learned/** - Facts extracted from conversations via daily memory consolidation
+- **Meta/** - Lore files, discord user map, emoji mappings
+
 **Smart Data Systems:**
+- **Vault Search (RAG)** - Searches all vault files for relevant context on every query
+- **Conversation Logger** - Logs every Discord interaction; daily Haiku review extracts facts to permanent memory
 - **Timeline Cache** - Pre-indexed keyword, character, and location indexes; rebuilds daily at 6 AM
-- **Dossier Manager** - Auto-generated character profiles with player notes, roll history, emoji reaction tracking, and sheet imports
-- **Name Resolver** - Fuzzy matching with Levenshtein distance, aliases, and prefix/substring search
-- **Google Sheets Integration** - Daily campaign data sync (refreshes at 6 AM alongside the timeline cache) with new-event notifications
+- **Dossier Manager** - Character profiles with player notes, roll history, and timeline mentions (vault is sole source of truth)
+- **Name Resolver** - Fuzzy matching with Levenshtein distance, aliases, and prefix/substring search across 5 campaigns
+- **Google Sheets Integration** - Daily campaign timeline sync with per-campaign vault files and new-event notifications
+- **YouTube Transcript Processor** - Daily check for new session uploads, auto-downloads captions, Haiku summarization
 
 ### Personality System
-Casandalee has 72 unique past-life personalities plus her goddess form, each stored as individual Markdown files with:
+Casandalee has 72 unique past-life personalities plus her goddess form, stored in the vault's `Personas/` folder as individual Markdown files with:
 - Unique speaking styles, emojis, and tone markers
 - Dynamic weighting — underused personalities get selected more often
 - Hidden switching every 1d7 queries or hourly
@@ -156,12 +170,16 @@ src/
 ├── utils/
 │   ├── llmRouter.js           # 3-tier LLM routing (Ollama/Claude/GPT)
 │   ├── llmHandler.js          # Query processing and response generation
-│   ├── personalityManager.js  # 72 personality loading, selection, flavoring
-│   ├── dossierManager.js      # Character dossier CRUD and auto-save
+│   ├── personalityManager.js  # 72 personality loading from vault Personas/
+│   ├── dossierManager.js      # Character dossier CRUD (vault-only storage)
+│   ├── conversationLogger.js  # Logs Discord conversations + daily memory consolidation
+│   ├── vaultSearch.js         # RAG search across entire Obsidian vault
+│   ├── transcriptKnowledge.js # Session transcript context injection
 │   ├── nameResolver.js        # Fuzzy name matching with aliases
 │   ├── timelineCache.js       # Pre-indexed timeline with daily setInterval rebuild
 │   ├── timelineSearch.js      # Timeline search engine
-│   ├── googleSheetsIntegration.js # Google Sheets data fetcher
+│   ├── googleSheetsIntegration.js # Google Sheets sync + vault timeline writer
+│   ├── youtubeTranscriptProcessor.js # YouTube playlist monitor + transcript fetcher
 │   ├── campaignContext.js     # Campaign state and context
 │   ├── raceTraits.js          # PF1 racial traits database
 │   ├── reincarnationTable.js  # Reincarnation table loader
@@ -171,20 +189,28 @@ src/
 ├── index.js                   # Main bot entry point
 └── deploy-commands.js         # Slash command deployment
 
+obsidian_cass/cassvault/       # Cass's Obsidian vault brain (git-tracked)
+├── Characters/                # 53 character dossiers (live read-write)
+├── Personas/                  # 72 past-life personalities + goddess form
+├── Sessions/                  # 239 raw YouTube session transcripts
+├── Session Summaries/         # 234 Haiku-extracted session summaries
+├── Timeline/                  # Per-campaign timelines (synced from Google Sheets)
+├── Logs/                      # Daily conversation logs
+├── Learned/                   # Facts extracted from conversations
+├── Places/                    # Location/setting notes
+└── Meta/                      # Lore files, discord user map, emoji map
+
 data/                          # Runtime data (gitignored)
-├── personalities/             # 73 individual .md personality files
-├── dossiers/                  # Character dossier JSON files
-├── cache/                     # Timeline cache
+├── cache/                     # Timeline cache, download state
 └── avatar.png                 # Bot avatar image
 
 tools/
-├── apply-birth-years.js       # Add birth year to personality files when missing
-├── apply-class-stats.js       # Apply class-based stats to personalities
+├── bulk-download-transcripts.js  # Download all YouTube transcripts to vault
+├── bulk-summarize-transcripts.js # Haiku summarization of all transcripts
 ├── cass-cli.js               # CLI test harness for direct LLM testing
 ├── correlate-timeline-quotes.js # Generate ## Timeline Quote per life (Ollama 5080)
 ├── generate-personalities.js # One-time personality file generator
-├── TIMELINE_QUOTES.md        # Run instructions for timeline quote correlation
-└── personality-editor/       # Web editor for personality .md files (port 3960)
+└── TIMELINE_QUOTES.md        # Run instructions for timeline quote correlation
 ```
 
 ## Development

@@ -1,0 +1,10 @@
+{
+  "_comment": "Discord user ID -> character (canonical dossier name) and player display name. Use for resolving who plays which PC.",
+  "492444287267504136": { "character": "Ulfred", "player": null },
+  "465315249407655936": { "character": "Nomkath", "player": null },
+  "272939496205713408": { "character": "Akradenn", "player": "Tim" },
+  "184456562213912577": { "character": "Tokala", "player": "Tracy" },
+  "223551354545766400": { "character": "Luna", "player": "Rhy" },
+  "327920844158533633": { "character": "Olbryn", "player": "Josh" },
+  "315548395202936862": { "character": "Augustus", "player": "Enrique" }
+}

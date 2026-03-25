@@ -24,6 +24,8 @@ const logger = require('./utils/logger');
 const personalityManager = require('./utils/personalityManager');
 const DailyHistoryScheduler = require('./utils/dailyHistory');
 const serverSchedule = require('./utils/serverSchedule');
+const YouTubeTranscriptProcessor = require('./utils/youtubeTranscriptProcessor');
+const conversationLogger = require('./utils/conversationLogger');
 
 // Create Discord client
 const client = new Client({
@@ -41,6 +43,9 @@ client.commands = new Collection();
 
 // Initialize daily history scheduler
 let dailyHistoryScheduler;
+
+// Initialize YouTube transcript processor
+let youtubeProcessor;
 
 // Load command files
 const commandsPath = path.join(__dirname, 'commands');
@@ -139,16 +144,59 @@ client.once(Events.ClientReady, async readyClient => {
 
     // Initialize dossier manager and register known characters
     try {
-        // Register known party members with aliases
+        // Register all PCs, key NPCs, and deities across all campaigns
         nameResolver.registerBatch([
-            { name: 'Nomkath', aliases: ['nom', 'nomkat', 'catfolk'] },
-            { name: 'Tokala', aliases: ['tok', 'tokalla', 'half-orc'] },
-            { name: 'Ulfred', aliases: ['ulf', 'ulfred', 'dwarf'] },
+            // === Iron Gods PCs ===
+            { name: 'Ulfred', aliases: ['ulf', 'ulfred', 'ulfred stronginthearm', 'stronginthearm', 'dwarf'] }, // Kip
+            { name: 'Nomkath', aliases: ['nom', 'nomkat', 'nomkath', 'catfolk'] },       // Daemon
+            { name: 'Mr Brow', aliases: ['brow', 'mr brow', 'mr. brow', 'augustus', 'augustus teabrow', 'mr augustus teabrow', 'teabrow'] }, // Enrique
+            { name: 'Olbryn', aliases: ['olb', 'olbrynn', 'olbryn', 'drow'] },           // Josh
+            { name: 'Akradenn', aliases: ['akrad', 'akradden', 'akradenn', 'akraden'] },  // Tim
+            { name: 'Luna', aliases: ['luna'] },                                          // Rye
+
+            // === Skull & Shackles PCs ===
+            { name: 'Holden', aliases: ['holden', 'holden aleistair', 'aleistair', 'captain oblivious'] }, // Kip
+            { name: 'Storgrim', aliases: ['storgrim', 'stor', 'storgrim thunderbeard', 'thunderbeard'] }, // Daemon
+            { name: 'Sha-Feng', aliases: ['sha-feng', 'shafeng', 'sha feng', 'sha'] },   // Enrique
+            { name: 'Ser-Toche', aliases: ['ser-toche', 'sertoche', 'ser toche', 'toche'] }, // Josh
+            { name: 'Vaughan', aliases: ['vaughan', 'lil vaughan', 'lil vaughn'] },        // Tim
+            { name: 'Riviera', aliases: ['riviera'] },                                     // Rye (early)
+            { name: 'Towa', aliases: ['towa', 'towa hershel', 'hershel'] },               // Rye (later)
+            { name: 'Bujon', aliases: ['bujon', 'bujon storm of cheliax', 'storm of cheliax'] }, // Graham
+            { name: 'Rhyarca', aliases: ['rhy', 'rhyaerca', 'rhyarca', 'rhyarca jillyr', 'jillyr'] }, // Mandi
+
+            // === Carrion Crown PCs ===
+            { name: 'Gaspar', aliases: ['gaspar', 'william gaspar', 'william'] },          // Tim
+            { name: 'Kovira', aliases: ['kovira'] },                                       // Sydney
+            { name: 'Kai', aliases: ['kai', 'kai gin'] },                                  // Graham
+            { name: 'Elfrip', aliases: ['elfrip'] },                                       // Anna
+            { name: 'Dinvaya', aliases: ['dinvaya'] },                                     // Josh
+            { name: 'Kate Blackwood', aliases: ['kate', 'kate-blackwood', 'blackwood', 'kate blackwood'] }, // Mandi
+            { name: 'Rodney Danger Smith', aliases: ['rodney', 'rodney-danger-smith', 'danger smith', 'rds', 'rodney danger smith'] }, // Chris
+            { name: 'Dismas', aliases: ['dismas', 'dismas aevrett', 'aevrett'] },          // Harrison
+
+            // === Hells Rebels PCs ===
+            { name: 'Celeb', aliases: ['celeb'] },                              // Tim
+            { name: 'Femmick', aliases: ['femmick'] },                          // Harrison
+            { name: 'Gabriel', aliases: ['gabriel', 'gabe'] },                  // Josh
+            { name: 'Nigel', aliases: ['nigel'] },                              // Chris
+
+            // === Hells Vengeance PCs ===
+            { name: 'Jamal', aliases: ['jamal'] },                              // Tim
+            { name: 'Draymus', aliases: ['draymus'] },                          // Harrison
+            { name: 'Reese', aliases: ['reese'] },                              // Josh
+            { name: 'Bruce', aliases: ['bruce'] },                              // Chris
+
+            // === Enrique's previous Iron Gods characters ===
+            { name: 'Gavrilo', aliases: ['gavrilo', 'gabrilo', 'gavrillo'] },     // Enrique IG char 1 (died)
+            { name: 'Kroktah', aliases: ['kroktah', 'cckatha', 'kokta', 'krokta', 'coca'] }, // Enrique IG char 3 (died)
+
+            // === Key NPCs & Deities (prevent fuzzy mismatches) ===
+            { name: 'Casandalee', aliases: ['cass', 'casandalee', 'goddess'] },
+            { name: 'Brigh', aliases: ['bry', 'brigh', 'goddess of invention'] },
             { name: 'Meyanda', aliases: ['mey', 'meyanda', 'android'] },
+            { name: 'Tokala', aliases: ['tok', 'tokalla'] },
             { name: 'Eldrin', aliases: ['eld', 'eldryn'] },
-            { name: 'Olbryn', aliases: ['olb', 'olbrynn', 'drow'] },
-            { name: 'Rhyaerca', aliases: ['rhy', 'rhyarca', 'rhyaerca'] },
-            { name: 'Casandalee', aliases: ['cass', 'casandalee', 'goddess'] }
         ]);
         logger.info(`✅ Name resolver initialized with ${nameResolver.getAllNames().length} names`);
         logger.info(`✅ Dossier manager loaded ${dossierManager.getAllNames().length} dossiers`);
@@ -175,9 +223,18 @@ client.once(Events.ClientReady, async readyClient => {
         logger.error('❌ Failed to start daily history scheduler:', error);
     }
 
-    // Watch personality files so edits in the editor take effect without restart
+    // Start memory consolidation (daily review of conversation logs)
     try {
-        const personalitiesDir = path.join(__dirname, '../data/personalities');
+        conversationLogger.startConsolidationSchedule();
+        logger.info('✅ Memory consolidation scheduler started');
+    } catch (error) {
+        logger.error('❌ Failed to start memory consolidation:', error);
+    }
+
+    // Watch personality files so edits in Obsidian take effect without restart
+    try {
+        const vaultDir = process.env.OBSIDIAN_VAULT_PATH || path.join(__dirname, '../obsidian_cass/cassvault');
+        const personalitiesDir = path.join(vaultDir, 'Personas');
         if (fs.existsSync(personalitiesDir)) {
             fs.watch(personalitiesDir, { recursive: false }, (eventType, filename) => {
                 if (filename && filename.endsWith('.md')) {
@@ -185,10 +242,21 @@ client.once(Events.ClientReady, async readyClient => {
                     personalityManager.reload();
                 }
             });
-            logger.info('✅ Watching data/personalities for changes');
+            logger.info('✅ Watching vault Personas/ for changes');
         }
     } catch (error) {
         logger.warn('Could not watch personality directory:', error.message);
+    }
+
+    // Initialize YouTube transcript processor
+    try {
+        if (process.env.YOUTUBE_PLAYLIST_IDS) {
+            youtubeProcessor = new YouTubeTranscriptProcessor();
+            youtubeProcessor.start(readyClient);
+            logger.info('✅ YouTube transcript processor started');
+        }
+    } catch (error) {
+        logger.error('❌ Failed to start YouTube transcript processor:', error);
     }
 
     // Silently load Discord server scheduled events into LLM context (no channel post on startup)
@@ -350,7 +418,7 @@ client.on(Events.MessageCreate, async message => {
             await message.channel.sendTyping();
             
             // Process the query with LLM (Cass will address speaker by speakerName)
-            const response = await llmHandler.processQuery(query, speakerName);
+            const response = await llmHandler.processQuery(query, speakerName, message.author.id, message.channel.name);
             
             logger.info('LLM response generated', { responseLength: response.length });
             
@@ -438,12 +506,14 @@ process.on('uncaughtException', (error) => {
 
 process.on('SIGINT', () => {
     logger.info('Received SIGINT, shutting down gracefully...');
+    youtubeProcessor?.stop();
     client.destroy();
     process.exit(0);
 });
 
 process.on('SIGTERM', () => {
     logger.info('Received SIGTERM, shutting down gracefully...');
+    youtubeProcessor?.stop();
     client.destroy();
     process.exit(0);
 });

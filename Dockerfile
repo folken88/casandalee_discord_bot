@@ -1,7 +1,9 @@
 FROM node:18-alpine
 
 # Timezone data so node-cron "America/Chicago" works (daily posts & quotes)
-RUN apk add --no-cache tzdata
+# yt-dlp + python3 for scraping YouTube playlists & transcripts (no API key needed)
+RUN apk add --no-cache tzdata python3 py3-pip \
+    && pip3 install --break-system-packages yt-dlp
 
 # Set working directory
 WORKDIR /app
@@ -21,10 +23,13 @@ COPY *.csv ./
 COPY *.json ./
 COPY data/ ./data/
 
-# Create cache, dossier, and logs directories (data/ already copied)
+# Create cache, dossier, and logs directories
+# NOTE: obsidian_cass/ is NOT copied — it's mounted as a live volume
+# so Cass reads/writes directly to the host vault (her "brain")
 RUN mkdir -p /app/data/dossiers
 RUN mkdir -p /app/data/cache
 RUN mkdir -p /app/logs
+RUN mkdir -p /app/obsidian_cass
 
 # Create non-root user
 RUN addgroup -g 1001 -S nodejs
@@ -34,8 +39,8 @@ RUN adduser -S cass -u 1001
 RUN chown -R cass:nodejs /app
 USER cass
 
-# Expose ports: bot (3000), personality editor (3960)
-EXPOSE 3000 3960
+# Expose port: bot (3000)
+EXPOSE 3000
 
 # Health check — verifies the bot is actively logging (Google Sheets refreshes
 # every ~5 min, so any log written in the last 10 min means the process is alive)

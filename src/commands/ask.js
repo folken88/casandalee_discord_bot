@@ -32,7 +32,7 @@ module.exports = {
             await interaction.deferReply();
             
             // Process with LLM (Cass will address speaker by speakerName)
-            const response = await llmHandler.processQuery(question, speakerName);
+            const response = await llmHandler.processQuery(question, speakerName, interaction.user.id, interaction.channel?.name);
             
             // Create simple response (no embed, just text)
             await interaction.editReply(response);

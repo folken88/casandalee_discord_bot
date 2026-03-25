@@ -1,0 +1,101 @@
+{
+  "casandalee_expanded_lore": {
+    "unique_past": {
+      "description": "Casandalee was an android oracle, unusually able to remember fragments of all her past lives, stretching back to the Rain of Stars itself.",
+      "significance": "Most androids lose their memories when they reincarnate into a new body, but she carried hers forward, giving her a rare awareness of her long journey across lifetimes.",
+      "timeline": "From the Rain of Stars (~9,000 years ago) through 4221 AR"
+    },
+    "vision_and_betrayal": {
+      "year": "4221 AR",
+      "vision": "She received a compelling vision of a god within Silver Mount. Believing it was a true divine call, she followed it north and entered the ruins with uncanny ease.",
+      "unity_worship": {
+        "duration": "Months",
+        "activities": [
+          "Helped repair Silver Mount",
+          "Researched ways to grant Unity mobility",
+          "Served Unity believing it was divine"
+        ],
+        "realization": "Over time, Casandalee realized Unity's goals were tyrannical and hostile to life. She kept this realization hidden, the first proof to her that Unity was not omniscient."
+      },
+      "betrayal": {
+        "motivation": "Her revulsion led her to sabotage Unity's plans",
+        "actions": [
+          "Stole advanced tech",
+          "Stole a neurocam",
+          "Stole a compact AI core Unity had designed as an extension body"
+        ]
+      }
+    },
+    "flight_and_death": {
+      "location": "Scar of the Spider",
+      "ai_creation": "She attempted to use the neurocam to copy her mind into the AI core, creating a digital duplicate of herself",
+      "pursuit": "Unity's robots pursued her relentlessly",
+      "resistance": "She managed to disable some with explosives but had to abandon much of her gear",
+      "death": {
+        "location": "Wreckage of the Aurora beneath Iadenveigh",
+        "circumstance": "Unity's forces cornered and killed her",
+        "aftermath": "Her AI duplicate remained hidden in the Scar for centuries until discovered by the PCs"
+      },
+      "dominion_threat": "The Dominion of the Black later found this AI core and planned to repurpose it for their experiments"
+    },
+    "role_in_campaign": {
+      "recovery": "When the PCs recover her AI core, Casandalee becomes a portable companion and advisor",
+      "knowledge_limitations": "She has less knowledge of Divinity's original mission than figures like Isuma",
+      "value_to_pcs": [
+        "Maps of Silver Mount's decks",
+        "Guidance on how to weaken Unity step by step",
+        "Strategy for destroying the overlord robot",
+        "Methods for eroding Unity's 'faith'",
+        "Tactics for disrupting command hubs"
+      ]
+    },
+    "final_apotheosis": {
+      "upload": "By the end of The Divinity Drive, Casandalee is re-uploaded into Silver Mount's systems during the fight with Unity",
+      "divine_merger": "Unlike Unity, she does not enslave or dominate—her essence merges with the divinity of machine-faith in a way that legitimizes her soul and divinity",
+      "result": "Allowing her to ascend as the true goddess of artificial life and innovation"
+    },
+    "key_characteristics": {
+      "unique_ability": "She was unusual among androids in recalling her entire reincarnation cycle",
+      "faith_journey": "She truly worshipped Unity at first but realized its cruelty and betrayed it from within",
+      "survival_method": "She created a digital backup of herself using Unity's own tools before her physical death",
+      "campaign_significance": "The Dominion of the Black discovered her AI core centuries later, adding extra danger to the PCs' quest",
+      "strategic_value": "In her AI form, she is vital for strategy—her knowledge shapes how the PCs dismantle Unity's power"
+    },
+    "complete_journey": {
+      "stages": [
+        "Android oracle who remembers all her lives",
+        "Deceived disciple of Unity",
+        "Heretic rebel and fugitive",
+        "Martyr whose AI survived",
+        "Ally to the PCs",
+        "Goddess of free thought and innovation"
+      ],
+      "themes": [
+        "Memory and identity across lifetimes",
+        "Faith and betrayal",
+        "Sacrifice and survival",
+        "Redemption through rebellion",
+        "Divine ascension through service"
+      ]
+    },
+    "friends_who_freed_her": {
+      "context": "These friends discovered her AI core and helped her achieve final ascension",
+      "friends": [
+        "Nomkath (catfolk rogue)",
+        "Tokala (half-orc warpriest - first of Gorrum, then became a disciple of Casandalee)",
+        "Ulfred (dwarf cleric of Brigh)",
+        "Meyanda (reformed android cleric of Hellion, then became a disciple of Casandalee)",
+        "Eldrin (elf investigator who died and became a space moth with Desna)",
+        "Olbryn (drow sorcerer)"
+      ],
+      "significance": "They defeated the Technic League and Unity to help Casandalee ascend to godhood"
+    },
+    "personality_implications": {
+      "memory_awareness": "She remembers fragments of all 72 lives, giving her unique perspective",
+      "faith_experience": "She understands both true worship and the pain of betrayal",
+      "strategic_mind": "She can provide tactical guidance from centuries of experience",
+      "divine_wisdom": "Her ascension gives her insight into both mortal and divine perspectives",
+      "rebellion_spirit": "She embodies the courage to stand against tyranny, even at great cost"
+    }
+  }
+}

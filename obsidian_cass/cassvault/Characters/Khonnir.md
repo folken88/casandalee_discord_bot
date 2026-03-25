@@ -1,0 +1,26 @@
+---
+name: "Khonnir"
+type: character
+race: "Human"
+class: "Technomancer PC 7 / Wizard 5"
+level: 12
+
+aliases: ["Khonnir Baine"]
+tags: ["character"]
+created: "2026-02-14T00:00:00.000Z"
+updated: "2026-02-14T00:00:00.000Z"
+---
+
+# Khonnir
+
+**Race:** Human | **Class:** Technomancer PC 7 / Wizard 5 | **Level:** 12
+
+HP 101/101. Technomancer/Wizard. Arcane and technomancer spells; crafting feats (Craft Wondrous, Wand, Arms & Armor, Forge Ring). Synced from Foundry VTT.
+
+## Notes & Updates
+
+- [Foundry sync] Level 12 Human Technomancer 7 / Wizard 5. HP 101/101. Spells: Lightning Bolt, Fireball, Haste, Disintegrate, Dispel Magic (Greater), Flesh to Stone. Active buffs: Fly, Invisibility, Haste, Mage Armor, Shield. *(foundry-sync, 2/13/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

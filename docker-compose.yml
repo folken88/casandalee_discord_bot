@@ -7,6 +7,7 @@ services:
       - ./logs:/app/logs
       - ./.env:/app/.env
       - ./data:/app/data
+      - ./obsidian_cass:/app/obsidian_cass
     logging:
       driver: "json-file"
       options:
@@ -30,25 +31,16 @@ services:
       - BOT_PREFIX=/cass
       - CAMPAIGN_YEAR=4717
       - CAMPAIGN_MONTH=April
+      - YOUTUBE_PLAYLIST_IDS=${YOUTUBE_PLAYLIST_IDS}
+      - YOUTUBE_PLAYLIST_CAMPAIGNS=${YOUTUBE_PLAYLIST_CAMPAIGNS}
+      - YOUTUBE_SUMMARY_CHANNEL_ID=${YOUTUBE_SUMMARY_CHANNEL_ID}
+      - YOUTUBE_CHECK_INTERVAL=${YOUTUBE_CHECK_INTERVAL}
+      - YOUTUBE_PLAYER_MAP=${YOUTUBE_PLAYER_MAP}
+      - YOUTUBE_MAX_VIDEOS_PER_CYCLE=${YOUTUBE_MAX_VIDEOS_PER_CYCLE}
     networks:
       - cass-network
       - ollama-network
 
-  cass-editor:
-    build: .
-    container_name: cass-personality-editor
-    restart: unless-stopped
-    command: node tools/personality-editor/server.js
-    working_dir: /app
-    ports:
-      - "3960:3960"
-    volumes:
-      - ./data:/app/data
-    environment:
-      - PERSONALITY_EDITOR_PORT=3960
-      - PERSONALITIES_DATA_DIR=/app/data/personalities
-    networks:
-      - cass-network
 
 networks:
   cass-network:

@@ -1,0 +1,12 @@
+{
+  "_comment": "Map timeline character/event/location names (as they appear in sheet or descriptions) to server custom emoji shortcode names. Add your server's emoji names here; the bot will look them up in the guild and include them when displaying timeline content or persona quotes.",
+  "Unity": "unity",
+  "Casandalee": "casandalee",
+  "Silver Mount": "silver_mount",
+  "Starfall": "starfall",
+  "Technic League": "technic_league",
+  "Kevoth-Kul": "kevoth_kul",
+  "Torch": "torch",
+  "Hellion": "hellion",
+  "Divinity": "divinity"
+}
