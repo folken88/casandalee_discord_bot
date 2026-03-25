@@ -38,3 +38,6 @@ Capital of Numeria, home to Black Sovereign Kevoth-Kul and Technic League; The B
 
 ### Iron Gods - Headway 2024 03 07
 A city in Numeria where the character is hiding from Wizards; A town in Numeria where the group is staying, and Acodin has been living; A city in Numeria where Mr. Brow and the Halfling (psychic) live; A city where the party is discussing Meyanda's past; Capital of the Numeria tribes, allied with the Technic League; Capital city of the Black Sovereign, mentioned as a place where the party will approach Kevoth-Kul
+
+### Iron Gods - A Bug's Life 2024 02 29
+City with a technically compound and underground tunnels; Capital of Numeria, home to Black Sovereign Kevoth-Kul; Capital of Numeria, ruled by Kevoth-Kul

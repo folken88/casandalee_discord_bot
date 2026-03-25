@@ -8,7 +8,7 @@ player: "Sydney"
 aliases: []
 tags: ["character", "pc"]
 created: ""
-updated: "2026-03-25T18:34:44.277Z"
+updated: "2026-03-25T19:56:21.678Z"
 ---
 
 # Kovira
@@ -24,6 +24,7 @@ HP 106/106 | Tiefling Rogue / Evoker / Arcane Trickster | Level 11
 - Mentioned as 'Sydney' (player sydney controls Kovira); part of the group searching; Party member present in combat *(youtube-transcript, 3/25/2026)*
 - Used invisibility spell to sneak into town; Discussing spellcasting and invisibility *(youtube-transcript, 3/25/2026)*
 - Recruited to CP-USS and assigned to the Richton case *(youtube-transcript, 3/25/2026)*
+- Recruited to CP-USS *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

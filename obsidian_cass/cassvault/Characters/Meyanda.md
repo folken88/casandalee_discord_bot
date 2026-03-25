@@ -8,7 +8,7 @@ level: 12
 aliases: []
 tags: ["character"]
 created: "2026-02-14T00:00:00.000Z"
-updated: "2026-03-25T19:12:33.124Z"
+updated: "2026-03-25T19:46:53.664Z"
 ---
 
 # Meyanda
@@ -26,6 +26,8 @@ HP 120/120. Cleric (War/Innovation). Firearms, Polytool of Brigh, Spiritual Weap
 - arrives in Torch, makes a deal with the Skulks to guard the caves *(youtube-transcript, 3/25/2026)*
 - Making a deal with the Skulks to guard the Black Hill Caves; Makes deal with Skulks to guard caves; Makes a deal with Skulks to guard the caves and shuts down the failsafe extinguishing the torch atop Black Hill; Makes a deal with the Skulks to guard the caves, contacts Garmen Ulreth and secures a hiding place for the power relay; Makes deal with Skulks to guard Black Hill Caves, shuts down failsafe extinguishing torch atop Black Hill *(youtube-transcript, 3/25/2026)*
 - Sharing her life history with the narrator; Makes a deal with the Skulks to guard the Black Hill Caves; Makes deal with Skulks to guard Black Hill Caves *(youtube-transcript, 3/25/2026)*
+- Fired a pistol over the top of a pile of junk, helped in combat; Looked at Alred and Bea with concern *(youtube-transcript, 3/25/2026)*
+- Made a deal with Skulks to guard Black Hill Caves; Made a deal with the Skulks to guard the Black Hill Caves *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

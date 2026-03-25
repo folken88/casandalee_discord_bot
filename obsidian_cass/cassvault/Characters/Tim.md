@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T19:22:18.796Z"
+updated: "2026-03-25T19:50:41.100Z"
 ---
 
 # Tim
@@ -19,6 +19,13 @@ updated: "2026-03-25T19:22:18.796Z"
 
 - Had SK issue with character not having text or talk; Carried a lot of rope, had a bag of holding with armor and weapons; Discussed acquiring a sword, participated in the campaign's economy, and bought items for other characters; Bought a Scroll of anti-magic field; Asking about evil barbs *(youtube-transcript, 3/25/2026)*
 - Sold works of classic literature, including the encrypted book *(youtube-transcript, 3/25/2026)*
+
+## Notes & Updates
+
+- Had SK issue with character not having text or talk; Carried a lot of rope, had a bag of holding with armor and weapons; Discussed acquiring a sword, participated in the campaign's economy, and bought items for other characters; Bought a Scroll of anti-magic field; Asking about evil barbs *(youtube-transcript, 3/25/2026)*
+- Sold works of classic literature, including the encrypted book *(youtube-transcript, 3/25/2026)*
+- Tuning a character, asking about magic detection; Mentions trying to be the Technic League leader or trading something for the badge *(youtube-transcript, 3/25/2026)*
+- Out for a while due to character death; Had 17 character deaths in one campaign *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 
@@ -31,3 +38,9 @@ Had SK issue with character not having text or talk; Carried a lot of rope, had 
 
 ### Carrion Crown - The Corpse Locker 2025 02 23
 Sold works of classic literature, including the encrypted book
+
+### Iron Gods - A Bug's Life 2024 02 29
+Tuning a character, asking about magic detection; Mentions trying to be the Technic League leader or trading something for the badge
+
+### Shackles - His Head, His Choice 2025 06 05 19 26 15
+Out for a while due to character death; Had 17 character deaths in one campaign

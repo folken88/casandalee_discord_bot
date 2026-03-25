@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: "2026-03-25T15:11:04.497Z"
-updated: "2026-03-25T19:17:58.286Z"
+updated: "2026-03-25T19:50:41.110Z"
 ---
 
 # Sha-Feng
@@ -28,8 +28,8 @@ updated: "2026-03-25T19:17:58.286Z"
 - One of the party members in combat, rolls initiative; Received haste buff from Darla's spell.; Casts a massive lightning bolt that hits six enemies, sets two ships on fire, and kills three Bronze Fleet soldiers. The spell catches both the Wicked Chains and Red Courage decks on fire.; Captain Sha-Feng makes a comment about enemies standing together, drops ordinary and officer enemies; Referenced as being in goblin form, loved by the druid's pet, was the one brought back in goblin form by the druid; Healed by 21 HP, mostly recovered from recent combat; Mentioned as casting a second level spell and vanishing as a swift action *(youtube-transcript, 3/25/2026)*
 - Performs tumbling maneuvers and brutally kills a navigator by caving in her skull; A character with reach abilities and flurry attacks. Tumbled into combat and hit an opponent, then used five-foot steps to move next to Holden and delivered another punch to Captain Titus. *(youtube-transcript, 3/25/2026)*
 - Shot multiple times by a Bronze Fleet officer with a revolver, hit multiple times but no vital damage *(youtube-transcript, 3/25/2026)*
-- Was killed and reincarnated as a hobgoblin, then later as a hobgoblin again; Being taken by Sahuagin, reincarnated as a Hobgoblin; Was reincarnated as a hobgoblin after being killed by the Sahuagin; Reincarnated as a hobgoblin, received phase spider jerky from Thragorn; Member of the Pillager's Knife crew, reincarnated as a hobgoblin; Being killed and reincarnated as a Hobgoblin; Ship's cook and killed by Sahuagin, reincarnated as a Hobgoblin *(youtube-transcript, 3/25/2026)*
-- Is barfed on by Jello Victor *(youtube-transcript, 3/25/2026)*
+- Discussed reincarnation options, including becoming a hobgoblin; Was killed and reincarnated as a Hobgoblin; Captured by Sahuagin, reincarnated as a hobgoblin; Ship's cook and killed by Sahuagin, reincarnated as a Hobgoblin *(youtube-transcript, 3/25/2026)*
+- Killed and reincarnated as a Hobgoblin *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 
@@ -53,3 +53,6 @@ Taken by Sahuagin, reincarnated as a Hobgoblin; Being taken by Sahuagin, reincar
 
 ### Shackles - Who's Ready To Farty? 2025 07 03 19 12 35
 Was killed and reincarnated as a hobgoblin, then later as a hobgoblin again; Being taken by Sahuagin, reincarnated as a Hobgoblin; Was reincarnated as a hobgoblin after being killed by the Sahuagin; Reincarnated as a hobgoblin, received phase spider jerky from Thragorn; Member of the Pillager's Knife crew, reincarnated as a hobgoblin; Being killed and reincarnated as a Hobgoblin; Ship's cook and killed by Sahuagin, reincarnated as a Hobgoblin
+
+### Shackles - His Head, His Choice 2025 06 05 19 26 15
+Discussed reincarnation options, including becoming a hobgoblin; Was killed and reincarnated as a Hobgoblin; Captured by Sahuagin, reincarnated as a hobgoblin; Ship's cook and killed by Sahuagin, reincarnated as a Hobgoblin

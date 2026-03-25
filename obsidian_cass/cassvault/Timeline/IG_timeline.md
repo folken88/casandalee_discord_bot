@@ -104,3 +104,112 @@ tags: ["timeline", "ig"]
 | 4717.03.14 | Starfall | The Black Sovereign eats a healburger and is cured of his addiction to Numerian Fluids. Unity attacks the Palace of Fallen Stars. |
 | 4717.03.16 | Starfall | The Black Sovereign makes Tokala, Brow, Ulfred, Luna, Nomkath, and Olbryn War Chiefs of Numeria. Matriarch's Tiara purchased. |
 | 4717.03.19 | Silver Mount | Nomkath, Tokala, Ulfred, Olbryn, Luna, Akraden, Mr Brow, and Casandalee sneak into Silvermount via Entryway 40. |
+
+### From: Iron Gods - A Bug's Life 2024 02 29
+
+- **Combatants stuck in Roomba** *(Unknown (inside Roomba))*
+  - Characters: [[Roomba Rider]]
+- **Players escape from Roomba** *(Unknown (hallway))*
+  - Characters: [[Roomba Rider]], [[Tiny]]
+- **Alfred was killed by Tokala** *(Not specified)*
+  - Characters: [[Alfred]], [[Tokala]]
+- **Alfred's body was teleported to his wife, Wu** *(Not specified)*
+  - Characters: [[Alfred]], [[Wu]]
+- **Player threw Luna at enemy, she landed and hit with vital strike** *(Current location (not specified))*
+  - Characters: [[Luna]], [[Enemy]]
+- **Player attempted to dispel magic effects on enemy, but failed due to low roll** *(Current location (not specified))*
+  - Characters: [[Player]], [[Enemy]]
+- **Combat between party and enemy** *(Unknown location ( possibly a dungeon or ruin ))*
+  - Characters: [[Luna]], [[Alfred]], [[Candal]]
+- **Combat and exploration in the Black Hill Caves** *(Black Hill Caves)*
+  - Characters: [[Takala]], [[Toala]], [[Denva]], [[Mayanda]]
+- **Revenge attacks Luna and hits her for 34 damage, then hits Aodin for 31 damage** *(Same location as the players)*
+  - Characters: [[Revenge]], [[Luna]], [[Aodin]]
+- **Revenge hits Coca with a critical hit for 350 damage** *(Same location as the players)*
+  - Characters: [[Revenge]], [[Coca]]
+- **Combat encounter** *(Unknown location (presumably a dungeon or building))*
+  - Characters: [[Rin]], [[Luna]]
+- **Player character Luna uses her long arm to attack Rin** *(Unknown location (presumably a dungeon or building))*
+  - Characters: [[Luna]], [[Rin]]
+- **Combat between Luna and Osman** *(Unknown (indoor location))*
+  - Characters: [[Luna]], [[Osman]]
+- **Luna uses spells to attack Osman, including sneak attacks and dispel magic** *(Unknown (indoor location))*
+  - Characters: [[Luna]], [[Osman]]
+- **Castet connected to minds of others, causing chaos and destruction** *(Starfall, Technically Compound)*
+  - Characters: [[Cassandalee]], [[Toala]], [[Mayanda]], [[Alred]], [[Bea]], [[Denv]]
+- **Scrap witches forcibly pulled into castet, causing them to pass out** *(Starfall, Surface)*
+  - Characters: [[Toala]], [[Cassandalee]]
+- **Tunnel collapses, causing truck to fall violently into underground** *(Starfall, Underground)*
+  - Characters: [[Mayanda]], [[Alred]], [[Bea]], [[Denv]]
+- **Ordinance release and destruction of the Technic League compound** *(Technic League compound in Numeria)*
+  - Characters: [[Cassand Lee]], [[The Black Sovereign]]
+- **Relocation and going offline by Cassand Lee** *(Technic League compound in Numeria)*
+  - Characters: [[Cassand Lee]]
+- **The party searched the conference room and found a loot bungus** *(Conference Room)*
+  - Characters: [[Party]]
+- **Party looted the bodies of Crock and Osman** *(The loot bungus)*
+  - Characters: [[Crock]], [[Osman]]
+- **The group discusses ways to remove Osman's cybernetic parts without triggering a signal to 'phone home'.** *(Unknown)*
+  - Characters: [[Grin]], [[Osman]], [[Cass]]
+- **The group considers using a bag of holding to transport Osman and then performing surgery in an interdimensional space.** *(Unknown)*
+  - Characters: [[Grin]], [[Osman]], [[Cass]]
+- **Discussion about removing technology from a body** *(Torch)*
+  - Characters: [[Cass]], [[Enrique]], [[Alfred]]
+- **Grin had his head cut off by Ncat** *(Tunnel system)*
+  - Characters: [[Ncat]], [[Grin]]
+- **The group found a truck and loaded the body parts into it** *(Tunnel system)*
+  - Characters: [[Osman]], [[Group]]
+- **The Technic League compound is destroyed, with a chemical weapon causing damage** *(Technic League compound)*
+  - Characters: [[party members]], [[Zerth]], [[Blackout]], [[Elias]]
+- **The party returns to the surface, finding a cloud of chemical smoke and sticky black sludge** *(Surface near the Technic League compound)*
+  - Characters: [[party members]]
+- **The party meets with Zerth, Blackout, and Elias, discussing the state of the Technic League** *(Surface near the Technic League compound)*
+  - Characters: [[party members]], [[Zerth]], [[Blackout]], [[Elias]]
+- **Mock's group arrives, discussing the rescue mission and the state of the city** *(Surface near the Technic League compound)*
+  - Characters: [[party members]], [[Mock]]
+- **Party was ambushed by the Beast, Croc got hit for 300 plus damage** *(Unknown)*
+  - Characters: [[Luna]], [[Croc]]
+- **Black Sovereign's forces were depleted to 20 or 30 soldiers left** *(Palace)*
+  - Characters: [[Black Sovereign]]
+- **Party found caches of weapons and ammo in the technically compound.** *(Technically compound)*
+  - Characters: [[Luna]], [[Acodin]]
+- **Party unlocked vaults, took various items including silx, Arc pistols, and potions.** *(Vaults in the technically compound)*
+  - Characters: [[Luna]], [[Acodin]]
+- **Leader of the Technic League badge was traded** *(Not specified)*
+  - Characters: [[Leader of the Technic League]], [[Aon]]
+- **Barbarians will try to destabilize the country tomorrow** *(Numeria)*
+  - Characters: [[Toala]]
+- **The party is discussing their next move and the potential consequences of Toala's actions** *(Numeria)*
+  - Characters: [[Toala]]
+- **The party is considering trading or giving away a powerful magic item, possibly the leader badge** *(Numeria)*
+  - Characters: [[Cron]], [[Tim]]
+- **Players discussed various potions and their effects** *(Not specified)*
+  - Characters: [[d space Mage]], [[Batman Gunslinger H]]
+- **Zerth revealed a hidden hospital with medical supplies** *(Not specified)*
+  - Characters: [[Zerth]]
+- **A character mentioned a wine brand called Supple** *(Numeria)*
+  - Characters: [[Calvin Carpenter]]
+- **Party found items in the base, including a book and potions** *(Base)*
+  - Characters: [[Barista]]
+- **Player1 discussed character's skills and abilities** *(Unknown)*
+  - Characters: [[Player1]]
+- **Kevoth-Kul unites Numeria tribes and becomes Black Sovereign** *(Numeria)* — Correlates to: 4688.00.00
+  - Characters: [[Kevoth-Kul]]
+- **Kta's soul detaches from his body and he feels no draw to go back.** *(The room where the players are)*
+  - Characters: [[Kta (Alfred)]], [[Cassand]]
+- **Cassand arm wrestled space butterfly and returned to Earth**
+  - Characters: [[Cassand]]
+- **Party discussion about character equipment and abilities**
+  - Characters: [[Luna]], [[Crock Top]], [[Or]]
+- **Character's past possession by an entity, nearly Mind-controlled the party**
+  - Characters: [[Luna]]
+- **Kevoth-Kul became the last Black Sovereign of Numeria** *(Starfall)* — Correlates to: 4688.00.00
+  - Characters: [[Kevoth-Kul]]
+- **Ozmyn Zaidow strengthened the Technic League** *(Starfall)*
+  - Characters: [[Ozmyn Zaidow]]
+- **Meyanda made a deal with the Skulks to guard the Black Hill Caves** *(Torch)*
+  - Characters: [[Meyanda]], [[Skulks]]
+- **Khonnir Baine was rescued by the IG Party in the Black Hill Caves** *(Black Hill Caves)*
+  - Characters: [[Khonnir Baine]], [[IG Party]]
+- **Players discussed their characters and one-shots** *(Torch)*
+  - Characters: [[Rag]], [[Cinnamon]]

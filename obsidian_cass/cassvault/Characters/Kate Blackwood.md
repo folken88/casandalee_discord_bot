@@ -8,7 +8,7 @@ player: "Mandi"
 aliases: []
 tags: ["character", "pc"]
 created: ""
-updated: "2026-03-25T19:22:18.922Z"
+updated: "2026-03-25T19:56:21.504Z"
 ---
 
 # Kate Blackwood
@@ -29,6 +29,8 @@ HP 129/129 | Skinwalker Mindblade Kensai Magus | Level 11
 - Recruited to CP-USS *(youtube-transcript, 3/25/2026)*
 - Had heroism buff applied to her, was reading an encrypted book; Blocked a double sworded attack with decapitator; Told Al to use holy Smite, took damage from enemies; Using scrap horn to cast fear spell, provoking an aoo from an enemy; Had a little scrape, was fine; Blocked multiple pounce attacks from the Whispering Way minions.; attempted to read the Evil Book *(youtube-transcript, 3/25/2026)*
 - Rolled initiative, had C invis up; Was recruited to CP-USS, and helped point out some metals that were missed. *(youtube-transcript, 3/25/2026)*
+- Caught a skeleton with her robot leg and delayed to another character; Will be going after the badman; Hit with acid bomb, took damage from multiple attacks; Mentioned as possibly being within range of the battle, but not directly involved; Participated in combat, used slashing force; Was not worried or scared during the battle.; has a plus two headband of vast intelligence, has Fox's cunning *(youtube-transcript, 3/25/2026)*
+- Caught a thrown chain with her sword and threw it away from her. *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

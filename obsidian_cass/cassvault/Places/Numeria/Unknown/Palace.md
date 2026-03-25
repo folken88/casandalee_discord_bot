@@ -26,3 +26,6 @@ A location where the party encounters hill giants. Contains closets for resting 
 
 ### Iron Gods - Spare Parts, Bud 2024 03 28
 A palace inhabited by humans with beautiful architecture featuring stone-shaped walls with perfect cuts. Contains ever-burning torches that emit no heat and provide constant illumination. Houses a secret armory room.; A palace containing barbarian warriors and their equipment. Features a hall with magical weapons, armor, potions, and prayer books. Contains closets and a lab upstairs.; Location with training rooms, weapons lockers, and patrol routes; party is infiltrating it; Where Ulfred teleports back to after visiting Boox
+
+### Iron Gods - A Bug's Life 2024 02 29
+Black Sovereign's forces were depleted to 20 or 30 soldiers left

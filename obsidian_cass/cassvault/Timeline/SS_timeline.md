@@ -49,3 +49,86 @@ tags: ["timeline", "ss"]
 | 4717.04.20 | Windward Isle | Storgrim & crew battle Maven & Fugly the Harpy Himbo, they destroy the coven and retrieve the Cumbers of Ustalav chapter 9 for Tidewater. |
 | 4717.04.24 | Windward Isle | The TPK is badly damaged in a storm while navigating the rocky Eastern coast of Windward Isle. |
 | 4717.04.26 | Tidewater Rock | Battle of Tidewater Blockade. 2 Bronze Fleet & 1 Chelish Frigate are taken by the Goatshead fleet with TPK Crew as their boarding party. |
+
+### From: Shackles - His Head, His Choice 2025 06 05 19 26 15
+
+- **The party cleared out the undead in the Hall of Tor** *(Hall of Tor)*
+  - Characters: [[Sorak]], [[Zanki]], [[Rivera]]
+- **A bungus was found and turned into a fungus, causing the party to become brainwashed** *(Hall of Tor)*
+  - Characters: [[Xiaoang]]
+- **The party went into combat with the undead** *(Hall of Tor)*
+  - Characters: [[Sorak]], [[Zanki]], [[Rivera]]
+- **The party fights against an undead dwarf in Gol Khazak** *(Gol Khazak)*
+  - Characters: [[Holden]], [[Riviera]]
+- **The party contracts the Gol Kazak undead plague after triggering the release of spores in a mushroom farm** *(Gol Khazak)*
+  - Characters: [[Holden]], [[Riviera]]
+- **Riviera removes the Gol Kazak undead plague with a caster level check and a scroll of remove disease** *(Gol Khazak)*
+  - Characters: [[Riviera]]
+- **The TPK battles Maven & Fugly the Harpy Himbo, destroying a nearby Harpy Coven** *(Windward Isle)* — Correlates to: 4717.04.20
+  - Characters: [[Storgrim]]
+- **The party cleared the south hall and then encountered more zombies** *(The south hall of an unknown location)*
+  - Characters: [[Riviera]], [[Holden]], [[Sorak]], [[Shaun]]
+- **A zombie was killed by Holden's parry and subsequent attack** *(The south hall of an unknown location)*
+  - Characters: [[Holden]], [[Zombie]]
+- **Storrim is killed by a natural 20 roll out**
+  - Characters: [[Storrim]]
+- **Holden is killed by a natural 20 roll out**
+  - Characters: [[Holden]]
+- **Combat against undead dwarves** *(Gol Khazak)* — Correlates to: 4717.04.12
+  - Characters: [[Bujon]]
+- **Healing discussion and attempts** *(Unknown location ( possibly Gol Khazak ))*
+  - Characters: [[Riviera]], [[Holden]]
+- **Storgrim's crew burns down a mushroom farm to destroy the source of an undead disease** *(The mushroom farm)*
+  - Characters: [[Storgrim's crew]]
+- **Sorak is released from his contract with Storgrim's crew and leaves** *(The mushroom farm)*
+  - Characters: [[Sorak]], [[Storgrim's crew]]
+- **Party members discuss and decide on reincarnation options**
+  - Characters: [[Shaong]], [[Riarcha]]
+- **Party decides to reincarnate Shaong as an Autobot, with Prime's voice**
+  - Characters: [[Shaong]]
+- **The TPK learns that Tidewater Rock is being blockaded by Chelish & Bronze Fleet ships** *(Windward Isle)*
+  - Characters: [[TPK Crew]]
+- **The TPK is repairing the damage to their ship, which was careened on a soft sand beach.** *(Windward Isle)*
+  - Characters: [[Storgrim's crew]]
+- **The Sahuagin suggested that Tidewater Rock is under blockade by a joint squadron of Bronze Fleet and Chelish ships.** *(Tidewater Rock)*
+  - Characters: [[Storgrim's crew]], [[Sahuagin]]
+- **The party discusses and decides on reincarnation options**
+  - Characters: [[Holden]], [[Tim]], [[Van]]
+- **The party is discussing the blockade at Tidewater Rock** *(Tidewater Rock)* — Correlates to: 4717.04.26
+  - Characters: [[Storgrim & Crew]]
+- **The TPK learns that Tidewater Rock is being blockaded by Chelish & Bronze Fleet ships** *(Windward Isle)*
+  - Characters: [[TPK Crew]]
+- **Shaong is killed in action, but later revealed to be fine and resting** *(TPK camp)*
+  - Characters: [[Storgrim]], [[Shaong]]
+- **The Pillager's Knife crew participates in the defense of Goatshead Port, Firegrass Island** *(Firegrass Island)* — Correlates to: 4717.04.02
+  - Characters: [[Storgrim]]
+- **The Pillager's Knife crew investigates a found treasure map that leads them to Windward Isle and a secret library** *(Windward Isle)*
+  - Characters: [[Storgrim]]
+- **The Pillager's Knife crew is attacked by Sahuagin and fights them off, but Sha Feng is taken by them** *(Windward Isle)*
+  - Characters: [[Storgrim]], [[Sha Feng]]
+- **The Pillager's Knife crew follows the Sahuagin to an underwater cave which is the lost dwarven settlement of Gol Khazak, and forges an alliance with them** *(Gol Khazak)*
+  - Characters: [[Storgrim]]
+- **Shaun's death was discussed** *(Not specified)*
+  - Characters: [[Shaun]]
+- **The TPK is repairing their ship with the help of the brain eye sagen** *(Not specified)*
+  - Characters: [[TPK]], [[brain eye sagen]]
+- **The TPK learns that Tidewater Rock is being blockaded by Chelish & Bronze Fleet ships** *(Windward Isle)* — Correlates to: 4717.04.07
+  - Characters: [[TPK Crew]]
+- **The TPK forges an alliance with the Sahuagin in Gol Khazak** *(Gol Khazak)*
+  - Characters: [[Storgrim]], [[TPK crew]]
+- **The TPK sinks a Chelish Messenger ship and learns of operation 'Crimson Doctrine'** *(Windward Isle)*
+  - Characters: [[Storgrim]], [[TPK crew]]
+- **The TPK battles Maven & Fugly the Harpy Himbo, destroying a nearby Harpy Coven** *(Windward Isle)*
+  - Characters: [[Storgrim]], [[TPK crew]]
+- **The TPK participates in the Battle of Tidewater Blockade, taking 2 Bronze Fleet & 1 Chelish Frigate** *(Tidewater Rock)*
+  - Characters: [[Storgrim]], [[TPK crew]]
+- **Party now controls the ship after a fight breaks out and the Man's Promise officers are overpowered** *(The Fever Sea)*
+  - Characters: [[Storgrim]], [[Holden]], [[Riviera]]
+- **Storgrim is made captain of the stolen ship 'Man's Promise'** *(The Fever Sea)* — Correlates to: 4717.03.05
+  - Characters: [[Storgrim]]
+- **Shipwreck survivors of 'HIMS Surprise' aka 'The Rizzen' agree to join TPK crew** *(Rickety Squibs)* — Correlates to: 4717.03.09
+  - Characters: [[Storgrim]], [[Holden]], [[Riviera]]
+- **A pack of Squables monkeys attack TPK Crew, Bilge and Lil-Vaughan are 'recruited'** *(Rickety Squibs)* — Correlates to: 4717.03.11
+  - Characters: [[Storgrim]], [[Holden]], [[Riviera]]
+- **Battle of Tidewater Blockade, 2 Bronze Fleet & 1 Chelish Frigate are taken by the Goatshead fleet with TPK Crew as their boarding party** *(Tidewater Rock)* — Correlates to: 4717.04.26
+  - Characters: [[Storgrim]], [[Holden]], [[Riviera]]

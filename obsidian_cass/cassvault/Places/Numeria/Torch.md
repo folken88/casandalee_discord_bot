@@ -35,3 +35,6 @@ settlement with Meyanda's involvement in the Skulk deal
 
 ### Iron Gods -  Party Crashers 2024 03 14
 A settlement where Meyanda makes a deal with the Skulks; City or settlement mentioned in the context of Meyanda's deal with the Skulks; The party's current location; Mentioned as a location related to Meyanda's deal with the Skulks; A settlement near the Black Hill Caves; A settlement with Meyanda's power relay
+
+### Iron Gods - A Bug's Life 2024 02 29
+A settlement where the party is discussing their plan; Location where Meyanda made a deal with the Skulks; A settlement in the campaign world

@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T19:22:18.901Z"
+updated: "2026-03-25T19:56:21.514Z"
 ---
 
 # Josh
@@ -24,7 +24,7 @@ updated: "2026-03-25T19:22:18.901Z"
 
 - Player character (Reese) makes multiple critical shots, decapitating an enemy and dealing 140 damage *(youtube-transcript, 3/25/2026)*
 - Player making jokes about his dad working at Folding Games and switching lightning bolts; Player controlling Reese, discussing spell casting and combat tactics with the party.; Player character who can see through invisibility sphere effects, being discussed in context of spell planning *(youtube-transcript, 3/25/2026)*
-- Was looking for a new armor with lower Armor class but higher touch AC; Controlled a character, had a lighting problem on the map *(youtube-transcript, 3/25/2026)*
+- Controlling a character in the fight *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 
@@ -40,3 +40,6 @@ Player making jokes about his dad working at Folding Games and switching lightni
 
 ### Carrion Crown - The Corpse Locker 2025 02 23
 Was looking for a new armor with lower Armor class but higher touch AC; Controlled a character, had a lighting problem on the map
+
+### Carrion Crown - Feldgrau Streetfight 2025 02 09
+Controlling a character in the fight

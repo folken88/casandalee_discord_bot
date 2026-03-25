@@ -1,19 +1,22 @@
 ---
 name: "Kroktah"
-type: pc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: ["Croktail", "Coca", "Cckatha"]
-campaign: ["IG"]
-mentions: 8
-tags: ["character", "pc", "ig"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T19:46:53.597Z"
 ---
 
 # Kroktah
 
-**Type:** Player Character
-**Campaigns:** IG
-**Mentions:** 8 session(s)
-**Also known as:** Croktail, Coca, Cckatha
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Possessed an incredible weapon, a Kasatha spinal sword *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

@@ -8,7 +8,7 @@ level: 15
 aliases: []
 tags: ["character"]
 created: "2026-02-14T00:00:00.000Z"
-updated: "2026-03-25T19:12:33.103Z"
+updated: "2026-03-25T19:46:53.607Z"
 ---
 
 # Casandalee
@@ -29,6 +29,8 @@ HP 135/135. Oracle (Shattered Psyche). Spells: Truespeak, Find the Path, Ancestr
 - asked Luna to look through her memories and showed the Upper Floor Of The Palace on the floor based on Luna's memories *(youtube-transcript, 3/25/2026)*
 - 7,000 year old brain and partial copy of Unity *(youtube-transcript, 3/25/2026)*
 - Believes the mysterious individual is honest about his intentions, but difficult to read; Hosting a Zoom-like meeting for the group to communicate without sensing each other's thoughts; Having a conversation with Mr. Brow, possibly related to her past or family *(youtube-transcript, 3/25/2026)*
+- Connected to castet, controlling minds of others *(youtube-transcript, 3/25/2026)*
+- Has the ability to suppress Osman's cybernetic signals and is considering ways to repurpose the technology.; Concerned about Unity's potential reaction to removing technology from a body; Leaving the party before going underground *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

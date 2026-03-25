@@ -20,3 +20,6 @@ HP 135/135. Oracle (Shattered Psyche). Spells: Truespeak, Find the Path, Ancestr
 
 ### Iron Gods - Headway 2024 03 07
 Believes the mysterious individual is honest about his intentions, but difficult to read; Hosting a Zoom-like meeting for the group to communicate without sensing each other's thoughts; Having a conversation with Mr. Brow, possibly related to her past or family
+
+### Iron Gods - A Bug's Life 2024 02 29
+Has the ability to suppress Osman's cybernetic signals and is considering ways to repurpose the technology.; Concerned about Unity's potential reaction to removing technology from a body; Leaving the party before going underground

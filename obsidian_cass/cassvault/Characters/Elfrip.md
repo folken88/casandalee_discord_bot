@@ -8,7 +8,7 @@ player: "Anna"
 aliases: []
 tags: ["character", "pc"]
 created: ""
-updated: "2026-03-25T19:22:18.895Z"
+updated: "2026-03-25T19:56:21.493Z"
 ---
 
 # Elfrip
@@ -25,6 +25,8 @@ HP 112/112 | Goblin Oracle of Flame | Level 11
 - Was dead for less than a round, and had to be revived with Breath of Life.; Was given a Whisper Thread Cord; Had confusing ideas about undead, but was disregarded; Needed to levitate and fly, had a wand to do so; Trying to disguise himself, but failing; Recruited to CP-USS. *(youtube-transcript, 3/25/2026)*
 - Recruited to CP-USS *(youtube-transcript, 3/25/2026)*
 - Acquired Breath of Life *(youtube-transcript, 3/25/2026)*
+- Was recruited to CP-USS and is in Elemental form, looking better.; Lifts up an injured character and puts them above her shoulders, then attacks with both hands; Witnessed friends being attacked and smelled rotting corpses; Was dragged by a werewolf while pinned under a grave mul; Was flying due to being hit by a sideways spinning Cor throw.; Flew through the solar system with Sonona *(youtube-transcript, 3/25/2026)*
+- Used spells to attack enemies, had issues with canceling templates *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

@@ -1,19 +1,22 @@
 ---
 name: "Crocodile"
-type: pc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["IG"]
-mentions: 2
-tags: ["character", "pc", "ig"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T19:46:53.628Z"
 ---
 
 # Crocodile
 
-**Type:** Player Character
-**Campaigns:** IG
-**Mentions:** 2 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Got hit for 300 plus damage *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

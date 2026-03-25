@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T19:12:33.156Z"
+updated: "2026-03-25T19:46:53.514Z"
 ---
 
 # Toala
@@ -24,7 +24,7 @@ updated: "2026-03-25T19:12:33.156Z"
 
 - High ranking priest of Gorum, possibly the highest ranking in the country; Previously upgraded by Boox with enhancements that could be used in the future; Referenced as having one of the greatest Fort saves and most physical constitution. Passed out for a day after taking a sip of the drug Kevoth-Kul is addicted to. *(youtube-transcript, 3/25/2026)*
 - Preferred method of defeating Mr. Bro, dueling; Would have taken a measured and thoughtful approach to the situation *(youtube-transcript, 3/25/2026)*
-- Entertaining himself with a story, possibly true or an act; Potential leader, nomadic people, famous among Barbarian tribal leaders; Offering to give Enrique's character a muleback tattoo for money *(youtube-transcript, 3/25/2026)*
+- 10 ft north of player, occasionally gives side eye to Nam Cath; Used Furious Focus and Bane on a 40 Armor class enemy; Told to get all of them underground, forcibly pulled into castet; Said Wizards got what they deserved, made a comment about the Black Sovereign; Tries to destabilize the entire country *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 
@@ -40,3 +40,6 @@ Preferred method of defeating Mr. Bro, dueling; Would have taken a measured and 
 
 ### Iron Gods - Headway 2024 03 07
 Entertaining himself with a story, possibly true or an act; Potential leader, nomadic people, famous among Barbarian tribal leaders; Offering to give Enrique's character a muleback tattoo for money
+
+### Iron Gods - A Bug's Life 2024 02 29
+10 ft north of player, occasionally gives side eye to Nam Cath; Used Furious Focus and Bane on a 40 Armor class enemy; Told to get all of them underground, forcibly pulled into castet; Said Wizards got what they deserved, made a comment about the Black Sovereign; Tries to destabilize the entire country

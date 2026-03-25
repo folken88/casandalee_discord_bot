@@ -1,19 +1,22 @@
 ---
 name: "Vex"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["CC"]
-mentions: 2
-tags: ["character", "npc", "cc"]
+tags: ["character"]
+created: ""
+updated: "2026-03-25T19:56:21.524Z"
 ---
 
 # Vex
 
-**Type:** NPC
-**Campaigns:** CC
-**Mentions:** 2 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Jumped into the air and charged at Arin with an axe; Was attacked by a zombie, took damage; Was attacked by a werewolf and badly damaged; Was fine after being hit by Skelly bomb; Grabbing loot and magic items from the dead wizard's bag of holding; Ready to chop Sylvia with his axe; Was a customer of the party's services, paid them 25 gold *(youtube-transcript, 3/25/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

@@ -8,7 +8,7 @@ level: ?
 aliases: ["Osman (Technic League leader)"]
 tags: ["character"]
 created: ""
-updated: "2026-03-25T19:12:33.173Z"
+updated: "2026-03-25T19:46:53.525Z"
 ---
 
 # Osman
@@ -24,7 +24,7 @@ updated: "2026-03-25T19:12:33.173Z"
 
 - A catfolk warrior who speaks the old Numerian catfolk language; reveals he has worked with Acrodin in the arena for 3,000 gold; expresses hatred for the Technic League but acknowledges their usefulness *(youtube-transcript, 3/25/2026)*
 - Higher-ranking Technic League official who Garton reported to. Mentioned as context for Garton's position in the hierarchy. *(youtube-transcript, 3/25/2026)*
-- Was mentioned as one of the sides that Ster Clender was considering joining, but ultimately went with Mr. Brow's side.; Member of the party, potential commander of Technic League borgs *(youtube-transcript, 3/25/2026)*
+- 25 ft north of player; Was attacked by Luna, suffered damage and death; Had his null blade placed in a loot bungus; Possessed a nanite hypo gun, green; Also has a cybernetic body with advanced features, including echolocators, permanent e-like abilities, and a DNA bonded wireless data Jack.; Got cyber fial muscles implant mesh, tendons, nanite chamber, eyes and ears, dermal plating from Grin's body *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

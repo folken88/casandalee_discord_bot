@@ -8,14 +8,17 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T16:45:12.513Z"
+updated: "2026-03-25T19:56:21.534Z"
 ---
 
 # Gorgo
 
+**Race:** Unknown | **Class:** Unknown
+
 ## Notes & Updates
 
 - War god whose prayers are featured in a prayer book found in the palace. The book is used for daily 'super bless' casting. *(youtube-transcript, 3/25/2026)*
+- Attacked Kai, was blocked by Kai's deflection *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

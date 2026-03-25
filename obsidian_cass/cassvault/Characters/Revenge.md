@@ -1,0 +1,17 @@
+---
+name: "Revenge"
+type: character
+campaign: "IG"
+tags: [character, ig]
+---
+
+# Revenge
+
+
+
+
+## Session Appearances
+
+### Iron Gods - A Bug's Life 2024 02 29
+Has Stone skin, True sight, combat buffs
+

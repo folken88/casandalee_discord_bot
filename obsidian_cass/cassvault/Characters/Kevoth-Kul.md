@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T19:12:33.135Z"
+updated: "2026-03-25T19:46:53.657Z"
 ---
 
 # Kevoth-Kul
@@ -24,7 +24,7 @@ updated: "2026-03-25T19:12:33.135Z"
 
 - Referenced as the Black Sovereign; mentioned in context of guards and fortifications *(youtube-transcript, 3/25/2026)*
 - The Black Sovereign, large person (10 ft), ruler of Numeria, in combat with the party; The Black Sovereign is the primary target in combat. Players discuss whether to focus fire on him to end the battle, as killing him would stop the other 60 barbarians from continuing to fight.; Referenced in context of the Black Sovereign and the Crown of Numeria.; Referenced as the Black Sovereign in context of the actual match *(youtube-transcript, 3/25/2026)*
-- Unites the Numeria tribes and becomes Black Sovereign; Unites Numeria tribes, becomes Black Sovereign; Black Sovereign of Numeria, drug-addicted leader; Black Sovereign, leader of the Numeria tribes; Deposed by the Technic League, potential for pandemonium *(youtube-transcript, 3/25/2026)*
+- Black Sovereign of Numeria; Unites Numeria tribes, becomes Black Sovereign; Became the last Black Sovereign of Numeria *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 
@@ -46,3 +46,6 @@ Discussion about his fate, possibly being killed or salvaged; Unites Numeria tri
 
 ### Iron Gods - Headway 2024 03 07
 Unites the Numeria tribes and becomes Black Sovereign; Unites Numeria tribes, becomes Black Sovereign; Black Sovereign of Numeria, drug-addicted leader; Black Sovereign, leader of the Numeria tribes; Deposed by the Technic League, potential for pandemonium
+
+### Iron Gods - A Bug's Life 2024 02 29
+Black Sovereign of Numeria; Unites Numeria tribes, becomes Black Sovereign; Became the last Black Sovereign of Numeria

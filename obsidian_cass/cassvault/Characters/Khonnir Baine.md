@@ -23,3 +23,6 @@ Rescued by the IG Party in the Black Hill Caves; Robs Skulks, enters habitat mod
 
 ### Iron Gods - Headway 2024 03 07
 Robs the skulks and enters the habitat, returns with a dormant repair drone; Robs Skulks, enters habitat module
+
+### Iron Gods - A Bug's Life 2024 02 29
+Rescued by the IG Party in Black Hill Caves; Rescued by the IG Party in the Black Hill Caves

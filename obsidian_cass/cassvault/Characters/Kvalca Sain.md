@@ -8,14 +8,17 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T19:22:18.812Z"
+updated: "2026-03-25T19:56:21.652Z"
 ---
 
 # Kvalca Sain
 
+**Race:** Unknown | **Class:** Unknown
+
 ## Notes & Updates
 
 - Was killed by the Whispering Way and her heart was consumed. *(youtube-transcript, 3/25/2026)*
+- Was killed by the Whispering Way. *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 
@@ -25,3 +28,6 @@ Was killed by the Whispering Way and Mathus Mordrinacht consumed a portion of he
 
 ### Carrion Crown - The Corpse Locker 2025 02 23
 Was killed by the Whispering Way and her heart was consumed.
+
+### Carrion Crown - Feldgrau Streetfight 2025 02 09
+Was killed by the Whispering Way.

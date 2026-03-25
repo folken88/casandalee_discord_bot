@@ -29,3 +29,6 @@ Teleported back to Lepstad to inform Darymid; Had the wand of Mount Communal; Di
 
 ### Carrion Crown - The Corpse Locker 2025 02 23
 Had heroism buff applied to her, was reading an encrypted book; Blocked a double sworded attack with decapitator; Told Al to use holy Smite, took damage from enemies; Using scrap horn to cast fear spell, provoking an aoo from an enemy; Had a little scrape, was fine; Blocked multiple pounce attacks from the Whispering Way minions.; attempted to read the Evil Book
+
+### Carrion Crown - Feldgrau Streetfight 2025 02 09
+Caught a skeleton with her robot leg and delayed to another character; Will be going after the badman; Hit with acid bomb, took damage from multiple attacks; Mentioned as possibly being within range of the battle, but not directly involved; Participated in combat, used slashing force; Was not worried or scared during the battle.; has a plus two headband of vast intelligence, has Fox's cunning

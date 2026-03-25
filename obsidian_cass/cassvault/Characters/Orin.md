@@ -8,14 +8,17 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T19:12:33.098Z"
+updated: "2026-03-25T19:46:53.556Z"
 ---
 
 # Orin
 
+**Race:** Unknown | **Class:** Unknown
+
 ## Notes & Updates
 
 - Casts a shocking grasp into his staff as a touch weapon; Shocking lightning into a stick, scaring Acodin *(youtube-transcript, 3/25/2026)*
+- Enemy character, high significance *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

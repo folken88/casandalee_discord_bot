@@ -8,7 +8,7 @@ player: "Josh"
 aliases: []
 tags: ["character", "pc"]
 created: ""
-updated: "2026-03-25T18:34:44.287Z"
+updated: "2026-03-25T19:56:21.683Z"
 ---
 
 # Dinvaya
@@ -25,6 +25,7 @@ HP 140/140. Inquisitor (Black Powder Inquisition) + Magus dip. Ranged and judgme
 - Leading the charge in full plate armor, jogging through streets; has wolf buff increasing base move to 60 ft; Failed fear save, became panicked *(youtube-transcript, 3/25/2026)*
 - Casted Freedom of Moon on Gaspar to prevent him from being captured by grabby corpses *(youtube-transcript, 3/25/2026)*
 - Recruited to CP-USS and assigned to the Richton case *(youtube-transcript, 3/25/2026)*
+- Recruited to CP-USS *(youtube-transcript, 3/25/2026)*
 
 ## Session Appearances
 

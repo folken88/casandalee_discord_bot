@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T19:22:18.807Z"
+updated: "2026-03-25T19:56:21.647Z"
 ---
 
 # Mathus Mordrinacht
@@ -17,6 +17,12 @@ updated: "2026-03-25T19:22:18.807Z"
 
 ## Notes & Updates
 
+- Consumed a portion of Kvalca Sain's heart. *(youtube-transcript, 3/25/2026)*
+- Consumed a portion of Kvalca Sain's heart. *(youtube-transcript, 3/25/2026)*
+
+## Notes & Updates
+
+- Consumed a portion of Kvalca Sain's heart. *(youtube-transcript, 3/25/2026)*
 - Consumed a portion of Kvalca Sain's heart. *(youtube-transcript, 3/25/2026)*
 - Consumed a portion of Kvalca Sain's heart. *(youtube-transcript, 3/25/2026)*
 
