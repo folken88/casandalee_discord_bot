@@ -26,3 +26,6 @@ A lost dwarven settlement underwater, home to undead dwarves and Sahuagin.; A lo
 
 ### Speak with Skull (& Shackles) 2025 05 29
 An underwater dwarven settlement where the Sahuagin and TPK formed an alliance.
+
+### Shackles - Gill Issue 2025 05 01
+Underwater cave and lost dwarven settlement.; Lost dwarven settlement where Bujon was slain and reincarnated as an Iku-Turso.; Lost dwarven settlement where Bujon was slain and Sha Feng freed before being killed and reincarnated.; Underwater dwarven settlement where the group fought undead creatures and formed an alliance with Sahuagin.

@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-26T04:17:17.541Z"
+updated: "2026-03-26T17:02:44.363Z"
 ---
 
 # Shaun
@@ -24,7 +24,7 @@ updated: "2026-03-26T04:17:17.541Z"
 
 - A crew member whose severed forearm (elbow down) weighs six pounds and was being carried by another character, causing encumbrance.; Turn order mentioned in combat tracker; Has incredible armor class, is entangled by a spell, takes 2d6 damage, appears to be a target for elimination; Receives healing from Buhan to Shaun party healing *(youtube-transcript, 3/25/2026)*
 - Helped by another player; Being shot at by multiple enemies; Was attacked by multiple characters, including Holden *(youtube-transcript, 3/25/2026)*
-- Returned to the party and kept his fishing pole despite being attacked by fish people.; Attacked by hammerhead sharks and captured as a slave.; Avoided an attack from the critted enemy, who was then heard making noise on the other side of a door.; Mentioned for potential weapon use. *(youtube-transcript, 3/26/2026)*
+- Taken down into the depths with Buhan's corpse.; Wearing a pink collar and standing next to Sorak.; Had a potion that allowed him to breathe water and was taken by warriors to an underwater location. *(youtube-transcript, 3/26/2026)*
 
 ## Session Appearances
 
@@ -46,3 +46,6 @@ Was attacked by a zombie, but not killed; Did not have a hit, mentioned having t
 
 ### Speak with Skull (& Shackles) 2025 05 29
 Returned to the party and kept his fishing pole despite being attacked by fish people.; Attacked by hammerhead sharks and captured as a slave.; Avoided an attack from the critted enemy, who was then heard making noise on the other side of a door.; Mentioned for potential weapon use.
+
+### Shackles - Gill Issue 2025 05 01
+Taken down into the depths with Buhan's corpse.; Wearing a pink collar and standing next to Sorak.; Had a potion that allowed him to breathe water and was taken by warriors to an underwater location.

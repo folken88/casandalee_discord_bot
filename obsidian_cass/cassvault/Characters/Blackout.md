@@ -1,19 +1,22 @@
 ---
 name: "Blackout"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["IG"]
-mentions: 6
-tags: ["character", "npc", "ig"]
+tags: ["character"]
+created: ""
+updated: "2026-03-26T16:59:02.082Z"
 ---
 
 # Blackout
 
-**Type:** NPC
-**Campaigns:** IG
-**Mentions:** 6 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Nervous and moving his hand towards his gun, reacting to strange music only he can hear. *(youtube-transcript, 3/26/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

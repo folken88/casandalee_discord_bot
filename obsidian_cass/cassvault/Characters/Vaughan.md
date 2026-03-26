@@ -8,14 +8,17 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T16:51:21.808Z"
+updated: "2026-03-26T17:02:44.413Z"
 ---
 
 # Vaughan
 
+**Race:** Unknown | **Class:** Unknown
+
 ## Notes & Updates
 
 - Being held by the wrist off the ground by Bolty, squirming. He was caught by Bolty. *(youtube-transcript, 3/25/2026)*
+- Participated in combat against undead creatures.; Not mentioned directly but implied to be involved with Holden and Buhan.; Discussed the possibilities with Riviera about bioluminescent fungus. *(youtube-transcript, 3/26/2026)*
 
 ## Session Appearances
 

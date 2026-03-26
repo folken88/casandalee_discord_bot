@@ -41,3 +41,6 @@ An island fortress being blockaded by Chelish & Bronze Fleet ships; Independent 
 
 ### Speak with Skull (& Shackles) 2025 05 29
 Location of a combat encounter with undead dwarves.; Location of a battle and healing events.; An independent pirate port under siege by a small fleet of ships.
+
+### Shackles - Gill Issue 2025 05 01
+Island fortress being blockaded by Chelish & Bronze Fleet ships.

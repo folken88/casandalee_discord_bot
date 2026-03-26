@@ -1,19 +1,22 @@
 ---
 name: "Kul"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["IG"]
-mentions: 3
-tags: ["character", "npc", "ig"]
+tags: ["character"]
+created: ""
+updated: "2026-03-26T17:02:44.458Z"
 ---
 
 # Kul
 
-**Type:** NPC
-**Campaigns:** IG
-**Mentions:** 3 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Saved the day, mentioned as an elf. *(youtube-transcript, 3/26/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

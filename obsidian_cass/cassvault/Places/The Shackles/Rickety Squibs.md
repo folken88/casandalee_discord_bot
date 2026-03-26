@@ -23,3 +23,6 @@ Mentioned in this session.
 
 ### Shackles - So anyways, I started decapitating.. 2025 08 21
 A settlement where the Man's Promise was renamed 'The Pillager's Knife'
+
+### Shackles - Gill Issue 2025 05 01
+A shipwrecked area where the party found items and recruited new crew members.

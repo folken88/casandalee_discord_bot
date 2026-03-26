@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: "2026-03-25T15:11:04.497Z"
-updated: "2026-03-26T04:17:17.566Z"
+updated: "2026-03-26T17:02:44.541Z"
 ---
 
 # Sha-Feng
@@ -28,8 +28,8 @@ updated: "2026-03-26T04:17:17.566Z"
 - One of the party members in combat, rolls initiative; Received haste buff from Darla's spell.; Casts a massive lightning bolt that hits six enemies, sets two ships on fire, and kills three Bronze Fleet soldiers. The spell catches both the Wicked Chains and Red Courage decks on fire.; Captain Sha-Feng makes a comment about enemies standing together, drops ordinary and officer enemies; Referenced as being in goblin form, loved by the druid's pet, was the one brought back in goblin form by the druid; Healed by 21 HP, mostly recovered from recent combat; Mentioned as casting a second level spell and vanishing as a swift action *(youtube-transcript, 3/25/2026)*
 - Performs tumbling maneuvers and brutally kills a navigator by caving in her skull; A character with reach abilities and flurry attacks. Tumbled into combat and hit an opponent, then used five-foot steps to move next to Holden and delivered another punch to Captain Titus. *(youtube-transcript, 3/25/2026)*
 - Shot multiple times by a Bronze Fleet officer with a revolver, hit multiple times but no vital damage *(youtube-transcript, 3/25/2026)*
-- Reincarnated as a Hobgoblin and freed from Sahuagin captivity.; Admitted history of cannibalism and desire to command undead. *(youtube-transcript, 3/26/2026)*
-- Wore a slave collar that needed to be removed. *(youtube-transcript, 3/26/2026)*
+- Taken by Sahuagin, freed from Gol Khazak, killed and reincarnated as a Hobgoblin. *(youtube-transcript, 3/26/2026)*
+- Killed and reincarnated as a Hobgoblin, then freed by the Sahuagin alliance. *(youtube-transcript, 3/26/2026)*
 
 ## Session Appearances
 
@@ -56,3 +56,6 @@ Was killed and reincarnated as a hobgoblin, then later as a hobgoblin again; Bei
 
 ### Shackles - His Head, His Choice 2025 06 05 19 26 15
 Discussed reincarnation options, including becoming a hobgoblin; Was killed and reincarnated as a Hobgoblin; Captured by Sahuagin, reincarnated as a hobgoblin; Ship's cook and killed by Sahuagin, reincarnated as a Hobgoblin
+
+### Shackles - Gill Issue 2025 05 01
+Killed and reincarnated as a Hobgoblin, then freed by the Sahuagin alliance.

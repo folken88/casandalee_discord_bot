@@ -25,3 +25,6 @@ Killed and reincarnated as a Hobgoblin
 
 ### Speak with Skull (& Shackles) 2025 05 29
 Reincarnated as a Hobgoblin and freed from Sahuagin captivity.; Admitted history of cannibalism and desire to command undead.
+
+### Shackles - Gill Issue 2025 05 01
+Taken by Sahuagin, freed from Gol Khazak, killed and reincarnated as a Hobgoblin.

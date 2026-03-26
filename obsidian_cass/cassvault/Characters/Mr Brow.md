@@ -8,7 +8,7 @@ player: "Enrique"
 aliases: []
 tags: ["character", "pc"]
 created: ""
-updated: "2026-03-25T19:12:33.079Z"
+updated: "2026-03-26T17:02:44.488Z"
 ---
 
 # Mr Brow
@@ -34,6 +34,7 @@ updated: "2026-03-25T19:12:33.079Z"
 - Has a way of incapacitating people, possibly through addiction or disease *(youtube-transcript, 3/25/2026)*
 - Approaching the hospital, trying to locate Nomcat *(youtube-transcript, 3/25/2026)*
 - Offering friendly mental communication, has invisibility and perception on himself and CN viz; Comments on the mental sensitivity of certain races and the Technic League Captain's intellect; Mind sharing with the group; Discussed his life in Starfall and his views on the Technic League; Entering a mental communication network and having conversations with others; Killed Ster Clender and is known for being scary and having a high kill count.; Discussed as a potential spy and mentioned in conversation about the Black Sovereign's past; Propaganda leader, implanting memories; Absorbs history of people around him, curious about Torch and Scrap Wall *(youtube-transcript, 3/25/2026)*
+- Exploding with a need for kills. *(youtube-transcript, 3/26/2026)*
 
 ## Roll History
 

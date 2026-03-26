@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-26T04:17:17.546Z"
+updated: "2026-03-26T17:02:44.465Z"
 ---
 
 # Storrim
@@ -30,7 +30,7 @@ updated: "2026-03-26T04:17:17.546Z"
 - Daemon's character, has Step Up feat, attempted to kill the Chelish Marine with deadly aim; Charges across the deck with haste, grabs the captain's corpse, and throws it down the hatch in a WWE-style move, causing a sickening crunch on the gun deck below; Received haste buff from Darla's spell.; Mentioned as being shot at by Bronze Fleet; involved in combat; Curses in Dwarven at Sha-Feng for setting their ship on fire with the lightning bolt. He is in combat and being flanked by an officer.; Captain of the ship, involved in combat on the gangway with Bronze Fleet forces; Captain of the TPK. Captain Poor acknowledges that although TPK didn't bring a ship to the fight, they fought bravely and were first over the rail, so will be treated as part of the action.; Captain Storgrim is present during treasure division after the battle. Referred to as 'Captain Storgrim' and 'Stogram'; Captain of the TPK, receives a friendly wink from the Lady of Tidewater Rock upon arrival; Marries Lady Augusta in a wedding ceremony. Becomes Lord of Tidewater Rock.; Being addressed about his dowry and items of station; his ex-husband is dead and trapped in the dungeons with a ring that brings him home; Posting up defensively in response to hearing footsteps from the east; Takes 20 points of damage from the undead ex-husband; Sara casts heal on him during combat; Captain being cut to pieces by an opponent in combat; taking significant damage but continuing to fight *(youtube-transcript, 3/25/2026)*
 - Has been in emergency surgery for the last couple hours and has emerged alive; A pet (likely a dog) that had emergency surgery and survived *(youtube-transcript, 3/25/2026)*
 - Involved in combat, received a natural 20 attack *(youtube-transcript, 3/25/2026)*
-- Attempted to save Shauna, part of a chain of events leading to Buhan's death.; Was hit by Holden's flurry of attacks and attempts to trip him failed.; Engaged in combat with other characters.; A dwarf with a glowing blue glass axe and lit-up boots. *(youtube-transcript, 3/26/2026)*
+- Slammed his axe into the ceiling, missed hitting the player character.; Failed to hit with an attack. *(youtube-transcript, 3/26/2026)*
 
 ## Session Appearances
 
@@ -49,3 +49,6 @@ In charge of money and management on the ship
 
 ### Speak with Skull (& Shackles) 2025 05 29
 Attempted to save Shauna, part of a chain of events leading to Buhan's death.; Was hit by Holden's flurry of attacks and attempts to trip him failed.; Engaged in combat with other characters.; A dwarf with a glowing blue glass axe and lit-up boots.
+
+### Shackles - Gill Issue 2025 05 01
+Slammed his axe into the ceiling, missed hitting the player character.; Failed to hit with an attack.

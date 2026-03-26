@@ -1,19 +1,22 @@
 ---
 name: "Chaos"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["CC"]
-mentions: 2
-tags: ["character", "npc", "cc"]
+tags: ["character"]
+created: ""
+updated: "2026-03-26T17:02:44.511Z"
 ---
 
 # Chaos
 
-**Type:** NPC
-**Campaigns:** CC
-**Mentions:** 2 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Provoked a fight with a tall enemy. *(youtube-transcript, 3/26/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*
