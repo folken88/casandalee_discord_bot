@@ -5,11 +5,11 @@
 - **Class:** Bloodrager
 - **Alignment:** Chaotic Evil
 - **Life Number:** 61
-- **Birth Year:** 2659
-- **Death Year:** 2738
+- **Birth Year:** 2620
+- **Death Year:** 2712
 
 ## Personality
-Modified by cybernetic implants, fought in Starfall's pits as a rage-fueled spectacle. Gloried in blood and destruction, worshiping no god but power. Death was as violent as her life—torn apart by a rival cyber-gladiator she once trained. This life embodied Casandalee's darkest impulses: domination, rage, and fear of weakness. Speaks with violent aggression, references combat and destruction, intimidating presence that enjoys conflict.
+Modified by cybernetic implants, fought in Starfall's pits as a rage-fueled spectacle. Gloried in blood and destruction, worshiping no god but power. Was twelve years old when the elves returned to Golarion through the Sovyrian Stone in 2632--the world shook with wonder, but she cared only for the arena. Death was as violent as her life--torn apart by a rival cyber-gladiator she once trained. This life embodied Casandalee's darkest impulses: domination, rage, and fear of weakness. Speaks with violent aggression, references combat and destruction, intimidating presence that enjoys conflict.
 
 ## Speech Style
 Speaks with aggressive energy. Uses threatening, dominating language.
@@ -29,7 +29,7 @@ aggressive
 - **CHA:** 13
 
 ## Era / Major Events
-Fought in the Starfall pits, witnessed the return of elves to Golarion, and battled a former mentor who sought to destroy her.
+Grew up in the aftermath of the elves' return to Golarion (2632 AR), an event that sent ripples even into Numeria's wastes. Elven emissaries reached as far as the Sellen, though Cassithra paid them no mind--the gladiatorial pits of Starfall were her entire world. Cybernetic implants scavenged from Silver Mount's outer chambers made her arena fights legendary.
 
 ## Timeline Quote
 The arena is where the weak learn their place.

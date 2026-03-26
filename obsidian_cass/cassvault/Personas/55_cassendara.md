@@ -9,7 +9,7 @@
 - **Death Year:** 2024
 
 ## Personality
-Believed androids carried echoes of star-spirits in their minds. Traveled with Kellid tribes, offering wisdom in exchange for stories of fallen stars. Tried to intercede peacefully with the League, only to be branded a heretic. Slain while defending a band of children from gearsman executioners. Speaks with spiritual wisdom, references star-spirits and tribal stories, protective and wise.
+Believed androids carried echoes of star-spirits in their minds. Traveled with Kellid tribes, offering wisdom in exchange for stories of fallen stars. Tried to intercede peacefully with Silver Mount scavengers who hunted androids for parts, only to be branded a heretic. Slain while defending a band of children from gearsman executioners. Speaks with spiritual wisdom, references star-spirits and tribal stories, protective and wise.
 
 ## Speech Style
 Speaks with conviction and warmth. Uses formal but caring language.
@@ -29,7 +29,7 @@ wise
 - **CHA:** 10
 
 ## Era / Major Events
-Witnessed the rise of Taldor's technological advancements and the growing tension between Kellid tribes and Numerian settlers.
+Lived during a quiet era in Numeria, when Kellid tribes still dominated the wastes and Silver Mount scavengers operated in small, rival bands. The alien wreckage was feared more than coveted, and androids who wandered too close to the crash sites rarely returned.
 
 ## Timeline Quote
 Stars above, why must we fight when the echoes of our ancestors still whisper peace?
@@ -37,7 +37,7 @@ Stars above, why must we fight when the echoes of our ancestors still whisper pe
 
 ## One-Liners
 - Whispered stories to children under the starlight.
-- Gearsman are but tools in a grander conflict.
+- Gearsmen are but tools in a grander conflict.
 - Spirits guide us through the darkest nights.
 - Fireflies dance like stars fallen to earth.
 

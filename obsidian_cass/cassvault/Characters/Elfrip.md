@@ -8,7 +8,7 @@ player: "Anna"
 aliases: []
 tags: ["character", "pc"]
 created: ""
-updated: "2026-03-25T19:56:21.493Z"
+updated: "2026-03-26T04:22:25.995Z"
 ---
 
 # Elfrip
@@ -27,6 +27,7 @@ HP 112/112 | Goblin Oracle of Flame | Level 11
 - Acquired Breath of Life *(youtube-transcript, 3/25/2026)*
 - Was recruited to CP-USS and is in Elemental form, looking better.; Lifts up an injured character and puts them above her shoulders, then attacks with both hands; Witnessed friends being attacked and smelled rotting corpses; Was dragged by a werewolf while pinned under a grave mul; Was flying due to being hit by a sideways spinning Cor throw.; Flew through the solar system with Sonona *(youtube-transcript, 3/25/2026)*
 - Used spells to attack enemies, had issues with canceling templates *(youtube-transcript, 3/25/2026)*
+- Mentioned as someone who can cast Disguised Self; Not mentioned directly, but implied to be part of the group.; Rolling knowledge religion.; Hit midair with a corpse, taking 26 damage.; Was targeted by invisible enemies.; First death of Elfrip's character.; Mentions cleric class rules for healing spells.; Mentioned as part of the team helping in the battle. *(youtube-transcript, 3/26/2026)*
 
 ## Session Appearances
 

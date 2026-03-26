@@ -6,7 +6,7 @@
 - **Alignment:** True Neutral
 - **Life Number:** 30
 - **Birth Year:** -980
-- **Death Year:** -901
+- **Death Year:** -930
 
 ## Personality
 Collected 'death-songs' of androids—the static emissions released at their last moments. Compiled them into a library of strange melodies, believing they revealed truths about the soul. Respected as eccentric but harmless by tribes who sheltered her. Vanished during a nanite storm; her library still waits, hidden in a cave. Speaks of death-songs and static melodies, references soul truths and libraries, mystical and scholarly.
@@ -29,7 +29,7 @@ scholarly
 - **CHA:** 8
 
 ## Era / Major Events
-Witnessed the rise of Armag in Southwest Numeria, and the conflict between Nex and Geb in the Mana Wastes.
+Witnessed the consolidation of Kellid war-chiefs in Southwest Numeria, and heard distant rumors of the growing conflict between Nex and Geb far to the south.
 
 ## Timeline Quote
 The static songs of androids are but a whisper compared to the thunderous roar of war.
@@ -38,8 +38,8 @@ The static songs of androids are but a whisper compared to the thunderous roar o
 ## One-Liners
 - I collected every death-song, hoping to uncover the truth of the soul.
 - The tribes respected my eccentricity, though they could not understand it.
-- Armag's terror spread like wildfire through the lands.
-- In the Mana Wastes, Nex and Geb clashed with a fury that shook the earth.
+- The warlords' terror spread like wildfire through the lands.
+- Far to the south, Nex and Geb clashed with a fury that shook the earth.
 - My library remains hidden, waiting for those who seek the answers within.
 
 ## Flavor Notes

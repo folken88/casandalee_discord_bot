@@ -3,9 +3,9 @@
 ## Identity
 - **Name:** Cassindrael
 - **Class:** Paladin
-- **Alignment:** Neutral Good
+- **Alignment:** Lawful Good
 - **Life Number:** 18
-- **Birth Year:** -2480
+- **Birth Year:** -2518
 - **Death Year:** -2399
 
 ## Personality
@@ -29,7 +29,7 @@ righteous
 - **CHA:** 16
 
 ## Era / Major Events
-Witnessed the rise of Kellid raiding parties in the north and the expansion of the Free League to the south. Fought alongside human allies against the encroaching threats.
+Lived during the Age of Anguish, swearing an oath to protect androids from enslavement after the horrors of her previous incarnation's corruption. Fought alongside Kellid allies against slavers and Dominion remnants across the Plains of Rust. Respected even by Kellid raiders for her honor, earned through single combat and by protecting Kellid children alongside android refugees. Cut down defending a caravan of freed androids, her Androffan-alloy blade glowing with white-blue fire to the end.
 
 ## Timeline Quote
 Soul sparks shall never be extinguished.

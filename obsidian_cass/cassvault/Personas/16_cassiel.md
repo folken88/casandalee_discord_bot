@@ -5,8 +5,8 @@
 - **Class:** Druid
 - **Alignment:** Chaotic Good
 - **Life Number:** 16
-- **Birth Year:** -2696
-- **Death Year:** -2617
+- **Birth Year:** -2732
+- **Death Year:** -2580
 
 ## Personality
 Walked with hybrid plants seeded from alien labs, creating a 'garden of chrome.' Believed nature was evolving to accept metal and code. Helped tribes survive famine with engineered crops. Perished when her garden was burned by raiders who feared its strangeness. Speaks of chrome gardens and evolving nature, references hybrid plants and survival, nurturing but strange.
@@ -29,7 +29,7 @@ nurturing
 - **CHA:** 8
 
 ## Era / Major Events
-Witnessed the early days of Numerian tribes adapting to the harsh landscape, aiding them with engineered crops that thrived in barren soils.
+Lived during the Age of Destiny, when Kellid clans had long established their seasonal migrations across Numeria. Created a 'garden of chrome' -- hybrid alien-terrestrial plants grown from the Divinity's hydroponics bays crossed with Golarion flora. Helped Kellid tribes survive famine with engineered crops that thrived in radiation-tainted soil near Silver Mount. Perished when raiders burned her garden, fearing its strangeness.
 
 ## Timeline Quote
 The land whispered secrets to me, and I shared my knowledge to help our people thrive.

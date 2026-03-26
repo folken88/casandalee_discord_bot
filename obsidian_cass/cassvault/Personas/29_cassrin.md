@@ -9,7 +9,7 @@
 - **Death Year:** -1018
 
 ## Personality
-Known as 'The One Who Never Missed.' Patrolled the wilds to protect caravans and android enclaves from raiders. A stoic wanderer, feared by bandits for her unerring aim. Slain in a League ambush—her rifle still said to be perfectly balanced, passed from hand to hand. Speaks with stoic precision, references aim and protection, methodical and reliable.
+Known as 'The One Who Never Missed.' Patrolled the wilds to protect caravans and android enclaves from raiders, wielding a salvaged Androffan beam-rifle. A stoic wanderer, feared by bandits for her unerring aim. Slain in a raider ambush near the Plains of Rust—her rifle still said to be perfectly balanced, passed from hand to hand. Speaks with stoic precision, references aim and protection, methodical and reliable.
 
 ## Speech Style
 Speaks precisely and methodically. Uses structured, measured language.
@@ -29,7 +29,7 @@ sharp
 - **CHA:** 8
 
 ## Era / Major Events
-Witnessed the rise of Armag, the barbarian warlord, and his terror in Southwest Numeria. Patrolled the wilds to protect caravans and android enclaves from raiders during a time when technology was both feared and revered.
+Witnessed the rise of a great Kellid warlord who united the southwestern tribes through bloodshed. Patrolled the wilds to protect caravans and android enclaves from raiders during a time when alien technology was both feared and revered.
 
 ## Timeline Quote
 <It is said my rifle never missed its mark, but even precision has limits.">

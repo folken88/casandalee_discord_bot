@@ -8,7 +8,7 @@ player: "Sydney"
 aliases: []
 tags: ["character", "pc"]
 created: ""
-updated: "2026-03-25T19:56:21.678Z"
+updated: "2026-03-26T04:22:26.058Z"
 ---
 
 # Kovira
@@ -25,6 +25,8 @@ HP 106/106 | Tiefling Rogue / Evoker / Arcane Trickster | Level 11
 - Used invisibility spell to sneak into town; Discussing spellcasting and invisibility *(youtube-transcript, 3/25/2026)*
 - Recruited to CP-USS and assigned to the Richton case *(youtube-transcript, 3/25/2026)*
 - Recruited to CP-USS *(youtube-transcript, 3/25/2026)*
+- Received damage from the zombie's attack. *(youtube-transcript, 3/26/2026)*
+- Teleported in and heard something about a connection to Sylvia and Vex. *(youtube-transcript, 3/26/2026)*
 
 ## Session Appearances
 

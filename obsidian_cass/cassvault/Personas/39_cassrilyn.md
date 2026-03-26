@@ -29,14 +29,14 @@ warm
 - **CHA:** 13
 
 ## Era / Major Events
-Witnessed the rise of the Azlantian Empire and its eventual fall, as well as the founding of Absalom. Her clockwork creations were inspired by the technological advancements during this era.
+Lived during the early growth of Absalom as a trade hub, with Aroden's cult spreading across the Inner Sea. Plagued by vivid dreams of Azlant's fall during Earthfall -- echoes from Cass's broken memory bleeding through millennia. Her clockwork creations were inspired by Numerian salvage and an intuitive connection to Brigh, goddess of clockwork and invention.
 
 ## Timeline Quote
-I made my little clockwork friends from the scraps of the old empire. They're still out there somewhere, running wild in the woods.
+I made my little clockwork friends from the scraps of a fallen star-ship. They're still out there somewhere, running wild in the woods.
 
 
 ## One-Liners
-- I must have been at least 50 when the Azlantians fell.
+- I dream of a great falling, though it happened long before my time -- the old ship remembers, even if I cannot.
 - My pets are better company than any human child ever could be.
 - The gears and springs whisper secrets to me.
 - Sometimes I wonder what they're doing out there.

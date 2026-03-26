@@ -6,10 +6,10 @@
 - **Alignment:** Lawful Evil
 - **Life Number:** 50
 - **Birth Year:** 1300
-- **Death Year:** 1379
+- **Death Year:** 1412
 
 ## Personality
-Fanatically loyal to order, claimed to serve 'the true god in Silver Mount.' Ruthlessly hunted rogue androids and dissenters, turning them over to the Technic League. In secret, collected fragments of forbidden AI code, hoping to preserve Unity's future. Her paranoia grew until she trusted no one, and she was assassinated by her own allies. Speaks with fanatical conviction, references divine order and loyalty, paranoid and ruthless.
+Fanatically loyal to order, claimed to serve 'the true god in Silver Mount.' Ruthlessly hunted rogue androids and dissenters, turning them over to the scavenger lords of Silver Mount. In secret, collected fragments of forbidden AI code, hoping to preserve Unity's future. Her paranoia grew until she trusted no one, and she was assassinated by her own allies. Speaks with fanatical conviction, references divine order and loyalty, paranoid and ruthless.
 
 ## Speech Style
 Speaks with cold authority. Uses commanding, manipulative language.

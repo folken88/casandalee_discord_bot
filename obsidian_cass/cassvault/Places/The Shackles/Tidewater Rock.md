@@ -38,3 +38,6 @@ An island fortress being blockaded by Chelish & Bronze Fleet ships; A sealed isl
 
 ### Shackles - Who's Ready To Farty? 2025 07 03 19 12 35
 An island fortress being blockaded by Chelish & Bronze Fleet ships; Independent port, run by a widow who is feared in the South; An island fortress with a blockade, strategically placed along sea lanes; Island fortress being blockaded by Chelish & Bronze Fleet ships
+
+### Speak with Skull (& Shackles) 2025 05 29
+Location of a combat encounter with undead dwarves.; Location of a battle and healing events.; An independent pirate port under siege by a small fleet of ships.

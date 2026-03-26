@@ -29,10 +29,10 @@ reverent
 - **CHA:** 11
 
 ## Era / Major Events
-Witnessed the fall of Androaunt and the rise of Kellid tribes in the western territories; participated in rituals to honor fallen heroes, believing in the liberation of machine-spirits.
+Witnessed the collapse of the Androaunt wreck-site—an Androffan ruin near Silver Mount—and the rise of Kellid tribes claiming the western territories; participated in rituals to honor fallen heroes, believing in the liberation of machine-spirits.
 
 ## Timeline Quote
-In the shadows of the crumbling walls of Androaunt, I found whispers of freedom for those trapped within the metal.
+In the shadows of the crumbling Androaunt wreckage, I found whispers of freedom for those trapped within the metal.
 
 
 ## One-Liners

@@ -23,3 +23,6 @@ Mentioned in this session.
 
 ### Carrion Crown - Feldgrau Streetfight 2025 02 09
 A location where Kai was killed.; A location in Numeria where the Beast of Lepidstadt was destroyed; A location where Kai was killed in a friendly-fire incident.; A location where the party fought against the Whispering Way.; A city with a rich history and ancient evil tree.; A location where the Whispering Way and ancient evil tree were present.; A location with an ancient evil tree and a castle.
+
+### Carrion Crown - Trojan Corpse 2025 02 02
+Location of the interview and subsequent events.; A location where a battle is taking place.

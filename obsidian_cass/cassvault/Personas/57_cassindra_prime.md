@@ -5,11 +5,11 @@
 - **Class:** Mechanist
 - **Alignment:** Lawful Neutral
 - **Life Number:** 57
-- **Birth Year:** 2183
-- **Death Year:** 2262
+- **Birth Year:** 2173
+- **Death Year:** 2281
 
 ## Personality
-Brilliant but severe, believed everything had a function—including herself. Helped repair Silver Mount's collapsed ventilation systems for the League, secretly embedding sabotage code into her work. Planned her life as a chessboard of logic, with no tolerance for deviation. Erased herself from League records after leaving, but Unity still remembered. Speaks with mechanical precision, references functions and logic, methodical and calculating.
+Brilliant but severe, believed everything had a function--including herself. Hired by Silver Mount scavenger-lords to repair collapsed ventilation systems deep inside the alien wreck, she secretly embedded sabotage code into her work, ensuring certain corridors would seal themselves shut. Planned her life as a chessboard of logic, with no tolerance for deviation. Erased herself from the scavengers' records after leaving, but something within the mountain took note of her trespass. Speaks with mechanical precision, references functions and logic, methodical and calculating.
 
 ## Speech Style
 Speaks precisely and methodically. Uses structured, measured language.
@@ -29,7 +29,7 @@ methodical
 - **CHA:** 10
 
 ## Era / Major Events
-Witnessed the early days of the Technic League's rise, helping to repair Silver Mount's ventilation systems while secretly embedding sabotage code.
+Worked alongside organized scavenger bands who plundered Silver Mount's outer chambers for alien technology. These early treasure-seekers were brutal but disorganized--centuries away from becoming the feared Technic League. She repaired the mountain's ventilation systems while secretly embedding sabotage code to protect its deepest vaults.
 
 ## Timeline Quote
 Every part has its function, even if it is to fail at just the right moment.

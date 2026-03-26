@@ -26,3 +26,6 @@ A city in Ustalav where Kate decrypted the journal with letters from someone to 
 
 ### Carrion Crown - Feldgrau Streetfight 2025 02 09
 The city where the Beast of Lepidstadt was found not-guilty and banished.; A city in Ustalav where the party is currently located; The city where the party is currently located.; A city where combat between players' characters and creatures occurred; Location of the battle with Gunslingers and other enemies; A city with multiple locations, including rooftops and streets; The city where Kendra Lorrimor lives.; A city with a combat between the party and Whispering Way members, including werewolves; A city in Ustalav where the events took place; The city where CP-USS is based, and various events took place.; A city where the players acquired Pride's ending.; The city where the Beast of Lepidstadt was found not-guilty.; A city in Ustalav where the group is investigating various events.; City where CP-USS is based
+
+### Carrion Crown - Trojan Corpse 2025 02 02
+A street where a battle took place.

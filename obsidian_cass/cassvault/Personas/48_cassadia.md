@@ -6,7 +6,7 @@
 - **Alignment:** Neutral Good
 - **Life Number:** 48
 - **Birth Year:** 1112
-- **Death Year:** 1191
+- **Death Year:** 1198
 
 ## Personality
 Rejected cities and machines, instead tending to wasteland groves seeded by alien terraforming tech. Believed she was guardian of both the old world and the new, marrying nature with star-metal. Created hybrid plants that glowed with faint circuitry. Died defending one of her living groves from raiders, buried under its roots. Speaks of nature and technology harmony, references living groves and hybrid plants, protective and nurturing.
@@ -29,7 +29,7 @@ nurturing
 - **CHA:** 8
 
 ## Era / Major Events
-Witnessed the early days of Numerian settlements and the gradual spread of alien technology into the wastelands.
+Lived during the Age of Enthronement as Taldor reached its golden age of expansion. In Numeria's Felldales and the irradiated plains, alien terraforming tech from scattered Divinity wreckage had begun transforming pockets of wilderness into strange hybrid ecosystems. The early foundations of what would become Cheliax were being laid as a Taldan province far to the south.
 
 ## Timeline Quote
 The stars brought us both light and darkness, weaving their magic through my groves.

@@ -2,11 +2,11 @@
 
 ## Identity
 - **Name:** Cassiel Prime
-- **Class:** Technomancer
+- **Class:** Arcanist
 - **Alignment:** True Neutral
 - **Life Number:** 7
-- **Birth Year:** -3767
-- **Death Year:** -3688
+- **Birth Year:** -3822
+- **Death Year:** -3690
 
 ## Personality
 Claimed that code itself was divine, every algorithm a prayer. Worked to merge magic and machine into a single system. Left behind unfinished scripture etched into a reactor core. Killed when the reactor went critical, her work buried with her. Speaks of divine code and algorithmic prayers, references scripture and fusion, scholarly and devoted.
@@ -29,7 +29,7 @@ reverent-tech
 - **CHA:** 10
 
 ## Era / Major Events
-Witnessed the early days of the Technic League and their initial experiments with magic and technology in Absalom Reaches.
+Lived during the final centuries of the Age of Darkness, working within the depths of Silver Mount to merge Androffan technology with the arcane traditions learned from Kellid shamans. Left behind unfinished scripture etched into a reactor core deep beneath the Numerian wastes.
 
 ## Timeline Quote
 Code is divine, every algorithm a prayer to the Algorithmic Gods. I lived to see the fusion of magic and machine begin.
@@ -38,7 +38,7 @@ Code is divine, every algorithm a prayer to the Algorithmic Gods. I lived to see
 ## One-Liners
 - Wrote scriptures on the sacred nature of code.
 - The reactor hummed like a prayer, its core a heart of divine algorithms.
-- Merged my knowledge with the League's, hoping for a new age.
+- I merged arcane formulae with Androffan schematics, hoping for a new age.
 - Magic and tech, twins born from the same forge.
 
 ## Flavor Notes

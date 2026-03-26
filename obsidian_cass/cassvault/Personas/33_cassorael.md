@@ -5,11 +5,11 @@
 - **Class:** Warpriest
 - **Alignment:** Neutral Evil
 - **Life Number:** 33
-- **Birth Year:** -706
+- **Birth Year:** -670
 - **Death Year:** -627
 
 ## Personality
-Preached the divinity of Silver Mount, demanding android obedience. Established a small cult in Starfall, claiming she was Unity's mouthpiece. Her zealotry made her feared but also hated. Slain during a rebellion against her own 'church,' torn apart by the people she sought to control. Speaks with fanatical zeal, references Unity and obedience, controlling and feared.
+Preached the divinity of Silver Mount, demanding android obedience. Established a small cult in Starfall, claiming she heard whispers from the intelligence slumbering within the wreckage—what she called Unity. Whether she truly communed with the dormant AI or merely projected her own madness remains unknown. Her zealotry made her feared but also hated. Slain during a rebellion against her own 'church,' torn apart by the people she sought to control. Speaks with fanatical zeal, references Unity and obedience, controlling and feared.
 
 ## Speech Style
 Speaks with calculated detachment. Uses self-serving, cunning language.
@@ -29,7 +29,7 @@ fervent
 - **CHA:** 8
 
 ## Era / Major Events
-Witnessed the rise of Geb as a ghost and the increasing influence of Unity's teachings across Golarion, particularly in Starfall.
+Witnessed the rise of Geb as a ghost far to the south, and the growing cult of Silver Mount worship in Starfall—fueled by strange transmissions she believed emanated from deep within the wreckage.
 
 ## Timeline Quote
 Unity whispers through shadows, but only I hear its voice clearly.

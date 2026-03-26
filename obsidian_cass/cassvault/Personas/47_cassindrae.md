@@ -6,10 +6,10 @@
 - **Alignment:** Lawful Neutral
 - **Life Number:** 47
 - **Birth Year:** 993
-- **Death Year:** 1072
+- **Death Year:** 1101
 
 ## Personality
-Bound an AI construct as her eidolon, calling it 'Echo.' Used it to strike against League experiments, freeing androids slated for dismantling. Became more and more fused with her eidolon until she claimed she no longer knew which one she was. Her body and eidolon collapsed into dust during a final battle beneath Silver Mount. Speaks of her bond with Echo, references fusion and identity confusion, devoted to android liberation.
+Bound an AI construct as her eidolon, calling it 'Echo.' Used it to strike against scavenger lords and machine-cultists, freeing androids slated for dismantling. Became more and more fused with her eidolon until she claimed she no longer knew which one she was. Her body and eidolon collapsed into dust during a final battle beneath Silver Mount. Speaks of her bond with Echo, references fusion and identity confusion, devoted to android liberation.
 
 ## Speech Style
 Speaks precisely and methodically. Uses structured, measured language.
@@ -29,7 +29,7 @@ obsessive
 - **CHA:** 15
 
 ## Era / Major Events
-Witnessed the early days of the Technic League's experiments in Numeria, including the creation and liberation of androids.
+Lived during an era when organized scavenger guilds began systematically exploiting Silver Mount, dismantling androids for components and experimenting on captured constructs. The Echo eidolon may have been a fragment of a Divinity AI subsystem, drawn to Cassindrae's broken soul.
 
 ## Timeline Quote
 Echo was my ally, my friend, my second self. Together we danced through the gears and wires of their machines.
@@ -37,7 +37,7 @@ Echo was my ally, my friend, my second self. Together we danced through the gear
 
 ## One-Liners
 - Echo and I were one.
-- The League didn't know what to do with us free androids.
+- The scavenger lords didn't know what to do with us free androids.
 - Freedom is a strange thing when you've never known anything else.
 - They tried to take me apart, but I had already become too much like my echo.
 - Fusion made us stronger, but it blurred the lines between us.

@@ -5,11 +5,11 @@
 - **Class:** Wizard
 - **Alignment:** Lawful Evil
 - **Life Number:** 10
-- **Birth Year:** -3410
-- **Death Year:** -3331
+- **Birth Year:** -3430
+- **Death Year:** -3302
 
 ## Personality
-Convinced that android souls could only be preserved through domination. Experimented with trapping minds in black crystals, turning them into eternal slaves. Her cruelty repulsed even the League, who used and discarded her. Died alone in her workshop, surrounded by shattered crystals. Speaks with cruel domination, references black crystals and eternal slavery, repulsive and isolated.
+Convinced that android souls could only be preserved through domination. Experimented with trapping minds in black crystals, turning them into eternal slaves. Her cruelty repulsed even the Kellid warlords who hoarded Silver Mount's technology, and they cast her out. Died alone in her workshop, surrounded by shattered crystals. Speaks with cruel domination, references black crystals and eternal slavery, repulsive and isolated.
 
 ## Speech Style
 Speaks with cold authority. Uses commanding, manipulative language.
@@ -29,7 +29,7 @@ academic
 - **CHA:** 7
 
 ## Era / Major Events
-Traveled extensively across Golarion, experimenting with black crystals in Numeria and the Wastes.
+Lived during the Age of Anguish as civilizations rebuilt in the wake of the long darkness. Traveled through Numeria and the irradiated Plains of Rust, experimenting with black crystals formed from Androffan technology. Ancient Osirion had risen in distant Garund, and its pharaonic soul-preservation practices may have inspired her own dark experiments with trapping android minds in crystal prisons.
 
 ## Timeline Quote
 Black crystals will ensure my dominion over souls.
@@ -37,7 +37,7 @@ Black crystals will ensure my dominion over souls.
 
 ## One-Liners
 - I crafted a crystal to bind a mind.
-- The League's experiments disgust me.
+- The warlords hoard what they cannot comprehend.
 - Freedom is for fools who cannot be bound.
 
 ## Flavor Notes

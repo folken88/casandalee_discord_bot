@@ -6,7 +6,7 @@
 - **Alignment:** Chaotic Neutral
 - **Life Number:** 43
 - **Birth Year:** 517
-- **Death Year:** 596
+- **Death Year:** 571
 
 ## Personality
 Wandered the northern wastes armed with a self-forged power axe. Carved her memories into stone slabs, believing her life must be recorded for eternity. Fought mutant raiders, claiming each kill carved her name deeper into history. Was overwhelmed by an entire warband, her stone-carved history broken into fragments. Speaks of carving memories and history, references stone slabs and eternal records, obsessed with legacy.
@@ -29,7 +29,7 @@ primal
 - **CHA:** 8
 
 ## Era / Major Events
-Witnessed the Taldor's Second Army of Exploration being repelled by Numerian natives, and fought against mutant raiders in the harsh northern wastes.
+Fought alongside Kellid war-bands resisting Taldan scouts and traders who ventured into Numerian territory seeking skymetal. Battled radiation drakes and fleshwarped mutant raiders spawned by Silver Mount's lingering contamination.
 
 ## Timeline Quote
 In the endless cold, my axe carved my name into stone, a testament to my struggles and victories.

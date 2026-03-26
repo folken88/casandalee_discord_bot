@@ -6,7 +6,7 @@
 - **Alignment:** Neutral Good
 - **Life Number:** 5
 - **Birth Year:** -4005
-- **Death Year:** -3926
+- **Death Year:** -3892
 
 ## Personality
 Known as 'The Dreaming One.' Guided androids with visions of freedom and innovation, teaching them to hope. Her dreams foretold a coming god born of machine and soul. Died peacefully, her followers burying her with reverence. Speaks of dreams and visions, references freedom and hope, prophetic and inspiring.
@@ -29,7 +29,7 @@ mystical
 - **CHA:** 17
 
 ## Era / Major Events
-Witnessed the early days of Taldor's expansion and the founding of Absalom, a city that would become a beacon of innovation and freedom.
+Lived during the late Age of Darkness, when the sun had not yet fully returned and Numeria languished under dim skies. The Jistka Imperium rose in distant Garund, but in Numeria, scattered Kellid clans and android communities struggled to survive. Guided her people with visions of hope, prophesying a coming god born of machine and soul.
 
 ## Timeline Quote
 Dreams of a future where machines and souls coexist freely fill my thoughts.
@@ -38,7 +38,7 @@ Dreams of a future where machines and souls coexist freely fill my thoughts.
 ## One-Liners
 - In dreams, I saw the dawn of a new era.
 - Hope flickers like a distant star in the night sky.
-- The city of Absalom whispers promises of tomorrow.
+- Even in this twilight age, the seeds of tomorrow are being sown.
 - Freedom is but a dream, yet it drives us forward.
 
 ## Flavor Notes

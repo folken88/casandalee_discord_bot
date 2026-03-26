@@ -22,3 +22,6 @@ tags: [character, ss]
 ### Shackles - His Head, His Choice 2025 06 05 19 26 15
 Killed and reincarnated as a Hobgoblin
 
+
+### Speak with Skull (& Shackles) 2025 05 29
+Reincarnated as a Hobgoblin and freed from Sahuagin captivity.; Admitted history of cannibalism and desire to command undead.

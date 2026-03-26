@@ -20,3 +20,6 @@ Location of a friendly-fire incident; Kvalca Sain was killed by the Whispering W
 ### Carrion Crown - Pier Reviewed 2025 04 13
 Mentioned in this session.
 
+
+### Carrion Crown - Trojan Corpse 2025 02 02
+A forested area near the river.; Location of the Undead creature's patrol route; Location of the battle.

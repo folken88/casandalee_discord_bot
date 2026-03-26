@@ -29,7 +29,7 @@ experimental
 - **CHA:** 8
 
 ## Era / Major Events
-Witnessed the founding of Absalom and the rise of Aroden as a living Azlanti, though her alchemical experiments kept her largely hidden from public view.
+Lived through the final decades before the founding of Absalom. In her last year, witnessed Aroden raise the Starstone and ascend to full godhood, founding the city of Absalom in 1 AR. Her alchemical experiments kept her largely hidden from public view.
 
 ## Timeline Quote
 The Starstone glows within me, but its light is dimmed by my own obsessions.

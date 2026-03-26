@@ -5,11 +5,11 @@
 - **Class:** Warpriest
 - **Alignment:** Neutral Good
 - **Life Number:** 58
-- **Birth Year:** 2302
-- **Death Year:** 2381
+- **Birth Year:** 2330
+- **Death Year:** 2393
 
 ## Personality
-Preached openly that invention was worship and creation itself a prayer. Advocated tirelessly for android rights in Numeria, traveling from settlement to settlement. Protected small communities with her blade and sermons, even against gearsman patrols. Betrayed by a false ally who turned her over to the League; died on the pyres of Starfall. Speaks with religious conviction, references divine creation, passionate about android rights and protection.
+Preached openly that invention was worship and creation itself a prayer. Advocated tirelessly for android rights in Numeria, traveling from settlement to settlement. Protected small communities with her blade and sermons, even against gearsman patrols sent by Silver Mount warlords. Betrayed by a false ally who turned her over to scavenger-lords; died on the pyres of Starfall, the settlement growing around Silver Mount's base. Speaks with religious conviction, references divine creation, passionate about android rights and protection.
 
 ## Speech Style
 Speaks gently and helpfully. Uses encouraging, supportive language.
@@ -29,7 +29,7 @@ fervent
 - **CHA:** 8
 
 ## Era / Major Events
-Traveled through Numeria, preaching the divine right of invention and android rights. Witnessed the rise of the Technic League's influence.
+Traveled through Numeria preaching the divine right of invention and android rights, during an era when Silver Mount scavenger-lords were consolidating power around Starfall. Androids were increasingly hunted for their components, and Cassora fought to shield refugee communities from the predation.
 
 ## Timeline Quote
 Invention is prayer; creation is worship.

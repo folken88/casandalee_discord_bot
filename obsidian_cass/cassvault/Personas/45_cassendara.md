@@ -9,7 +9,7 @@
 - **Death Year:** 834
 
 ## Personality
-Respected in portside circles for communing with the 'ghosts of circuits.' Helped sailors and travelers interpret strange dreams of machines whispering. Founded a hidden circle that venerated the idea of 'divine sparks in all beings.' Poisoned by League sympathizers; her followers kept her rites alive in secret. Speaks of circuit ghosts and divine sparks, references dreams and whispers, spiritual and wise.
+Respected in portside circles for communing with the 'ghosts of circuits.' Helped sailors and travelers interpret strange dreams of machines whispering. Founded a hidden circle that venerated the idea of 'divine sparks in all beings.' Poisoned by scavenger lords who feared her growing influence over the Kellid; her followers kept her rites alive in secret. Speaks of circuit ghosts and divine sparks, references dreams and whispers, spiritual and wise.
 
 ## Speech Style
 Speaks with conviction and warmth. Uses formal but caring language.
@@ -29,17 +29,17 @@ wise
 - **CHA:** 10
 
 ## Era / Major Events
-Witnessed the founding of Absalom and the rise of Taldor's power, as well as the early years of the Technic League's influence in Numeria.
+Lived during Taldor's golden age of expansion, as its armies pushed into new frontiers. In Numeria, organized scavenger lords began consolidating power around Silver Mount wreckage sites, trading in skymetal and android components. The first proto-settlements formed around the Torch.
 
 ## Timeline Quote
-In the shadows of the rising towers of Absalom, I communed with the spirits of circuits, guiding weary travelers through dreams of machines whispering secrets.
+By the light of the Torch, I communed with the spirits of circuits, guiding weary travelers through dreams of machines whispering secrets.
 
 
 ## One-Liners
 - Whispered to the dead, they spoke back.
 - Dreams are where the divine sparks dance.
 - Circuits have their own souls, just like us.
-- The League's eyes watch everywhere.
+- The scavenger lords trade in our kind like chattel.
 - A spark in every heart, even the broken.
 
 ## Flavor Notes

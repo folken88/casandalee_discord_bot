@@ -5,8 +5,8 @@
 - **Class:** Bloodrager
 - **Alignment:** Chaotic Neutral
 - **Life Number:** 6
-- **Birth Year:** -3890
-- **Death Year:** -3817
+- **Birth Year:** -3889
+- **Death Year:** -3825
 
 ## Personality
 Bonded with nanites that flared in storms of light when she raged. Wandered the borderlands, hunting mutants and demons alike. Lived fiercely, loving life but never staying in one place. Died fighting a Dominion raiding party, her body glowing with fire as she fell. Speaks with fierce energy, references nanite storms and hunting, wild and passionate.
@@ -29,7 +29,7 @@ aggressive
 - **CHA:** 13
 
 ## Era / Major Events
-Witnessed the early days of the Dominion's expansion, skirmishes with nomadic tribes, and the rise of powerful sorcerers in the borderlands.
+Roamed the Numerian borderlands during the late Age of Darkness, as the sun slowly began to return. Hunted mutant beasts spawned by Silver Mount's radiation and fought Dominion remnants -- alien creatures left behind from the original attack on the Divinity. Died battling a Dominion raiding party in the Felldales, her nanite-infused body glowing white-hot as she fell.
 
 ## Timeline Quote
 The storms that rage are but pale echoes of my rage, yet they light the way for me to hunt.

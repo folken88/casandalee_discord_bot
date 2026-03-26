@@ -6,7 +6,7 @@
 - **Alignment:** Lawful Evil
 - **Life Number:** 17
 - **Birth Year:** -2577
-- **Death Year:** -2498
+- **Death Year:** -2521
 
 ## Personality
 Bound a shard of Dominion flesh as her eidolon, believing fusion was the future. Her ambition was to blend mortal, machine, and alien into a new perfection. Grew more inhuman with each day, whispering in alien tongues. Finally devoured by her own eidolon when it broke free. Speaks in alien whispers, references fusion and perfection, ambitious and inhuman.
@@ -29,7 +29,7 @@ obsessive
 - **CHA:** 15
 
 ## Era / Major Events
-Witnessed the rise of Taldor and its expansion into the west, as well as the early days of the Inner Sea region's exploration.
+Lived during the Age of Anguish, when the legacy of the Four Pharaohs of Ascension still loomed over distant Osirion. In Numeria, she delved into forbidden knowledge, binding a shard of Dominion of the Black flesh as her eidolon. The Dominion's parasitic biological technology slowly corrupted her, and she grew more inhuman with each passing year. Finally devoured by her own eidolon when it broke free of her control.
 
 ## Timeline Quote
 <The world is but a playground for those who understand the true nature of reality.>

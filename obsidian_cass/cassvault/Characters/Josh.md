@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T19:56:21.514Z"
+updated: "2026-03-26T04:22:25.899Z"
 ---
 
 # Josh
@@ -24,7 +24,7 @@ updated: "2026-03-25T19:56:21.514Z"
 
 - Player character (Reese) makes multiple critical shots, decapitating an enemy and dealing 140 damage *(youtube-transcript, 3/25/2026)*
 - Player making jokes about his dad working at Folding Games and switching lightning bolts; Player controlling Reese, discussing spell casting and combat tactics with the party.; Player character who can see through invisibility sphere effects, being discussed in context of spell planning *(youtube-transcript, 3/25/2026)*
-- Controlling a character in the fight *(youtube-transcript, 3/25/2026)*
+- Requesting macro reinstatement; Participated in a perception check and was given a super BL.; Discussing Shield upgrades and zombie infiltration plan; Attacking a big guy with magic Missile blades and dropping Freedom's Call for immunity.; Playing the game, making decisions for his character.; Participated in the battle, used a tracker buff and was targeted by invisible enemies. *(youtube-transcript, 3/26/2026)*
 
 ## Session Appearances
 
@@ -43,3 +43,6 @@ Was looking for a new armor with lower Armor class but higher touch AC; Controll
 
 ### Carrion Crown - Feldgrau Streetfight 2025 02 09
 Controlling a character in the fight
+
+### Carrion Crown - Trojan Corpse 2025 02 02
+Requesting macro reinstatement; Participated in a perception check and was given a super BL.; Discussing Shield upgrades and zombie infiltration plan; Attacking a big guy with magic Missile blades and dropping Freedom's Call for immunity.; Playing the game, making decisions for his character.; Participated in the battle, used a tracker buff and was targeted by invisible enemies.

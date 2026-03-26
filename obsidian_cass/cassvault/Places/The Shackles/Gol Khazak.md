@@ -23,3 +23,6 @@ Mentioned in this session.
 
 ### Shackles - His Head, His Choice 2025 06 05 19 26 15
 A lost dwarven settlement underwater, home to undead dwarves and Sahuagin.; A lost dwarven settlement with an undead plague; Lost dwarven settlement, underwater cave system; An underwater cave and lost dwarven settlement; An underwater dwarven settlement and lost city.; Lost dwarven settlement and underwater cave system; Lost dwarven settlement of Gol Khazak, underwater cave system; An underwater cave, lost dwarven settlement; Lost dwarven settlement underwater cave
+
+### Speak with Skull (& Shackles) 2025 05 29
+An underwater dwarven settlement where the Sahuagin and TPK formed an alliance.

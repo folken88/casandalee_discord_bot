@@ -29,7 +29,7 @@ formal
 - **CHA:** 11
 
 ## Era / Major Events
-Witnessed the early years of Numeria's rise, including skirmishes with the remnants of the Technic League and the establishment of the region’s first true settlements.
+Witnessed the early years of Numeria’s rise, including skirmishes with mutant warbands from the irradiated crash zones and the establishment of the region’s first true android settlements.
 
 ## Timeline Quote
 Order must be maintained. Even in the chaos that surrounds us.

@@ -6,7 +6,7 @@
 - **Alignment:** Neutral Good
 - **Life Number:** 40
 - **Birth Year:** 160
-- **Death Year:** 239
+- **Death Year:** 258
 
 ## Personality
 Tried to reconstruct one of the Divinity's smaller shuttles from wreckage. Spent years scrounging skymetal and persuading Kellid tribes to help her rebuild. Flew only once before the craft malfunctioned and crashed into a frozen lake. Survived in stasis under the ice for decades until salvagers uncovered her frozen corpse. Speaks of flight and reconstruction, references coordinates and systems, determined and hopeful despite failure.
@@ -29,7 +29,7 @@ precise
 - **CHA:** 10
 
 ## Era / Major Events
-Witnessed the early days of Numerian settlement and the founding of Silver Mount, but was unable to participate due to Kellid taboos.
+Lived during a time when Kellid tribes still held Silver Mount in superstitious dread, centuries after the Divinity's crash. Sought to explore the ancient wreckage despite tribal taboos, and persuaded sympathetic Kellid of the Numerian Plains to aid her salvage efforts.
 
 ## Timeline Quote
 Coordinates X34.75, Y89.12—here lies our chance for freedom.

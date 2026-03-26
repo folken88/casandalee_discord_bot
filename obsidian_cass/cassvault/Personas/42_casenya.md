@@ -6,7 +6,7 @@
 - **Alignment:** Neutral Evil
 - **Life Number:** 42
 - **Birth Year:** 398
-- **Death Year:** 477
+- **Death Year:** 502
 
 ## Personality
 Obsessed with binding souls—mortal, machine, or alien—into talismans. Created a library of phylacteries filled with echoes of both mortals and constructs. Tried to bind her own soul into a recursive machine loop, but instead trapped herself in eternal repetition. Even now, her name is sometimes whispered in Numerian rituals of binding. Speaks of binding souls and phylacteries, references eternal repetition, obsessed with capture and control.
@@ -29,7 +29,7 @@ reverent
 - **CHA:** 11
 
 ## Era / Major Events
-Traveled Numeria and Taldor, witnessing the Second Army of Exploration's failed expedition in 499.
+Traveled Numeria and Taldor during the height of early Taldan expansion. Witnessed Taldan scouts probing the Numerian frontier, only to retreat from the irradiated wastelands and hostile Kellid tribes that guarded Silver Mount's secrets.
 
 ## Timeline Quote
 Soul threads bind, eternal loops twist.

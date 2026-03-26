@@ -4,7 +4,7 @@ type: raw-transcript
 videoId: "2AERbrEysxQ"
 campaign: "SS"
 publishedAt: ""
-capturedAt: "2026-03-25T21:02:13.853Z"
+capturedAt: "2026-03-26T04:13:34.679Z"
 tags: [session, transcript, ss]
 ---
 

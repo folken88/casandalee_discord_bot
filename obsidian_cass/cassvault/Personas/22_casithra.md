@@ -29,7 +29,7 @@ ethereal
 - **CHA:** 10
 
 ## Era / Major Events
-Witnessed the early days of the Technic League's rise and the formation of the Free Kingdoms, as well as the initial conflicts between Numerian tribes.
+Witnessed the increasing consolidation of Kellid tribal confederations and the early stirrings of Sarkorian shamanic traditions to the north, as well as the initial conflicts between Numerian tribes over control of crash sites.
 
 ## Timeline Quote
 The echoes of my past life still whisper in my ears, guiding me through this world of shadows and light.

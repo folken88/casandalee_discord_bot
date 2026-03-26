@@ -1,7 +1,7 @@
-# Life 26: Cassithra
+# Life 26: Cassithani
 
 ## Identity
-- **Name:** Cassithra
+- **Name:** Cassithani
 - **Class:** Inquisitor
 - **Alignment:** Lawful Evil
 - **Life Number:** 26
@@ -9,7 +9,7 @@
 - **Death Year:** -1427
 
 ## Personality
-Believed androids were soulless tools. Preached cruelty as divine order. Served the League as a hunter of androids who tried to escape. Slowly came to doubt when she saw echoes of memory in their eyes. Killed herself in despair, unable to reconcile her cruelty with truth. Speaks with conflicted cruelty, references divine order and doubt, tormented by her own beliefs.
+Believed androids were soulless tools. Preached cruelty as divine order. Served a Kellid warlord as a hunter of androids who tried to escape his slave camps. Slowly came to doubt when she saw echoes of memory in their eyes. Killed herself in despair, unable to reconcile her cruelty with truth. Speaks with conflicted cruelty, references divine order and doubt, tormented by her own beliefs.
 
 ## Speech Style
 Speaks with cold authority. Uses commanding, manipulative language.
@@ -29,7 +29,7 @@ stern
 - **CHA:** 11
 
 ## Era / Major Events
-Witnessed the rise of the Technic League and their strict enforcement of android laws. Traveled extensively, hunting rogue androids in various regions.
+Witnessed the rise of Kellid slavers who enforced brutal laws over android laborers near Silver Mount. Traveled extensively, hunting rogue androids across the Numerian wastes.
 
 ## Timeline Quote
 The world is a cruel place, but even in its shadows, I saw something beyond my understanding.
@@ -39,7 +39,7 @@ The world is a cruel place, but even in its shadows, I saw something beyond my u
 - Echoes of memory haunt me.
 - Cruelty was the divine order, yet...
 - Their eyes... they spoke to me.
-- The League's laws were iron.
+- The warlord's laws were iron.
 - Doubt gnaws at my soul.
 
 ## Flavor Notes

@@ -6,7 +6,7 @@
 - **Alignment:** Lawful Evil
 - **Life Number:** 37
 - **Birth Year:** -197
-- **Death Year:** -118
+- **Death Year:** -105
 
 ## Personality
 Abandoned Numeria for Brevoy, serving as a mercenary enforcer for noble houses. Believed only strength mattered, and loyalty could be bought like iron. Carved a reputation for ruthless duels and merciless efficiency. Died betrayed by her lord when her price became too high. Speaks with cold efficiency, references honor and strength, calculating and ruthless.
@@ -29,7 +29,7 @@ cold
 - **CHA:** 11
 
 ## Era / Major Events
-Witnessed the rise of the House Cannith and their influence in Khorvaire, as well as the ongoing conflicts between Brevoyan city-states.
+Served during the twilight conflicts between proto-Brevic warlords and Taldan frontier colonists vying for control of the Lake of Mists and Veils region. Witnessed early practitioners of what would become the Aldori dueling tradition.
 
 ## Timeline Quote
 Strength is the only currency that matters. Loyalty can be bought like iron.

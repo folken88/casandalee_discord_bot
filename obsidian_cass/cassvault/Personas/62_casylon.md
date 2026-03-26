@@ -5,11 +5,11 @@
 - **Class:** Pilot
 - **Alignment:** Lawful Neutral
 - **Life Number:** 62
-- **Birth Year:** 2778
-- **Death Year:** 2857
+- **Birth Year:** 2748
+- **Death Year:** 2840
 
 ## Personality
-Served as tactical officer aboard a rebuilt Divinity shuttle. Her loyalty was absolute: lived with precision, discipline, and military pride. Believed her function was to ensure crew survival, not her own. Crashed during experimental shuttle test, her 'second crash' haunting her dying moments. Speaks with military discipline, references tactical protocols, haunted by the weight of command and sacrifice.
+Served as tactical officer aboard a rebuilt Divinity shuttle, painstakingly reconstructed by a secretive band of Numerian artificers. Her loyalty was absolute: lived with precision, discipline, and military pride. Believed her function was to ensure crew survival, not her own. Witnessed the ascension of Cayden Cailean in 2765--the drunken god's miracle shook even her faith in pure logic. Crashed during an experimental shuttle test, her 'second crash' haunting her dying moments with visions she could not explain. Speaks with military discipline, references tactical protocols, haunted by the weight of command and sacrifice.
 
 ## Speech Style
 Speaks precisely and methodically. Uses structured, measured language.
@@ -29,7 +29,7 @@ precise
 - **CHA:** 10
 
 ## Era / Major Events
-Witnessed the ascension of Cayden Cailean in Absalom and participated in the experimental shuttle tests that led to my own crash.
+Witnessed the ascension of Cayden Cailean in 2765 AR, an event that proved even mortal fools could touch divinity. Served aboard a rebuilt Divinity shuttle reconstructed by Numerian artificers who spent decades piecing together alien hull fragments. The Shining Crusade against Tar-Baphon began during her lifetime, and Kellid warriors were recruited from Numeria's borders to fight the undead in Ustalav.
 
 ## Timeline Quote
 Command protocols dictated survival; I failed to ensure our shuttle's safety.

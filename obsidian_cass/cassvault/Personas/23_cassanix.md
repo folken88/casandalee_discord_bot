@@ -29,7 +29,7 @@ intense
 - **CHA:** 18
 
 ## Era / Major Events
-Witnessed the rise and fall of the Iron League, raiding their caravans and fortresses with a gang of metal-minded followers.
+Witnessed the rise and fall of the Rust Rider confederation, raiding their caravans and fortresses with a gang of metal-minded followers across the Felldales.
 
 ## Timeline Quote
 Metal is just another tool for those who can bend it to their will.

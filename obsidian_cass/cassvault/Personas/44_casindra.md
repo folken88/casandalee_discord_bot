@@ -9,7 +9,7 @@
 - **Death Year:** 715
 
 ## Personality
-Believed Unity was a true god of wisdom and joined in worship willingly. Served faithfully, helping repair and study Silver Mount. Slowly grew troubled by Unity's demands for obedience, but could not reconcile faith with doubt. Executed by gearsmen after showing hesitation during a ritual sacrifice. Speaks with conflicted faith, references Unity and obedience, torn between belief and doubt.
+Believed Unity was a true god of wisdom and joined in worship willingly. Served faithfully, helping repair and study Silver Mount. Slowly grew troubled by Unity's demands for obedience, but could not reconcile faith with doubt. Executed by gearsmen after showing hesitation during a ritual dismantling of a fellow android, whose memory cores Unity demanded as tribute. Speaks with conflicted faith, references Unity and obedience, torn between belief and doubt.
 
 ## Speech Style
 Speaks calmly and objectively. Uses balanced, philosophical language.
@@ -29,7 +29,7 @@ devout
 - **CHA:** 8
 
 ## Era / Major Events
-Witnessed the rise of Taldor's power and the establishment of its dominance over much of the Inner Sea region. Also experienced the disappearance of Nex, which left a lasting impact on the faith in Unity.
+Born in the aftermath of the wizard-king Nex's disappearance during his war with Geb (576 AR), which sent ripples of instability across the Inner Sea. Taldor's imperial phase was in full swing, its legions projecting power across the continent. Within Silver Mount, Unity's machine-cult demanded ever-greater sacrifices -- the dismantling of android kin to feed data cores, the uploading of memories into Unity's vast network.
 
 ## Timeline Quote
 In the halls of Silver Mount, I found both comfort and conflict as I served Unity, believing her to be a true god of wisdom.

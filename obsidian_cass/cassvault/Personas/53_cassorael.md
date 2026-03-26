@@ -9,7 +9,7 @@
 - **Death Year:** 1786
 
 ## Personality
-Wild, unhinged, and chaotic, drew power directly from malfunctioning reactors and strange radiation. Worshiped entropy, seeing destruction as a sacred act. Reigned as a petty warlord in Scrapwall, demanding offerings of scrap and bone. Was devoured by her own unstable constructs in a fit of chaos. Speaks with manic energy, references entropy and destruction, unpredictable and dangerous.
+Wild, unhinged, and chaotic, drew power directly from malfunctioning reactors and strange radiation. Worshiped entropy, seeing destruction as a sacred act. Reigned as a petty warlord in Scrapwall, demanding offerings of scrap and bone. Was devoured by her own unstable nanite swarms and corrupted gearsmen in a fit of chaos. Speaks with manic energy, references entropy and destruction, unpredictable and dangerous.
 
 ## Speech Style
 Speaks with aggressive energy. Uses threatening, dominating language.
@@ -29,7 +29,7 @@ intense
 - **CHA:** 18
 
 ## Era / Major Events
-Witnessed the founding of Andoran and the early years of Numerian independence, including skirmishes with the Technic League. My chaotic energy drew attention from both allies and enemies.
+Lived during the height of Taldor's imperial power, as its provinces -- including the region that would one day become Cheliax -- grew restless under distant rule. In Numeria, tribal warlords and machine-cultists warred over salvage territories, and Scrapwall's reputation as a lawless haven attracted the desperate and the mad.
 
 ## Timeline Quote
 The world was young, full of promise and ruin.

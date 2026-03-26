@@ -9,7 +9,7 @@
 - **Death Year:** -475
 
 ## Personality
-Drew raw power from malfunctioning reactors, her skin glowing with plasma burns. Wandered Scrapwall, offering her volatile strength as a mercenary. Believed her body was only a vessel for cosmic flame. Died when her power flared uncontrollably, incinerating half a bandit camp. Speaks with volatile energy, references cosmic flame and power, unpredictable and destructive.
+Drew raw power from malfunctioning reactors, her skin glowing with plasma burns. Wandered the growing junkyard wastelands near Silver Mount, offering her volatile strength as a mercenary. Believed her body was only a vessel for cosmic flame. Died when her power flared uncontrollably, incinerating half a bandit camp. Speaks with volatile energy, references cosmic flame and power, unpredictable and destructive.
 
 ## Speech Style
 Speaks unpredictably, sometimes wildly. Uses colorful, restless language.
@@ -29,7 +29,7 @@ volatile
 - **CHA:** 10
 
 ## Era / Major Events
-Witnessed the rise of the Technic League and their strict control over Scrapwall. Traveled through the ruins of Absalom, where the city's might had faded.
+Witnessed the growing power of Silver Mount scavenger cults and the radiation-scarred wastelands expanding around the crash sites. Traveled the desolate stretches between Numeria's scattered settlements, selling her destructive talents to the highest bidder.
 
 ## Timeline Quote
 The flames within me were but a pale reflection of the cosmic force that forged me.

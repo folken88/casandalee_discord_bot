@@ -20,3 +20,6 @@ A room where CP-SS fought against skeletons; A hideout or lair containing Necrom
 ### Carrion Crown - The Corpse Locker 2025 02 23
 Mentioned in this session.
 
+
+### Carrion Crown - Trojan Corpse 2025 02 02
+Characters are under attack by fire giants and corpse hooks.

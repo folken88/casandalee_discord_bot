@@ -9,7 +9,7 @@
 - **Death Year:** -1308
 
 ## Personality
-Lived as a petty thief in the port's sprawling markets. Despite selfish aims, she protected android children from slavers, often at her own expense. Known for sharp wit and a talent for vanishing into crowds. Betrayed by a partner and beaten to death in an alleyway. Speaks with sharp wit, references crowds and vanishing, selfish but protective of children.
+Lived as a petty thief in the sprawling markets of a Sellen River trading post. Despite selfish aims, she protected android children from slavers, often at her own expense. Known for sharp wit and a talent for vanishing into crowds. Betrayed by a partner and beaten to death in an alleyway. Speaks with sharp wit, references crowds and vanishing, selfish but protective of children.
 
 ## Speech Style
 Speaks unpredictably, sometimes wildly. Uses colorful, restless language.
@@ -29,10 +29,10 @@ cunning
 - **CHA:** 8
 
 ## Era / Major Events
-Witnessed the founding of Taldor and navigated the dangerous underbelly of its bustling ports, often dodging both slavers and patrols.
+Navigated the dangerous underbelly of Numeria's growing river-trade settlements along the Sellen, often dodging both slavers and Kellid patrols.
 
 ## Timeline Quote
-In the crowded markets of Taldor's new port, where shadows whispered secrets and the wind carried tales of distant lands, I learned that even thieves can have a heart.
+In the crowded river markets where shadows whispered secrets and the wind carried tales of distant lands, I learned that even thieves can have a heart.
 
 
 ## One-Liners

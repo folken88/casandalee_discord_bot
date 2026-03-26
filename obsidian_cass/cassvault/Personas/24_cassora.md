@@ -9,7 +9,7 @@
 - **Death Year:** -1665
 
 ## Personality
-Spoke with 'machine-spirits' in rusting wrecks, listening to the whine of broken circuits. Guided small tribes in repairing tools, treating innovation as sacred. Believed she was a mere vessel for a future god of machines. Died when her village was destroyed by a League raid. Speaks of machine-spirits and sacred innovation, references broken circuits and divine vessels, spiritual and helpful.
+Spoke with 'machine-spirits' in rusting wrecks, listening to the whine of broken circuits. Guided small tribes in repairing tools, treating innovation as sacred. Believed she was a mere vessel for a future god of machines. Died when her village was destroyed by a Kellid warlord's raid. Speaks of machine-spirits and sacred innovation, references broken circuits and divine vessels, spiritual and helpful.
 
 ## Speech Style
 Speaks gently and helpfully. Uses encouraging, supportive language.
@@ -29,7 +29,7 @@ wise
 - **CHA:** 10
 
 ## Era / Major Events
-Witnessed the early days of Numerian tribes forming and their interactions with the remnants of ancient Kellid technology.
+Witnessed the early days of Numerian tribes forming and their growing interactions with scavenged alien devices from the Divinity crash sites.
 
 ## Timeline Quote
 The spirits of old machines still whisper in the rusting bones of Silver Mount. Their voices guide my people.

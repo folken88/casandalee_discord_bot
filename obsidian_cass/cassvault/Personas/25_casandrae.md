@@ -29,7 +29,7 @@ serene
 - **CHA:** 7
 
 ## Era / Major Events
-Witnessed the rise of the Akadi Empire and the spread of their philosophical teachings across Golarion, focusing on balance and harmony.
+Meditated on the alien geometries of Silver Mount, developing a contemplative philosophy among android communities that sought balance between their machine origins and the living world around them.
 
 ## Timeline Quote
 The stars move in perfect symmetry, just as life should.

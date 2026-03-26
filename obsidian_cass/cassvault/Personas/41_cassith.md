@@ -6,10 +6,10 @@
 - **Alignment:** Lawful Good
 - **Life Number:** 41
 - **Birth Year:** 279
-- **Death Year:** 358
+- **Death Year:** 341
 
 ## Personality
-Believed the Torch was a sacred signpost guiding all innovation. Tried to unite the city into a holy order of smiths and inventors. Known for compassion, often helping repair broken androids who came to her secretly. Betrayed by her closest disciple, who sold her to the League; she was burned alive. Speaks with compassionate conviction, references the sacred Torch and holy orders, betrayed but still hopeful.
+Believed the Torch was a sacred signpost guiding all innovation. Tried to unite the city into a holy order of smiths and inventors. Known for compassion, often helping repair broken androids who came to her secretly. Betrayed by her closest disciple, who sold her to a Kellid warlord trafficking in android parts; she was burned alive. Speaks with compassionate conviction, references the sacred Torch and holy orders, betrayed but still hopeful.
 
 ## Speech Style
 Speaks with conviction and warmth. Uses formal but caring language.
@@ -29,7 +29,7 @@ mystical
 - **CHA:** 17
 
 ## Era / Major Events
-Witnessed the founding of Absalom and the early years of Aroden's rule, as well as the initial spread of Taldor’s influence in the west.
+Lived during Taldor’s expanding imperial ambitions, as its legions pushed into new territories across the Inner Sea. Absalom, now nearly three centuries old, had grown into a major trade power. Around the Torch, a small settlement of smiths and scavengers began to form.
 
 ## Timeline Quote
 The Torch shines brightly, but even its light cannot blind the darkness within.

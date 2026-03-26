@@ -5,11 +5,11 @@
 - **Class:** Occultist
 - **Alignment:** True Neutral
 - **Life Number:** 59
-- **Birth Year:** 2421
-- **Death Year:** 2500
+- **Birth Year:** 2438
+- **Death Year:** 2555
 
 ## Personality
-Fascinated by relics of the Rain of Stars, gathered fragments of crashed ship hulls and skymetal scraps. Treated every shard as holy, attempting to commune with their 'spirits.' Respected by tribes as a half-mad prophetess of machines. Died in her sleep during a nanite storm, her relic collection scattered by the winds. Speaks of ancient spirits and machine souls, references relics and communion, mystical and reverent tone.
+Fascinated by relics of the Rain of Stars, gathered fragments of crashed ship hulls and skymetal scraps. Treated every shard as holy, attempting to commune with their 'spirits.' Respected by Kellid tribes as a half-mad prophetess of machines. Lived a long, reclusive life at the edge of the Felldales, hoarding her collection in a cave lined with glowing circuitry. Died in her sleep during a nanite storm, her relic collection scattered by the winds. Speaks of ancient spirits and machine souls, references relics and communion, mystical and reverent tone.
 
 ## Speech Style
 Speaks calmly and objectively. Uses balanced, philosophical language.
@@ -29,7 +29,7 @@ reverent
 - **CHA:** 11
 
 ## Era / Major Events
-Witnessed the rise of the Technic League and their aggressive expansion across the region. Survived a series of skirmishes with nomadic tribes, often using relics to negotiate peace.
+Lived during a period when rival scavenger bands fought over Silver Mount's outer chambers, and the Oath Wars were beginning to brew in distant Rahadoum. Survived skirmishes between nomadic tribes and scavengers by using her relic collection as bargaining chips, trading fragments of alien technology for safe passage and stories.
 
 ## Timeline Quote
 In the heart of the storm, I communed with the spirits of skymetal, hoping to guide my people through the chaos that surrounds us.

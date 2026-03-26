@@ -8,7 +8,7 @@ player: "Mandi"
 aliases: []
 tags: ["character", "pc"]
 created: ""
-updated: "2026-03-25T19:56:21.504Z"
+updated: "2026-03-26T04:22:25.920Z"
 ---
 
 # Kate Blackwood
@@ -31,6 +31,7 @@ HP 129/129 | Skinwalker Mindblade Kensai Magus | Level 11
 - Rolled initiative, had C invis up; Was recruited to CP-USS, and helped point out some metals that were missed. *(youtube-transcript, 3/25/2026)*
 - Caught a skeleton with her robot leg and delayed to another character; Will be going after the badman; Hit with acid bomb, took damage from multiple attacks; Mentioned as possibly being within range of the battle, but not directly involved; Participated in combat, used slashing force; Was not worried or scared during the battle.; has a plus two headband of vast intelligence, has Fox's cunning *(youtube-transcript, 3/25/2026)*
 - Caught a thrown chain with her sword and threw it away from her. *(youtube-transcript, 3/25/2026)*
+- Noted as being recruited to CP-USS; Used her ring to become invisible and triggered the Tyrant's Ring on Gaspar.; Recruited to CP-US.; Discussed crafting a radio bag and grenade launcher.; Recruited to CP-US and mentioned planning an encounter with a Hill giant zombie.; Discussed for acquiring a Scroll of Disguise self; She rolled initiative to disable the bomb in the skeleton's chest.; Player, involved in the battle; Picking an altitude of about 20 the building to the southeast of her.; Flying, perception check to spot enemies *(youtube-transcript, 3/26/2026)*
 
 ## Session Appearances
 

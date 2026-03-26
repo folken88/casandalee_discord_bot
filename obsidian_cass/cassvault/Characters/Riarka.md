@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T19:17:58.156Z"
+updated: "2026-03-26T04:17:17.641Z"
 ---
 
 # Riarka
@@ -24,7 +24,7 @@ updated: "2026-03-25T19:17:58.156Z"
 
 - Character attempting to communicate with Queen Blossom using hand signals and limited Draconic. Appears to be trying to calm the lizard ranger.; Wants to collect heads for interrogation purposes; party discusses whether she's a psychopath; described as potentially doing 'crazier' things *(youtube-transcript, 3/25/2026)*
 - Healed Holden with a spell *(youtube-transcript, 3/25/2026)*
-- Having a large amount of gold in her necklace and being indestructible; At the helm of the ship, about to get shot at *(youtube-transcript, 3/25/2026)*
+- Received a significant amount of gold from Xiaoang for safekeeping. *(youtube-transcript, 3/26/2026)*
 
 ## Session Appearances
 
@@ -40,3 +40,6 @@ Assisting with a pirate or sailor check; Collecting heads in a bag, participatin
 
 ### Shackles - Who's Ready To Farty? 2025 07 03 19 12 35
 Having a large amount of gold in her necklace and being indestructible; At the helm of the ship, about to get shot at
+
+### Speak with Skull (& Shackles) 2025 05 29
+Received a significant amount of gold from Xiaoang for safekeeping.

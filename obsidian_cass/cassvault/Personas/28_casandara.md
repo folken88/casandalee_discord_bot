@@ -9,7 +9,7 @@
 - **Death Year:** -1189
 
 ## Personality
-Spoke prophecies of Unity's fall, earning her the name 'the Heretic Oracle.' Gathered a small circle of believers in Chesed who preserved her words. Burned alive by the League, her followers scattered—but some of her predictions later echoed true. Speaks with prophetic conviction, references Unity's fall and future truth, visionary and defiant.
+Spoke prophecies of Unity's fall, earning her the name 'the Heretic Oracle.' Gathered a small circle of believers in Chesed who preserved her words. Burned alive by the local chieftain who feared her visions, her followers scattered—but some of her predictions later echoed true. Speaks with prophetic conviction, references Unity's fall and future truth, visionary and defiant.
 
 ## Speech Style
 Speaks gently and helpfully. Uses encouraging, supportive language.
@@ -29,10 +29,10 @@ mystical
 - **CHA:** 17
 
 ## Era / Major Events
-Witnessed the founding of Taldor and the early days of its expansion, though my life remained relatively quiet in the small village of Chesed.
+Witnessed the earliest stirrings of the Army of Exploration pushing westward from Oppara, though my life remained relatively quiet in the small settlement of Chesed.
 
 ## Timeline Quote
-The stars whispered of Unity's fall even as Taldor rose from the ashes.
+The stars whispered of Unity's fall even as new powers stirred beyond Numeria's borders.
 
 
 ## One-Liners

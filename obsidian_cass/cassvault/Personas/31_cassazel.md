@@ -9,7 +9,7 @@
 - **Death Year:** -850
 
 ## Personality
-A traveling poet who wove hidden schematics into her epic ballads. Her verses became a folk tradition along the Sellen River, passed off as 'nonsense rhymes.' Those who deciphered them found instructions to repair starship tech. Arrested and executed in Starfall, but her poems still circulate. Speaks in poetic verse, uses coded language in song, creative and rebellious.
+A traveling poet who wove hidden schematics into her epic ballads. Her verses became a folk tradition along the Sellen River, passed off as 'nonsense rhymes.' Those who deciphered them found instructions to repair starship tech. Arrested and executed by Starfall's ruling chieftain for spreading subversive knowledge, but her poems still circulate. Speaks in poetic verse, uses coded language in song, creative and rebellious.
 
 ## Speech Style
 Speaks passionately, sometimes rebelliously. Uses vivid, emotional language.
