@@ -1,0 +1,809 @@
+# Canonical Foundry Actor Names
+Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
+
+## Iron Gods (03irongodspub world)
+- Adamantine Golem|npc
+- Ascanor Lodge Shop|npc
+- Augustus Teabrow|character
+- Beshki|character
+- Binox Dot Com Shop|npc
+- Brogwort the Dim|npc
+- Bungus 2.0|npc
+- Bungus 4.5.12042|npc
+- Bungus 5.1b|npc
+- Buran|character
+- Cheatum & Steele|npc
+- Chef Gorgo Ransom|character
+- Comet Hammer|npc
+- Crux|character
+- Cuha|character
+- Cupboard|npc
+- Divinity Hazards|npc
+- Dolga's Foundry Shop|npc
+- Drone 2.0 Observer Robot|npc
+- Drone 2.5 Stinger|npc
+- Drone 8.0 Myrmidon Robot|npc
+- Eckart's Armory|npc
+- Faithforged Disciple|npc
+- Firebeard Metals|npc
+- Gearsman 2.0 Augmented|npc
+- Gearsman 3.0 Riot Suppressor|npc
+- Gearsman 3.2 Pugilist White Knight|npc
+- Gearsman 3.4 Pugilist Sky Metal|npc
+- Gearsman 6.0 Thought Harvester|npc
+- General Store|npc
+- Highland Scrapper|character
+- Khonnir Baine|character
+- Kul Inkit|character
+- Locked Chest|npc
+- Loot Bungus|npc
+- Lord Caliphvaso's Carriage|npc
+- Luna Kresnik|character
+- Mecha 3.2 Repeater Tank|npc
+- Mecha 3.4 Railgun Tank|npc
+- Mecha 4.6 Fission Repair|npc
+- Mecha 5.5 Warden|npc
+- Meyanda|character
+- Molten Bloodeye|character
+- Montaigne|npc
+- Numerian Axe Ancient|npc
+- Numerian Fury Ancient|npc
+- Numerian Hammer Ancient|npc
+- Numerian Ink|npc
+- Numerian Mauler Ancient|npc
+- Numerian Spear Ancient|npc
+- Olbryn|character
+- Penitent Pilgrim Patronage  Shop|npc
+- Repaired Rust Risen|npc
+- Scrapwall Soldier|npc
+- Scrapwitch|npc
+- Shroom Doom|npc
+- Silverhawk Shooter|npc
+- Silvermount|npc
+- Starfall Blades|npc
+- Starfall Undermarket General|npc
+- Stone Cabinet|npc
+- Taylor Blackwood|character
+- The Mockery|npc
+- Torch City Guard|npc
+- Turok|character
+- Val Baine|character
+- Valkyr|npc
+- Vlorrtesson|character
+- Warden Drone|npc
+- Warmageddon|npc
+- Weapon Rack|npc
+
+## Iron Gods (compendium module)
+- Adamantine Golem|npc
+- Akradenn|character
+- Allan Quartermain|character
+- Augustus Teabrow|character
+- Avernethy Mendaini (dead)|character
+- Beshki|character
+- Binox Dot Com Shop|npc
+- Black Seer|npc
+- Black Sovereign War Poetess|npc
+- Blackout|character
+- Bob Zombie|npc
+- Bookcase|npc
+- Brain of Therace Holiyard in a Jar|character
+- Brogwort the Dim|npc
+- Cheatum & Steele|npc
+- Chef Gorgo Ransom|character
+- Chugg the Beautiful|character
+- Comet Hammer|npc
+- Cousin Fasra|character
+- Cuha|character
+- Cupboard|npc
+- Dolga's Foundry Shop|npc
+- Drone 2.0 Observer Robot|npc
+- Drone 8.0 Myrmidon Robot|npc
+- Drund Bodyguard|npc
+- Earthen Skinwalker|npc
+- Fallen Son|npc
+- Fantu the Scrollmaster|npc
+- Firebeard Metals|npc
+- First Sovereign|npc
+- Flying V Solidbody|npc
+- Gearsman 2.0 Augmented|npc
+- Gearsman 3.0 Riot Suppressor|npc
+- Gearsman 3.2 Pugilist White Knight|npc
+- Gearsman 3.4 Pugilist Sky Metal|npc
+- Gearsman 6.0 Thought Harvester|npc
+- General Store|npc
+- Highland Scrapper|character
+- Hyrsek Ciao|character
+- Junk Tosser|npc
+- Junker Big Boi|npc
+- Khonnir Baine|character
+- Killin Tools (Copy)|npc
+- Kul Hound|npc
+- Kul Inkit|character
+- Locked Chest|npc
+- Loot Bungus|npc
+- Lord Caliphvaso's Carriage|npc
+- Luna Kresnik|character
+- Mecha 3.2 Repeater Tank|npc
+- Mecha 3.4 Railgun Tank|npc
+- Mecha 5.5 Warden|npc
+- Meyanda|character
+- Molten Bloodeye|character
+- Montaigne|npc
+- Numerian Axe Ancient|npc
+- Numerian Fury Ancient|npc
+- Numerian Hammer Ancient|npc
+- Numerian Ink|npc
+- Numerian Mauler Ancient|npc
+- Numerian Spear Ancient|npc
+- Olbryn|character
+- Penitent Pilgrim Patronage  Shop|npc
+- Repaired Rust Risen|npc
+- Risen Hellcaster|npc
+- Risen Scout|npc
+- Sarcophagus|npc
+- Scrapwall Soldier|npc
+- Scrapwitch|npc
+- Shroom Doom|npc
+- Silverhawk Shooter|npc
+- Silvermount|npc
+- Sloshed|npc
+- Small Chest|npc
+- Squibbins|npc
+- Starfall Baker|npc
+- Starfall Bartender|npc
+- Starfall Blacksmith|npc
+- Starfall Blades|npc
+- Starfall Butcher|npc
+- Starfall Civilian|npc
+- Starfall Florist|npc
+- Starfall Homeless|npc
+- Starfall Innkeeper|npc
+- Starfall Lawman Bobryn|npc
+- Starfall Lawman Captain|npc
+- Starfall Lawman|npc
+- Starfall Stablemaster|npc
+- Starfall Tailor|npc
+- Starfall Undermarket General|npc
+- Starfall Waitress|npc
+- Stone Cabinet|npc
+- TL Technomancer|npc
+- TL Watcher|npc
+- Taylor Blackwood|character
+- Tech Barb|npc
+- Tech Crate|npc
+- Tech Sniper|npc
+- Tech Trixter|npc
+- Tech Witch|npc
+- Templar Chaser|npc
+- Templar Giga-Chad|npc
+- Templar Marksman|npc
+- Temple of Brigh Shop|npc
+- Tempting Tonics Shop|npc
+- The Mockery|npc
+- Torch City Guard|npc
+- Turok|character
+- VR Hostess|npc
+- VR Techie|npc
+- Val Baine|character
+- Vlorrtesson|character
+- Warden Drone|npc
+- Warmageddon|npc
+- Weapon Rack|npc
+
+## Carrion Crown (world)
+- Adivion Adrissant|character
+- Arazni|character
+- Auren Vrood|character
+- Barkeep|npc
+- Barrel|npc
+- Beetle Brewmaster|npc
+- Bobbu|character
+- Bone Pile|npc
+- Bookshelf|npc
+- Caliphas Bar Fly Lady|npc
+- Caliphas Bar Fly Slebbegy Guy|npc
+- Caliphas Bar Fly Sus Lady|npc
+- Caliphas Bar Fly|npc
+- Carriers By Calvin|npc
+- Carrion Crow|npc
+- Cezan Orvask|npc
+- Chaos Beast|npc
+- Chaos Labyrinthian|npc
+- Chaos Spawn|npc
+- Chaos Wendigo|npc
+- Chastel Services|npc
+- Cheatum & Steele|npc
+- Clarissa Ellsa Caromarc|character
+- Clutter|npc
+- Coffin|npc
+- Curiosity|character
+- Dog Watch Tavern|npc
+- Drowning Dead|npc
+- Duristan Silvio Ariesir|character
+- Elfrip|character
+- Eliouren Shop|npc
+- Eliouren Speaker|npc
+- Eliouren Villager|npc
+- Eliouren Warden|npc
+- Elodie|character
+- Farrah Delilah Richton|character
+- Fera Burrows|character
+- Gaol Warden|npc
+- Gash|character
+- Ghastly Crusader|npc
+- Ghoul Knight|npc
+- Gildais|npc
+- Grumpymart|npc
+- Halfling Farmer|npc
+- Halfling Were-Ghoul|npc
+- Jafo|character
+- Jub Jub|character
+- Kai Gin|character
+- Kate Blackwood|character
+- Keeper Ariend Hyve|character
+- Keeper Rupman Myre|character
+- Keeper Waldur Crove|character
+- Lorzobun Forge|npc
+- Luvick Siervage|character
+- Magic Chest|npc
+- Meyanda|character
+- Mohrg|npc
+- Muffin Topslapper|npc
+- Muh Fuckin Dingay|npc
+- Numerian Ink|npc
+- Ol Joybridge|character
+- Papers|npc
+- Penitent Hearth|npc
+- Pudkens aka Lil-Dinger|character
+- Puff|character
+- Rack|npc
+- Red Runner Thug|npc
+- Rik|character
+- Rodney |character
+- Rook|npc
+- Saranrae|character
+- Savage Security War Chest|npc
+- Sirona, Deva of the First Circle|character
+- Soul Wraith|npc
+- Statue|npc
+- Stone Giant|npc
+- Stroke Pit|npc
+- Sump Rat Tavern|npc
+- Supply Pile|npc
+- Swamp Hydra Zombie|npc
+- Sylvia|character
+- Tar Baphon, The Whispering Tyrant|character
+- Taylor Blackwood|character
+- Thalia Moor|npc
+- The Fearsome Fancy|npc
+- The Harrow Hearse|npc
+- The Rock of Silence|npc
+- Tram Shop|npc
+- Valerie's Vagueries|npc
+- Velvet Morning|npc
+- Vex|character
+- WW Annihilator|npc
+- WW Blade|npc
+- WW Practitioner|npc
+- WW Shank|npc
+- Wardrobe|npc
+- Whispering Sentinal|npc
+- Xanna|character
+- fera Alchemist|character
+
+## Carrion Crown (compendium module)
+- Abrogail Thrune II|character
+- Accuser Devil (Zebub)|npc
+- Adimarus Ionacu|character
+- Admiral Arronax Endymion|character
+- Aegis Battlesworn|npc
+- Aegis Hexer|npc
+- Aegis Vanguard|npc
+- Aguclandos Lem|character
+- Aiden Stuffey|npc
+- Alexios Lascaris|character
+- Alistair Valenbrook|npc
+- Ambrose Kroop|npc
+- Antoinette Borden|character
+- Antonina|character
+- Apothecary|npc
+- Arazni|character
+- Arcanery|npc
+- Arnaud Blackwood|character
+- Ascanor Lodge Shop|npc
+- Asmodean Diabolist|npc
+- Asmodean Enchanter|npc
+- Assassin Vine|npc
+- Asteria Blackwood|character
+- Auren Vrood|character
+- Bahari-Kofi Fisher|npc
+- Bahari-Kofi Longspear|npc
+- Baker's Boy|npc
+- Baker|npc
+- Bank Worker|npc
+- Barkeep|npc
+- Barrel|npc
+- Barrister Gustav Kaple|npc
+- Bearded Devil|npc
+- Beetle Brewmaster|npc
+- Belligerent Spirit|character
+- Bent-Beak Charney|npc
+- Bevsa|npc
+- Bilge|character
+- Bill Cheatum|npc
+- Binch|character
+- Blacksmith|npc
+- Blackwood Clan|npc
+- Blackwood Sworn|npc
+- Blackwood Warden|npc
+- Bob Applewood|character
+- Bobbu|character
+- Bone Devil|npc
+- Bone Pile|npc
+- Bookshelf|npc
+- Brain Eye Sahuagin|npc
+- Bram Yurek|npc
+- Breakfast Tray|npc
+- Brogan Bane of Cowards|npc
+- Brogan's Axe|character
+- Broken Ones Clan|npc
+- Broken Scout|npc
+- Broken Shifter|npc
+- Bronwyn|npc
+- Bronze Fleet Able|npc
+- Bronze Fleet Captain|npc
+- Bronze Fleet Marine|npc
+- Bronze Fleet Officer|npc
+- Bronze Fleet Ordinary|npc
+- Bronze Fleet Slave|npc
+- Bruebeck|character
+- Bruhd Bam|character
+- Bryce|npc
+- Brynden |npc
+- Bujon, Storm of Cheliax|character
+- Butcher|npc
+- CAL-OPS Captain|npc
+- CAL-OPS Constable|npc
+- CAL-OPS Exorcist|npc
+- CAL-OPS InspePT|npc
+- CAL-OPS Lieutenant|npc
+- CAL-OPS Marksman|npc
+- CAL-OPS Nightguard|npc
+- CAL-OPS Sergeant|npc
+- Caliphas Bar Fly Lady|npc
+- Caliphas Bar Fly Slebbegy Guy|npc
+- Caliphas Bar Fly Sus Lady|npc
+- Caliphas Bar Fly|npc
+- Captain Avimar Sorrinash|character
+- Captain Cerise Bloodmourn|character
+- Captain Dad|character
+- Captain Delmona Burie|character
+- Captain Hardluck Massey|character
+- Captain Jolis Raffles|character
+- Captain Kerdak Bonefist|character
+- Captain Mase Darimar|character
+- Captain Maxevale Janis|character
+- Captain Plugg|npc
+- Captain Pogface McKellan|character
+- Captain Saber|character
+- Captain Tessa Fairwind|character
+- Captain Wide Olga|character
+- Carriers By Calvin|npc
+- Carrion Crow|npc
+- Cezan Orvask|npc
+- Chaos Beast|npc
+- Chaos Labyrinthian|npc
+- Chaos Spawn|npc
+- Chaos Wendigo|npc
+- Char Giant|npc
+- Chastel Guard|npc
+- Chastel Services|npc
+- Chastel Shops|npc
+- Cheatum & Steele|npc
+- Chef|npc
+- Chelish Captain|npc
+- Chelish E4 Ordinary Seaman|npc
+- Chelish Officer|npc
+- Chelish e5 Able Seaman|npc
+- Chief Justice Ambrose Khard|character
+- Chrisjen|character
+- Cilas Graydon|character
+- Civilian (Shackles female)|npc
+- Civilian (Shackles male)|npc
+- Clarise Starling|character
+- Clarissa Ellsa Caromarc|character
+- Clarity|character
+- Clickboom Hideout Storage|npc
+- Clutter (Kitchen)|npc
+- Clutter|npc
+- Coffin|npc
+- Conchobar Turlach Shortstone|character
+- Conchobar Turlach Shortstone|npc
+- Contract Devil (Phistophilus)|npc
+- Corpsehook|npc
+- Cortez Cousint Lever Action Figure|npc
+- Cortez Cousint Revolvernator|npc
+- Cortez Cousint Shotgat Fuckboi|npc
+- Corvin Tergsvor (possessed)|npc
+- Councilman Vashian Hearthmount|character
+- Countess Carmilla Caliphvaso|character
+- Courthouse Guard|npc
+- Crisp|character
+- Cuha|character
+- Curiosity|character
+- Cursed Sailor|npc
+- Cut-Throat Grok|npc
+- Cvotgar Haas|character
+- Cybrisa Dorzhanev|character
+- Damn-Jewel Able|npc
+- Damn-Jewel Ordinary|npc
+- Dancing Darla Madile|npc
+- Dark Loaf Bakery|npc
+- Deadshot|npc
+- Deathlady Cult Leader|npc
+- Deathlady Cultist|npc
+- Delgros Kroitzcer|character
+- Demon Blade|npc
+- Demon Wolves Clan|npc
+- Derris Jane|character
+- Devilfish|npc
+- Diauden|character
+- Dithers|npc
+- Dock Shop|npc
+- Dog Watch Tavern|npc
+- Dorian Steelcrest|npc
+- Dottari Patrollman|npc
+- Dr. Alaric Voss|character
+- Dr. Tamsin Virelle|character
+- Dr.Montagnie Crowl|npc
+- Draghul the First|npc
+- Dravod Knock Mud Bandit|npc
+- Dravod Rogue|npc
+- Dravod Witch|npc
+- Drowning Dead|npc
+- Duristan Silvio Ariesir|character
+- Duristans|npc
+- Edwin Callas CPA|character
+- El Guapo|character
+- Elf Lord|npc
+- Elfrip|character
+- Eliouren Speaker|npc
+- Eliouren Villager|npc
+- Eliouren Warden|npc
+- Elodie|character
+- Estovion Lozarov|character
+- Fallen Ember|npc
+- Fallen Lorzobun Soldier|npc
+- Fallen Soldier|npc
+- Farrah Delilah Richton|character
+- Fatboi Zombie|npc
+- Feldgrau Animate|npc
+- Feldgrau Blademaster|npc
+- Felix the Just|npc
+- Fera Burrows|character
+- Fever Sea Buccaneer|npc
+- Forever War Soldier|npc
+- Four-armed Sahuagin|npc
+- Gabriel Borden|character
+- Gabriel|character
+- Gambling Devil (Magadaz)|npc
+- Gaol Warden|npc
+- Gash|character
+- Gavin Hartveil of Crestholm|npc
+- General Drannon Ulvodos|character
+- General Store|npc
+- Ghastly Crusader|npc
+- Ghastly Paragon|npc
+- Ghast|npc
+- Ghost Mother|npc
+- Ghostly Refugee|npc
+- Ghoul Knight|npc
+- Ghoul|npc
+- Giant Crab Spiders|npc
+- Giant Leech|npc
+- Goatshead Militia|npc
+- Goatshead Shops|npc
+- Gravemaul|npc
+- Greshi|npc
+- Grindylow Hunter|npc
+- Grindylow Shaman|npc
+- Grine|character
+- Grodair|npc
+- Gwyneth |npc
+- Half Foods|npc
+- Halfling Farmer|npc
+- Halfling Were-Ghoul|npc
+- Harmony|character
+- Hecore|npc
+- Hellbound Alpha|npc
+- Hellfang|npc
+- Herecite of Asmodeus|npc
+- Hound's Tooth Tavern|npc
+- House Guard|npc
+- Howling Raver|npc
+- Human Farmer|npc
+- Human Zombie Alchemist|npc
+- Human Zombie House Servant|npc
+- Human Zombie Noble|npc
+- Human Zombie Rogue|npc
+- Ikualo'a|npc
+- Imani|character
+- Imp|npc
+- Indas Menador|character
+- Indentured Eternal|npc
+- Insight|character
+- Integrity|character
+- Ishai bar Arad|character
+- Isolde Valiantheart|npc
+- Jabari|character
+- Jafo|character
+- Jank Marsden|npc
+- Jominda Fallenbridge|character
+- Jub Jub|character
+- Judge Baltus Muricar|character
+- Judge Kasp Aldaar (dead)|character
+- Junk Tosser|npc
+- Kael Broadwake|character
+- Kaelvorr Time's Father|npc
+- Kai Gin|character
+- Kate Blackwood|character
+- Keeper Ariend Hyve|character
+- Keeper Rupman Myre|character
+- Keeper Waldur Crove|character
+- Kelda Ironglim|character
+- Khonnir Baine|character
+- Killin Tools (Copy)|npc
+- Korva Fushi|character
+- Krin Vir|character
+- Kristen Kish|character
+- Kristine Blackwood|character
+- Krunt Baldursgate The Third|npc
+- Kuratown Warrior|npc
+- Kwami|character
+- L'Revenant|character
+- Lacedon|npc
+- Lady Agasta Smythee|npc
+- Le Jean Bec|npc
+- Lil Vaughan|character
+- Lirienne Voss|character
+- Lodge Becky|npc
+- Lodge Brian|npc
+- Lodge Hound|npc
+- Lodge Jamie|npc
+- Log Boy|npc
+- Lord of Gol-Khazak|npc
+- Lorzobun Forge|npc
+- Lorzobun Guard|npc
+- Lou Candlebean|character
+- Lubber|npc
+- Madame Ivanja|character
+- Magic Chest|npc
+- Maginnis|character
+- Malenti Sahuagin|npc
+- Marl Quickwater (Copy) (Copy)�|character
+- Marl Quickwater|character
+- Master Chief|character
+- Master of the Gales|character
+- Mathus Mordrinacht|character
+- Matty|character
+- Medusa-Kin Archer|npc
+- Medusa-Kin Blade|npc
+- Medusa-Kin Sorcerer|npc
+- Menadoran Festrog|npc
+- Meyanda|character
+- Mindfang Weaver|npc
+- Minny |character
+- Mockery of Death|npc
+- Mohrg|npc
+- Muffin Topslapper|npc
+- Mug|npc
+- Muh Fuckin Dingay|npc
+- Musket Maiden|npc
+- Nidalese Able Ghast|npc
+- Nidalese Navy Captain|npc
+- Nidalese Officer|npc
+- Nidalese Ordinary Ghoul|npc
+- Nidalese Thrall|npc
+- Nobleperson|npc
+- Nomad ND1 Rover|npc
+- Northgarde Citizen|npc
+- Northgarde Mage|npc
+- Northgarde Priest Thaedren Vorloch|npc
+- Northgarde Scout|npc
+- Northgarde Sentinal|npc
+- Northgarde Witcher|npc
+- Noxora|character
+- Numerian Ink|npc
+- Ol Joybridge|character
+- Olbryn|character
+- Old Man Sahaugin Slave|npc
+- Operation Skelly-Bomb|npc
+- Orlen D'Marque|character
+- Owlbear|npc
+- P13 Storage Chest|npc
+- Pallavi|character
+- Pallbearer|npc
+- Papers|npc
+- Patch Dangerson|npc
+- Penitent Hearth|npc
+- Percival Dawnmarch|npc
+- Pillager Dinghy|npc
+- Planesward|npc
+- Poore Soldier|npc
+- Pride's Ending|npc
+- Prime|character
+- Prince's Hand|npc
+- Prince's Sight|npc
+- Prince's Wolves Clan|npc
+- Pudkens aka Lil-Dinger|character
+- Puff|character
+- Qadiran Bodyguard|npc
+- Quartermaster's Store|npc
+- Rack|npc
+- Radiance|character
+- Rahadoumi Sailor|npc
+- Red Runner Thug|npc
+- Reefclaw|npc
+- Reese|character
+- Rhakis Szadro|character
+- Rhyarca Jillyr|character
+- Rik|character
+- Risen Hellcaster|npc
+- Riviera Silvear|character
+- Road King|npc
+- Roderick Blackwood|character
+- Rodney |character
+- Roland |character
+- Rook|npc
+- Rowena Goldhaven|npc
+- Royal Marine Sergeant|npc
+- Rusted Drake Inn|npc
+- Sadie Corey-Jolene Munroe|npc
+- Sahuagin Druid of the Deeps|npc
+- Sahuagin Rager|npc
+- Sahuagin Shaman|npc
+- Sailor 3|npc
+- Salt Guardian|npc
+- Salt Revenant|npc
+- Samuel Blackwood|character
+- Sanaa|character
+- Sandara Quinn|character
+- Saranrae|character
+- Sarge|npc
+- Savage Security War Chest|npc
+- Scarabine Tatts|npc
+- Ser Thorne|npc
+- Ser Toche|character
+- Seraphina Lightspire the One-Armed but Three-Eyed|npc
+- Serenity|character
+- Sergeant Andy|npc
+- Servant of the Inheritor|npc
+- Serving Wench|npc
+- Sheriff Benjan Caeller|npc
+- Ship's Cook|npc
+- Shudderwood Haunt|npc
+- Silverbane Metalworks|npc
+- Silverhide Soldier|npc
+- Silverhides Clan|npc
+- Sirona, Deva of the First Circle|character
+- Skeletal Dwarf Warlord|npc
+- Skeletal Guard Captain|npc
+- Skeletal Warlord|npc
+- Slorr|character
+- Sloshed|npc
+- Soul Wraith|npc
+- Spice Rack (ShaFeng)|character
+- Squables|npc
+- Squib Jim|npc
+- Squibbins|npc
+- Statue|npc
+- Stone Giant|npc
+- Storgrim Thunderbeard|character
+- Streetmancer|npc
+- Stroke Pit|npc
+- Sun Caiman|npc
+- Sunflower Sailor|npc
+- Supply Pile|npc
+- Sweet Wilihem Poore|npc
+- Switch|character
+- Taelys of Starfall|character
+- Taldor Captain|npc
+- Taldor E4 Ordinary Seaman|npc
+- Taldor Officer|npc
+- Taldor e1 Recruit|npc
+- Taldor e5 Able Seaman|npc
+- Tar Baphon, The Whispering Tyrant|character
+- Taylor Blackwood|character
+- Tech Barb|npc
+- Tech Sniper|npc
+- Tech Trixter|npc
+- Tech Witch|npc
+- Temperance|character
+- Tempest Revenant|npc
+- Tent|npc
+- Tepen the Quiet|character
+- Thaddeus Brighthelm of Whitestone|npc
+- Thalia Moor|npc
+- The Broker|npc
+- The Burned|npc
+- The Fearsome Fancy|npc
+- The Harrow Hearse|npc
+- The Man's Promise (Copy)|npc
+- The Rahadoumi|npc
+- The Rock of Silence|npc
+- The Whale|npc
+- The Wormwood|npc
+- Thecla Dumeili|npc
+- Thragorn's Shop|npc
+- Thragorn|character
+- Thrall|npc
+- Thundering Tyrant|npc
+- Tibor Varga (dead)|npc
+- Tidewater Feast|npc
+- Tidewater Marksman|npc
+- Tidewater Regular|npc
+- Tidewater Sea Shop|npc
+- Titan Boar|npc
+- Titus Vel|character
+- Tong Slammer Smithy|npc
+- Torch City Guard|npc
+- Torrumak Guardian|npc
+- Torrumak Warden|npc
+- Tortugán|npc
+- Tram Shop|npc
+- Tram|character
+- Treasure Chest|npc
+- Troshall|npc
+- Tukkar|npc
+- Tzorak Kel'Marr|npc
+- UEF Captain|npc
+- Undead Werewolf|npc
+- Ustalav Noble Dancer 01|npc
+- Ustalav Noble Dancer 02|npc
+- Ustalav Noble Dancer 03|npc
+- Ustalav Noble Dancer 04|npc
+- Ustalav Noble Dancer 05|npc
+- Ustalav Noble Dancer 06 F|npc
+- Ustalav Noble Dancer 06 M|npc
+- Ustalav Noble Dancer 07|npc
+- Ustalav Noble Dancer 08|npc
+- Ustalav Noble|npc
+- Vaelor Straye|character
+- Vakra Ghikaat|character
+- Val Baine|character
+- Valerie's Vagueries|npc
+- Vampire Trixter|npc
+- Vampiric Mist|npc
+- Vaughan|character
+- Velvet Morning|npc
+- Veracity|character
+- Vex|character
+- Veylin |character
+- Vilkacis|npc
+- Vision|character
+- Vollensag Clan|npc
+- Vollensag Dire Werewolf|npc
+- Vorathun Woke Early|npc
+- Vraska the Medusa Queen?|character
+- WW Annihilator|npc
+- WW Blade|npc
+- WW Practitioner|npc
+- WW Shank|npc
+- Walleye's Rum Room|npc
+- Wardrobe|npc
+- Warrior Sahaugin Slave|npc
+- Werner Herzog|character
+- Whispering Sentinal|npc
+- Xanna|character
+- Young Giant Moray Eel|npc
+- Young Sahuagin Slave|npc
+- Zombie Grud|npc
+- Zombie Priest|npc
+- Zuberi|character
+- |npc
+- bard-template|npc
+- dragon disciple dex|character
+- dragon disciple str|character
+- fera Alchemist|character
+- nofancyshit tiktokchef|character
