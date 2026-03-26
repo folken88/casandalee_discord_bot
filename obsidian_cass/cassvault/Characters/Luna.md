@@ -8,7 +8,7 @@ player: "Rye"
 aliases: []
 tags: ["character", "pc"]
 created: ""
-updated: "2026-03-25T19:46:53.504Z"
+updated: "2026-03-26T17:39:39.849Z"
 ---
 
 # Luna
@@ -27,6 +27,7 @@ HP 345/345. Phoenix bloodline; Celestial Totem. Melee + bloodrager spells. Weapo
 - had her memories used to project a holographic version of the palace, was asked by Cassand Le to look through her memories; Having strength, charisma, and con tattoos on her body; Used Disguise self and was mentioned as having the ability to do non-detection; Discussed acquiring a sword and participating in the campaign's economy; Disguised as different Barbarians; Received disguise from Toby; Believes a door opens onto stairs, thinks another room leads to the main halls; Rolled a knowledge local check and discussed the challenge issued to the Black Sovereign; Discussed falling out of a window without dying due to high level character abilities; Previous experience with duels and Entourage vs Entourage style battles; Witnessed the Black Sovereign's brutal treatment of challengers; Knowledge local check to understand the layout of the hall; Has knowledge of the building from 10 years ago *(youtube-transcript, 3/25/2026)*
 - Character controlled by a player; Famous and respected by Barbarians, large person with huge biceps; Has high HP and armor class *(youtube-transcript, 3/25/2026)*
 - Was thrown by player at enemy, landed next to him and hit with vital strike; Fighting with high AC, using Power Attack and Swing; Has 300 HP, attacked by Revenge; Player-controlled character, high significance; Participated in combat, used spells and abilities; Character was a giant sponge, took hundreds of damage without being hit; Found caches of weapons and ammo in the technically compound, unlocked vaults, took various items including silx, Arc pistols, and potions.; Possessed by an entity, nearly Mind-controlled the party *(youtube-transcript, 3/25/2026)*
+- Participated in a battle, flew up onto the wall and charged an enemy with telekinetic force.; Flies up onto the wall and expresses surprise at empty slave pits.; Unlocked the door and smashed controls; Character controlled by Josh, has super bless and protection fire buffs; Backed away from the sniper and was given a piece of his mind; Moving towards the east to avoid enemies.; Attacked and missed targets, received damage from a Borg trooper.; Attacked and damaged by the Borgs *(youtube-transcript, 3/26/2026)*
 
 ## Session Appearances
 

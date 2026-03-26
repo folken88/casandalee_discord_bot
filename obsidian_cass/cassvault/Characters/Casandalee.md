@@ -8,7 +8,7 @@ level: 15
 aliases: []
 tags: ["character"]
 created: "2026-02-14T00:00:00.000Z"
-updated: "2026-03-25T19:46:53.607Z"
+updated: "2026-03-26T17:39:39.826Z"
 ---
 
 # Casandalee
@@ -31,6 +31,7 @@ HP 135/135. Oracle (Shattered Psyche). Spells: Truespeak, Find the Path, Ancestr
 - Believes the mysterious individual is honest about his intentions, but difficult to read; Hosting a Zoom-like meeting for the group to communicate without sensing each other's thoughts; Having a conversation with Mr. Brow, possibly related to her past or family *(youtube-transcript, 3/25/2026)*
 - Connected to castet, controlling minds of others *(youtube-transcript, 3/25/2026)*
 - Has the ability to suppress Osman's cybernetic signals and is considering ways to repurpose the technology.; Concerned about Unity's potential reaction to removing technology from a body; Leaving the party before going underground *(youtube-transcript, 3/25/2026)*
+- Character providing information about the communication network used by the group.; Provides information about inactive Borgs.; Provided backseat driving; Asked about remote telepresence control of the security system.; Informed about their proximity to the command center.; Providing information about the battle and the Watchers.; Discussing the underground farm or fungus area with Toby. *(youtube-transcript, 3/26/2026)*
 
 ## Session Appearances
 

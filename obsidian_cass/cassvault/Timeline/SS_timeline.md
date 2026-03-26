@@ -4,7 +4,7 @@ type: timeline
 campaign: "SS"
 campaignName: "Skull & Shackles"
 eventCount: 35
-lastSync: "2026-03-26T16:59:20.388Z"
+lastSync: "2026-03-26T17:36:09.082Z"
 tags: ["timeline", "ss"]
 ---
 
@@ -50,69 +50,55 @@ tags: ["timeline", "ss"]
 | 4717.04.24 | Windward Isle | The TPK is badly damaged in a storm while navigating the rocky Eastern coast of Windward Isle. |
 | 4717.04.26 | Tidewater Rock | Battle of Tidewater Blockade. 2 Bronze Fleet & 1 Chelish Frigate are taken by the Goatshead fleet with TPK Crew as their boarding party. |
 
-### From: Shackles - Gill Issue 2025 05 01
+### From: Shackles - No Concept of Personal Space 2025 04 24
 
-- **Party seeks rest and healing**
-  - Characters: [[Uno]], [[Zorak]], [[Sorak]], [[Holden]]
-- **Sorax and Storim negotiated Buhan's reincarnation for at least 2500 gold.**
-  - Characters: [[Sorax]], [[Storim]]
-- **Buhan's reincarnation as an Iku-Turso (Eel man).**
+- **Buhan is dead.**
   - Characters: [[Buhan]]
-- **Shaun is reincarnated as an eel-man (Iku-Turso) in a chamber filled with Sagen warriors, non-warriors, and surface slaves.** *(A glorious hall within the Sagen realm)*
-  - Characters: [[Shaun]], [[Sorak Kelmar]], [[Sagen]], [[surface slaves]]
-- **The crew discusses the abilities and implications of Bujon's new form as an Iku-Turso.**
-  - Characters: [[Bujon]], [[Toby]]
-- **Character creation discussion with potential for future resurrection of Buhan.**
-  - Characters: [[Graham]], [[Ed]]
-- **The character transforms into an eel-like creature.**
-  - Characters: [[CharacterName]]
-- **Sorak and others discuss trading magic items with the Sagen.**
-  - Characters: [[Shaong]], [[Sorak]]
-- **Sorax restored Shaun's negative level using a potion and underwater rescue.**
-  - Characters: [[Shaun]], [[Sorax]]
-- **Sorax interacted with Stogram about releasing a man under certain conditions.**
-  - Characters: [[Sorax]], [[Stogram]]
-- **Bujon was slain in combat with undead dwarves of Gol Khazak and reincarnated as an Iku-Turso.** *(Gol Khazak)* — Correlates to: 4717.04.12
-  - Characters: [[Bujon]]
-- **Sha Feng was freed from Gol Khazak but later killed and reincarnated as a Hobgoblin.** *(Gol Khazak)* — Correlates to: 4717.04.14
-  - Characters: [[Sha Feng]]
-- **Combat with undead creatures resulted in their deaths and the group's survival.** *(Underwater cave of Gol Khazak)* — Correlates to: 4717.04.12
-  - Characters: [[Sorax]], [[Holden]], [[Vaughn]]
-- **Characters found weapons and a strange object in a room.** *(Unknown location on the ship)*
-  - Characters: [[Rex Storim, Storm]]
-- **Characters discovered a hidden compartment in the prosthetic leg.** *(Prosthetic leg)*
-  - Characters: [[Rex Storim, Van]]
-- **Holden attacked undead dwarves and saved the day by killing them all.** *(Dwarven mines)*
+- **Shaf was captured by the enemy.**
+  - Characters: [[Shaf]]
+- **Exploration of a collapsed tunnel system.** *(Underground cave in Gol Khazak)*
+  - Characters: [[Bujon, Sorak]]
+- **Combat with a wraith starts.**
+  - Characters: [[Swagen]], [[Wraith]]
+- **Holden flanked an opponent and helped in combat.**
   - Characters: [[Holden]]
-- **Buhun was killed by an eel creature.** *(Dwarven mines)*
-  - Characters: [[Buhun]]
-- **Buhun was killed by a player character using a hammer.**
-  - Characters: [[Buhun]]
-- **Holden was murdered by a huge crit.**
-  - Characters: [[Holden]]
-- **A soldier charged and power attacked Storrim but missed hitting the player character.**
+- **Riarch put Vaughn as a hero and knocked him down, causing his bones to crumble into little bits.**
+  - Characters: [[Riarch]], [[Vaughn]]
+- **Storrim had a discovery torch and was running into a crowd of zombies.** *(south of Storrim)*
   - Characters: [[Storrim]]
-- **Sorak challenged a dwarf soldier and hit for 38 damage.**
-  - Characters: [[Sorak]], [[dwarf soldier]]
-- **Webbing workmen and removing them from combat.**
-  - Characters: [[Riviera]], [[Bro]]
-- **Tim moves around the South Hall and prepares to fight undead dwarves.** *(South Hall)*
-  - Characters: [[Tim]]
-- **Holden, Vaughn, and Buhan are fighting undead dwarves in the South Hall.** *(South Hall)*
-  - Characters: [[Holden]], [[Vaughn]], [[Buhan]]
-- **Chad provoked an attack from a large enemy by moving past him.**
-  - Characters: [[Chad]]
-- **Storim AOE'd by Radiance before.**
-  - Characters: [[Storim]], [[Radiance]]
-- **Stogram attempted to cast a spell that failed and was blocked by armor class.**
-  - Characters: [[Stogram]]
-- **Discussion about bioluminescent fungus and its implications.** *(Underground farm area)*
-  - Characters: [[Riviera]], [[Vaughn]]
-- **Exploring an armory that was deliberately collapsed by dwarves more than 15 years ago.** *(Unknown location in the Shackles)*
-  - Characters: [[Storgrim and crew]]
-- **A man dies with a dagger in his throat.** *(Green room)*
-  - Characters: [[Unknown character]]
-- **Characters identify and discuss the book of the hammer's call.** *(Green room)*
-  - Characters: [[Sorax]], [[Riarch]], [[Radiance]]
-- **Storgrim was made captain of the Man's Promise after Captain Plugg's death.** — Correlates to: [4717.03.05]
-  - Characters: [[Storgrim]], [[Holden (1st mate)]], [[Riviera (navigator)]]
+- **Dwarven undead emerge from a door after being attacked by the group.**
+  - Characters: [[Group of players]], [[Dwarven undead]]
+- **The speaker attacks Fish with a hammer, causing multiple hits and eventually killing him.**
+  - Characters: [[speaker]], [[Fish]]
+- **Characters engage in combat and discover a dwarf corpse with items.** *(Underwater cave or nearby area)*
+  - Characters: [[Sorak]], [[Holden]], [[Van]]
+- **Reincarnation of Bujon as an Iku-Turso** — Correlates to: 4717.04.12
+  - Characters: [[Bujon]]
+- **Identifying and discussing Kez Kestrel's shield and armor.**
+  - Characters: [[speaker]], [[Riarcha]], [[wami]]
+- **Buhan was slain by a character** *(On land)*
+  - Characters: [[character who killed Buhan]]
+- **Riviera is late and spits at her** *(On land)*
+  - Characters: [[character who noticed Riviera's lateness and spitting]]
+- **Holden attacks the door loudly and destructively.**
+  - Characters: [[Holden]]
+- **The group encounters a large room with an old dead war machine and a strange furnace.** *(A huge room with a giant Strange looking machine)*
+  - Characters: [[Holden]], [[Ryan]]
+- **Characters prepare to fight potential undead creatures in a room.**
+  - Characters: [[Storrim]], [[Vaughn]]
+- **Combat against a ring zombie and other zombies in a hallway.** *(Unknown location within a building or dungeon.)*
+  - Characters: [[Sorak]], [[Riviera]]
+- **Characters engaged in combat against zombie-like enemies.**
+  - Characters: [[Sha Feng]], [[Storm Grim]], [[Fish]]
+- **A spell was cast using the scroll, removing blindness/deafness.**
+  - Characters: [[Holden]], [[players]]
+- **An axe with a challenge was activated and used in combat.**
+  - Characters: [[Holden]], [[soldiers]]
+- **A character named Shaong was nearly killed by Holden's character but survived.**
+  - Characters: [[Holden]], [[Shaong]]
+- **Fish boy is directed and attacked by a soldier.**
+  - Characters: [[Fish boy]], [[Soldier]]
+- **Combat against enemies, including a soldier and a cleric.**
+  - Characters: [[I]], [[Storm]], [[Wami]]
+- **Combat session with characters fighting soldiers, an undead, and dealing with webbed enemies**
+  - Characters: [[Wami]], [[Storm]], [[Lieutenant Dan]]

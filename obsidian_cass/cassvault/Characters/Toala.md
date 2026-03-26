@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T19:46:53.514Z"
+updated: "2026-03-26T17:39:39.768Z"
 ---
 
 # Toala
@@ -24,7 +24,7 @@ updated: "2026-03-25T19:46:53.514Z"
 
 - High ranking priest of Gorum, possibly the highest ranking in the country; Previously upgraded by Boox with enhancements that could be used in the future; Referenced as having one of the greatest Fort saves and most physical constitution. Passed out for a day after taking a sip of the drug Kevoth-Kul is addicted to. *(youtube-transcript, 3/25/2026)*
 - Preferred method of defeating Mr. Bro, dueling; Would have taken a measured and thoughtful approach to the situation *(youtube-transcript, 3/25/2026)*
-- 10 ft north of player, occasionally gives side eye to Nam Cath; Used Furious Focus and Bane on a 40 Armor class enemy; Told to get all of them underground, forcibly pulled into castet; Said Wizards got what they deserved, made a comment about the Black Sovereign; Tries to destabilize the entire country *(youtube-transcript, 3/25/2026)*
+- Mentioned as having an upgrade and being underground.; Player rolling for initiative with a high roll of 10.; Discussed clearing the courtyard and managing resources.; Incapacitated by the player's character.; Tried to tumble past an enemy and stab him in the back of the neck; Focused on murdering the Roomba behind the cyborgs and Wizards; Engaged in combat with the party; Missed a check, but had good deflection bonuses.; Druid who was targeted by attacks *(youtube-transcript, 3/26/2026)*
 
 ## Session Appearances
 
@@ -43,3 +43,6 @@ Entertaining himself with a story, possibly true or an act; Potential leader, no
 
 ### Iron Gods - A Bug's Life 2024 02 29
 10 ft north of player, occasionally gives side eye to Nam Cath; Used Furious Focus and Bane on a 40 Armor class enemy; Told to get all of them underground, forcibly pulled into castet; Said Wizards got what they deserved, made a comment about the Black Sovereign; Tries to destabilize the entire country
+
+### Iron Gods - Tactical Remembrance 2024 01 11
+Mentioned as having an upgrade and being underground.; Player rolling for initiative with a high roll of 10.; Discussed clearing the courtyard and managing resources.; Incapacitated by the player's character.; Tried to tumble past an enemy and stab him in the back of the neck; Focused on murdering the Roomba behind the cyborgs and Wizards; Engaged in combat with the party; Missed a check, but had good deflection bonuses.; Druid who was targeted by attacks

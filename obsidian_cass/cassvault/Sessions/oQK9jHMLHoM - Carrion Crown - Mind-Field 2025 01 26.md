@@ -4,7 +4,7 @@ type: raw-transcript
 videoId: "oQK9jHMLHoM"
 campaign: "CC"
 publishedAt: ""
-capturedAt: "2026-03-26T17:02:47.955Z"
+capturedAt: "2026-03-26T17:43:09.488Z"
 tags: [session, transcript, cc]
 ---
 

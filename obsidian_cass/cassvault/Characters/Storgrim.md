@@ -1,19 +1,22 @@
 ---
-name: "Storgrim"
+name: "Storgrim Thunderbeard"
 type: character
-race: "Unknown"
-class: "Unknown"
-level: ?
-
-aliases: []
-tags: ["character"]
-created: ""
+race: "Dwarf"
+class: "Fighter"
+level: 7
+player: "Daemon"
+campaign: ["SS"]
+aliases: ["Stogram", "Storim", "Storrim"]
+tags: ["character", "pc"]
+created: "2026-02-23T00:00:00.000Z"
 updated: "2026-03-26T17:02:44.533Z"
 ---
 
-# Storgrim
+# Storgrim Thunderbeard
 
-**Race:** Unknown | **Class:** Unknown
+**Race:** Dwarf | **Class:** Fighter | **Level:** 7 | **Player:** Daemon
+
+HP 105/105 | Dwarf Fighter | Level 7
 
 ## Notes & Updates
 
@@ -30,6 +33,29 @@ updated: "2026-03-26T17:02:44.533Z"
 - Has been in emergency surgery for the last couple hours and has emerged alive; A pet (likely a dog) that had emergency surgery and survived *(youtube-transcript, 3/25/2026)*
 - Reincarnated as an Iku-Turso (Eel man) after being slain. *(youtube-transcript, 3/26/2026)*
 
+## Roll History
+
+- **Reincarnation (Standard)**: 39 → Tengu (/reincarnate) *3/19/2026*
+
 ## Session Appearances
 
-*Session activity from YouTube transcripts will appear here.*
+### Shackles - Death & Bungi 2025 10 16
+A dwarf character, salt beard from a cityish area; Thunderbeards are known for gunnery, cannons, and rifles; has clan relations with the Hammer family
+
+### Shackles - In The Rear With The Beer 2025 08 28
+Leading the group through the jungle; Attacked by a centipede and then an arrow; Made a natural 20 roll in combat, killing Holden; Attacked by Sahuagin, killed Buhan, and had a conversation about whiskey; Was slapped in the face by Tig's tail and was trying to kill a bug as he left; Deflected a stab attack with his shield; Leading the combat and making decisions
+
+### Shackles - So anyways, I started decapitating.. 2025 08 21
+Laid a trail of black powder, was led back to the TPK by Riviera, lit the fuse, and watched as the ship exploded
+
+### Shackles - Who's Ready To Farty? 2025 07 03 19 12 35
+Involved in combat, received a natural 20 attack
+
+### Shackles - His Head, His Choice 2025 06 05 19 26 15
+In charge of money and management on the ship
+
+### Speak with Skull (& Shackles) 2025 05 29
+Blocked attacks and considered attacking the heavily armored undead.; Participated in combat and was hit by a crit.; Participated in a combat against headless soldiers.; Evaluating a water-damaged folder.; Pieced together the submersible design from the schematic.; Considering setting up a silver mine in the area.; Attempted to save Shauna, part of a chain of events leading to Buhan's death.; Was hit by Holden's flurry of attacks and attempts to trip him failed.; Engaged in combat with other characters.; A dwarf with a glowing blue glass axe and lit-up boots.; Engaged in combat with an undead dwarf and used a spiritual weapon.
+
+### Shackles - Gill Issue 2025 05 01
+Discussed releasing a man from bonds and his condition.; Blocked an attack and attempted to cast a spell that failed.; Refused to accept less than 2500 gold for Buhan's reincarnation, showing a stony face when discussing it.; AOE'd by Radiance before.; Slammed his axe into the ceiling, missed hitting the player character.; Failed to hit with an attack.; Passed through a room and found weapons.

@@ -23,3 +23,6 @@ Believes the mysterious individual is honest about his intentions, but difficult
 
 ### Iron Gods - A Bug's Life 2024 02 29
 Has the ability to suppress Osman's cybernetic signals and is considering ways to repurpose the technology.; Concerned about Unity's potential reaction to removing technology from a body; Leaving the party before going underground
+
+### Iron Gods - Tactical Remembrance 2024 01 11
+Character providing information about the communication network used by the group.; Provides information about inactive Borgs.; Provided backseat driving; Asked about remote telepresence control of the security system.; Informed about their proximity to the command center.; Providing information about the battle and the Watchers.; Discussing the underground farm or fungus area with Toby.

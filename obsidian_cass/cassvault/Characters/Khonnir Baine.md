@@ -26,3 +26,6 @@ Robs the skulks and enters the habitat, returns with a dormant repair drone; Rob
 
 ### Iron Gods - A Bug's Life 2024 02 29
 Rescued by the IG Party in Black Hill Caves; Rescued by the IG Party in the Black Hill Caves
+
+### Iron Gods - Tactical Remembrance 2024 01 11
+Part of the expedition to the Black Hill Caves and rescued by the IG Party.; Participated in multiple expeditions to the Black Hill Caves and rescued by the IG Party.

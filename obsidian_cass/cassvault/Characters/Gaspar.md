@@ -1,19 +1,22 @@
 ---
-name: "Gaspar"
+name: "William Gaspar"
 type: character
-race: "Unknown"
-class: "Unknown"
-level: ?
-
-aliases: []
-tags: ["character"]
-created: ""
+race: "Human"
+class: "Inquisitor"
+level: 11
+player: "Tim"
+campaign: ["CC"]
+aliases: ["William", "Gaspar", "Will"]
+tags: ["character", "pc"]
+created: "2026-02-25T00:00:00.000Z"
 updated: "2026-03-26T04:22:26.016Z"
 ---
 
-# Gaspar
+# William Gaspar
 
-**Race:** Unknown | **Class:** Unknown
+**Race:** Human | **Class:** Inquisitor | **Level:** 11 | **Player:** Tim
+
+HP 131/131 | Human Inquisitor | Level 11
 
 ## Notes & Updates
 

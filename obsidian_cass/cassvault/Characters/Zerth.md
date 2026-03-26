@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T19:46:53.622Z"
+updated: "2026-03-26T17:39:39.776Z"
 ---
 
 # Zerth
@@ -26,7 +26,7 @@ updated: "2026-03-25T19:46:53.622Z"
 - Proposed as the intermediary to set up a meeting with the Black Sovereign, as he would likely take a meeting with her given recent chaos at the Technic League compound.; Mentioned as someone the party might meet with regarding the Black Sovereign. Casandalee notes that a meeting with Zerth would result in the Sovereign filling the hall with 100 barbarians. *(youtube-transcript, 3/25/2026)*
 - Someone who can probe minds and share information with Casandalee; party discussing whether to trust her with this; Waiting to see what the party does before reasserting control of the Technic League. Could set up a meeting with the Black Sovereign, potentially using drug dependency as leverage.; Party wants to contact him on radio, but only after determining if intervention plan will work. *(youtube-transcript, 3/25/2026)*
 - Character with 30 AC, takes 15 damage from binding effect *(youtube-transcript, 3/25/2026)*
-- Introducing herself as the former leader of the Technic League; Suggested an alternate strategy; mentioned a hospital that was off-limits for renovations, and said it has medical supplies *(youtube-transcript, 3/25/2026)*
+- Reported to have convinced two-thirds of the Technic League forces to stand down. *(youtube-transcript, 3/26/2026)*
 
 ## Session Appearances
 
@@ -45,3 +45,6 @@ Has control of Technic League troops; Leader of the Technic League, returned to 
 
 ### Iron Gods - A Bug's Life 2024 02 29
 Introducing herself as the former leader of the Technic League; Suggested an alternate strategy; mentioned a hospital that was off-limits for renovations, and said it has medical supplies
+
+### Iron Gods - Tactical Remembrance 2024 01 11
+Reported to have convinced two-thirds of the Technic League forces to stand down.

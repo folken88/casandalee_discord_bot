@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-26T17:02:44.413Z"
+updated: "2026-03-26T17:43:06.435Z"
 ---
 
 # Vaughan
@@ -19,6 +19,12 @@ updated: "2026-03-26T17:02:44.413Z"
 
 - Being held by the wrist off the ground by Bolty, squirming. He was caught by Bolty. *(youtube-transcript, 3/25/2026)*
 - Participated in combat against undead creatures.; Not mentioned directly but implied to be involved with Holden and Buhan.; Discussed the possibilities with Riviera about bioluminescent fungus. *(youtube-transcript, 3/26/2026)*
+
+## Notes & Updates
+
+- Being held by the wrist off the ground by Bolty, squirming. He was caught by Bolty. *(youtube-transcript, 3/25/2026)*
+- Participated in combat against undead creatures.; Not mentioned directly but implied to be involved with Holden and Buhan.; Discussed the possibilities with Riviera about bioluminescent fungus. *(youtube-transcript, 3/26/2026)*
+- Asks about the type of undead they are dealing with.; Participated in combat and had a fear attack. *(youtube-transcript, 3/26/2026)*
 
 ## Session Appearances
 

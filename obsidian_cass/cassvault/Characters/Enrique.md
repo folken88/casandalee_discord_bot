@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T19:50:41.115Z"
+updated: "2026-03-26T17:43:06.557Z"
 ---
 
 # Enrique
@@ -24,8 +24,8 @@ updated: "2026-03-25T19:50:41.115Z"
 
 - Keeping his role private and assisting with the pirate or sailor check; Found a mask with moracas and questioned magic items, horrible injuries, and mystery *(youtube-transcript, 3/25/2026)*
 - Hospital setting, safe house, and Technic League activity; Participating in a conversation, trying to join the team; Character is carrying a lot of weight and needs help with encumbrance *(youtube-transcript, 3/25/2026)*
-- Dead on combat tracker; Jokingly referencing past mistakes, including genocide and trying to eat party members; Had a one-shot character, Rag, and wanted to retool him *(youtube-transcript, 3/25/2026)*
-- Borrowing a different character while Shaun is being ressurected; Has multiple characters and is concerned about character limitations; Reincarnated as a Hobgoblin *(youtube-transcript, 3/25/2026)*
+- Characters under his control had friendly fire incidents with each other.; In combat with Tracy *(youtube-transcript, 3/26/2026)*
+- Discussing character hijacking and in-character reactions. *(youtube-transcript, 3/26/2026)*
 
 ## Session Appearances
 
@@ -44,3 +44,9 @@ Dead on combat tracker; Jokingly referencing past mistakes, including genocide a
 
 ### Shackles - His Head, His Choice 2025 06 05 19 26 15
 Borrowing a different character while Shaun is being ressurected; Has multiple characters and is concerned about character limitations; Reincarnated as a Hobgoblin
+
+### Iron Gods - Tactical Remembrance 2024 01 11
+Characters under his control had friendly fire incidents with each other.; In combat with Tracy
+
+### Shackles - No Concept of Personal Space 2025 04 24
+Discussing character hijacking and in-character reactions.

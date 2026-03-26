@@ -1,19 +1,22 @@
 ---
 name: "Order"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["HR", "HV"]
-mentions: 3
-tags: ["character", "npc", "hr", "hv"]
+tags: ["character"]
+created: ""
+updated: "2026-03-26T17:39:39.910Z"
 ---
 
 # Order
 
-**Type:** NPC
-**Campaigns:** HR, HV
-**Mentions:** 3 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Was killed by a sniper shot *(youtube-transcript, 3/26/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*
