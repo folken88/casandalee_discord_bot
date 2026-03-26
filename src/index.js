@@ -443,6 +443,9 @@ client.on(Events.MessageCreate, async message => {
                 logger.error('Error processing message:', error);
                 await message.reply('Sorry, I encountered an error processing your request. Please try again.');
             }
+        } catch (outerError) {
+            logger.error('Error in message handler:', outerError);
+        }
     }
 });
 
