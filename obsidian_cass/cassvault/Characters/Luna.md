@@ -1,6 +1,7 @@
 ---
 name: "Luna"
 type: character
+player: "Rye"
 race: "Unknown"
 class: "Unknown"
 level: ?

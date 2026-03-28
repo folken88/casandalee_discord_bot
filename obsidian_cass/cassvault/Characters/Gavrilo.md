@@ -1,10 +1,11 @@
 ---
 name: "Gavrilo"
 type: npc
+player: "Enrique"
 aliases: []
 campaign: ["IG"]
 mentions: 2
-tags: ["character", "npc", "ig"]
+tags: ["character", "pc", "ig"]
 ---
 
 # Gavrilo

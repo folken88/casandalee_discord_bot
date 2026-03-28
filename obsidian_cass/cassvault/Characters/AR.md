@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-28T13:51:20.543Z"
+updated: "2026-03-28T14:52:50.155Z"
 ---
 
 # AR
@@ -21,7 +21,7 @@ updated: "2026-03-28T13:51:20.543Z"
 
 ## Reactions
 
-😂 ×1
+😂 ×1  cumbers_of_ustalav ×1
 
 ## Session Appearances
 

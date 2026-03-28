@@ -1,11 +1,12 @@
 ---
 name: "Rhyarca Jillyr"
 type: character
-campaign: CC
+campaign: SS
 race: "Catfolk"
 class: "Oracle 5"
 hp: 29
-tags: ["character", "npc", "cc"]
+player: "Mandi"
+tags: ["character", "pc", "ss"]
 foundry_synced: "2026-03-28"
 ---
 

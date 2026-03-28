@@ -1,6 +1,7 @@
 ---
 name: "Kai"
 type: character
+player: "Graham"
 race: "Unknown"
 class: "Unknown"
 level: ?

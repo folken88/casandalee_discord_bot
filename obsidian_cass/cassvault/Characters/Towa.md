@@ -1,6 +1,7 @@
 ---
 name: "Towa"
 type: character
+player: "Rye"
 race: "Unknown"
 class: "Unknown"
 level: ?

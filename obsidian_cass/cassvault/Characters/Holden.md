@@ -1,6 +1,7 @@
 ---
 name: "Holden"
 type: character
+player: "Kip"
 race: "Unknown"
 class: "Unknown"
 level: ?

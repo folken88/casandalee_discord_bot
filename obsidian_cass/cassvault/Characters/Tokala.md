@@ -1,6 +1,7 @@
 ---
 name: "Tokala"
 type: character
+player: "Hans"
 race: "Unknown"
 class: "Unknown"
 level: ?

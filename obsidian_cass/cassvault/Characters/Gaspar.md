@@ -1,6 +1,7 @@
 ---
 name: "Gaspar"
 type: character
+player: "Tim"
 race: "Unknown"
 class: "Unknown"
 level: ?

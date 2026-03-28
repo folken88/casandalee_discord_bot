@@ -1,6 +1,7 @@
 ---
 name: "Draymus"
 type: character
+player: "Harrison"
 race: "Unknown"
 class: "Unknown"
 level: ?

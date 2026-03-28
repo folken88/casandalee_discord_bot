@@ -1,6 +1,7 @@
 ---
 name: "Ser-Toche"
 type: character
+player: "Josh"
 race: "Unknown"
 class: "Unknown"
 level: ?

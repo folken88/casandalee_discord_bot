@@ -1,11 +1,12 @@
 ---
 name: "Olbryn"
 type: character
+player: "Josh"
 campaign: CC
 race: "Drow"
 class: "Sorcerer 14"
 hp: 48
-tags: ["character", "npc", "cc"]
+tags: ["character", "pc", "cc"]
 foundry_synced: "2026-03-28"
 ---
 

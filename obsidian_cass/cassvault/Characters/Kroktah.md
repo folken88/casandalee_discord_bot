@@ -1,6 +1,7 @@
 ---
 name: "Kroktah"
 type: character
+player: "Enrique"
 race: "Unknown"
 class: "Unknown"
 level: ?

@@ -1,6 +1,7 @@
 ---
 name: "Femmick"
 type: pc
+player: "Harrison"
 aliases: []
 campaign: ["HR"]
 mentions: 5

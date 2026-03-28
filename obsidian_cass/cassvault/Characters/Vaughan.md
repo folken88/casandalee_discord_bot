@@ -1,6 +1,7 @@
 ---
 name: "Vaughan"
 type: character
+player: "Tim"
 race: "Half-Elf"
 class: "Magus 5"
 level: ?

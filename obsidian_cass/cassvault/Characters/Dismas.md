@@ -1,6 +1,7 @@
 ---
 name: "Dismas"
 type: character
+player: "Harrison"
 race: "Unknown"
 class: "Unknown"
 level: ?
