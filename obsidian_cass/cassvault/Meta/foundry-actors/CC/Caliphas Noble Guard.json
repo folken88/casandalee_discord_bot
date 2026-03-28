@@ -1,0 +1,50 @@
+{
+  "name": "Caliphas Noble Guard",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 34
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    },
+    {
+      "name": "Heavy Steel Shield",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This weapon is usually just a shaped piece of wood, sometimes with a few nails or studs embedded in it."
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": true,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Noble Guardsman's Bastard Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This finely crafted bastard sword is the standard issue for noble guards across Caliphas. The blade is elegantly designed, with intricate engravings of the Ustalavic crest, symbolizing the rich history and valor of its bearers. The hilt is wrapped in dark leather, providing a firm grip. Despite its price, the sword is a necessary tool for guards who face the supernatural threats that frequently plague the region. The nobility of Caliphas ensures their defenders are well-equipped, knowing full we"
+    }
+  ]
+}

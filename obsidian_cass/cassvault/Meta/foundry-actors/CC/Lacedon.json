@@ -1,0 +1,25 @@
+{
+  "name": "Lacedon",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 16
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 15,
+    "con": 0,
+    "int": 13,
+    "wis": 14,
+    "cha": 14
+  },
+  "items": []
+}

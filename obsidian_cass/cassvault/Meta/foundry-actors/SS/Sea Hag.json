@@ -1,0 +1,32 @@
+{
+  "name": "Sea Hag",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Monstrous Humanoid",
+  "classes": [
+    {
+      "name": "Monstrous Humanoid (Aquatic)",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 56
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 16,
+    "con": 18,
+    "int": 12,
+    "wis": 13,
+    "cha": 15
+  },
+  "items": [
+    {
+      "name": "Trident",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 15 gp Weight 4 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x2; Range 10 ft.; Type P; Special brace\nCategory One-Handed; Proficiency Martial\nWeapon Groups Spears; Thrown\nDescriptionA trident has three metal prongs at end of a 4-foot-long shaft. This weapon can be thrown."
+    }
+  ]
+}

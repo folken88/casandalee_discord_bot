@@ -1,0 +1,25 @@
+{
+  "name": "Knight Commander Graxus Phand",
+  "type": "character",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Warpriest",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 103
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 10,
+    "con": 14,
+    "int": 14,
+    "wis": 16,
+    "cha": 12
+  },
+  "items": []
+}

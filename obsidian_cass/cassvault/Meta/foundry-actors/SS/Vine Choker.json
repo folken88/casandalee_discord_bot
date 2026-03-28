@@ -1,0 +1,25 @@
+{
+  "name": "Vine Choker",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Aberration",
+  "classes": [
+    {
+      "name": "Aberration (Aquatic)",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 27
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 13,
+    "int": 4,
+    "wis": 13,
+    "cha": 7
+  },
+  "items": []
+}

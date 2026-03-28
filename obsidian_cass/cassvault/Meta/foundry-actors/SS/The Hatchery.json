@@ -1,0 +1,32 @@
+{
+  "name": "The Hatchery",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Race: Vermin",
+  "classes": [
+    {
+      "name": "Vermin",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 64
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 24,
+    "con": 18,
+    "int": 4,
+    "wis": 18,
+    "cha": 11
+  },
+  "items": [
+    {
+      "name": "Windapede Podbaby",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

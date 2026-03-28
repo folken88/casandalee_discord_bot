@@ -1,0 +1,44 @@
+{
+  "name": "Silver Guard",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Tactician",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 39
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 15,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Heavy Crossbow MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Load: Loading a heavy crossbow is a full-round action that provokes attacks of opportunity.\n\nYou draw a heavy crossbow back by turning a small winch. Normally, operating a heavy crossbow requires two hands. However, you can shoot, but not load, a heavy crossbow with one hand at a –4 penalty on attack rolls. You can shoot a heavy crossbow with each hand, but you take a penalty on attack rolls as if attacking with two one-handed weapons. This penalty is cumulative with the penalty for one-handed f"
+    },
+    {
+      "name": "Full Plate MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    },
+    {
+      "name": "Fauchard MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Like a glaive, the fauchard is a curved blade at the end of a pole. However, the cutting edge of a fauchard is along the concave side, like that of a sickle or scythe."
+    }
+  ]
+}

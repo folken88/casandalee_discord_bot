@@ -1,0 +1,50 @@
+{
+  "name": "Flying V Solidbody",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Cavalier",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 11,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Flying V Sigil",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A small metal pin"
+    },
+    {
+      "name": "Composite Longbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsCost 100 gp Weight 3 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range 110 ft.; Type P; Special -\nCategory Ranged; Proficiency Martial\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier"
+    },
+    {
+      "name": "Flying V Fauchard",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 8, Classic Horrors Revisited pg. 8\nStatisticsCost 14 gp Weight 10 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 18-20/x2; Range -; Type S; Special reach,trip\nCategory Two-Handed; Proficiency Exotic\nWeapon Groups Polearms\nDescriptionLike a glaive, the fauchard is a curved blade at the end of a pole. However, the cutting edge of a fauchard is along the concave side, like that of a sickle or scythe.\nGlaucite\nBoth ancient and modern metallurgists have devised nume"
+    },
+    {
+      "name": "Flying V Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for Climb checks and Acrobatics checks made to jump is only –1 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty).\nGlaucite\nBoth ancient and modern metallurgists have devised numerous alloys that mix skymetals with other materials. Many of these are highly specialized, but one deserves special mention: glaucite. T"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Moto",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 36
+  },
+  "abilities": {
+    "str": 4,
+    "dex": 17,
+    "con": 8,
+    "int": 11,
+    "wis": 13,
+    "cha": 2
+  },
+  "items": []
+}

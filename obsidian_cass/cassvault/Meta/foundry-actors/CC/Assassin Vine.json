@@ -1,0 +1,24 @@
+{
+  "name": "Assassin Vine",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Plant",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 30
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 10,
+    "con": 16,
+    "wis": 13,
+    "cha": 9
+  },
+  "items": []
+}

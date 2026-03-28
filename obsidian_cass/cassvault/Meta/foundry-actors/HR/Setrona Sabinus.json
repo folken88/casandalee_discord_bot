@@ -1,0 +1,38 @@
+{
+  "name": "Setrona Sabinus",
+  "type": "character",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Rogue (Unchained)",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 27
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 15,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 15
+  },
+  "items": [
+    {
+      "name": "Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A dagger has a blade that is about 1 foot in length.\n\nBenefit: You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body (see Using Skills)."
+    },
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    }
+  ]
+}

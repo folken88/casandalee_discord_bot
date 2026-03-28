@@ -1,0 +1,39 @@
+{
+  "name": "The Broker",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Wack Juce",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Refreshingly intoxicating, Wack Juce is made with the finest synthetic oranges in Numeria, and the 3rd finest potato vodka in the world: Smashka Noble!\nEnjoy this sweet and soothing taste of home, you can almost hear the anthem of the Fatherland as you slurp!"
+    },
+    {
+      "name": "Corentyn Wine",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Adventurer's Armory pg. 19\nPrice 15 gp/bottle; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionRed and white wines grown in the salt spray of Corentyn have a sweet-tart flavor valued by nobles throughout Cheliax."
+    },
+    {
+      "name": "Brow Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town.\n\n \n\n@JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}"
+    }
+  ]
+}

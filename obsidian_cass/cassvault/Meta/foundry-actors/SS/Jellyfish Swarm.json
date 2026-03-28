@@ -1,0 +1,25 @@
+{
+  "name": "Jellyfish Swarm",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Jellyfish Swarm",
+  "classes": [
+    {
+      "name": "Vermin",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 96
+  },
+  "abilities": {
+    "str": 1,
+    "dex": 13,
+    "con": 10,
+    "int": 0,
+    "wis": 10,
+    "cha": 2
+  },
+  "items": []
+}

@@ -1,0 +1,38 @@
+{
+  "name": "TL Technomancer",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Wizard",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 14
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 12,
+    "int": 16,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Technic League Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A small golden pin"
+    }
+  ]
+}

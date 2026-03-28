@@ -1,0 +1,128 @@
+{
+  "name": "Grine",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Dark Creeper",
+  "classes": [
+    {
+      "name": "Inquisitor",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 17
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 12,
+    "int": 10,
+    "wis": 15,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Mikkenaxen",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This item is of the finest craftsmanship and bears runework of the Ulfen culture. It's name \"Mikkenaxe\" is written above the blade on the left side. Runes of werewolf bane are written on the right."
+    },
+    {
+      "name": "Potion of Endure Elements",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A creature protected by endure elements suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between -50 and 140 degrees Fahrenheit without having to make Fortitude saves. The creature's equipment is likewise protected.\nEndure elements doesn't provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth."
+    },
+    {
+      "name": "Vorkstag's Getaway Go-Juice",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This potion uses a combination of Monkey Fish, Spider Climb, and Burrow effects to create the ultimate movement potion buff for 10 minutes.\n\nFor the duration, the imbiber has 2 extra hooved feet, two extra clawed arms that protrude from their mid-section, and two tentacles covered in suction cups. These limbs can only be used for movement."
+    },
+    {
+      "name": "Vorkstag's Tonbokiri Draft",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Imbiber receives Bull's Strength and Bear's Endurance effects, but must make a will-save to cease combat. If the save fails, they keep melee-attacking whatever target is nearest."
+    },
+    {
+      "name": "Captain's Coat",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Functionally a masterwork chain shirt, this coat bears the epaulets of a sea-captain and should only be worn by one of such rank."
+    },
+    {
+      "name": "Holy symbol (Gold)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57\nPrice 100 gp (gold), 5 gp (iron), 500 gp (platinum), 25 gp (silver), 1 gp (wooden); Weight 1 lb. (gold), 1 lb. (iron), 1 lb. (platinum), 1 lb. (silver), — (wooden)\n\nDescription\nA holy symbol focuses positive energy and is used by good clerics and paladins (or by neutral clerics who want to cast good spells or channel positive energy). Each religion has its own holy symbol. The material used to make the holy symbol has no effect on its powers, though a religion ma"
+    },
+    {
+      "name": "Vorkstag's Tonbokiri Draft",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Imbiber receives Bull's Strength and Bear's Endurance effects, but must make a will-save to cease combat. If the save fails, they keep melee-attacking whatever target is nearest."
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Vorkstag's Demon Blood Elixer",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Heals as a cure-light and also provides an infernal healing effect."
+    },
+    {
+      "name": "Vorkstag's Getaway Go-Juice",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This potion uses a combination of Monkey Fish, Spider Climb, and Burrow effects to create the ultimate movement potion buff for 10 minutes.\n\nFor the duration, the imbiber has 2 extra hooved feet, two extra clawed arms that protrude from their mid-section, and two tentacles covered in suction cups. These limbs can only be used for movement."
+    },
+    {
+      "name": "Vorkstag's Darksight Draught",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Subject gains Darkvision 60' and Keen Senses, but becomes hyper-paranoid and has difficulty trusting others which causes -4 sense-motive and diplomacy for 4 hours."
+    },
+    {
+      "name": "Soothe",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Vorkstag's Person Remover",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This potion turns the imbiber invisible and grants them a pass-without-trace effect for 1 hour. For this hour, the imbiber loses their sense of taste and smell."
+    },
+    {
+      "name": "Kit, Disguise",
+      "type": "loot",
+      "equipped": true,
+      "description": "Price 50 gp; Weight 8 lbs.\n\r\nThis kit contains tools like makeup and fake facial hair, and provides a +2 circumstance bonus on Disguise checks. A disguise kit is exhausted after 10 uses."
+    },
+    {
+      "name": "Vorkstag's Darksight Draught",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Subject gains Darkvision 60' and Keen Senses, but becomes hyper-paranoid and has difficulty trusting others which causes -4 sense-motive and diplomacy for 4 hours."
+    },
+    {
+      "name": "Vorkstag's Person Remover",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This potion turns the imbiber invisible and grants them a pass-without-trace effect for 1 hour. For this hour, the imbiber loses their sense of taste and smell."
+    },
+    {
+      "name": "Vorkstag's Demon Blood Elixer",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Heals as a cure-light and also provides an infernal healing effect."
+    }
+  ]
+}

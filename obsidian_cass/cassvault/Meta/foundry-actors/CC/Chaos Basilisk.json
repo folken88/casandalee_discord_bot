@@ -1,0 +1,32 @@
+{
+  "name": "Chaos Basilisk",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Monstrous Humanoid",
+  "classes": [
+    {
+      "name": "Aberration",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 48
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 22,
+    "con": 16,
+    "int": 18,
+    "wis": 12,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Hungering Gaze",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Forged in the Eye-Forges of Uzul'Zeth, a plane where thoughts become metal and madness is currency, the Greataxe of the Hungering Gaze is as much a living being as it is a weapon. Wielded by the eldritch minotaur Vaugron the Labyrinth-Tearer, this axe hungers for sentience, latching its gaze onto those it deems worthy of execution. The living eye embedded between its blades never blinks, constantly moving, twitching, and twitching toward future prey.\nStatistics:\nDamage: 1d12 + 3 (two-handed, sla"
+    }
+  ]
+}

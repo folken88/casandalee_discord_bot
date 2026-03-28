@@ -1,0 +1,56 @@
+{
+  "name": "Redfang",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Ranger",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 60
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Godwood Bow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Gravity bow if within Favored Terrain."
+    },
+    {
+      "name": "Chain Shirt MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Handaxe MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This one-handed axe is short (roughly 1 foot long) and designed for use with one hand. Unlike throwing axes, it is not well balanced for a graceful tumbling motion, and is instead heavier at its head. Tomahawks, war hatchets, and other such names usually refer to hand axes."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nSpell Description\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    }
+  ]
+}

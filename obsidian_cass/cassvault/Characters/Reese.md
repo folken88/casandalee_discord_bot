@@ -1,19 +1,37 @@
 ---
 name: "Reese"
 type: character
-race: "Unknown"
-class: "Unknown"
-level: ?
-
-aliases: []
-tags: ["character"]
-created: ""
-updated: "2026-03-25T17:07:45.324Z"
+campaign: HV
+race: "Strix"
+class: "Arcane Archer 6 / Ranger 7 / Wizard 1"
+hp: 104
+player: "Josh"
+tags: ["character", "pc", "hv"]
+foundry_synced: "2026-03-28"
 ---
 
 # Reese
 
-**Race:** Unknown | **Class:** Unknown
+**Race:** Strix | **Class:** Arcane Archer 6 / Ranger 7 / Wizard 1 | **HP:** 104 | **Player:** Josh
+**STR** 10 | **DEX** 18 | **CON** 14 | **INT** 13 | **WIS** 14 | **CHA** 10
+
+## Key Equipment
+- **Potion of Cure Moderate Wounds** (consumable, equipped) — This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10).
+- **Wand of Shield** (consumable, equipped) — Shield creates an invisible shield of force that hovers in front of you. It negates magic missile attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no armor check penalty or arcane spell failure chance.
+- **Potion of Cure Critical Wounds** (consumable, equipped) — This spell functions like cure light wounds, except that it cures 4d8 points of damage + 1 point per caster level (maximum +20).
+- **Fire-Forged Dagger** (weapon, equipped) — An enchanted dagger made in the dwarven fashion as a skinning knife. It is immune to fire and acid, and functions as a +2 dagger.
+- **Cloak of Resistance +4** (equipment, equipped) — Aura strong abjuration; CL 12th  This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).
+- **Amulet of Natural Armor +3** (equipment, equipped) — Aura moderate transmutation; CL 9th  This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet.
+- **Headband of Vast Intelligence +6** (equipment, equipped) — This intricate gold headband is decorated with several small blue and deep purple gemstones.  The headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer’s total Hit Dice. These ranks do no
+- **Stormcaller** (weapon, equipped) — Stormcaller, Ancient Elven Longbow+1 of shocking burstThis blue-steel longbow is made in the elven style and has elven runes written down it's sides above and below the handle. The runes nearest the handle give off a faint blue glow when first picked up by a new wielder, and represent it's magical bonus and shock damage abilities. Many other runes appear in a dull grey hue with no glow along it's length, but they can be activated through use and experience with the weapon.The largest rune is nea
+- **Ring of Protection +2** (equipment, equipped) — Aura moderate abjuration; CL 6th  This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.
+- **Potion of Cure Serious Wounds** (consumable, equipped) — Aura faint conjuration; CL 5th  Spell Description When laying your hand upon a living creature, you channel positive energy that cures 3d8 points of damage +1 point per caster level (maximum +15). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage.
+- **Scimitar +2** (weapon, equipped) — This curved sword is shorter than a longsword and longer than a shortsword. Only the outer edge is sharp, and the back is flat, giving the blade a triangular cross-section.
+- **Spellbook** (loot) — Source PZO1110  A spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells).  Compact Spellbook The need to be able to record and travel with dozens or even hundreds of spells often forces some wizards to seek lighter spellbooks. Compact spellbooks hold only 70 pages of spells, but they weigh significantly less than an ordinary spellbook. Source PZO1121  Traveling Spellbook A traveling spellbook is lighter and less cumbersome tha
+- **Tools, Thieves' (Masterwork)** (loot) — This kit contains lockpicks and other tools you need to use the @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} checks.  This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} checks.
+- **Ring of Wizardry I** (equipment, equipped) — This special ring comes in four varieties, all of them useful only to arcane spellcasters. The wearer’s arcane spells per day are doubled for one specific spell level. A ring of wizardry I doubles 1st-level spells, a ring of wizardry II doubles 2nd-level spells, a ring of wizardry III doubles 3rd-level spells, and a ring of wizardry IV doubles 4th-level spells. Bonus spells from high ability scores or school specialization are not doubled.
+- **Mithral Shirt** (equipment, equipped) — Covering the torso, this shirt is made up of thousands of interlocking metal rings.
+- **Efficient Quiver** (equipment, equipped) — Description This appears to be a typical arrow container capable of holding about 20 arrows. It has three distinct portions, each with a nondimensional space allowing it to store far more than would normally be possible. The first and smallest one can contain up to 60 objects of the same general size and shape as an arrow. The second slightly longer compartment holds up to 18 objects of the same general size and shape as a javelin. The third and longest portion of the case contains as many as 6 
 
 ## Notes & Updates
 

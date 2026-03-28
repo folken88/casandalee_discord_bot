@@ -1,0 +1,42 @@
+{
+  "name": "The Brinebrood Queen",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Grindylow",
+  "classes": [
+    {
+      "name": "Druid",
+      "level": 4
+    },
+    {
+      "name": "Aberration (Aquatic)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 40
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 10,
+    "int": 10,
+    "wis": 16,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Cold Iron Sickle",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 6 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range -; Type S; Special trip\nCategory Light; Proficiency Simple\nWeapon Groups Blades, Light\nDescriptionOriginating as a farming tool used for reaping grain, this one-handed weapon has a blade with a strong curve that can easily catch an opponent's limb or armor. Its blade can be either smooth or serrated, and some fighting sickles are sharpened on both si"
+    },
+    {
+      "name": "Vindictive Harpoon",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Description\nThis +1 returning harpoon (Pirates of the Inner Sea 18) is made from the jagged, scrimshaw-carved tusk of a narwhal attached to a 50-foot length of woven sinew. Unlike most thrown weapons, a vindictive harpoon functions as well underwater as on land, and its wielder takes no penalties on attack rolls underwater.\nBase Item: +1 returning harpoon\nRequirementsCraft Magic Arms and Armor, freedom of movement, telekinesis\nSource: AP 55"
+    }
+  ]
+}

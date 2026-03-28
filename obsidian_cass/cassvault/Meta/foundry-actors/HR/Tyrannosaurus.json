@@ -1,0 +1,25 @@
+{
+  "name": "Tyrannosaurus",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 18
+    }
+  ],
+  "hp": {
+    "max": 153
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 13,
+    "con": 19,
+    "int": 2,
+    "wis": 15,
+    "cha": 10
+  },
+  "items": []
+}

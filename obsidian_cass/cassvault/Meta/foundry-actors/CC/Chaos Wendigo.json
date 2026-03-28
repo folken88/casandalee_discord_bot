@@ -1,0 +1,29 @@
+{
+  "name": "Chaos Wendigo",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Aberration",
+      "level": 6
+    },
+    {
+      "name": "Druid",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 72
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 10,
+    "con": 14,
+    "int": 11,
+    "wis": 22,
+    "cha": 9
+  },
+  "items": []
+}

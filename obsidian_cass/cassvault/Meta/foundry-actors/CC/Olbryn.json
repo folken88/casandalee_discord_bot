@@ -1,0 +1,284 @@
+{
+  "name": "Olbryn",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Drow",
+  "classes": [
+    {
+      "name": "Sorcerer",
+      "level": 14
+    }
+  ],
+  "hp": {
+    "max": 48
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 16,
+    "int": 12,
+    "wis": 10,
+    "cha": 18
+  },
+  "items": [
+    {
+      "name": "Wand of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Wand of Enlarge Person",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint transmutation; CL 1st\n\nThis spell causes instant growth of a humanoid creature, doubling its height and multiplying its weight by 8. This increase changes the creature's size category to the next larger one. The target gains a +2 size bonus to Strength, a -2 size penalty to Dexterity (to a minimum of 1), and a -1 penalty on attack rolls and AC due to its increased size.\nA humanoid creature whose size increases to Large has a space of 10 feet and a natural reach of 10 feet. This spell "
+    },
+    {
+      "name": "Scroll of Overland Flight",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like a fly spell, except you can fly at a speed of 40 feet (30 feet if wearing medium or heavy armor, or if carrying a medium or heavy load) with a bonus on Fly skill checks equal to half your caster level. When using this spell for long-distance movement, you can hustle without taking nonlethal damage (a forced march still requires Constitution checks). This means you can cover 64 miles in an 8-hour period of flight (or 48 miles at a speed of 30 feet)."
+    },
+    {
+      "name": "Scroll of Fog Cloud",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A bank of fog billows out from the point you designate. The fog obscures all sight, including darkvision, beyond 5 feet. A creature within 5 feet has concealment (attacks have a 20% miss chance).\nCreatures farther away have total concealment (50% miss chance, and the attacker can't use sight to locate the target).\nA moderate wind (11+ mph) disperses the fog in 4 rounds; a strong wind (21+ mph) disperses the fog in 1 round.\nThe spell does not function underwater."
+    },
+    {
+      "name": "Wand of Color Spray",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint illusion; CL 1st\n\nA vivid cone of clashing colors springs forth from your hand, causing creatures to become stunned, perhaps also blinded, and possibly knocking them unconscious. Each creature within the cone is affected according to its HD.\n2 HD or less: The creature is unconscious, blinded, and stunned for 2d4 rounds, then blinded and stunned for 1d4 rounds, and then stunned for 1 round. (Only living creatures are knocked unconscious.) 3 or 4 HD: The creature is blinded and stunned "
+    },
+    {
+      "name": "Scroll of Comprehend Languages",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can understand the spoken words of creatures or read otherwise incomprehensible written messages. The ability to read does not necessarily impart insight into the material, merely its literal meaning. The spell enables you to understand or read an unknown language, not speak or write it.\nWritten material can be read at the rate of one page (250 words) per minute. Magical writing cannot be read, though the spell reveals that it is magical. This spell can be foiled by certain warding magic (su"
+    },
+    {
+      "name": "Ring of Wizardry I",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This special ring comes in four varieties, all of them useful only to arcane spellcasters. The wearer&rsquo;s arcane spells per day are doubled for one specific spell level. A ring of wizardry I doubles 1st-level spells, a ring of wizardry II doubles 2nd-level spells, a ring of wizardry III doubles 3rd-level spells, and a ring of wizardry IV doubles 4th-level spells. Bonus spells from high ability scores or school specialization are not doubled."
+    },
+    {
+      "name": "Wand of Resist Energy",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 1st\n\nThis abjuration grants a creature limited protection from damage of whichever one of five energy types you select: acid, cold, electricity, fire, or sonic. The subject gains resist energy 10 against the energy type chosen, meaning that each time the creature is subjected to such damage (whether from a natural or magical source), that damage is reduced by 10 points before being applied to the creature's hit points. The value of the energy resistance granted increase"
+    },
+    {
+      "name": "Wand of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Amulet of Natural Armor +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Headband of Vast Intelligence +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This intricate gold headband is decorated with several small blue and deep purple gemstones.\n\nThe headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer’s total Hit Dice. These ranks do no"
+    },
+    {
+      "name": "Scroll of Mount",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You summon a light horse or a pony (your choice) to serve you as a mount (see the Pathfinder RPG Bestiary). The steed serves willingly and well. The mount comes with a bit and bridle and a riding saddle."
+    },
+    {
+      "name": "Wand of Rope Trick (8th)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When this spell is cast upon a piece of rope from 5 to 30 feet long, one end of the rope rises into the air until the whole rope hangs perpendicular to the ground, as if affixed at the upper end.\nThe upper end is, in fact, fastened to an extradimensional space that is outside the usual multiverse of extradimensional spaces.\nCreatures in the extradimensional space are hidden, beyond the reach of spells (including divinations), unless those spells work across planes. The space holds as many as eig"
+    },
+    {
+      "name": "Scroll of Charm Monster",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like charm person, except that the effect is not restricted by creature type or size."
+    },
+    {
+      "name": "Scroll of Teleport",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell instantly transports you to a designated destination, which may be as distant as 100 miles per caster level. Interplanar travel is not possible. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as four Medium creatures"
+    },
+    {
+      "name": "Scroll of Wind Wall",
+      "type": "consumable",
+      "equipped": true,
+      "description": "An invisible vertical curtain of wind appears. It is 2 feet thick and of considerable strength. It is a roaring blast sufficient to blow away any bird smaller than an eagle, or tear papers and similar materials from unsuspecting hands. (A Reflex save allows a creature to maintain its grasp on an object.) Tiny and Small flying creatures cannot pass through the barrier. Loose materials and cloth garments fly upward when caught in a wind wall. Arrows and bolts are deflected upward and miss, while a"
+    },
+    {
+      "name": "Scroll of Gaseous Form",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject and all its gear become insubstantial, misty, and translucent. Its material armor (including natural armor) becomes worthless, though its size, Dexterity, deflection bonuses, and armor bonuses from force effects still apply. The subject gains DR 10/ magic and becomes immune to poison, sneak attacks, and critical hits. It can't attack or cast spells with verbal, somatic, material, or focus components while in gaseous form. This does not rule out the use of certain spells that the subj"
+    },
+    {
+      "name": "Arcane family workbook",
+      "type": "loot",
+      "equipped": true,
+      "description": "Source Advanced Race Guide pg. 27\nPrice 300 gp; Weight 3 lbs.\nCategory Tools\nDescriptionThe elven predilection for becoming wizards and the social benefits that elven wizards enjoy often encourages families to dedicate themselves to wizardly studies for multiple generations. Older elven wizards take note of their own insights into the secrets of arcane magic and compile these thoughts with the ideas of earlier generations to form family workbooks. When used as a reference (an action that typical"
+    },
+    {
+      "name": "Tattoo of Sustenance",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This tattoo continually provides its wearer with life-sustaining nourishment. The tattoo also refreshes the body and mind; its wearer needs only sleep 2 hours per day to gain the benefit of 8 hours of sleep. This allows a spellcaster that requires rest to prepare spells to do so after only 2 hours, but this does not allow a spellcaster to prepare spells more than once per day. The tattoo must be finished for a full week before it begins to work. If it is removed, the effect is lost."
+    },
+    {
+      "name": "Potion of Infernal Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nYou anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment."
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Hipfire Band",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt allows the wearer to use their Wisdom, Intelligence, or Charisma modifier in place of dex when targeting with touch or ranged touch spells."
+    },
+    {
+      "name": "Guards of the Silent People",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These bracers of armor +6 also grant constant use of the \"Silent Spell\" feat. If the wearer already has that feat, they allow for 2 uses of the silent-spell feat per day without increasing the spell slot cost."
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Maura's Wayfinder",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The inside of this gold-alloy container holds a detailed sketch of a handsome man wielding a pair of pistols and the inscription:\n\n\"To my darling Maura, may you always find your way to me.\"\n\nActs as a 3rd level Pearl of Power and is a semi-functional compass, though it does not point North. \n\n \n\nDescription\nOnce per day on command, a pearl of power enables the possessor to recall any one spell that she cast that day. The spell must be of a particular level, depending on the pearl."
+    },
+    {
+      "name": "Princely Groomsman",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This gown is made for a male elf physique and adjusts its wrists, hips, waste, shoulders, arms, and chest to any elf or half-elf who dons it. \n\nIt always leaves the chest open to reveal cleavage to just above the navel. \n\nThe gown is affected by a persistent prestidigitation-cleaning effect and no dirt or stain will stay upon it for more than a moment. It always feels of soft silk, never bunches up, and smells freshly laundered.\n\nIt provides +3 resistance to saves and +2 enhancement bonus to CON"
+    },
+    {
+      "name": "Charisma +4 Tattoo",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Commset",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a built-in camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile&mdash;beyond this range, communication is impossible without enhancing the signal strength with a signal booster. The price and cost listed for this item are"
+    },
+    {
+      "name": "Muleback Cords",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Longsword, microserrated",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The single edge of this sword looks homogeneous to the naked eye, but it is actually made of thousands of microscopic teeth. The teeth tear through organic matter, causing significant damage and bleeding."
+    },
+    {
+      "name": "Potion of Protection From Arrows",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 3rd\n\nThe warded creature gains resistance to ranged weapons.\nThe subject gains damage reduction 10/magic against ranged weapons. This spell doesn't grant you the ability to damage creatures with similar damage reduction. Once the spell has prevented a total of 10 points of damage per caster level (maximum 100 points), it is discharged."
+    },
+    {
+      "name": "Metamagic: Quicken",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Crackling Staff",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This staff appears to be made of recycled tech from various gearsman, weapons, and devices. Regardless of its technological appearance, it is a potent magical item.\n\nCareful examination by a highly competent magical craftsman reveals that it formerly functioned as a staff of @Compendium[pf1.spells.m84969gni5iu4bdt]{Lightning Bolt}, storing up to 50 charges of an 8d6 lighting bolt. The repeatedly altered, repaired, and amended runework along its length along with clearly scuffed, damanged, and re"
+    },
+    {
+      "name": "Brown Cloak",
+      "type": "equipment",
+      "equipped": false,
+      "description": "A cloak that is dyed dirty brown on one side, and clean white on the other."
+    },
+    {
+      "name": "Wand of Infernal Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Scroll of Technomancy",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint divination; CL 1st\n\nThis spell functions as detect magic, except it detects the presence of technological objects instead of magical objects. The spell grants you the Technologist feat for the purposes of attempting Knowledge (engineering) checks to identify the properties of technological items in your possession. If you already possess this feat, you gain a +10 bonus on Knowledge (engineering) checks to identify item properties."
+    },
+    {
+      "name": "Brow Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town.\n\n \n\n@JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}"
+    },
+    {
+      "name": "Efficient Quiver",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura moderate conjuration; CL 9th; Slot &mdash;; Price 1,800 gp; Weight 2 lbs.\n\nDESCRIPTION\n\nThis appears to be a typical arrow container capable of holding about 20 arrows. It has three distinct portions, each with a nondimensional space allowing it to store far more than would normally be possible.\n\nThe first and smallest one can contain up to 60 objects of the same general size and shape as an arrow. The second slightly longer compartment holds up to 18 objects of the same general size and sh"
+    },
+    {
+      "name": "Long Kiss Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Long Kiss is a masterpiece of weapon engineering. The foregrip is made of wood from the rare Beau DeArc tree and the stock being composite steel with silver inlay. \n\nThe weapon is fitted with a custom scope based on a variable spyglass. It halves the normal range penalty for a light crossbow from -2 to -1. A move-action flips the scope into 2x mode, granting +4 vs any range penalties. \n\n \n\nLong Kiss is a +1, vampire-bane weapon.\n\n \n\nLoad: Loading a light crossbow is a move action that provokes a"
+    },
+    {
+      "name": "Swamp Egg",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Thunderchonk",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Blue crystals taste bitter when chewed and crunch very loudly. User's voice is amplified to extreme volume. Double range and +2DC for any voice-attacks or spells with Verbal components. +5 for giving speeches. -10 stealth. Lasts 1d3 hours."
+    },
+    {
+      "name": "Wand of Fly",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load).\nIt can ascend at half speed and descend at double speed, and its maneuverability is good. Using a fly spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can charge but not run, and it cannot carry aloft more weight than its maximum load, plus any armor it wears. The subject gains a bonus"
+    }
+  ]
+}

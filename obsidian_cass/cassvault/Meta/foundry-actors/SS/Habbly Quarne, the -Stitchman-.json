@@ -1,0 +1,48 @@
+{
+  "name": "Habbly Quarne, the \"Stitchman\"",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 5
+    },
+    {
+      "name": "Expert",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 80
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 13,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    },
+    {
+      "name": "Warhammer",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 12 gp Weight 5 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type B; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Hammers\nDescriptionThis weapon consists of a wooden haft and a heavy, metal head. The head may be single (like a carpenter's hammer) or double (like a sledgehammer). The haft is long enough that you may wield it one- or two-handed. Though heavy and relatively slow to wield, "
+    },
+    {
+      "name": "Light Hammer",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 1 gp Weight 2 lbs.\nDamage 1d3 (small), 1d4 (medium); Critical x2; Range 20 ft.; Type B; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Hammers; Thrown\nDescriptionA lighter version of a warhammer, this weapon usually has a sleek metal head with one striking surface."
+    }
+  ]
+}

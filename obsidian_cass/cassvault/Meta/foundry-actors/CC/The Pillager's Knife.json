@@ -1,0 +1,255 @@
+{
+  "name": "The Pillager's Knife",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Whispered Courage Whiskey",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Drink the blood of heroes.\"Whispered Courage is aged in barrels made from pines cut from the Stoneheart Massacre Glade.This powerful spirit grants +4 vs fear saves for 1 hour. The bonus is doubled if an ally who also drank the whiskey is threatened within your sight."
+    },
+    {
+      "name": "Sextant",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 500 gp; Weight 2 lbs.\nCategory Adventuring Gear\nDescriptionA sextant is used to determine your latitude. Using a sextant with an astrolabe gives you a +4 circumstance bonus on Survival checks made to prevent getting lost."
+    },
+    {
+      "name": "Scroll of Align Weapon",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Dragonhide",
+      "type": "loot",
+      "equipped": false,
+      "description": "From a dragon, enough leather can be harvested to create a decent Half Plate Armor out of it. Depending on the hide used, it will also come with resistance to damage of propriety of the dragon that was slain dragon(Blue, Lightning/ White, Cold/ Red, Fire). Due to the armor not being made of metal, the druid class will be able to wear it without any penalties."
+    },
+    {
+      "name": "Corn",
+      "type": "loot",
+      "equipped": false,
+      "description": "Corn is one of the most farmed grains, as it can be turned into oil and flour. Corn itself is a staple food throughout the realms for all consumers and their livestock. The plant in itself is called Maize and it is usually planted as the warmer seasons begin because it is not resistant to the cold."
+    },
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Shackles Rum Ration",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Apricot",
+      "type": "loot",
+      "equipped": false,
+      "description": "One of the few fruits that is also dried, to have it be edible between seasons. It is also used in various meals, summer salads, jams, juices, and even alcohol after boiling."
+    },
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Crabmeat",
+      "type": "loot",
+      "equipped": false,
+      "description": "This dish features a cooked piece of game brought in by adventurers. The meats are usually not found on most tavern menus and are for the bravest patrons who are not afraid to experiment."
+    },
+    {
+      "name": "Assassin Vines",
+      "type": "loot",
+      "equipped": false,
+      "description": "It is sometimes also named Sparrow Grass, its young shoots are often used as a spring vegetable. They are usually served as an appetizer or a vegetable side dish. In some regions, there is word of a festival held in its honor."
+    },
+    {
+      "name": "Alchemist's fire",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Alchemist's fireSource Alchemy Manual pg. 30, Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158\nPrice 20 gp; Weight 1 lb.\nCategory Alchemical WeaponsDescriptionAlchemist's fire is a mix of several volatile liquids that ignite when exposed to air. You can throw a flask of alchemist's fire as a splash weapon. Treat this attack as a ranged touch attack with a range increment of 10 feet.\n\n A direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hi"
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Mithril Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Align Weapon",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Rainbow jellyfish toxin",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Rainbow jellyfish toxinSource: Rival Guide pg. 53\nPrice 400 gp; Weight 0\nType contact, injury; Save Fortitude DC 14\nFrequency 1/round for 2 rounds\nInitial Effect staggered for 1d6 rounds; Secondary Effect paralyzed for 1d6 minutes\nCure 1 save"
+    },
+    {
+      "name": "Wool",
+      "type": "loot",
+      "equipped": false,
+      "description": "A textile fabric that is obtained from farm animals, mainly sheep, and is primarily used for clothing. In addition to that, it is also used for blankets, saddle cloths for cavalry, carpeting, and on rare occasions even a soil fertilizer."
+    },
+    {
+      "name": "Apricot",
+      "type": "loot",
+      "equipped": false,
+      "description": "One of the few fruits that is also dried, to have it be edible between seasons. It is also used in various meals, summer salads, jams, juices, and even alcohol after boiling."
+    },
+    {
+      "name": "Scroll of Align Weapon",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Assassin Vines",
+      "type": "loot",
+      "equipped": false,
+      "description": "It is sometimes also named Sparrow Grass, its young shoots are often used as a spring vegetable. They are usually served as an appetizer or a vegetable side dish. In some regions, there is word of a festival held in its honor."
+    },
+    {
+      "name": "Waffle Iron",
+      "type": "loot",
+      "equipped": true,
+      "description": "Price 1 gp (common), 2,501 gp (mithral); Weight 5 lbs. (common), 2-1/2 lbs. (mithral)\nDescriptionThis pair of hinged metal plates is decorated with studs to add texture to the pastry cakes you cook with it. You pour batter on it, close it, and place it on a fire or stove to cook. Some waffle irons have plates that imprint the waffle with a noble's coat of arms, a religious symbol, or a country's flag. A mithral waffle iron almost always bears a specific insignia rather than the generic waffle pa"
+    },
+    {
+      "name": "Cold Iron",
+      "type": "loot",
+      "equipped": false,
+      "description": "This specific iron, found in the most secluded deep mines quite cold to the touch, it is known that for those who venture into the Fey realm, it is a must. Most sylvan creatures damaged or attempting to attack a creature wearing Cold Iron armors seem to be taking an additional 1d4 cold damage."
+    },
+    {
+      "name": "Wool",
+      "type": "loot",
+      "equipped": false,
+      "description": "A textile fabric that is obtained from farm animals, mainly sheep, and is primarily used for clothing. In addition to that, it is also used for blankets, saddle cloths for cavalry, carpeting, and on rare occasions even a soil fertilizer."
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Tent, small",
+      "type": "loot",
+      "equipped": false,
+      "description": "A small tent holds one Medium creature and takes 20 minutes to assemble.\nTwo Small creatures count as a Medium creature. Packing up a tent takes half as long as assembling it."
+    },
+    {
+      "name": "Mithral",
+      "type": "loot",
+      "equipped": false,
+      "description": "The rarest metal, provides an otherworldy calming blue glow, making it pleasant to the eyes. The equipment made out of this specific ore is sought after by wealthy nobility, as it is so light that even the poorest of fighters have increased mobility in it making them look better at sparring than they are, also providing a point of their statute to the common folk. While wearing armor crafted from this material, the Dexterity modifier increases by 1, the Strenght requirement decreases by 1 and it"
+    },
+    {
+      "name": "Corn",
+      "type": "loot",
+      "equipped": false,
+      "description": "Corn is one of the most farmed grains, as it can be turned into oil and flour. Corn itself is a staple food throughout the realms for all consumers and their livestock. The plant in itself is called Maize and it is usually planted as the warmer seasons begin because it is not resistant to the cold."
+    },
+    {
+      "name": "Waffle Iron",
+      "type": "loot",
+      "equipped": true,
+      "description": "Price 1 gp (common), 2,501 gp (mithral); Weight 5 lbs. (common), 2-1/2 lbs. (mithral)\nDescriptionThis pair of hinged metal plates is decorated with studs to add texture to the pastry cakes you cook with it. You pour batter on it, close it, and place it on a fire or stove to cook. Some waffle irons have plates that imprint the waffle with a noble's coat of arms, a religious symbol, or a country's flag. A mithral waffle iron almost always bears a specific insignia rather than the generic waffle pa"
+    },
+    {
+      "name": "Deathwine (Cure Moderate)",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Gloomgrape",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Experience the highs and lows that can only come from a wine aged in barrels made from trees splattered with the blood of demonic soldiers infected with an eternal curse. \nGloomgrape, you'll be sad you did!"
+    },
+    {
+      "name": "Potion of Blur",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject's outline appears blurred, shifting, and wavering. This distortion grants the subject concealment (20% miss chance).\nA see invisibility spell does not counteract the blur effect, but a true seeing spell does.\nOpponents that cannot see the subject ignore the spell's effect (though fighting an unseen opponent carries penalties of its own)."
+    },
+    {
+      "name": "Sun Caimon Hide",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Rope (50 Ft.)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice 1 gp; Weight 10 lbs.\nCategory Adventuring Gear\nDescriptionThis 50-foot length of hemp rope has 2 hit points and can be burst with a DC 23 Strength check."
+    },
+    {
+      "name": "Dorcroast",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dorcroast, the invigorating cold brew coffee inspired by the triumph over darkness in Ustalav, awakens your senses with a bittersweet symphony. With a delightful spritz of energy, Dorcroast revitalizes your day, infusing it with the indomitable spirit that arises from the genocide of one's enemies. This remarkable brew serves as a tribute to the resilience of those who stood against evil, reminding you that even in the face of adversity, there is always room for celebration and the promise of a "
+    },
+    {
+      "name": "Alchemist's Fire",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source PZO1110\n\nYou can throw a flask of alchemist's fire as a splash weapon with a range increment of 10 feet.\n\nA direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hits takes 1 point of fire damage from the splash. On the round following a direct hit, the target takes an additional 1d6 points of damage. If desired, the target can use a full-round action to attempt to extinguish the flames before taking this additional damage. Extinguishing the"
+    },
+    {
+      "name": "La Calstroix Bottle",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A bottle of sparkling water from La Calstroix river in Shudderwood."
+    },
+    {
+      "name": "Broadcloth",
+      "type": "loot",
+      "equipped": false,
+      "description": "The most common type of cloth, it is usually referred to as plain cloth. Traditionally used in any form of clothing, as well, as for interior decoration, such as tablecloths, curtains, and wall covers."
+    },
+    {
+      "name": "Chocolate Chip Cookie",
+      "type": "loot",
+      "equipped": false,
+      "description": "The chocolate chip cookie is a sweet baked treat that is recognized by its buttery flavor and the inclusion of chocolate chips, which can be dark, milk, or white chocolate depending on personal preference. It's a classic favorite for people of all ages, not just young folk, and is often enjoyed with a cold glass of milk or a warm cup of coffee. Bakers may also experiment with different types of chocolate or cocoa, add nuts or other mix-ins, or even substitute some of the ingredients to create a "
+    }
+  ]
+}

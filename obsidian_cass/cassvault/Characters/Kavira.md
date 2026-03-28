@@ -1,19 +1,23 @@
 ---
 name: "Kavira"
 type: character
-campaign: "CC"
-tags: [character, cc]
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T02:59:09.561Z"
 ---
 
 # Kavira
 
-**Race:** Unknown | **Class:** Unknown | **Level:** 11
+## Notes & Updates
 
-HP 106/106 | Tiefling Rogue / Evoker / Arcane Trickster | Level 11
-
+- Testing something, having performance anxiety *(youtube-transcript, 3/28/2026)*
+- Scout ahead of the party *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Carrion Crown - Trojan Corpse 2025 02 02
-Teleported in and heard something about a connection to Sylvia and Vex.
-
+*Session activity from YouTube transcripts will appear here.*

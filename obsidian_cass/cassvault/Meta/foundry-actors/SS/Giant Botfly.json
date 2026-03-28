@@ -1,0 +1,25 @@
+{
+  "name": "Giant Botfly",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Vermin",
+  "classes": [
+    {
+      "name": "Vermin",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 12
+  },
+  "abilities": {
+    "str": 2,
+    "dex": 14,
+    "con": 10,
+    "int": 0,
+    "wis": 11,
+    "cha": 2
+  },
+  "items": []
+}

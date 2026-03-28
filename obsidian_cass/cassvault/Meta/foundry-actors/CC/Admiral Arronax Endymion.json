@@ -1,0 +1,50 @@
+{
+  "name": "Admiral Arronax Endymion",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Cavalier",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 34
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Superior",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Belt of Giant Strength +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt is a thick leather affair, often decorated with huge metal buckles. The belt grants the wearer an enhancement bonus to Strength of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Chelish Captain's Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    }
+  ]
+}

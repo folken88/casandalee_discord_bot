@@ -1,0 +1,48 @@
+{
+  "name": "Bryce",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Seaman",
+      "level": 1
+    },
+    {
+      "name": "Oracle",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 35
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 15,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 17
+  },
+  "items": [
+    {
+      "name": "Cloak of Resistance +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).\nConstructionRequirements Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus; Cost 8,000 gp"
+    },
+    {
+      "name": "Charisma +4 Tattoo",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bracers of Armor +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These items appear to be wrist or arm guards, sometimes etched with symbols of protection or depictions of vigilant-looking animals. Bracers of armor surround the wearer with an invisible but tangible field of force, granting him an armor bonus of +1 to +8, just as though he were wearing armor. Both bracers of armor must be worn for the magic to be effective. Alternatively, bracers of armor can be enchanted with armor special abilities. See Table 3-3: Armor Special Abilities for a list of abilit"
+    }
+  ]
+}

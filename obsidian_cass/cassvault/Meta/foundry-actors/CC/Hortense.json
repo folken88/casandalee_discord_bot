@@ -1,0 +1,25 @@
+{
+  "name": "Hortense",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 32
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 15,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 11
+  },
+  "items": []
+}

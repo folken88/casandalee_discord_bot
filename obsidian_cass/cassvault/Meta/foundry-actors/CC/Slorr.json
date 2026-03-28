@@ -1,0 +1,36 @@
+{
+  "name": "Slorr",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Hamatula Devil",
+  "classes": [
+    {
+      "name": "Bloodrager",
+      "level": 14
+    },
+    {
+      "name": "Outsider",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 142
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 24,
+    "con": 22,
+    "int": 12,
+    "wis": 16,
+    "cha": 18
+  },
+  "items": [
+    {
+      "name": "Spiked Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Made of some alloy similar to mithral, this plate belongs only to Slorr, no other may wear it. If it is ever removed from Slorr, it immediately returns to his home plane of Hell."
+    }
+  ]
+}

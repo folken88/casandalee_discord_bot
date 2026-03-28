@@ -1,0 +1,44 @@
+{
+  "name": "Silver Scout",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Knife Master Unchained Rogue",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 38
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 14,
+    "int": 13,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Dagger MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A dagger has a blade that is about 1 foot in length.\n\nBenefit: You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body (see Using Skills)."
+    },
+    {
+      "name": "Chain Shirt MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Composite Shortbow MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "You need at least two hands to use a bow, regardless of its size. You can use a composite shortbow while mounted.\n\nAll composite bows are made with a particular Strength rating (that is, each requires a minimum Strength modifier to use with proficiency). If your Strength bonus is lower than the strength rating of the composite bow, you can’t effectively use it, so you take a –2 penalty on attacks with it. The default composite shortbow requires a Strength modifier of +0 or higher to use with pro"
+    }
+  ]
+}

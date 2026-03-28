@@ -1,0 +1,44 @@
+{
+  "name": "Aeldervenk, Lady Tarsa",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Aristocrat",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 33
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 10,
+    "con": 12,
+    "int": 16,
+    "wis": 12,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Aeldervenk Courtly Robes",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Dagger MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A dagger has a blade that is about 1 foot in length.\n\nBenefit: You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body (see Using Skills)."
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    }
+  ]
+}

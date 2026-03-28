@@ -1,0 +1,356 @@
+{
+  "name": "Kate Blackwood",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Skinwalker",
+  "classes": [
+    {
+      "name": "Mindblade Kensai Magus",
+      "level": 11
+    }
+  ],
+  "hp": {
+    "max": 43
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 12,
+    "int": 17,
+    "wis": 11,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Tyrant's Band",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring, forged from black steel and set with six deep emerald gems, exudes a sense of dark purpose and power. The centerpiece is a skull, its mouth gagged—an emblem reflecting the cult's reverence for silence and secrets, and their goal of serving the Whispering Tyrant, Tar-Baphon, the former ruler of Ustalav. Each gem could be said to represent an aspect of the Tyrant's power, and the gagged skull symbolizes the silence under which these powers must be reassembled.\nBase Ability: As a Ring of"
+    },
+    {
+      "name": "Belt of Mighty Constitution + Muleback Cords",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Grape Tongue",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dyes the user's tongue bright purple, usually spreading to the lips and area around the mouth as it causes excessive licking and smacking. Whatever the user says is heard as incoherent babbling, but the user is granted +8 to save vs mind-affecting attacks with somatic components for 1d8 minutes."
+    },
+    {
+      "name": "Scroll of Eagle's Splendor",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level alchemist 2, antipaladin 2, arcanist 2, bard 2, bloodrager 2, cleric 2, investigator 2, medium 2, mesmerist 2, oracle 2, paladin 2, psychic 2, shaman 2, skald 2, sorcerer 2, summoner 2, summonerUnchained 2, warpriest 2, wizard 2; Bloodline Imperious 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M/DF (feathers or droppings from an eagle)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration 1 min./level\n\n    Saving Throw Will negates;\n    Spell"
+    },
+    {
+      "name": "Lichmark",
+      "type": "loot",
+      "equipped": false,
+      "description": "A gold coin with a strange stamp on it. It is very worn."
+    },
+    {
+      "name": "Pipebomb 2.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll Belt (Invisibility)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Intrigue pg. 234\nPrice 3 sp; Weight varies\nCategory Adventuring Gear\nDescriptionThis garment is specially designed to have a single spell scribed on the inside of its surface, hidden from prying eyes. Infiltrators and spies often use scroll belts to secure extra magical means of escape when the remainder of their equipment is taken during capture. The belt is reusable, though the normal costs and time required to scribe a spell on the belt for each new spell apply. You must remov"
+    },
+    {
+      "name": "Elven Sweetroll",
+      "type": "loot",
+      "equipped": false,
+      "description": "Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts. If you are an elf who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the Endurance feat. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+    },
+    {
+      "name": "Scarf (pocketed)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Price   8 gp (pocketed),\n  10 gp (reinforced);\nWeight  1/2 lb. (pocketed), 1 lb. (reinforced)\nDescriptionAn elaborate design disguises several small pockets on one side of this scarf. This scarf grants you a +4 bonus on Sleight of Hand checks made to hide objects on your body. This bonus does not stack with the bonus wearing heavy clothing provides but does stack with bonuses for attempting to hide small objects.One side of this 8-foot-long scarf is reinforced with chain links and metal plates. "
+    },
+    {
+      "name": "Torch City Roller",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Book Of Letters",
+      "type": "loot",
+      "equipped": false,
+      "description": "Book of Letters This portfolio contains examples of official letters along with proper forms of address, etiquette, and turns of phrase. Used by bureaucrats, diplomats, and clerks, it's also useful for counterfeiting official correspondence. It provides a +2 circumstance bonus on Diplomacy checks when dealing with city officials and a +2 circumstance bonus on Linguistics checks when creating forgeries. A book of letters is only accurate for a particular region, such as a country or even a town, "
+    },
+    {
+      "name": "Wand of Mount",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (summoning); Level arcanist 1, bloodrager 1, magus 1, occultist 1, sorcerer 1, summoner 1, summonerUnchained 1, witch 1, wizard 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M (a bit of horse hair)\n\n  \n\n  \n  Range 25 ft\n\n  \n  \n  Effect one mount\n\n  Duration 2 hours/level\n\n    Saving Throw None;\n    Spell Resistance no\n    \n\n  \n\nYou summon a light horse or a pony (your choice) to serve you as a mount (see the Pathfinder RPG Bestiary). The steed serves willingly and w"
+    },
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).\nConstructionRequirements Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus; Cost 2,000 gp"
+    },
+    {
+      "name": "Wand of Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light"
+    },
+    {
+      "name": "Shining Crusade Captain's Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": "One of only a hundred talismans made for the highest ranking Shining Crusade officers. Few survived the war, and even fewer have been seen in the intervening 1000 years."
+    },
+    {
+      "name": "Silence",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A +1 keen kukri.\nForged in the dark underbelly of Golarion, the Shadow's Silence was crafted by a cabal of necromancers in service to the Whispering Way. The blade is made from a rare metal that is said to have been mined from the depths of the Shadow Plane, giving it its unique abilities. The cabal created a series of these daggers, each intended for their most skilled assassins. The Shadow's Silence is not only a weapon but a symbol of the assassin's pledge to the Whispering Way, to pursue the"
+    },
+    {
+      "name": "Ustalav Stamp Collector's Fill-In Book",
+      "type": "loot",
+      "equipped": true,
+      "description": "Cult of Correspondence"
+    },
+    {
+      "name": "Garlic Tablets",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Undead Slayer's Handbook pg. 9\nPrice 20 gp; Weight 1/2 lb.\nCategory Alchemical Tools\nDescriptionThese small gray-white tablets are made of dehydrated and condensed garlic bulbs. One hour after you eat a garlic tablet, you begin to stink as the essence of the tablet seeps out of your pores. This state lasts for 4 hours. Subsequent doses of garlic tablets reset this duration. During this time, you can keep a vampire at bay (Pathfinder RPG Bestiary 270) as a free action without need of a hol"
+    },
+    {
+      "name": "Wand of Speak with Dead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You grant the semblance of life to a corpse, allowing it to answer questions. You may ask one question per two caster levels. The corpse's knowledge is limited to what it knew during life, including the languages it spoke. Answers are brief, cryptic, or repetitive, especially if the creature would have opposed you in life.\nIf the dead creature's alignment was different from yours, the corpse gets a Will save to resist the spell as if it were alive.\nIf successful, the corpse can refuse to answer "
+    },
+    {
+      "name": "Scroll of Protection from Energy",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Protection from energy grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of energy damage (to a maximum of 120 points at 10th level), it is discharged.\nProtection from energy overlaps (and does not stack with) resist energy. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is exhausted."
+    },
+    {
+      "name": "Scroll of Infernal Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment."
+    },
+    {
+      "name": "Scroll of Dimensional Anchor",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Abjuration; Level arcanist 4, cleric 4, inquisitor 3, medium 3, occultist 4, oracle 4, psychic 4, sorcerer 4, spiritualist 4, summoner 3, summonerUnchained 4, warpriest 4, wizard 4; Subdomain Wards 4\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range 170 ft\n\n  \n  \n  Effect ray\n\n  Duration 1 min./level\n\n    Saving Throw None;\n    Spell Resistance yes\n    \n\n  \n\nA green ray springs from your hand. You must make a ranged touch attack to hit the target. Any creature or objec"
+    },
+    {
+      "name": "Wand of Mount, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (summoning); Level arcanist 2, magus 2, occultist 2, sorcerer 2, summoner 2, summonerUnchained 2, witch 2, wizard 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M (a bit of horse hair)\n\n  \n\n  \n  Range 30 ft\n\n  \n  \n  Effect up to six mounts\n\n  Duration 2 hours/level\n\n    Saving Throw None;\n    Spell Resistance no\n    \n\n  \n\nThis spell functions like mount, except you can summon up to six light horses or ponies, and you divide the duration in 2-hour increments among the"
+    },
+    {
+      "name": "The Horn of Blackwood",
+      "type": "loot",
+      "equipped": false,
+      "description": "Sounding a horn requires a DC 10 Perform (wind instruments) check and can convey concepts such as \"Attack!\", \"Help!\", \"Advance!\", \"Retreat!\", \"Fire!\", and, \"Alarm!\" The report of a signal horn can be clearly heard (Perception DC 0) up to a half-mile distant. For each quarter-mile beyond, Perception checks to hear the horn suffer a -1 penalty."
+    },
+    {
+      "name": "Scroll of Eagle's Splendor",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level alchemist 2, antipaladin 2, arcanist 2, bard 2, bloodrager 2, cleric 2, investigator 2, medium 2, mesmerist 2, oracle 2, paladin 2, psychic 2, shaman 2, skald 2, sorcerer 2, summoner 2, summonerUnchained 2, warpriest 2, wizard 2; Bloodline Imperious 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M/DF (feathers or droppings from an eagle)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration 1 min./level\n\n    Saving Throw Will negates;\n    Spell"
+    },
+    {
+      "name": "Scroll of Overland Flight",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like a fly spell, except you can fly at a speed of 40 feet (30 feet if wearing medium or heavy armor, or if carrying a medium or heavy load) with a bonus on Fly skill checks equal to half your caster level. When using this spell for long-distance movement, you can hustle without taking nonlethal damage (a forced march still requires Constitution checks). This means you can cover 64 miles in an 8-hour period of flight (or 48 miles at a speed of 30 feet)."
+    },
+    {
+      "name": "Heritage Book",
+      "type": "loot",
+      "equipped": false,
+      "description": "Heritage Book This collection of genealogical tables, descriptions of common traits found in particular noble families, heraldry, scurrilous rumors, and ancestral deeds provides readers with a great deal of insight into the aristocracy. Consulting this book grants a +2 circumstance bonus on Knowledge (nobility) checks. Price 50 gp; Weight 2 lbs.\n\nJournal This is a blank, lightweight book with an oilskin cover. It has 50 paper pages. Price 10 gp; Weight 1 lb."
+    },
+    {
+      "name": "Commset 1m",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a built-in camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile—beyond this range, communication is impossible without enhancing the signal strength with a signal booster. The price and cost listed for this item are for a"
+    },
+    {
+      "name": "Scroll of Winged Sword",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The weapon targeted by this spell grows small feathered wings. For the duration of the spell, the weapon acts as if it had the throwing weapon special ability. This spell can be used in place of magic stone as a prerequisite for the throwing weapon special ability."
+    },
+    {
+      "name": "Wand of Levitate",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Levitate allows you to move yourself, another creature, or an object up and down as you wish. A creature must be willing to be levitated, and an object must be unattended or possessed by a willing creature. You can mentally direct the recipient to move up or down as much as 20 feet each round; doing so is a move action.\nYou cannot move the recipient horizontally, but the recipient could clamber along the face of a cliff, for example, or push against a ceiling to move laterally (generally at half"
+    },
+    {
+      "name": "Lover's breath",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Price 200 gp; Weight -\nCategory Clothing\nDescriptionThis alchemical perfume is distilled from a blend of humanoid pheromones and fey sweat. When applied as a full-round action, it grants the wearer a +2 circumstance bonus on all Charisma checks and Charisma-based skill checks for 1 hour. During this time, the wearer takes a -2 penalty on saving throws against charm and fascination effects originating from fey.\nLong-term use of lover's breath eventually results in physical changes, causing the us"
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Northgarde Thicc Boi",
+      "type": "container",
+      "equipped": true,
+      "description": "Part of the Carriers by Calvin line of luxury containers, this finely crafted backpack has runework hidden in its stitching.\nThis dimensional pocket magically stores up to 200 cubic feet of items, and reduces their material-plane-weight by 95%. The bag is huge, even when empty, and can detract from stealth attempts."
+    },
+    {
+      "name": "Scroll of Resist Energy",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This abjuration grants a creature limited protection from damage of whichever one of five energy types you select: acid, cold, electricity, fire, or sonic. The subject gains resist energy 10 against the energy type chosen, meaning that each time the creature is subjected to such damage (whether from a natural or magical source), that damage is reduced by 10 points before being applied to the creature's hit points. The value of the energy resistance granted increases to 20 points at 7th level and"
+    },
+    {
+      "name": "Garlic",
+      "type": "loot",
+      "equipped": false,
+      "description": "The most used spice in the majority of dishes. Cooked, sliced, diced, minced, or even boiled, if it is a cooked dish, it most likely has a pinch of garlic in it."
+    },
+    {
+      "name": "Spring Forward",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This cloak is woven from a vibrant green fabric that shimmers with an inner vitality, reminiscent of fresh spring leaves.\nPowers:\nNature's Grace: Grants a +5 competence bonus to Acrobatics.Renewal: Increases Land and Swim speed by 10.History: Worn by Fern Meadowbloom, the group's healer, this cloak symbolizes renewal and growth, aiding her in tending to her companions' injuries."
+    },
+    {
+      "name": "Scroll of Haste",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast "
+    },
+    {
+      "name": "Scroll of Neutralize Poison",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You detoxify any sort of venom in the creature or object touched. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each poison affecting the target. Success means that the poison is neutralized. A cured creature suffers no additional effects from the poison, and any temporary effects are ended, but the spell does not reverse instantaneous effects, such as hit point damage, temporary ability damage, or effects that don't go away on their own."
+    },
+    {
+      "name": "Coffee",
+      "type": "loot",
+      "equipped": false,
+      "description": "Coffee, a popular hot beverage, is primarily served by taverns in the early mornings, offering commoners a much needed energy boost for the day ahead. The process involves grinding coffee beans into a fine powder, which is then added to a kettle with water. Once the mixture begins to foam and boil, it is served, often accompanied by additional sugar or milk."
+    },
+    {
+      "name": "Phase Spider Bracers",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This enchanted silver bracer is made in the shape of a phase-spider, a deadly monster that is able to enter and exit the ethereal realm at will.\nIt provides the wearer with several benefits.\nDefense:\nFunctions as bracers of armor +2\nPowers:\nCasts Feather Fall on the wearer automatically, extending silken webs in all directions if they suddenly fall. These webs are only semi-tangible and can only be touched or cut by a creature sensitive to ethereal travel. They disappear after the wearer stops f"
+    },
+    {
+      "name": "Lindela",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Inscribed in Osiriani on this ring is the quote \"Never interupt your enemy when they are making a mistake.\"\n\nThis +2 ring of protection has a unique tactical power in addition to its defensive qualities. When the wearer casts a spell against a target that fails their will-save, the wearer can instantly cast a defensive buff spell on themselves if they can do so without verbal or somatic components."
+    },
+    {
+      "name": "Headband of Smart Kate +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This attractive silver headband is decorated with a number of small red and orange gemstones.\nThe headband grants the wearer an enhancement bonus to Charisma of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn.\nConstructionRequirements Craft Wondrous Item, Eagle's Splendor; Cost 2,000 gp"
+    },
+    {
+      "name": "Amulet of Natural Armor +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet.\nConstructionRequirements Craft Wondrous Item, barkskin, creator's caster level must be at least three times the amulet's bonus; Cost 4,000 gp"
+    },
+    {
+      "name": "Wand of Mount, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (summoning); Level arcanist 2, magus 2, occultist 2, sorcerer 2, summoner 2, summonerUnchained 2, witch 2, wizard 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M (a bit of horse hair)\n\n  \n\n  \n  Range 30 ft\n\n  \n  \n  Effect up to six mounts\n\n  Duration 2 hours/level\n\n    Saving Throw None;\n    Spell Resistance no\n    \n\n  \n\nThis spell functions like mount, except you can summon up to six light horses or ponies, and you divide the duration in 2-hour increments among the"
+    },
+    {
+      "name": "Ustalav Marshal Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Enchantique Starter Kit",
+      "type": "container",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Disguise Self",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Illusion (glamer); Level alchemist 1, antipaladin 1, arcanist 1, bard 1, inquisitor 1, investigator 1, medium 1, mesmerist 1, occultist 1, psychic 1, skald 1, sorcerer 1, wizard 1; Domain Trickery 1; Bloodline Div 1, Nanite 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 10 min./level\n\n  \n\nYou make yourself--including clothing, armor, weapons, and equipmen--look different. You can seem 1 foot shorter or taller, thin, fat, o"
+    },
+    {
+      "name": "Kerchief of Remembrance",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source: Heroes Of The High Court\nThis favor is a simple checked kerchief worn around the arm or wrist. For 1 week, the recipient can automatically call to mind  a detailed recollection of the presenter's features, even if his memory has been impaired or modified (such as by modify memory). In addition, the recipient can take a standard action to know the presenter's status in the same manner that the presenter can take a standard action to know the recipient's status.\nRequirementsCraft Wondrous "
+    },
+    {
+      "name": "Potion of Remove Curse",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Abjuration; Level adept 3, alchemist 3, arcanist 4, bard 3, cleric 3, inquisitor 3, investigator 3, medium 3, mesmerist 3, oracle 3, paladin 3, shaman 3, skald 3, sorcerer 4, spiritualist 3, warpriest 3, witch 3, wizard 4; Domain Liberation 3; Bloodline Celestial 4\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature or object touched\n\n  \n  Duration Instantaneous\n\n  \n\nRemove curse can remove all curses on an object or a creature. If the tar"
+    },
+    {
+      "name": "Scroll of Protection from Evil",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.\nFirst, the subject gains a +2 deflection bonus to AC and a +2 resistance bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures.\nSecond, the subject immediately receives another saving throw (if one was allowe"
+    },
+    {
+      "name": "Black Maw Codex",
+      "type": "loot",
+      "equipped": true,
+      "description": "The Black Maw Codex is an ancient and abhorrent grimoire, its origins lost to the countless civilizations it has destroyed. Bound in a leathery, unnatural hide and adorned with a grotesque, tentacled visage that seems to shift when unobserved, the book exudes an aura of unspeakable dread. The eyes embedded in its cover glow faintly when in the presence of those foolish enough to seek its power.\nPowers & EffectsSummon the Unknowable: Once per day, a spellcaster can attempt to summon an Ancient Ho"
+    },
+    {
+      "name": "Hell's Hot Cocoa",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Glitterdust",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A cloud of golden particles covers everyone and everything in the area, causing creatures to become blinded and visibly outlining invisible things for the duration of the spell. All within the area are covered by the dust, which cannot be removed and continues to sparkle until it fades. Each round at the end of their turn blinded creatures may attempt new saving throws to end the blindness effect.\nAny creature covered by the dust takes a -40 penalty on Stealth checks."
+    },
+    {
+      "name": "Decap A Tater 3.0",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This blade is forged of a Glaucite alloy that is beyond modifcation by most smithies in the Inner Sea. Scrying spells cast upon it indicate it is over 7000 years old and does not originate on Golarion.\nThe blade has an unknown power-source and radiates no magic or external energy at all until swung or thrust in skillful use. The blade exhibits a soft blue-white glow while in use but this effect is not bright enougt to be seen any distance away.\nIt functions as a +1 keen Wakazashi or Shortsword. "
+    }
+  ]
+}

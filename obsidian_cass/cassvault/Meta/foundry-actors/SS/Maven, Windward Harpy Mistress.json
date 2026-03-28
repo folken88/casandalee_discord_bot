@@ -1,0 +1,96 @@
+{
+  "name": "Maven, Windward Harpy Mistress",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Monstrous Humanoid",
+  "classes": [
+    {
+      "name": "Monstrous Humanoid",
+      "level": 1
+    },
+    {
+      "name": "Rogue (Unchained)",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 74
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 18,
+    "con": 12,
+    "int": 12,
+    "wis": 13,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Brooch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Brooch is a decorative jewelry item designed to be attached to garments, to fasten them together. It is usually made of metal, silver or gold or some other material, like clay. Brooches are frequently decorated with silver strands or with gemstones and may be solely for ornament and it can also serve a function as a clothes fastener."
+    },
+    {
+      "name": "Dragon Heart",
+      "type": "loot",
+      "equipped": false,
+      "description": "Dragon Heart is a pendant fit for an emperor, a masterpiece typically accompanied by its counterpart, the Dragon's Eyes earrings. The jewelry pieces are crafted from the same rare gemstone sharing the Dragon Heart name. Due to the gem's extreme rarity, only the most famous gem cutters and jewelers are permitted to cut and set these stones. The work made transforms raw rarity into symbols of godlike power."
+    },
+    {
+      "name": "Agate",
+      "type": "loot",
+      "equipped": false,
+      "description": "The agate ring is rumored to attract wealth and prosperity. This belief may stem from Druidic traditions, which hold that the agate stone shares a strong connection and bond with the surrounding earth. Among the highest class of commoners, however, there exists a strict code of conduct regarding which finger and hand the agate gem should be worn on, a practice that changes depending on the day."
+    },
+    {
+      "name": "Gold Bangle",
+      "type": "loot",
+      "equipped": false,
+      "description": "Gold Bangle is a bracelet crafted from pure gold, designed to symbolize the highest class of nobility and the pinnacle of societal status. Forged by skilled blacksmiths using precise molds, each piece is then handed over to renowned goldsmiths who meticulously finish it with ornate detailing. These bangles are typically priced highly, which makes them frequent targets for thieves and swindlers seeking to profit from their value."
+    },
+    {
+      "name": "Bolt +1",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Harpy Feathers",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Harpy Feathers are prized for their unique magical properties that make them an essential component in the creation of various magic items, particularly those involving transformation and enchantment magics. Harvested from the mystical harpies that dwell in the high cliffs and isolated regions, these feathers possess a shimmering quality and are often threaded through with varying hues of blue and green. Alchemists and enchanters alike seek after these feathers for their ability to augment potio"
+    },
+    {
+      "name": "Chelish Scout Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Chelish Scout Chain Shirt is a finely crafted piece of armor, renowned for its exquisite design and bronze sheen that catches the light with every movement. Fashioned in Cheliax, this chain shirt is not just a protective garment but a work of art, designed for those who blend into society with both style and function. It provides excellent protection while allowing for mobility, ideal for scouts exploring the dense forests and treacherous terrains of the region.\nAura: faint transmutation\nCas"
+    },
+    {
+      "name": "Silver Goblet",
+      "type": "loot",
+      "equipped": false,
+      "description": "Silver goblets, along with other pieces such as plates, platters, cutlery, and eating utensils, are ever-present in a noble household. These items are often commissioned in bulk, typically from a dedicated smithy or the local blacksmith. In most cases, the noble provides the silver ingots required for the commission, having full control over the final product."
+    },
+    {
+      "name": "Copper Band",
+      "type": "loot",
+      "equipped": false,
+      "description": "This simple metal ring is made out of copper. It's a great metal for making jewelry due to its ease of molding, durability, and unique reddish-brown color. Commoners attuned to spiritual practices often wear it with a strong belief, feeling it actively channels positive energy and attracts good fortune into their lives."
+    },
+    {
+      "name": "Dragon Eyes",
+      "type": "loot",
+      "equipped": false,
+      "description": "Dragon's Eyes are simple, yet gorgeous pieces of jewelry. These earrings are typically crafted as a pair that accompany a necklace and are bestowed exclusively upon royalty, traditionally during coronation ceremonies. The intricate craftsmanship required for these earrings is entrusted only to the most renowned gem cutters and jewelers. In the glint of the jewels, when light strikes them just so, some speculate that the watchful eye of an actual dragon might be glimpsed."
+    },
+    {
+      "name": "Maven's Precision",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Maven's Precision is a darkwood heavy crossbow with intricate carvings of harpies swirling around its limbs, their wings extending towards the drawstring. This weapon once belonged to Maven, a renowned harpy sniper in the south Shackles, who was feared for her deadly precision and her ability to pick off foes distracted by her sisters' enchanting songs."
+    }
+  ]
+}

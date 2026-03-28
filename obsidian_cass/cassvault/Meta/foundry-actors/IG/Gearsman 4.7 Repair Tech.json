@@ -1,0 +1,38 @@
+{
+  "name": "Gearsman 4.7 Repair Tech",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Divinity Construct",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 87
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 16,
+    "con": 20,
+    "int": 10,
+    "wis": 11,
+    "cha": 1
+  },
+  "items": [
+    {
+      "name": "Tool Slam",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This weapon consists of a wooden haft and a heavy, metal head. The head may be single (like a carpenter’s hammer) or double (like a sledgehammer). The haft is long enough that you may wield it one- or two-handed. Though heavy and relatively slow to wield, warhammers are capable of delivering immense blows, crushing armor and flesh alike."
+    },
+    {
+      "name": "My New Red Eye",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

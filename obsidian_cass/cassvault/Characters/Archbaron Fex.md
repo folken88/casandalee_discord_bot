@@ -1,19 +1,22 @@
 ---
 name: "Archbaron Fex"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["HV"]
-mentions: 3
-tags: ["character", "npc", "hv"]
+tags: ["character"]
+created: ""
+updated: "2026-03-28T02:33:08.484Z"
 ---
 
 # Archbaron Fex
 
-**Type:** NPC
-**Campaigns:** HV
-**Mentions:** 3 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Captured by the party and interrogated at the safe house. *(youtube-transcript, 3/28/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

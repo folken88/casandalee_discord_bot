@@ -1,21 +1,21 @@
 ---
 name: "Jabari"
 type: character
+campaign: CC
 race: "Human"
-class: "Monk (Unchained) / Bloodrager"
-level: 4
-player: "Ulfred"
-aliases: []
-tags: ["character", "pc", "pc"]
-created: "2026-02-25T00:00:00.000Z"
-updated: "2026-02-25T00:00:00.000Z"
+class: "Bloodrager 2 / Monk (Unchained) 1"
+hp: 23
+tags: ["character", "npc", "cc"]
+foundry_synced: "2026-03-28"
 ---
 
 # Jabari
 
-**Race:** Human | **Class:** Monk (Unchained) / Bloodrager | **Level:** 4 | **Player:** Ulfred
+**Race:** Human | **Class:** Bloodrager 2 / Monk (Unchained) 1 | **HP:** 23
+**STR** 16 | **DEX** 14 | **CON** 13 | **INT** 10 | **WIS** 10 | **CHA** 15
 
-HP 60/60 | Human Monk (Unchained) / Bloodrager | Level 4
+## Key Equipment
+- **Chelish Officer's Sword** (weapon, equipped) — A finely crafted Greatsword in the Chelish style.
 
 ## Session Appearances
 

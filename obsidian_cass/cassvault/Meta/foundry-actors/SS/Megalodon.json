@@ -1,0 +1,25 @@
+{
+  "name": "Megalodon",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Animal",
+  "classes": [
+    {
+      "name": "Animal (Aquatic)",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 165
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 15,
+    "con": 17,
+    "int": 1,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": []
+}

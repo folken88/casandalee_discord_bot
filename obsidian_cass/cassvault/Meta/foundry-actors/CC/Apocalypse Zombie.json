@@ -1,0 +1,25 @@
+{
+  "name": "Apocalypse Zombie",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Undead (Incorporeal)",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 26
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 14,
+    "con": 0,
+    "int": 0,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": []
+}

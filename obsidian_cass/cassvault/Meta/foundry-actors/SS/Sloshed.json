@@ -1,0 +1,183 @@
+{
+  "name": "Sloshed",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Gloomgrape",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Experience the highs and lows that can only come from a wine aged in barrels made from trees splattered with the blood of demonic soldiers infected with an eternal curse. \nGloomgrape, you'll be sad you did!"
+    },
+    {
+      "name": "Supple, A Wine By Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Calvin Carpenter's finest line of dry white wines, made from the finest potatoes from exclusive farms in Ravounel, has a name - Supple.\nEnjoy a glass of premium and refined flavor.\nSavor the taste and aroma of the rich, earthy notes in each bottle, expertly crafted from the finest ingredients. Raise a glass of Supple, the epitome of luxury and refinement."
+    },
+    {
+      "name": "Orc Trail Rations",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 1 gp; Weight 1 lb.\nCategory Food/Drink\nDescriptionA typical orc trail ration consists of coarse black bread, thin sausages as hard as leather that must be chewed slowly to soften them, dried meat of uncertain origin, and pungent peppers. If you are an orc or half-orc who subsists on nothing but these rations for at least 1 week, you add +2 to the DC to resist any Intimidate checks you make. This bonus lasts until you eat a meal other than the rations or go "
+    },
+    {
+      "name": "La Calstroix Bottle",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A bottle of sparkling water from La Calstroix river in Shudderwood."
+    },
+    {
+      "name": "Milk",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 5 cp; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionMilk is a nutritious liquid created by mammals, in particular cows, goats, sheep, and horses. Fresh milk is thick and tends to separate. Often, the cream is allowed to rise to the top and then skimmed off, with the remainder served as a beverage."
+    },
+    {
+      "name": "Street Meat",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 1 cp; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionUsually sold by vendors on a thin wooden stick, these small chunks of cooked meat often come from many different sorts of creatures-rats and pigeons are the most common."
+    },
+    {
+      "name": "Gnome Trail Rations",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 2 gp; Weight 1 lb. \nCategory Food/Drink\nDescriptionAlmost any preserved food can be found in gnome trail rations, which are designed to keep a wandering gnome from needing to dine on the same meal twice in a week. If you are a gnome who subsists on nothing but these rations for at least 1 week, you are treated as being 1 Hit Die higher for the purposes of spells and supernatural abilities that have variable effects based on Hit Dice, such as color spray and"
+    },
+    {
+      "name": "Abby's Own, Royal Vodka",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Bottled in the historic docks district of Egorian, this fine spirit is rumored to be a favorite of Queen Abrogail II, ruler of Cheliax!\nEnhance yourself, enhance your life, with Abby's Own!"
+    },
+    {
+      "name": "Elven Trail Rations",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 2 gp; Weight 1 lb.\nCategory Food/Drink\nDescriptionElves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts. If you are an elf who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the Endurance feat. This benefit lasts until you eat a meal other than the rations or go for a fu"
+    },
+    {
+      "name": "Jung Nuggit",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Calms the nerves and yet makes one paranoid. Smoking this stinky-finger grants +4vs Mind Affecting attacks, +4 Sense Motive, -10 Initiative, and incites rambling discourse. Lasts 1d3+2 hours."
+    },
+    {
+      "name": "Corentyn Wine",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Adventurer's Armory pg. 19\nPrice 15 gp/bottle; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionRed and white wines grown in the salt spray of Corentyn have a sweet-tart flavor valued by nobles throughout Cheliax."
+    },
+    {
+      "name": "Belladona",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Used by Cheliax as a biological weapon to contaminate their enemies food reserves, this herb causes 1d2 STR damage but allows a new save vs Curse of Lycanthropy."
+    },
+    {
+      "name": "Mead (Mug)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice  2 gp (gallon),  5 cp (mug); Weight 8 lbs. (gallon), 1/2 lb. (mug)\nDescriptionThis alcoholic beverage is made by fermenting honey and water. It may be flavored with spices, fruit, or hops."
+    },
+    {
+      "name": "Blood Caimon Tacos",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners!\nEnjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes."
+    },
+    {
+      "name": "Face Crepes",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Crepes made in the shape of a face, in homage to the face-stealing skin-killers of Lepidstadt that were never caught!"
+    },
+    {
+      "name": "Caydenbrew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Adventurer's Armory pg. 19\nPrice 5 cp/mug; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionThis ale is the standard beer drunk in Absalom. The recipe was said to be the last beer Cayden Cailean had before he undertook the Test of the Starstone. The hops for this beer were originally grown on the Isle of Kortos, but the massive brewery now imports from Andoran and Taldor."
+    },
+    {
+      "name": "Trail Rations",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95, PRPG Core Rulebook pg. 158\nPrice 5 sp; Weight 1 lb.\nCategory Food/Drink\nDescriptionThe listed price is for a day's worth of food. This bland food is usually some kind of hard tack, jerky, and dried fruit, though the contents vary from region to region and the race of those creating it. As long as it stays dry, it can go for months without spoiling."
+    },
+    {
+      "name": "Whispered Courage Whiskey",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Drink the blood of heroes.\"Whispered Courage is aged in barrels made from pines cut from the Stoneheart Massacre Glade.This powerful spirit grants +4 vs fear saves for 1 hour. The bonus is doubled if an ally who also drank the whiskey is threatened within your sight."
+    },
+    {
+      "name": "Wack Juce",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Refreshingly intoxicating, Wack Juce is made with the finest synthetic oranges in Numeria, and the 3rd finest potato vodka in the world: Smashka Noble!\nEnjoy this sweet and soothing taste of home, you can almost hear the anthem of the Fatherland as you slurp!"
+    },
+    {
+      "name": "Beast Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This bubbling and glowing beverage tastes like a thick dark ale. While sipping, one can hear the authentic 'Call of the Beast of Lepidstadt' from somewhere out in the Northern Swamps where the creature still lurks today, waiting for his next victim!"
+    },
+    {
+      "name": "Halfling Trail Rations",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 2 gp; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionA day's worth of halfling trail rations is actually more than what a typical adventuring halfling eats in a day-a full belly strengthens a halfling's resolve. Common foods include sweetened dried fruit, aged sausage, hard sharp cheese, honey cakes, and a mixture of roasted grains, nuts, and molasses. If you are a halfling who subsists on nothing but these rations for at least 1 week, you reduce the penalty"
+    },
+    {
+      "name": "Nutonia, Luxury Spread by Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Nutonia, Luxury Spread by Calvin Carpenter\nSmear refinement in paste-form across the bread of your life. Nutonia is a nut butter made from the sack of the most robust harvest of Taldania-nuts. Taste the nut of a generational-talent."
+    },
+    {
+      "name": "Yogurt",
+      "type": "consumable",
+      "equipped": true,
+      "description": "YogurtSource Ultimate Equipment pg. 95\nPrice  1 sp; Weight  1/2 lb.\nCategory Food/DrinkDescriptionThis thick, fermented milk has a tangier taste than unprocessed milk. It may be sweetened with fruit, honey, or jam; blended with chopped herbs and oil to create a sauce; or mixed with water and salt, sugar, fruit, or mint as a drink."
+    },
+    {
+      "name": "Dwarven Trail Rations",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 2 gp; Weight 1-1/2 lbs.\nCategory Food/Drink\nDescriptionDwarven trail rations consist of smoked sausages and salted meat, rounded out with hard biscuits and dried vegetables. If you are a dwarf who subsists on nothing but these rations for at least 1 week, you can hustle or make a forced march for an additional hour without ill effects, but cannot do both in the same day. This benefit lasts until you eat a meal other than the rations or go for a full day wit"
+    },
+    {
+      "name": "Brow Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town.\n@JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}"
+    },
+    {
+      "name": "Sealord Wine (Bottle)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 15 gp; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionThese red and white wines grown in certain coastal vineyards have a sweet-tart flavor valued by nobles in many lands."
+    },
+    {
+      "name": "Desert Coffee",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This particularly strong coffee is popular throughout the desert empires. A morning cup is a good cure for lack of rest, but many find that it becomes a habit.\nType ingested; Addiction minor, Fortitude DC 12\n8 hours; user ignores the effects of the fatigued condition.\nAfter 8 hours; the user becomes exhausted, which is reduced to fatigued only after at least 8 hours of rest (instead of 1 hour).\n1 Wis damage"
+    }
+  ]
+}

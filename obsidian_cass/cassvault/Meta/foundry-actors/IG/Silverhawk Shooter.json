@@ -1,0 +1,44 @@
+{
+  "name": "Silverhawk Shooter",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Gunslinger",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 28
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 17,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Makeshift Longsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 15 gp Weight 4 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis sword is about 3-1/2 feet in length."
+    },
+    {
+      "name": "Silverhawk Bolty",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scrap Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Ultra-lite and a perfect fit."
+    }
+  ]
+}

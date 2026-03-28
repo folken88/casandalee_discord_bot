@@ -1,0 +1,60 @@
+{
+  "name": "Tidewater Marksman",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Seaman",
+      "level": 1
+    },
+    {
+      "name": "Town Guard",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Tidewater Shipbreaker",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Combat pg. 162\nStatisticsDamage 6d6; Critical x4; Range 100 ft.; Type B and P\nCrew 2; Aim 1; Load 3; Speed 10 ft.\nCategory Direct-Fire (Large); Proficiency Siege Engine\nDescriptionCannons are crafted of metal-some are cast in one piece, others welded with iron bands-and mounted either in the ground or on wooden frames. Cannons use black powder to propel their projectiles with great force. A cannon has a misfire range of 1 (20 feet). Cannons have a hardness of 10 and 70 hit points"
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This short, curved sword is favored by seafarers for closequarters combat. It is treated as a scimitar for any effects that apply to scimitars."
+    },
+    {
+      "name": "Firearm Bullet",
+      "type": "loot",
+      "equipped": false,
+      "description": "The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound."
+    },
+    {
+      "name": "Tidewater 1-tap",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Tidewater 1-TapMasterwork Lever-Action Rifle\nPrice: 550 gp; Weight: 8 lbs.\nRange: 120 ft.; Damage: 1d10 piercing; Critical: 20/x3; Capacity: 1\nCrafted in the gunworks of Alkenstar, the Tidewater 1-Tap is a masterwork lever-action rifle built for reliability, precision, and ease of use. Commissioned for the steadfast town guards of Tidewater Rock, this rifle has earned its name from the deadly efficiency of its wielders—one shot, one kill.\nWhile it lacks advanced optics, the guards of Tidewater R"
+    }
+  ]
+}

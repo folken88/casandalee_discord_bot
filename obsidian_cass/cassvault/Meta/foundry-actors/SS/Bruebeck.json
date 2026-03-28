@@ -1,0 +1,25 @@
+{
+  "name": "Bruebeck",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Half-Elf",
+  "classes": [
+    {
+      "name": "Seaman",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 23
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 16,
+    "cha": 11
+  },
+  "items": []
+}

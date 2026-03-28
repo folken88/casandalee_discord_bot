@@ -1,0 +1,25 @@
+{
+  "name": "Sumo Champion",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Monk (Unchained)",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 76
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 10,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": []
+}

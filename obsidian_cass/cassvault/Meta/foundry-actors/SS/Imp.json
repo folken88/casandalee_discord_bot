@@ -1,0 +1,25 @@
+{
+  "name": "Imp",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "outsider (devil,evil,extraplanar,lawful)",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 36
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 18,
+    "con": 14,
+    "int": 18,
+    "wis": 9,
+    "cha": 12
+  },
+  "items": []
+}

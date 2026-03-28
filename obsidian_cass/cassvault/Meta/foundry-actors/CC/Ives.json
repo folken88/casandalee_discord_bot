@@ -1,0 +1,38 @@
+{
+  "name": "Ives",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Investigator",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 3
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 8,
+    "con": 8,
+    "int": 18,
+    "wis": 14,
+    "cha": 9
+  },
+  "items": [
+    {
+      "name": "Outfit, Scholar's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PZO1110\n\nPerfect for a scholar, this outfit includes a robe, a belt, a cap, soft shoes, and possibly a cloak."
+    },
+    {
+      "name": "Ives's CP-USS Badge, Officer",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

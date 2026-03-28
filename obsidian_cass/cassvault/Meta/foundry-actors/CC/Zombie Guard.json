@@ -1,0 +1,50 @@
+{
+  "name": "Zombie Guard",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 16
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 10,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Longsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 15 gp Weight 4 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis sword is about 3-1/2 feet in length."
+    },
+    {
+      "name": "Longspear",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 5 gp Weight 9 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type P; Special brace, reach\nCategory Two-Handed; Proficiency Simple\nWeapon Groups Spears\nDescriptionA longspear is about 8 feet in length."
+    },
+    {
+      "name": "Chainmail MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Unlike a chain shirt, which covers only the chest, chainmail protects the wearer with a complete mesh of chain links that cover the torso and arms, and extends below the waist. Multiple interconnected pieces offer additional protection over vital areas. The suit includes gauntlets."
+    },
+    {
+      "name": "Heavy Wooden Shield",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A heavy wooden shield is essentially the same as a heavy steel shield, except that it responds differently to some spells and effects (such as rusting grasp). A druid can use a heavy wooden shield, but not a heavy steel shield."
+    }
+  ]
+}

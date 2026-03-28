@@ -1,0 +1,44 @@
+{
+  "name": "Nidal Soldier",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 68
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Heavy Steel Shield +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "You strap a heavy steel shield to your forearm and grip it with your hand. A heavy steel shield is so heavy that you can’t use your shield hand for anything else. Whether wooden or steel, a heavy shield offers the same basic protection and attack benefits, though the two versions respond differently to some spells and effects (such as rusting grasp). A druid can use a heavy wooden shield, but not a heavy steel shield."
+    },
+    {
+      "name": "Longsword +1",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This sword is about 3½ feet in length.\n\nEastern Version: Hwandudaedo This heavy sword consists of large straight blade with a thick back and wickedly sharpened edge. It is equivalent to a longsword."
+    },
+    {
+      "name": "Full Plate +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    }
+  ]
+}

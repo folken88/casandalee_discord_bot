@@ -1,0 +1,32 @@
+{
+  "name": "\"Caulky\" Tarroon",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Rogue (Knife Master)",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 50
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 14,
+    "int": 13,
+    "wis": 8,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 2 gp Weight 1 lb.\nDamage 1d3 (small), 1d4 (medium); Critical 19-20/x2; Range 10 ft.; Type P or S; Special -\nCategory Light; Proficiency Simple\nWeapon Groups Blades, Light; Thrown; Tribal\nDescriptionA dagger is a fighting knife. Its blade is usually less than 1 foot long, and can be curved or straight, with one edge or two. Dagger designs vary widely, and can have many different names (such as a thrusting dagger being cal"
+    }
+  ]
+}

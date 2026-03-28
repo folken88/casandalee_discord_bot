@@ -1,0 +1,72 @@
+{
+  "name": "Rosie Cusswell",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Halfling",
+  "classes": [
+    {
+      "name": "Swashbuckler (Mouser)",
+      "level": 6
+    },
+    {
+      "name": "Rogue (Unchained)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 82
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Rapier",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 20 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type P; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Light\nDescriptionYou can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn't a light weapon. You can't wield a rapier in two hands in order to apply 1-1"
+    },
+    {
+      "name": "Chelish Scout Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Chelish Scout Chain Shirt is a finely crafted piece of armor, renowned for its exquisite design and bronze sheen that catches the light with every movement. Fashioned in Cheliax, this chain shirt is not just a protective garment but a work of art, designed for those who blend into society with both style and function. It provides excellent protection while allowing for mobility, ideal for scouts exploring the dense forests and treacherous terrains of the region.\nAura: faint transmutation\nCas"
+    },
+    {
+      "name": "Buckler",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a –1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you"
+    },
+    {
+      "name": "Sling",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 142, Ultimate Equipment pg. 17\nStatisticsCost - Weight -\nDamage 1d3 (small), 1d4 (medium); Critical x2; Range 50 ft.; Type B; Special -\nCategory Ranged; Proficiency Simple\nWeapon Groups Thrown\nDescriptionA sling is little more than a leather cup attached to a pair of strings. Your Strength modifier applies to damage rolls when you use a sling, just as it does for thrown weapons. You can fire, but not load, a sling with one hand. Loading"
+    },
+    {
+      "name": "Belt Pouch",
+      "type": "container",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 56\nPrice 1 gp; Weight 1/2 lb.\nCategory Adventuring Gear\nDescriptionA typical leather or cloth belt pouch has a leather cord to cinch it shut and another to tie it to your belt. It is large enough to hold 100-200 coins or two apples."
+    },
+    {
+      "name": "Scarf",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 89, Adventurer's Armory pg. 19, Varisia, Birthplace of Legends pg. 15\nPrice  1 sp-5 gp; Weight  1/2 lb.\nCategory Clothing\nDescriptionEntertainers often employ seductive garb and entrancing props in their performances. Scarves of colorful cloth or transparent silk, often embroidered with elaborate scenes or motifs, are favorite accessories."
+    },
+    {
+      "name": "Silver Drinking Stein",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice 25 gp; Weight 1 lb.\nCategory Adventuring Gear\nDescriptionWhether it is a simple pottery cup or an elaborate drinking stein with a handle and decorative lid that flips up, this cup may be used to hold any sort of beverage. Tankards are commonly made out of clay or tin."
+    }
+  ]
+}

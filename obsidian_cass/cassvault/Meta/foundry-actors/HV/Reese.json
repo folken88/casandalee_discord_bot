@@ -1,0 +1,148 @@
+{
+  "name": "Reese",
+  "type": "character",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Strix",
+  "classes": [
+    {
+      "name": "Arcane Archer",
+      "level": 6
+    },
+    {
+      "name": "Ranger",
+      "level": 7
+    },
+    {
+      "name": "Wizard",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 104
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 14,
+    "int": 13,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Wand of Shield",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Shield creates an invisible shield of force that hovers in front of you. It negates magic missile attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no armor check penalty or arcane spell failure chance."
+    },
+    {
+      "name": "Potion of Cure Critical Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 4d8 points of damage + 1 point per caster level (maximum +20)."
+    },
+    {
+      "name": "Fire-Forged Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "An enchanted dagger made in the dwarven fashion as a skinning knife. It is immune to fire and acid, and functions as a +2 dagger."
+    },
+    {
+      "name": "Boots of Stealth",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Cloak of Resistance +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura strong abjuration; CL 12th\n\nThis garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Amulet of Natural Armor +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura moderate transmutation; CL 9th\n\nThis amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Headband of Vast Intelligence +6",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This intricate gold headband is decorated with several small blue and deep purple gemstones.\n\nThe headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer’s total Hit Dice. These ranks do no"
+    },
+    {
+      "name": "Stormcaller",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Stormcaller, Ancient Elven Longbow+1 of shocking burstThis blue-steel longbow is made in the elven style and has elven runes written down it's sides above and below the handle. The runes nearest the handle give off a faint blue glow when first picked up by a new wielder, and represent it's magical bonus and shock damage abilities. Many other runes appear in a dull grey hue with no glow along it's length, but they can be activated through use and experience with the weapon.The largest rune is nea"
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura moderate abjuration; CL 6th\n\nThis ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 5th\n\nSpell Description\nWhen laying your hand upon a living creature, you channel positive energy that cures 3d8 points of damage +1 point per caster level (maximum +15). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Scimitar +2",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This curved sword is shorter than a longsword and longer than a shortsword. Only the outer edge is sharp, and the back is flat, giving the blade a triangular cross-section."
+    },
+    {
+      "name": "Spellbook",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n\r\nA spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells).\n\r\nCompact Spellbook The need to be able to record and travel with dozens or even hundreds of spells often forces some wizards to seek lighter spellbooks. Compact spellbooks hold only 70 pages of spells, but they weigh significantly less than an ordinary spellbook. Source PZO1121\n\r\nTraveling Spellbook A traveling spellbook is lighter and less cumbersome tha"
+    },
+    {
+      "name": "Belt of Dexterity +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Tools, Thieves' (Masterwork)",
+      "type": "loot",
+      "equipped": false,
+      "description": "This kit contains lockpicks and other tools you need to use the @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} checks.\n\nThis kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} checks."
+    },
+    {
+      "name": "Ring of Wizardry I",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This special ring comes in four varieties, all of them useful only to arcane spellcasters. The wearer’s arcane spells per day are doubled for one specific spell level. A ring of wizardry I doubles 1st-level spells, a ring of wizardry II doubles 2nd-level spells, a ring of wizardry III doubles 3rd-level spells, and a ring of wizardry IV doubles 4th-level spells. Bonus spells from high ability scores or school specialization are not doubled."
+    },
+    {
+      "name": "Bracers of Archery +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Mithral Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Efficient Quiver",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThis appears to be a typical arrow container capable of holding about 20 arrows. It has three distinct portions, each with a nondimensional space allowing it to store far more than would normally be possible. The first and smallest one can contain up to 60 objects of the same general size and shape as an arrow. The second slightly longer compartment holds up to 18 objects of the same general size and shape as a javelin. The third and longest portion of the case contains as many as 6 "
+    }
+  ]
+}

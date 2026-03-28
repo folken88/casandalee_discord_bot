@@ -1,0 +1,20 @@
+{
+  "name": "Gambling Devil (Magadaz)",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 13,
+    "con": 17,
+    "int": 14,
+    "wis": 10,
+    "cha": 19
+  },
+  "items": []
+}

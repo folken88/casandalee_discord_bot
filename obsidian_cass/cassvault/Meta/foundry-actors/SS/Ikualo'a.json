@@ -1,0 +1,32 @@
+{
+  "name": "Ikualo'a",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 14
+    }
+  ],
+  "hp": {
+    "max": 232
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 14,
+    "con": 20,
+    "int": 8,
+    "wis": 18,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Lo'a's Tattoos",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

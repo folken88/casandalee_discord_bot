@@ -1,0 +1,86 @@
+{
+  "name": "Deputy Charles",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Ranger",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 14
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 11
+  },
+  "items": [
+    {
+      "name": "Human Skull",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Mosswater Marauder",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 1 gp Weight 2 lbs.\nDamage 1d3 (small), 1d4 (medium); Critical x2; Range 20 ft.; Type B; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Hammers; Thrown\nDescriptionA lighter version of a warhammer, this weapon usually has a sleek metal head with one striking surface."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Composite Longbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsCost 100 gp Weight 3 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range 110 ft.; Type P; Special -\nCategory Ranged; Proficiency Martial\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier"
+    },
+    {
+      "name": "Deputy Charles's Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "+1 Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "The Lopper",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 6 gp Weight 3 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x3; Range -; Type S; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Axes; Tribal\nDescriptionThis one-handed axe is short (roughly 1 foot long) and designed for use with one hand. Unlike throwing axes, it is not well balanced for a graceful tumbling motion, and is instead heavier at its head. Tomahawks, war hatchets, and other such names usually re"
+    },
+    {
+      "name": "Rope (Silk, 50 Ft.)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PRPG Core Rulebook pg. 158\nPrice 10 gp; Weight 5 lbs.\nCategory Adventuring Gear\nDescriptionThis rope has 4 hit points and can be burst with a DC 24 Strength check."
+    }
+  ]
+}

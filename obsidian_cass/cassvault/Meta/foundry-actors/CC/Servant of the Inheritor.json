@@ -1,0 +1,38 @@
+{
+  "name": "Servant of the Inheritor",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Paladin",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 14
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 15
+  },
+  "items": [
+    {
+      "name": "Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    },
+    {
+      "name": "Inheritor's Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A masterfully crafted blade made in homage to the inheritor's own, from the time before her ascension. This blade functions as a holy symbol for any Lawful-Good Divine Caster."
+    }
+  ]
+}

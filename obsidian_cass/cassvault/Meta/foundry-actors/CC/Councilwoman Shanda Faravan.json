@@ -1,0 +1,25 @@
+{
+  "name": "Councilwoman Shanda Faravan",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Aristocrat",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 11,
+    "int": 12,
+    "wis": 12,
+    "cha": 14
+  },
+  "items": []
+}

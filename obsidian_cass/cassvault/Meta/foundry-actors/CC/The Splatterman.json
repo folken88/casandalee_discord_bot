@@ -1,0 +1,36 @@
+{
+  "name": "The Splatterman",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 1
+    },
+    {
+      "name": "Wizard",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 14
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 10,
+    "int": 18,
+    "wis": 14,
+    "cha": 18
+  },
+  "items": [
+    {
+      "name": "Hawkran Family Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This finely crafted weapon has gold plating around the pommel and guard with a folded steel blade. It strikes as cold-iron and is enchanted +1."
+    }
+  ]
+}

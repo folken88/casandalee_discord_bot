@@ -1,0 +1,24 @@
+{
+  "name": "Rock Crab",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Rock Crab",
+  "classes": [
+    {
+      "name": "Vermin",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 60
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 11,
+    "con": 18,
+    "wis": 10,
+    "cha": 2
+  },
+  "items": []
+}

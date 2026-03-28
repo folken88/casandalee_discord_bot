@@ -1,0 +1,25 @@
+{
+  "name": "Handsome Barkeep",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Half-Orc",
+  "classes": [
+    {
+      "name": "Expert",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 27
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 13,
+    "cha": 14
+  },
+  "items": []
+}

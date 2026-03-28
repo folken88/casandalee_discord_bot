@@ -1,0 +1,44 @@
+{
+  "name": "Scrapper For Hire",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Slayer",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 22
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Makeshift Scale Mail",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Scale mail is made up of dozens of small, overlapping metal plates. Similar to both splint mail and banded mail, scalemail has a flexible arrangement of scales in an attempt to avoid hindering the wearer’s mobility, but at the expense of omitting additional protective layers of armor. A suit of scale mail includes gauntlets."
+    },
+    {
+      "name": "Makeshift Longsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 15 gp Weight 4 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis sword is about 3-1/2 feet in length."
+    },
+    {
+      "name": "Makeshift Javelin",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A javelin is a thin throwing spear.\n\nSince a javelin is not designed for melee, you are treated as non-proficient with it and take a –4 penalty on attack rolls if you use a javelin as a melee weapon."
+    }
+  ]
+}

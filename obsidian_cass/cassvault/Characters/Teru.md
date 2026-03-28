@@ -8,18 +8,15 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T16:30:05.477Z"
+updated: "2026-03-28T02:07:41.205Z"
 ---
 
 # Teru
 
-HP 84/84 | Halfling Negotiator (Bard) | Level 8
-
 ## Notes & Updates
 
-- Mentioned as having high armor class that would lengthen combat duration *(youtube-transcript, 3/25/2026)*
+- Led a doomed expedition to the Scar of the Spider and returned with most of the team's badges for a bounty. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Hell's Vengeance - Fire & Water 2023 11 19
-A contract Devil who negotiates with the party about acquiring an adamantine fireproof skinning dagger. Discusses payment terms and contract conditions.
+*Session activity from YouTube transcripts will appear here.*

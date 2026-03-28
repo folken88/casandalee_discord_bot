@@ -1,0 +1,36 @@
+{
+  "name": "UEF Captain",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Drow Noble",
+  "classes": [
+    {
+      "name": "Magus",
+      "level": 9
+    },
+    {
+      "name": "Seaman",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 92
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 15,
+    "con": 14,
+    "int": 15,
+    "wis": 10,
+    "cha": 11
+  },
+  "items": [
+    {
+      "name": "Spellbook",
+      "type": "loot",
+      "equipped": false,
+      "description": "A spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells). A newly purchased spellbook contains no spells. A wizard character begins play with a spellbook containing the spells he knows."
+    }
+  ]
+}

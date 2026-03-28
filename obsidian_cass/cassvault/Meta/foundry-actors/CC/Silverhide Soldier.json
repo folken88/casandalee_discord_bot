@@ -1,0 +1,32 @@
+{
+  "name": "Silverhide Soldier",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Skinwalker",
+  "classes": [
+    {
+      "name": "Slayer",
+      "level": 11
+    }
+  ],
+  "hp": {
+    "max": 32
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 13,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Mithral Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    }
+  ]
+}

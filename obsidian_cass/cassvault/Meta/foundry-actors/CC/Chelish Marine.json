@@ -1,0 +1,44 @@
+{
+  "name": "Chelish Marine",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Gunslinger",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 44
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 14,
+    "int": 11,
+    "wis": 16,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Chain Shirt MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Chelish Service Saber",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Chelish Service Saber is the standard-issue melee weapon for trusted crew aboard Chelish naval vessels—such as boatswains, veteran navigators, and long-serving able seamen. It strikes a balance between form and function: simple enough to mass-produce for the imperial navy, but elegant enough to signal discipline and readiness.\nThis masterwork saber has a slightly curved steel blade, a modest but practical brass guard with minimal engraving, and a sturdy leather-wrapped hilt. While it lacks m"
+    },
+    {
+      "name": "Chelish Marine-Issue Long Gun",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This finely crafted flintlock long gun is the signature weapon of the Chelish Marines—the stern enforcers of order aboard imperial vessels and the first to spill blood during a boarding action. The rifle features a polished hardwood stock capped with gilded brass fittings and a long, rifled steel barrel designed for maximum stopping power at mid-range. Though not magical, its precision manufacturing and durability elevate it above common firearms.\nThese weapons are issued only to marines sworn t"
+    }
+  ]
+}

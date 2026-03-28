@@ -1,0 +1,25 @@
+{
+  "name": "Brogwort the Dim",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Monstrous Humanoid",
+      "level": 18
+    }
+  ],
+  "hp": {
+    "max": 154
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 14,
+    "con": 26,
+    "int": 8,
+    "wis": 12,
+    "cha": 6
+  },
+  "items": []
+}

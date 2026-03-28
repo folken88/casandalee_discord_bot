@@ -1,0 +1,32 @@
+{
+  "name": "Chief Justice Ambrose Khard",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Aristocrat",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 16,
+    "wis": 14,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Judge's Gavel",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Heroes from the Fringe pg. 8\nStatisticsCost 25 gp Weight 5 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range 10 ft.; Type B; Special -\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Hammers; Thrown\nDescriptionThe dwarven ram hammer is designed to be thrown or used in melee, with a long leather strap that is wrapped around the wrist when used to deliver blows in close combat but unfurled to aid in swinging the weapon when the hammer is thrown."
+    }
+  ]
+}

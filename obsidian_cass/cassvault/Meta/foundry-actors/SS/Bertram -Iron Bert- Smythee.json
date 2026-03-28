@@ -1,0 +1,60 @@
+{
+  "name": "Bertram \"Iron Bert\" Smythee",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Half-Elf",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 5
+    },
+    {
+      "name": "Duelist",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 110
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 17,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Tally Buckle",
+      "type": "equipment",
+      "equipped": false,
+      "description": "The Belt of the Duelist is a finely crafted accessory embellished with images of legendary swordfighters locked in eternal combat. It is said to have been commissioned by a famous duelist from Taldor, known for his mastery in swordplay and elusive maneuvers. This belt gleams with an opalescent sheen and seems to adjust seamlessly around the waist of its wearer, infusing them with a heightened sense of agility and perception.\nUpon defeat or successful riposte of a worthy opponent, cast Blur on th"
+    },
+    {
+      "name": "The Operative +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The tattoo grants the bearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.\nThe item also provides a +2 insight bonus to stealth.\nConstructionRequirements Craft Wondrous Item, Cat's Grace; Cost 2,500 gp"
+    },
+    {
+      "name": "Chelish Service Saber",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Chelish Service Saber is the standard-issue melee weapon for trusted crew aboard Chelish naval vessels—such as boatswains, veteran navigators, and long-serving able seamen. It strikes a balance between form and function: simple enough to mass-produce for the imperial navy, but elegant enough to signal discipline and readiness.\nThis masterwork saber has a slightly curved steel blade, a modest but practical brass guard with minimal engraving, and a sturdy leather-wrapped hilt. While it lacks m"
+    },
+    {
+      "name": "Spent Bullet",
+      "type": "loot",
+      "equipped": false,
+      "description": "a huge black-iron projectile  from some mystical or modern ranged weapon."
+    },
+    {
+      "name": "Tidewater Side Piece",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This ornate signet ring displays a beautiful scene of a crashing wave surrounded by ornate silver and pirate iconography. It is issued only to the current favored consort of Pirate Queen Lady Smythee of Tidewater Rock. Known colloquially as \"the Side Piece,\" it is both a badge of station and a subtle warning—its bearer enjoys the Lady’s favor for now.\nAll officers, staff, and soldiers sworn to Tidewater Rock recognize the ring and are instructed to treat its bearer as a valuable guest. This incl"
+    }
+  ]
+}

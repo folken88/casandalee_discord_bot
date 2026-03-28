@@ -1,0 +1,42 @@
+{
+  "name": "Fallen Ember",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 1
+    },
+    {
+      "name": "Antipaladin",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 30
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 15
+  },
+  "items": [
+    {
+      "name": "Greatsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsDamage 1d10 (small), 2d6 (medium); Critical 19-20/x2; Range -; Type S\nWeapon Groups Blades, Heavy\nDescriptionThis immense two-handed sword is about 5 feet in length. A greatsword may have a dulled lower blade that can be gripped."
+    },
+    {
+      "name": "Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    }
+  ]
+}

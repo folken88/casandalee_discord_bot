@@ -1,0 +1,87 @@
+{
+  "name": "Damn-Jewel Trade Tub",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Red Cherry Sticks",
+      "type": "loot",
+      "equipped": false,
+      "description": "Cherry sticks are a popular candy made from simple ingredients like sugar, starch, wheat flour, gelatin, and cherries. The combination of the chewy outer layer with the smooth, sweet middle creates a delightful treat for any young commoner."
+    },
+    {
+      "name": "Horn",
+      "type": "loot",
+      "equipped": false,
+      "description": "The horn is often regarded as the predecessor to both the trumpet and the cornet. While it is primarily made from brass, there are also variants crafted from bone, which are particularly favored in remote, cold, or mountainous regions. They can be used for music, drive for battles, or alarms."
+    },
+    {
+      "name": "Butter",
+      "type": "loot",
+      "equipped": false,
+      "description": "This classic dairy product, made by churning cream, is an essential ingredient in sweet and savory recipes. Used for its fat in baking, sauces, frying, or simply spread on warm toast, butter makes any dish taste amazing."
+    },
+    {
+      "name": "Artichoke",
+      "type": "loot",
+      "equipped": false,
+      "description": "The agave plant's four major edible parts include flowers, leaves, stalks or basal rosettes, and sap. A beverage is squeezed from baked fibers, and the heads can be baked or boiled, pounded into flat sheets, sun-dried, and stored for future use. The baked, dried heads are also boiled and processed into an edible paste, eaten whole, or incorporated into soups."
+    },
+    {
+      "name": "Red Sail Reserve",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Them sails wasn't always red.\"\n\nRed Sails Reserve is a bold, crimson wine known for its sharp, bracing flavor and faint smoky aftertaste, reminiscent of the fiery volcanic soil of Firegrass Island where its grapes are grown. The wine is a staple at Goatshead Port, where the iconic ship Red Courage protects the surrounding waters, ensuring safe trade and keeping smugglers and pirates in check.\nTavern keepers proudly display bottles of Red Sails Reserve, treating them as both a fine drink and a s"
+    },
+    {
+      "name": "Boiled Corn",
+      "type": "loot",
+      "equipped": false,
+      "description": "Young corn, before it fully matures, can be grilled or boiled with salt. This seasonal delicacy is available only before the corn's harvest and for a very limited time. It tends to be in high demand due to its delicious timed flavor."
+    },
+    {
+      "name": "Caydenbrew Teenie-Keg",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"One swig, one blessing, one tale to tell—or forget.\"\n\nCaydenbrew Teenie-Kegs are single-serving wooden kegs of Cayden Cailean’s iconic brew, blessed in his name and crafted for adventurers, rogues, and pirates who seek fortune, bravery, and maybe just a bit of luck. Compact and practical, they’re a common sight among the devout—or those who just like to party.\n\nLore\nBrewed with Blessings: Caydenbrew Teenie-Kegs are said to contain a drop of water from Cayden Cailean’s legendary Everlasting Tank"
+    },
+    {
+      "name": "Beowolf",
+      "type": "loot",
+      "equipped": true,
+      "description": "LO, praise of the prowess of people-kings\nof spear-armed Danes, in days long sped,\nwe have heard, and what honor the athelings won!\nOft Scyld the Scefing from squadroned foes,\nfrom many a tribe, the mead-bench tore,\nawing the earls. Since erst he lay\nfriendless, a foundling, fate repaid him:\nfor he waxed under welkin, in wealth he throve,\ntill before him the folk, both far and near,\nwho house by the whale-path, heard his mandate,\ngave him gifts: a good king he!\nTo him an heir was afterward born,"
+    },
+    {
+      "name": "Bale of Sleeping Dragon Tea",
+      "type": "consumable",
+      "equipped": true,
+      "description": "“One sip sends the mind drifting across the heavens; one cup, and you awaken a different person.”\nType: Ingested (steeped tea)Fort Save: DC 22Onset: 10 minutesDuration: 1 hour (plus lingering effects)Price: 1,500 gp per dose (sold as a luxury import from Tian Xia, but actually grown in the Shackles)\nEffectsThe drinker experiences vivid hallucinations of ancient battlefields, forgotten civilizations, and celestial dragons coiling through the sky.Gains +8 insight bonus on Knowledge (history, plane"
+    },
+    {
+      "name": "Mithral Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings.\nMithral\n\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well. Most mithral armors are one category lighter than normal for purposes of movement and other limitations. Heavy armors are treated as medium, and medium armors are treated as light, but light armors are still treated"
+    },
+    {
+      "name": "Brow Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town.\n@JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}"
+    }
+  ]
+}

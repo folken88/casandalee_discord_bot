@@ -1,0 +1,60 @@
+{
+  "name": "Sahuagin Brute",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Sahuagin",
+  "classes": [
+    {
+      "name": "Monstrous Humanoid (Aquatic)",
+      "level": 2
+    },
+    {
+      "name": "Barbarian (Unchained)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 44
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 15,
+    "con": 18,
+    "int": 12,
+    "wis": 11,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Harpoon",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, Pirates of the Inner Sea pg. 19, Skull and Shackles Player's Guide pg. 6\nStatisticsCost 5 gp Weight 16 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range 10 ft.; Type P; Special grapple, see text\nCategory Two-Handed; Proficiency Exotic\nWeapon Groups Spears; Thrown\nDescriptionA harpoon is a barbed spear with an attached rope 50 feet or less in length. Most harpoons have metal points, but some use ivory or are made entirely of wood. If you are proficient wi"
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell cures 1d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Rope (Silk, 50 Ft.)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PRPG Core Rulebook pg. 158\nPrice 10 gp; Weight 5 lbs.\nCategory Adventuring Gear\nDescriptionThis rope has 4 hit points and can be burst with a DC 24 Strength check."
+    },
+    {
+      "name": "Cloak Of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Money Pouch: 280 Gp",
+      "type": "container",
+      "equipped": true,
+      "description": "sbc | All currency carried was put into this container."
+    }
+  ]
+}

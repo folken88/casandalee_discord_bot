@@ -1,0 +1,90 @@
+{
+  "name": "Beetle Brewmaster",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Alchemist",
+      "level": 10
+    },
+    {
+      "name": "Aberration",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 56
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 12,
+    "int": 15,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Potion of Remove Disease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 3, Alchemist 3, Cleric 3, Druid 3, Hunter 3, Inquisitor 3, Investigator 3, Oracle 3, Ranger 3, Shaman 3, Spiritualist 3, Warpriest 3, Witch 3; Subdomain Restoration 2\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nDescriptionRemove disease can cure all diseases from which the subject is suffering. You must make a caster level check (1d20 + caster level) against"
+    },
+    {
+      "name": "Beetle Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "With the signature mauve taint of carrion hill beetle mash."
+    },
+    {
+      "name": "Potion of Displacement",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Illusion (Glamer); Level Alchemist 3, Arcanist 3, Bard 3, Investigator 3, Magus 3, Medium 3, Mesmerist 3, Occultist 3, Psychic 3, Skald 3, Sorcerer 3, Spiritualist 3, Summoner 3, Summoner (Unchained) 3, Wizard 3; Subdomain Protean 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, M (a small loop of leather)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration 5 Rounds\n\n  \n\nDescriptionThe subject of this spell appears to be about 2 feet away from its true location. The "
+    },
+    {
+      "name": "Potion of Rage",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Enchantment (Compulsion) [emotion and mind-affecting]; Level Alchemist 3, Arcanist 3, Bard 2, Bloodrager 3, Investigator 3, Mesmerist 2, Psychic 3, Skald 2, Sorcerer 3, Summoner 3, Summoner (Unchained) 3, Witch 3, Wizard 3; Domain Destruction 3, Madness 3; Subdomain Demon 3, Ferocity 3; Bloodline Abyssal 3, Boreal 2, Orc 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets one willing living creature per three levels, no two of which may be more tha"
+    },
+    {
+      "name": "Potion of Reduce Person",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Alchemist 1, Arcanist 1, Bloodrager 1, Investigator 1, Magus 1, Medium 1, Occultist 1, Psychic 1, Sorcerer 1, Summoner 1, Summoner (Unchained) 1, Witch 1, Wizard 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (a pinch of powdered iron)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets one humanoid creature\n\n  \n  Duration 1 Minutes (D)\n\n  \n\nDescriptionThis spell causes instant diminution of a humanoid creature, halving its height, length, and width and dividing its weig"
+    },
+    {
+      "name": "Potion of Monkey Fish",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Alchemist 1, Arcanist 1, Druid 1, Hunter 1, Investigator 1, Magus 1, Psychic 1, Shaman 1, Sorcerer 1, Wizard 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 1 Minutes (D)\n\n  \n\nDescriptionYour hands and feet alter to make you better at climbing and swimming. You gain a 10 foot climb speed and swim speed. This spell has no effect if you are wearing medium or heavy armor or carrying a medium or heavy load."
+    },
+    {
+      "name": "Formula Book",
+      "type": "loot",
+      "equipped": false,
+      "description": "A formula book has 100 pages of parchment, and each alchemical extract formula takes up one page per extract level. A newly purchased formula book contains no extract formulas. An alchemist character begins play with a formula book containing the extract formulae he knows (Advanced Player's Guide 32). This is the alchemist equivalent of a spellbook for wizards (a spellbook and a formula book are essentially the same item)."
+    },
+    {
+      "name": "Beetle Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Possibly the worst tasting beer in Ustalav."
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 3, Alchemist 3, Bard 3, Cleric 3, Druid 4, Hunter 4, Inquisitor 3, Investigator 3, Occultist 3, Oracle 3, Paladin 4, Ranger 4, Shaman 3, Skald 3, Spiritualist 3, Warpriest 3, Witch 4; Domain Healing 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets living creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nDescriptionThis spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point "
+    },
+    {
+      "name": "Potion of Water Breathing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Alchemist 3, Arcanist 3, Bloodrager 3, Cleric 3, Druid 3, Hunter 3, Investigator 3, Magus 3, Oracle 3, Psychic 3, Shaman 3, Sorcerer 3, Summoner 3, Summoner (Unchained) 3, Warpriest 3, Wizard 3; Domain Water 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M/DF (short reed or piece of straw)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets living creatures touched\n\n  \n  Duration 2 hours/level; see text\n\n  \n\nDescriptionThe transmuted creatures can breathe water freely. Div"
+    }
+  ]
+}

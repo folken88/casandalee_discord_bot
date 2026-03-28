@@ -1,23 +1,31 @@
 ---
 name: "Judge Darymid"
 type: character
-campaign: "CC"
-tags: [character, cc]
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T02:59:09.602Z"
 ---
 
 # Judge Darymid
 
-**Race:** Unknown | **Class:** Unknown | **Level:** ?
+**Race:** Unknown | **Class:** Unknown
 
+## Notes & Updates
+
+- Introduced Farrah Richton to Kendra Lorrimor.; Reopened her investigation into the Whispering Way with help from K.Lorrimor and Detective Richton. *(youtube-transcript, 3/28/2026)*
+- Involved in the adoption and investigation of Farrah Richton. *(youtube-transcript, 3/28/2026)*
+
+## Notes & Updates
+
+- Introduced Farrah Richton to Kendra Lorrimor.; Reopened her investigation into the Whispering Way with help from K.Lorrimor and Detective Richton. *(youtube-transcript, 3/28/2026)*
+- Involved in the adoption and investigation of Farrah Richton. *(youtube-transcript, 3/28/2026)*
+- Reopened her investigation into the Whispering Way with help from K.Lorrimor and Detective Richton.; Investigating the Whispering Way with help from K.Lorrimor and Detective Richton. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Carrion Crown - Pier Reviewed 2025 04 13
-Introduced Farrah Richton to Kendra Lorrimor.; Re-opened her investigation into the Whispering Way with help from K.Lorrimor and Detective Richton.
-
-
-### Carrion Crown - The Corpse Locker 2025 02 23
-Introduced Farrah Richton to Kendra Lorrimor.; Re-opened her investigation into the Whispering Way with help from K.Lorrimor and Detective Richton.; Introducing Farrah Richton to Kendra Lorrimor, re-opening investigation into the Whispering Way
-
-### Carrion Crown - Trojan Corpse 2025 02 02
-Not mentioned directly, but implied to be involved in the case of Farrah Richton.; Mentioned as someone Farrah Richton met and who is investigating the Whispering Way.; Receives pay raise requests from Denva
+*Session activity from YouTube transcripts will appear here.*

@@ -1,0 +1,29 @@
+{
+  "name": "Ghast",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Ghoul",
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 3
+    },
+    {
+      "name": "Rogue (Unchained)",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 17
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 20,
+    "con": 10,
+    "int": 16,
+    "wis": 18,
+    "cha": 18
+  },
+  "items": []
+}

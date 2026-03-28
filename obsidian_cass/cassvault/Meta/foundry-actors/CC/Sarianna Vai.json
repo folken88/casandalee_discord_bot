@@ -1,0 +1,38 @@
+{
+  "name": "Sarianna Vai",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Bard",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 10,
+    "int": 12,
+    "wis": 12,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Mithral Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 2 gp Weight 1 lb.\nDamage 1d3 (small), 1d4 (medium); Critical 19-20/x2; Range 10 ft.; Type P or S; Special -\nCategory Light; Proficiency Simple\nWeapon Groups Blades, Light; Thrown; Tribal\nDescriptionA dagger is a fighting knife. Its blade is usually less than 1 foot long, and can be curved or straight, with one edge or two. Dagger designs vary widely, and can have many different names (such as a thrusting dagger being cal"
+    },
+    {
+      "name": "Padded Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "More than simple clothing, padded armor combines heavy, quilted cloth and layers of densely packed stuffing to create a cheap and basic protection. It is typically worn by those not intending to face lethal combat or those who wish their maneuverability to be impacted as little as possible."
+    }
+  ]
+}

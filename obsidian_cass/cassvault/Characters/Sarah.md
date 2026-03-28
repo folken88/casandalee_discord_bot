@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T19:17:58.220Z"
+updated: "2026-03-28T02:54:24.270Z"
 ---
 
 # Sarah
@@ -17,14 +17,8 @@ updated: "2026-03-25T19:17:58.220Z"
 
 ## Notes & Updates
 
-- Can cast resist heat/resist energy spells to help protect party members from volcanic damage *(youtube-transcript, 3/25/2026)*
-- Failed to dodge the centipede's attack; Crits a monster for 30 damage; Missed an attack; Attacked a lizard ranger with her blade; Warning of an ambush; Taking damage and failing a fort save; Got hit by a spear, failed fort save, took 10 damage; Was stabbed for 11 damage; Killed Holden and others in combat; Killing a lizard, suggesting sending Riviera and others back to the TPK *(youtube-transcript, 3/25/2026)*
-
-## Notes & Updates
-
-- Can cast resist heat/resist energy spells to help protect party members from volcanic damage *(youtube-transcript, 3/25/2026)*
-- Failed to dodge the centipede's attack; Crits a monster for 30 damage; Missed an attack; Attacked a lizard ranger with her blade; Warning of an ambush; Taking damage and failing a fort save; Got hit by a spear, failed fort save, took 10 damage; Was stabbed for 11 damage; Killed Holden and others in combat; Killing a lizard, suggesting sending Riviera and others back to the TPK *(youtube-transcript, 3/25/2026)*
-- climbed up into the crow's nest and rolled terrible on a perception check; Slams into another character, nearly killing them *(youtube-transcript, 3/25/2026)*
+- Described as a Murderous Crow; Has two negative levels, resting to recover hit points.; Scouting out front with 30 Survival, 15 Stealth.; Listening for a cough, identified the source of the sound.; Observing and interacting with an injured man from the Bronze Fleet, stealing his items.; Invisible and signaling the presence of seven guns coming their way.; Peeking through a hole in the wall.; Describing a scene with prisoners and taunting by a pirate *(youtube-transcript, 3/28/2026)*
+- Participated in a stealth mission on a ship.; Flanking and attacking the player character.; Character whose body was being prepared for burial at sea.; Holding the sword and not being affected by it.; Discussed about the crew's voting rights and pirate law.; Had gold that was deleted by someone else. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 

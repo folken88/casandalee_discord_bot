@@ -1,0 +1,42 @@
+{
+  "name": "Guardian Of Binox",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Race: Construct",
+  "classes": [
+    {
+      "name": "Gunslinger",
+      "level": 5
+    },
+    {
+      "name": "Monk (Unchained)",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 32
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 18,
+    "con": 12,
+    "int": 10,
+    "wis": 18,
+    "cha": 5
+  },
+  "items": [
+    {
+      "name": "Gas Grenade",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Pathfinder #86: Lords of Rust pg. 62\nPrice 750 gp\nSlot none; Weight 1 lb.\nCapacity 1; Usage disposable\nDescriptionA gas grenade is a small, cylindrical device that is designed to be thrown as a splash weapon or fired from a grenade launcher. Before being thrown by hand, the grenade must be primed with a quick twist of a dial at one end and then armed with a click of a button at the center of that dial. The grenade detonates at the beginning of the wielder's next turn, hopefully in the are"
+    },
+    {
+      "name": "Stun Pistol",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Laser pistols are light and reliable, yet they still deal a respectable amount of damage."
+    }
+  ]
+}

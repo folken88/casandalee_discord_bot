@@ -1,0 +1,246 @@
+{
+  "name": "Dr. Tamsin Virelle",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Monk (Unchained)",
+      "level": 1
+    },
+    {
+      "name": "Cleric",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 46
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 15,
+    "con": 12,
+    "int": 14,
+    "wis": 16,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Scroll of Repair Undead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Necromancy; Level Arcanist 1, Sorcerer 1, Wizard 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Touch\n\n  \n  Targets one undead creature touched (see text)\n\n  \n  Duration Instantaneous\n\n    Saving Throw Will half;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionWhen you touch an undead creature, you channel negative energy that heals 1d8 points of damage + 1 point per caster level (maximum +5). This spell has no effect on living creatures, except those th"
+    },
+    {
+      "name": "Scroll of Speak with Dead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You grant the semblance of life to a corpse, allowing it to answer questions. You may ask one question per two caster levels. The corpse's knowledge is limited to what it knew during life, including the languages it spoke. Answers are brief, cryptic, or repetitive, especially if the creature would have opposed you in life.\nIf the dead creature's alignment was different from yours, the corpse gets a Will save to resist the spell as if it were alive.\nIf successful, the corpse can refuse to answer "
+    },
+    {
+      "name": "Scroll of Death Ward",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Necromancy; Level Alchemist 4, Cleric 4, Druid 5, Hunter 5, Inquisitor 4, Investigator 4, Medium 4, Occultist 4, Oracle 4, Paladin 4, Spiritualist 4, Warpriest 4, Witch 4; Domain Death 4, Repose 4\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, DF\n\n  \n\n  \n  Range Touch\n\n  \n  Targets living creature touched\n\n  \n  Duration 7 Minutes\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionThe subject gains a +4 morale bonus on saves against all death "
+    },
+    {
+      "name": "Scroll of Boneshatter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Necromancy; Level Arcanist 4, Cleric 5, Oracle 5, Sorcerer 4, Warpriest 5, Wizard 4\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (a broken bone)\n\n  \n\n  \n  Range Close (25 ft. + 5 ft./2 levels)\n\n  \n  Targets one corporeal creature or object\n\n  \n  Duration instantaneous and 1 minute/level (see text)\n\n    Saving Throw Fortitude partial (see text);\n    Spell Resistance yes\n    \n\n  \n\nDescriptionThe target's bones (or exoskeleton) splinter, dealing 1d6 points of damage per caster leve"
+    },
+    {
+      "name": "Scroll of Boneshaker",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Necromancy; Level Antipaladin 1, Arcanist 2, Cleric 2, Inquisitor 2, Oracle 2, Sorcerer 2, Spiritualist 2, Warpriest 2, Witch 2, Wizard 2\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, F (human-shaped fetish made of bones)\n\n  \n\n  \n  Range Medium (100 ft. + 10 ft./level)\n\n  \n  Targets one living creature or undead creature with a skeleton\n\n  \n  Duration Instantaneous\n\n    Saving Throw Fortitude partial or negates (see text);\n    Spell Resistance yes\n    \n\n  \n\nDescriptionBy using a bo"
+    },
+    {
+      "name": "Scroll of Wall of Bone",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Necromancy; Level Antipaladin 4, Arcanist 4, Bloodrager 4, Cleric 4, Oracle 4, Psychic 4, Sorcerer 4, Spiritualist 4, Warpriest 4, Wizard 4\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (a polished humanoid femur)\n\n  \n\n  \n  Range Close (25 ft. + 5 ft./2 levels)\n\n  \n  \n  Effect solid wall of humanoid bones with an area of up to one 5-ft. square/level\n\n  Duration 7 Minutes\n\n    Saving Throw None;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionThis spell creates a vertical wall of sk"
+    },
+    {
+      "name": "Wand of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Scroll of Command Undead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Necromancy; Level Arcanist 2, Sorcerer 2, Wizard 2; Subdomain Inevitable 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (a shred of raw meat and a splinter of bone)\n\n  \n\n  \n  Range Close (25 ft. + 5 ft./2 levels)\n\n  \n  Targets one undead creature\n\n  \n  Duration 3 Days\n\n    Saving Throw Will negates; see text;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionThis spell allows you a degree of control over an undead creature. If the subject is intelligent, it perceives your words and "
+    },
+    {
+      "name": "Amulet of Nethys' Embrace",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This exquisitely crafted amulet bears the dualistic symbol of Nethys, the god of magic, with one half dark and the other bright. The amulet is fashioned from polished obsidian and ivory, symbolizing the dual nature of creation and destruction inherent in all magic. Each piece feels faintly warm or cool to the touch, reminiscent of their respective representations. This sacred emblem not only declares the wearer's devotion to the multifaceted deity but also bestows a protective aura, shielding th"
+    },
+    {
+      "name": "Wand of Animate Dead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Necromancy [evil]; Level Adept 3, Antipaladin 3, Arcanist 4, Cleric 3, Occultist 3, Oracle 3, Shaman 3, Sorcerer 4, Spiritualist 3, Warpriest 3, Wizard 4; Domain Death 3; Subdomain Souls 3; Bloodline Undead 4\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (an onyx gem worth at least 25 gp per Hit Die of the undead)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets one or more corpses touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw None;\n    Spell Resistance no\n    \n\n  \n\nDescriptionThis s"
+    },
+    {
+      "name": "Wand of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 1, Alchemist 1, Bard 1, Cleric 1, Druid 1, Hunter 1, Inquisitor 1, Investigator 1, Occultist 1, Oracle 1, Paladin 1, Ranger 2, Shaman 1, Skald 1, Spiritualist 1, Warpriest 1, Witch 1; Domain Healing 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Touch\n\n  \n  Targets living creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw Will half; see text;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionWhen laying your "
+    },
+    {
+      "name": "Amulet of Nethys' Embrace",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This exquisitely crafted amulet bears the dualistic symbol of Nethys, the god of magic, with one half dark and the other bright. The amulet is fashioned from polished obsidian and ivory, symbolizing the dual nature of creation and destruction inherent in all magic. Each piece feels faintly warm or cool to the touch, reminiscent of their respective representations. This sacred emblem not only declares the wearer's devotion to the multifaceted deity but also bestows a protective aura, shielding th"
+    },
+    {
+      "name": "Scroll of Remove Blindness/Deafness",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove blindness/deafness cures blindness or deafness (your choice), whether the effect is normal or magical in nature. The spell does not restore ears or eyes that have been lost, but it repairs them if they are damaged.\nRemove blindness/deafness counters and dispels blindness/deafness."
+    },
+    {
+      "name": "Scroll of Cause Fear",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Necromancy [emotion, fear, and mind-affecting]; Level Adept 1, Antipaladin 1, Arcanist 1, Bard 1, Bloodrager 1, Cleric 1, Inquisitor 1, Medium 1, Mesmerist 1, Occultist 1, Oracle 1, Psychic 1, Shaman 1, Skald 1, Sorcerer 1, Spiritualist 1, Warpriest 1, Witch 1, Wizard 1; Domain Death 1; Subdomain Daemon 1, Fear 1; Bloodline Abyssal 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Close (25 ft. + 5 ft./2 levels)\n\n  \n  Targets one living creature with 5 or fewer HD\n\n  \n"
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).\nConstructionRequirements Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus; Cost 500 gp"
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 1, Alchemist 1, Bard 1, Cleric 1, Druid 1, Hunter 1, Inquisitor 1, Investigator 1, Occultist 1, Oracle 1, Paladin 1, Ranger 2, Shaman 1, Skald 1, Spiritualist 1, Warpriest 1, Witch 1; Domain Healing 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets living creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nDescriptionWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points o"
+    },
+    {
+      "name": "Wand of Inflict Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Necromancy; Level Antipaladin 1, Cleric 1, Inquisitor 1, Occultist 1, Oracle 1, Shaman 1, Spiritualist 1, Warpriest 1, Witch 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Touch\n\n  \n  Targets living creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw Will half;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionWhen laying your hand upon a creature, you channel negative energy that deals 1d8 points of damage + 1 point per caster level (maximum +5).\nSince unde"
+    },
+    {
+      "name": "Scroll of Restoration, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Lesser restoration dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain."
+    },
+    {
+      "name": "Scroll of Fear",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Necromancy [fear, mind-affecting, and emotion]; Level Antipaladin 4, Arcanist 4, Bard 3, Bloodrager 4, Inquisitor 4, Medium 4, Mesmerist 3, Occultist 4, Psychic 4, Shaman 4, Skald 3, Sorcerer 4, Spiritualist 4, Witch 4, Wizard 4; Subdomain Fear 4; Bloodline Draconic 4, Ghoul 4\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (the heart of a hen or a white feather)\n\n  \n\n  \n  Range 30 ft\n\n  Area cone-shaped burst\n\n  \n  \n  Duration 1 round/level or 1 round; see text\n\n    Saving Throw W"
+    },
+    {
+      "name": "Wand of Disrupt Undead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Necromancy; Level Arcanist 0, Inquisitor 0, Magus 0, Sorcerer 0, Wizard 0\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Close (25 ft. + 5 ft./2 levels)\n\n  \n  \n  Effect ray\n\n  Duration Instantaneous\n\n    Saving Throw None;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionYou direct a ray of positive energy. You must make a ranged touch attack to hit, and if the ray hits an undead creature, it deals 1d6 points of damage to it."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Disciple's Quarterstaff",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Functions as a Holy Symbol for Clerics of Nethys"
+    },
+    {
+      "name": "Scroll of Remove Disease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove disease can cure all diseases from which the subject is suffering. You must make a caster level check (1d20 + caster level) against the DC of each disease affecting the target. Success means that the disease is cured. The spell also kills some hazards and parasites, including green slime and others.\nSince the spell's duration is instantaneous, it does not prevent reinfection after a new exposure to the same disease at a later date."
+    },
+    {
+      "name": "Chocolate",
+      "type": "loot",
+      "equipped": false,
+      "description": "Chocolate comes in many shapes, sizes, and tastes. It is a staple sweet primarily made from cocoa beans, sugar, and milk. A major ingredient used in many desserts such as pudding, cakes, and candy. It can be in a solid form like a candy bar or in a liquid form like hot chocolate, to fit various needs and tastes."
+    },
+    {
+      "name": "Potion of Restoration, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Lesser restoration dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain."
+    },
+    {
+      "name": "Wand of Restoration, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Lesser restoration dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain."
+    },
+    {
+      "name": "Hail Mary",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Wand of Inflict Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Necromancy; Level Antipaladin 4, Cleric 3, Inquisitor 3, Occultist 3, Oracle 3, Shaman 3, Spiritualist 3, Warpriest 3, Witch 4\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Touch\n\n  \n  Targets living creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw Will half;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionThis spell functions like inflict light wounds, except that you deal 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Dark-Bat Remains",
+      "type": "loot",
+      "equipped": false,
+      "description": "When the creatures of the night transform into their more animalistic parts, hunters chasing them only have one alternative to resolve their hunts. Decapitation. Doing so burns the flesh and skin off the creature leaving behind only its skull. The skull is usually kept as a trophy, and quite cherished, as surviving one of these creatures is a rare feat."
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.\nConstructionRequirements Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring; Cost 1,000 gp"
+    },
+    {
+      "name": "Modernized Necrocraft",
+      "type": "loot",
+      "equipped": true,
+      "description": "This leather-bound manual bears no author, no publisher’s seal, and no dedication—only a stylized ouroboros of bone embossed on its cover, subtly worked to resemble the sigil of the Whispering Way. The text within Modern Principles of Necrocraft is deceptively clinical, composed in the plain, precise dialect favored by lecturers at Lepidstadt and Vielands medical colleges. Its focus is necromantic animation not through aged, esoteric rites, but through \"rational\" formulae, anatomy-based mnemonic"
+    },
+    {
+      "name": "Scroll of Animate Dead, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Necromancy [evil]; Level Arcanist 3, Cleric 2, Occultist 2, Oracle 2, Shaman 2, Sorcerer 3, Spiritualist 2, Warpriest 2, Wizard 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (an onyx gem worth at least 25 gp per Hit Die of the undead)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets one corpse\n\n  \n  Duration Instantaneous\n\n    Saving Throw None;\n    Spell Resistance no\n    \n\n  \n\nDescriptionThis spell functions as animate dead, except you can only create a single Small or Medium skeleton or "
+    },
+    {
+      "name": "Amulet of Nethys' Embrace",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This exquisitely crafted amulet bears the dualistic symbol of Nethys, the god of magic, with one half dark and the other bright. The amulet is fashioned from polished obsidian and ivory, symbolizing the dual nature of creation and destruction inherent in all magic. Each piece feels faintly warm or cool to the touch, reminiscent of their respective representations. This sacred emblem not only declares the wearer's devotion to the multifaceted deity but also bestows a protective aura, shielding th"
+    },
+    {
+      "name": "Scroll of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Scroll of Delay Poison",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject becomes temporarily immune to poison. Any poison in its system or any poison to which it is exposed during the spell's duration does not affect the subject until the spell's duration has expired. Delay poison does not cure any damage that poison may have already done."
+    },
+    {
+      "name": "Talking Aroden",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This bust is hand-carved to resemble Aroden, the now-dead god. It has an actuated jaw and a subtle enchantment. It functions as a soul anchor for anyone who dies within 50' of it. After their death, they can be reached through the bust via Speak with Dead. Since multiple souls can be stored within the bust, the name must be known of the person to be spoken with."
+    }
+  ]
+}

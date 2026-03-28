@@ -1,0 +1,55 @@
+{
+  "name": "Buccaneer",
+  "type": "character",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 33
+  },
+  "abilities": {
+    "str": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Boarding Axe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 8, Pirates of the Inner Sea pg. 19, Skull and Shackles Player's Guide pg. 6\nStatisticsCost 6 gp Weight 3 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x3; Range -; Type P or S; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Axes\nDescriptionA boarding axe is similar to a handaxe, but features a spike that allows the weapon to do either slashing or piercing damage. When in hand, a boarding axe grants a +2 circumstance bonus on Climb checks to scale w"
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 8, Pirates of the Inner Sea pg. 19, Skull and Shackles Player's Guide pg. 6, Villain Codex pg. 188\nStatisticsCost 15 gp Weight 4 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis short, curved sword is favored by seafarers for closequarters combat. It is treated as a scimitar for any effects that apply to scimitars."
+    },
+    {
+      "name": "Buckler",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a –1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you"
+    },
+    {
+      "name": "Throwing Axe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 8 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range 10 ft.; Type S; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Axes; Thrown; Tribal\nDescriptionThis one-handed axe is small and perfectly balanced for throwing, and can be used as a melee weapon. Throwing axes have a variety of alternative names, including franciscas, tomahawks, and more. The axe is normally gripped by the haft and throw"
+    }
+  ]
+}

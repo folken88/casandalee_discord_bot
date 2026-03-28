@@ -1,0 +1,32 @@
+{
+  "name": "Young Sahuagin Slave",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Sailor",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 9
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 11,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Drowned Pact",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Forged from blackened coral and rimmed with scavenged pearls and barnacle-ridden iron, this arcane collar bears glowing runes pulsing faintly with abyssal pink light. Crafted by sahuagin deep-priests, the Collar of the Drowned Pact was originally designed to keep surface dwellers alive—but docile—when taken as slaves or emissaries to the depths.\nWhen clasped around a humanoid neck (which it does with a sickening click that resists removal without a remove curse or break enchantment), the collar "
+    }
+  ]
+}

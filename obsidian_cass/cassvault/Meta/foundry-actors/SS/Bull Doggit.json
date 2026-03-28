@@ -1,0 +1,27 @@
+{
+  "name": "Bull Doggit",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 12,
+    "int": 13,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Quarterstaff",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

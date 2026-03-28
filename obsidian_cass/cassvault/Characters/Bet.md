@@ -1,17 +1,22 @@
 ---
 name: "Bet"
 type: character
-campaign: "CC"
-tags: [character, cc]
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T02:12:13.847Z"
 ---
 
 # Bet
 
-**Race:** Unknown | **Class:** Unknown | **Level:** ?
+## Notes & Updates
 
+- Player character casting Ghost Sound and engaging in combat actions. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Carrion Crown - Feldgrau Streetfight 2025 02 09
-Is hit by multiple characters, including Denva and the Gunslingers
-
+*Session activity from YouTube transcripts will appear here.*

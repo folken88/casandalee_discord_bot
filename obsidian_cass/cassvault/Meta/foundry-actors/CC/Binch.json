@@ -1,0 +1,25 @@
+{
+  "name": "Binch",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Half-Elf",
+  "classes": [
+    {
+      "name": "Witch",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 17
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 15,
+    "con": 12,
+    "int": 17,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": []
+}

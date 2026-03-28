@@ -1,0 +1,20 @@
+{
+  "name": "Immolation Devil (Puragaus)",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 26,
+    "con": 35,
+    "int": 24,
+    "wis": 23,
+    "cha": 24
+  },
+  "items": []
+}

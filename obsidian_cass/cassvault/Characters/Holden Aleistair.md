@@ -1,26 +1,48 @@
 ---
-name: """Holden Aleistair"""
+name: "Holden Aleistair"
 type: character
-race: """Human"""
-class: """Swashbuckler / Swashbuckler (Inspired Blade) / Swashbuckler (Noble Fencer)"""
-level: 7
-player: Kip
-campaign: "["SS"]"
-aliases: ""["Holden", "Captain Oblivious"]""
-tags: ""["character", "pc", "pc"]""
-created: """2026-02-23T00:00:00.000Z"""
-updated: ""2026-03-24T23:00:49.496Z""
+campaign: CC
+race: "Human"
+class: "Swashbuckler 5"
+hp: 60
+tags: ["character", "npc", "cc"]
+foundry_synced: "2026-03-28"
 ---
 
 # Holden Aleistair
 
-**Race:** Human | **Class:** Swashbuckler / Swashbuckler (Inspired Blade) / Swashbuckler (Noble Fencer) | **Level:** 7 | **Player:** Ulfred
+**Race:** Human | **Class:** Swashbuckler 5 | **HP:** 60
+**STR** 10 | **DEX** 16 | **CON** 14 | **INT** 14 | **WIS** 10 | **CHA** 14
 
-HP 41/84 | Human Swashbuckler | Level 7
-
-## Roll History
-
-- **Reincarnation (Standard)**: 31 → Tiefling (/reincarnate) *3/19/2026*
+## Key Equipment
+- **Ring of Protection +1** (equipment, equipped) — This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC. ConstructionRequirements Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring; Cost 1,000 gp
+- **Ring of Luck** (equipment, equipped) — A strangely designed ring of silver, bronze, with a turquoise stone set. Its purpose and effects are unknown and appear to change, randomly….
+- **Boots of the Tidal Rogue** (loot, equipped) — These masterwork boots are crafted from supple black leather, reinforced with sea-green stitching that shimmers faintly like sunlight on ocean waves. The soles are made from the hide of a great sea serpent, providing exceptional grip on wet and slippery surfaces. Small, intricate carvings of maritime scenes, such as sailing ships and swirling whirlpools, adorn the sides of the boots, and a faint scent of saltwater lingers around them.
+- **Firearm Bullet** (loot) — The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound.
+- **Caydenbrew Teenie-Keg** (consumable, equipped) — "One swig, one blessing, one tale to tell—or forget."  Caydenbrew Teenie-Kegs are single-serving wooden kegs of Cayden Cailean’s iconic brew, blessed in his name and crafted for adventurers, rogues, and pirates who seek fortune, bravery, and maybe just a bit of luck. Compact and practical, they’re a common sight among the devout—or those who just like to party.  Lore Brewed with Blessings: Caydenbrew Teenie-Kegs are said to contain a drop of water from Cayden Cailean’s legendary Everlasting Tank
+- **Blood Caimon Tacos** (consumable, equipped) — A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners! Enjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes.
+- **Tukkaroo Sleeping Bag** (loot) — Tukkaroo Sleeping Bag (Level 3 Wondrous Item)Price: 1,500 gp Aura faint transmutation Slot — CL 3rd Weight 7 lbs DescriptionThe Tukkaroo Sleeping Bag is a thick, yak-like fur bedroll, crafted from naturally shed tukkar wool and lined with woven seaweed fibers from the shores of Firegrass Island. Enchanted with druidic magic, this bedroll provides unparalleled warmth, resilience, and rejuvenation to those who rest within it. When a creature sleeps in a Tukkaroo Sleeping Bag for at least 4 hours, 
+- **The Operative +2** (equipment, equipped) — The tattoo grants the bearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. The item also provides a +2 insight bonus to stealth. ConstructionRequirements Craft Wondrous Item, Cat's Grace; Cost 2,500 gp
+- **Tidewater Cutlass** (weapon, equipped) — Description The blade of this +1 cutlass (Pirates of the Inner Sea 18) is spotted with rust, and its basket hilt is cast in the likeness of a grinning skull. Once per day, a tidewater cutlass can be used to cast hydraulic push. Tidewater cutlasses are not uncommon weapons among the pirates of the Shackles, at least for those who can afford to buy one or who manage to loot one from someone who can. Mr. Plugg acquired his cutlass from a seasoned old tar aboard the Wormwood who had the temerity to 
+- **Blood Caimon Tacos** (consumable, equipped) — A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners! Enjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes.
+- **Alchemist's Fire** (weapon, equipped) — Source PZO1110  You can throw a flask of alchemist's fire as a splash weapon with a range increment of 10 feet.  A direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hits takes 1 point of fire damage from the splash. On the round following a direct hit, the target takes an additional 1d6 points of damage. If desired, the target can use a full-round action to attempt to extinguish the flames before taking this additional damage. Extinguishing the
+- **Arrow** (loot) — Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143  Statistics Cost 1 gp Weight 3 lbs.  Category Ammunition; Proficiency Ammunition  Description An arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).  Arrows come in a leather quiver that holds 20 arrows.
+- **Whispered Courage Whiskey** (consumable, equipped) — "Drink the blood of heroes."Whispered Courage is aged in barrels made from pines cut from the Stoneheart Massacre Glade.This powerful spirit grants +4 vs fear saves for 1 hour. The bonus is doubled if an ally who also drank the whiskey is threatened within your sight.
+- **Bullseye Rum** (consumable, equipped) — “It hits you right in the center, just not in a good way.” Bullseye Rum is the drink of choice for the truly desperate, the miserly, or those who simply value quantity over quality. Its dark amber hue suggests a richness it absolutely does not deliver. The label, featuring a dartboard and the motto "Bullseye," is both an ironic jab at the drink's questionable aftereffects and a promise of its unerring ability to ruin your stomach. Produced by dubious distilleries scattered across the Shackles, i
+- **Brow Brew** (consumable, equipped) — Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town. @JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}
+- **Heaven's Sting** (weapon) — Masterwork Cold Iron Rapier
+- **Buckler +1** (equipment, equipped) — This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a –1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you
+- **Cloak of Resistance +1** (equipment, equipped) — Description Flecks of silver or steel are often sown amid the fabric of these magical cloaks. This garment offers magical protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).  Base Item:  RequirementsCraft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus Source: Ultimate Equipment
+- **Caydenbrew** (consumable, equipped) — Source Adventurer's Armory pg. 19 Price 5 cp/mug; Weight 1/2 lb. Category Food/Drink DescriptionThis ale is the standard beer drunk in Absalom. The recipe was said to be the last beer Cayden Cailean had before he undertook the Test of the Starstone. The hops for this beer were originally grown on the Isle of Kortos, but the massive brewery now imports from Andoran and Taldor.
+- **Bronze Fleet Volver** (weapon, equipped) — The Bronze Fleet Volver is a highly crafted, ornate six-shot revolver favored by officers and slavers within the Bronze Fleet. Its barrel and frame are forged from polished bronze, etched with swirling nautical patterns that echo the waves. Embedded in the side of the chamber is a small, aquamarine gemstone that glints faintly in the light, often mistaken for a magical focus. The revolver is balanced for expert accuracy and durability, and its elaborate design symbolizes both power and prestige 
+- **Bangarangs** (equipment, equipped) — These rings look to be made of well worn bronze with glowing orange runic letters in the Infernal language, but they feel like leather strips and resize to fit any small, medium, or large biped's wrists or ankles. If worn on the wrists, they grant +2 to Parry & Riposte attempts, and the Quick Draw feat. If worn around the ankles, they increase the wearer's base land and swim speeds by 10, and they grant the Improved Initiative feat. In either case, they can, as a swift action, Haste the wearer 1
+- **A cup** (equipment, equipped) — This simple tin-cup is worn at all points. It is always cool to the touch, and cools any liquid held within. On the bottom is a strange map.
+- **Backpack, masterwork** (container, equipped) — This backpack has numerous pockets for storing items that might be needed while adventuring. Hooks are included for attaching items such as canteens, pouches, or even a rolled-up blanket. It has padded bands that strap across the chest and the waist to distribute its weight more evenly. Like a common backpack, it can hold about 2 cubic feet of material in its main container. When wearing a masterwork backpack, treat your Strength score as +1 higher than normal when calculating your carrying capa
+- **Besmara's Bicorne** (equipment, equipped) — DescriptionThis large pirate hat bears a skull-and-crossbones on the front. The wearer gains a +2 competence bonus on Acrobatics and Climb checks. If Besmara is the wearer's patron, the wearer automatically floats to the surface of any body of water (at a speed of 30 feet) unless she desires otherwise; this does not prevent the wearer from falling safely into water or interacting with water in any other way. RequirementsCraft Wondrous Item, levitate, creator must have 5 ranks in Acrobatics and C
+- **Potion of Cure Light Wounds** (consumable, equipped) — When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.
+- **Composite Shortbow** (weapon, equipped) — Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19 StatisticsCost 75 gp Weight 2 lbs. Damage 1d4 (small), 1d6 (medium); Critical x3; Range 70 ft.; Type P; Special - Category Ranged; Proficiency Martial Weapon Groups Bows DescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite shortbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier 
+- **Corsair's Coat** (equipment, equipped) — The Corsair’s Coat is a stylish, weathered leather coat designed for swashbucklers and those who live by the sea. Light enough to move freely in battle, this coat is reinforced with hidden strips of flexible metal, offering protection without restricting the wearer’s agility. It functions as a mithral chain shirt +1  +2 on acrobatics - comfortable yet maneuverable feel +4 CMD - helping the wearer avoid many dangers of boarding
+- **Torch** (loot) — Price 1 cp; Weight 1 lb.  A torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage.
 
 ## Session Appearances
 

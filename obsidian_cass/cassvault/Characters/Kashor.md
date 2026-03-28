@@ -1,17 +1,22 @@
 ---
 name: "Kashor"
 type: character
-campaign: "HV"
-tags: [character, hv]
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T01:41:03.228Z"
 ---
 
 # Kashor
 
+## Notes & Updates
 
-
+- Discussed creating distractions and using invisibility for an attack plan. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Hell's Vengeance - Fire & Water 2023 11 19
-A foul demon who fought Saint Ilia in an epic confrontation at St. Ilia's Fountain
-
+*Session activity from YouTube transcripts will appear here.*

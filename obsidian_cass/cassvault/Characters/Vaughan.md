@@ -1,30 +1,23 @@
 ---
 name: "Vaughan"
 type: character
-race: "Unknown"
-class: "Unknown"
+race: "Half-Elf"
+class: "Magus 5"
 level: ?
 
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-26T17:43:06.435Z"
+updated: "2026-03-28T03:22:49.703Z"
 ---
 
 # Vaughan
 
-**Race:** Unknown | **Class:** Unknown
+**Race:** Half-Elf | **Class:** Magus 5
 
 ## Notes & Updates
 
-- Being held by the wrist off the ground by Bolty, squirming. He was caught by Bolty. *(youtube-transcript, 3/25/2026)*
-- Participated in combat against undead creatures.; Not mentioned directly but implied to be involved with Holden and Buhan.; Discussed the possibilities with Riviera about bioluminescent fungus. *(youtube-transcript, 3/26/2026)*
-
-## Notes & Updates
-
-- Being held by the wrist off the ground by Bolty, squirming. He was caught by Bolty. *(youtube-transcript, 3/25/2026)*
-- Participated in combat against undead creatures.; Not mentioned directly but implied to be involved with Holden and Buhan.; Discussed the possibilities with Riviera about bioluminescent fungus. *(youtube-transcript, 3/26/2026)*
-- Asks about the type of undead they are dealing with.; Participated in combat and had a fear attack. *(youtube-transcript, 3/26/2026)*
+- Participated in combat against slavers and was shot. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 

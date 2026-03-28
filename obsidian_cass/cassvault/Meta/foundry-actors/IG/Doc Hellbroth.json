@@ -1,0 +1,56 @@
+{
+  "name": "Doc Hellbroth",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Elf",
+  "classes": [
+    {
+      "name": "Alchemist",
+      "level": 13
+    }
+  ],
+  "hp": {
+    "max": 60
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 18,
+    "int": 17,
+    "wis": 10,
+    "cha": 8
+  },
+  "items": [
+    {
+      "name": "Thoracic Nanite Chamber (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nA thoracic nanite chamber augments the vital organs within a creature's chest, particularly its heart, lungs, and pulmonary system. Once installed, a thoracic nanite chamber grants an enhancement bonus to Constitution."
+    },
+    {
+      "name": "Amulet of Natural Armor +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Pipebomb 2.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "+3 Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    }
+  ]
+}

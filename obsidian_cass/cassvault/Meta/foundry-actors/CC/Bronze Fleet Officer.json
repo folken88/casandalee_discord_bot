@@ -1,0 +1,60 @@
+{
+  "name": "Bronze Fleet Officer",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 2
+    },
+    {
+      "name": "Sailor",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 102
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 11,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Cannon, 12 Pounder",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Combat pg. 162\nStatisticsDamage 6d6; Critical x4; Range 100 ft.; Type B and P\nCrew 2; Aim 1; Load 3; Speed 10 ft.\nCategory Direct-Fire (Large); Proficiency Siege Engine\nDescriptionCannons are crafted of metal-some are cast in one piece, others welded with iron bands-and mounted either in the ground or on wooden frames. Cannons use black powder to propel their projectiles with great force. A cannon has a misfire range of 1 (20 feet). Cannons have a hardness of 10 and 70 hit points"
+    },
+    {
+      "name": "Firearm Bullet",
+      "type": "loot",
+      "equipped": false,
+      "description": "The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound."
+    },
+    {
+      "name": "Bronze Fleet Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Each Bronze Fleet Cutlass is a testament to the fleet’s ruthless efficiency and disregard for individuality. These weapons are forged from the scraps of defeated ships and prisoners’ shackles, resulting in a haphazard yet functional design. No two Bronze Fleet Cutlasses look the same, but they all reflect the grim legacy of the slave-trading fleet.\nThe blade is often jagged, with imperfections that hint at its brutal origins, while the hilt may feature chains, manacles, or other relics of captiv"
+    },
+    {
+      "name": "Bronze Fleet Volver",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Bronze Fleet Volver is a highly crafted, ornate six-shot revolver favored by officers and slavers within the Bronze Fleet. Its barrel and frame are forged from polished bronze, etched with swirling nautical patterns that echo the waves. Embedded in the side of the chamber is a small, aquamarine gemstone that glints faintly in the light, often mistaken for a magical focus.\nThe revolver is balanced for expert accuracy and durability, and its elaborate design symbolizes both power and prestige "
+    }
+  ]
+}

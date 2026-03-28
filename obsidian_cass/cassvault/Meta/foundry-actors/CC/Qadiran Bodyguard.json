@@ -1,0 +1,38 @@
+{
+  "name": "Qadiran Bodyguard",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 15
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 11,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "+1 Mithral Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings.\nMithral\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well. Most mithral armors are one category lighter than normal for purposes of movement and other limitations. Heavy armors are treated as medium, and medium armors are treated as light, but light armors are still treated "
+    },
+    {
+      "name": "Aldori Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Guide pg. 24, Pathfinder Campaign Setting pg. 209, Inner Sea World Guide pg. 290, Adventurer's Armory pg. 18\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range -; Type S\nWeapon Groups Blades, Heavy\nDescriptionThese slightly curved swords measure just over 3 feet in length. An Aldori dueling sword can be used as a martial weapon (in which case it functions as a longsword), but if you have the feat Exotic Weapon Proficiency (Aldori dueling sword), you can use "
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Rook",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Borb",
+      "level": 1
+    },
+    {
+      "name": "Undead",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 16
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 10,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": []
+}

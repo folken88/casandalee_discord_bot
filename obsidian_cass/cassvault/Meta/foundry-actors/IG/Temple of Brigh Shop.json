@@ -1,0 +1,207 @@
+{
+  "name": "Temple of Brigh Shop",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Wand of Infernal Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nYou anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment."
+    },
+    {
+      "name": "Potion of Remove Sickness",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Battery",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Most technological items are powered by electricity. While one can use the electricity provided by a generator, these are rare, expensive, and rarely portable. It’s more common and practical to charge such items with batteries. A battery looks like a small silver disk that’s etched with strange lines—the people have taken to calling batteries “silverdisks” and sometimes use them as coins. A battery contains 10 charges when full; to charge an item with a battery, one simply slips the disk-shaped "
+    },
+    {
+      "name": "Commset",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a built-in camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile&mdash;beyond this range, communication is impossible without enhancing the signal strength with a signal booster. The price and cost listed for this item are"
+    },
+    {
+      "name": "Cylex",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bag of Holding 1a",
+      "type": "container",
+      "equipped": true,
+      "description": "Bag of Holding Type 1a: 10lbs weight / 150lbs held. Currently holds 478 gold coins minted in Alkenstar.\n\n \n\nThe bag of holding opens into a nondimensional space: its inside is larger than its outside dimensions.\n\nRegardless of what is put into the bag, it weighs a fixed Amount. This weight, and the limits in weight and volume of the bag&rsquo;s contents, depend on the bag&rsquo;s type, as shown on the table below."
+    },
+    {
+      "name": "Wand of Infernal Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment."
+    },
+    {
+      "name": "Scroll of Detect Metal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint divination; CL 1st\n\nYou detect any metal objects or creatures within a 60-foot cone.\nYou can specify all metal objects or one or more specific types of metal (such as silver, cold iron, or a type of skymetal) when you cast this spell; in the case of the latter, you detect only objects or creatures made of the specified metal."
+    },
+    {
+      "name": "Battery (High Capacity)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A powerbank with 10x the capacity of a conventional battery."
+    },
+    {
+      "name": "Scroll of Celestial Healing, Greater",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura moderate conjuration; CL 7th\n\nAs per celestial healing, except the target gains fast healing 4 and the target radiates the aura of a good cleric."
+    },
+    {
+      "name": "Potion of Cure Critical Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Restoration",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Celestial Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nYou anoint a wounded creature with the blood of an outsider with the good subtype (such as an angel) or holy water, giving it fast healing 1. The target radiates the aura of a good creature for the duration of the spell and can sense the righteousness of the magic, though this has no long-term effect on the target's alignment. If the target has its own evil aura, this is not suppressed by celestial healing, and can also be detected normally."
+    },
+    {
+      "name": "Potion of Remove Curse",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Shipmind Brain Fluid",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This strangely churning and glowing purple liquid has potent effects on biological organisms. It has no effect on constructs but can affect androids. \n\nThis substance tastes sweet and burns all the way down when imbibed. It causes internal damage which cannot be mitigated by any resistances and induces a manic state."
+    },
+    {
+      "name": "Bracers of Armor +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Remove Paralysis",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Remove Disease",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Remove Radioactivity",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Resist Energy",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 1st\n\nThis abjuration grants a creature limited protection from damage of whichever one of five energy types you select: acid, cold, electricity, fire, or sonic. The subject gains resist energy 10 against the energy type chosen, meaning that each time the creature is subjected to such damage (whether from a natural or magical source), that damage is reduced by 10 points before being applied to the creature's hit points. The value of the energy resistance granted increase"
+    },
+    {
+      "name": "Wand of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Potion of Restoration, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Filter Mask",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A filter mask is a clear plastic shield worn over the entire face. The mask has ionized filters and scrubbers that purify the air the user breathes in and give the mask an unintentionally fearsome look. While the mask has power, the wearer is completely immune to inhaled toxins or diseases. Even when the mask has no power, it grants the wearer a +3 resistance bonus on all saving throws made to resist airborne toxins and diseases."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Protection from Energy",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 4th\n\nProtection from energy grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of energy damage (to a maximum of 120 points at 10th level), it is discharged.\nProtection from energy overlaps (and does not stack with) resist energy. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is"
+    },
+    {
+      "name": "Bag of Holding 2.0",
+      "type": "container",
+      "equipped": true,
+      "description": "II25 lbs.500 lbs.70 cubic ft. \nThe bag of holding opens into a nondimensional space: its inside is larger than its outside dimensions.\nRegardless of what is put into the bag, it weighs a fixed Amount. This weight, and the limits in weight and volume of the bag’s contents, depend on the bag’s type, as shown on the table below."
+    },
+    {
+      "name": "Scroll of Rapid Repair",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura moderate transmutation; CL 9th\n\nThe targeted construct gains fast healing 5. This does not stack with any fast healing the construct already has. Fast healing has no effect on a construct that has been brought to 0 hit points or destroyed."
+    },
+    {
+      "name": "Potion of Celestial Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nYou anoint a wounded creature with the blood of an outsider with the good subtype (such as an angel) or holy water, giving it fast healing 1. The target radiates the aura of a good creature for the duration of the spell and can sense the righteousness of the magic, though this has no long-term effect on the target's alignment. If the target has its own evil aura, this is not suppressed by celestial healing, and can also be detected normally."
+    },
+    {
+      "name": "Potion of Remove Blindness/Deafness",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

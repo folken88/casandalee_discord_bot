@@ -1,0 +1,50 @@
+{
+  "name": "Bronze Fleet Marine",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 44
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 13,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Bronze Fleet Marine's Breastplate is a rugged, intimidating piece of armor forged from salvaged metals, such as hull fragments, manacles, and broken ship fittings. Each breastplate is uniquely pieced together, making no two exactly alike, yet all are functional and crafted with the singular goal of survival and dominance in battle. The plates are often engraved with crude symbols of the Bronze Fleet, tally marks, or grim, defiant phrases.\nDesigned for durability and fearsome appearances, the"
+    },
+    {
+      "name": "Bronze Fleet Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Each Bronze Fleet Cutlass is a testament to the fleet’s ruthless efficiency and disregard for individuality. These weapons are forged from the scraps of defeated ships and prisoners’ shackles, resulting in a haphazard yet functional design. No two Bronze Fleet Cutlasses look the same, but they all reflect the grim legacy of the slave-trading fleet.\nThe blade is often jagged, with imperfections that hint at its brutal origins, while the hilt may feature chains, manacles, or other relics of captiv"
+    },
+    {
+      "name": "Bronze Fleet Longarm",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Bronze Fleet Longarm is a brutal, practical firearm favored by the slave-catching marines of the Bronze Fleet. Known colloquially as the \"Iron Reach\", these rifles are built for utility, intimidation, and lethality. Constructed from salvaged parts and forged from the remains of defeated ships, they are as much a symbol of fear as a weapon of war. Each rifle is adorned with crude etchings or engraved tally marks, often counting captured or killed targets.\nThe Iron Reach is known for its relia"
+    },
+    {
+      "name": "Firearm Bullet",
+      "type": "loot",
+      "equipped": false,
+      "description": "The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound."
+    }
+  ]
+}

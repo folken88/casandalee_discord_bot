@@ -1,0 +1,297 @@
+{
+  "name": "Valerie's Vagueries",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Powdered Milk",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 1 sp; Weight 1 lb.\nCategory Food/Drink\nDescriptionThis dry powder can be mixed with water to produce skim milk. It is dried by slowly adding millet flour to milk while heating it, cooking it down until it becomes thick, then allowing it to dry. Powdered milk is sold in sealed pots or jars. One pound makes approximately 1 gallon of milk."
+    },
+    {
+      "name": "Elven Trail Rations",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 2 gp; Weight 1 lb.\nCategory Food/Drink\nDescriptionElves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts. If you are an elf who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the Endurance feat. This benefit lasts until you eat a meal other than the rations or go for a fu"
+    },
+    {
+      "name": "Gnome Trail Rations",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 2 gp; Weight 1 lb. \nCategory Food/Drink\nDescriptionAlmost any preserved food can be found in gnome trail rations, which are designed to keep a wandering gnome from needing to dine on the same meal twice in a week. If you are a gnome who subsists on nothing but these rations for at least 1 week, you are treated as being 1 Hit Die higher for the purposes of spells and supernatural abilities that have variable effects based on Hit Dice, such as color spray and"
+    },
+    {
+      "name": "Supple, A Wine By Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Calvin Carpenter's finest line of dry white wines, made from the finest potatoes from exclusive farms in Ravounel, has a name - Supple.\nEnjoy a glass of premium and refined flavor.\nSavor the taste and aroma of the rich, earthy notes in each bottle, expertly crafted from the finest ingredients. Raise a glass of Supple, the epitome of luxury and refinement."
+    },
+    {
+      "name": "Traveling bee hive",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Advanced Class Guide pg. 206\nPrice 10 gp; Weight 10 lbs.\nCategory Animal Gear\nDescriptionThese straw baskets provide a portable home for bees. They are dome shaped, with a hole in the top that a smaller woven basket covers as a cap. This hole allows for the harvesting of small amounts of honey without destroying the entire hive. Believing that certain bees provide for a superior crop yield, some farmers pay beekeepers to travel to their farms with the bees.\n\n Destroying a traveling bee hi"
+    },
+    {
+      "name": "Nose Diamond",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Wack Juce",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Refreshingly intoxicating, Wack Juce is made with the finest synthetic oranges in Numeria, and the 3rd finest potato vodka in the world: Smashka Noble!\nEnjoy this sweet and soothing taste of home, you can almost hear the anthem of the Fatherland as you slurp!"
+    },
+    {
+      "name": "Jung Nuggit",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Abby's Own, Royal Vodka",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Bottled in the historic docks district of Egorian, this fine spirit is rumored to be a favorite of Queen Abrogail II, ruler of Cheliax!\nEnhance yourself, enhance your life, with Abby's Own!"
+    },
+    {
+      "name": "Nutonia, Luxury Spread by Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Nutonia, Luxury Spread by Calvin Carpenter\nSmear refinement in paste-form across the bread of your life. Nutonia is a nut butter made from the sack of the most robust harvest of Taldania-nuts. Taste the nut of a generational-talent."
+    },
+    {
+      "name": "Milk",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 5 cp; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionMilk is a nutritious liquid created by mammals, in particular cows, goats, sheep, and horses. Fresh milk is thick and tends to separate. Often, the cream is allowed to rise to the top and then skimmed off, with the remainder served as a beverage."
+    },
+    {
+      "name": "Thunderchonk",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Blue crystals taste bitter when chewed and crunch very loudly. User's voice is amplified to extreme volume. Double range and +2DC for any voice-attacks or spells with Verbal components. +5 for giving speeches. -10 stealth. Lasts 1d3 hours."
+    },
+    {
+      "name": "Caydenbrew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Adventurer's Armory pg. 19\nPrice 5 cp/mug; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionThis ale is the standard beer drunk in Absalom. The recipe was said to be the last beer Cayden Cailean had before he undertook the Test of the Starstone. The hops for this beer were originally grown on the Isle of Kortos, but the massive brewery now imports from Andoran and Taldor."
+    },
+    {
+      "name": "Grape Tongue",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dyes the user's tongue bright purple, usually spreading to the lips and area around the mouth as it causes excessive licking and smacking. Whatever the user says is heard as incoherent babbling, but the user is granted +8 to save vs mind-affecting attacks with somatic components for 1d8 minutes."
+    },
+    {
+      "name": "Corentyn Wine",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Adventurer's Armory pg. 19\nPrice 15 gp/bottle; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionRed and white wines grown in the salt spray of Corentyn have a sweet-tart flavor valued by nobles throughout Cheliax."
+    },
+    {
+      "name": "Deer Shit",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Sealord Wine (Bottle)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 15 gp; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionThese red and white wines grown in certain coastal vineyards have a sweet-tart flavor valued by nobles in many lands."
+    },
+    {
+      "name": "Street Meat",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 1 cp; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionUsually sold by vendors on a thin wooden stick, these small chunks of cooked meat often come from many different sorts of creatures-rats and pigeons are the most common."
+    },
+    {
+      "name": "Yogurt",
+      "type": "consumable",
+      "equipped": true,
+      "description": "YogurtSource Ultimate Equipment pg. 95\nPrice  1 sp; Weight  1/2 lb.\nCategory Food/DrinkDescriptionThis thick, fermented milk has a tangier taste than unprocessed milk. It may be sweetened with fruit, honey, or jam; blended with chopped herbs and oil to create a sauce; or mixed with water and salt, sugar, fruit, or mint as a drink."
+    },
+    {
+      "name": "Everkeeps",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Everkeeps is a trail ration that never expires! This delicious and nutritious snack can maintain the body with carbs, proteins, vitamins, and minerals! Enjoy the sweet and spicy taste as you trudge through the barren wasteland! Using the finest ingredients, masterful cooking and preparation techniques, and dark magics, we craft this incredible portable meal you can rely on! You will expire before Everkeeps expire!"
+    },
+    {
+      "name": "Wandermeal (Per Day)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95, Adventurer's Armory pg. 19\nPrice 1 cp; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionThis tough, dried cake is a halfling invention made from flour, water, and spices. Wandermeal keeps for months without spoiling, travels well, and fills the belly. However, eating it for over a week without other nutrients requires the eater to make a daily Fortitude saving throw (DC 15 + 1 for each additional day) or be sickened. The effect ends 1 day after more nutritious food"
+    },
+    {
+      "name": "Pathfinder Chronicles - Volume 2",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Pathfinder Society Primer pg. 26\nPrice 100 gp; Weight -\nCategory Pathfinder Chronicles\nDescriptionp>The second entry into the Pathfinder Chronicles includes Durvin Gest's thorough cataloging of 31 siege castles in the Cairnlands surrounding Absalom and notes from Borden Thalian on his journey up the Vanji River in the Mwangi Expanse to a fantastic city of jade he reportedly discovered at its headwaters. \nSkill Bonuses Navigate the many treacherous dungeons beneath and within the Cairnland"
+    },
+    {
+      "name": "Pathfinder Chronicles - Volume 1",
+      "type": "loot",
+      "equipped": false,
+      "description": "Pathfinder Chronicles - Volume 1\nSource Pathfinder Society Primer pg. 26\nPrice 200 gp; Weight -\nCategory Pathfinder Chronicles\n\nDescriptionp>\nThe premier Pathfinder Chronicles volume (first published in 4317 ar) features an account of Durvin Gest's exploration of the ruins of Azlant, details of Selmius Foster's race against a marid and an efreeti, and Gregaro Voth's adventures in the Mwangi Expanse.\n\nSkill Bonuses\n\nDeal with geniekind more effectively (Diplomacy and Knowledge [planes] +2)\nGain i"
+    },
+    {
+      "name": "Hell's Hot Cocoa",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Brow Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town.\n@JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}"
+    },
+    {
+      "name": "Ice Cream",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 1 sp; Weight -\nCategory Food/Drink\nDescriptionThis exotic dessert is made with milk and cream, often flavored with fruit or mint. Because it quickly melts at room temperature, it must be made fresh from snow or ice, or maintained at a low temperature, such as in a cold cellar or with alchemy or magic. This limitation means it is expensive and in most lands it is only available during certain seasons. The listed price is for a large scoop (1 cup)."
+    },
+    {
+      "name": "Animal repellent",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Wilderness pg. 24\nPrice 15 gp; Weight -\nCategory Animal Gear\nDescriptionLeshys and other plant creatures have to be wary of hungry herbivorous animals. A dose of animal repellent makes a plant creature smell unappetizing for 24 hours. Animals do not attempt to consume a plant creature coated in animal repellent if there are other food sources available, and in combat prefer to use natural attacks that are not bite attacks against such a creature if they can. Animal repellent coun"
+    },
+    {
+      "name": "Belladona",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Used by Cheliax as a biological weapon to contaminate their enemies food reserves, this herb causes 1d2 STR damage but allows a new save vs Curse of Lycanthropy."
+    },
+    {
+      "name": "Kite",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 92, Adventurer's Armory pg. 19\nPrice 1 sp-2,000 gp; Weight 1 lb.-5 lbs.\nCategory Entertainment\nDescriptionKites range from canvas toys to ornate, silken works of art."
+    },
+    {
+      "name": "Pathfinder Chronicles - Volume 14",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Pathfinder Society Primer pg. 27\nPrice 150 gp; Weight -\nCategory Pathfinder Chronicles\nDescriptionp>The first volume of the Pathfinder Chronicles to contain only accounts of Pathfinders' exploits on other planes, the fourteenth volume features a record of Gilray Jandivan's journey to 23 Abyssal realms and the cataloguing of the demonic hordes there, a detailed map of the City of Brass and surrounding areas on the Plane of Fire by famed cartographer Insitha Avari, and a full 70 baudy songs"
+    },
+    {
+      "name": "Mead (Mug)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice  2 gp (gallon),  5 cp (mug); Weight 8 lbs. (gallon), 1/2 lb. (mug)\nDescriptionThis alcoholic beverage is made by fermenting honey and water. It may be flavored with spices, fruit, or hops."
+    },
+    {
+      "name": "Terror kite",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Advanced Race Guide pg. 165\nPrice 20 gp; Weight -\nCategory Entertainment\nDescriptionThis small kite is usually painted with a fierce face and bright colors and is edged with serrated wooden blades. Its twine is strengthened by soaking it in glue and sometimes with crushed glass to give it a slight cutting edge. The kite has hardness 5 and 3 hit points. Participants in a kite battle make alternating sunder combat maneuvers against each other's kites; each successful maneuver allows a compe"
+    },
+    {
+      "name": "Orc Trail Rations",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 1 gp; Weight 1 lb.\nCategory Food/Drink\nDescriptionA typical orc trail ration consists of coarse black bread, thin sausages as hard as leather that must be chewed slowly to soften them, dried meat of uncertain origin, and pungent peppers. If you are an orc or half-orc who subsists on nothing but these rations for at least 1 week, you add +2 to the DC to resist any Intimidate checks you make. This bonus lasts until you eat a meal other than the rations or go "
+    },
+    {
+      "name": "Dwarven Trail Rations",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 2 gp; Weight 1-1/2 lbs.\nCategory Food/Drink\nDescriptionDwarven trail rations consist of smoked sausages and salted meat, rounded out with hard biscuits and dried vegetables. If you are a dwarf who subsists on nothing but these rations for at least 1 week, you can hustle or make a forced march for an additional hour without ill effects, but cannot do both in the same day. This benefit lasts until you eat a meal other than the rations or go for a full day wit"
+    },
+    {
+      "name": "Hookah",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Alchemy Manual pg. 18\nPrice 400 gp; Weight 10 lbs.\nCategory Black Market\nDescriptionThe bowl of this glass water pipe can be loaded with any inhalable drug, alchemical powder, or alchemical liquid. You must set down a hookah in a free space (a move action) and fill the water jar with half a gallon of water (another move action) before the hookah can be used. You can consume the contents of an adjacent hookah by sucking on one of the pipe's four hoses as a move action. Up to 5 doses of a s"
+    },
+    {
+      "name": "Scent salts",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Aquatic Adventures pg. 56\nPrice 1 sp; Weight -\nCategory Entertainment\nDescriptionStored in a waterproof pouch, these salt crystals dissolve slowly in water, producing a pleasing scent in the nearby water for roughly 1 hour."
+    },
+    {
+      "name": "Frog, Poison",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Animal Archive pg. 15\nPrice 60 gp; Weight -\nCategory Mounts/Pets\nDescriptionDescription from \"Other Animals\" section of Animal Archive, page 15.\nThe following reared animals don't fit into one of the aforementioned categories, but can still be purchased by sellers who have access to them. Some may be purchased already combat-trained at the GM's discretion, and typically cost an amount equal to 1-1/2 × the price of the standard animal."
+    },
+    {
+      "name": "Eggs Caromarc",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Hookah, Premium",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Alchemy Manual pg. 18\nPrice 1,000 gp; Weight 15 lbs.\nCategory Black Market\nDescriptionA premium hookah is similar to a standard hookah, except it sports enough hoses for up to eight adjacent creatures to use, and the bowl has three separate compartments, each of which can store a different type of inhalable drug, alchemical powder, or alchemical liquid. Each compartment can hold up to 3 doses of an inhalable substance (so a premium hookah can hold up to 9 doses total). Consuming these con"
+    },
+    {
+      "name": "Hookah, Traveler's",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Alchemy Manual pg. 18\nPrice 1,500 gp; Weight 4 lbs.\nCategory Black Market\nDescriptionThis portable hookah can be worn as a backpack, obviating the need to set the hookah down before filling it with water. Up to four creatures (including the wearer and any adjacent creatures) can use a traveler's hookah during the same round. While wearing a traveler's hookah, you can stopper the hookah's bowl valve as an immediate action to prevent unwanted individuals from using it until the valve is reo"
+    },
+    {
+      "name": "Halfling Trail Rations",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 2 gp; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionA day's worth of halfling trail rations is actually more than what a typical adventuring halfling eats in a day-a full belly strengthens a halfling's resolve. Common foods include sweetened dried fruit, aged sausage, hard sharp cheese, honey cakes, and a mixture of roasted grains, nuts, and molasses. If you are a halfling who subsists on nothing but these rations for at least 1 week, you reduce the penalty"
+    },
+    {
+      "name": "Dominos",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 92\nPrice 1 sp-25 gp; Weight 1 lb.\nCategory Entertainment\nDescriptionThis wooden box contains 28 tiles with numbers or pips on each end. A common set is made of wood or bone, but more expensive ones may be made of ivory, stone, or metal."
+    },
+    {
+      "name": "Trail Rations",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95, PRPG Core Rulebook pg. 158\nPrice 5 sp; Weight 1 lb.\nCategory Food/Drink\nDescriptionThe listed price is for a day's worth of food. This bland food is usually some kind of hard tack, jerky, and dried fruit, though the contents vary from region to region and the race of those creating it. As long as it stays dry, it can go for months without spoiling."
+    },
+    {
+      "name": "Wolfsbane Flower",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Used as a poison to execute prisoners in Cheliax, this herb causes 1d3 CON damage but allows a new save vs Curse of Lycanthropy."
+    },
+    {
+      "name": "Desert Coffee",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This particularly strong coffee is popular throughout the desert empires. A morning cup is a good cure for lack of rest, but many find that it becomes a habit.\nType ingested; Addiction minor, Fortitude DC 12\n8 hours; user ignores the effects of the fatigued condition.\nAfter 8 hours; the user becomes exhausted, which is reduced to fatigued only after at least 8 hours of rest (instead of 1 hour).\n1 Wis damage"
+    },
+    {
+      "name": "Bufo (Jug)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 1 gp; Weight 2 lbs.\nCategory Food/Drink\nDescriptionThis drink is a favorite of goblins, boggards, and other primitive humanoids. It is made by soaking a poisonous toad or frog (or its eggs) in weak beer, or by 'milking' these animals for their poison and mixing it with the beer (which allows the animal to be used over and over again). Some tribes use wide-mouthed jugs and leave the dead animal inside as a crunchy treat for eating once the drink is gone. A c"
+    }
+  ]
+}

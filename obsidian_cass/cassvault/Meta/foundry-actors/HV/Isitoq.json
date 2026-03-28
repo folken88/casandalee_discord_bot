@@ -1,0 +1,25 @@
+{
+  "name": "Isitoq",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Isitoq",
+  "classes": [
+    {
+      "name": "Isitoq",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 17
+  },
+  "abilities": {
+    "str": 4,
+    "dex": 16,
+    "con": 10,
+    "int": 8,
+    "wis": 14,
+    "cha": 12
+  },
+  "items": []
+}

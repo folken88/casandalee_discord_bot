@@ -1,0 +1,25 @@
+{
+  "name": "Vorathun Woke Early",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "wompeer",
+  "classes": [
+    {
+      "name": "True Vampire",
+      "level": 13
+    }
+  ],
+  "hp": {
+    "max": 39
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 16,
+    "int": 16,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": []
+}

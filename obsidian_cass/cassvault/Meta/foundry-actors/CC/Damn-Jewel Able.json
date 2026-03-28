@@ -1,0 +1,50 @@
+{
+  "name": "Damn-Jewel Able",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Seaman",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 54
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 15
+  },
+  "items": [
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Pirate clothes",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Pirates of the Inner Sea pg. 21\nPrice   1 sp (basic),   30 gp (fancy); Weight 2 lbs. (basic), 6 lbs. (fancy)\nDescriptionPirates can appear in a variety of clothing styles, but most wear a basic outfit consisting of a linen shirt, canvas knee-breeches, cotton stockings, and leather shoes (though some pirates prefer to go barefoot at sea). In addition, well-to-do pirates, particularly pirate captains, often add fancy touches to their outfits, such as colorful jackets of velvet or silk done "
+    },
+    {
+      "name": "Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This short, curved sword is favored by seafarers for closequarters combat. It is treated as a scimitar for any effects that apply to scimitars."
+    },
+    {
+      "name": "Light Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Load: Loading a light crossbow is a move action that provokes attacks of opportunity.\n\nYou draw a light crossbow back by pulling a lever. Normally, operating a light crossbow requires two hands. However, you can shoot, but not load, a light crossbow with one hand at a –2 penalty on attack rolls. You can shoot a light crossbow with each hand, but you take a penalty on attack rolls as if attacking with two light weapons. This penalty is cumulative with the penalty for one-handed firing."
+    }
+  ]
+}

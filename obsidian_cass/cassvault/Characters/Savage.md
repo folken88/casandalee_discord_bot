@@ -1,17 +1,50 @@
 ---
 name: "Savage"
 type: character
-campaign: "CC"
-tags: [character, cc]
+campaign: CC
+race: "Tiefling"
+class: "Bloodrager 4 / Dragon Disciple 4"
+hp: 50
+tags: ["character", "npc", "cc"]
+foundry_synced: "2026-03-28"
 ---
 
 # Savage
 
-**Race:** Unknown | **Class:** Unknown | **Level:** ?
+**Race:** Tiefling | **Class:** Bloodrager 4 / Dragon Disciple 4 | **HP:** 50
+**STR** 16 | **DEX** 12 | **CON** 14 | **INT** 12 | **WIS** 12 | **CHA** 15
 
+## Key Equipment
+- **Grape Tongue** (consumable, equipped) — Dyes the user's tongue bright purple, usually spreading to the lips and area around the mouth as it causes excessive licking and smacking. Whatever the user says is heard as incoherent babbling, but the user is granted +8 to save vs mind-affecting attacks with somatic components for 1d8 minutes.
+- **Steelchew** (consumable, equipped) — Temporarily changes all the users soft tissue to hardened steel. This results in an Ironskin spell (+6 natural armor), DR10 vs Slashing, and blindness. lasts 2d6 minutes.
+- **Desert Coffee** (consumable, equipped) — This particularly strong coffee is popular throughout the desert empires. A morning cup is a good cure for lack of rest, but many find that it becomes a habit. Type ingested; Addiction minor, Fortitude DC 12 8 hours; user ignores the effects of the fatigued condition. After 8 hours; the user becomes exhausted, which is reduced to fatigued only after at least 8 hours of rest (instead of 1 hour). 1 Wis damage
+- **Wolfsbane Flower** (consumable, equipped) — Used as a poison to execute prisoners in Cheliax, this herb causes 1d3 CON damage but allows a new save vs Curse of Lycanthropy.
+- **Potion of Haste** (consumable, equipped) — The transmuted creatures move and act more quickly than normal. This extra speed has several effects. When making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast 
+- **Sexy Chain Shirt** (equipment, equipped) — Covering the torso, this shirt is made up of thousands of interlocking metal rings.
+- **Wand of Burning Hands** (consumable, equipped) — A cone of searing flame shoots from your fingertips. Any creature in the area of the flames takes 1d4 points of fire damage per caster level (maximum 5d4). Flammable materials burn if the flames touch them. A character can extinguish burning items as a full-round action.
+- **Belladona** (consumable, equipped) — Used by Cheliax as a biological weapon to contaminate their enemies food reserves, this herb causes 1d2 STR damage but allows a new save vs Curse of Lycanthropy.
+- **Silver Greataxe** (weapon, equipped) — Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143 StatisticsCost 20 gp Weight 12 lbs. Damage 1d10 (small), 1d12 (medium); Critical x3; Range -; Type S; Special - Category Two-Handed; Proficiency Martial Weapon Groups Axes DescriptionThis two-handed battle axe is heavy enough that you can't wield it with one hand. The head may have one blade or two, and may be "bearded" (meaning hooked or trailing at the bottom) to increase cleaving power and help pull down enemy shields. The haft is u
+- **Scroll of Dispel Magic** (consumable, equipped) — You can use dispel magic to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by dispel magic. Dispel magic can dispel (but not counter) spell-like effects just as it does spells. The of a spell with an instantaneous duration can't be dispelled, because the
+- **Sweet Rest by Enchantique** (consumable, equipped) — When imbibed, this effervescent solution causes a heavy warmth to spread from your stomach outward to your limbs, resulting in feelings of security and well-being. If you sleep for at least 1 hour after consuming the solution, the next time within the next 24 hours that you attempt a saving throw to remove a temporary negative level, you can roll the save twice and use the better result. Crafting this item requires a successful DC 20 Craft (alchemy) check.  Requires Enchantique shaker bottle.
+- **Potion of Disguise Self** (consumable, equipped) — You make yourself--including clothing, armor, weapons, and equipmen--look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender. The spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile
+- **Insight Leaf Powder Concentrate by Enchantique** (consumable, equipped) — You steep these herbs in hot water, then drink the resulting tisane while it's still warm before going to bed. While you sleep, you experience vivid hallucinations that offer insight into matters with which you previously had only limited familiarity. After 8 hours of uninterrupted rest, you can attempt a previously failed Knowledge check with a +2 alchemical bonus.  Requires Enchantique shaker bottle.
+- **Applecheek Concentrate by Enchantique** (consumable, equipped) — This sticky-sweet syrup is distilled from ivy and rabbit musk, and causes a mild allergic reaction in halflings. The slight swelling- especially in the face-and mild redness it induces makes the face seem younger, granting a halfling who drinks a dose of applecheek a +2 alchemical bonus on Disguise checks to look like an elven, half-elven, or human child. The effects of a dose of applecheek persist for 24 hours. Crafting a dose of applecheek requires a successful DC 15 Craft (alchemy) check.  Re
+- **Cologne: Musk, by Calvin Carpenter** (loot) — What drives him? His driver. Who clothes him? His tailor. Who shaves him? The barber.   Who calls to her loins with the force of a hurricane's howl?   His Musk.....................................................  This scent smells of basil leaves, mint, and stinkbug because it is made from those things. It is -2 Diplomacy for 4 hours after applying unless a creature has no sense of smell or is powerfully attracted to teenage noblemen in which case they can hold their nose.
+- **Widowmaker** (weapon, equipped) — No vow, no bond, no sacred thread, Shall keep me from the justice bled, Beneath her gaze, with stinging grace, I end his breath, cleave his face.  Legends say this axe & poem are both the creation of an infamous priest of Calistria. The weapon was made for disposing of jealous husbands.
+- **Torch** (loot, equipped) — Price 1 cp; Weight 1 lb.  A torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage.
+- **Supple, A Wine By Calvin Carpenter** (consumable, equipped) — Calvin Carpenter's finest line of dry white wines, made from the finest potatoes from exclusive farms in Ravounel, has a name - Supple. Enjoy a glass of premium and refined flavor. Savor the taste and aroma of the rich, earthy notes in each bottle, expertly crafted from the finest ingredients. Raise a glass of Supple, the epitome of luxury and refinement.
+- **Ring of Protection +1** (equipment, equipped) — This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.
+- **Nutonia, Luxury Spread by Calvin Carpenter** (consumable, equipped) — Nutonia, Luxury Spread by Calvin Carpenter Smear refinement in paste-form across the bread of your life. Nutonia is a nut butter made from the sack of the most robust harvest of Taldania-nuts. Taste the nut of a generational-talent.
+- **Wand of Magic Missile** (consumable, equipped) — A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1 points of force damage. The missile strikes unerringly, even if the target is in melee combat, so long as it has less than total cover or total concealment. Specific parts of a creature can't be singled out. Objects are not damaged by the spell. For every two caster levels beyond 1st, you gain an additional missile-two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th 
+- **Crystal-Sweet Concentrate by Enchantique** (consumable, equipped) — This sugary blue drink, often cut with mint to reduce the cloying sweetness, brightens your demeanor and sweetens your voice, granting a +2 alchemical bonus on Diplomacy checks. It renders you naive and perilously trusting, however, imparting a -4 penalty on your Sense Motive checks.  Requires Enchantique shaker bottle.
+- **Potion of Cure Moderate Wounds** (consumable, equipped) — This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10).
+- **Liniment Concentrate by Enchantique** (consumable, equipped) — This lotion is made from soothing herbs and oils. When rubbed on your skin, liniment relieves pain, allowing you to ignore the effects of 2 points of ability damage caused by a single disease you have. The benefits of the liniment last for 30 minutes, and it does not cure, prevent, or otherwise protect you from the effects of diseases. You cannot benefit from the effects of liniment more than once in a 24-hour period.  Requires Enchantique shaker bottle.
+- **Nostalgia by Enchantique** (consumable, equipped) — Pathfinders pride themselves on their camaraderie, and among the worst threats are those that can magically compel agents to fight among themselves. Nostalgia oil is a vial of concentrated aromatics that evoke positive memories of the Grand Lodge and common trials overcome during a Pathfinder's training. By dabbing this oil on her face, neck, or arms as a standard action, a Pathfinder gains a +2 alchemical bonus on saving throws against effects with the emotionUM descriptor and on secondary savi
+
+## Notes & Updates
+
+- Mentioned as a cousin or mentor to Absu when she was alive. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Carrion Crown - Pier Reviewed 2025 04 13
-Mentioned as being in therapy for past actions
-
+*Session activity from YouTube transcripts will appear here.*

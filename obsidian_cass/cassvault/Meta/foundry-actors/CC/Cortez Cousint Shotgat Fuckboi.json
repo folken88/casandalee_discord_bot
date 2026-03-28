@@ -1,0 +1,38 @@
+{
+  "name": "Cortez Cousint Shotgat Fuckboi",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Gunslinger",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 10
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 10,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Double Barrel Tenderizer",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

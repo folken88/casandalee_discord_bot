@@ -1,0 +1,42 @@
+{
+  "name": "Dancing Darla Madile",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Bard",
+      "level": 8
+    },
+    {
+      "name": "Monk (Unchained)",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 46
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 17,
+    "con": 12,
+    "int": 10,
+    "wis": 11,
+    "cha": 15
+  },
+  "items": [
+    {
+      "name": "Belt of Incredible Dexterity +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt has a large silver buckle, usually depicting the image of a tiger.\nThe belt grants the wearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.\nConstructionRequirements Craft Wondrous Item, Cat's Grace; Cost 2,000 gp"
+    },
+    {
+      "name": "Sunblade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Sunblade of Darla Madile is a masterfully crafted scimitar, its blade gleaming with the radiance of the sun. Adorned with the sacred sun symbols of Sarenrae, this weapon was crafted specifically for the renowned bard and captain of the Shackles, Darla Madile. Operating out of Goatshead, she wielded this weapon with unmatched grace, combining her dueling skills with a dancer's agility. The hilt is wrapped in gold-threaded leather, designed for comfort and precision during battle."
+    }
+  ]
+}

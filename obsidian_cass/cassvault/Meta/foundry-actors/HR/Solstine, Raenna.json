@@ -1,0 +1,38 @@
+{
+  "name": "Solstine, Raenna",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Aristocrat",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 33
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 10,
+    "con": 12,
+    "int": 16,
+    "wis": 12,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Dagger MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A dagger has a blade that is about 1 foot in length.\n\nBenefit: You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body (see Using Skills)."
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    }
+  ]
+}

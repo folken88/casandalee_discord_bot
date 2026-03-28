@@ -1,0 +1,75 @@
+{
+  "name": "Wooden Barrels",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Kit, Climber's",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 77, PRPG Core Rulebook pg. 158\nPrice 80 gp; Weight 5 lbs.\nCategory Tools\nDescriptionThese crampons, pitons, ropes, and other tools give you a +2 circumstance bonus on Climb checks."
+    },
+    {
+      "name": "Kit, Disguise",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 77, PRPG Core Rulebook pg. 158\nPrice 50 gp; Weight 8 lbs.\nCategory Tools\nDescriptionThis kit contains tools like makeup and fake facial hair, and provides a +2 circumstance bonus on Disguise checks. A disguise kit is exhausted after 10 uses."
+    },
+    {
+      "name": "Potion of Haste",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast "
+    },
+    {
+      "name": "Magnifying Glass",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice 100 gp; Weight -\nCategory Adventuring Gear\nDescriptionThis simple lens allows a closer look at small objects. It is also useful as a substitute for a flint and steel when starting fires. Lighting a fire with a magnifying glass requires bright light, such as sunlight to focus, tinder to ignite, and at least a fullround action. A magnifying glass grants a +2 circumstance bonus on Appraise checks involving any item that is small or "
+    },
+    {
+      "name": "Manacles",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Path of the Hellknight pg. 15, PRPG Core Rulebook pg. 158, Ultimate Equipment pg. 57\nPrice  15 gp (common),  50 gp (masterwork),  1,000 gp (mithral); Weight 2 lbs. (common), 2 lbs. (masterwork), 2 lbs. (mithral)\nDescriptionManacles can bind a Medium creature. A manacled creature can use the Escape Artist skill to slip free (DC 30, or DC 35 for masterwork manacles). Breaking the manacles requires a Strength check (DC 26, or DC 28 for masterwork manacles). Manacles have hardness 10 and 10 h"
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Potion of Barkskin",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Barkskin toughens a creature's skin. The effect grants a +2 enhancement bonus to the creature's existing natural armor bonus. This enhancement bonus increases by 1 for every three caster levels above 3rd, to a maximum of +5 at 12th level.\nThe enhancement bonus provided by barkskin stacks with the target's natural armor bonus, but not with other enhancement bonuses to natural armor. A creature without natural armor has an effective natural armor bonus of +0."
+    },
+    {
+      "name": "Tanglefoot bag",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Tanglefoot bagSource Alchemy Manual pg. 31, Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158\nPrice 50 gp; Weight 4 lbs.\nCategory Alchemical WeaponsDescriptionA tanglefoot bag is a small sack filled with tar, resin, and other sticky substances. When you throw a tanglefoot bag at a creature (as a ranged touch attack with a range increment of 10 feet), the bag comes apart and goo bursts out, entangling the target and then becoming tough and resilient upon exposure to air. An entangled creatur"
+    },
+    {
+      "name": "Holy water",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Holy waterSource Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158\nPrice 25 gp; Weight 1 lb.\nCategory Alchemical WeaponsDescriptionHoly water damages undead creatures and evil outsiders almost as if it were acid. A flask of holy water can be thrown as a splash weapon.\n\n Treat this attack as a ranged touch attack with a range increment of 10 feet. A flask breaks if thrown against the body of a corporeal creature, but to use it against an incorporeal creature, you must open the flask and pour"
+    }
+  ]
+}

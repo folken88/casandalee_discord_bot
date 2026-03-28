@@ -1,0 +1,74 @@
+{
+  "name": "Val Baine",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Magus",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 17,
+    "con": 12,
+    "int": 12,
+    "wis": 10,
+    "cha": 15
+  },
+  "items": [
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Mithral Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nSpell Description\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Amulet of Natural Armor +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Foundrystein",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This copper-steel beer stein perfectly seals and preserves any liquid stored within it. At its tavern of origin, the Foundry Tavern in Torch of Numeria, these can be quickly refilled with a strange device unique to that location. This \"Tap\" as it is called, fills the stein with ice cold Cayden-Brew, imported from the distant South."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Scimitar",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This curved sword is shorter than a longsword and longer than a shortsword. Only the outer edge is sharp, and the back is flat, giving the blade a triangular cross-section."
+    }
+  ]
+}

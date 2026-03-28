@@ -1,0 +1,212 @@
+{
+  "name": "Holden Aleistair",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 84
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 14,
+    "int": 14,
+    "wis": 10,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Ring of Luck",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A strangely designed ring of silver, bronze, with a turquoise stone set.\nIts purpose and effects are unknown and appear to change, randomly…."
+    },
+    {
+      "name": "Chocolate Chip Cookie",
+      "type": "loot",
+      "equipped": false,
+      "description": "The chocolate chip cookie is a sweet baked treat that is recognized by its buttery flavor and the inclusion of chocolate chips, which can be dark, milk, or white chocolate depending on personal preference. It's a classic favorite for people of all ages, not just young folk, and is often enjoyed with a cold glass of milk or a warm cup of coffee. Bakers may also experiment with different types of chocolate or cocoa, add nuts or other mix-ins, or even substitute some of the ingredients to create a "
+    },
+    {
+      "name": "Boots of the Tidal Rogue",
+      "type": "loot",
+      "equipped": true,
+      "description": "These masterwork boots are crafted from supple black leather, reinforced with sea-green stitching that shimmers faintly like sunlight on ocean waves. The soles are made from the hide of a great sea serpent, providing exceptional grip on wet and slippery surfaces. Small, intricate carvings of maritime scenes, such as sailing ships and swirling whirlpools, adorn the sides of the boots, and a faint scent of saltwater lingers around them."
+    },
+    {
+      "name": "Firearm Bullet",
+      "type": "loot",
+      "equipped": false,
+      "description": "The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound."
+    },
+    {
+      "name": "Windapede Podbaby",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Tukkaroo Sleeping Bag",
+      "type": "loot",
+      "equipped": false,
+      "description": "Tukkaroo Sleeping Bag (Level 3 Wondrous Item)Price: 1,500 gp\nAura faint transmutation\nSlot —\nCL 3rd\nWeight 7 lbs\nDescriptionThe Tukkaroo Sleeping Bag is a thick, yak-like fur bedroll, crafted from naturally shed tukkar wool and lined with woven seaweed fibers from the shores of Firegrass Island. Enchanted with druidic magic, this bedroll provides unparalleled warmth, resilience, and rejuvenation to those who rest within it.\nWhen a creature sleeps in a Tukkaroo Sleeping Bag for at least 4 hours, "
+    },
+    {
+      "name": "The Operative +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The tattoo grants the bearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.\nThe item also provides a +2 insight bonus to stealth.\nConstructionRequirements Craft Wondrous Item, Cat's Grace; Cost 2,500 gp"
+    },
+    {
+      "name": "Whispered Courage Whiskey",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Drink the blood of heroes.\"Whispered Courage is aged in barrels made from pines cut from the Stoneheart Massacre Glade.This powerful spirit grants +4 vs fear saves for 1 hour. The bonus is doubled if an ally who also drank the whiskey is threatened within your sight."
+    },
+    {
+      "name": "Bullseye Rum",
+      "type": "consumable",
+      "equipped": true,
+      "description": "“It hits you right in the center, just not in a good way.”\nBullseye Rum is the drink of choice for the truly desperate, the miserly, or those who simply value quantity over quality. Its dark amber hue suggests a richness it absolutely does not deliver. The label, featuring a dartboard and the motto \"Bullseye,\" is both an ironic jab at the drink's questionable aftereffects and a promise of its unerring ability to ruin your stomach. Produced by dubious distilleries scattered across the Shackles, i"
+    },
+    {
+      "name": "Tally Buckle",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Belt of the Duelist is a finely crafted accessory embellished with images of legendary swordfighters locked in eternal combat. It is said to have been commissioned by a famous duelist from Taldor, known for his mastery in swordplay and elusive maneuvers. This belt gleams with an opalescent sheen and seems to adjust seamlessly around the waist of its wearer, infusing them with a heightened sense of agility and perception.\nUpon defeat or successful riposte of a worthy opponent, cast Blur on th"
+    },
+    {
+      "name": "Carriage Safety Guide",
+      "type": "loot",
+      "equipped": false,
+      "description": "Small safety scroll that contains information of the next carriage trip, with points such as:\n\nSmoking Area: While we acknowledge the confusion, this area is not intended for the consumption of exotic herbs. It is specifically designated for humanoids of elemental nature. Please refrain from any form of extinguishing in this area.\nMetal, Heavy, and Large Creatures: If you are a creature composed of metal, of significant size, or a magic user who carries extensive inventory in compact spaces (e.g"
+    },
+    {
+      "name": "Caydenbrew Teenie-Keg",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"One swig, one blessing, one tale to tell—or forget.\"\n\nCaydenbrew Teenie-Kegs are single-serving wooden kegs of Cayden Cailean’s iconic brew, blessed in his name and crafted for adventurers, rogues, and pirates who seek fortune, bravery, and maybe just a bit of luck. Compact and practical, they’re a common sight among the devout—or those who just like to party.\n\nLore\nBrewed with Blessings: Caydenbrew Teenie-Kegs are said to contain a drop of water from Cayden Cailean’s legendary Everlasting Tank"
+    },
+    {
+      "name": "Brow Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town.\n@JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}"
+    },
+    {
+      "name": "Tidewater Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Description\nThe blade of this +1 cutlass (Pirates of the Inner Sea 18) is spotted with rust, and its basket hilt is cast in the likeness of a grinning skull. Once per day, a tidewater cutlass can be used to cast hydraulic push. Tidewater cutlasses are not uncommon weapons among the pirates of the Shackles, at least for those who can afford to buy one or who manage to loot one from someone who can. Mr. Plugg acquired his cutlass from a seasoned old tar aboard the Wormwood who had the temerity to "
+    },
+    {
+      "name": "Heaven's Sting",
+      "type": "weapon",
+      "equipped": false,
+      "description": "Masterwork Cold Iron Rapier"
+    },
+    {
+      "name": "Buckler +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a –1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you"
+    },
+    {
+      "name": "Caydenbrew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Adventurer's Armory pg. 19\nPrice 5 cp/mug; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionThis ale is the standard beer drunk in Absalom. The recipe was said to be the last beer Cayden Cailean had before he undertook the Test of the Starstone. The hops for this beer were originally grown on the Isle of Kortos, but the massive brewery now imports from Andoran and Taldor."
+    },
+    {
+      "name": "Phase Spider Jerky",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Allows the consumer to move via Dimension door up to 60' within 24 hours of eating this food."
+    },
+    {
+      "name": "Bronze Fleet Volver",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Bronze Fleet Volver is a highly crafted, ornate six-shot revolver favored by officers and slavers within the Bronze Fleet. Its barrel and frame are forged from polished bronze, etched with swirling nautical patterns that echo the waves. Embedded in the side of the chamber is a small, aquamarine gemstone that glints faintly in the light, often mistaken for a magical focus.\nThe revolver is balanced for expert accuracy and durability, and its elaborate design symbolizes both power and prestige "
+    },
+    {
+      "name": "Bangarangs",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These rings look to be made of well worn bronze with glowing orange runic letters in the Infernal language, but they feel like leather strips and resize to fit any small, medium, or large biped's wrists or ankles.\nIf worn on the wrists, they grant +2 to Parry & Riposte attempts, and the Quick Draw feat.\nIf worn around the ankles, they increase the wearer's base land and swim speeds by 10, and they grant the Improved Initiative feat.\nIn either case, they can, as a swift action, Haste the wearer 1"
+    },
+    {
+      "name": "A cup",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This simple tin-cup is worn at all points. It is always cool to the touch, and cools any liquid held within.\nOn the bottom is a strange map."
+    },
+    {
+      "name": "Backpack, masterwork",
+      "type": "container",
+      "equipped": true,
+      "description": "This backpack has numerous pockets for storing items that might be needed while adventuring. Hooks are included for attaching items such as canteens, pouches, or even a rolled-up blanket. It has padded bands that strap across the chest and the waist to distribute its weight more evenly. Like a common backpack, it can hold about 2 cubic feet of material in its main container. When wearing a masterwork backpack, treat your Strength score as +1 higher than normal when calculating your carrying capa"
+    },
+    {
+      "name": "Liar's Dice Set",
+      "type": "container",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bubby-Stone",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Bubby-Stone is a smooth, palm-sized gemstone that glimmers with a faint azure light. Often sought by adventurers exploring the depths of the sea or venturing into airless caverns, the stone is said to be a gift from the elemental lords of air. When held in the mouth, it makes it difficult to speak as the stone constantly emits bubbles of breathable air. With practice, the owner can use this to breathe underwater or in poisonous gas clouds for up to 10 minutes. After use, the stone must be le"
+    },
+    {
+      "name": "Besmara's Bicorne",
+      "type": "equipment",
+      "equipped": true,
+      "description": "DescriptionThis large pirate hat bears a skull-and-crossbones on the front. The wearer gains a +2 competence bonus on Acrobatics and Climb checks. If Besmara is the wearer's patron, the wearer automatically floats to the surface of any body of water (at a speed of 30 feet) unless she desires otherwise; this does not prevent the wearer from falling safely into water or interacting with water in any other way.\nRequirementsCraft Wondrous Item, levitate, creator must have 5 ranks in Acrobatics and C"
+    },
+    {
+      "name": "Blood Caimon Tacos",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners!\nEnjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes."
+    },
+    {
+      "name": "Ring of the Chelish Agent",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This elegant ring is crafted of dark silver and etched with the emblem of House Thrune, the ruling family of Cheliax. It is a mark of authority and protection among agents of the Chelish government. The ring is often awarded to those who have proven their loyalty and prowess in the service of the infernal nation. The wearer feels a subtle aura of safety and strength, as if shielded by an unseen force."
+    },
+    {
+      "name": "The Timestopper",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The tattoo grants the wearer an enhancement bonus to Charisma of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the tattoo is worn.\nThe item also allows the bearer to add their charisma bonus to initiative checks.\nConstructionRequirements Craft Wondrous Item, Eagle's Splendor; Cost 2,500 gp"
+    },
+    {
+      "name": "Corsair's Coat",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Corsair’s Coat is a stylish, weathered leather coat designed for swashbucklers and those who live by the sea. Light enough to move freely in battle, this coat is reinforced with hidden strips of flexible metal, offering protection without restricting the wearer’s agility.\nIt functions as a mithral chain shirt +1\n +2 on acrobatics - comfortable yet maneuverable feel\n+4 CMD - helping the wearer avoid many dangers of boarding"
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Booch",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This vibrant green tea-based kombucha is a local specialty from the Tidewater Rock fortress in the dangerous seas of the southern Shackles, near Windward Isle. Crafted by combining island herbs with fermented tea, Booch serves to fortify sailors and sentries alike. Its tangy taste has a revitalizing quality, making it a popular drink among those who stand watch through the long nights. Folk tales suggest that this drink's unique recipe was a gift from a benevolent sea spirit keen on improving a "
+    }
+  ]
+}

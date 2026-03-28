@@ -1,0 +1,74 @@
+{
+  "name": "Deputy Brian",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Ranger",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 12
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Heavy Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 142, Ultimate Equipment pg. 17\nStatisticsCost 50 gp Weight 8 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range 120 ft.; Type P; Special -\nCategory Ranged; Proficiency Simple\nWeapon Groups Crossbows\nDescriptionYou draw a heavy crossbow back by turning a small winch. Loading a heavy crossbow is a full-round action that provokes attacks of opportunity. A heavy crossbow fires crossbow bolts.\n\n Normally, operating a heavy cros"
+    },
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    },
+    {
+      "name": "Club",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost - Weight 3 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range 10 ft.; Type B; Special -\nCategory One-Handed; Proficiency Simple\nWeapon Groups Hammers; Thrown; Tribal\nDescriptionThis weapon is usually just a shaped piece of wood, sometimes with a few nails or studs embedded in it."
+    },
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Longsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 15 gp Weight 4 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis sword is about 3-1/2 feet in length."
+    },
+    {
+      "name": "Bloodstained Handaxe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 6 gp Weight 3 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x3; Range -; Type S; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Axes; Tribal\nDescriptionThis one-handed axe is short (roughly 1 foot long) and designed for use with one hand. Unlike throwing axes, it is not well balanced for a graceful tumbling motion, and is instead heavier at its head. Tomahawks, war hatchets, and other such names usually re"
+    },
+    {
+      "name": "Deputy's Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

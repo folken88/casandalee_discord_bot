@@ -1,0 +1,38 @@
+{
+  "name": "Kipper",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Rogue (Tidal Trickster)",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 60
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 17,
+    "con": 14,
+    "int": 14,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    },
+    {
+      "name": "Sap",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 1 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range -; Type B; Special nonlethal\nCategory Light; Proficiency Martial\nWeapon Groups Close\nDescriptionThis weapon consists of a soft wrapping around a hard, dense core, typically a leather sheath around a lead rod. The head is wider than the handle and designed to spread out the force of the blow, making it less likely to draw blood or break bones."
+    }
+  ]
+}

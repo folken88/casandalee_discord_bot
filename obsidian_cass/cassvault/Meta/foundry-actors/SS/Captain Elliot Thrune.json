@@ -1,0 +1,60 @@
+{
+  "name": "Captain Elliot Thrune",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Wizard",
+      "level": 12
+    },
+    {
+      "name": "Sailor",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 83
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 14,
+    "con": 12,
+    "int": 17,
+    "wis": 11,
+    "cha": 13
+  },
+  "items": [
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Chelish Captain's Saber",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Chelish Captain's Saber is a finely crafted longsword with a hilt boasting intricate designs inspired by Cheliax's heraldry. Each blade is emblazoned with the insignia of the Chelish Navy, representing both authority and duty. These sabers are bestowed upon captains who have proven themselves in maritime operations, serving as both a badge of office and a weapon ready for both deadly skirmishes and ceremonial displays."
+    },
+    {
+      "name": "Chelish Navy Pattern Heavy Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This finely wrought heavy crossbow is standard issue aboard Chelish naval vessels. Featuring burnished brass fittings, a reinforced steel prod, and a hardwood stock lacquered in crimson and black (the colors of House Thrune), it exemplifies both state pride and battlefield efficiency. Despite lacking magical enhancements, it is a weapon of superior construction, built to endure brutal salt-weathered campaigns and still punch through enemy hulls or pierce a pirate captain's throat at 120 feet."
+    },
+    {
+      "name": "Spellbook",
+      "type": "loot",
+      "equipped": false,
+      "description": "A spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells). A newly purchased spellbook contains no spells. A wizard character begins play with a spellbook containing the spells he knows."
+    },
+    {
+      "name": "Hellchain",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Forged in the infernal forges of Cheliax, this chain-shirt is made from blacksteel, a rare material imbued with dark energies. The Blacksteel Chain-Shirt is favored by the contract devils, feared assassins in the service of Asmodeus, for its ability to blend seamlessly into the shadows and its protective enchantments. The links of the armor seem to absorb light, granting the wearer an ominous presence. Its intricate design features infernal runes and motifs of twisted iron.\nDue to its infernal o"
+    }
+  ]
+}

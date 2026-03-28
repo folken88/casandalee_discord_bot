@@ -1,0 +1,42 @@
+{
+  "name": "Zombie Chef",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Expert",
+      "level": 4
+    },
+    {
+      "name": "Barbarian",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 39
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Chef Ramsay's Cleaver",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This is a small axe balanced for throwing."
+    },
+    {
+      "name": "Chef's Masterwork Tools",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 50 gp; Weight 1 lb.\n\r\nThis tool is perfect for its intended job. It grants a +2 circumstance bonus on a related skill check (if any). The bonuses provided by multiple masterwork items do not stack.\n\r\nSeveral common items already count as masterwork tools for particular skills. These are the alchemist's lab, climber's kit, disguise kit, healer's kit, masterwork musical instrument, and masterwork thieves' tools. Therefore, there is no masterwork climber's kit, masterwork healer's kit, and so"
+    }
+  ]
+}

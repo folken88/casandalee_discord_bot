@@ -1,0 +1,25 @@
+{
+  "name": "Handmaiden Devil",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 187
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 25,
+    "con": 25,
+    "int": 22,
+    "wis": 21,
+    "cha": 20
+  },
+  "items": []
+}

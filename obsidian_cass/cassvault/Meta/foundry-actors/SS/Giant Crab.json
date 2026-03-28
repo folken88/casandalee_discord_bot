@@ -1,0 +1,24 @@
+{
+  "name": "Giant Crab",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Vermin",
+  "classes": [
+    {
+      "name": "Vermin",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 30
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 13,
+    "con": 14,
+    "wis": 10,
+    "cha": 2
+  },
+  "items": []
+}

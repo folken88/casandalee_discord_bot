@@ -1,17 +1,22 @@
 ---
 name: "Gorum"
 type: character
-campaign: "IG"
-tags: [character, ig]
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T02:59:09.508Z"
 ---
 
 # Gorum
 
-**Race:** Unknown | **Class:** Unknown | **Level:** ?
+## Notes & Updates
 
+- Described as a CD bat that knows about the prisoner. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Iron Gods - Spare Parts, Bud 2024 03 28
-War god whose prayers are featured in a prayer book found in the palace. The book is used for daily 'super bless' casting.
-
+*Session activity from YouTube transcripts will appear here.*

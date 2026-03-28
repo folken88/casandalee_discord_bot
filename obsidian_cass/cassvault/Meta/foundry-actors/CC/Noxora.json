@@ -1,0 +1,25 @@
+{
+  "name": "Noxora",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Magical Beast",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 34
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 14,
+    "int": 14,
+    "wis": 20,
+    "cha": 24
+  },
+  "items": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Sun Caiman",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 12,
+    "con": 18,
+    "int": 1,
+    "wis": 12,
+    "cha": 2
+  },
+  "items": []
+}

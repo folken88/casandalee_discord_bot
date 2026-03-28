@@ -1,0 +1,32 @@
+{
+  "name": "Pallbearer",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Undead Giant",
+      "level": 13
+    }
+  ],
+  "hp": {
+    "max": 78
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 14,
+    "con": 22,
+    "int": 14,
+    "wis": 16,
+    "cha": 22
+  },
+  "items": [
+    {
+      "name": "+1 Fire-Forged Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    }
+  ]
+}

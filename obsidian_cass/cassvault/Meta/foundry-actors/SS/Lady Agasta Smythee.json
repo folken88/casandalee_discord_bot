@@ -1,0 +1,102 @@
+{
+  "name": "Lady Agasta Smythee",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human CHA",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 8
+    },
+    {
+      "name": "Aristocrat",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 123
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 18,
+    "con": 14,
+    "int": 12,
+    "wis": 9,
+    "cha": 17
+  },
+  "items": [
+    {
+      "name": "Crossbow Bolt +1",
+      "type": "loot",
+      "equipped": false,
+      "description": "Bolts come in a case or quiver that holds 10 bolts (or 5 for a repeating crossbow).\n\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (–4 penalty on attack rolls) and deals damage as a dagger of its size (crit ×2)."
+    },
+    {
+      "name": "Corsair's Coat",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Corsair’s Coat is a stylish, weathered leather coat designed for swashbucklers and those who live by the sea. Light enough to move freely in battle, this coat is reinforced with hidden strips of flexible metal, offering protection without restricting the wearer’s agility.\nIt functions as a mithral chain shirt +1\n +2 on acrobatics - comfortable yet maneuverable feel\n+4 CMD - helping the wearer avoid many dangers of boarding"
+    },
+    {
+      "name": "Tally Buckle",
+      "type": "equipment",
+      "equipped": false,
+      "description": "The Belt of the Duelist is a finely crafted accessory embellished with images of legendary swordfighters locked in eternal combat. It is said to have been commissioned by a famous duelist from Taldor, known for his mastery in swordplay and elusive maneuvers. This belt gleams with an opalescent sheen and seems to adjust seamlessly around the waist of its wearer, infusing them with a heightened sense of agility and perception.\nUpon defeat or successful riposte of a worthy opponent, cast Blur on th"
+    },
+    {
+      "name": "Booch",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This vibrant green tea-based kombucha is a local specialty from the Tidewater Rock fortress in the dangerous seas of the southern Shackles, near Windward Isle. Crafted by combining island herbs with fermented tea, Booch serves to fortify sailors and sentries alike. Its tangy taste has a revitalizing quality, making it a popular drink among those who stand watch through the long nights. Folk tales suggest that this drink's unique recipe was a gift from a benevolent sea spirit keen on improving a "
+    },
+    {
+      "name": "Potion of Aid",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aid grants the target a +1 morale bonus on attack rolls and saves against fear effects, plus temporary hit points equal to 1d8 + caster level (to a maximum of 1d8+10 temporary hit points at caster level 10th)."
+    },
+    {
+      "name": "Tidewater Tricorn",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Tidewater Tricorn is a finely crafted pirate's hat, boasting striking colors and intricate embroideries that denote its significance as a symbol of authority among the notorious pirates of the Shackles. Adorned with intricate symbols of nautical lore, it commands both respect and recognition. Often passed down through the line of succession at Tidewater Rock, it is currently worn by Lady Agasta Smythee who rules with shrewdness and charisma."
+    },
+    {
+      "name": "Tidewater Signet",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This finely crafted ring bears the emblem of a crashing wave, signifying its authority as the official notary seal of the ruler of Tidewater Rock in the Shackles. Often worn by the leaders of the maritime fortress, the Tidewater Signet is not only a symbol of power but also a potent magical item. Crafted from durable materials, it gleams with an otherworldly light, hinting at the enchantments laid upon it. Its history is storied, often passing from one ruler to the next in the turbulent politics"
+    },
+    {
+      "name": "The Twins",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Agasta's Twinblaze is a masterfully crafted two-barrelled pistol, a rare creation from the forges of Alkenstar. Owned by Lady Agasta Smythee, the esteemed matron of Tidewater Rock in the Shackles, this pistol embodies both power and elegance. The polished metal barrels are intricately engraved with nautical motifs and fiery runes, while the grip is wrapped in exquisitely dyed sharkskin. This pistol is renowned not just for its aesthetic beauty, but for its devastating firepower, imbued with "
+    },
+    {
+      "name": "Red Widow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Red Widow is an elegant yet fearsome blade, its curved edge gleaming with a faint crimson sheen in the right light. The hilt is adorned with a dark iron guard shaped like a widow’s fangs, its grip wrapped in black leather. A blood-red gemstone sits at the center of the crossguard, rumored to darken when the blade tastes fresh blood.\nAbilities:\nWidow’s Bite – When striking a foe who has betrayed, insulted, or challenged Agasta’s authority, the blade deals an additional 1d6 precision damage (once "
+    },
+    {
+      "name": "Tidewater Signet",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This finely crafted ring bears the emblem of a crashing wave, signifying its authority as the official notary seal of the ruler of Tidewater Rock in the Shackles. Often worn by the leaders of the maritime fortress, the Tidewater Signet is not only a symbol of power but also a potent magical item. Crafted from durable materials, it gleams with an otherworldly light, hinting at the enchantments laid upon it. Its history is storied, often passing from one ruler to the next in the turbulent politics"
+    },
+    {
+      "name": "Tidewater Signet",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This finely crafted ring bears the emblem of a crashing wave, signifying its authority as the official notary seal of the ruler of Tidewater Rock in the Shackles. Often worn by the leaders of the maritime fortress, the Tidewater Signet is not only a symbol of power but also a potent magical item. Crafted from durable materials, it gleams with an otherworldly light, hinting at the enchantments laid upon it. Its history is storied, often passing from one ruler to the next in the turbulent politics"
+    },
+    {
+      "name": "Tidewater Side Piece",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This ornate signet ring displays a beautiful scene of a crashing wave surrounded by ornate silver and pirate iconography. It is issued only to the current favored consort of Pirate Queen Lady Smythee of Tidewater Rock. Known colloquially as \"the Side Piece,\" it is both a badge of station and a subtle warning—its bearer enjoys the Lady’s favor for now.\nAll officers, staff, and soldiers sworn to Tidewater Rock recognize the ring and are instructed to treat its bearer as a valuable guest. This incl"
+    }
+  ]
+}

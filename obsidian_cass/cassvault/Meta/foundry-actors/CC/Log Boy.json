@@ -1,0 +1,25 @@
+{
+  "name": "Log Boy",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Race: Undead",
+  "classes": [
+    {
+      "name": "Undead (Augmented Human)",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 17
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 10,
+    "con": 10,
+    "int": 0,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": []
+}

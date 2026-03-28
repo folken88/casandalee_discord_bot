@@ -1,0 +1,20 @@
+{
+  "name": "Unity Overlord",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 33,
+    "dex": 26,
+    "con": 30,
+    "int": 34,
+    "wis": 22,
+    "cha": 26
+  },
+  "items": []
+}

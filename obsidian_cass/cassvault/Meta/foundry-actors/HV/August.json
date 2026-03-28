@@ -1,0 +1,42 @@
+{
+  "name": "August",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Celestial",
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 2
+    },
+    {
+      "name": "Gunslinger",
+      "level": 14
+    }
+  ],
+  "hp": {
+    "max": 124
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 17,
+    "con": 14,
+    "int": 11,
+    "wis": 12,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "+2 Mithral Kikko",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Kikko armor consists of a clever arrangement of hexagonal plates made from iron and sewn to cloth, granting the wearer greater flexibility than that provided by many armors that afford similar defense. The plates may be left exposed or hidden by a layer of cloth.\nMithral\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well. Most mithral armors are one category"
+    },
+    {
+      "name": "Hark the Herald Angel Kills",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 43, Ultimate Combat pg. 138\n\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical x4; Range 20 ft.; Type B and P\n\nMisfire 1 (5 ft.); Capacity 1\n\nDescription\nThe basic single-shot pistol is one of the most common firearms, although in most campaigns it is still rare enough to be an object of envy or curiosity to most. As such, it can take a variety of different forms, from wildly ornate masterpieces in the shape of fire-breathing dragons to the more common woodhandle"
+    }
+  ]
+}

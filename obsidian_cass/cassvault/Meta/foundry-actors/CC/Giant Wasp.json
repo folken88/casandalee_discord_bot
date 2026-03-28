@@ -1,0 +1,25 @@
+{
+  "name": "Giant Wasp",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Race: Vermin",
+  "classes": [
+    {
+      "name": "Vermin",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 48
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 18,
+    "int": 0,
+    "wis": 13,
+    "cha": 11
+  },
+  "items": []
+}

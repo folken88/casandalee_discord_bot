@@ -1,0 +1,29 @@
+{
+  "name": "Costin",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Race: Undead",
+  "classes": [
+    {
+      "name": "Monk (Unchained)",
+      "level": 2
+    },
+    {
+      "name": "Undead (Augmented Human)",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 27
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 10,
+    "int": 0,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": []
+}

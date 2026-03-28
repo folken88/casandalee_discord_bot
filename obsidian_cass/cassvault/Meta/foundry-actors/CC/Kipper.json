@@ -1,0 +1,68 @@
+{
+  "name": "Kipper",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Rogue (Tidal Trickster)",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 60
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 17,
+    "con": 14,
+    "int": 14,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Key of Compliance",
+      "type": "equipment",
+      "equipped": true,
+      "description": "DescriptionThe holder of the Key of Compliance can cast command (DC 25 Will) on anyone wearing Shackles of Compliance three times per day. Keys of compliance have hardness 5 and 5 hit points.\nRequirementsCraft Wondrous Item, command\nSource:Ultimate Equipment"
+    },
+    {
+      "name": "Brig Key",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    },
+    {
+      "name": "Lower Deck Officer's Quarters Key",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Light Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 142, Ultimate Equipment pg. 17\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range 80 ft.; Type P\nWeapon Groups Crossbows\nDescriptionYou draw a light crossbow back by pulling a lever. Loading a light crossbow is a move action that provokes attacks of opportunity. A light crossbow fires crossbow bolts.\nNormally, operating a light crossbow requires two hands. However, you can shoot, but not load, a light crossbow with one"
+    },
+    {
+      "name": "Sap",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 1 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range -; Type B; Special nonlethal\nCategory Light; Proficiency Martial\nWeapon Groups Close\nDescriptionThis weapon consists of a soft wrapping around a hard, dense core, typically a leather sheath around a lead rod. The head is wider than the handle and designed to spread out the force of the blow, making it less likely to draw blood or break bones."
+    },
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are sometimes called \"quarrels.\""
+    }
+  ]
+}

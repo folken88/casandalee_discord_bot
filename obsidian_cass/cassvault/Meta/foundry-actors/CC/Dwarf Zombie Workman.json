@@ -1,0 +1,36 @@
+{
+  "name": "Dwarf Zombie Workman",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Dwarf",
+  "classes": [
+    {
+      "name": "Expert",
+      "level": 1
+    },
+    {
+      "name": "Undead (Augmented Human)",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 31
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 10,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Multi Purpose Hammer",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A lighter version of a warhammer, this weapon usually has a sleek metal head with one striking surface."
+    }
+  ]
+}

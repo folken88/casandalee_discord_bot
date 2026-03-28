@@ -1,0 +1,32 @@
+{
+  "name": "Binox",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Race: Construct",
+  "classes": [
+    {
+      "name": "Construct (Robot)",
+      "level": 16
+    }
+  ],
+  "hp": {
+    "max": 98
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 26,
+    "con": 10,
+    "int": 20,
+    "wis": 15,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "XM-53 Anti-Tank Missile Launcher",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A portable anti-tank missile launcher."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Lil Leviathan",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Magical Beast",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 14,
+    "int": 5,
+    "wis": 12,
+    "cha": 8
+  },
+  "items": []
+}

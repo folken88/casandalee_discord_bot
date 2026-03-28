@@ -1,7 +1,8 @@
 # Canonical Foundry Actor Names
 Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
+Updated with all world + compendium data including Shackles
 
-## Iron Gods (03irongodspub world)
+## Iron Gods (world)
 - Adamantine Golem|npc
 - Ascanor Lodge Shop|npc
 - Augustus Teabrow|character
@@ -72,6 +73,370 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Vlorrtesson|character
 - Warden Drone|npc
 - Warmageddon|npc
+- Weapon Rack|npc
+
+## Skull & Shackles (world)
+- Able Seaman|npc
+- Able Skelly|npc
+- Alexios Lascaris|character
+- Antonina|character
+- Asmodean Diabolist|npc
+- Asmodean Enchanter (Navy)|npc
+- Bent-Beak Charney|npc
+- Bessa Mane|character
+- Bilge|character
+- Binch|character
+- Bob Tuffit|npc
+- Bone Pile|npc
+- Bookshelf|npc
+- Brain Eye Sahuagin|npc
+- Brogan's Axe|character
+- Bronze Fleet Able|npc
+- Bronze Fleet Captain|npc
+- Bronze Fleet Marine|npc
+- Bronze Fleet Navigator|npc
+- Bronze Fleet Officer|npc
+- Bronze Fleet Ordinary|npc
+- Bronze Fleet Slave|npc
+- Bruebeck|character
+- Bryce|npc
+- Bujon, Storm of Cheliax|character
+- Bull Doggit|npc
+- Captain Beefcake Rippah|npc
+- Captain Durn|npc
+- Captain Elliot Thrune|npc
+- Captain Maris|npc
+- Captain Pogface McKellan|character
+- Captain Titus Felwater|npc
+- Captain Viraeth \|npc
+- Carriers By Calvin|npc
+- Cheatum & Steele|npc
+- Chelish Captain|npc
+- Chelish E4 Ordinary Seaman|npc
+- Chelish e5 Able Seaman|npc
+- Chelish Marine|npc
+- Chelish Navigator|npc
+- Chelish Officer|npc
+- Chelish Slave|npc
+- Chest|npc
+- Civilian (Shackles female)|npc
+- Civilian (Shackles male)|npc
+- Clauseborn|npc
+- Clutter|npc
+- Clutter (Kitchen)|npc
+- Coffin|npc
+- Conchobar Turlach Shortstone|character
+- Corpse - Sahuagin|npc
+- Corpse (soldier)|npc
+- Crew and Officer Lockers|npc
+- Cursed Sailor|npc
+- Damn-Jewel Ordinary|npc
+- Damn-Jewel Trade Tub|npc
+- Damned Lubber|npc
+- Dancing Darla Madile|npc
+- Derris Jane|character
+- Expected Dinghy|npc
+- Fever Sea Buccaneer|npc
+- Fever Sea Scallywag|npc
+- Fugly|npc
+- Gator of the Sea|npc
+- General Store|npc
+- Ghoul|npc
+- Goatshead Militia|npc
+- Goatshead Shops|npc
+- Granny Gunns|character
+- Great Hammerhead Shark|npc
+- Hammerhead Shark|npc
+- Human Zombie House Servant|npc
+- Human Zombie Noble|npc
+- Human Zombie Rogue|npc
+- Ikualo'a|npc
+- Imani|character
+- Imp|npc
+- Kael Broadwake|character
+- Kaelin Kringle|character
+- Kiptup Kaller|npc
+- Kiptup Shootsit|npc
+- Kiptup Stabbit|npc
+- Kiptup Toe-Down|npc
+- Kobra|character
+- Krelloort|npc
+- Kwami|character
+- Lady Agasta Smythee|npc
+- Lady Smythee's Bedstand|npc
+- Lil Vaughan|character
+- Lubber|npc
+- Magic Chest|npc
+- Marl Quickwater|character
+- Maven, Windward Harpy Mistress|npc
+- Minny \|character
+- Mug|npc
+- Muh Other Dingay|npc
+- Musket Maiden|npc
+- Nest|npc
+- Nidalese Able Ghast|npc
+- Nidalese Navy Captain|npc
+- Nidalese Officer|npc
+- Nidalese Ordinary Skelton|npc
+- Nidalese Thrall|npc
+- Numerian Ink|npc
+- Ordinary Seaman|npc
+- Owlbear|character
+- Papers|npc
+- PC BOx|npc
+- Pedestal|npc
+- Pig|npc
+- Pile O Guts|npc
+- Poore Soldier|npc
+- Quartermaster's Store|npc
+- Queen Blossom|character
+- Radiance|character
+- Rhyarca Jillyr|character
+- Riviera Silvear|character
+- Rosie Cusswell|character
+- Royal Marine Sergeant|npc
+- Royster McCleagh|character
+- Sahuagin Druid of the Deeps|npc
+- Sahuagin Rager|npc
+- Sahuagin Shaman|npc
+- Sailor 3|npc
+- Salt Mephit|npc
+- Sanaa|character
+- Sandara Quinn|character
+- Sea Captain|npc
+- Sea Officer|npc
+- Ser Toche|character
+- Shackles Navigator|npc
+- Shackles Phase Spider|npc
+- Shackles Sea-Caster|npc
+- ShaFeng|character
+- Shark|npc
+- Ship's Cook|npc
+- Ship's Hold|npc
+- Sister Merintha of the Gutter Flame|character
+- Skeleton|npc
+- Slobber Devil|npc
+- Sloshed|npc
+- Smokie|character
+- Sneaky Dingher|npc
+- Squables|npc
+- Squibbins|npc
+- Statue|npc
+- Stone Sarcophagus|npc
+- Storgrim Thunderbeard|character
+- Sun Caiman|npc
+- Sunflower Sailor|npc
+- Supply Pile|npc
+- Swamp Elf|npc
+- Sweet Wilihem Poore|npc
+- Taldor Captain|npc
+- Taldor E4 Ordinary Seaman|npc
+- Taldor e5 Able Seaman|npc
+- Taldor Marine|npc
+- Taldor Officer|npc
+- Talisar|character
+- Temperance|character
+- Tent|npc
+- Tepen the Quiet|character
+- Thalvo|character
+- The Gold Saurian|npc
+- The Man's Promise (Copy)|npc
+- The Pillager's Paring Knife|npc
+- The Steward|npc
+- The Wall|npc
+- Thragorn|character
+- Thrall|npc
+- Tide Mart|npc
+- Tidefolk|character
+- Tidewater Goat|npc
+- Tidewater Marksman|npc
+- Tidewater Regular|npc
+- Tidewater Sea Shop|npc
+- Tojanida|npc
+- Tortugán|npc
+- Towa Hershel|character
+- Treasure Chest|npc
+- Trunk|npc
+- Tukkar|npc
+- typical pirate|npc
+- Tzorak Kel'Marr|npc
+- UEF Captain|npc
+- UEF Navigator|npc
+- Valerie's Vagueries|npc
+- Vaughan|character
+- Velvet Morning|npc
+- Veylin \|character
+- Vorlis|character
+- Walleye's Rum Room|npc
+- Wardrobe|npc
+- Waterproof Chest|npc
+- Weapons Crate|npc
+- Weapons Rack|npc
+- Whaling Enthusiast|npc
+- Windward Demon Ape|npc
+- Windward Jungle Ranger|npc
+- Wooden Barrels|npc
+- Xaervan|character
+- Zuberi|character
+
+## Carrion Crown (world)
+- Adivion Adrissant|character
+- Arazni|character
+- Auren Vrood|character
+- Barkeep|npc
+- Barrel|npc
+- Beetle Brewmaster|npc
+- Bobbu|character
+- Bone Pile|npc
+- Bookshelf|npc
+- Caliphas Bar Fly|npc
+- Caliphas Bar Fly Lady|npc
+- Caliphas Bar Fly Slebbegy Guy|npc
+- Caliphas Bar Fly Sus Lady|npc
+- Carriers By Calvin|npc
+- Carrion Crow|npc
+- Cezan Orvask|npc
+- Chaos Beast|npc
+- Chaos Labyrinthian|npc
+- Chaos Spawn|npc
+- Chaos Wendigo|npc
+- Chastel Services|npc
+- Cheatum & Steele|npc
+- Clarissa Ellsa Caromarc|character
+- Clutter|npc
+- Coffin|npc
+- Curiosity|character
+- Dog Watch Tavern|npc
+- Drowning Dead|npc
+- Duristan Silvio Ariesir|character
+- Elfrip|character
+- Eliouren Shop|npc
+- Eliouren Speaker|npc
+- Eliouren Villager|npc
+- Eliouren Warden|npc
+- Elodie|character
+- Farrah Delilah Richton|character
+- fera Alchemist|character
+- Fera Burrows|character
+- Gaol Warden|npc
+- Gash|character
+- Ghastly Crusader|npc
+- Ghoul Knight|npc
+- Gildais|npc
+- Grumpymart|npc
+- Halfling Farmer|npc
+- Halfling Were-Ghoul|npc
+- Jafo|character
+- Jub Jub|character
+- Kai Gin|character
+- Kate Blackwood|character
+- Keeper Ariend Hyve|character
+- Keeper Rupman Myre|character
+- Keeper Waldur Crove|character
+- Lorzobun Forge|npc
+- Luvick Siervage|character
+- Magic Chest|npc
+- Meyanda|character
+- Mohrg|npc
+- Muffin Topslapper|npc
+- Muh Fuckin Dingay|npc
+- Numerian Ink|npc
+- Ol Joybridge|character
+- Papers|npc
+- Penitent Hearth|npc
+- Pudkens aka Lil-Dinger|character
+- Puff|character
+- Rack|npc
+- Red Runner Thug|npc
+- Rik|character
+- Rodney \|character
+- Rook|npc
+- Saranrae|character
+- Savage Security War Chest|npc
+- Sirona, Deva of the First Circle|character
+- Soul Wraith|npc
+- Statue|npc
+- Stone Giant|npc
+- Stroke Pit|npc
+- Sump Rat Tavern|npc
+- Supply Pile|npc
+- Swamp Hydra Zombie|npc
+- Sylvia|character
+- Tar Baphon, The Whispering Tyrant|character
+- Taylor Blackwood|character
+- Thalia Moor|npc
+- The Fearsome Fancy|npc
+- The Harrow Hearse|npc
+- The Rock of Silence|npc
+- Tram Shop|npc
+- Valerie's Vagueries|npc
+- Velvet Morning|npc
+- Vex|character
+- Wardrobe|npc
+- Whispering Sentinal|npc
+- WW Annihilator|npc
+- WW Blade|npc
+- WW Practitioner|npc
+- WW Shank|npc
+- Xanna|character
+
+## Hells Rebels (world)
+- Aeldervenk, Lady Tarsa|npc
+- Aeldervenk, Lerish|npc
+- Asmodean Enchanter|npc
+- Caliphas Bar Fly Lady|npc
+- Caliphas Bar Fly Slebbegy Guy|npc
+- Delronge, Countess Melodia|character
+- Dock Shop|npc
+- Dottari Investigator|npc
+- Fever Sea Buccaneer|npc
+- Goatshead Militia|npc
+- Goatshead Shops|npc
+- Halfling Farmer|npc
+- Herecite of Asmodeus|npc
+- Korva Fushi|character
+- Marlow, Captain Hank|character
+- Quartermaster's Store|npc
+- Red Runner Thug|npc
+- Rik|character
+- Servant of the Inheritor|npc
+- Sloshed|npc
+- Solstine, Zhorula (Rula)|npc
+- Ustalav Noble|npc
+
+## Hells Vengeance (world)
+- Abrogail Thrune II|character
+- Accomplice Devil (Hesperian)|npc
+- Asmodean Enchanter|npc
+- August|npc
+- Azurion|npc
+- Barleybridge Guardsman|npc
+- Barleybridge Peasant|npc
+- Barleybridge Samurai|npc
+- Bianca|npc
+- Carriers By Calvin|npc
+- Chadriel|npc
+- Cupboard|npc
+- Dottari Patrollman|npc
+- Executioner Devil (Munagola)|npc
+- Field Marshal Freya Kusanagi|character
+- Gambling Devil (Magadaz)|npc
+- General Store|npc
+- Half Foods (static)|npc
+- Handmaiden Devil (Gylou)|npc
+- Inheritor's Holy Gun|npc
+- Iomedae|character
+- Jophiel|npc
+- Loot Bungus|npc
+- Nash|npc
+- Nemesis Devil (Advodaza)|npc
+- Party Bank NPC|npc
+- Sarcophagus|npc
+- Slorr|character
+- Starjuice|npc
+- Stone Cabinet|npc
+- The Tears of St.Ilnea|npc
+- Warmonger Devil (Levaloch)|npc
 - Weapon Rack|npc
 
 ## Iron Gods (compendium module)
@@ -159,16 +524,14 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Starfall Florist|npc
 - Starfall Homeless|npc
 - Starfall Innkeeper|npc
+- Starfall Lawman|npc
 - Starfall Lawman Bobryn|npc
 - Starfall Lawman Captain|npc
-- Starfall Lawman|npc
 - Starfall Stablemaster|npc
 - Starfall Tailor|npc
 - Starfall Undermarket General|npc
 - Starfall Waitress|npc
 - Stone Cabinet|npc
-- TL Technomancer|npc
-- TL Watcher|npc
 - Taylor Blackwood|character
 - Tech Barb|npc
 - Tech Crate|npc
@@ -181,116 +544,17 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Temple of Brigh Shop|npc
 - Tempting Tonics Shop|npc
 - The Mockery|npc
+- TL Technomancer|npc
+- TL Watcher|npc
 - Torch City Guard|npc
 - Turok|character
-- VR Hostess|npc
-- VR Techie|npc
 - Val Baine|character
 - Vlorrtesson|character
+- VR Hostess|npc
+- VR Techie|npc
 - Warden Drone|npc
 - Warmageddon|npc
 - Weapon Rack|npc
-
-## Carrion Crown (world)
-- Adivion Adrissant|character
-- Arazni|character
-- Auren Vrood|character
-- Barkeep|npc
-- Barrel|npc
-- Beetle Brewmaster|npc
-- Bobbu|character
-- Bone Pile|npc
-- Bookshelf|npc
-- Caliphas Bar Fly Lady|npc
-- Caliphas Bar Fly Slebbegy Guy|npc
-- Caliphas Bar Fly Sus Lady|npc
-- Caliphas Bar Fly|npc
-- Carriers By Calvin|npc
-- Carrion Crow|npc
-- Cezan Orvask|npc
-- Chaos Beast|npc
-- Chaos Labyrinthian|npc
-- Chaos Spawn|npc
-- Chaos Wendigo|npc
-- Chastel Services|npc
-- Cheatum & Steele|npc
-- Clarissa Ellsa Caromarc|character
-- Clutter|npc
-- Coffin|npc
-- Curiosity|character
-- Dog Watch Tavern|npc
-- Drowning Dead|npc
-- Duristan Silvio Ariesir|character
-- Elfrip|character
-- Eliouren Shop|npc
-- Eliouren Speaker|npc
-- Eliouren Villager|npc
-- Eliouren Warden|npc
-- Elodie|character
-- Farrah Delilah Richton|character
-- Fera Burrows|character
-- Gaol Warden|npc
-- Gash|character
-- Ghastly Crusader|npc
-- Ghoul Knight|npc
-- Gildais|npc
-- Grumpymart|npc
-- Halfling Farmer|npc
-- Halfling Were-Ghoul|npc
-- Jafo|character
-- Jub Jub|character
-- Kai Gin|character
-- Kate Blackwood|character
-- Keeper Ariend Hyve|character
-- Keeper Rupman Myre|character
-- Keeper Waldur Crove|character
-- Lorzobun Forge|npc
-- Luvick Siervage|character
-- Magic Chest|npc
-- Meyanda|character
-- Mohrg|npc
-- Muffin Topslapper|npc
-- Muh Fuckin Dingay|npc
-- Numerian Ink|npc
-- Ol Joybridge|character
-- Papers|npc
-- Penitent Hearth|npc
-- Pudkens aka Lil-Dinger|character
-- Puff|character
-- Rack|npc
-- Red Runner Thug|npc
-- Rik|character
-- Rodney |character
-- Rook|npc
-- Saranrae|character
-- Savage Security War Chest|npc
-- Sirona, Deva of the First Circle|character
-- Soul Wraith|npc
-- Statue|npc
-- Stone Giant|npc
-- Stroke Pit|npc
-- Sump Rat Tavern|npc
-- Supply Pile|npc
-- Swamp Hydra Zombie|npc
-- Sylvia|character
-- Tar Baphon, The Whispering Tyrant|character
-- Taylor Blackwood|character
-- Thalia Moor|npc
-- The Fearsome Fancy|npc
-- The Harrow Hearse|npc
-- The Rock of Silence|npc
-- Tram Shop|npc
-- Valerie's Vagueries|npc
-- Velvet Morning|npc
-- Vex|character
-- WW Annihilator|npc
-- WW Blade|npc
-- WW Practitioner|npc
-- WW Shank|npc
-- Wardrobe|npc
-- Whispering Sentinal|npc
-- Xanna|character
-- fera Alchemist|character
 
 ## Carrion Crown (compendium module)
 - Abrogail Thrune II|character
@@ -319,9 +583,10 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Auren Vrood|character
 - Bahari-Kofi Fisher|npc
 - Bahari-Kofi Longspear|npc
-- Baker's Boy|npc
 - Baker|npc
+- Baker's Boy|npc
 - Bank Worker|npc
+- bard-template|npc
 - Barkeep|npc
 - Barrel|npc
 - Barrister Gustav Kaple|npc
@@ -360,7 +625,7 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Bruebeck|character
 - Bruhd Bam|character
 - Bryce|npc
-- Brynden |npc
+- Brynden \|npc
 - Bujon, Storm of Cheliax|character
 - Butcher|npc
 - CAL-OPS Captain|npc
@@ -371,10 +636,10 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - CAL-OPS Marksman|npc
 - CAL-OPS Nightguard|npc
 - CAL-OPS Sergeant|npc
+- Caliphas Bar Fly|npc
 - Caliphas Bar Fly Lady|npc
 - Caliphas Bar Fly Slebbegy Guy|npc
 - Caliphas Bar Fly Sus Lady|npc
-- Caliphas Bar Fly|npc
 - Captain Avimar Sorrinash|character
 - Captain Cerise Bloodmourn|character
 - Captain Dad|character
@@ -404,8 +669,8 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Chef|npc
 - Chelish Captain|npc
 - Chelish E4 Ordinary Seaman|npc
-- Chelish Officer|npc
 - Chelish e5 Able Seaman|npc
+- Chelish Officer|npc
 - Chief Justice Ambrose Khard|character
 - Chrisjen|character
 - Cilas Graydon|character
@@ -415,11 +680,11 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Clarissa Ellsa Caromarc|character
 - Clarity|character
 - Clickboom Hideout Storage|npc
-- Clutter (Kitchen)|npc
 - Clutter|npc
+- Clutter (Kitchen)|npc
 - Coffin|npc
-- Conchobar Turlach Shortstone|character
 - Conchobar Turlach Shortstone|npc
+- Conchobar Turlach Shortstone|character
 - Contract Devil (Phistophilus)|npc
 - Corpsehook|npc
 - Cortez Cousint Lever Action Figure|npc
@@ -458,6 +723,8 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Dr. Tamsin Virelle|character
 - Dr.Montagnie Crowl|npc
 - Draghul the First|npc
+- dragon disciple dex|character
+- dragon disciple str|character
 - Dravod Knock Mud Bandit|npc
 - Dravod Rogue|npc
 - Dravod Witch|npc
@@ -481,25 +748,26 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Feldgrau Animate|npc
 - Feldgrau Blademaster|npc
 - Felix the Just|npc
+- fera Alchemist|character
 - Fera Burrows|character
 - Fever Sea Buccaneer|npc
 - Forever War Soldier|npc
 - Four-armed Sahuagin|npc
-- Gabriel Borden|character
 - Gabriel|character
+- Gabriel Borden|character
 - Gambling Devil (Magadaz)|npc
 - Gaol Warden|npc
 - Gash|character
 - Gavin Hartveil of Crestholm|npc
 - General Drannon Ulvodos|character
 - General Store|npc
+- Ghast|npc
 - Ghastly Crusader|npc
 - Ghastly Paragon|npc
-- Ghast|npc
 - Ghost Mother|npc
 - Ghostly Refugee|npc
-- Ghoul Knight|npc
 - Ghoul|npc
+- Ghoul Knight|npc
 - Giant Crab Spiders|npc
 - Giant Leech|npc
 - Goatshead Militia|npc
@@ -510,7 +778,7 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Grindylow Shaman|npc
 - Grine|character
 - Grodair|npc
-- Gwyneth |npc
+- Gwyneth \|npc
 - Half Foods|npc
 - Halfling Farmer|npc
 - Halfling Were-Ghoul|npc
@@ -581,8 +849,8 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Magic Chest|npc
 - Maginnis|character
 - Malenti Sahuagin|npc
-- Marl Quickwater (Copy) (Copy)�|character
 - Marl Quickwater|character
+- Marl Quickwater (Copy) (Copy)�|character
 - Master Chief|character
 - Master of the Gales|character
 - Mathus Mordrinacht|character
@@ -593,7 +861,7 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Menadoran Festrog|npc
 - Meyanda|character
 - Mindfang Weaver|npc
-- Minny |character
+- Minny \|character
 - Mockery of Death|npc
 - Mohrg|npc
 - Muffin Topslapper|npc
@@ -606,6 +874,7 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Nidalese Ordinary Ghoul|npc
 - Nidalese Thrall|npc
 - Nobleperson|npc
+- nofancyshit tiktokchef|character
 - Nomad ND1 Rover|npc
 - Northgarde Citizen|npc
 - Northgarde Mage|npc
@@ -653,8 +922,8 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Riviera Silvear|character
 - Road King|npc
 - Roderick Blackwood|character
-- Rodney |character
-- Roland |character
+- Rodney \|character
+- Roland \|character
 - Rook|npc
 - Rowena Goldhaven|npc
 - Royal Marine Sergeant|npc
@@ -709,10 +978,10 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Switch|character
 - Taelys of Starfall|character
 - Taldor Captain|npc
-- Taldor E4 Ordinary Seaman|npc
-- Taldor Officer|npc
 - Taldor e1 Recruit|npc
+- Taldor E4 Ordinary Seaman|npc
 - Taldor e5 Able Seaman|npc
+- Taldor Officer|npc
 - Tar Baphon, The Whispering Tyrant|character
 - Taylor Blackwood|character
 - Tech Barb|npc
@@ -735,8 +1004,8 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - The Whale|npc
 - The Wormwood|npc
 - Thecla Dumeili|npc
-- Thragorn's Shop|npc
 - Thragorn|character
+- Thragorn's Shop|npc
 - Thrall|npc
 - Thundering Tyrant|npc
 - Tibor Varga (dead)|npc
@@ -751,14 +1020,15 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Torrumak Guardian|npc
 - Torrumak Warden|npc
 - Tortugán|npc
-- Tram Shop|npc
 - Tram|character
+- Tram Shop|npc
 - Treasure Chest|npc
 - Troshall|npc
 - Tukkar|npc
 - Tzorak Kel'Marr|npc
 - UEF Captain|npc
 - Undead Werewolf|npc
+- Ustalav Noble|npc
 - Ustalav Noble Dancer 01|npc
 - Ustalav Noble Dancer 02|npc
 - Ustalav Noble Dancer 03|npc
@@ -768,7 +1038,6 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Ustalav Noble Dancer 06 M|npc
 - Ustalav Noble Dancer 07|npc
 - Ustalav Noble Dancer 08|npc
-- Ustalav Noble|npc
 - Vaelor Straye|character
 - Vakra Ghikaat|character
 - Val Baine|character
@@ -779,31 +1048,164 @@ Generated 2026-03-26 from F:/foundryvttstorage — READ ONLY extraction
 - Velvet Morning|npc
 - Veracity|character
 - Vex|character
-- Veylin |character
+- Veylin \|character
 - Vilkacis|npc
 - Vision|character
 - Vollensag Clan|npc
 - Vollensag Dire Werewolf|npc
 - Vorathun Woke Early|npc
 - Vraska the Medusa Queen?|character
-- WW Annihilator|npc
-- WW Blade|npc
-- WW Practitioner|npc
-- WW Shank|npc
 - Walleye's Rum Room|npc
 - Wardrobe|npc
 - Warrior Sahaugin Slave|npc
 - Werner Herzog|character
 - Whispering Sentinal|npc
+- WW Annihilator|npc
+- WW Blade|npc
+- WW Practitioner|npc
+- WW Shank|npc
 - Xanna|character
 - Young Giant Moray Eel|npc
 - Young Sahuagin Slave|npc
 - Zombie Grud|npc
 - Zombie Priest|npc
 - Zuberi|character
-- |npc
-- bard-template|npc
-- dragon disciple dex|character
-- dragon disciple str|character
-- fera Alchemist|character
-- nofancyshit tiktokchef|character
+
+## Skull & Shackles (compendium module)
+- Aaron Ivy|npc
+- Adaro|npc
+- Albers Siggs|npc
+- Ancient Mariner|npc
+- Ankheg|npc
+- Aretta Bansion|npc
+- Armory|npc
+- Arron Ivy's Chest|npc
+- Arrow Trap|npc
+- Bard|npc
+- Barkeep|npc
+- Barmaid|character
+- Barnabas Harrigan|npc
+- Barnabas' Private Cache|npc
+- Bilge Loot|npc
+- Bilge Spider|npc
+- Birney Siggs|npc
+- Black Spot|npc
+- Boar|npc
+- Botfly Swarm|npc
+- Buccaneer|character
+- Canopy Creeper|npc
+- Captain's Chest|npc
+- Chelish Marine|npc
+- Clew|npc
+- Conchobar Turlach Shortstone|npc
+- Cook|npc
+- Crab|npc
+- Crew and Officer Lockers|npc
+- Crimson \|npc
+- Crimson Cogward's Locker|npc
+- Crossbow Trap|npc
+- Cursed Officer|npc
+- Cursed Sailor|npc
+- Cursed Surgeon|npc
+- Cut-Throat Grok|npc
+- Deathknell|npc
+- Devilfish|npc
+- Dimun Corsair|npc
+- Dire Rat|npc
+- Dwarf Caiman|npc
+- Escort|npc
+- Fiendish Shark|npc
+- Fipps Chumlett|npc
+- Foremast Jack|npc
+- Four-armed Sahuagin|npc
+- Galley|npc
+- Gambler|character
+- Giant Botfly|npc
+- Giant Crab|npc
+- Giant Frog|npc
+- Giant Isopod|npc
+- Giant Jellyfish|npc
+- Giant Wasp|npc
+- Giffer Tibbs|npc
+- Goat|npc
+- Great Hammerhead Shark|npc
+- Great White Shark|npc
+- Green Hag|npc
+- Grindylow|npc
+- Grodair|npc
+- Habbly Quarne, the \|npc
+- Hammerhead Shark|npc
+- Harpoon Trap|npc
+- Incutilis|npc
+- Infernus Barrels|npc
+- Isabella \|character
+- Jack Scrimshaw|npc
+- Jakes Magpie|npc
+- Jaundiced Jape|npc
+- Jellyfish Swarm|npc
+- King Crab|npc
+- Kipper|npc
+- Knuckles Grype|character
+- Krelloort|npc
+- Lacedon|npc
+- Lady Agasta Smythee|npc
+- Lippy Gudmund|npc
+- Locathah Matriarch|npc
+- Maheem|npc
+- Malenti Sahuagin|npc
+- Mardus Siggs|npc
+- Marsh Giant|npc
+- Master Scourge|npc
+- Megalodon|npc
+- Monkey Barrel|npc
+- Morkvarg, Heart of Terror|npc
+- Mosquito Swarm|npc
+- Moto|npc
+- Mr. Plugg|npc
+- Musket Maidens|npc
+- Paracountess Axia Lorvika|npc
+- Patch Patchsalt|npc
+- Peppery Longfarthing|npc
+- Pig|npc
+- Pluck|npc
+- Poison Dart Trap|npc
+- Rahadoumi Officer|npc
+- Rahadoumi Sailor|npc
+- Ravenous Urchin Swarm|npc
+- Reefclaw|npc
+- Riaris Krine|npc
+- Rickety Hake|npc
+- Rock Crab|npc
+- Rosie Cusswell|npc
+- Royster McCleagh|character
+- Sahuagin|npc
+- Sahuagin Brute|npc
+- Sahuagin Scout|npc
+- Salt Mephit|npc
+- Sandara Quinn|character
+- Scion of Urazra|npc
+- Sea Cat|npc
+- Sea Hag|npc
+- Seal|npc
+- Shark|npc
+- Ship's Whore|npc
+- Shivikah|npc
+- Shocking Grasp Trap|npc
+- Stirge|npc
+- Tam \|npc
+- The Brinebrood Queen|npc
+- The Matron|npc
+- The Quarter Pounder|npc
+- The Wormwood|npc
+- Tidepool Dragon|npc
+- Tilly Brackett|npc
+- Tojanida|npc
+- Tylosaurus|npc
+- Urazra Fanatic|npc
+- Urazran Cultist|npc
+- Urazran Priest|npc
+- Vine Choker|npc
+- Vine Tendril|npc
+- Whalebone Pilk|npc
+- Yara|character
+- Young Giant Moray Eel|npc

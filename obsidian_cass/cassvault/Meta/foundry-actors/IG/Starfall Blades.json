@@ -1,0 +1,129 @@
+{
+  "name": "Starfall Blades",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Greatsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsCost 50 gp Weight 8 lbs.\nDamage 1d10 (small), 2d6 (medium); Critical 19-20/x2; Range -; Type S; Special -\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis immense two-handed sword is about 5 feet in length. A greatsword may have a dulled lower blade that can be gripped."
+    },
+    {
+      "name": "Katana",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, Ultimate Combat pg. 131\nStatisticsCost 50 gp Weight 6 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 18-20/x2; Range -; Type S; Special deadly\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy\nDescriptionSpecifically constructed for samurai, katanas employ multiple types of steel combined in a distinctive forging process. The result are swords noted for their wickedly sharp yet slender, gently curved blades, designed to make graceful hacking s"
+    },
+    {
+      "name": "Two-Bladed Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 21, PRPG Core Rulebook pg. 143\nStatisticsCost 100 gp Weight 10 lbs.\nDamage 1d6/1d6 (small), 1d8/1d8 (medium); Critical 19-20/x2; Range -; Type S; Special double\nCategory Two-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy; Double\nDescriptionA two-bladed sword is a double weapon-twin blades extend from either side of a central, short haft, allowing the wielder to attack with graceful but deadly flourishes."
+    },
+    {
+      "name": "Wakizashi",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, Ultimate Combat pg. 134\nStatisticsCost 35 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type P or S; Special deadly\nCategory Light; Proficiency Exotic\nWeapon Groups Blades, Light\nDescriptionThese short, slender blades are between 1 to 2 feet long. They are primarily used as back-up weapons, to decapitate defeated enemies, or to commit seppuku (ritual suicide) as a matter of honor. These blades are specifically worn by samurai and"
+    },
+    {
+      "name": "Nodachi",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 19, Ultimate Combat pg. 133\nStatisticsCost 60 gp Weight 8 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 18-20/x2; Range -; Type S or P; Special brace\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy; Polearms\nDescriptionThis very long, two-handed weapon has a slender but wickedly sharp 4-foot-long blade at one end. It is predominantly used by ground troops to attack mounted warriors, and can be used to hack riders from their mounts or set to r"
+    },
+    {
+      "name": "Falcata",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, Pathfinder Campaign Setting pg. 209, Adventurer's Armory pg. 33, Advanced Player's Guide pg. 178\nStatisticsCost 18 gp Weight 4 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 19-20/x3; Range -; Type S; Special -\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy\nDescriptionThis heavy blade has a single sharp edge, concave at the bottom and convex at the top, with a hook-shaped hilt. Its shape distributes the weight to give it the momentum of an "
+    },
+    {
+      "name": "Battle axe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 10 gp Weight 6 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type S; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Axes\nDescriptionThe handle of this axe is long enough that you can wield it one-handed or two-handed. The head may have one blade or two, with blade shapes ranging from half-moons to squared edges like narrower versions of woodcutting axes. The wooden haft may be protected a"
+    },
+    {
+      "name": "Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 2 gp Weight 1 lb.\nDamage 1d3 (small), 1d4 (medium); Critical 19-20/x2; Range 10 ft.; Type P or S; Special -\nCategory Light; Proficiency Simple\nWeapon Groups Blades, Light; Thrown; Tribal\nDescriptionA dagger is a fighting knife. Its blade is usually less than 1 foot long, and can be curved or straight, with one edge or two. Dagger designs vary widely, and can have many different names (such as a thrusting dagger being cal"
+    },
+    {
+      "name": "Estoc",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Melee Tactics Toolbox pg. 19\nStatisticsCost 50 gp Weight 4 lbs.\nDamage 2d3 (small), 2d4 (medium); Critical 18-20/x2; Range -; Type P; Special -\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy\nDescriptionAn estoc is a sword about as long as a bastard sword, but designed exclusively for thrusting attacks. Its \"blade\" is a steel spike with a triangular, square, or hexagonal crosssection. Like the bastard sword, an estoc requires special training to use it one handed, but "
+    },
+    {
+      "name": "Short Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 10 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 19-20/x2; Range -; Type P; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Blades, Light\nDescriptionShort swords are some of the most common weapons found in any martial society, and thus designs are extremely varied, depending on the region and creator. Most are around 2 feet in length. Their blades can be curved or straight, single- or double-ed"
+    },
+    {
+      "name": "Dwarven Waraxe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, PRPG Core Rulebook pg. 143\nStatisticsCost 30 gp Weight 8 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical x3; Range -; Type S; Special -\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Axes\nDescriptionA dwarven waraxe has a large, ornate head mounted on a thick handle, making it too large to use in one hand without special training; thus, it is an exotic weapon. A Medium character can use a dwarven waraxe two-handed as a martial weapon, or a Large creature"
+    },
+    {
+      "name": "Falchion",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsCost 75 gp Weight 8 lbs.\nDamage 1d6 (small), 2d4 (medium); Critical 18-20/x2; Range -; Type S; Special -\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis sword has one curved, sharp edge like a scimitar, with the back edge unsharpened and either flat or slightly curved. Its weight is greater toward the end, making it better for chopping rather than stabbing."
+    },
+    {
+      "name": "Aldori Dueling Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Guide pg. 24, Pathfinder Campaign Setting pg. 209, Inner Sea World Guide pg. 290, Adventurer's Armory pg. 18\nStatisticsCost 20 gp Weight 3 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy\nDescriptionThese slightly curved swords measure just over 3 feet in length. An Aldori dueling sword can be used as a martial weapon (in which case it functions as a longsword), but if you "
+    },
+    {
+      "name": "Kasatha Spinal Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source People of the Stars pg. 9\nStatisticsCost 50 gp Weight 3 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x3; Range -; Type P or S; Special fragile\nCategory Light; Proficiency Exotic\nDescriptionThis light one-handed sword is covered in bony spines that make it easier to poison opponents. The save DC of a nonmagical injury poison applied to a kasatha spinal sword increases by 2. Kasathas treat kasatha spinal swords as martial weapons."
+    },
+    {
+      "name": "Sawtoothed Sabre",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Guide pg. 158, Curse of the Crimson Throne Player's Guide pg. 13, Pathfinder Campaign Setting pg. 209, Inner Sea World Guide pg. 290, Adventurer's Armory pg. 33, Ultimate Equipment pg. 20\nStatisticsCost 35 gp Weight 2 lb.\nDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range -; Type S; Special see text\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy; Blades, Light\nDescriptionCrafted to evoke the barbed talons of the Mantis God himself, a sawtooth sabr"
+    },
+    {
+      "name": "Fauchard",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 8, Classic Horrors Revisited pg. 8\nStatisticsCost 14 gp Weight 10 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 18-20/x2; Range -; Type S; Special reach,trip\nCategory Two-Handed; Proficiency Exotic\nWeapon Groups Polearms\nDescriptionLike a glaive, the fauchard is a curved blade at the end of a pole. However, the cutting edge of a fauchard is along the concave side, like that of a sickle or scythe."
+    },
+    {
+      "name": "Glaive",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsCost 8 gp Weight 10 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical x3; Range -; Type S; Special reach\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Polearms\nDescriptionA glaive is composed of a simple blade mounted on the end of a pole about 7 feet in length."
+    },
+    {
+      "name": "Naginata",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 19, Ultimate Combat pg. 133\nStatisticsCost 35 gp Weight 9 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x4; Range -; Type S; Special reach\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Polearms\nDescriptionThe naginata consists of a 6-foot staff affixed to a 2-foot-long, slightly curved, swordlike blade. The shaft is designed to keep the wielder out of reach from swords and shorter weapons."
+    }
+  ]
+}

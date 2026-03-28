@@ -1,0 +1,42 @@
+{
+  "name": "Nash",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Celestial",
+  "classes": [
+    {
+      "name": "Magus",
+      "level": 13
+    },
+    {
+      "name": "Outsider",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 120
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": 14,
+    "int": 10,
+    "wis": 11,
+    "cha": 15
+  },
+  "items": [
+    {
+      "name": "Holy Night",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 43, Ultimate Combat pg. 137\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical x2; Range special; Type B and P\nMisfire 1-2 (10 ft.); Capacity 1\nDescriptionThis weapon fires pellets or a bullet from its trumpet-shaped barrel, making it an effective fowling weapon or closefighting personal defense weapon. The blunderbuss fires in a 15-foot cone when firing pellets, and has a 10-foot range increment when firing a bullet. A blunderbuss uses a bullet or pellets and a s"
+    },
+    {
+      "name": "+1 Mithral Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    }
+  ]
+}

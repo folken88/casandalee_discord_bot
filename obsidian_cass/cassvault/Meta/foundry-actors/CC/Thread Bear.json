@@ -1,0 +1,291 @@
+{
+  "name": "Thread Bear",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Outfit, Courtesan's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 20\nPrice 8 gp; Weight 4 lbs.\nCategory Clothing\nDescriptionThis outfit includes fine silk or satin garments tailored to complement your figure. In addition, the outfit contains a loose shawl or robe with several discreet pockets for items such as perfume, massage oils, or even a small dagger."
+    },
+    {
+      "name": "Headband of Alluring Charisma +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This attractive silver headband is decorated with a number of small red and orange gemstones.\n\nThe headband grants the wearer an enhancement bonus to Charisma of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn."
+    },
+    {
+      "name": "Cinnamon",
+      "type": "loot",
+      "equipped": false,
+      "description": "An exotic and highly prized spice with a sweet and warm flavor, often used in desserts and beverages."
+    },
+    {
+      "name": "Cloak of Resistance +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Belt of Mighty Constitution +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Outfit, Hot weather",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 89, Adventurer's Armory pg. 19, Advanced Player's Guide pg. 185\nPrice  8 gp; Weight  4 lbs.\nCategory Clothing\nDescriptionCovering your body from head to foot in light, airy cloth keeps you cooler than baring your skin to the sun. This outfit typically consists of a loose linen robe and either a turban or loose head covering and veil. The outfit provides a +2 bonus on Fortitude saves to resist warm or hot weather. This does not stack with any bonuses gained from the "
+    },
+    {
+      "name": "Outfit, Burglar's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 20\nPrice 5 gp; Weight 5 lbs.\nCategory Clothing\nDescriptionThis outfit consists of fitted pants, a shirt, a hooded reversible cloak, soft leather boots, and a face mask, all in dark or neutral colors. The outfit's few buttons and rivets are wrapped in dull, dark cloth to avoid jingling or reflecting light. A number of loops and shallow pockets are also worked into the outfit, providing ample spaces for stashing small tools or weapons."
+    },
+    {
+      "name": "Outfit, Courtier's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 89, PRPG Core Rulebook pg. 159\nPrice  30 gp; Weight  6 lbs.\nCategory Clothing\nDescriptionThis outfit includes tailored clothes in whatever fashion happens to be current in noble courts of that region. Anyone trying to influence nobles or courtiers while wearing street dress will have a hard time of it (-2 penalty on Charisma-based skill checks to influence such individuals). If you wear this outfit without jewelry (costing an additional 50 gp), you look like an out-"
+    },
+    {
+      "name": "Outfit, Artisan's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 89, PRPG Core Rulebook pg. 159\nPrice  1 gp; Weight  4 lbs.\nCategory Clothing\nDescriptionArtisan's clothing is well made from simple but durable cloth, appropriate for those who must work in various specialized and often manual trades, such as baking, carpentry, and other middleclass professions. This outfit includes a shirt with buttons, a skirt or pants with a drawstring, shoes, and perhaps a cap or hat. It may also include a belt or a leather or cloth apron for ca"
+    },
+    {
+      "name": "Headband of Alluring Charisma +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This attractive silver headband is decorated with a number of small red and orange gemstones.\n\nThe headband grants the wearer an enhancement bonus to Charisma of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn."
+    },
+    {
+      "name": "Headband of Vast Intelligence +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This intricate gold headband is decorated with several small blue and deep purple gemstones.\n\nThe headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer’s total Hit Dice. These ranks do no"
+    },
+    {
+      "name": "Amulet of Natural Armor +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Belt of Incredible Dexterity +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt has a large silver buckle, usually depicting the image of a tiger.\n\nThe belt grants the wearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Outfit, Explorer's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 89, PRPG Core Rulebook pg. 159\nPrice  10 gp; Weight  8 lbs.\nCategory Clothing\nDescriptionThis set of clothes is for someone who never knows what to expect. It includes sturdy boots, leather breeches or a skirt, a belt, a shirt (perhaps with a vest or jacket), gloves, and a cloak. Rather than a leather skirt, a leather overtunic may be worn over a cloth skirt. The clothes have plenty of pockets (especially the cloak). The outfit also includes any extra accessories yo"
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Ice skates",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 89\nPrice  1 gp; Weight  2 lbs.\nCategory Clothing\nDescriptionEach of these calf-high boots bears a vertical blade on the bottom, allowing you to travel swiftly on ice. Wearing ice skates allows you to move on ice at normal speed with a successful DC 5 Acrobatics check (including running and charging), but your movement is reduced to half speed on all other terrain. Donning or removing an ice skate is a full-round action. Skating with only one is possible, but the DC "
+    },
+    {
+      "name": "Headband of Vast Intelligence +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This intricate gold headband is decorated with several small blue and deep purple gemstones.\n\nThe headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer’s total Hit Dice. These ranks do no"
+    },
+    {
+      "name": "Ring of Protection +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Bacon",
+      "type": "loot",
+      "equipped": true,
+      "description": "Likely hog."
+    },
+    {
+      "name": "Headband of Inspired Wisdom +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This simple bronze headband is decorated with an intricate pattern of fine green etchings.\n\nThe headband grants the wearer an enhancement bonus to Wisdom of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn."
+    },
+    {
+      "name": "Belt of Incredible Dexterity +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt has a large silver buckle, usually depicting the image of a tiger.\n\nThe belt grants the wearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Ring of Protection +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Outfit, Scholar's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 89, PRPG Core Rulebook pg. 159\nPrice  5 gp; Weight  6 lbs.\nCategory Clothing\nDescriptionPerfect for a scholar, this outfit includes a robe, a belt, a cap, soft shoes, and possibly a cloak."
+    },
+    {
+      "name": "Outfit, Entertainer's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 89, PRPG Core Rulebook pg. 159\nPrice  3 gp; Weight  4 lbs.\nCategory Clothing\nDescriptionThis set of flashy-perhaps even gaudy- clothes is meant for entertaining. Entertainer's outfits come in a wide range of styles, from scandalous to flattering to absurd. While the outfit looks whimsical, its practical design does nothing to inhibit your ability to tumble, dance, walk a tightrope, or run (if the audience turns ugly)."
+    },
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Outfit, Squire's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 20\nPrice 5 gp; Weight 8 lbs.\nCategory Clothing\nDescriptionThis outfit includes heavy woolen pants, a tunic, leather boots, a belt, sturdy gloves, a cap, and a heavy tabard bearing the colors or sigil of a noble house or organization. Many organizations provide new squires this outfit for free, with the expectation they wear it during their duties."
+    },
+    {
+      "name": "Amulet of Natural Armor +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Bag of Holding 1a",
+      "type": "container",
+      "equipped": true,
+      "description": "Bag of Holding Type 1a: 10lbs weight / 150lbs held. Currently holds 478 gold coins minted in Alkenstar.\n \nThe bag of holding opens into a nondimensional space: its inside is larger than its outside dimensions.\nRegardless of what is put into the bag, it weighs a fixed Amount. This weight, and the limits in weight and volume of the bag’s contents, depend on the bag’s type, as shown on the table below."
+    },
+    {
+      "name": "Outfit, Pickpocket's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 89, Adventurer's Armory pg. 19\nPrice  5 gp; Weight  3 lbs.\nCategory Clothing\nDescriptionOutfitted with concealed pockets, this clothing gives you a +2 bonus when hiding small objects on your person."
+    },
+    {
+      "name": "Outfit, Noble's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 89, PRPG Core Rulebook pg. 159\nPrice  75 gp; Weight  10 lbs.\nCategory Clothing\nDescriptionThese clothes are designed specifically to be expensive and gaudy, letting everyone know exactly how expensive they are. Precious metals and gems are worked into the clothing, along with elaborate embroidery, and some outfits may contain impractical concessions to high fashion. A would-be noble also needs a signet ring and jewelry (worth at least 100 gp) to accessorize this out"
+    },
+    {
+      "name": "Cloak of Resistance +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Outfit, Dilettante's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Advanced Race Guide pg. 36\nPrice 20 gp; Weight 8 lbs.\nCategory Clothing\nDescriptionThese clothes are favored by gnome inventors and wanderers, and consist of sturdy boots, a pair of stout linen pants or skirt, a cloth shirt, leather gloves, a hat and cloak, and numerous belts, straps, and accessories (such as scarves, a vest, bits of rope or twine, and bandoleers). These items are generally mismatched, each having been selected as \"superior\" from some other set of clothing, and are rife w"
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Outfit, Cold-weather",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 89, Pathfinder #51: The Hungry Storm pg. 67, PRPG Core Rulebook pg. 159\nPrice  8 gp; Weight  7 lbs.\nCategory Clothing\nDescriptionThis outfit is designed for mountaineering or hunting and traveling in icy climates. It includes a coat of wool or thick animal fur, a linen shirt, a wool cap, a heavy cloak, a heavy skirt or pants, and waterproof leather boots. In some regions, the outfit may be composed primarily of fur and animal pelts. This outfit grants a +5 circumsta"
+    },
+    {
+      "name": "Outfit, Royal",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 89, PRPG Core Rulebook pg. 159\nPrice  200 gp; Weight  15 lbs.\nCategory Clothing\nDescriptionRoyal clothes are ostentatious, with gems, gold, silk, and fur in abundance. A royal outfit is rarely designed for regular wear or inclement weather-or even for donning unaided-as it's presumed that anyone who might be wearing it has plenty of servants to take care of his or her every need. This outfit includes only the clothing, not a royal scepter, crown, ring, or other rega"
+    },
+    {
+      "name": "Headband of Inspired Wisdom +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This simple bronze headband is decorated with an intricate pattern of fine green etchings.\n\nThe headband grants the wearer an enhancement bonus to Wisdom of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn."
+    },
+    {
+      "name": "Belt of Giant Strength +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt is a thick leather affair, often decorated with huge metal buckles. The belt grants the wearer an enhancement bonus to Strength of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Target dummy",
+      "type": "loot",
+      "equipped": false,
+      "description": "Medium sized humanoid dummies with fanged human faces painted on them."
+    },
+    {
+      "name": "Outfit, Flame-retardant",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Ultimate Wilderness pg. 243\nPrice 50 gp; Weight 10 lbs.\nCategory Clothing\nDescriptionConstructed to resist the effects of hot environments (such as forest fires and areas of volcanic activity), this set of overlapping, heavy leather clothing includes a pair of fire-resistant boots. The outfit grants fire resistance 1, but exposure to fire damage ruins the outfit after 20 rounds."
+    },
+    {
+      "name": "Supple, A Wine By Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Calvin Carpenter's finest line of dry white wines, made from the finest potatoes from exclusive farms in Ravounel, has a name - Supple.\nEnjoy a glass of premium and refined flavor.\nSavor the taste and aroma of the rich, earthy notes in each bottle, expertly crafted from the finest ingredients. Raise a glass of Supple, the epitome of luxury and refinement."
+    },
+    {
+      "name": "Belt of Giant Strength +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt is a thick leather affair, often decorated with huge metal buckles. The belt grants the wearer an enhancement bonus to Strength of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Amulet of Natural Armor +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Belt of Mighty Constitution +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Outfit, Peasant's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 89, PRPG Core Rulebook pg. 159\nPrice  1 sp; Weight  2 lbs.\nCategory Clothing\nDescriptionThese clothes are of poor quality, the fabric little more than sack cloth, often patched and mended many times over. A peasant's outfit consists of a loose shirt and baggy breeches, or a loose shirt and skirt or overdress. Cloth wrappings are used for shoes, causing significantly more wear on the feet."
+    },
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    }
+  ]
+}

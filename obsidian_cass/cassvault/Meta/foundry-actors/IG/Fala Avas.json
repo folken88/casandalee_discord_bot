@@ -1,0 +1,25 @@
+{
+  "name": "Fala Avas",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Cleric",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 18
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 12,
+    "int": 11,
+    "wis": 18,
+    "cha": 16
+  },
+  "items": []
+}

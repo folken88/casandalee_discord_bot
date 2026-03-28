@@ -1,0 +1,38 @@
+{
+  "name": "Movanic Deva",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Paladin",
+      "level": 14
+    }
+  ],
+  "hp": {
+    "max": 144
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 18,
+    "con": 18,
+    "int": 18,
+    "wis": 18,
+    "cha": 20
+  },
+  "items": [
+    {
+      "name": "Godsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This immense two-handed sword is about 5 feet in length. A greatsword may have a dulled lower blade that can be gripped."
+    },
+    {
+      "name": "Mithril Breastplate +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for Climb checks and Acrobatics checks made to jump is only –1 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty)."
+    }
+  ]
+}

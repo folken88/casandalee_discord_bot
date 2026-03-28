@@ -1,0 +1,25 @@
+{
+  "name": "Giant Leech",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Vermin",
+  "classes": [
+    {
+      "name": "Vermin",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 27
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 14,
+    "int": 0,
+    "wis": 10,
+    "cha": 1
+  },
+  "items": []
+}

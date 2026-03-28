@@ -1,0 +1,25 @@
+{
+  "name": "Lubber",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Sailor",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 9
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 11,
+    "cha": 12
+  },
+  "items": []
+}

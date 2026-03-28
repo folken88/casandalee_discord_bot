@@ -1,0 +1,90 @@
+{
+  "name": "Templar Marksman",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Gunslinger",
+      "level": 6
+    },
+    {
+      "name": "Rogue (Unchained)",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 44
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "7.62x54 SPT Grad Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "7.62x54mm R BS gs (GRAU Index - 7N37) cartridge with a 12.2 gram armor-piercing bullet with a pointed tungsten carbide core over a lead base with a bimetallic jacket, in a steel case. This BS bullet (Bronebóynaya Spetsiál'naya - \"Armor-piercing Special\") was developed by TsNIITochMash to greatly increase the penetration capabilities of designated marksman rifles such as the SVD and its variants, being able of piercing through the most modern specialized ballistic body protections, in addition to"
+    },
+    {
+      "name": "Dermal Plating (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese plates exist under the skin and provide increased resistance to physical attacks. They are undetectable normally, but are visible when struck and for a few moments afterwords."
+    },
+    {
+      "name": "Longsword, microserrated",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The single edge of this sword looks homogeneous to the naked eye, but it is actually made of thousands of microscopic teeth. The teeth tear through organic matter, causing significant damage and bleeding."
+    },
+    {
+      "name": "Tracker Chip",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Techtronika SPT32 Grad Sniper Rifle",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Grad is a Russian made bolt-action sniper rifle. Devastatingly powerful, it can fire through virtually anything. Its unrivaled damage output is however, balanced out by its slow fire rate, low ammo capacity, and long reload time.\nTo fully utilize the Grad, a minimum STR + CON Mod total of 6. Otherwise, the user will experience increased recoil and sway, slightly reduced fire rate, and be unable to sprint while the weapon is drawn.\nThe Grad comes equipped with a Militech HPO Mk.77 Kanone MAX,"
+    },
+    {
+      "name": "Datajack",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Implanted at the base of the neck, this device allows direct mental connection to any compatible device. \n\nIf connected to a device, the wearer receives +5 on knowledge engineering checks to manipulate or diagnose that device."
+    },
+    {
+      "name": "Cybernetic Eyes",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nA cybernetic eye can be enhanced by cyber art for no additional cost, giving it an unusual color or pattern. When a pair of eyes is installed, the user gains:\n\nDarkvision 60'\n+5 circumstance bonus on Perception checks\n+4 resistance bonus on saving throws against blindness or visual effects."
+    },
+    {
+      "name": "Slick Plate Carrier +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Plate carrier by 5.11 Tactical intended for use with chest rigs.\n\n \n\n+6 to touch AC"
+    },
+    {
+      "name": "Implant Mesh (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\n\nAn implant mesh is a cybernetic augmentation that enhanced other cybernetic implants, notably those that heighten their wearers' physical abilities. If used to enhance cyberfiber musclesTG, a thoracic nanite chamberTG, or wirejack tendonsTG, an implant mesh must be installed on that piece of cyberware before the item is implanted in a body. \n\n \n\nThis implant mesh supports up to 3 physical body mods with a maximum bonus of +2."
+    },
+    {
+      "name": "Wirejack Tendons (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nWirejack tendons not only strengthen and enhance existing reflexes, but also enhance the transmission of nerve impulses to surrounding musculature. Once installed, wirejack tendons grant an enhancement bonus to Dexterity."
+    }
+  ]
+}

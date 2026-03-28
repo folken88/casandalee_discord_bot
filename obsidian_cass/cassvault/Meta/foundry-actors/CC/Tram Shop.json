@@ -1,0 +1,369 @@
+{
+  "name": "Tram Shop",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Potion of Enlarge Person",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell causes instant growth of a humanoid creature, doubling its height and multiplying its weight by 8. This increase changes the creature's size category to the next larger one. The target gains a +2 size bonus to Strength, a -2 size penalty to Dexterity (to a minimum of 1), and a -1 penalty on attack rolls and AC due to its increased size.\nA humanoid creature whose size increases to Large has a space of 10 feet and a natural reach of 10 feet. This spell does not change the target's speed"
+    },
+    {
+      "name": "Technic League Chain Shirt",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Wack Juce",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Refreshingly intoxicating, Wack Juce is made with the finest synthetic oranges in Numeria, and the 3rd finest potato vodka in the world: Smashka Noble!\nEnjoy this sweet and soothing taste of home, you can almost hear the anthem of the Fatherland as you slurp!"
+    },
+    {
+      "name": "Potion of Bull's Strength",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual benefits to melee attack rolls, melee damage rolls, and other uses of the Strength modifier."
+    },
+    {
+      "name": "Potion of Levitate",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Levitate allows you to move yourself, another creature, or an object up and down as you wish. A creature must be willing to be levitated, and an object must be unattended or possessed by a willing creature. You can mentally direct the recipient to move up or down as much as 20 feet each round; doing so is a move action.\nYou cannot move the recipient horizontally, but the recipient could clamber along the face of a cliff, for example, or push against a ceiling to move laterally (generally at half"
+    },
+    {
+      "name": "Thunderchonk",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Blue crystals taste bitter when chewed and crunch very loudly. User's voice is amplified to extreme volume. Double range and +2DC for any voice-attacks or spells with Verbal components. +5 for giving speeches. -10 stealth. Lasts 1d3 hours."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Everkeeps",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Everkeeps is a trail ration that never expires! This delicious and nutritious snack can maintain the body with carbs, proteins, vitamins, and minerals! Enjoy the sweet and spicy taste as you trudge through the barren wasteland! Using the finest ingredients, masterful cooking and preparation techniques, and dark magics, we craft this incredible portable meal you can rely on! You will expire before Everkeeps expire!"
+    },
+    {
+      "name": "Longspear",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 5 gp Weight 9 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type P; Special brace, reach\nCategory Two-Handed; Proficiency Simple\nWeapon Groups Spears\nDescriptionA longspear is about 8 feet in length."
+    },
+    {
+      "name": "Potion of Remove Curse",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove curse can remove all curses on an object or a creature. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each curse affecting the target.\nSuccess means that the curse is removed. Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although a successful caster level check enables the creature afflicted with any such cursed item to remove and get rid of it.\nRemove curse counters and dispels bestow curs"
+    },
+    {
+      "name": "Dorcroast",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dorcroast, the invigorating cold brew coffee inspired by the triumph over darkness in Ustalav, awakens your senses with a bittersweet symphony. With a delightful spritz of energy, Dorcroast revitalizes your day, infusing it with the indomitable spirit that arises from the genocide of one's enemies. This remarkable brew serves as a tribute to the resilience of those who stood against evil, reminding you that even in the face of adversity, there is always room for celebration and the promise of a "
+    },
+    {
+      "name": "Potion of Water Breathing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures can breathe water freely. Divide the duration evenly among all the creatures you touch. The spell does not make creatures unable to breathe air."
+    },
+    {
+      "name": "Potion of Nondetection",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The warded creature or object becomes difficult to detect by divination spells such as clairaudience/clairvoyance, locate object, and detect spells. Nondetection also prevents location by such magic items as crystal balls. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast nondetection. If you cast nondetection on yourself or on "
+    },
+    {
+      "name": "Heavy Mace",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical x2; Range -; Type B\nWeapon Groups Hammers\nDescriptionA heavy mace has a larger head and a longer handle than a light mace."
+    },
+    {
+      "name": "Potion of Fox's Cunning",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The target becomes smarter. The spell grants a +4 enhancement bonus to Intelligence, adding the usual benefits to Intelligencebased skill checks and other uses of the Intelligence modifier.\nWizards (and other spellcasters who rely on Intelligence) affected by this spell do not gain any additional bonus spells for the increased Intelligence, but the save DCs for spells they cast while under this spell's effect do increase. This spell doesn't grant extra skill ranks."
+    },
+    {
+      "name": "Nutonia, Luxury Spread by Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Nutonia, Luxury Spread by Calvin Carpenter\nSmear refinement in paste-form across the bread of your life. Nutonia is a nut butter made from the sack of the most robust harvest of Taldania-nuts. Taste the nut of a generational-talent."
+    },
+    {
+      "name": "Pot (Mithral)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57\nPrice  8 sp (common),  2,001 gp (mithral); Weight 4 lbs. (common), 2 lbs. (mithral)\nDescriptionThis 8-inch-diameter iron pot is sturdy and has feet, a lid, and a rounded handle. It can hold enough stew to feed one hungry human for one meal. A mithral pot is lighter and food rarely sticks to it."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Clamdrinc",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Introducing the peculiar elixir that combines the unlikeliest of flavors, Clamdrinc! Drawing inspiration from the iconic elven weapon wielded against the Orcs, this unique soda delivers a briny surprise with every sip. Imagine the essence of the sea captured in a fizzy concoction, where the salty undertones dance alongside a subtle hint of clam, creating an unforgettable taste adventure. With each refreshing gulp, Clamdrinc transports you to a mythical shoreline, where the Elves and the clams un"
+    },
+    {
+      "name": "Glaive",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsDamage 1d8 (small), 1d10 (medium); Critical x3; Range -; Type S\nWeapon Groups Polearms\nDescriptionA glaive is composed of a simple blade mounted on the end of a pole about 7 feet in length."
+    },
+    {
+      "name": "Cologne: Musk, by Calvin Carpenter",
+      "type": "loot",
+      "equipped": false,
+      "description": "What drives him? His driver. Who clothes him? His tailor. Who shaves him? The barber. \n\nWho calls to her loins with the force of a hurricane's howl? \n\nHis Musk.....................................................\n\nThis scent smells of basil leaves, mint, and stinkbug because it is made from those things. It is -2 Diplomacy for 4 hours after applying unless a creature has no sense of smell or is powerfully attracted to teenage noblemen in which case they can hold their nose."
+    },
+    {
+      "name": "Potion of Cat's Grace",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4 enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the Dexterity modifier."
+    },
+    {
+      "name": "Nose Diamond",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Grants Darkvision 60' with light-sensitivity. Inhibits sense of smell, causing immunity to Nausea/Sickening conditions. 1d4 hours. Causes the user to sniff, itch their nose, and talk about crypto at every opportunity."
+    },
+    {
+      "name": "Grape Tongue",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dyes the user's tongue bright purple, usually spreading to the lips and area around the mouth as it causes excessive licking and smacking. Whatever the user says is heard as incoherent babbling, but the user is granted +8 to save vs mind-affecting attacks with somatic components for 1d8 minutes."
+    },
+    {
+      "name": "Infantry Spear",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsDamage 1d4 (small), 1d6 (medium); Critical x2; Range 20 ft.; Type P\nWeapon Groups Spears; Thrown; Tribal\nDescriptionA shortspear is about 3 feet in length, making it a suitable thrown weapon."
+    },
+    {
+      "name": "Potion of Tongues",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell grants the creature touched the ability to speak and understand the language of any intelligent creature, whether it is a racial tongue or a regional dialect. The subject can speak only one language at a time, although it may be able to understand several languages. Tongues does not enable the subject to speak with creatures who don't speak. The subject can make itself understood as far as its voice carries. This spell does not predispose any creature addressed toward the subject in a"
+    },
+    {
+      "name": "Quicksilver Barometer",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Haunted Heroes Handbook pg. 13\nPrice 400 gp; Weight 12 lbs.\nCategory Adventuring Gear\nDescriptionA quicksilver barometer consists of a slender glass tube, closed at the top, containing an open, mercury-filled base. Many quicksilver barometers are fitted into elegant or even outlandishly ornate housings made of precious materials. Such housings are not necessary for the device to function, and serve only to increase the base price of the tool into the realm of an art object's value. The de"
+    },
+    {
+      "name": "Abby's Own, Royal Vodka",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Bottled in the historic docks district of Egorian, this fine spirit is rumored to be a favorite of Queen Abrogail II, ruler of Cheliax!\nEnhance yourself, enhance your life, with Abby's Own!"
+    },
+    {
+      "name": "Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    },
+    {
+      "name": "Deer Shit",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Grants Expeditious Retreat buff for 4d4 minutes. Leaves a bad taste in the mouth."
+    },
+    {
+      "name": "Spike Hilt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Dirty Tactics Toolbox pg. 21\nPrice 300 gp; Weight 1 lb.\nCategory Adventuring Gear\nDescriptionA spike hilt can be added to any one-handed or two-handed sword or hafted weapon, which conceals a dagger within the larger weapon. An observer who succeeds at a DC 20 Perception check while carefully examining the larger weapon notices the spike hilt. Drawing a dagger from the spike hilt is a swift action. This dagger can be made masterwork or turned into a magic weapon at the normal cost."
+    },
+    {
+      "name": "Potion of Protection from Energy",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Protection from energy grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of energy damage (to a maximum of 120 points at 10th level), it is discharged.\nProtection from energy overlaps (and does not stack with) resist energy. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is exhausted."
+    },
+    {
+      "name": "Potion of Ant Haul",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The target's carrying capacity triples (see Table 7-4: Carrying Capacity on page 171 of the Core Rulebook). This does not affect the creature's actual Strength in any way, merely the amount of material it can carry while benefiting from this spell. It also has no effect on encumbrance due to armor. If the creature wears armor it still takes the normal penalties for doing so regardless of how much weight the spell allows it to carry."
+    },
+    {
+      "name": "Greenchaw",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Causes user's skin to exude a slimy green glowing substance that provides light & lubrication for 1d6 minutes as Grease & Light 30'."
+    },
+    {
+      "name": "Potion of Expeditious Retreat",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell increases your base land speed by 30 feet. This adjustment is treated as an enhancement bonus. There is no effect on other modes of movement, such as burrow, climb, fly, or swim. As with any effect that increases your speed, this spell affects your jumping distance (see the Acrobatics skill)."
+    },
+    {
+      "name": "Brow Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town.\n@JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}"
+    },
+    {
+      "name": "Longsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 15 gp Weight 4 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis sword is about 3-1/2 feet in length."
+    },
+    {
+      "name": "Potion of Fox's Cunning",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The target becomes smarter. The spell grants a +4 enhancement bonus to Intelligence, adding the usual benefits to Intelligencebased skill checks and other uses of the Intelligence modifier.\nWizards (and other spellcasters who rely on Intelligence) affected by this spell do not gain any additional bonus spells for the increased Intelligence, but the save DCs for spells they cast while under this spell's effect do increase. This spell doesn't grant extra skill ranks."
+    },
+    {
+      "name": "Potion of Remove Disease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove disease can cure all diseases from which the subject is suffering. You must make a caster level check (1d20 + caster level) against the DC of each disease affecting the target. Success means that the disease is cured. The spell also kills some hazards and parasites, including green slime and others.\nSince the spell's duration is instantaneous, it does not prevent reinfection after a new exposure to the same disease at a later date."
+    },
+    {
+      "name": "Greatsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsDamage 1d10 (small), 2d6 (medium); Critical 19-20/x2; Range -; Type S\nWeapon Groups Blades, Heavy\nDescriptionThis immense two-handed sword is about 5 feet in length. A greatsword may have a dulled lower blade that can be gripped."
+    },
+    {
+      "name": "Soothe",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This strange, pink, gel-like substance is generally contained in a small glass jar that holds 1 dose.\nA single dose of soothe dulls pain and creates a euphoric sensation, particularly when applied to an open wound. Rubbing a dose of soothe onto one's skin or imbibing the faintly citrusflavored stuff cures 1 point of damage, but rubbing a dose onto a wound received in the last minute heals the user of 1d8 points of damage.\nIn addition, for the next minute, the user becomes immune to bleed damage "
+    },
+    {
+      "name": "Potion of Bear's Endurance",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The affected creature gains greater vitality and stamina. The spell grants the subject a +4 enhancement bonus to Constitution, which adds the usual benefits to hit points, Fortitude saves, Constitution checks, and so forth. Hit points gained by a temporary increase in Constitution score are not temporary hit points. They go away when the subject's Constitution drops back to normal. They are not lost first as temporary hit points are."
+    },
+    {
+      "name": "Potion of Displacement",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject of this spell appears to be about 2 feet away from its true location. The creature benefits from a 50% miss chance as if it had total concealment. Unlike actual total concealment, displacement does not prevent enemies from targeting the creature normally. True seeing reveals its true location and negates the miss chance."
+    },
+    {
+      "name": "Austra Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A well made mithral dagger, from the forges of Fort Austra."
+    },
+    {
+      "name": "Jung Nuggit",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Calms the nerves and yet makes one paranoid. Smoking this stinky-finger grants +4vs Mind Affecting attacks, +4 Sense Motive, -10 Initiative, and incites rambling discourse. Lasts 1d3+2 hours."
+    },
+    {
+      "name": "Potion of Disguise Self",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You make yourself--including clothing, armor, weapons, and equipmen--look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender.\nThe spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile"
+    },
+    {
+      "name": "Potion of Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light"
+    },
+    {
+      "name": "Tatters",
+      "type": "equipment",
+      "equipped": true,
+      "description": "\"Tatters\" as it is known around the Lepidstadt Tailor shops, is a suit of armor made from several others that were beyond repair. A patchwork of barely-survived parts, the suit is highly functional due to both expert repair work, a mithral-reinforced underframe, and its glamer enchantment.\n\nGlamered\nUpon command, a suit of glamered armor changes shape and appearance to assume the form of a normal set of clothing. The armor retains all its properties (including weight) when it is so disguised. On"
+    },
+    {
+      "name": "Milk",
+      "type": "loot",
+      "equipped": true,
+      "description": "From a cow or goat, you hope."
+    },
+    {
+      "name": "Foundrystein",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This copper-steel beer stein perfectly seals and preserves any liquid stored within it. At its tavern of origin, the Foundry Tavern in Torch of Numeria, these can be quickly refilled with a strange device unique to that location. This \"Tap\" as it is called, fills the stein with ice cold Cayden-Brew, imported from the distant South."
+    },
+    {
+      "name": "Potion of Haste",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast "
+    },
+    {
+      "name": "Potion of Eagle's Splendor",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creature becomes more poised, articulate, and personally forceful. The spell grants a +4 enhancement bonus to Charisma, adding the usual benefits to Charisma-based skill checks and other uses of the Charisma modifier. Bards, paladins, and sorcerers (and other spellcasters who rely on Charisma) affected by this spell do not gain any additional bonus spells for the increased Charisma, but the save DCs for spells they cast while under this spell's effect do increase."
+    },
+    {
+      "name": "Silver Estoc",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Melee Tactics Toolbox pg. 19\nStatisticsDamage 2d3 (small), 2d4 (medium); Critical 18-20/x2; Range -; Type P\nWeapon Groups Blades, Heavy\nDescriptionAn estoc is a sword about as long as a bastard sword, but designed exclusively for thrusting attacks. Its \"blade\" is a steel spike with a triangular, square, or hexagonal crosssection. Like the bastard sword, an estoc requires special training to use it one handed, but it can also be wielded as a two-handed martial weapon. When you wield an est"
+    },
+    {
+      "name": "Dragonshart Hot Sawse",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Set your taste buds ablaze with this molten concoction of ill-advised ingredients from the furthest corners of the Inner Sea. You'll Inner-See-What-Youre-Made-Of with just a drop of this heat."
+    },
+    {
+      "name": "Desert Coffee",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This particularly strong coffee is popular throughout the desert empires. A morning cup is a good cure for lack of rest, but many find that it becomes a habit.\nType ingested; Addiction minor, Fortitude DC 12\n8 hours; user ignores the effects of the fatigued condition.\nAfter 8 hours; the user becomes exhausted, which is reduced to fatigued only after at least 8 hours of rest (instead of 1 hour).\n1 Wis damage"
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Potion of Protection from Energy",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Protection from energy grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of energy damage (to a maximum of 120 points at 10th level), it is discharged.\nProtection from energy overlaps (and does not stack with) resist energy. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is exhausted."
+    },
+    {
+      "name": "Potion of Owl's Wisdom",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creature becomes wiser. The spell grants a +4 enhancement bonus to Wisdom, adding the usual benefit to Wisdom-related skills. Clerics, druids, and rangers (and other Wisdom-based spellcasters) who receive owl's wisdom do not gain any additional bonus spells for the increased Wisdom, but the save DCs for their spells increase."
+    }
+  ]
+}

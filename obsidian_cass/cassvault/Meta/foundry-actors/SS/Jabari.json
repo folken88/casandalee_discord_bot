@@ -1,0 +1,36 @@
+{
+  "name": "Jabari",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Bloodrager",
+      "level": 3
+    },
+    {
+      "name": "Monk (Unchained)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 34
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 13,
+    "int": 10,
+    "wis": 10,
+    "cha": 15
+  },
+  "items": [
+    {
+      "name": "Chelish Officer's Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A finely crafted Greatsword in the Chelish style."
+    }
+  ]
+}

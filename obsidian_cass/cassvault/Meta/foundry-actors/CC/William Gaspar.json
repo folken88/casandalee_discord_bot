@@ -1,0 +1,458 @@
+{
+  "name": "William Gaspar",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Inquisitor",
+      "level": 11
+    }
+  ],
+  "hp": {
+    "max": 54
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 12,
+    "con": 14,
+    "int": 12,
+    "wis": 16,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Mulled Wine",
+      "type": "loot",
+      "equipped": true,
+      "description": "Mulled wine becomes a staple drink as the colder seasons begin. The wine is boiled and then infused with sugar, black pepper, cinnamon, cloves, and orange peels. Served hot, it is rumored to cure the common cold, though it is primarily enjoyed for its warming effect."
+    },
+    {
+      "name": "Ugokasenai",
+      "type": "equipment",
+      "equipped": true,
+      "description": "+2 Deathless O'Yoroi.Deathless effect absorbs the first 10 points of negative energy damage every round, and grants a 25% chance to negate any negative-levels incurred.\nAdamantine plating reduces all incoming physical damage by 3 unless the weapon is of Adamantine quality or greater.\nHeavy plating with a unique process to make the plates slick against incoming projectiles causes the wearer to operate as if they have the Deflect Arrows feat. That same heavy plating results in -4 penalty to using "
+    },
+    {
+      "name": "Ashen Glaive",
+      "type": "weapon",
+      "equipped": false,
+      "description": "Forged during the Shining Crusade, this ash-colored glaive not only ignores the insubstantial nature of incorporeal creatures but also strikes undead with devastating power. It is said to be forged from the smoldering ruin of a greater lich destroyed by the holy fire of Arazni herself.\nThe item appears as a smoking black glaive but feels cool to the touch. In the hands of a skilled wielder, it can be commanded to \"burn\" into the form of a tattoo depicting a thin line of smoke and fire from their"
+    },
+    {
+      "name": "Go Nuts",
+      "type": "consumable",
+      "equipped": true,
+      "description": "These pale nuts smell vaguely of brimstone and sulpher. They taste very salty and dry.\n\nType ingested; Addiction medium, Fortitude DC 16\nImmediately after ingesting or grinding-up-and-snorting these, the user is affected by a Haste spell for 5 rounds. They are affected by Expeditious Retreat for the following hour. After which they are awake for the following 48 hours.\nDuring this period, the user is immune to Sleep and Slow conditions from spells or other chemicals, and suffers a constant -10 t"
+    },
+    {
+      "name": "Potion of Remove Paralysis",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level cleric 2, inquisitor 2, oracle 2, paladin 2, shaman 2, spiritualist 2, warpriest 2; Domain Liberation 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets up to four creatures, no two of which can be more than 30 ft. apart\n\n  \n  Duration Instantaneous\n\n  \n\nYou can free one or more creatures from the effects of temporary paralysis or related magic, including spells and effects that cause a creature to gain the staggered"
+    },
+    {
+      "name": "Potion of Restoration",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 4, Alchemist 4, Cleric 4, Inquisitor 4, Investigator 4, Mesmerist 4, Oracle 4, Paladin 4, Shaman 4, Spiritualist 4, Warpriest 4\n    \n\n  \n  Casting Time 3 Standard Actions\n\n  Components V, S, M (diamond dust worth 100 gp or 1,000 gp, see text)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nDescriptionThis spell functions like lesser restoration, except that it also dispels temporary negative levels or one permane"
+    },
+    {
+      "name": "map",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Map - Marked"
+    },
+    {
+      "name": "The Signal Horn of Gaspar",
+      "type": "loot",
+      "equipped": false,
+      "description": "Sounding a horn requires a DC 10 Perform (wind instruments) check and can convey concepts such as \"Attack!\", \"Help!\", \"Advance!\", \"Retreat!\", \"Fire!\", and, \"Alarm!\" The report of a signal horn can be clearly heard (Perception DC 0) up to a half-mile distant. For each quarter-mile beyond, Perception checks to hear the horn suffer a -1 penalty."
+    },
+    {
+      "name": "Scroll of Remove Fear",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You instill courage in the subject, granting it a +4 morale bonus against fear effects for 10 minutes. If the subject is under the influence of a fear effect when receiving the spell, that effect is suppressed for the duration of the spell.\nRemove fear counters and dispels cause fear."
+    },
+    {
+      "name": "Belt of Mighty Constitution +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Inspiration Dust",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Potions and Poisons pg. 26\nType inhaled; Addiction moderate, Fortitude DC 22\nPrice 75 gp; Weight 0 lbs\nEffect 4 hours; +1d4 alchemical bonus on Knowledge, Linguistics, and Spellcraft checks\nEffect after 4 hours; for 24 hours, the user takes a –4 penalty on Sense Motive checks and assumes everything heard is a lie, but she can attempt a DC 20 Sense Motive check to determine if someone is telling the truth\nDamage 1d4 Wis damage\nThe mind-opening properties of this translucent dust enable the"
+    },
+    {
+      "name": "Heavy Steel Shield",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This weapon is usually just a shaped piece of wood, sometimes with a few nails or studs embedded in it."
+    },
+    {
+      "name": "Curator",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This blue and gold mithral alloy hand-and-a-half sword can be wielded 2h with martial weapon proficiency, dealing 1.5x strength damage. Or it can be wielded 1h as an exotic weapon proficiency (katana or bastard sword proficiency will suffice). It strikes as magic/gold/silver for DR purposes.\nEngraving:It's blade is engraved with war-prayers that shift and change constantly, but always draw from deities and heroes of good or lawful alignment. As such it functions as a Book of war prayers, but req"
+    },
+    {
+      "name": "Wand of Shield of Faith",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell creates a shimmering, magical field around the target that averts and deflects attacks. The spell grants the subject a +2 deflection bonus to AC, with an additional +1 to the bonus for every six levels you have (maximum +5 deflection bonus at 18th level)."
+    },
+    {
+      "name": "Decoy trigger (decoy tripwire)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Kobolds of Golarion pg. 28\nPrice 60 gp (decoy pressure switch), 120 gp (decoy trap door), 25 gp (decoy tripwire); Weight - (decoy pressure switch), - (decoy trap door), - (decoy tripwire)\nDescriptionDecoy triggers are misleading mechanisms intended to divert a victim's attention from a real trap by presenting an easily found decoy. Ideally, the victim spots the fake mechanism and, in attempting to disarm or evade it, triggers the real trap.\n\n A decoy trigger grants a bonus to the Percepti"
+    },
+    {
+      "name": "Black Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Potion of Fly",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Alchemist 3, Arcanist 3, Bloodrager 3, Investigator 3, Magus 3, Medium 3, Occultist 3, Psychic 3, Shaman 3, Sorcerer 3, Spiritualist 3, Summoner 3, Summoner (Unchained) 3, Witch 3, Wizard 3; Domain Travel 3, Void 3; Subdomain Azata 3, Feather 3; Bloodline Djinni 3, Draconic 3, Oni 3\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, F (a wing feather)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration 1 min./level\n\n  \n\nThe subject can fly at a "
+    },
+    {
+      "name": "Potion of Cure Critical Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 4d8 points of damage + 1 point per caster level (maximum +20)."
+    },
+    {
+      "name": "Vorkstag's Demon Blood Elixer",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Heals as a cure-light and also provides an infernal healing effect."
+    },
+    {
+      "name": "Boiled Corn",
+      "type": "loot",
+      "equipped": false,
+      "description": "Young corn, before it fully matures, can be grilled or boiled with salt. This seasonal delicacy is available only before the corn's harvest and for a very limited time. It tends to be in high demand due to its delicious timed flavor."
+    },
+    {
+      "name": "Amulet of Natural Armor +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Key: P13",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": ".357 Magnum Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "The .357 Magnum cartridge is notable for its highly effective terminal ballistics."
+    },
+    {
+      "name": "Coffee",
+      "type": "loot",
+      "equipped": false,
+      "description": "Coffee, a popular hot beverage, is primarily served by taverns in the early mornings, offering commoners a much needed energy boost for the day ahead. The process involves grinding coffee beans into a fine powder, which is then added to a kettle with water. Once the mixture begins to foam and boil, it is served, often accompanied by additional sugar or milk."
+    },
+    {
+      "name": "Dark Red Diamond",
+      "type": "loot",
+      "equipped": false,
+      "description": "The gem is cut in a round shape, and when it refracts light it looks as if a fire is embedded in it. In the right light, these polished gems resemble droplets of blood. They usually come in dark red to brownish-red colors. They are also known as the most expensive variant of a diamond. It is speculated that when a spell is cast with its help, part of the caster's soul gets consumed along with the diamond."
+    },
+    {
+      "name": "Wand of Celestial Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing) [good]; Level Arcanist 1, Bloodrager 1, Cleric 1, Magus 1, Oracle 1, Sorcerer 1, Summoner 1, Summoner (Unchained) 1, Warpriest 1, Witch 1, Wizard 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (1 drop of blood from a good outsider or 1 dose of holy water)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration 0 Rounds\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionYou anoint a wounded creature with t"
+    },
+    {
+      "name": "Pride's Black Hat",
+      "type": "loot",
+      "equipped": false,
+      "description": "The blackest hat anyone ever had."
+    },
+    {
+      "name": "Scroll of Neutralize Poison",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You detoxify any sort of venom in the creature or object touched. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each poison affecting the target. Success means that the poison is neutralized. A cured creature suffers no additional effects from the poison, and any temporary effects are ended, but the spell does not reverse instantaneous effects, such as hit point damage, temporary ability damage, or effects that don't go away on their own."
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Whisperthread Cords",
+      "type": "equipment",
+      "equipped": true,
+      "description": "When donned, Whisperthread Cords function identically to muleback cords, granting the wearer a +8 enhancement bonus to Strength solely for the purpose of determining carrying capacity. However, their necromantic origins carry a shadowed side effect: when first attuned (worn for 24 hours), the cords whisper the names of those whose remains were desecrated in their making. The wearer must succeed at a DC 12 Will save or take a –1 penalty on saves against fear effects for 24 hours, as an uneasy chi"
+    },
+    {
+      "name": "Masterwork Slingshot",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Fuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck y"
+    },
+    {
+      "name": "Torch City Roller",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Flour, Bag O",
+      "type": "loot",
+      "equipped": false,
+      "description": "For the finest biscuits, cakes and pies."
+    },
+    {
+      "name": "Scroll of Stabilize",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Upon casting this spell, you target a living creature that has -1 or fewer hit points. That creature is automatically stabilized and does not lose any further hit points. If the creature later takes damage, it continues dying normally."
+    },
+    {
+      "name": "Silverdisc",
+      "type": "loot",
+      "equipped": true,
+      "description": "Most Numerian technological items are powered by electricity. While one can use the electricity provided by a generator, these are rare, expensive, and rarely portable. It's more common and practical to charge such items with batteries. A battery looks like a small silver disk that's etched with strange lines-the people of Numeria have taken to calling batteries \"silverdisks\" and sometimes use them as coins. A battery contains 10 charges when full; to charge an item with a battery, one simply sl"
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Dorcroast",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dorcroast, the invigorating cold brew coffee inspired by the triumph over darkness in Ustalav, awakens your senses with a bittersweet symphony. With a delightful spritz of energy, Dorcroast revitalizes your day, infusing it with the indomitable spirit that arises from the genocide of one's enemies. This remarkable brew serves as a tribute to the resilience of those who stood against evil, reminding you that even in the face of adversity, there is always room for celebration and the promise of a "
+    },
+    {
+      "name": "Ustalav Marshal Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Haste",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast "
+    },
+    {
+      "name": "Scroll of Death Ward",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Necromancy; Level Alchemist 4, Cleric 4, Druid 5, Hunter 5, Inquisitor 4, Investigator 4, Medium 4, Occultist 4, Oracle 4, Paladin 4, Spiritualist 4, Warpriest 4, Witch 4; Domain Death 4, Repose 4\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, DF\n\n  \n\n  \n  Range Touch\n\n  \n  Targets living creature touched\n\n  \n  Duration 7 Minutes\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionThe subject gains a +4 morale bonus on saves against all death "
+    },
+    {
+      "name": "Clamdrinc",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Introducing the peculiar elixir that combines the unlikeliest of flavors, Clamdrinc! Drawing inspiration from the iconic elven weapon wielded against the Orcs, this unique soda delivers a briny surprise with every sip. Imagine the essence of the sea captured in a fizzy concoction, where the salty undertones dance alongside a subtle hint of clam, creating an unforgettable taste adventure. With each refreshing gulp, Clamdrinc transports you to a mythical shoreline, where the Elves and the clams un"
+    },
+    {
+      "name": "Pipebomb 2.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Nanite Canister",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A nanite canister is used to power technological devices that use nanites—such items generally don’t require other sources of power, as the nanites themselves do the bulk of the work when the object is activated. The canister contains a small, independent power source and a supply of nanites. A single canister contains enough nanites to provide 10 charges for a nanotech item or weapon."
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.\nConstructionRequirements Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring; Cost 1,000 gp"
+    },
+    {
+      "name": "folded letter",
+      "type": "loot",
+      "equipped": true,
+      "description": "We have had a visitor. One which promises to visit again with more in one day's time.\nWe have released the staff completely, though some have begged to stay against our council.\nWe leave within the hour and will not return this season. Ser Thorne has refused our offer to join us, and plans to stay and protect the estate, against all reason and pleading.\nWhatever befalls our Summer home and the stubborn guardians who reside, it will be an easier cost to bear than what might be taken from us shoul"
+    },
+    {
+      "name": "Elfrip's Thicc Boi",
+      "type": "container",
+      "equipped": true,
+      "description": "Part of the Carriers by Calvin line of luxury containers, this finely crafted backpack has runework hidden in its stitching.\nThis dimensional pocket magically stores up to 200 cubic feet of items, and reduces their material-plane-weight by 95%. The bag is huge, even when empty, and can detract from stealth attempts."
+    },
+    {
+      "name": "Scroll of Infernal Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment."
+    },
+    {
+      "name": "Good Boy Cowboy Hat of Inspired Wisdom +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This simple bronze headband is decorated with an intricate pattern of fine green etchings.\nThe headband grants the wearer an enhancement bonus to Wisdom of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn.\nConstructionRequirements Craft Wondrous Item, owl's wisdom; Cost 2,000 gp"
+    },
+    {
+      "name": "40mm Grenade Launcher",
+      "type": "weapon",
+      "equipped": false,
+      "description": "A partial rebuild with mithral alloy, this ancient weapon fires specially crafted grenades long distances with accuracy."
+    },
+    {
+      "name": "Shining Crusade Book of War Prayers",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Language: Taldane, notes compiled from a speech by one of the Lord Commanders of the Shining Crusade after they defeated and deposed the Whispering Tyrant.\n\n\"The gratitude of every home in Ustalav, and indeed throughout the world, except in the abodes of the guilty, goes out to the Knights of the Shining Crusade, undaunted by odds, unwearied in their constant challenge and mortal danger, are turning the tide of oppression by their prowess and by their devotion. \n\nNever in the field of conflict w"
+    },
+    {
+      "name": "Grape Tongue",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dyes the user's tongue bright purple, usually spreading to the lips and area around the mouth as it causes excessive licking and smacking. Whatever the user says is heard as incoherent babbling, but the user is granted +8 to save vs mind-affecting attacks with somatic components for 1d8 minutes."
+    },
+    {
+      "name": "Valkyrie Berry Crumble (SHOULD BE 2 CAUSE KATE'S WAS BUGGED)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, this delicious dessert can be shared by up to 4 medium creatures.\nA warm and bubbling berry filling topped with a buttery crumble made with oats, flour, brown sugar, and spices. Served with a scoop of vanilla ice cream or a dollop of whipped cream.\nBenefit: The smell of this delicacy while baking provides a Flesh to Stone effect with +4 morale bonus on the save. Up to 4 consumers of this dessert receive Truespeech for 4 hours (as Tongues)."
+    },
+    {
+      "name": "Nanite Hypogun 2.0 Black",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Color Black\n\nPrimary Effect (1ch) 2d8+5 healing\n\nSecondary Effect CL (5ch) Lesser restoration 3rd\n\nLesser restoration dispels any magical effects reducing one of the subject&rsquo;s ability scores or cures 1d4 points of temporary ability damage to one of the subject&rsquo;s ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain."
+    },
+    {
+      "name": "Scroll of Remove Sickness",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You quell feelings of illness and nausea in the target, giving it a +4 morale bonus on saving throws against disease, nausea, and sickened effects. If the subject is already under the influence of one of these effects when receiving the spell, that effect is suppressed for the duration of the spell."
+    },
+    {
+      "name": "Hell's Hot Cocoa",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Nutonia, Luxury Spread by Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Nutonia, Luxury Spread by Calvin Carpenter\nSmear refinement in paste-form across the bread of your life. Nutonia is a nut butter made from the sack of the most robust harvest of Taldania-nuts. Taste the nut of a generational-talent."
+    },
+    {
+      "name": "Wand of Remove Disease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove disease can cure all diseases from which the subject is suffering. You must make a caster level check (1d20 + caster level) against the DC of each disease affecting the target. Success means that the disease is cured. The spell also kills some hazards and parasites, including green slime and others.\nSince the spell's duration is instantaneous, it does not prevent reinfection after a new exposure to the same disease at a later date."
+    },
+    {
+      "name": "Blood Caimon Tacos",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners!\nEnjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes."
+    },
+    {
+      "name": "Black Butcher's Quarter Sauce",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The famous Black Butcher of Courtaud's favorite meat-sauce. This inky black sauce is savory yet sweet. It is said to be the only \"Quarter\" the butcher ever offered or accepted.\nAfter he was put to death by the people of Courtaud, his family began selling his quarter sauce  (quarter portions of vinegar, sugar, garlic, and onion) in silverglass bottles shaped like skulls in remembrance of their patriarch. Only Ustalavians would find that paletable."
+    },
+    {
+      "name": "Judge & Jury",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Judge: +2 to hit when both pistols are fired at the same target for an entire round. \n\nJury: When firing both pistols at a target, gain +4 saves against any spells or abilities of that target until the start of your next turn.\n\nContinuance: When either of the pistols kills a target to CON or performs a Coup De Grace to kill a target, both are fully repaired, reloaded with 12 of the last bullet fired, and any jams are cleared."
+    },
+    {
+      "name": "Slow nectar",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Slow nectarSource Pathfinder #93: Forge of the Giant God pg. 8\nPrice N/A; Weight 0\nType injury; Save Fortitude DC 17\nFrequency 1/round for 6 rounds\nEffect 1d3 Dex damage plus paralysis for 1 round\nCure 1 save\nDescriptionThe ettercaps collect the sap of small white flowers that grow on the nearby cliffs to create a paralytic poison known as slow nectar, which the creatures use in their traps."
+    },
+    {
+      "name": "Commset 1m",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a built-in camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile—beyond this range, communication is impossible without enhancing the signal strength with a signal booster. The price and cost listed for this item are for a"
+    },
+    {
+      "name": "Shudderwood Jons",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These flexible short-pants are divinely crafted out of the finest woven jean. They are so unimaginably comfortable that when worn under armor, they reduce the check penalty by 1. \nIf worn by a shapeshifter, they stretch and adapt to any size of bipedal form."
+    },
+    {
+      "name": "Wolfsbane Flower",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Used as a poison to execute prisoners in Cheliax, this herb causes 1d3 CON damage but allows a new save vs Curse of Lycanthropy."
+    },
+    {
+      "name": "CP-USS Guard",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Wand of Restoration, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Lesser restoration dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain."
+    },
+    {
+      "name": "Scrap Horn",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This \"horn\" is more of a metal trumpet without the instrument bit. It is fashioned from re-purposed armor plates, many of which still have bullet/arrow holes and dents from battle.\nThe item is heavily enchanted by months of ritual prayer. The prayers focused on found-family unity and the device now provides several benefits.\nAll effects require a deafening primal roar into the megaphone, any silence effects will cancel the items beneficial effects.. Causes an ear-piercing scream effect in the im"
+    },
+    {
+      "name": "Antitoxin",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n\nIf you drink a vial of antitoxin, you get a +5 alchemical bonus on Fortitude saving throws against poison for 1 hour.\n\nAlchemical Power Component\n\nSource PZO9410\n\nLike antiplague, antitoxin can augment certain healing spells.\n\nNeutralize Poison (M): Add +2 on your caster level check to neutralize poison on a target creature. Antitoxin has no effect when you cast the spell on an object."
+    },
+    {
+      "name": "Scroll of Dispel Magic",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Abjuration; Level Sorcerer 3, Wizard 3, Cleric 3, Oracle 3, Druid 4, Bard 3, Paladin 3, Summoner 3, Witch 3, Inquisitor 3, Antipaladin 3, Magus 3, Shaman 3, Psychic 3, Medium 3, Mesmerist 3, Occultist 3, Spiritualist 3, Hunter 4, unchained Summoner 3; Domain Magic 3; Subdomain Entropy 3; Bloodline Arcane 3\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range 150 ft\n\n  Area one spellcaster, creature, or object\n\n  Targets one spellcaster, creature, or object\n\n  \n  Duration "
+    },
+    {
+      "name": "Garlic Tablets",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Undead Slayer's Handbook pg. 9\nPrice 20 gp; Weight 1/2 lb.\nCategory Alchemical Tools\nDescriptionThese small gray-white tablets are made of dehydrated and condensed garlic bulbs. One hour after you eat a garlic tablet, you begin to stink as the essence of the tablet seeps out of your pores. This state lasts for 4 hours. Subsequent doses of garlic tablets reset this duration. During this time, you can keep a vampire at bay (Pathfinder RPG Bestiary 270) as a free action without need of a hol"
+    },
+    {
+      "name": "Wand of Celestial Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing) [good]; Level Arcanist 1, Bloodrager 1, Cleric 1, Magus 1, Oracle 1, Sorcerer 1, Summoner 1, Summoner (Unchained) 1, Warpriest 1, Witch 1, Wizard 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (1 drop of blood from a good outsider or 1 dose of holy water)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration 0 Rounds\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionYou anoint a wounded creature with t"
+    }
+  ]
+}

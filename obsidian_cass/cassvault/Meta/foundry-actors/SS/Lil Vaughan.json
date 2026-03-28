@@ -1,0 +1,32 @@
+{
+  "name": "Lil Vaughan",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Familiar",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 22,
+    "con": 10,
+    "int": 8,
+    "wis": 8,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level Adept 1, Alchemist 1, Bard 1, Cleric 1, Druid 1, Hunter 1, Inquisitor 1, Investigator 1, Occultist 1, Oracle 1, Paladin 1, Ranger 2, Shaman 1, Skald 1, Spiritualist 1, Warpriest 1, Witch 1; Domain Healing 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 poi"
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "name": "Cheatum & Steele",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Cat-o'-Nine-Tails",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This short whip is made of nine knotted thongs about 3 feet in length.\n\nA cat-o’-nine-tails deals no damage to any creature with an armor bonus of +1 or higher or a natural armor bonus of +3 or higher."
+    },
+    {
+      "name": "Sea Snake, by Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Crafted by the renowned perfumer Calvin Carpenter from the luxury brand from Kintargo in the opulent region of Ravounel, Essence of the Irresistible is an exquisite perfume that captivates the senses of both land and sea creatures. The perfume is housed in an elegant crystal vial, its design inspired by the waves of the sea and the gentle curves of rolling hills. The fragrance inside shimmers with a delicate, ocean-blue hue, infused with the rarest ingredients harvested from the coastal waters o"
+    },
+    {
+      "name": "Fighting Fan",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Made to resemble a courtier's fan, this device consists of silk paper stretched and folded over a folding frame of hardened steel. Folding fans are typically wielded in pairs using a technique that distracts the opponent. The fans sport sharp tips, which can be poisoned. For a list of appropriate poisons, see Poisons on page 110."
+    },
+    {
+      "name": "+1 Mithral Rapier",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 20 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type P; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Light\nDescriptionYou can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn't a light weapon. You can't wield a rapier in two hands in order to apply 1-1"
+    },
+    {
+      "name": "Upgrade Armor: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    },
+    {
+      "name": "Vindictive Harpoon",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Description\nThis +1 returning harpoon (Pirates of the Inner Sea 18) is made from the jagged, scrimshaw-carved tusk of a narwhal attached to a 50-foot length of woven sinew. Unlike most thrown weapons, a vindictive harpoon functions as well underwater as on land, and its wielder takes no penalties on attack rolls underwater.\n\nBase Item: +1 returning harpoon\nRequirementsCraft Magic Arms and Armor, freedom of movement, telekinesis\nSource: AP 55"
+    },
+    {
+      "name": "Upgrade Weapon: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Seven-Branched Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 21, Ultimate Combat pg. 134\nStatisticsCost 50 gp Weight 7 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical x3; Range -; Type S; Special disarm, monk\nCategory Two-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy; Monk\nDescriptionThis unusual sword has a straight 2-foot-long blade with six shorter L-shaped blades protruding from it, three on each side in a staggered pattern. The shorter blades can be used to snag opponents' clothing or armor, or can target weapo"
+    },
+    {
+      "name": "Dart",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 142, Ultimate Equipment pg. 17\nStatisticsCost 5 sp Weight 1/2 lb.\nDamage 1d3 (small), 1d4 (medium); Critical x2; Range 20 ft.; Type P; Special -\nCategory Ranged; Proficiency Simple\nWeapon Groups Thrown\nDescriptionThis thrown weapon is larger than an arrow and shorter than a javelin, with a weighted tip and a shorter range than a javelin. Most darts are wooden shafts with a thick metal point."
+    },
+    {
+      "name": "+1 Two-Bladed Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 21, PRPG Core Rulebook pg. 143\nStatisticsCost 100 gp Weight 10 lbs.\nDamage 1d6/1d6 (small), 1d8/1d8 (medium); Critical 19-20/x2; Range -; Type S; Special double\nCategory Two-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy; Double\nDescriptionA two-bladed sword is a double weapon-twin blades extend from either side of a central, short haft, allowing the wielder to attack with graceful but deadly flourishes."
+    },
+    {
+      "name": "Star Rose Quartz",
+      "type": "loot",
+      "equipped": false,
+      "description": "Or simply known as Rose Quartz, is a pink gemstone mainly used in jewelry. The large slabs can be cut into multiple shapes from hearts, for holidays and anniversaries to huge round shapes, for wizards' crystal balls. It can also be used as a magical material, to deflect spells."
+    },
+    {
+      "name": "Rhoka Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, Into the Darklands pg. 61, Adventurer's Armory pg. 4\nStatisticsCost 25 gp Weight 6 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 18-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy\nDescriptionThis sword is used almost exclusively by the life-hating urdefhans (Bestiary 2 276). The sword is the size of a longsword but consists of two serrated blades placed side by side."
+    },
+    {
+      "name": "Light Wooden Shield",
+      "type": "equipment",
+      "equipped": false,
+      "description": "A light wooden shield is essentially the same as a light steel shield, except it responds differently to some spells and effects (such as rusting grasp). A druid can use a light wooden shield, but not a light steel shield."
+    },
+    {
+      "name": "Silver Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows.\nSilver, Alchemical\n\nA complex process involving metallurgy and alchemy can bond silver to a weapon made of steel so that i"
+    },
+    {
+      "name": "Upgrade Deflection AC: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "+1 Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 2 gp Weight 1 lb.\nDamage 1d3 (small), 1d4 (medium); Critical 19-20/x2; Range 10 ft.; Type P or S; Special -\nCategory Light; Proficiency Simple\nWeapon Groups Blades, Light; Thrown; Tribal\nDescriptionA dagger is a fighting knife. Its blade is usually less than 1 foot long, and can be curved or straight, with one edge or two. Dagger designs vary widely, and can have many different names (such as a thrusting dagger being cal"
+    },
+    {
+      "name": "+1 Bastard Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, PRPG Core Rulebook pg. 143\nStatisticsCost 35 gp Weight 6 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy\nDescriptionA bastard sword is about 4 feet in length, making it too large to use in one hand without special training; thus, it is an exotic weapon. You can use a bastard sword two-handed as a martial weapon."
+    },
+    {
+      "name": "Outfit, Courtier's",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 89, PRPG Core Rulebook pg. 159\nPrice  30 gp; Weight  6 lbs.\nCategory Clothing\nDescriptionThis outfit includes tailored clothes in whatever fashion happens to be current in noble courts of that region. Anyone trying to influence nobles or courtiers while wearing street dress will have a hard time of it (-2 penalty on Charisma-based skill checks to influence such individuals). If you wear this outfit without jewelry (costing an additional 50 gp), you look like an out-"
+    },
+    {
+      "name": "Powder horn",
+      "type": "loot",
+      "equipped": false,
+      "description": "Typically crafted from hollowed-out animal horn, but increasingly crafted from metal in a wide variety of shapes, a powder horn can hold up to 10 doses of black powder. A powder horn protects black powder stored within in it from exposure to fire, electricity, firearm misfires, and water, and the narrow end of the horn is useful in funneling the expensive powder carefully into the barrel of a firearm."
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Upgrade Deflection AC: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Naginata",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 19, Ultimate Combat pg. 133\nStatisticsCost 35 gp Weight 9 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x4; Range -; Type S; Special reach\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Polearms\nDescriptionThe naginata consists of a 6-foot staff affixed to a 2-foot-long, slightly curved, swordlike blade. The shaft is designed to keep the wielder out of reach from swords and shorter weapons."
+    },
+    {
+      "name": "Rubellite",
+      "type": "loot",
+      "equipped": false,
+      "description": "Rubellite, a pink variant of tourmaline, stands out as the rarest gem in its family. Occasionally mistaken for ruby, it is a target for exploitation by unscrupulous merchants."
+    },
+    {
+      "name": "Falcata",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, Pathfinder Campaign Setting pg. 209, Adventurer's Armory pg. 33, Advanced Player's Guide pg. 178\nStatisticsCost 18 gp Weight 4 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 19-20/x3; Range -; Type S; Special -\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy\nDescriptionThis heavy blade has a single sharp edge, concave at the bottom and convex at the top, with a hook-shaped hilt. Its shape distributes the weight to give it the momentum of an "
+    },
+    {
+      "name": "Numerian Bolt Action Rifle MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This short, curved sword is favored by seafarers for closequarters combat. It is treated as a scimitar for any effects that apply to scimitars."
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Obsidian",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Quarterstaff",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A quarterstaff is a simple piece of wood, about 5 feet in length. In battle, it's held with one hand at the butt and the other a quarter of the way up the staff, allowing it to block blows and make quick strikes."
+    },
+    {
+      "name": "Sawtoothed Sabre",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Guide pg. 158, Curse of the Crimson Throne Player's Guide pg. 13, Pathfinder Campaign Setting pg. 209, Inner Sea World Guide pg. 290, Adventurer's Armory pg. 33, Ultimate Equipment pg. 20\nStatisticsCost 35 gp Weight 2 lb.\nDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range -; Type S; Special see text\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy; Blades, Light\nDescriptionCrafted to evoke the barbed talons of the Mantis God himself, a sawtooth sabr"
+    },
+    {
+      "name": "Scimitar",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 15 gp Weight 4 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis curved sword is shorter than a longsword and longer than a shortsword. Only the outer edge is sharp, and the back is flat, giving the blade a triangular cross-section."
+    },
+    {
+      "name": "Composite Shortbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsCost 75 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x3; Range 70 ft.; Type P; Special -\nCategory Ranged; Proficiency Martial\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite shortbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier "
+    },
+    {
+      "name": "Upgrade Resistance: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Katana",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, Ultimate Combat pg. 131\nStatisticsCost 50 gp Weight 6 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 18-20/x2; Range -; Type S; Special deadly\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy\nDescriptionSpecifically constructed for samurai, katanas employ multiple types of steel combined in a distinctive forging process. The result are swords noted for their wickedly sharp yet slender, gently curved blades, designed to make graceful hacking s"
+    },
+    {
+      "name": "Upgrade Armor: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "+1 Aldori Dueling Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Guide pg. 24, Pathfinder Campaign Setting pg. 209, Inner Sea World Guide pg. 290, Adventurer's Armory pg. 18\nStatisticsCost 20 gp Weight 3 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy\nDescriptionThese slightly curved swords measure just over 3 feet in length. An Aldori dueling sword can be used as a martial weapon (in which case it functions as a longsword), but if you "
+    },
+    {
+      "name": "Longsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 15 gp Weight 4 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis sword is about 3-1/2 feet in length."
+    },
+    {
+      "name": "Broadcloth",
+      "type": "loot",
+      "equipped": false,
+      "description": "The most common type of cloth, it is usually referred to as plain cloth. Traditionally used in any form of clothing, as well, as for interior decoration, such as tablecloths, curtains, and wall covers."
+    },
+    {
+      "name": "Firearm Bullet",
+      "type": "loot",
+      "equipped": false,
+      "description": "The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound."
+    },
+    {
+      "name": "Numerian Compact Bow",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "+1 Mithral Breastplate (Agile)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for Climb checks and Acrobatics checks made to jump is only –1 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty).\nMithral\n\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well."
+    },
+    {
+      "name": "Amethyst",
+      "type": "loot",
+      "equipped": false,
+      "description": "It is said the first Amethyst was a young and beautiful priestess, however, two goddesses fought over her allegiance and unfortunately destroyed her. As the goddesses mourned and wept their loss, their tears combined and created the gem as it fell to the ground. I'm not certain if this tale holds any truth, as I have also heard that a glance and wine were involved.  Amethyst is a very common mineral and is found throughout the realms. It has a beautiful color and is faceted into jewelry cuts, ma"
+    },
+    {
+      "name": "Antlers",
+      "type": "loot",
+      "equipped": false,
+      "description": "Antlers are usually shed and regrown each year by deers, elk, reindeer, or caribous. Due to the replacement nature of the antlers, they can be used to make tools, weapons, ornaments, or even toys. Antler hairdressers are used as a form of leadership by shamans, spiritual figures, and druidic circles. Some forest folk use them as crowns, of different sizes, for their lords, princes, kings, or depending on the case, emperors."
+    },
+    {
+      "name": "Haramaki",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Also called a belly-warmer, a haramaki is a simple silken sash lined with chainmail or articulated metal plates and tied about the stomach to protect it."
+    },
+    {
+      "name": "Kikko",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Kikko armor consists of a clever arrangement of hexagonal plates made from iron and sewn to cloth, granting the wearer greater flexibility than that provided by many armors that afford similar defense. The plates may be left exposed or hidden by a layer of cloth."
+    },
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Upgrade Weapon: +1 from Masterwork",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Weapon: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Armor: +1 from Masterwork",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Hand Axe",
+      "type": "loot",
+      "equipped": false,
+      "description": "The go-to axe for various applications, it proves its usefulness as a camping tool for felling small trees, splitting kindling, and preparing firewood. Craftsmen appreciate its finesse in cutting wood to size and creating intricate patterns on furniture."
+    },
+    {
+      "name": "Chain Shirt MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Glaive",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsCost 8 gp Weight 10 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical x3; Range -; Type S; Special reach\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Polearms\nDescriptionA glaive is composed of a simple blade mounted on the end of a pole about 7 feet in length."
+    },
+    {
+      "name": "Black powder (keg)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Black powder is often stored and transported in kegs (which hold 100 doses), but in this quantity the powder itself becomes dangerous. Exposure to fire, electricity, or a misfire explosion causes black powder to explode—a single keg that explodes in this manner deals 5d6 points of fire damage to anyone within a 20-foot burst (DC 15 Reflex half). Storing black powder in a powder horn protects the powder from explosion."
+    },
+    {
+      "name": "Upgrade Deflection AC: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "+1 Ghost Touch Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows.\nGhost Touch\n\nA ghost touch weapon deals damage normally against incorporeal creatures, regardless of its bonus. An incorpo"
+    },
+    {
+      "name": "Gunsmith's Kit",
+      "type": "loot",
+      "equipped": false,
+      "description": "This small kit has all the tools a person needs to create, repair, and restore firearms, except for the necessary raw materials. Without such a kit, you cannot properly construct or provide upkeep for firearms."
+    },
+    {
+      "name": "Longspear",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 5 gp Weight 9 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type P; Special brace, reach\nCategory Two-Handed; Proficiency Simple\nWeapon Groups Spears\nDescriptionA longspear is about 8 feet in length."
+    },
+    {
+      "name": "Wakizashi",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, Ultimate Combat pg. 134\nStatisticsCost 35 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type P or S; Special deadly\nCategory Light; Proficiency Exotic\nWeapon Groups Blades, Light\nDescriptionThese short, slender blades are between 1 to 2 feet long. They are primarily used as back-up weapons, to decapitate defeated enemies, or to commit seppuku (ritual suicide) as a matter of honor. These blades are specifically worn by samurai and"
+    },
+    {
+      "name": "Alchemist's Fire",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source PZO1110\n\nYou can throw a flask of alchemist's fire as a splash weapon with a range increment of 10 feet.\n\nA direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hits takes 1 point of fire damage from the splash. On the round following a direct hit, the target takes an additional 1d6 points of damage. If desired, the target can use a full-round action to attempt to extinguish the flames before taking this additional damage. Extinguishing the"
+    },
+    {
+      "name": "Musket",
+      "type": "weapon",
+      "equipped": true,
+      "description": "StatisticsDamage 1d10 (small), 1d12 (medium); Critical x4; Range 40 ft.; Type B and P\n\nMisfire 1-2 (5 ft.); Capacity 1\n\nDescription\nThis long-barreled firearm has a much greater range than a pistol. A musket uses either a bullet and 1 dose of black powder or a single alchemical cartridge as its ammunition."
+    },
+    {
+      "name": "Composite Longbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsCost 100 gp Weight 3 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range 110 ft.; Type P; Special -\nCategory Ranged; Proficiency Martial\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier"
+    },
+    {
+      "name": "Starfire Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsDamage 1d10 (small), 2d6 (medium); Critical 19-20/x2; Range -; Type S\nWeapon Groups Blades, Heavy\nDescriptionThis immense two-handed sword is about 5 feet in length. A greatsword may have a dulled lower blade that can be gripped."
+    },
+    {
+      "name": "Kukri",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A kukri is a curved blade, about 1 foot in length."
+    },
+    {
+      "name": "Whip",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, PRPG Core Rulebook pg. 143\nStatisticsCost 1 gp Weight 2 lbs.\nDamage 1d2 (small), 1d3 (medium); Critical x2; Range -; Type S; Special disarm, nonlethal, reach, trip\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Flails\nDescriptionA whip deals no damage to any creature with an armor bonus of +1 or higher or a natural armor bonus of +3 or higher. The whip is treated as a melee weapon with a 15-foot reach, though you don't threaten the area into which you can"
+    },
+    {
+      "name": "Silver Tankard",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice 2 cp; Weight 1 lb.\nCategory Adventuring Gear\nDescriptionWhether it is a simple pottery cup or an elaborate drinking stein with a handle and decorative lid that flips up, this cup may be used to hold any sort of beverage. Tankards are commonly made out of clay or tin."
+    },
+    {
+      "name": "Short Sword MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 10 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 19-20/x2; Range -; Type P; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Blades, Light\nDescriptionShort swords are some of the most common weapons found in any martial society, and thus designs are extremely varied, depending on the region and creator. Most are around 2 feet in length. Their blades can be curved or straight, single- or double-ed"
+    },
+    {
+      "name": "Rapier",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type P\nWeapon Groups Blades, Light\nDescriptionYou can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn't a light weapon. You can't wield a rapier in two hands in order to apply 1-1/2 times your Strength modifier to its damage."
+    },
+    {
+      "name": "Starknife",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, Rise of the Runelords Player's Guide pg. 11, Curse of the Crimson Throne Player's Guide pg. 13, Pathfinder Campaign Setting pg. 209, PRPG Core Rulebook pg. 142, Varisia, Birthplace of Legends pg. 14\nStatisticsCost 24 gp Weight 3 lbs.\nDamage 1d3 (small), 1d4 (medium); Critical x3; Range 20 ft.; Type P; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Blades, Light; Thrown\nDescriptionFrom a central metal ring, four tapering metal blades extend from this"
+    },
+    {
+      "name": "Buckler",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a –1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you"
+    },
+    {
+      "name": "Chainmail",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Unlike a chain shirt, which covers only the chest, chainmail protects the wearer with a complete mesh of chain links that cover the torso and arms, and extends below the waist. Multiple interconnected pieces offer additional protection over vital areas. The suit includes gauntlets."
+    },
+    {
+      "name": "Gunsmith's Kit",
+      "type": "loot",
+      "equipped": false,
+      "description": "This small kit has all the tools a person needs to create, repair, and restore firearms, except for the necessary raw materials. Without such a kit, you cannot properly construct or provide upkeep for firearms."
+    },
+    {
+      "name": "Upgrade Weapon: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Chainmail MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Unlike a chain shirt, which covers only the chest, chainmail protects the wearer with a complete mesh of chain links that cover the torso and arms, and extends below the waist. Multiple interconnected pieces offer additional protection over vital areas. The suit includes gauntlets."
+    },
+    {
+      "name": "Soap",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, Adventurer's Armory pg. 19, PRPG Core Rulebook pg. 158\nPrice 1 cp; Weight 1/2 lb.\nCategory Adventuring Gear\nDescriptionMost soap is made from animal fat and lye derived from ashes. You can use this thick block of soap to scrub clothes, pots, linens, adventurers, or anything else that might be dirty. A bar of soap has approximately 50 uses."
+    },
+    {
+      "name": "+1 Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Rapier",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 20 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type P; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Light\nDescriptionYou can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn't a light weapon. You can't wield a rapier in two hands in order to apply 1-1"
+    },
+    {
+      "name": "Upgrade Resistance: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": ".308 762x51mm Nosler Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "7.62x51mm Nosler cartridge. The bullet is loaded with two separate lead cores with a solid partition between them. The front part is torn quickly, delivering great energy. The base remains intact and provides deep penetration, even when hitting bones."
+    },
+    {
+      "name": "Shuriken",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 33, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 21\n\nStatistics\nCost 1 gp Weight 1/2 lb.\n\nDamage 1 (small), 1d2 (medium); Critical x2; Range 10 ft.; Type P; Special monk\n\nCategory Ranged; Proficiency Exotic\n\nDescription\nA shuriken is a small piece of metal with sharpened edges, designed for throwing. A shuriken can't be used as a melee weapon. Although they are thrown weapons, shuriken are treated as ammunition for the purposes of drawing them and crafting"
+    },
+    {
+      "name": "Upgrade Natural Armor: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Tongi",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Melee Tactics Toolbox pg. 19\nStatisticsCost 18 gp Weight 4 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 19-20/x3; Range -; Type P; Special -\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Axes\nDescriptionThis rare weapon resembles a battleaxe with wedges cut out of the head, presenting four sharp points that splay from the handle rather than a single convex blade."
+    },
+    {
+      "name": "Silver Locket",
+      "type": "loot",
+      "equipped": false,
+      "description": "A silver locket depicting a beautiful, buxom young blonde woman."
+    },
+    {
+      "name": "Upgrade Armor: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Nodachi",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 19, Ultimate Combat pg. 133\nStatisticsCost 60 gp Weight 8 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 18-20/x2; Range -; Type S or P; Special brace\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy; Polearms\nDescriptionThis very long, two-handed weapon has a slender but wickedly sharp 4-foot-long blade at one end. It is predominantly used by ground troops to attack mounted warriors, and can be used to hack riders from their mounts or set to r"
+    },
+    {
+      "name": "Composite Longbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical x3; Range 110 ft.; Type P\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use it with proficiency). If your Strength modifier is less than the s"
+    },
+    {
+      "name": "+1 Fauchard",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 8, Classic Horrors Revisited pg. 8\nStatisticsCost 14 gp Weight 10 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 18-20/x2; Range -; Type S; Special reach,trip\nCategory Two-Handed; Proficiency Exotic\nWeapon Groups Polearms\nDescriptionLike a glaive, the fauchard is a curved blade at the end of a pole. However, the cutting edge of a fauchard is along the concave side, like that of a sickle or scythe."
+    },
+    {
+      "name": "Orc Hornbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 8\nStatisticsCost 130 gp Weight 7 lbs.\nDamage 1d8 (small), 2d6 (medium); Critical x3; Range 80 ft.; Type P; Special -\nCategory Ranged; Proficiency Exotic\nWeapon Groups Bows\nDescriptionLarger even than a longbow, these bows are often made from the horns of great beasts. Though they have a shorter range than other bows, their greater destructive power is highly favored by orcs and their kin. All hornbows are composite bows and can be modified to benefit from high St"
+    },
+    {
+      "name": "Pistol",
+      "type": "weapon",
+      "equipped": true,
+      "description": "StatisticsDamage 1d6 (small), 1d8 (medium); Critical x4; Range 20 ft.; Type B and P\n\nMisfire 1 (5 ft.); Capacity 1\n\nDescription\nThe basic single-shot pistol is one of the most common firearms, although in most campaigns it is still rare enough to be an object of envy or curiosity to most. As such, it can take a variety of different forms, from wildly ornate masterpieces in the shape of fire-breathing dragons to the more common woodhandled pistols, or nothing more than a simple metal tube with a "
+    },
+    {
+      "name": "Umbral Scourge",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Forged in the dark heart of Nidal, under a sky veiled eternally by the shadows of ancient deities, the Umbral Scourge was birthed by the union of forbidden magics and unspeakable sacrifices. Its blade, blacker than the darkest night, was cooled in the tears of those who dared defy the will of the Midnight Lord, Zon-Kuthon. The weapon is said to possess a fragment of a shadow deity's essence, granting it power that few can withstand. Over the centuries, it has been wielded by the most feared cham"
+    },
+    {
+      "name": "Butterfly Knife",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Armory pg. 3\nStatisticsCost 5 gp Weight 1 lb.\nDamage 1d3 (small), 1d4 (medium); Critical 19-20/x2; Range -; Type P or S; Special -\nCategory Light; Proficiency Exotic\nWeapon Groups Blades, Light\nDescriptionThis weapon has a blade concealed between the two halves of the handle that can be brought to bear quickly. If you are proficient with it (or have the Quick Draw feat), you may open it as a free action; a nonproficient user must spend a move action to open it. Otherwise, tre"
+    },
+    {
+      "name": "Naginata",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 19, Ultimate Combat pg. 133\nStatisticsCost 35 gp Weight 9 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x4; Range -; Type S; Special reach\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Polearms\nDescriptionThe naginata consists of a 6-foot staff affixed to a 2-foot-long, slightly curved, swordlike blade. The shaft is designed to keep the wielder out of reach from swords and shorter weapons."
+    },
+    {
+      "name": "Mantrap",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 77, Advanced Player's Guide pg. 184, Adventurer's Armory pg. 19\nPrice 2 gp; Weight 10 lbs.\nCategory Tools\nDescriptionAlthough intended for trapping large animals, bear traps work as well for trapping humanoids or monsters. The hinged jaws of the trap are attached to a chain, which in turn is secured to a spike driven into the ground to ensure that the victim cannot simply crawl away. Prying open the jaws or pulling the spike from the ground requires a DC 20 Strength"
+    },
+    {
+      "name": "Sexy Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Silk",
+      "type": "loot",
+      "equipped": false,
+      "description": "It is one of the rarest materials to find. It is mainly produced by either fantastical beasts or insects of different sizes. It is speculated that only the most trained gatherers can create something called Pure Silk, however, some of them end up losing their lives sometimes, getting more than they bargained for from some eight-legged monsters."
+    },
+    {
+      "name": "Rapier",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type P\nWeapon Groups Blades, Light\nDescriptionYou can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn't a light weapon. You can't wield a rapier in two hands in order to apply 1-1/2 times your Strength modifier to its damage."
+    },
+    {
+      "name": "+1 Undead Bane Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows.\nBane\n\nA bane weapon excels against certain foes. Against a designated foe, the weapon's enhancement bonus is +2 better tha"
+    },
+    {
+      "name": "Upgrade Natural Armor: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Pearl",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

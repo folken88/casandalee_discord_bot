@@ -1,0 +1,50 @@
+{
+  "name": "Four-armed Sahuagin",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Sahuagin",
+  "classes": [
+    {
+      "name": "Monstrous Humanoid (Aquatic)",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 24
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": 14,
+    "int": 14,
+    "wis": 13,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Heavy Crossbow (Underwater)",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, Advanced Race Guide pg. 195, Ultimate Equipment pg. 17\nStatisticsCost 100 gp Weight 8 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range 120 ft.; Type P; Special -\nCategory Ranged; Proficiency Simple\nWeapon Groups Crossbows\nDescriptionAbove water, this weapon is identical to a heavy crossbow. You may use it underwater, where it has a range increment of 20 feet. It counts as a heavy crossbow for the purposes of proficiencies and special abilities"
+    },
+    {
+      "name": "Trident",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 15 gp Weight 4 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x2; Range 10 ft.; Type P; Special brace\nCategory One-Handed; Proficiency Martial\nWeapon Groups Spears; Thrown\nDescriptionA trident has three metal prongs at end of a 4-foot-long shaft. This weapon can be thrown."
+    },
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Bracers Of Armor +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese items appear to be wrist or arm guards, sometimes etched with symbols of protection or depictions of vigilant-looking animals. Bracers of armor surround the wearer with an invisible but tangible field of force, granting him an armor bonus of +1 to +8, just as though he were wearing armor. Both bracers of armor must be worn for the magic to be effective.   Alternatively, bracers of armor can be enchanted with armor special abilities. See Table 3-3: Armor Special Abilities for a "
+    }
+  ]
+}

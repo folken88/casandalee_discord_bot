@@ -1,0 +1,44 @@
+{
+  "name": "Dravod Knock Mud Bandit",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Rogue (Unchained)",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 11
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Composite Shortbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsDamage 1d4 (small), 1d6 (medium); Critical x3; Range 70 ft.; Type P\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite shortbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use with proficiency). If your Strength modifier is lower than the str"
+    },
+    {
+      "name": "Kukri",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsDamage 1d3 (small), 1d4 (medium); Critical 18-20/x2; Range -; Type S\nWeapon Groups Blades, Light\nDescriptionA kukri is a curved blade, about 1 foot in length."
+    },
+    {
+      "name": "Angelskin Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor.\nAngelskin\nThe preserved skin of an angel retains a portion of celestial grace a"
+    }
+  ]
+}

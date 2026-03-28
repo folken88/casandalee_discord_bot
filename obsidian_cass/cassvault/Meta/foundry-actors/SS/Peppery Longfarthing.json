@@ -1,0 +1,44 @@
+{
+  "name": "Peppery Longfarthing",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Sorcerer",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 72
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Bracers Of Armor +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese items appear to be wrist or arm guards, sometimes etched with symbols of protection or depictions of vigilant-looking animals. Bracers of armor surround the wearer with an invisible but tangible field of force, granting him an armor bonus of +1 to +8, just as though he were wearing armor. Both bracers of armor must be worn for the magic to be effective.   Alternatively, bracers of armor can be enchanted with armor special abilities. See Table 3-3: Armor Special Abilities for a "
+    },
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nFlecks of silver or steel are often sown amid the fabric of these magical cloaks. This garment offers magical protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).\nBase Item: \nRequirementsCraft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus\nSource: Ultimate Equipment"
+    },
+    {
+      "name": "Ring Of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThis ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.\nBase Item: \nRequirementsForge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring\nSource: Ultimate Equipment"
+    }
+  ]
+}

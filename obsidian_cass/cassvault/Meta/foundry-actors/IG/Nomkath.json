@@ -1,0 +1,380 @@
+{
+  "name": "Nomkath",
+  "type": "character",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Catfolk",
+  "classes": [
+    {
+      "name": "Rogue",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 61
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 12,
+    "int": 14,
+    "wis": 12,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Spyglass",
+      "type": "loot",
+      "equipped": true,
+      "description": "Price 1000 gp; Weight 1 lb.\n\r\nObjects viewed through a spyglass are magnified to twice their size. Characters using a spyglass take a -1 penalty on Perception skill checks per 20 feet of distance to the target, if the target is visible."
+    },
+    {
+      "name": "Nanite Hypogun 3.0 White",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Color Black\n\nPrimary Effect (1ch) 3d8+8 healing\n\nSecondary Effect CL (5ch) Remove Disease\n\nRemove disease can cure all diseases from which the subject is suffering. You must make a caster level check (1d20 + caster level) against the DC of each disease affecting the target. Success means that the disease is cured. The spell also kills some hazards and parasites, including green slime and others.\n\nSince the spell&rsquo;s duration is instantaneous, it does not prevent reinfection after a new expos"
+    },
+    {
+      "name": "Bag of Holding 1.0",
+      "type": "container",
+      "equipped": true,
+      "description": "Bag of Holding Type 1a: 15lbs weight / 250lbs held.\n \nThe bag of holding opens into a nondimensional space: its inside is larger than its outside dimensions.\nRegardless of what is put into the bag, it weighs a fixed Amount. This weight, and the limits in weight and volume of the bag’s contents, depend on the bag’s type, as shown on the table below."
+    },
+    {
+      "name": "E-Pick (Red)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "An e-pick (short for &ldquo;electronic lock pick&rdquo;) is a small device that can be used to unlock and disable electronic locks and devices, much in the same way that a set of thieves&rsquo; tools can be used to dismantle mechanical locks and devices. This tool allows a user to make Disable Device checks against electronic devices."
+    },
+    {
+      "name": "Hexgrid Breastplate +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Plate carrier by 5.11 Tactical intended for use with chest rigs.\n\n \n\n+6 to touch AC"
+    },
+    {
+      "name": "Potion of Gaseous Form",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject and all its gear become insubstantial, misty, and translucent. Its material armor (including natural armor) becomes worthless, though its size, Dexterity, deflection bonuses, and armor bonuses from force effects still apply. The subject gains DR 10/ magic and becomes immune to poison, sneak attacks, and critical hits. It can't attack or cast spells with verbal, somatic, material, or focus components while in gaseous form. This does not rule out the use of certain spells that the subj"
+    },
+    {
+      "name": "Dorcroast",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dorcroast, the invigorating cold brew coffee inspired by the triumph over darkness in Ustalav, awakens your senses with a bittersweet symphony. With a delightful spritz of energy, Dorcroast revitalizes your day, infusing it with the indomitable spirit that arises from the genocide of one's enemies. This remarkable brew serves as a tribute to the resilience of those who stood against evil, reminding you that even in the face of adversity, there is always room for celebration and the promise of a "
+    },
+    {
+      "name": "Universal Power Adapter",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A power cable is a short length of flexible cord (typically no more than 5 feet long) that can be used to attach a technological device to a power generator. It takes a move action to attach a cable to a generator or a device&mdash;thus, it takes a full round to fully connect the two together. Once connected, the item draws power from the generator rather than from its internal battery stores. If an item can be recharged, it automatically replenishes its missing charges from the generator (up to"
+    },
+    {
+      "name": "Ravens Cloak",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This cloak is blackened leather lined with mithral chain and an outer layer of black feathers. It provides a number of subtle effects.\nResist / Endure Cold: 10\nResist / Endure Fire: 10\nResistance +3 (functions as cloak - this effect is upgradeable)\n1x/day Featherfall (immediate action, automatic if wearer is unconscious and in free-fall)\n1x/day Bypass: As an immediate action, cloak your weapons in shadow and alter their damage type to \"negative energy\" for 10 rounds. This does not alter their da"
+    },
+    {
+      "name": "Flashlight",
+      "type": "equipment",
+      "equipped": true,
+      "description": "When activated, a flashlight creates a beam of normal light in a 60-foot cone. It also increases the light level in the area beyond this initial cone by one step, out to a 120-foot cone. It does not increase the light level in normal light or bright light. A flashlight has no effect in areas of magical darkness."
+    },
+    {
+      "name": "Pipebomb 2.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Grease Packet",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "04 Silver Card (Science)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Access level designed for scientific personnel, researchers, and non-command officers with clearance to sensitive labs, medical bays, or containment zones. Unlocks silver, white, and black security seals."
+    },
+    {
+      "name": "Upgrade Weapon: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Datajack",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Implanted at the base of the neck, this device allows direct mental connection to any compatible device. \n\nIf connected to a device, the wearer receives +5 on knowledge engineering checks to manipulate or diagnose that device."
+    },
+    {
+      "name": "Potion of Fly",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load).\nIt can ascend at half speed and descend at double speed, and its maneuverability is good. Using a fly spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can charge but not run, and it cannot carry aloft more weight than its maximum load, plus any armor it wears. The subject gains a bonus"
+    },
+    {
+      "name": "obliterator.src",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Absolutely positively guaranteed to obliterate any lock you point it at. \n\n \n\n<<<please note do not point this device at yourself its not just a name you will obliterate yourself and we will not be held liable for any accidental obliterations your mileage may vary dont call us unless it doesnt obliterate but it will it always does>>>"
+    },
+    {
+      "name": "Ring of Missile Protection",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This copper-colored ring is engraved with a variety of\ndifferent types of ammunition all around the interior and\nexterior. The wearer of this ring gains damage reduction\n10/magic against ranged attacks. Once 50 points of damage\nfrom ranged attacks has been absorbed, the ring goes inert\nfor 24 hours.\n\nConstruction\nRequirements Forge Ring, deflect missiles, Cost 2,000 gp"
+    },
+    {
+      "name": "Technic League Captain Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A small golden pin"
+    },
+    {
+      "name": "Upgrade Weapon: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint illusion; CL 3rd\n\nThe creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisibl"
+    },
+    {
+      "name": "Null Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "+2 keen 1h blade that hits on touch. Further enhanced by Ozmyn's magus abilities."
+    },
+    {
+      "name": "Backpack, Masterwork",
+      "type": "loot",
+      "equipped": true,
+      "description": "Type \n   Price \n   Weight \n   \n  \n  \n   \n   Common \n   2 gp \n   2 lbs. \n   \n   \n   Masterwork \n   50 gp \n   4 lbs. \n   \n   \n   Carrier \n   25 gp \n   5 lbs. \n   \n   \n   Hydration \n   40 gp \n   4 lbs. \n   \n   \n   Weaponrack \n   25 gp \n   5 lbs. \n   \n  \n \n \n Backpack, Common: This leather knapsack has one large pocket that closes with a buckled strap and holds about 2 cubic feet of material. Some may have one or more smaller pockets on the sides. \n Backpack, Masterwork: This backpack has numerous p"
+    },
+    {
+      "name": "Eyes of the Eagle",
+      "type": "loot",
+      "equipped": true,
+      "description": "These lenses are made of special crystal and fit over the eyes of the wearer.\n\n \n\nThey grant a +5 competence bonus on Perception checks. Both lenses must be worn to gain the benefit. Wearing only one causes a character to become dizzy and stunned for 1 round."
+    },
+    {
+      "name": ".308 762x51mm Blacksteel Deadslayer Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "7.62x51mm Nosler cartridge. The bullet is loaded with two separate lead cores with a solid partition between them. The front part is torn quickly, delivering great energy. The base remains intact and provides deep penetration, even when hitting bones. Vs Undead, it delivers Piercing, slashing, or bludgeoning damage, whichever is greater."
+    },
+    {
+      "name": "Silence & Sculptor",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Silence & Sculptor are a pair of magical daggers clearly crafted as a duo. If they are ever more than 10' apart from each other, they become non-magical masterwork daggers until they are reunited. They each have a living eye that tracks movement around their wielder and they quiver at the approach of enemies. This yields a +2 circumstance bonus to perception and initiative.\n \nThe daggers are +2, keen, and cause a DC18 1-round silence effect on a confirmed crit. Due to a built-in injection system"
+    },
+    {
+      "name": "Exfil Helmet",
+      "type": "equipment",
+      "equipped": false,
+      "description": "One of the most recent tactical ballistic helmets with extensive customization capabilities. Comes in black and coyote tan.\n\n \n\nAdds extra protection to the head & face. Grants +2ac and +4 vs any attacks that target the eyes or face."
+    },
+    {
+      "name": "E-pick (green)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 43\nPrice 100 gp (black), 3,600 gp (blue), 30 gp (brown), 900 gp (gray), 1,600 gp (green), 4,900 gp (orange), 10,000 gp (prismatic), 2,500 gp (red), 400 gp (white)\nSlot none; Weight 1 lb. (black), 1 lb. (blue), 1 lb. (brown), 1 lb. (gray), 1 lb. (green), 1 lb. (orange), 1 lb. (prismatic), 1 lb. (red), 1 lb. (white)\nCapacity 10; Usage 1 charge\nDescriptionAn e-pick (short for \"electronic lock pick\") is a small device that can be used to unlock and disable electronic lock"
+    },
+    {
+      "name": "Potion of Haste",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast "
+    },
+    {
+      "name": "Courtaud Ranger's Trail Mix",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance\nIn the mysterious realm of Ustalav, where shadows dance and ancient forests whisper secrets, a ranger from Courtaud traverses the haunted trails with a specially crafted trail mix. This blend of ingredients reflects the ruggedness of the land and the resourcefulness of the ranger. Packed with nuts, dried fruits, and a touch of local flavor, this trail mix provides sustenance and vitality during long journeys through the eerie wilderness.\nGrants Longstrider "
+    },
+    {
+      "name": "DVL-10 Saboteur",
+      "type": "weapon",
+      "equipped": true,
+      "description": "DVL-10 is a lightweight, compact, and silenced rifle in proprietary and current military subsonic calibers and has been developed for special service and combat missions where exceptional accuracy and range are needed. Equipped with a standard Lobaev foldable butt-stock and Lobaev Hummer Barrels stainless steel match-grade barrel.\n \nWith the bipod planted and a full-round of uninterupted concentration, this weapon enables Sneak-Attacks at up to 3 range increments.\n \nVudu Scope halves range negat"
+    },
+    {
+      "name": "Arc Pistol",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A mint condition arc pistol."
+    },
+    {
+      "name": "Concealable thieves' tools",
+      "type": "loot",
+      "equipped": true,
+      "description": "Source Ultimate Intrigue pg. 233\nPrice 190 gp; Weight 1/2 lb.\nCategory Adventuring Gear\nDescriptionSmaller and made of stronger materials than most thieves' tools, the items in this kit are much easier to conceal. You gain a +4 bonus on Sleight of Hand skill checks to conceal these tools on your body. They otherwise function as masterwork thieves tools (granting a +2 circumstance bonus on Disable Device checks)."
+    },
+    {
+      "name": "Lighter",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "05 Red Card (Command)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Access level designed for command staff. Unlocks red, silver, white, and black security seals."
+    },
+    {
+      "name": "Muleback Cords (Tattoo)",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Headband of the Murderer",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This bright-red headband has been in the \"confiscated items\" drawer at the Torch city jail for years. No name is recorded for the person it was confiscated from, but it is documented that they were executed for murder.\n\nIt radiates faint abjuration & divination magic.\n\n \n\nThe wearer feel a constant tension around strangers that causes them to envison attacking those people over and over until they become familiar with them. This involves picturing attacking their weak points with whatever weapon"
+    },
+    {
+      "name": "augsight.bat",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Vastly improves the wearer's awareness in VR environments. Constant \"See Invisible\" in VR can reveal orphaned artifacts hidden throughout systems.\n\nPerception +10\nInitiative +10\nReflex +5\nCMD +5"
+    },
+    {
+      "name": "Sunrod",
+      "type": "loot",
+      "equipped": true,
+      "description": "Price 2 gp; Weight 1 lb.\n\r\nThis 1-foot-long, gold-tipped iron rod glows brightly when struck (a standard action). It sheds normal light in a 30-foot radius and increases the light level by one step for an additional 30 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A sunrod does not increase the light level in normal light or bright light. It glows for 6 hours, after which the gold tip is burned out and worthless."
+    },
+    {
+      "name": "Clamdrinc",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Introducing the peculiar elixir that combines the unlikeliest of flavors, Clamdrinc! Drawing inspiration from the iconic elven weapon wielded against the Orcs, this unique soda delivers a briny surprise with every sip. Imagine the essence of the sea captured in a fizzy concoction, where the salty undertones dance alongside a subtle hint of clam, creating an unforgettable taste adventure. With each refreshing gulp, Clamdrinc transports you to a mythical shoreline, where the Elves and the clams un"
+    },
+    {
+      "name": "Copycat",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Fires an invisible, silent beam as a ranged touch attach. If the target struck is a small, medium, or large humanoid, the wand immediately casts disguise self on the wielder with no use-magic-device check and attempts to disguise them perfectly as the target. This upgrades the Disguise-Self bonus from +10 to +15."
+    },
+    {
+      "name": "Wand of Blur",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject's outline appears blurred, shifting, and wavering. This distortion grants the subject concealment (20% miss chance).\nA see invisibility spell does not counteract the blur effect, but a true seeing spell does.\nOpponents that cannot see the subject ignore the spell's effect (though fighting an unseen opponent carries penalties of its own)."
+    },
+    {
+      "name": "Nightvision Goggles",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Grants Darkvision 60' for 1 hour per charge."
+    },
+    {
+      "name": ".308 762x51mm AP Construct Slaying Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "7.62x51mm Nosler cartridge. The bullet is loaded with two separate lead cores with a solid partition between them. The front part is torn quickly, delivering great energy. The base remains intact and provides deep penetration, even when hitting bones. Vs Undead, it delivers Piercing, slashing, or bludgeoning damage, whichever is greater."
+    },
+    {
+      "name": "Flint And Steel",
+      "type": "loot",
+      "equipped": true,
+      "description": "Price 1 gp; Weight -\n\r\nLighting a torch with a flint and steel is a full-round action. Lighting any other fire with them takes at least that long."
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Potion of Spider Climb",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject can climb and travel on vertical surfaces or even traverse ceilings as well as a spider does. The affected creature must have its hands free to climb in this manner. The subject gains a climb speed of 20 feet and a +8 racial bonus on Climb skill checks; furthermore, it need not make Climb checks to traverse a vertical or horizontal surface (even upside down). A spider climbing creature retains its Dexterity bonus to Armor Class (if any) while climbing, and opponents get no special bo"
+    },
+    {
+      "name": "Stone-Fish Dive",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Forged in the flooded foundries of Khaz-Vuldir, this strange, fish-shaped bronze helm was worn by Durag “the Stone-Fish” Ironhook, a dwarven deep-scout who could vanish into water or stone with equal ease. The helm is a masterwork of dwarven craftsmanship, mixing artistry with practical resilience—its scales are treated stone, its inner plates layered with rust-resistant iron.\nConstant effect: waterbreathing\nAs a swift action, sink into stone or earth as if under the effects of meld into stone. "
+    },
+    {
+      "name": "Miso Beef Ramen Delight",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This soup grants the effects of @Compendium[pf1.spells.vqfrp8t0c1lw1jna]{Heroism} & @Compendium[pf1.spells.hosf489xyoexmp57]{Longstrider} for 4 hours."
+    },
+    {
+      "name": "Belt of Incredible Dexterity +6 (Tattoo)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt has a large silver buckle, usually depicting the image of a tiger.\n\nThe belt grants the wearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": ".308 762x51mm Nosler Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "7.62x51mm Nosler cartridge. The bullet is loaded with two separate lead cores with a solid partition between them. The front part is torn quickly, delivering great energy. The base remains intact and provides deep penetration, even when hitting bones."
+    },
+    {
+      "name": "Comtac Headset",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Com-Tac 2 amplifies low-level sounds while suppressing impulse noises. Water resistant for outdoor usage.\n\n \n\n+5 Perception. +5 vs deafening spells or attacks."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nSpell Description\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Chicken Noodle Hot Tub",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure serious wounds, healing 3d8+7 damage and also granting a new save vs poison and disease at +4."
+    },
+    {
+      "name": "The Reach",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These gold bracelets are adorned with the image of a long-dead god. Examining them with a DC25 Knowledge Religion check causes a momentary glimpse into the dark abyss where original evil is trapped for all eternity - at least as far as mortal races are concerned.\n\n \n\nThese bracelets radiate evil in a small radius with great potency. Any detect evil or see-aura spell that passes over them causes shivers of terror or anger in the caster depending on their alignment axis of good vs evil.\n\n \n\nWearin"
+    },
+    {
+      "name": "Commset",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a built-in camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile—beyond this range, communication is impossible without enhancing the signal strength with a signal booster. The price and cost listed for this item are for a"
+    },
+    {
+      "name": "Compact AI Core",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Pouch, Belt",
+      "type": "loot",
+      "equipped": true,
+      "description": "Source PZO1110\n \nA belt pouch is crafted of soft cloth or leather. They typically hold up to 10 lb. or 1/5 cubic ft. of items.\n \nEmpty Weight: 1/2 lb.1 Capacity: 1/5 cubic ft./10 lb.1\n \n1 When made for Medium characters. Weighs one-quarter the normal amount when made for Small characters. Weighs twice the normal amount when made for Large characters. Containers carry one-quarter the normal amount when made for Small characters."
+    }
+  ]
+}

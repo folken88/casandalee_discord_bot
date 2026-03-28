@@ -1,0 +1,140 @@
+{
+  "name": "Meyanda",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Android",
+  "classes": [
+    {
+      "name": "Inquisitor",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 24
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 15,
+    "con": 14,
+    "int": 12,
+    "wis": 16,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "DVL-10 Saboteur",
+      "type": "weapon",
+      "equipped": true,
+      "description": "DVL-10 is a lightweight, compact, and silenced rifle in proprietary and current military subsonic calibers and has been developed for special service and combat missions where exceptional accuracy and range are needed. Equipped with a standard Lobaev foldable butt-stock and Lobaev Hummer Barrels stainless steel match-grade barrel.\n \nWith the bipod planted and a full-round of uninterupted concentration, this weapon enables Sneak-Attacks at up to 3 range increments.\n \nVudu Scope halves range negat"
+    },
+    {
+      "name": "Foundrystein",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This copper-steel beer stein perfectly seals and preserves any liquid stored within it. At its tavern of origin, the Foundry Tavern in Torch of Numeria, these can be quickly refilled with a strange device unique to that location. This \"Tap\" as it is called, fills the stein with ice cold Cayden-Brew, imported from the distant South."
+    },
+    {
+      "name": "FN Five-seveN MK2 5.7x28 pistol",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Comes in black and flat dark earth. The FN Five-seven, trademarked as the Five-seveN, is a semi-automatic pistol.\n\n \n\nExceptional range, accuracy, and stopping power for a pistol. This model includes an attached flashlight / targetting laser. +2 to hit when the laser is on, but gives away the wielders position."
+    },
+    {
+      "name": "Go Nuts",
+      "type": "consumable",
+      "equipped": true,
+      "description": "These pale nuts smell vaguely of brimstone and sulpher. They taste very salty and dry.\n\nType ingested; Addiction medium, Fortitude DC 16\nImmediately after ingesting or grinding-up-and-snorting these, the user is affected by a Haste spell for 5 rounds. They are affected by Expeditious Retreat for the following hour. After which they are awake for the following 48 hours.\nDuring this period, the user is immune to Sleep and Slow conditions from spells or other chemicals, and suffers a constant -10 t"
+    },
+    {
+      "name": "Meyanda's Ring",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Pre-Cognition Cortex Expander",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This intricate gold headband is decorated with several small blue and deep purple gemstones.\n\nThe headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer’s total Hit Dice. These ranks do no"
+    },
+    {
+      "name": "Glaucite Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Polytool of Brigh",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This item can function as a wide variety of tools and as several types of weapons. With a knowledge-engineering check of DC10, it changes as a swift action. Otherwise it takes a full-round action and an intelligence check DC8.\nThe device can be used as thieves tools and to assist in any operation that requires basic tools. It can even function as a basic set of blacksmithing tools."
+    },
+    {
+      "name": "Nomad Weapon Cluster",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "40mm Gravity Flip",
+      "type": "loot",
+      "equipped": true,
+      "description": "This device reverses gravity in an area, causing unattached objects and creatures in the area to fall upward and reach the top of the area in 1 round. If a solid object (such as a ceiling) is encountered in this fall, falling objects and creatures strike it in the same manner as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, until the spell ends. At the end of the spell duration, af"
+    },
+    {
+      "name": "My Heart's Just Not In It, Bomb",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "40mm Lubestorm",
+      "type": "loot",
+      "equipped": true,
+      "description": "This grenade releases a thick gel that coats everything it touches in a 10' radius for 10 rounds. This functions as a Grease spell, granting +10 on escape artist checks and causing bipeds to fall down."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "40mm Smoke",
+      "type": "loot",
+      "equipped": true,
+      "description": "Filled with pellets that ignite on impact, releasing a thick cloud of smoke."
+    },
+    {
+      "name": "40mm Glitterbomb",
+      "type": "loot",
+      "equipped": true,
+      "description": "This 40mm grenade shell encloses a glitter-bomb, which releases the effect of a glitterdust spell on the target area. Center-target receives -2 to their save."
+    },
+    {
+      "name": "Enchanted Blackrock Tactical Rig",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Allows for quick access to ammunition, potions, tools, or other equipment. Up to 6 items can be placed in swift-action accessible slots."
+    },
+    {
+      "name": "40mm Grenade Launcher",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A partial rebuild with mithral alloy, this ancient weapon fires specially crafted grenades long distances with accuracy."
+    },
+    {
+      "name": "Cybernetic Ears",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Com-Tac 2 amplifies low-level sounds while suppressing impulse noises. Water resistant for outdoor usage.\n\n \n\n+5 Perception. +5 vs deafening spells or attacks."
+    },
+    {
+      "name": "40mm Blast-Gang",
+      "type": "loot",
+      "equipped": true,
+      "description": "A 40mm High Explosive grenade with a 6, 12, 30, or 60 second timer."
+    }
+  ]
+}

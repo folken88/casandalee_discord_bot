@@ -1,0 +1,92 @@
+{
+  "name": "Meyanda",
+  "type": "character",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Android",
+  "classes": [
+    {
+      "name": "Cleric",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 54
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 15,
+    "con": 14,
+    "int": 12,
+    "wis": 16,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Foundrystein",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This copper-steel beer stein perfectly seals and preserves any liquid stored within it. At its tavern of origin, the Foundry Tavern in Torch of Numeria, these can be quickly refilled with a strange device unique to that location. This \"Tap\" as it is called, fills the stein with ice cold Cayden-Brew, imported from the distant South."
+    },
+    {
+      "name": "FN Five-seveN MK2 5.7x28 pistol",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Comes in black and flat dark earth. The FN Five-seven, trademarked as the Five-seveN, is a semi-automatic pistol.\n\n \n\nExceptional range, accuracy, and stopping power for a pistol. This model includes an attached flashlight / targetting laser. +2 to hit when the laser is on, but gives away the wielders position."
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Pre-Cognition Cortex Expander",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This intricate gold headband is decorated with several small blue and deep purple gemstones.\n\nThe headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer’s total Hit Dice. These ranks do no"
+    },
+    {
+      "name": "Glaucite Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Polytool of Brigh",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This item can function as a wide variety of tools and as several types of weapons. With a knowledge-engineering check of DC10, it changes as a swift action. Otherwise it takes a full-round action and an intelligence check DC8.\nThe device can be used as thieves tools and to assist in any operation that requires basic tools. It can even function as a basic set of blacksmithing tools."
+    },
+    {
+      "name": "Nomad Weapon Cluster",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "My Heart's Just Not In It, Bomb",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Enchanted Blackrock Tactical Rig",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Allows for quick access to ammunition, potions, tools, or other equipment. Up to 6 items can be placed in swift-action accessible slots."
+    },
+    {
+      "name": "Cybernetic Ears",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Com-Tac 2 amplifies low-level sounds while suppressing impulse noises. Water resistant for outdoor usage.\n\n \n\n+5 Perception. +5 vs deafening spells or attacks."
+    }
+  ]
+}

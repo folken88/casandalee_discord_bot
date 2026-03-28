@@ -1,21 +1,22 @@
 ---
 name: "Casandalee"
 type: character
+campaign: CC
 race: "Android"
-class: "Oracle"
-level: 15
-
-aliases: []
-tags: ["character"]
-created: "2026-02-14T00:00:00.000Z"
-updated: "2026-03-26T17:39:39.826Z"
+class: "Oracle 14"
+hp: 264
+tags: ["character", "npc", "cc"]
+foundry_synced: "2026-03-28"
 ---
 
 # Casandalee
 
-**Race:** Android | **Class:** Oracle | **Level:** 15
+**Race:** Android | **Class:** Oracle 14 | **HP:** 264
+**STR** 10 | **DEX** 10 | **CON** 12 | **INT** 16 | **WIS** 14 | **CHA** 20
 
-HP 135/135. Oracle (Shattered Psyche). Spells: Truespeak, Find the Path, Ancestral Memory, Rebuke Technology, Commune, True Seeing. Carries AI Core Power Cell, Memory Facets (Compassion, Discipline). Synced from Foundry VTT.
+## Key Equipment
+- **Memory Facet: Compassion** (equipment, equipped) — Compassion Facet: A compassion facet allows an Al to understand and even experience love and associated emotions, imparting a +2 bonus on all Will saving throws and granting a +4 bonus on Diplomacy and Sense Motive checks. An Al with a compassion facet can form a strong emotional bond with a number of creatures equal to its CR as a standard action-once this bond is formed, the Al gains a +4 bonus on attack rolls and weapon damage rolls while controlling a robot and making attacks against a creat
+- **Memory Facet: Discipline** (equipment, equipped) — Discipline Facet: This memory facet bolsters an AI’s thought and personality with rigid order and behavior, granting it a +2 enhancement bonus to its Intelligence score. In addition, the facet grants the AI the ability to bolster the programming of any robot within 30 feet as a swift action for a number of rounds per day equal to its CR. A bolstered robot gains a +2 circumstance bonus on attack rolls, weapon damage rolls, and Will saving throws. The AI can target an aggregate (Technology Guide 5
 
 ## Notes & Updates
 

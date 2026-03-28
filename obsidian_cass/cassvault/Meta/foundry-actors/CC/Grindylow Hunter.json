@@ -1,0 +1,32 @@
+{
+  "name": "Grindylow Hunter",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Grindylow",
+  "classes": [
+    {
+      "name": "Aberration (Aquatic)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 9
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 11,
+    "wis": 12,
+    "cha": 11
+  },
+  "items": [
+    {
+      "name": "Grindylow Spear",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A spear is 5 feet in length and can be thrown."
+    }
+  ]
+}

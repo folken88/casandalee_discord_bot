@@ -1,0 +1,42 @@
+{
+  "name": "Numerian Spear Ancient",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Aasimar",
+  "classes": [
+    {
+      "name": "Ancient Spirit",
+      "level": 1
+    },
+    {
+      "name": "Barbarian",
+      "level": 14
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "+4 Mithral Hide Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Made from animal hide and giant lizard scales over a shirt of interwoven cords, these chest and shoulder coverings protect Shoanti riders without restricting their mobility. The wearer of a hide shirt can make a DC 15 Strength check as a standard action. If he succeeds, the armor gains the broken condition and drops to the ground rather than requiring the usual 1 minute it would take to remove it. The armor must be repaired as though it had taken 8 points of damage before it can be used again; a"
+    },
+    {
+      "name": "Ghost Spear",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type P\nWeapon Groups Spears\nDescriptionA longspear is about 8 feet in length.\nImpact\nThis special ability can only be placed on melee weapons that are not light weapons. An impact weapon delivers a potent kinetic jolt when it strikes, dealing damage as if the weapon were one size category larger. In addition, any bull rush combat maneuver the wielder attempts while wield"
+    }
+  ]
+}

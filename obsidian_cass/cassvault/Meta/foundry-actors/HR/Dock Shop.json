@@ -1,0 +1,69 @@
+{
+  "name": "Dock Shop",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Outfit, Peasant's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PZO1110\n\nThis set of clothes consists of a loose shirt and baggy breeches, or a loose shirt and skirt or overdress. Cloth wrappings are used for shoes."
+    },
+    {
+      "name": "Outfit, Traveler's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PZO1110\n\nThis set of clothes consists of boots, a wool skirt or breeches, a sturdy belt, a shirt (perhaps with a vest or jacket), and an ample cloak with a hood."
+    },
+    {
+      "name": "Pot, Cooking (Iron)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n \nCooking pots come in a variety of materials, but the most common is formed of iron.\n \nA mithral cooking pot weighs 2 lbs. and costs 2,001 gp.\n \nEmpty Weight: 2 lb.; Capacity: 1 gallon/8 lb."
+    },
+    {
+      "name": "Fishing Net",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 56, PRPG Core Rulebook pg. 158\nPrice 4 gp; Weight 5 lbs.\nCategory Adventuring Gear\nDescriptionThis net measures 5 feet by 5 feet, and can be used to cover a pit or to block Tiny or larger creatures from entering an area."
+    },
+    {
+      "name": "Waterskin",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n \nA water or wineskin holds 1/2 gallon of liquid and weighs 4 lb when full.\n \nEmpty Weight: -; Capacity: 1/2 gallon/4 lb.1\n \n1 When made for Medium characters. Weighs one-quarter the normal amount when made for Small characters. Weighs twice the normal amount when made for Large characters. Containers carry one-quarter the normal amount when made for Small characters.\n \n\n \nMagic Containers \nMagic containers come in almost as many varieties as there are alchemists, and so are of in"
+    },
+    {
+      "name": "Sewing Needle",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice 5 sp; Weight -\nCategory Adventuring Gear\nDescriptionThis needle allows you to stitch together cloth, canvas, or thin leather."
+    },
+    {
+      "name": "Fishhook",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 56, PRPG Core Rulebook pg. 158\nPrice 1 sp; Weight -\nCategory Adventuring Gear\nDescriptionThis metal hook is little more than a stiff, bent needle."
+    },
+    {
+      "name": "Rations, Fish",
+      "type": "loot",
+      "equipped": false,
+      "description": "Rations, Trail\nPrice 5 sp; Weight 1 lb.\n\nThe listed price is for a day's worth of food. This bland food is usually some kind of hard tack, jerky, and dried fruit, though the contents vary from region to region and the race of those creating it. As long as it stays dry, it can go for months without spoiling."
+    }
+  ]
+}

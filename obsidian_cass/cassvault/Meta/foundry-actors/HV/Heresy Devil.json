@@ -1,0 +1,25 @@
+{
+  "name": "Heresy Devil",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 13
+    }
+  ],
+  "hp": {
+    "max": 162
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 8,
+    "con": 24,
+    "int": 22,
+    "wis": 21,
+    "cha": 20
+  },
+  "items": []
+}

@@ -1,0 +1,164 @@
+{
+  "name": "Ser Toche",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Tengu",
+  "classes": [
+    {
+      "name": "Ninja",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 62
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 16,
+    "con": 14,
+    "int": 12,
+    "wis": 14,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Composite Shortbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsCost 75 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x3; Range 70 ft.; Type P; Special -\nCategory Ranged; Proficiency Martial\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite shortbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier "
+    },
+    {
+      "name": "Balrog",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Blade of Balrog is an elegant yet sinister elven curved blade. The weapon radiates an aura of malice that chills the soul of any good-aligned creature in its presence.\nEnchantment: +1 Keen, Elven Curved Blade\nSpecial Quality:\nInfernal Hunger: When the Blade of Balrog strikes a lawful good creature, it siphons a portion of their life essence. On a successful hit against a lawful good target, the wielder gains temporary hit points equal to half the damage dealt (minimum of 1, maximum of 10).Hi"
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level adept 2, Alchemist 2, Bard 2, Cleric 2, Druid 3, Hunter 3, Inquisitor 2, Investigator 2, Occultist 2, Oracle 2, Paladin 3, Ranger 3, Shaman 2, Skald 2, Spiritualist 2, Warpriest 2, Witch 2; Domain Healing 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nThis spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level"
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "An arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Lady Tukkar Boots",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Lady Tukkar Boots (Level 3 Wondrous Item)Price: 1,400 gp\nAura faint transmutation\nSlot feet\nCL 3rd\nWeight 3 lbs\nDescriptionCrafted from the dense, shaggy fur of the mighty tukkar, these enchanted boots offer resilience, stability, and excellent traction. Despite their effectiveness, Thragorn, a 17-foot-tall forest giant, has no understanding of mortal fashion.\n\"Lady Tukkar\" Boots – After hearing complaints that his boots were \"not stylish,\" Thragorn attempted a more refined version. The result i"
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Shackles Rum Ration",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Blood Caimon Hide",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Caimon Hide Armor is Buoyant and it bestows no armor check penalty on Swim checks attempted by the wearer. \nIt's smooth texture allows for smooth movement through water, granting a small swim-skill bonus.  \nIt is slightly lighter than conventional hide armor, and allows for greater dexterity. \nAll other armor check penalties apply as normal."
+    },
+    {
+      "name": "Scarf (pocketed)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Price   8 gp (pocketed),\n  10 gp (reinforced);\nWeight  1/2 lb. (pocketed), 1 lb. (reinforced)\nDescriptionAn elaborate design disguises several small pockets on one side of this scarf. This scarf grants you a +4 bonus on Sleight of Hand checks made to hide objects on your body. This bonus does not stack with the bonus wearing heavy clothing provides but does stack with bonuses for attempting to hide small objects.One side of this 8-foot-long scarf is reinforced with chain links and metal plates. "
+    },
+    {
+      "name": "Hurdy-Gurdy",
+      "type": "loot",
+      "equipped": false,
+      "description": "The hurdy-gurdy is a string instrument that creates sound by using a hand-crank-turned, round rosined wheel that rubs against the strings. Melodies are produced on a keyboard, that presses tangents against one or more strings to alter their pitch. This unique mechanism allows for a continuous melody while notes are played, giving the instrument its characteristic sound."
+    },
+    {
+      "name": "Long gloves",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Price 15 gp; Weight -\nCategory Clothing\nDescriptionThese full-length gloves of layered silk are popular among Kalistocrats and others who disdain physical contact. The wearer gains a +4 circumstance bonus on saving throws against contact poisons on objects he touches."
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Kumquat on the Edge",
+      "type": "loot",
+      "equipped": false,
+      "description": "Depending on the tree it grows on, the mango fruit varies in size, shape, sweetness, skin color, and flesh color. The flesh can range from pale yellow to gold, green, or orange. In some regions, it is speculated to be the fruit of love. In other regions it is given as a token of friendship. Herbalists create a paste with honey, lemon, and mango as a cough syrup."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level Adept 1, Alchemist 1, Bard 1, Cleric 1, Druid 1, Hunter 1, Inquisitor 1, Investigator 1, Occultist 1, Oracle 1, Paladin 1, Ranger 2, Shaman 1, Skald 1, Spiritualist 1, Warpriest 1, Witch 1; Domain Healing 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 poi"
+    },
+    {
+      "name": "Spyglass",
+      "type": "loot",
+      "equipped": false,
+      "description": "Objects viewed through a spyglass are magnified to twice their size. Characters using a spyglass take a -1 penalty on Perception skill checks per 20 feet of distance to the target, if the target is visible."
+    },
+    {
+      "name": "Soothe",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This strange, pink, gel-like substance is generally contained in a small glass jar that holds 1 dose.\nA single dose of soothe dulls pain and creates a euphoric sensation, particularly when applied to an open wound. Rubbing a dose of soothe onto one's skin or imbibing the faintly citrusflavored stuff cures 1 point of damage, but rubbing a dose onto a wound received in the last minute heals the user of 1d8 points of damage.\nIn addition, for the next minute, the user becomes immune to bleed damage "
+    },
+    {
+      "name": "Rose of Cheliax",
+      "type": "equipment",
+      "equipped": true,
+      "description": "No matter how far away you go, I am ALWAYS WATCHING."
+    },
+    {
+      "name": "Wack Juce",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Refreshingly intoxicating, Wack Juce is made with the finest synthetic oranges in Numeria, and the 3rd finest potato vodka in the world: Smashka Noble!\nEnjoy this sweet and soothing taste of home, you can almost hear the anthem of the Fatherland as you slurp!"
+    },
+    {
+      "name": "Alchemist's Fire",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source PZO1110\n\nYou can throw a flask of alchemist's fire as a splash weapon with a range increment of 10 feet.\n\nA direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hits takes 1 point of fire damage from the splash. On the round following a direct hit, the target takes an additional 1d6 points of damage. If desired, the target can use a full-round action to attempt to extinguish the flames before taking this additional damage. Extinguishing the"
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.\nConstructionRequirements Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring; Cost 1,000 gp"
+    },
+    {
+      "name": "Lungtaker",
+      "type": "consumable",
+      "equipped": true,
+      "description": "LungtakerSource: Magnimar, City of Monuments pg. 45\nPrice 1,200 gp; Weight 0\nType inhaled; Save Fortitude DC 17\nFrequency 1/round for 6 rounds\nEffect 1d6 Str; If this poison's accumulated Strength damage ever exceeds the victim's Strength score, the victim immediately begins to suffocate (Core Rulebook 445). A DC 17 Heal check (or any amount of magical healing) is enough to stop this suffocation before the victim dies.\nCure 2 saves"
+    },
+    {
+      "name": "Liar's Dice Set",
+      "type": "container",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Tools, Thieves' (Masterwork)",
+      "type": "loot",
+      "equipped": true,
+      "description": "This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.\n\nThis kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Device checks."
+    }
+  ]
+}

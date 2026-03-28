@@ -1,0 +1,56 @@
+{
+  "name": "Queen Blossom",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Lizardfolk",
+  "classes": [
+    {
+      "name": "Ranger",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 68
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 17,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Queenie's Verdant Fang Bow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Fashioned from the twisted roots of an ancient mangrove tree that once stood at the heart of a sacred tidal grove, the Verdant Fang is a +1 composite shortbow used by the Windward-Isles lizardfolk druids. Living far from cities and ports, these jungle stalkers rely on cunning, survival instinct, and nature’s favor to protect their territory and feed their clans.\nVines still cling to the bow’s limbs, swaying as if alive, and the grip pulses faintly with primal energy when drawn under the canopy o"
+    },
+    {
+      "name": "Spear of the Mangrove Watch",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This is a spear grown, not forged, by the rangers of the Windward-Island lizardfolk. Its shaft is a single length of mangrove heartwood, reinforced with braided jungle vine and embedded bone rings. The leaflike blade is carved from magically hardened coral, adorned with a living jade sprout that always stays green. It pulses with the rhythm of the tides, guiding the ranger’s strikes like a living companion.\nForged from swamp tradition, ancestral magic, and salt-wind reverence, this weapon is mor"
+    },
+    {
+      "name": "Windapede Podbaby",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Hellchain",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Forged in the infernal forges of Cheliax, this chain-shirt is made from blacksteel, a rare material imbued with dark energies. The Blacksteel Chain-Shirt is favored by the contract devils, feared assassins in the service of Asmodeus, for its ability to blend seamlessly into the shadows and its protective enchantments. The links of the armor seem to absorb light, granting the wearer an ominous presence. Its intricate design features infernal runes and motifs of twisted iron.\nDue to its infernal o"
+    },
+    {
+      "name": "Lizardfolk Signal Horn",
+      "type": "loot",
+      "equipped": true,
+      "description": "Sounding a horn requires a DC 10 Perform (wind instruments) check and can convey concepts such as \"Attack!\", \"Help!\", \"Advance!\", \"Retreat!\", \"Fire!\", and, \"Alarm!\" The report of a signal horn can be clearly heard (Perception DC 0) up to a half-mile distant. For each quarter-mile beyond, Perception checks to hear the horn suffer a -1 penalty."
+    }
+  ]
+}

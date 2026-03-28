@@ -1,0 +1,62 @@
+{
+  "name": "Aeldervenk, Lerish",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Bard",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 57
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 13,
+    "con": 12,
+    "int": 13,
+    "wis": 12,
+    "cha": 15
+  },
+  "items": [
+    {
+      "name": "Mithral Shirt +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Aeldervenk Sigil Seal",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This black steel and Sapphire ring grants the wearer \"Touch of the Sea\" and \"Water Breathing\" for 1 hour upon being immersed in any liquid. Effect can occur once per day."
+    },
+    {
+      "name": "Aeldervenk Courtly Robes",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Dagger MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A dagger has a blade that is about 1 foot in length.\n\nBenefit: You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body (see Using Skills)."
+    },
+    {
+      "name": "Rapier +1",
+      "type": "weapon",
+      "equipped": true,
+      "description": "You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn’t a light weapon.\n\nYou can’t wield a rapier in two hands in order to apply 1-1/2 times your Strength bonus to damage."
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    }
+  ]
+}

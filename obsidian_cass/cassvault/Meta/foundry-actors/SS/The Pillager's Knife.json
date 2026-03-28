@@ -1,0 +1,291 @@
+{
+  "name": "The Pillager's Knife",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Mead (Mug)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice  2 gp (gallon),  5 cp (mug); Weight 8 lbs. (gallon), 1/2 lb. (mug)\nDescriptionThis alcoholic beverage is made by fermenting honey and water. It may be flavored with spices, fruit, or hops."
+    },
+    {
+      "name": "Firearm Bullet",
+      "type": "loot",
+      "equipped": false,
+      "description": "The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound."
+    },
+    {
+      "name": "Bronze Fleet Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Each Bronze Fleet Cutlass is a testament to the fleet’s ruthless efficiency and disregard for individuality. These weapons are forged from the scraps of defeated ships and prisoners’ shackles, resulting in a haphazard yet functional design. No two Bronze Fleet Cutlasses look the same, but they all reflect the grim legacy of the slave-trading fleet.\nThe blade is often jagged, with imperfections that hint at its brutal origins, while the hilt may feature chains, manacles, or other relics of captiv"
+    },
+    {
+      "name": "Alchemical Brass",
+      "type": "loot",
+      "equipped": false,
+      "description": "On the rare occasions when Alchemists and Blacksmiths collaborate, they are able to create something truly unique. One such creation is an ingot that can be used to reinforce a weapon, making it so powerful that it can even break mountains when it strikes true. It is said that when Alchemical Brass is added to a regular weapon, it increases the weapon's accuracy and increases the chances of striking vital areas, making the strikes even more fatal."
+    },
+    {
+      "name": "Whispered Courage Whiskey",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Drink the blood of heroes.\"Whispered Courage is aged in barrels made from pines cut from the Stoneheart Massacre Glade.This powerful spirit grants +4 vs fear saves for 1 hour. The bonus is doubled if an ally who also drank the whiskey is threatened within your sight."
+    },
+    {
+      "name": "Sextant",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 500 gp; Weight 2 lbs.\nCategory Adventuring Gear\nDescriptionA sextant is used to determine your latitude. Using a sextant with an astrolabe gives you a +4 circumstance bonus on Survival checks made to prevent getting lost."
+    },
+    {
+      "name": "Saber of Chelish Authority",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Saber of Chelish Authority is issued to naval lieutenants and captains whose performance and loyalty have been deemed exemplary. Though clearly ostentatious with its gilded basket hilt, engraved devil-wing motifs, and lacquered red-black steel blade, its material value is modest. The real worth lies in its deadly craftsmanship and the subtle enchantments laced into the steel by naval artificers of House Thrune.\nIt is a +1 saber (use stats for a scimitar) designed for fluid combat and visual "
+    },
+    {
+      "name": "Dragonhide",
+      "type": "loot",
+      "equipped": false,
+      "description": "From a dragon, enough leather can be harvested to create a decent Half Plate Armor out of it. Depending on the hide used, it will also come with resistance to damage of propriety of the dragon that was slain dragon(Blue, Lightning/ White, Cold/ Red, Fire). Due to the armor not being made of metal, the druid class will be able to wear it without any penalties."
+    },
+    {
+      "name": "Corn",
+      "type": "loot",
+      "equipped": false,
+      "description": "Corn is one of the most farmed grains, as it can be turned into oil and flour. Corn itself is a staple food throughout the realms for all consumers and their livestock. The plant in itself is called Maize and it is usually planted as the warmer seasons begin because it is not resistant to the cold."
+    },
+    {
+      "name": "Light Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Shackles Rum Ration",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Apricot",
+      "type": "loot",
+      "equipped": false,
+      "description": "One of the few fruits that is also dried, to have it be edible between seasons. It is also used in various meals, summer salads, jams, juices, and even alcohol after boiling."
+    },
+    {
+      "name": "Tortoise Corpse",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Alchemical Silver",
+      "type": "loot",
+      "equipped": false,
+      "description": "On the rare occasions when the Blacksmiths and the Alchemists get together, they manage to create an ingot that seems to look liquid but don't be fooled, this specific material is sturdier than the regular silver equipment. When it's supposed to be crafted, the Blacksmith and Alchemist work together to attach the liquid to a steel blade, and once attached it cannot be removed. If the Alchemical Silver weapon is used against a creature specifically stating that is resistant to nonmagical attacks "
+    },
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Chelish Navy Pattern Heavy Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This finely wrought heavy crossbow is standard issue aboard Chelish naval vessels. Featuring burnished brass fittings, a reinforced steel prod, and a hardwood stock lacquered in crimson and black (the colors of House Thrune), it exemplifies both state pride and battlefield efficiency. Despite lacking magical enhancements, it is a weapon of superior construction, built to endure brutal salt-weathered campaigns and still punch through enemy hulls or pierce a pirate captain's throat at 120 feet."
+    },
+    {
+      "name": "Crabmeat",
+      "type": "loot",
+      "equipped": false,
+      "description": "This dish features a cooked piece of game brought in by adventurers. The meats are usually not found on most tavern menus and are for the bravest patrons who are not afraid to experiment."
+    },
+    {
+      "name": "Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Bronze Fleet Marine's Breastplate is a rugged, intimidating piece of armor forged from salvaged metals, such as hull fragments, manacles, and broken ship fittings. Each breastplate is uniquely pieced together, making no two exactly alike, yet all are functional and crafted with the singular goal of survival and dominance in battle. The plates are often engraved with crude symbols of the Bronze Fleet, tally marks, or grim, defiant phrases.\nDesigned for durability and fearsome appearances, the"
+    },
+    {
+      "name": "Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Mithril Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "+1 Mithral Scale Mail",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Scale mail is made up of dozens of small, overlapping metal plates. Similar to both splint mail and banded mail, scalemail has a flexible arrangement of scales in an attempt to avoid hindering the wearer’s mobility, but at the expense of omitting additional protective layers of armor. A suit of scale mail includes gauntlets.\nMithral\n\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally us"
+    },
+    {
+      "name": "Bronze Fleet Volver",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Bronze Fleet Volver is a highly crafted, ornate six-shot revolver favored by officers and slavers within the Bronze Fleet. Its barrel and frame are forged from polished bronze, etched with swirling nautical patterns that echo the waves. Embedded in the side of the chamber is a small, aquamarine gemstone that glints faintly in the light, often mistaken for a magical focus.\nThe revolver is balanced for expert accuracy and durability, and its elaborate design symbolizes both power and prestige "
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Apricot",
+      "type": "loot",
+      "equipped": false,
+      "description": "One of the few fruits that is also dried, to have it be edible between seasons. It is also used in various meals, summer salads, jams, juices, and even alcohol after boiling."
+    },
+    {
+      "name": "Chelish Marine-Issue Long Gun",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This finely crafted flintlock long gun is the signature weapon of the Chelish Marines—the stern enforcers of order aboard imperial vessels and the first to spill blood during a boarding action. The rifle features a polished hardwood stock capped with gilded brass fittings and a long, rifled steel barrel designed for maximum stopping power at mid-range. Though not magical, its precision manufacturing and durability elevate it above common firearms.\nThese weapons are issued only to marines sworn t"
+    },
+    {
+      "name": "Crucible Steel",
+      "type": "loot",
+      "equipped": false,
+      "description": "When blacksmiths get access to ancient magic, the forge becomes a sacred place. Here the finest weapons and armor are crafted. The most prized of these metals is crucible steel, which is known for its strength and durability. In times long gone it was said that crucible steel was forged in the fiery depths of the earth, tempered by the heat of a thousand suns. It was so strong that it could hold its edge even against the sharpest of blades. The finest blacksmiths would spend hours, if not days, "
+    },
+    {
+      "name": "Cold Iron",
+      "type": "loot",
+      "equipped": false,
+      "description": "This specific iron, found in the most secluded deep mines quite cold to the touch, it is known that for those who venture into the Fey realm, it is a must. Most sylvan creatures damaged or attempting to attack a creature wearing Cold Iron armors seem to be taking an additional 1d4 cold damage."
+    },
+    {
+      "name": "Eggthorn",
+      "type": "loot",
+      "equipped": false,
+      "description": "The Eggthorn is a gnarled, fist-sized fruit native to the scrublands south of Longacre in southern Cheliax. Named for its vaguely egg-like shape and natural thorny husk, it comes in mottled hues of red, ochre, and blue-green, and has a distinct sharp, herbal scent.\nWhile its exterior is tough and mildly caustic to the touch (mildly irritating to those with sensitive skin), its juicy flesh is rich in vital nutrients. When sliced and prepared, it reveals a dense, citrus-like interior with a bitter"
+    },
+    {
+      "name": "Mithral",
+      "type": "loot",
+      "equipped": false,
+      "description": "The rarest metal, provides an otherworldy calming blue glow, making it pleasant to the eyes. The equipment made out of this specific ore is sought after by wealthy nobility, as it is so light that even the poorest of fighters have increased mobility in it making them look better at sparring than they are, also providing a point of their statute to the common folk. While wearing armor crafted from this material, the Dexterity modifier increases by 1, the Strenght requirement decreases by 1 and it"
+    },
+    {
+      "name": "Deathwine (Cure Moderate)",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Sun Caimon Hide",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Bronze Fleet Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Each Bronze Fleet Cutlass is a testament to the fleet’s ruthless efficiency and disregard for individuality. These weapons are forged from the scraps of defeated ships and prisoners’ shackles, resulting in a haphazard yet functional design. No two Bronze Fleet Cutlasses look the same, but they all reflect the grim legacy of the slave-trading fleet.\nThe blade is often jagged, with imperfections that hint at its brutal origins, while the hilt may feature chains, manacles, or other relics of captiv"
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Dorcroast",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dorcroast, the invigorating cold brew coffee inspired by the triumph over darkness in Ustalav, awakens your senses with a bittersweet symphony. With a delightful spritz of energy, Dorcroast revitalizes your day, infusing it with the indomitable spirit that arises from the genocide of one's enemies. This remarkable brew serves as a tribute to the resilience of those who stood against evil, reminding you that even in the face of adversity, there is always room for celebration and the promise of a "
+    },
+    {
+      "name": "La Calstroix Bottle",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A bottle of sparkling water from La Calstroix river in Shudderwood."
+    },
+    {
+      "name": "Chelish Service Saber",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Chelish Service Saber is the standard-issue melee weapon for trusted crew aboard Chelish naval vessels—such as boatswains, veteran navigators, and long-serving able seamen. It strikes a balance between form and function: simple enough to mass-produce for the imperial navy, but elegant enough to signal discipline and readiness.\nThis masterwork saber has a slightly curved steel blade, a modest but practical brass guard with minimal engraving, and a sturdy leather-wrapped hilt. While it lacks m"
+    },
+    {
+      "name": "Firearm Bullet",
+      "type": "loot",
+      "equipped": false,
+      "description": "The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound."
+    },
+    {
+      "name": "Chain Shirt MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Bronze Fleet Volver",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Bronze Fleet Volver is a highly crafted, ornate six-shot revolver favored by officers and slavers within the Bronze Fleet. Its barrel and frame are forged from polished bronze, etched with swirling nautical patterns that echo the waves. Embedded in the side of the chamber is a small, aquamarine gemstone that glints faintly in the light, often mistaken for a magical focus.\nThe revolver is balanced for expert accuracy and durability, and its elaborate design symbolizes both power and prestige "
+    },
+    {
+      "name": "Blood Caimon Hide",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Caimon Hide Armor is Buoyant and it bestows no armor check penalty on Swim checks attempted by the wearer. \nIt's smooth texture allows for smooth movement through water, granting a small swim-skill bonus.  \nIt is slightly lighter than conventional hide armor, and allows for greater dexterity. \nAll other armor check penalties apply as normal."
+    },
+    {
+      "name": "Bronze Fleet Longarm",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Bronze Fleet Longarm is a brutal, practical firearm favored by the slave-catching marines of the Bronze Fleet. Known colloquially as the \"Iron Reach\", these rifles are built for utility, intimidation, and lethality. Constructed from salvaged parts and forged from the remains of defeated ships, they are as much a symbol of fear as a weapon of war. Each rifle is adorned with crude etchings or engraved tally marks, often counting captured or killed targets.\nThe Iron Reach is known for its relia"
+    },
+    {
+      "name": "Chocolate Chip Cookie",
+      "type": "loot",
+      "equipped": false,
+      "description": "The chocolate chip cookie is a sweet baked treat that is recognized by its buttery flavor and the inclusion of chocolate chips, which can be dark, milk, or white chocolate depending on personal preference. It's a classic favorite for people of all ages, not just young folk, and is often enjoyed with a cold glass of milk or a warm cup of coffee. Bakers may also experiment with different types of chocolate or cocoa, add nuts or other mix-ins, or even substitute some of the ingredients to create a "
+    }
+  ]
+}

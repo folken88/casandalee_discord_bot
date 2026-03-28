@@ -1,0 +1,44 @@
+{
+  "name": "Scrapwitch",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Half-Orc",
+  "classes": [
+    {
+      "name": "Witch",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 24
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 12,
+    "con": 12,
+    "int": 17,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Bracers of Armor +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Makeshift Hornbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 8\nStatisticsCost 130 gp Weight 7 lbs.\nDamage 1d8 (small), 2d6 (medium); Critical x3; Range 80 ft.; Type P; Special -\nCategory Ranged; Proficiency Exotic\nWeapon Groups Bows\nDescriptionLarger even than a longbow, these bows are often made from the horns of great beasts. Though they have a shorter range than other bows, their greater destructive power is highly favored by orcs and their kin. All hornbows are composite bows and can be modified to benefit from high St"
+    },
+    {
+      "name": "Scrapwall Greatersword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This blade was made from unbreakable space metal scraps and enchanted by weeks of constant prayer for the death of one's enemies."
+    }
+  ]
+}

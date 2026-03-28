@@ -44,3 +44,18 @@ Location of a combat encounter with undead dwarves.; Location of a battle and he
 
 ### Shackles - Gill Issue 2025 05 01
 Island fortress being blockaded by Chelish & Bronze Fleet ships.
+
+### Shackles - Kraken Muh Dingy 2025 04 03
+Characters are engaged in combat with limited visibility.; A location being blockaded by Chelish and Bronze Fleet ships.; A fortified island where the characters are trying to break a blockade.
+
+### Shackles - Edging the Guardian 2025 02 27
+An island fortress being blockaded by Chelish and Bronze Fleet ships.
+
+### Shackles - Impress Me, Spice Rack 2025 02 06
+A bridge with damaged floor panels and a web spell used for crossing.; Island fortress being blockaded by Chelish & Bronze Fleet ships.; A fortress run by crazy people where ships can trade.
+
+### Shackles - Parlay Deez Nutz 2025 01 30
+Location of the battle and blockade.; Location of the battle against Chelish and Bronze Fleet ships.; Island fortress blockaded by Chelish & Bronze Fleet ships.
+
+### Shackles - Weekend at Storgrims 2025 01 23
+Island fortress blockaded by Chelish & Bronze Fleet ships.; A fortified island under blockade by Chelish and Bronze Fleet ships.; Location of a battle and surrender acceptance.

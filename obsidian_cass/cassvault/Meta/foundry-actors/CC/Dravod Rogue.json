@@ -1,0 +1,44 @@
+{
+  "name": "Dravod Rogue",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Rogue (Unchained)",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 13
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 17,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 13
+  },
+  "items": [
+    {
+      "name": "Reaper Scythes",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This pair of scythes are joined by a chain between them. As such, they can be treated as a dual-weapon, or if one is used as an anchor, the other can be thrown and retrieved in a single standard action with a 15' range."
+    },
+    {
+      "name": "Angelskin Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor.\nAngelskin\nThe preserved skin of an angel retains a portion of celestial grace a"
+    },
+    {
+      "name": "DVL-Saboteur M1 Cobalt",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

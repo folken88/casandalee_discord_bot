@@ -1,0 +1,38 @@
+{
+  "name": "Eliouren Villager",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Elf",
+  "classes": [
+    {
+      "name": "Commoner (NPC)",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 18
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Club",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost - Weight 3 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range 10 ft.; Type B; Special -\nCategory One-Handed; Proficiency Simple\nWeapon Groups Hammers; Thrown; Tribal\nDescriptionThis weapon is usually just a shaped piece of wood, sometimes with a few nails or studs embedded in it."
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    }
+  ]
+}

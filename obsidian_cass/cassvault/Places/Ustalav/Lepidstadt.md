@@ -29,3 +29,24 @@ The city where the Beast of Lepidstadt was found not-guilty and banished.; A cit
 
 ### Carrion Crown - Trojan Corpse 2025 02 02
 A street where a battle took place.
+
+### Carrion Crown - Mind-Field 2025 01 26
+Location where discussions about the Effigy and cultist's memories took place.
+
+### Carrion Crown - Pity Points 2025 01 05
+A town with signs of recent activity and heavy loads being gathered.
+
+### Teyanda Arms Company Spring Catalogue
+Location of Farrah Richton and Kendra Lorrimor's case.
+
+### Carrion Crown - Say Less 2024 12 01
+Location where the discussion about acquiring and using robes takes place.
+
+### Carrion Crown - Trench Toast 2024 11 17
+Location of discussions and events.; Location of various events including recruitment and investigations.
+
+### Carrion Crown 1Shot - Neck-Deep in BHOL 2024 11 13
+Characters attempted to steal records from the police station.
+
+### Carrion Crown - Danger Touches Grass 2024 11 10
+Location of various events including the recruitment and activities of CP-USS.

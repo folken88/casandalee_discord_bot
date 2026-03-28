@@ -1,0 +1,25 @@
+{
+  "name": "Zombie Patient",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Race: Undead",
+  "classes": [
+    {
+      "name": "Undead (Augmented Human)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 10,
+    "con": 10,
+    "int": 0,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": []
+}

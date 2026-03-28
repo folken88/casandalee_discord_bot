@@ -1,0 +1,621 @@
+{
+  "name": "Ascanor Lodge Shop",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Double Death Bomb Chorizo Poutine Fries",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Wolfsbane Flower",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Used as a poison to execute prisoners in Cheliax, this herb causes 1d3 CON damage but allows a new save vs Curse of Lycanthropy."
+    },
+    {
+      "name": "Tattoo: Whispered Courage + 2",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Composite Longbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical x3; Range 110 ft.; Type P\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use it with proficiency). If your Strength modifier is less than the s"
+    },
+    {
+      "name": ".308 762x51mm Blacksteel Deadslayer Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "7.62x51mm Nosler cartridge. The bullet is loaded with two separate lead cores with a solid partition between them. The front part is torn quickly, delivering great energy. The base remains intact and provides deep penetration, even when hitting bones. Vs Undead, it delivers Piercing, slashing, or bludgeoning damage, whichever is greater."
+    },
+    {
+      "name": "Wack Juce",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Refreshingly intoxicating, Wack Juce is made with the finest synthetic oranges in Numeria, and the 3rd finest potato vodka in the world: Smashka Noble!\nEnjoy this sweet and soothing taste of home, you can almost hear the anthem of the Fatherland as you slurp!"
+    },
+    {
+      "name": "Rope (Silk, 50 Ft.)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PRPG Core Rulebook pg. 158\nPrice 10 gp; Weight 5 lbs.\nCategory Adventuring Gear\nDescriptionThis rope has 4 hit points and can be burst with a DC 24 Strength check."
+    },
+    {
+      "name": "Trap, Balloon",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Dragonslayer's Handbook pg. 26\nPrice 150 gp; Weight 4 lbs.\nCategory Adventuring Gear\nDescriptionThis trap consists of a buoyant balloon tied to an anchor by a very thin strand of metal. The strand acts as a vertical tripwire that triggers the trap, targeting any flying creature that contacts it. The trap's creator may set any number of mechanical or magical effects to be triggered when the trap is activated. Balloon traps are especially useful against creatures with large wingspans, or wh"
+    },
+    {
+      "name": "Heated gloves",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Merchant's Manifest pg. 13\nPrice 2 gp; Weight 1 lb.\nCategory Clothing\nDescriptionThese thick, fur-lined gloves have several internal pockets containing segmented packets of alchemical reagents that produce heat for 4 hours when broken and mixed. The wearer can massage the gloves to activate these heat packets as a full-round action. While the heat packets last, the wearer ignores the Strength and Dexterity penalties from the fatigued condition when performing Climb, Disable Device, and Sl"
+    },
+    {
+      "name": "Thunderchonk",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Blue crystals taste bitter when chewed and crunch very loudly. User's voice is amplified to extreme volume. Double range and +2DC for any voice-attacks or spells with Verbal components. +5 for giving speeches. -10 stealth. Lasts 1d3 hours."
+    },
+    {
+      "name": "Pot",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57\nPrice  8 sp (common),  2,001 gp (mithral); Weight 4 lbs. (common), 2 lbs. (mithral)\nDescriptionThis 8-inch-diameter iron pot is sturdy and has feet, a lid, and a rounded handle. It can hold enough stew to feed one hungry human for one meal. A mithral pot is lighter and food rarely sticks to it."
+    },
+    {
+      "name": "Fishing Net",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 56, PRPG Core Rulebook pg. 158\nPrice 4 gp; Weight 5 lbs.\nCategory Adventuring Gear\nDescriptionThis net measures 5 feet by 5 feet, and can be used to cover a pit or to block Tiny or larger creatures from entering an area."
+    },
+    {
+      "name": "Soothe",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This strange, pink, gel-like substance is generally contained in a small glass jar that holds 1 dose.\nA single dose of soothe dulls pain and creates a euphoric sensation, particularly when applied to an open wound. Rubbing a dose of soothe onto one's skin or imbibing the faintly citrusflavored stuff cures 1 point of damage, but rubbing a dose onto a wound received in the last minute heals the user of 1d8 points of damage.\nIn addition, for the next minute, the user becomes immune to bleed damage "
+    },
+    {
+      "name": "Magnifying Glass",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice 100 gp; Weight -\nCategory Adventuring Gear\nDescriptionThis simple lens allows a closer look at small objects. It is also useful as a substitute for a flint and steel when starting fires. Lighting a fire with a magnifying glass requires bright light, such as sunlight to focus, tinder to ignite, and at least a fullround action. A magnifying glass grants a +2 circumstance bonus on Appraise checks involving any item that is small or "
+    },
+    {
+      "name": "Firework (banshee ballerina)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Firework (banshee ballerina)Source Ultimate Equipment pg. 107\nPrice 75 gp; Weight -\nCategory Alchemical WeaponsDescriptionThis small firework burns brightly and makes a loud, eerie whistling sound. It can be thrown to target an intersection as a splash weapon. Any creatures within 5 feet of the noise are effectively deafened while they remain in the area, as even the loudest sounds they make are drowned out by the piercing sound. A banshee ballerina firework burns for 1d4+1 rounds before extingu"
+    },
+    {
+      "name": ".308 762x51mm Steelkiller Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "7.62x51mm Nosler cartridge. The bullet is loaded with two separate lead cores with a solid partition between them. The front part is torn quickly, delivering great energy.\nThis ammo bears an enchantment against constructs of any time, from Golems to Numerian Robots. It is treated as bane vs them, granting +2 to hit and 2d6+2 damage (non-crit)."
+    },
+    {
+      "name": "Tattoo: Ascanor Hunter + 4",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    },
+    {
+      "name": "Upgrade Natural Armor: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Desert Coffee",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This particularly strong coffee is popular throughout the desert empires. A morning cup is a good cure for lack of rest, but many find that it becomes a habit.\nType ingested; Addiction minor, Fortitude DC 12\n8 hours; user ignores the effects of the fatigued condition.\nAfter 8 hours; the user becomes exhausted, which is reduced to fatigued only after at least 8 hours of rest (instead of 1 hour).\n1 Wis damage"
+    },
+    {
+      "name": "Gold Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Everkeeps",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Everkeeps is a trail ration that never expires! This delicious and nutritious snack can maintain the body with carbs, proteins, vitamins, and minerals! Enjoy the sweet and spicy taste as you trudge through the barren wasteland! Using the finest ingredients, masterful cooking and preparation techniques, and dark magics, we craft this incredible portable meal you can rely on! You will expire before Everkeeps expire!"
+    },
+    {
+      "name": "Waterproof bag",
+      "type": "container",
+      "equipped": true,
+      "description": "Waterproof bagSource Ultimate Equipment pg. 58, Adventurer's Armory pg. 19\nPrice  5 sp; Weight  1/2 lb.\nCategory Adventuring GearDescriptionThis leather sack sealed with tar or pitch keeps delicate items from being ruined by water. Items kept inside remain relatively dry, making the bag ideal for carrying maps, scrolls, spellbooks, and the like, although the bag is not impervious and can only be completely immersed for 10 rounds before enough water seeps in to ruin such items."
+    },
+    {
+      "name": "Cold Iron Longsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range -; Type S\nWeapon Groups Blades, Heavy\nDescriptionThis sword is about 3-1/2 feet in length.\nCold Iron\nThis iron, mined deep underground and known for its effectiveness against demons and fey creatures, is forged at a lower temperature to preserve its delicate properties. Weapons made of cold iron cost twice as much to make as their normal counterparts. Also, adding any"
+    },
+    {
+      "name": "Bronze Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bouncing Rod, Lesser Metamagic",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Alters a spell of 3rd level or lower as per the feat:\nBouncing Spell"
+    },
+    {
+      "name": "Belladona",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Used by Cheliax as a biological weapon to contaminate their enemies food reserves, this herb causes 1d2 STR damage but allows a new save vs Curse of Lycanthropy."
+    },
+    {
+      "name": "Copper Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Dorcroast",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dorcroast, the invigorating cold brew coffee inspired by the triumph over darkness in Ustalav, awakens your senses with a bittersweet symphony. With a delightful spritz of energy, Dorcroast revitalizes your day, infusing it with the indomitable spirit that arises from the genocide of one's enemies. This remarkable brew serves as a tribute to the resilience of those who stood against evil, reminding you that even in the face of adversity, there is always room for celebration and the promise of a "
+    },
+    {
+      "name": "Manacles (Masterwork)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Path of the Hellknight pg. 15, Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice  15 gp (common),  50 gp (masterwork),  1,000 gp (mithral); Weight 2 lbs. (common), 2 lbs. (masterwork), 2 lbs. (mithral)\nDescriptionManacles can bind a Medium creature. A manacled creature can use the Escape Artist skill to slip free (DC 30, or DC 35 for masterwork manacles). Breaking the manacles requires a Strength check (DC 26, or DC 28 for masterwork manacles). Manacles have hardness 10 and 10 h"
+    },
+    {
+      "name": "Upgrade Deflection AC: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Whispered Courage Whiskey",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Drink the blood of heroes.\"Whispered Courage is aged in barrels made from pines cut from the Stoneheart Massacre Glade.This powerful spirit grants +4 vs fear saves for 1 hour. The bonus is doubled if an ally who also drank the whiskey is threatened within your sight."
+    },
+    {
+      "name": "Varisian Idol",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Varisia, Birthplace of Legends pg. 15, Rise of the Runelords Player's Guide pg. 11, Curse of the Crimson Throne Player's Guide pg. 12\nPrice 75 gp; Weight 1 lb.\nCategory Adventuring Gear\nDescriptionScavenged from mysterious monuments, these depictions of forgotten figures and nameless spirits are often sold as good luck charms, but most commoners don't know that they can also be used to augment magic. Seven types of Varisian idols exist; those that affect evocation, transmutation, and illu"
+    },
+    {
+      "name": "Brow Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town.\n@JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}"
+    },
+    {
+      "name": "Tattoo: Lodge Dancer +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Manacles (Mithral)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Path of the Hellknight pg. 15, Ultimate Equipment pg. 57\nPrice  15 gp (common),  50 gp (masterwork),  1,000 gp (mithral); Weight 2 lbs. (common), 2 lbs. (masterwork), 2 lbs. (mithral)\nDescriptionManacles can bind a Medium creature. A manacled creature can use the Escape Artist skill to slip free (DC 30, or DC 35 for masterwork manacles). Breaking the manacles requires a Strength check (DC 26, or DC 28 for masterwork manacles). Manacles have hardness 10 and 10 hit points.\n\nMost manacles ha"
+    },
+    {
+      "name": "Trap, Portable Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ranged Tactics Toolbox pg. 21\nPrice 125 gp; Weight 9 lbs.\nCategory Adventuring Gear\nDescriptionThis specialized heavy crossbow is hooked to a trip line that can be strung across any opening up to 10 feet wide, much like that of a bell tripwire trap (see above). When the line is tripped, the crossbow fires its bolt toward the space where the line was tripped. The crossbow must have line of effect to the target space for the trap to work. Placing a portable bolt trap requires 10 minutes of "
+    },
+    {
+      "name": "Portable Bridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57\nPrice 200 gp; Weight 60 lbs.\nCategory Adventuring Gear\nDescriptionWhen staked down with eight pitons (four on each side of the gap), this rope and slat bridge can support up to 1,500 pounds and span a 30-foot gap. It rolls up into a parcel that can be carried slung over the back or by a pack animal. Convincing an animal to cross a portable bridge requires the come or heel trick."
+    },
+    {
+      "name": "Tattoo: Whispered Courage + 4",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Shudderwood Jons",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These flexible short-pants are divinely crafted out of the finest woven jean. They are so unimaginably comfortable that when worn under armor, they reduce the check penalty by 1. \nIf worn by a shapeshifter, they stretch and adapt to any size of bipedal form."
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Upgrade Deflection AC: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Abby's Own, Royal Vodka",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Bottled in the historic docks district of Egorian, this fine spirit is rumored to be a favorite of Queen Abrogail II, ruler of Cheliax!\nEnhance yourself, enhance your life, with Abby's Own!"
+    },
+    {
+      "name": "Enchantique Starter Kit",
+      "type": "container",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Clamdrinc",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Introducing the peculiar elixir that combines the unlikeliest of flavors, Clamdrinc! Drawing inspiration from the iconic elven weapon wielded against the Orcs, this unique soda delivers a briny surprise with every sip. Imagine the essence of the sea captured in a fizzy concoction, where the salty undertones dance alongside a subtle hint of clam, creating an unforgettable taste adventure. With each refreshing gulp, Clamdrinc transports you to a mythical shoreline, where the Elves and the clams un"
+    },
+    {
+      "name": "Upgrade Deflection AC: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Pipebomb 2.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Tattoo: Ascanor Hunter + 2",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "+1 Mithral Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings.\nMithral\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well. Most mithral armors are one category lighter than normal for purposes of movement and other limitations. Heavy armors are treated as medium, and medium armors are treated as light, but light armors are still treated "
+    },
+    {
+      "name": "Upgrade Resistance: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Peg Leg",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Pirates of the Inner Sea pg. 21\nPrice 10 gp; Weight 5 lbs.\nCategory Adventuring Gear\nDescriptionA peg leg is a wooden stump with a socket built on one end to fit over an individual's knee. Pirates who lose legs at sea often wear peg legs. A peg leg reduces your base speed by 5 feet and imposes a -4 penalty on Acrobatics, Climb, and Swim checks. You take half damage from caltrops. Pirates often carve hidden compartments into their peg legs-these compartments can hold small items weighing u"
+    },
+    {
+      "name": "Upgrade Armor: +1 from Masterwork",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Go Nuts",
+      "type": "consumable",
+      "equipped": true,
+      "description": "These pale nuts smell vaguely of brimstone and sulpher. They taste very salty and dry.\n\nType ingested; Addiction medium, Fortitude DC 16\nImmediately after ingesting or grinding-up-and-snorting these, the user is affected by a Haste spell for 5 rounds. They are affected by Expeditious Retreat for the following hour. After which they are awake for the following 48 hours.\nDuring this period, the user is immune to Sleep and Slow conditions from spells or other chemicals, and suffers a constant -10 t"
+    },
+    {
+      "name": "Trap, Bell tripwire",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ranged Tactics Toolbox pg. 20\nPrice 2 gp; Weight 2 lbs.\nCategory Adventuring Gear\nDescriptionThis fine, 10-foot-long tripwire is attached to a loud bell and comes with pitons to fix the trap in place. The trap can be set across doorways, hallways, or narrow passes or between trees or rocks. Arming the trap properly takes 5 minutes; it can be set up in as little as 1 minute, but doing so reduces the DC to notice and disarm the trap by 5. The trap has the following statistics. \nBell Tripwir"
+    },
+    {
+      "name": "Upgrade Natural Armor: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Jung Nuggit",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Calms the nerves and yet makes one paranoid. Smoking this stinky-finger grants +4vs Mind Affecting attacks, +4 Sense Motive, -10 Initiative, and incites rambling discourse. Lasts 1d3+2 hours."
+    },
+    {
+      "name": "Rapier",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type P\nWeapon Groups Blades, Light\nDescriptionYou can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn't a light weapon. You can't wield a rapier in two hands in order to apply 1-1/2 times your Strength modifier to its damage."
+    },
+    {
+      "name": "Greenchaw",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Causes user's skin to exude a slimy green glowing substance that provides light & lubrication for 1d6 minutes as Grease & Light 30'."
+    },
+    {
+      "name": "Tattoo: Titan Boar +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Tattoo: Thundering Tyrant + 2",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Silver Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Werewolf Bait",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Monster Hunter's Handbook pg. 26\nPrice 60 gp; Weight -\nCategory Adventuring Gear\nDescriptionThis morsel of food contains special spices that make it particularly enticing to a certain creature type. A creature whose type matches the bait's must attempt a DC 12 Will save every minute it remains within 30 feet of the bait; if it fails, it takes a -2 penalty on Wisdom-based skill checks while within the area and for 1d4 minutes afterward. The creature can end this penalty by consuming the ba"
+    },
+    {
+      "name": "Upgrade Weapon: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Prosthetic (Hand)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, Adventurer's Armory pg. 19, Pirates of the Inner Sea pg. 21\nPrice  10 gp (arm),  1 gp (foot),  1 gp (hand),  20 gp (leg); Weight 3 lbs. (arm), 2 lbs. (foot), 1 lb. (hand), 6 lbs. (leg)\nDescriptionPeople who lose hands, arms, legs, or feet in combat sometimes replace them with prosthetics: realistic simulations of their missing limbs. Usually carved of wood and painted to match the wearer's skin tone, these items have limited functionality, allowing a legless per"
+    },
+    {
+      "name": "Sledge",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice 1 gp; Weight 10 lbs.\nCategory Adventuring Gear\nDescriptionThis heavy, two-handed hammer is normally used in carpentry and other construction tasks, and is also useful for driving in tent stakes to help secure campsites in areas with strong winds. If used in combat, treat it as an improvised earth breaker (see page 27)."
+    },
+    {
+      "name": "Miner's Lantern",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Pathfinder Society Field Guide pg. 47\nPrice 15 gp; Weight 2 lbs.\nCategory Adventuring Gear\nDescriptionA smaller version of the bullseye lantern, a miner's lantern provides normal light in a 30- foot cone and increases the light level by one step in the area beyond that, out to a 60-foot cone (darkness becomes dim light and dim light becomes normal light). A miner's lantern does not increase the light level in normal light or bright light. It burns for 6 hours on 1 pint of oil. A miner's l"
+    },
+    {
+      "name": "Upgrade Weapon: +1 from Masterwork",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Armor: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Slaver's Drops",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dropped into the eyes, this clear liquid awakens the senses but makes the user mentally pliant and open to suggestion. This drug is often used during interrogations or by slavers who seek to force compliance via enchantment effects or similar methods of mind-control.\nType drug (ingested); Addiction minor, Fortitude DC 13\n3 hours; –3 on Will saves, +3 on Perception checks\n1d2 Str damage"
+    },
+    {
+      "name": "Haunt Siphon 3.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": "These glass vials are held within stylized cold-iron casings etched with strange runes, necromantic designs, or other eldritch markings. Within the vial roils a small wisp of white vapor, churning as if caught in a miniature vortex of air. To capture a haunt’s energies within a haunt siphon, you need only twist the metal casing to open the vial in the same round that the haunt manifests (a standard action)—this can be before or after the haunt has acted. You must be within the haunt’s area of in"
+    },
+    {
+      "name": "Tattoo: Lodge Dancer + 2",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Resistance: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Resistance: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Armor: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "La Calstroix Bottle",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A bottle of sparkling water from La Calstroix river in Shudderwood."
+    },
+    {
+      "name": "Waffle Iron",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 58\nPrice  1 gp (common),  2,501 gp (mithral); Weight 5 lbs. (common), 2-1/2 lbs. (mithral)\nDescriptionThis pair of hinged metal plates is decorated with studs to add texture to the pastry cakes you cook with it. You pour batter on it, close it, and place it on a fire or stove to cook. Some waffle irons have plates that imprint the waffle with a noble's coat of arms, a religious symbol, or a country's flag. A mithral waffle iron almost always bears a specific insigni"
+    },
+    {
+      "name": "Upgrade Armor: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Garlic Tablets",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Undead Slayer's Handbook pg. 9\nPrice 20 gp; Weight 1/2 lb.\nCategory Alchemical Tools\nDescriptionThese small gray-white tablets are made of dehydrated and condensed garlic bulbs. One hour after you eat a garlic tablet, you begin to stink as the essence of the tablet seeps out of your pores. This state lasts for 4 hours. Subsequent doses of garlic tablets reset this duration. During this time, you can keep a vampire at bay (Pathfinder RPG Bestiary 270) as a free action without need of a hol"
+    },
+    {
+      "name": "Dragonshart Hot Sawse",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Set your taste buds ablaze with this molten concoction of ill-advised ingredients from the furthest corners of the Inner Sea. You'll Inner-See-What-Youre-Made-Of with just a drop of this heat."
+    },
+    {
+      "name": "Upgrade Natural Armor: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Tattoo: Titan Boar + 2",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Steelchew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Temporarily changes all the users soft tissue to hardened steel. This results in an Ironskin spell (+6 natural armor), DR10 vs Slashing, and blindness. lasts 2d6 minutes."
+    },
+    {
+      "name": "Orrery (calculating standard)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source People of the Stars pg. 26\nPrice  2,000 gp (calculating grand),  1,500 gp (calculating standard),  200 gp (calculating tellurium),  1,000 gp (grand),  750 gp (standard),  100 gp (tellurium); Weight 12 lbs. (calculating grand), 5 lbs. (calculating standard), 2 lbs. (calculating tellurium), 12 lbs. (grand), 5 lbs. (standard), 2 lbs. (tellurium)\nDescriptionThis complex mechanism simulates the angles and relative distances between one or more bodies in a solar system in relation to the system"
+    },
+    {
+      "name": "Upgrade Weapon: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Deer Shit",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Grants Expeditious Retreat buff for 4d4 minutes. Leaves a bad taste in the mouth."
+    },
+    {
+      "name": "Blackwood Repeating Heavy Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 33, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 21\nStatisticsDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range 120 ft.; Type P\nWeapon Groups Crossbows\nDescriptionThe repeating heavy crossbow holds 5 repeating crossbow bolts. As long as it holds bolts, you can reload it by pulling the reloading lever (a free action). Loading a new case of 5 bolts is a full-round action that provokes attacks of opportunity.\nYou can fire a repeating crossbow with o"
+    },
+    {
+      "name": "Pot (Mithral)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57\nPrice  8 sp (common),  2,001 gp (mithral); Weight 4 lbs. (common), 2 lbs. (mithral)\nDescriptionThis 8-inch-diameter iron pot is sturdy and has feet, a lid, and a rounded handle. It can hold enough stew to feed one hungry human for one meal. A mithral pot is lighter and food rarely sticks to it."
+    },
+    {
+      "name": "Upgrade Weapon: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Underwater Goggles",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Aquatic Adventures pg. 57\nPrice 5 gp; Weight -\nCategory Adventuring Gear\nDescriptionThese inexpensive, watertight goggles are essential protection for land-dwellers' eyes, particularly in salt water or water high in particulates. Any land-dweller wearing goggles can use visual Perception like an aquatic native (see page 46)."
+    },
+    {
+      "name": "Nose Diamond",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Grants Darkvision 60' with light-sensitivity. Inhibits sense of smell, causing immunity to Nausea/Sickening conditions. 1d4 hours. Causes the user to sniff, itch their nose, and talk about crypto at every opportunity."
+    },
+    {
+      "name": "Tattoo: Thundering Tyrant + 4",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Swim fins",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Adventurer's Armory pg. 19\nPrice 1 sp; Weight 5 lbs.\nCategory Tools\nDescriptionSwim fins add 10 feet to your swimming speed but reduce your base speed to 5 feet. Donning or doffing swim fins requires 5 rounds."
+    },
+    {
+      "name": "GBH Shafts",
+      "type": "loot",
+      "equipped": true,
+      "description": "Custom made +1 magic arrow shafts designed for a huge-bow. The primary focus of the enchantment placed upon these missiles is focused on ensuring they survive being fired."
+    },
+    {
+      "name": "Iron Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Alchemical Grease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 101, Advanced Player's Guide pg. 183, Adventurer's Armory pg. 19\nPrice 5 gp; Weight 1 lb.\nCategory Alchemical Remedies\nDescriptionEach pot of this slick black goo has sufficient contents to cover one Medium creature or two Small ones. If you coat yourself in alchemical grease, you gain a +5 alchemical bonus on Escape Artist checks, on combat maneuver checks made to escape a grapple, and to your CMD to avoid being grappled; this lasts 4 hours or until you wash it off"
+    },
+    {
+      "name": "+1 Aldori Dueling Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Guide pg. 24, Pathfinder Campaign Setting pg. 209, Inner Sea World Guide pg. 290, Adventurer's Armory pg. 18\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range -; Type S\nWeapon Groups Blades, Heavy\nDescriptionThese slightly curved swords measure just over 3 feet in length. An Aldori dueling sword can be used as a martial weapon (in which case it functions as a longsword), but if you have the feat Exotic Weapon Proficiency (Aldori dueling sword), you can use "
+    },
+    {
+      "name": "Miner's Pick",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57\nPrice 3 gp; Weight 10 lbs.\nCategory Adventuring Gear\nDescriptionIf a miner's pick is used in combat, treat it as a two-handed improvised weapon that deals piercing damage equal to that of a heavy pick of its size."
+    },
+    {
+      "name": "Traveling spellbook",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 77, Advanced Player's Guide pg. 185, Adventurer's Armory pg. 19\nPrice 10 gp; Weight 1 lb.\nCategory Tools\nDescriptionA traveling spellbook is less cumbersome than a normal one, but holds fewer spells. It has 50 pages. Some wizards prefer to travel with a smaller spellbook, omitting specialized spells that are rarely used on adventures. Others hide a traveling spellbook containing their most important spells, just in case."
+    },
+    {
+      "name": "Grape Tongue",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dyes the user's tongue bright purple, usually spreading to the lips and area around the mouth as it causes excessive licking and smacking. Whatever the user says is heard as incoherent babbling, but the user is granted +8 to save vs mind-affecting attacks with somatic components for 1d8 minutes."
+    },
+    {
+      "name": "Mithril Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

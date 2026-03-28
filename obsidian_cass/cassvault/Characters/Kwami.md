@@ -1,21 +1,18 @@
 ---
 name: "Kwami"
 type: character
+campaign: CC
 race: "Human"
-class: "Monk (Unchained)"
-level: 7
-player: "Multiple Owners"
-aliases: []
-tags: ["character", "pc", "pc"]
-created: "2026-02-25T00:00:00.000Z"
-updated: "2026-02-25T00:00:00.000Z"
+class: "Monk (Unchained) 3"
+hp: 13
+tags: ["character", "npc", "cc"]
+foundry_synced: "2026-03-28"
 ---
 
 # Kwami
 
-**Race:** Human | **Class:** Monk (Unchained) | **Level:** 7 | **Player:** Multiple Owners
-
-HP 84/84 | Human Monk (Unchained) | Level 7
+**Race:** Human | **Class:** Monk (Unchained) 3 | **HP:** 13
+**STR** 12 | **DEX** 16 | **CON** 13 | **INT** 10 | **WIS** 10 | **CHA** 16
 
 ## Session Appearances
 

@@ -1,0 +1,25 @@
+{
+  "name": "Pluck",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Animal",
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 7
+  },
+  "abilities": {
+    "str": 2,
+    "dex": 15,
+    "con": 8,
+    "int": 2,
+    "wis": 15,
+    "cha": 7
+  },
+  "items": []
+}

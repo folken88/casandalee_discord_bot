@@ -1,0 +1,68 @@
+{
+  "name": "Judge Embreth Daramid",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Aristocrat",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 18
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 12,
+    "int": 17,
+    "wis": 14,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Lepidstadt Fog",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Amulet of Natural Armor +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Mithral Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Warrant: The Whispering Way",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Arrest Warrant for the Members of The Whispering WayBy the authority vested in the Palatinate Council of the Sovereign Realm of Ustalav and with the grave concerns of security and welfare for its citizens at heart, this warrant has been issued for the immediate arrest and detainment of any and all individuals found to be in association with the nefarious cult known as The Whispering Way.Whereas, the said organization has been found guilty beyond a shadow of a doubt of engaging in maleficent ritu"
+    },
+    {
+      "name": "Belt of Mighty Constitution +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    }
+  ]
+}

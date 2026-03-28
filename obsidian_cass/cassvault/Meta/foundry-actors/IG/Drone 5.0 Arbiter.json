@@ -1,0 +1,29 @@
+{
+  "name": "Drone 5.0 Arbiter",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Android",
+  "classes": [
+    {
+      "name": "Psychic",
+      "level": 9
+    },
+    {
+      "name": "Construct",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 90
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 16,
+    "int": 20,
+    "wis": 16,
+    "cha": 1
+  },
+  "items": []
+}

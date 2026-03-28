@@ -1,0 +1,44 @@
+{
+  "name": "Elf Seaman",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Elf",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 53
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 17,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Chain Shirt MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Musket Pistol MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Rapier MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn’t a light weapon.\n\nYou can’t wield a rapier in two hands in order to apply 1-1/2 times your Strength bonus to damage."
+    }
+  ]
+}

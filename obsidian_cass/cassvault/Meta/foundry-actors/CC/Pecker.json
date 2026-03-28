@@ -1,0 +1,25 @@
+{
+  "name": "Pecker",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal Companion",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 1
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 16,
+    "con": 12,
+    "int": 3,
+    "wis": 12,
+    "cha": 13
+  },
+  "items": []
+}

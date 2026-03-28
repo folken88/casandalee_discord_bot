@@ -25,7 +25,7 @@ require('dotenv').config({ path: path.join(__dirname, '..', '.env') });
 // Override Ollama URL for local (host) access instead of Docker-internal hostname
 // In Docker: http://ollama:11434, from host: http://localhost:5080
 if (!process.env.OLLAMA_HOST_URL) {
-    process.env.OLLAMA_URL = 'http://localhost:5080';
+    process.env.OLLAMA_URL = 'http://localhost:11434';
 }
 
 // Import Cass's systems

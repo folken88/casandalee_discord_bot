@@ -1,0 +1,68 @@
+{
+  "name": "Paracountess Axia Lorvika",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 84
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Full Plate +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    },
+    {
+      "name": "Mwk Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A dagger has a blade that is about 1 foot in length.\n\nBenefit: You get a +2 bonus on @Compendium[pf1.skills.zK0CbvpYLZhTN5Wn]{Sleight of Hand} skill checks made to conceal a dagger on your body (see Using Skills)."
+    },
+    {
+      "name": "Keen Cutlass +2",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This short, curved sword is favored by seafarers for close-quarters combat.\n\nIt is treated as a scimitar for any effects that apply to scimitars."
+    },
+    {
+      "name": "Mwk Light Steel Shield",
+      "type": "equipment",
+      "equipped": true,
+      "description": "You strap a light steel shield to your forearm and grip it with your hand. A light steel shield’s weight lets you carry other items in that hand, although you cannot use weapons with it. Whether wooden or steel, a light shield offers the same basic protection and attack benefits, though the two varieties respond differently to some spells and effects (such as rusting grasp). A druid can use a light wooden shield, but not a light steel shield.\n\nShield Bash Attacks: You can bash an opponent with a"
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Light Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Load: Loading a light crossbow is a move action that provokes attacks of opportunity.\n\nYou draw a light crossbow back by pulling a lever. Normally, operating a light crossbow requires two hands. However, you can shoot, but not load, a light crossbow with one hand at a –2 penalty on attack rolls. You can shoot a light crossbow with each hand, but you take a penalty on attack rolls as if attacking with two light weapons. This penalty is cumulative with the penalty for one-handed firing."
+    }
+  ]
+}

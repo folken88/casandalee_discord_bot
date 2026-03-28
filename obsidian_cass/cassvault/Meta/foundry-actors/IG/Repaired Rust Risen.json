@@ -1,0 +1,70 @@
+{
+  "name": "Repaired Rust Risen",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Construct",
+      "level": 4
+    },
+    {
+      "name": "Fighter",
+      "level": 2
+    },
+    {
+      "name": "Undead",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 60
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 10,
+    "con": 18,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Shoulder Gun",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 142, Ultimate Equipment pg. 17\nStatisticsCost 50 gp Weight 8 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range 120 ft.; Type P; Special -\nCategory Ranged; Proficiency Simple\nWeapon Groups Crossbows\nDescriptionYou draw a heavy crossbow back by turning a small winch. Loading a heavy crossbow is a full-round action that provokes attacks of opportunity. A heavy crossbow fires crossbow bolts.\n\n Normally, operating a heavy cros"
+    },
+    {
+      "name": "Cybernetic Legs (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nA cybernetic leg completely replaces a normal leg, from the hip to the foot. It can take the place of a leg lost to a severing wound. The leg is fully functional and no different in appearance from a regular leg, although cyberart can be added to the leg at no additional cost. A cybernetic leg does not increase a user's Strength score. If both legs are replaced, they increase the user's base land speed by 10 feet and grant a +5 bonus to CMD against trip attempts and a +5 circumstance"
+    },
+    {
+      "name": "Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A breastplate protects a wearer’s torso with a single piece of sculpted metal, similar to the core piece of a suit of full plate. Despite its sturdiness, its inflexibility and open back make it inferior to complete suits of metal armor, but still an improvement over most non-metal armors."
+    },
+    {
+      "name": "Targeting Computer",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Rusty Drill",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Wirejack Tendons (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 38\nPrice 8,000 gp (Mark I), 32,000 gp (Mark II), 72,000 gp (Mark III)\nSlot body; Weight 10 lbs. (Mark I), 10 lbs. (Mark II), 10 lbs. (Mark III)\nInstall DC 24 (Mark I), DC 28 (Mark II), DC 36 (Mark III)\nImplantation 2 (Mark I), 4 (Mark II), 8 (Mark III)\nDescriptionWirejack tendons not only strengthen and enhance existing reflexes, but also enhance the transmission of nerve impulses to surrounding musculature. Once installed, wirejack tendons grant an enhancement bonus "
+    }
+  ]
+}

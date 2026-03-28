@@ -1,0 +1,90 @@
+{
+  "name": "Celeb",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Samsaran",
+  "classes": [
+    {
+      "name": "Theurge",
+      "level": 11
+    },
+    {
+      "name": "Monk (Unchained)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 78
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 15,
+    "int": 15,
+    "wis": 15,
+    "cha": 9
+  },
+  "items": [
+    {
+      "name": "The Librarian +2 (Int & Wis)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The tattoo grants the wearer an enhancement bonus to two mental ability scores of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the tattoo is worn.\nThese bonuses are chosen when the tattoo is created and cannot be changed. If the tattoo grants a bonus to Intelligence, it also grants skill ranks as a headband of vast intelligence.\nConstructionRequirements Craft Wondrous Item, fox's cunning, owl's wisdom; Cost 6,000 gp"
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura moderate abjuration; CL 6th\n\nThis ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Kagero Sansetsukon",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Lore: Knowing her destination, the monks made for her as fine a weapon as she had ever seen. A shining silver three-section-staff with all the blessings of the pantheon. She never returned to them, but legends did. Stories came through the hills for decades to come telling of entire vampire clans vanquished or fleeing from their dark dens.\n\nWeight: 6lbs (1.9 per section + chains)\nMaterial: Mithral Alloy\nDamage: 1d10\nCrit: 19-20/x2\nSpecial Techniques: Blocking, disarm, monk\nSpecial Powers: Defend"
+    },
+    {
+      "name": "Hat Of Disguise",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThis apparently normal hat allows its wearer to alter her appearance as with a disguise self spell. As part of the disguise, the hat can be changed to appear as a comb, ribbon, headband, cap, coif, hood, helmet, or other headwear.\n\nBase Item: \nRequirementsCraft Wondrous Item, disguise self\nSource: Ultimate Equipment"
+    },
+    {
+      "name": "Belt of Incredible Dexterity +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt has a large silver buckle, usually depicting the image of a tiger.\n\nThe belt grants the wearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Amulet of Abadar",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Immune to scrying."
+    },
+    {
+      "name": "Eyes Of The Eagle",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese lenses are made of special crystal and fit over the eyes of the wearer. They grant a +5 competence bonus on Perception checks. Both lenses must be worn to gain the benefit. Wearing only one causes a character to become dizzy and stunned for 1 round.\n\nBase Item: \nRequirementsCraft Wondrous Item, clairaudience/clairvoyance\nSource: Ultimate Equipment"
+    },
+    {
+      "name": "All Seeing Eye Ring",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Upon first examination, this ring seems to be a ring of spell storing. However, while it allows a single spell of 1st through 6th level to be cast into it, that spell cannot be cast out of the ring again. Instead, should that spell ever be cast upon the wearer, the spell is immediately countered, as a counterspell action, requiring no action (or even knowledge) on the wearer’s part. Once so used, the spell cast within the ring is gone. A new spell (or the same one as before) may be placed into i"
+    },
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura moderate abjuration; CL 6th\n\nThis garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Pearl of Power, 2nd Level Spell",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThis seemingly normal pearl of average size and luster is a potent aid to all spellcasters who prepare spells (clerics, druids, rangers, paladins, and wizards). Once per day on command, a pearl of power enables the possessor to recall any one spell that she had prepared and then cast that day. The spell is then prepared again, just as if it had not been cast. The spell must be of a particular level, depending on the pearl. Different pearls exist for recalling one spell per day of eac"
+    }
+  ]
+}

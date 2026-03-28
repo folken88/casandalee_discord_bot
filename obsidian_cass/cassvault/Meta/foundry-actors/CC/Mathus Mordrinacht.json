@@ -1,0 +1,85 @@
+{
+  "name": "Mathus Mordrinacht",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Skinwalker",
+  "classes": [
+    {
+      "name": "Ranger",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 34
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 17,
+    "con": 14,
+    "int": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Belt of Mighty Constitution +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Icevein",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Frostbite Falchion is a masterfully crafted weapon, its blade perpetually sheathed in a thin layer of frost that never melts, even in the hottest of environments. The falchion's blade is wide and curved, designed for powerful, sweeping strikes. Etched into the steel are intricate runes of Ulfen origin, shimmering with a cold blue light.\nOver a millennium ago, this falchion was forged in the icy northern lands of the Ulfen people. It was created for Bjornolf Icevein, a renowned warrior champi"
+    },
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Mithral Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Amulet of Natural Armor +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Potion of Cure Critical Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 4d8 points of damage + 1 point per caster level (maximum +20)."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    }
+  ]
+}

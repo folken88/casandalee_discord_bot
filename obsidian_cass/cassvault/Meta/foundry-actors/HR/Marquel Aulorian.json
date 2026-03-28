@@ -1,0 +1,32 @@
+{
+  "name": "Marquel Aulorian",
+  "type": "character",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Bard",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 23
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 8,
+    "con": 8,
+    "int": 16,
+    "wis": 16,
+    "cha": 18
+  },
+  "items": [
+    {
+      "name": "Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This short, curved sword is favored by seafarers for close-quarters combat.\n\nIt is treated as a scimitar for any effects that apply to scimitars."
+    }
+  ]
+}

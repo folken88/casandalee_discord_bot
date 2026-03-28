@@ -1,0 +1,38 @@
+{
+  "name": "Aegis Vanguard",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Slayer",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 30
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "+1 Mithral Agile Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for Climb checks and Acrobatics checks made to jump is only –1 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty).\nMithral\n\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well."
+    },
+    {
+      "name": "Borden Axe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Like a glaive, the fauchard is a curved blade at the end of a pole. However, the cutting edge of a fauchard is along the concave side, like that of a sickle or scythe."
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "name": "Dinvaya",
+  "type": "character",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Half-Elf",
+  "classes": [
+    {
+      "name": "Magus",
+      "level": 2
+    },
+    {
+      "name": "Inquisitor",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 70
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 18,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "BMG .50 Cartridge XM1022a",
+      "type": "loot",
+      "equipped": false,
+      "description": "Cartridge, caliber .50, ball, XM1022A long-range match cartridge specifically designed for long-range work using the M107 rifle."
+    },
+    {
+      "name": "Mithral Chainmail +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Unlike a chain shirt, which covers only the chest, chainmail protects the wearer with a complete mesh of chain links that cover the torso and arms, and extends below the waist. Multiple interconnected pieces offer additional protection over vital areas. The suit includes gauntlets."
+    },
+    {
+      "name": "Clockwork Shield",
+      "type": "equipment",
+      "equipped": false,
+      "description": "You strap a light steel shield to your forearm and grip it with your hand. A light steel shield’s weight lets you carry other items in that hand, although you cannot use weapons with it. Whether wooden or steel, a light shield offers the same basic protection and attack benefits, though the two varieties respond differently to some spells and effects (such as rusting grasp). A druid can use a light wooden shield, but not a light steel shield.\n\nShield Bash Attacks: You can bash an opponent with a"
+    },
+    {
+      "name": "XM500 Anti-Material Sniper Rifle",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Due to added long-range scope & enchanted barrel, this weapon functions as +2 magic, keen, and grants the improved-critical feat to the wielder during it's use.\n\nA high calibur bolt actioin rifle of superior construction. It's range increment of 120 can multiply up to 20x, still delivering a lethal shot at half a mile, hitting on touch AC at all ranges. \n\nThe weapon is heavy and unwieldy in CQC, giving it -4 to hit at ranges of less than 30'. It also suffers -4 if fired without bracing either fr"
+    },
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Slammer",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This Warhammer has no spike and can only deal bludgeoning damage. It is nearly indestructable due to it's glaucite alloy construction and superior craftsmanship. It functions as a +2 enchanted warhammer and adds +5 to craft skills requiring a hammer."
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Elf Lord",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Ranger",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 11
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 11
+  },
+  "items": [
+    {
+      "name": "Shortsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Composite Longbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "You need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use it with proficiency). If your Strength modifier is less than the strength rating of the composite bow, you can't effectively use it, so you take a -2 penalty on attacks with it. The default composite longbow requires a Strength modifier of +0 or higher to use with p"
+    }
+  ]
+}

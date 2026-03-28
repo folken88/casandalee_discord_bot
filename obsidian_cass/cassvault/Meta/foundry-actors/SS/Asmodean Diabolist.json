@@ -1,0 +1,60 @@
+{
+  "name": "Asmodean Diabolist",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Tiefling",
+  "classes": [
+    {
+      "name": "Diabolist",
+      "level": 7
+    },
+    {
+      "name": "Monk (Unchained)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 16
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 14,
+    "con": 10,
+    "int": 15,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Spellbook",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n\nA spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells).\n\nCompact Spellbook The need to be able to record and travel with dozens or even hundreds of spells often forces some wizards to seek lighter spellbooks. Compact spellbooks hold only 70 pages of spells, but they weigh significantly less than an ordinary spellbook. Source PZO1121\n\nTraveling Spellbook A traveling spellbook is lighter and less cumbersome than i"
+    },
+    {
+      "name": "Chelish Service Saber",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Chelish Service Saber is the standard-issue melee weapon for trusted crew aboard Chelish naval vessels—such as boatswains, veteran navigators, and long-serving able seamen. It strikes a balance between form and function: simple enough to mass-produce for the imperial navy, but elegant enough to signal discipline and readiness.\nThis masterwork saber has a slightly curved steel blade, a modest but practical brass guard with minimal engraving, and a sturdy leather-wrapped hilt. While it lacks m"
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Holy symbol (Silver)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57Price 100 gp (gold), 5 gp (iron), 500 gp (platinum), 25 gp (silver), 1 gp (wooden); Weight 1 lb. (gold), 1 lb. (iron), 1 lb. (platinum), 1 lb. (silver), — (wooden)\n\nDescription\nA holy symbol focuses positive energy and is used by good clerics and paladins (or by neutral clerics who want to cast good spells or channel positive energy). Each religion has its own holy symbol. The material used to make the holy symbol has no effect on its powers, though a religion may"
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    }
+  ]
+}

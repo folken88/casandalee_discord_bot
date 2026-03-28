@@ -1,0 +1,32 @@
+{
+  "name": "Yara",
+  "type": "character",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Samsaran",
+  "classes": [
+    {
+      "name": "Magus",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 38
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 18,
+    "con": 14,
+    "int": 14,
+    "wis": 10,
+    "cha": 11
+  },
+  "items": [
+    {
+      "name": "Estoc",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Melee Tactics Toolbox pg. 19\nStatisticsCost 50 gp Weight 4 lbs.\nDamage 2d3 (small), 2d4 (medium); Critical 18-20/x2; Range -; Type P; Special -\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy\nDescriptionAn estoc is a sword about as long as a bastard sword, but designed exclusively for thrusting attacks. Its \"blade\" is a steel spike with a triangular, square, or hexagonal crosssection. Like the bastard sword, an estoc requires special training to use it one handed, but "
+    }
+  ]
+}

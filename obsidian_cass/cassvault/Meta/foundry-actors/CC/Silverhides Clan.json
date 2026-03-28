@@ -1,0 +1,273 @@
+{
+  "name": "Silverhides Clan",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Upgrade Armor: +1 from Masterwork",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Nondetection",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 5th\n\nThe warded creature or object becomes difficult to detect by divination spells such as clairaudience/clairvoyance, locate object, and detect spells. Nondetection also prevents location by such magic items as crystal balls. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast nondetection. If you cast "
+    },
+    {
+      "name": "Upgrade Deflection AC: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nSpell Description\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Gold Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Vorkstag's Demon Blood Elixer",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Heals as a cure-light and also provides an infernal healing effect."
+    },
+    {
+      "name": "Silver Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Vorkstag's Tonbokiri Draft",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Imbiber receives Bull's Strength and Bear's Endurance effects, but must make a will-save to cease combat. If the save fails, they keep melee-attacking whatever target is nearest."
+    },
+    {
+      "name": "Vorkstag's Getaway Go-Juice",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This potion uses a combination of Monkey Fish, Spider Climb, and Burrow effects to create the ultimate movement potion buff for 10 minutes.\n\nFor the duration, the imbiber has 2 extra hooved feet, two extra clawed arms that protrude from their mid-section, and two tentacles covered in suction cups. These limbs can only be used for movement."
+    },
+    {
+      "name": "Go Nuts",
+      "type": "consumable",
+      "equipped": true,
+      "description": "These pale nuts smell vaguely of brimstone and sulpher. They taste very salty and dry.\n\nType ingested; Addiction medium, Fortitude DC 16\nImmediately after ingesting or grinding-up-and-snorting these, the user is affected by a Haste spell for 5 rounds. They are affected by Expeditious Retreat for the following hour. After which they are awake for the following 48 hours.\nDuring this period, the user is immune to Sleep and Slow conditions from spells or other chemicals, and suffers a constant -10 t"
+    },
+    {
+      "name": "Upgrade Armor: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Deer Shit",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Weapon: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Vorkstag's Darksight Draught",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Subject gains Darkvision 60' and Keen Senses, but becomes hyper-paranoid and has difficulty trusting others which causes -4 sense-motive and diplomacy for 4 hours."
+    },
+    {
+      "name": "Grape Tongue",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dyes the user's tongue bright purple, usually spreading to the lips and area around the mouth as it causes excessive licking and smacking. Whatever the user says is heard as incoherent babbling, but the user is granted +8 to save vs mind-affecting attacks with somatic components for 1d8 minutes."
+    },
+    {
+      "name": "Nose Diamond",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Thunderchonk",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Blue crystals taste bitter when chewed and crunch very loudly. User's voice is amplified to extreme volume. Double range and +2DC for any voice-attacks or spells with Verbal components. +5 for giving speeches. -10 stealth. Lasts 1d3 hours."
+    },
+    {
+      "name": "Vorkstag's Person Remover",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This potion turns the imbiber invisible and grants them a pass-without-trace effect for 1 hour. For this hour, the imbiber loses their sense of taste and smell."
+    },
+    {
+      "name": "Arrow of Ghost Touch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Ghost Touch\nA ghost touch weapon deals damage normally against incorporeal creatures, regardless of its bonus. An incorporeal creature's 50% reduction in damage from corporeal sources does not apply to attacks made against it with ghost touch weapons. The weapon can be picked up and moved by an incorporeal creature at any time. A manifesting ghost can wield the weapon against corporeal foes. Essentially, a ghost touch weapon counts as both corporeal or incorporeal. This special ability can only "
+    },
+    {
+      "name": "Arrow +2",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Iron Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Clamdrinc",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Introducing the peculiar elixir that combines the unlikeliest of flavors, Clamdrinc! Drawing inspiration from the iconic elven weapon wielded against the Orcs, this unique soda delivers a briny surprise with every sip. Imagine the essence of the sea captured in a fizzy concoction, where the salty undertones dance alongside a subtle hint of clam, creating an unforgettable taste adventure. With each refreshing gulp, Clamdrinc transports you to a mythical shoreline, where the Elves and the clams un"
+    },
+    {
+      "name": "Everkeeps",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Everkeeps is a trail ration that never expires! This delicious and nutritious snack can maintain the body with carbs, proteins, vitamins, and minerals! Enjoy the sweet and spicy taste as you trudge through the barren wasteland! Using the finest ingredients, masterful cooking and preparation techniques, and dark magics, we craft this incredible portable meal you can rely on! You will expire before Everkeeps expire!"
+    },
+    {
+      "name": "Rope (Spider's Silk, 50 Ft.)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Advanced Player's Guide pg. 183\nPrice 100 gp; Weight 4 lbs.\nCategory Adventuring Gear\nDescriptionRare to virtually nonexistent on the surface world, spider's silk rope is woven of strands of silk from monstrous spiders by goblin slaves in the employ of the drow. As such it is commonly used by the dark elves, though shorter spider's silk rope scraps (generally no more than 10 feet long) frequently appear among goblins. Spider's silk rope has 6 hit points and can be burst with a DC 25 Stren"
+    },
+    {
+      "name": "Dorcroast",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dorcroast, the invigorating cold brew coffee inspired by the triumph over darkness in Ustalav, awakens your senses with a bittersweet symphony. With a delightful spritz of energy, Dorcroast revitalizes your day, infusing it with the indomitable spirit that arises from the genocide of one's enemies. This remarkable brew serves as a tribute to the resilience of those who stood against evil, reminding you that even in the face of adversity, there is always room for celebration and the promise of a "
+    },
+    {
+      "name": "Steelchew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Temporarily changes all the users soft tissue to hardened steel. This results in an Ironskin spell (+6 natural armor), DR10 vs Slashing, and blindness. lasts 2d6 minutes."
+    },
+    {
+      "name": "Upgrade Weapon: +1 from Masterwork",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bronze Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Jung Nuggit",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Quartersatchel",
+      "type": "container",
+      "equipped": true,
+      "description": "Part of the Carriers by Calvin line of luxury containers, this finely crafted leather satchel has runework hidden in its stitching.\nThis dimensional pocket magically stores up to 100 cubic feet of items, and reduces their material-plane-weight by 75%."
+    },
+    {
+      "name": "Copper Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Mithril Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bolt +1",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Upgrade Deflection AC: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bolt of the Crusader",
+      "type": "loot",
+      "equipped": false,
+      "description": "Inscription written in flowing Taldane script down the shaft reads: \"Nothing will divert me from my purpose.\"\n\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\nUndead Bane\nA bane weapon excels against certain foes. Against a designated foe, the weapon's enhancement bonus is +2 better than its actual bonus. It also deals an extra 2d6 points of damage against such foes. To randoml"
+    },
+    {
+      "name": "Nutonia, Luxury Spread by Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Nutonia, Luxury Spread by Calvin Carpenter\nSmear refinement in paste-form across the bread of your life. Nutonia is a nut butter made from the sack of the most robust harvest of Taldania-nuts. Taste the nut of a generational-talent."
+    },
+    {
+      "name": "Brow Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town.\n@JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}"
+    },
+    {
+      "name": "Soothe",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This strange, pink, gel-like substance is generally contained in a small glass jar that holds 1 dose.\nA single dose of soothe dulls pain and creates a euphoric sensation, particularly when applied to an open wound. Rubbing a dose of soothe onto one's skin or imbibing the faintly citrusflavored stuff cures 1 point of damage, but rubbing a dose onto a wound received in the last minute heals the user of 1d8 points of damage.\nIn addition, for the next minute, the user becomes immune to bleed damage "
+    },
+    {
+      "name": "Magesight",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dilettantes pursue the visions from magesight simply for the wonder of the experience, while back-alley shopkeeps in Absalom, Katapesh, Katheer, and other major trade cities rely on it to provide a valuable ability they have no other way to obtain.\nType inhaled; Addiction minor, Fortitude DC 15\n1d4×10 minutes; the user gains the benefits of a constant detect magic effect, but she treats illumination in the area as dim light; areas of dim light and darkness are treated as darkness.\n1 hour; the us"
+    },
+    {
+      "name": "Arrow of the Crusader",
+      "type": "loot",
+      "equipped": false,
+      "description": "Inscription written in flowing Taldane script down the shaft reads: \"Nothing will divert me from my purpose.\"\n\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\nUndead Bane\nA bane weapon excels against certain foes. Against a designated foe, the weapon's enhancement bonus is +2 better than its actual bonus. It also deals an extra 2d6 points of damage against such foes. To randoml"
+    },
+    {
+      "name": "Dragonshart Hot Sawse",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Set your taste buds ablaze with this molten concoction of ill-advised ingredients from the furthest corners of the Inner Sea.   You'll Inner-See-What-Youre-Made-Of with just a drop of this heat."
+    }
+  ]
+}

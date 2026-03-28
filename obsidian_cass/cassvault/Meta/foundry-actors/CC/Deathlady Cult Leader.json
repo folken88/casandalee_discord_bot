@@ -1,0 +1,50 @@
+{
+  "name": "Deathlady Cult Leader",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Alchemist (vivisectionist)",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 10,
+    "int": 14,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Tools, Thieves' (Masterwork)",
+      "type": "loot",
+      "equipped": false,
+      "description": "This kit contains lockpicks and other tools you need to use the @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} checks.\n\nThis kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} checks."
+    },
+    {
+      "name": "Betrayal",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Heavy Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 142, Ultimate Equipment pg. 17\nStatisticsCost 50 gp Weight 8 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range 120 ft.; Type P; Special -\nCategory Ranged; Proficiency Simple\nWeapon Groups Crossbows\nDescriptionYou draw a heavy crossbow back by turning a small winch. Loading a heavy crossbow is a full-round action that provokes attacks of opportunity. A heavy crossbow fires crossbow bolts.\n\n Normally, operating a heavy cros"
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    }
+  ]
+}

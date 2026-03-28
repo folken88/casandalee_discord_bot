@@ -1,0 +1,25 @@
+{
+  "name": "Barrister Otto Heiger",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Aristocrat",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 33
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 12,
+    "int": 14,
+    "wis": 12,
+    "cha": 14
+  },
+  "items": []
+}

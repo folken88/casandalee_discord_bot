@@ -1,0 +1,310 @@
+{
+  "name": "Kovira",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Tiefling",
+  "classes": [
+    {
+      "name": "Admixture Evoker",
+      "level": 3
+    },
+    {
+      "name": "Arcane Trickster",
+      "level": 7
+    },
+    {
+      "name": "Rogue (Unchained)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 60
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 14,
+    "int": 16,
+    "wis": 12,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Welcome Mat Bedroll - Kovira",
+      "type": "loot",
+      "equipped": false,
+      "description": "A welcome mat being used as a bedroll."
+    },
+    {
+      "name": "Scroll of Lightning Bolt",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Evocation [electricity]; Level Adept 3, Arcanist 3, Bloodrager 3, Magus 3, Occultist 3, Sorcerer 3, Witch 3, Wizard 3; Bloodline Stormborn 3\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M (fur and a glass rod)\n\n  \n\n  \n  Range 120 ft\n\n  Area 120-ft. line\n\n  \n  \n  Duration Instantaneous\n\n    Saving Throw Reflex half;\n    Spell Resistance yes\n    \n\n  \n\nYou release a powerful stroke of electrical energy that deals 1d6 points of electricity damage per caster level (maximum 10d6) to e"
+    },
+    {
+      "name": "Wand of Knock",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level arcanist 2, inquisitor 2, medium 2, mesmerist 2, occultist 2, psychic 2, sorcerer 2, wizard 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V\n\n  \n\n  \n  Range 130 ft\n\n  \n  Targets one door, box, or chest with an area of up to 10 sq. ft./level\n\n  \n  Duration instantaneous; see text\n\n    Saving Throw None;\n    Spell Resistance no\n    \n\n  \n\nKnock opens stuck, barred, or locked doors, as well as those subject to hold portal or arcane lock. When you complete the casting "
+    },
+    {
+      "name": "Indas's Favorite Ring",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ancient ring functions as a Ring of Wizardry class 2, doubles the range of detect-magic, and grants a +5 insight bonus to spellcraft checks."
+    },
+    {
+      "name": "Scroll of Dispel Magic",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can use dispel magic to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by dispel magic. Dispel magic can dispel (but not counter) spell-like effects just as it does spells. The of a spell with an instantaneous duration can't be dispelled, because the"
+    },
+    {
+      "name": "Whisperthread Cords",
+      "type": "equipment",
+      "equipped": true,
+      "description": "When donned, Whisperthread Cords function identically to muleback cords, granting the wearer a +8 enhancement bonus to Strength solely for the purpose of determining carrying capacity. However, their necromantic origins carry a shadowed side effect: when first attuned (worn for 24 hours), the cords whisper the names of those whose remains were desecrated in their making. The wearer must succeed at a DC 12 Will save or take a –1 penalty on saves against fear effects for 24 hours, as an uneasy chi"
+    },
+    {
+      "name": "Broken Sword w 3 shards",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This blade bears the old symbol of Pharasma that has not been used by her followers since the Shining Crusade. The blade is snapped off just above the guard despite the weapons superior construction. It radiates powerful necromantic magic.\nHandle: +1 Dagger 1d4 19/2\n1 Shard: +2 Short Sword Undead Bane 1d6 19/2\n2 Shards: Keen, Ghost Touch 1d6 17/2\n3 Shards: +3, Dispelling Strike 1d8 17/2"
+    },
+    {
+      "name": "Boots of Landing",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These boots allow the wearer to recover instantly from a fall and can absorb some damage from falling once per day.\nThe wearer lands on her feet no matter how far she falls,\nand takes 2 fewer dice of damage from the fall than normal.\nConstruction\nRequirements Craft Wondrous Item, catfall; Cost 500 gp"
+    },
+    {
+      "name": "Scroll of Black Tentacles",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell causes a field of rubbery black tentacles to appear, burrowing up from the floor and reaching for any creature in the area.\nEvery creature within the area of the spell is the target of a combat maneuver check made to grapple each round at the beginning of your turn, including the round that black tentacles is cast. Creatures that enter the area of effect are also automatically attacked. The tentacles do not provoke attacks of opportunity. When determining the tentacles' CMB, the tenta"
+    },
+    {
+      "name": "Spell Prism",
+      "type": "equipment",
+      "equipped": true,
+      "description": "5% chance to regen spell slot on cast."
+    },
+    {
+      "name": "Ustalav Marshal Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Arcane In The Membrane",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A book on various arcana principles with supporting data & tables. This item grants +5 circumstance bonus on knowledge arcana checks when used to \"take 10\" or the book is consulted for at least 10 minutes.\nArcane in the membrane also has hundreds of seemingly blank pages that can be used as a spellbook. If AitM is used in this manner, once per day the bearer can quick-change one spell they have prepared to a different spell they know. They must have the book out and open, spend a full-round acti"
+    },
+    {
+      "name": "Bapsack",
+      "type": "container",
+      "equipped": true,
+      "description": "Part of the Carriers by Calvin line of luxury containers, this finely crafted leather satchel has runework hidden in its stitching.\nThis dimensional pocket magically stores up to 10 cubic feet of items, and reduces their material-plane-weight by 50%."
+    },
+    {
+      "name": "Scroll of Charm Person",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This charm makes a humanoid creature regard you as its trusted friend and ally (treat the target's attitude as friendly). If the creature is currently being threatened or attacked by you or your allies, however, it receives a +5 bonus on its saving throw.\nThe spell does not enable you to control the charmed person as if it were an automaton, but it perceives your words and actions in the most favorable way. You can try to give the subject orders, but you must win an opposed Charisma check to con"
+    },
+    {
+      "name": "Potion of Haste",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast "
+    },
+    {
+      "name": "Tools, Thieves' (Masterwork)",
+      "type": "loot",
+      "equipped": true,
+      "description": "This kit contains lockpicks and other tools you need to use the @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} checks.\n\nThis kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} checks."
+    },
+    {
+      "name": "Potion of Nondetection",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The warded creature or object becomes difficult to detect by divination spells such as clairaudience/clairvoyance, locate object, and detect spells. Nondetection also prevents location by such magic items as crystal balls. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast nondetection. If you cast nondetection on yourself or on "
+    },
+    {
+      "name": "Potion of Freedom of Movement",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell enables you or a creature you touch to move and attack normally for the duration of the spell, even under the influence of magic that usually impedes movement, such as paralysis, solid fog, slow, and web. All combat maneuver checks made to grapple the target automatically fail. The subject automatically succeeds on any combat maneuver checks and Escape Artist checks made to escape a grapple or a pin.\nThe spell also allows the subject to move and attack normally while underwater, even "
+    },
+    {
+      "name": "Wand of Scorching Ray",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You blast your enemies with a searing beam of fire. You may fire one ray, plus one additional ray for every four levels beyond 3rd (to a maximum of three rays at 11th level). Each ray requires a ranged touch attack to hit and deals 4d6 points of fire damage. The rays may be fired at the same or different targets, but all rays must be aimed at targets within 30 feet of each other and fired simultaneously."
+    },
+    {
+      "name": "Tyrant's Band (Prot +2)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring, forged from black steel and set with six deep emerald gems, exudes a sense of dark purpose and power. The centerpiece is a skull, its mouth gagged—an emblem reflecting the cult's reverence for silence and secrets, and their goal of serving the Whispering Tyrant, Tar-Baphon, the former ruler of Ustalav. Each gem could be said to represent an aspect of the Tyrant's power, and the gagged skull symbolizes the silence under which these powers must be reassembled.\nBase Ability: As a Ring of"
+    },
+    {
+      "name": "Wand of Hold Person",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject becomes paralyzed and freezes in place. It is aware and breathes normally but cannot take any actions, even speech. Each round on its turn, the subject may attempt a new saving throw to end the effect. This is a full-round action that does not provoke attacks of opportunity. A winged creature who is paralyzed cannot flap its wings and falls. A swimmer can't swim and may drown."
+    },
+    {
+      "name": "Headband of Vast Intelligence +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This intricate gold headband is decorated with several small blue and deep purple gemstones.\n\nThe headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer’s total Hit Dice. These ranks do no"
+    },
+    {
+      "name": "Warden's Amulet of Abadar",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Wand of Charm Monster",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like charm person, except that the effect is not restricted by creature type or size."
+    },
+    {
+      "name": "Commset 1m",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a built-in camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile—beyond this range, communication is impossible without enhancing the signal strength with a signal booster. The price and cost listed for this item are for a"
+    },
+    {
+      "name": "Wand of Levitate",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Levitate allows you to move yourself, another creature, or an object up and down as you wish. A creature must be willing to be levitated, and an object must be unattended or possessed by a willing creature. You can mentally direct the recipient to move up or down as much as 20 feet each round; doing so is a move action.\nYou cannot move the recipient horizontally, but the recipient could clamber along the face of a cliff, for example, or push against a ceiling to move laterally (generally at half"
+    },
+    {
+      "name": "Chicken Noodle Hot Tub",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure serious wounds, healing 3d8+7 damage and also granting a new save vs poison and disease at +4."
+    },
+    {
+      "name": "Deathsight",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A technological marvel of extra-sensory augmentation, this device hones in on the weak points of any visible target. It can focus on structural integrity, operational components, or other vital areas.\nAimed Spells:\nThis translates into an alteration of the magical damage caused by the wearer. Any touch or ranged touch spell cast by the caster has its dice size reduced by one, but critical threat range and multiplier expanded by 1.\nEg: Scorching Ray for 4d6, 20x2 becomes 4d4, 19/3.\nArea Spells:\nT"
+    },
+    {
+      "name": "Elven Sweetroll",
+      "type": "loot",
+      "equipped": false,
+      "description": "Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts. If you are an elf who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the Endurance feat. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+    },
+    {
+      "name": "Scroll of Haste",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast "
+    },
+    {
+      "name": "Scroll of Glitterdust",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A cloud of golden particles covers everyone and everything in the area, causing creatures to become blinded and visibly outlining invisible things for the duration of the spell. All within the area are covered by the dust, which cannot be removed and continues to sparkle until it fades. Each round at the end of their turn blinded creatures may attempt new saving throws to end the blindness effect.\nAny creature covered by the dust takes a -40 penalty on Stealth checks."
+    },
+    {
+      "name": "Key: P13",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Spellbook",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n\r\nA spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells).\n\r\nCompact Spellbook The need to be able to record and travel with dozens or even hundreds of spells often forces some wizards to seek lighter spellbooks. Compact spellbooks hold only 70 pages of spells, but they weigh significantly less than an ordinary spellbook. Source PZO1121\n\r\nTraveling Spellbook A traveling spellbook is lighter and less cumbersome tha"
+    },
+    {
+      "name": "Scroll of Ant Haul",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The target's carrying capacity triples (see Table 7-4: Carrying Capacity on page 171 of the Core Rulebook). This does not affect the creature's actual Strength in any way, merely the amount of material it can carry while benefiting from this spell. It also has no effect on encumbrance due to armor. If the creature wears armor it still takes the normal penalties for doing so regardless of how much weight the spell allows it to carry."
+    },
+    {
+      "name": "Robes of the Whispering Way",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These black and green traveling robes are enchanted for protection and durability. Even then, they are very worn from travel and use. They provide protection as light armor but do not interfere wtih spellcasting, item use, or general mobility.\nThe integrated mask also provides a constant air-bubble, and completely conceals the wearer's identity by covering every part of the body.\nThe suit increases Acid Resistance by 20."
+    },
+    {
+      "name": "Haunt Siphon 3.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": "These glass vials are held within stylized cold-iron casings etched with strange runes, necromantic designs, or other eldritch markings. Within the vial roils a small wisp of white vapor, churning as if caught in a miniature vortex of air. To capture a haunt’s energies within a haunt siphon, you need only twist the metal casing to open the vial in the same round that the haunt manifests (a standard action)—this can be before or after the haunt has acted. You must be within the haunt’s area of in"
+    },
+    {
+      "name": "Potion of Fly",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load).\nIt can ascend at half speed and descend at double speed, and its maneuverability is good. Using a fly spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can charge but not run, and it cannot carry aloft more weight than its maximum load, plus any armor it wears. The subject gains a bonus"
+    },
+    {
+      "name": "Wand of Magic Missile",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1 points of force damage.\nThe missile strikes unerringly, even if the target is in melee combat, so long as it has less than total cover or total concealment.\nSpecific parts of a creature can't be singled out. Objects are not damaged by the spell.\nFor every two caster levels beyond 1st, you gain an additional missile-two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th "
+    },
+    {
+      "name": "Torch City Roller",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Wand of Grease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nA grease spell covers a solid surface with a layer of slippery grease. Any creature in the area when the spell is cast must make a successful Reflex save or fall. A creature can walk within or through the area of grease at half normal speed with a DC 10 Acrobatics check. Failure means it can't move that round (and must then make a Reflex save or fall), while failure by 5 or more means it falls (see the Acrobatics skill for details). Creatures that do not move on t"
+    },
+    {
+      "name": "Thieves' Ring",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 300 gp; Weight -\n\nThis slightly over-sized ring conceals a few lockpicks and other tools coiled inside its band. These discreet tools, made of a metal alloy that springs straight once the tool is removed from the band, are sufficient to attempt Disable Device checks without penalty, and long enough to pick locks on manacles fastened around the wearer's hands (once she slips off the ring). The wearer gains a +2 circumstance bonus on Sleight of Hand checks made to conceal the ring's nature f"
+    },
+    {
+      "name": "Scroll of Disguise Self",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Illusion (glamer); Level alchemist 1, antipaladin 1, arcanist 1, bard 1, inquisitor 1, investigator 1, medium 1, mesmerist 1, occultist 1, psychic 1, skald 1, sorcerer 1, wizard 1; Domain Trickery 1; Bloodline Div 1, Nanite 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 10 min./level\n\n  \n\nYou make yourself--including clothing, armor, weapons, and equipmen--look different. You can seem 1 foot shorter or taller, thin, fat, o"
+    },
+    {
+      "name": "Scroll of Eagle's Splendor",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level alchemist 2, antipaladin 2, arcanist 2, bard 2, bloodrager 2, cleric 2, investigator 2, medium 2, mesmerist 2, oracle 2, paladin 2, psychic 2, shaman 2, skald 2, sorcerer 2, summoner 2, summonerUnchained 2, warpriest 2, wizard 2; Bloodline Imperious 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M/DF (feathers or droppings from an eagle)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration 1 min./level\n\n    Saving Throw Will negates;\n    Spell"
+    },
+    {
+      "name": "Potion of Gaseous Form",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject and all its gear become insubstantial, misty, and translucent. Its material armor (including natural armor) becomes worthless, though its size, Dexterity, deflection bonuses, and armor bonuses from force effects still apply. The subject gains DR 10/ magic and becomes immune to poison, sneak attacks, and critical hits. It can't attack or cast spells with verbal, somatic, material, or focus components while in gaseous form. This does not rule out the use of certain spells that the subj"
+    },
+    {
+      "name": "Scroll of Monkey Fish",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Alchemist 1, Arcanist 1, Druid 1, Hunter 1, Investigator 1, Magus 1, Psychic 1, Shaman 1, Sorcerer 1, Wizard 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 1 minute/level\n\n  \n\nYour hands and feet alter to make you better at climbing and swimming. You gain a 10 foot climb speed and swim speed. This spell has no effect if you are wearing medium or heavy armor or carrying a medium or heavy load."
+    },
+    {
+      "name": "Warden's Black Autumn Cloak +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This cloak is a deep black, with subtle hints of amber and crimson, resembling the colors of autumn leaves at dusk.\nPowers:\nShadow's Embrace: Grants a +10 on escape artist checks. Nothing sticks to the fabric and it slips and flows through any grip like water.Harvest's Fortune: Once per day, the wearer can cast Entangle as a spell-like ability.History: Worn by Thorn Blackthorn, the group's rogue, this cloak helped him escape danger and manipulate the environment to his advantage.\n\nConstant Endur"
+    }
+  ]
+}

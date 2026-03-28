@@ -1,0 +1,25 @@
+{
+  "name": "Parnoneryx",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Dragon",
+      "level": 18
+    }
+  ],
+  "hp": {
+    "max": 275
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 14,
+    "con": 26,
+    "int": 20,
+    "wis": 22,
+    "cha": 20
+  },
+  "items": []
+}

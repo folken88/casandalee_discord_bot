@@ -1,0 +1,32 @@
+{
+  "name": "Integrity",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Android",
+  "classes": [
+    {
+      "name": "Cleric",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 14
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 11,
+    "wis": 17,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "+1 Mithral O-Yoroi",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Worn almost exclusively by highranking samurai, o-yoroi—or “great armor”—is a heavy combat armor that consists of various supplementary components that include both plate and lamellar elements. Each suit is crafted for a specific individual and displays the owner’s aesthetic. Upon completion, the suit is colored and sealed with a final lacquer finish. The centerpiece of o-yoroi is a cuirass consisting of two parts—a separate reinforcement for the right side called a waidate, and a kikko cuirass."
+    }
+  ]
+}

@@ -1,23 +1,22 @@
 ---
 name: "Dena"
 type: character
-campaign: "CC"
-tags: [character, cc]
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T02:59:09.551Z"
 ---
 
 # Dena
 
-**Race:** Unknown | **Class:** Unknown | **Level:** ?
-
 ## Notes & Updates
 
-- Denva is noted as being able to cast restoration spells herself and can cast greater restoration to help remove negative levels from party members.; Has channels per day ability; party concerned about disappointing her upon return *(youtube-transcript, 3/25/2026)*
-- Crafting items while being bodyguarded by Dismas and Rodney Danger Smith *(youtube-transcript, 3/25/2026)*
-- Can activate wands and scrolls; only person who can cast resurrection spell, though Alfred can also do it *(youtube-transcript, 3/25/2026)*
-
+- Suggested as the only character from SUES who could have a scientific conversation with Dramus. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Carrion Crown - Feldgrau Streetfight 2025 02 09
-Was shot by Sydney from a seated position, with Kai providing support.
-
+*Session activity from YouTube transcripts will appear here.*

@@ -1,0 +1,42 @@
+{
+  "name": "Ragh",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Orc",
+  "classes": [
+    {
+      "name": "Fighter (Dirty Fighter)",
+      "level": 9
+    },
+    {
+      "name": "Brawler",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 30
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 16,
+    "int": 10,
+    "wis": 14,
+    "cha": 8
+  },
+  "items": [
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "A 6' Steel Beam",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This Steel Beam is just a steel beam that has been enchanted +2, throwing & returning so that it is now in fact a +2 Throw and Return Steel Beam."
+    }
+  ]
+}

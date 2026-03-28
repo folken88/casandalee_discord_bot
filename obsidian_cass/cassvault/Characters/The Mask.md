@@ -1,17 +1,22 @@
 ---
 name: "The Mask"
 type: character
-campaign: "CC"
-tags: [character, cc]
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T02:17:07.433Z"
 ---
 
 # The Mask
 
-**Race:** Unknown | **Class:** Unknown | **Level:** ?
+## Notes & Updates
 
+- Attacked you with a crossbow, dealing 24 damage. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Carrion Crown - Feldgrau Streetfight 2025 02 09
-Provides dark vision, makes wearer invisible, and causes disconnection with other living beings.
-
+*Session activity from YouTube transcripts will appear here.*

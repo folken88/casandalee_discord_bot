@@ -1,0 +1,285 @@
+{
+  "name": "The Mockery",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Scroll of Dimension Door",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You instantly transfer yourself from your current location to any other spot within range. You always arrive at exactly the spot desired--whether by simply visualizing the area or by stating direction. After using this spell, you can't take any other actions until your next turn. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equival"
+    },
+    {
+      "name": "Potion of Nondetection",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The warded creature or object becomes difficult to detect by divination spells such as clairaudience/clairvoyance, locate object, and detect spells. Nondetection also prevents location by such magic items as crystal balls. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast nondetection. If you cast nondetection on yourself or on "
+    },
+    {
+      "name": "Scroll of Primal Regression",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Enchantment (Compulsion) [mind-affecting]; Level Druid 6, Hunter 6, Mesmerist 5, Psychic 6, Shaman 6, Witch 7\n    \n\n  \n  Casting Time Standard\n\n  Components S\n\n  \n\n  \n  Range Close (25 ft. + 5 ft./2 levels)\n\n  \n  Targets one creature/2 levels, no two of which can be more than 30 feet apart\n\n  \n  Duration 11 Minutes\n\n    Saving Throw Will negates;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionThis spell sequesters the targets' ability for higher reasoning, allowing their darker impulses to"
+    },
+    {
+      "name": "Scroll of Dimension Door",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Teleportation); Level Arcanist 4, Bard 4, Magus 4, Medium 3, Mesmerist 4, Occultist 4, Psychic 4, Skald 4, Sorcerer 4, Spiritualist 4, Summoner 3, Summoner (Unchained) 4, Witch 4, Wizard 4; Domain Travel 4; Bloodline Arcane 4\n    \n\n  \n  Casting Time Standard\n\n  Components V\n\n  \n\n  \n  Range Long (400 ft. + 40 ft./level)\n\n  \n  Targets you and touched objects or other touched willing creatures\n\n  \n  Duration Instantaneous\n\n    Saving Throw none and Will negates (object);\n    Spe"
+    },
+    {
+      "name": "Wand of See Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can see any objects or beings that are invisible within your range of vision, as well as any that are ethereal, as if they were normally visible. Such creatures are visible to you as translucent shapes, allowing you easily to discern the difference between visible, invisible, and ethereal creatures.\nThe spell does not reveal the method used to obtain invisibility.\nIt does not reveal illusions or enable you to see through opaque objects. It does not reveal creatures who are simply hiding, con"
+    },
+    {
+      "name": "Scroll of Disintegrate",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Arcanist 6, Magus 6, Occultist 6, Psychic 6, Sorcerer 6, Spiritualist 6, Wizard 6; Domain Destruction 7; Subdomain Ash 7; Bloodline Div 6, Protean 6\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M/DF (a lodestone and a pinch of dust)\n\n  \n\n  \n  Range Medium (100 ft. + 10 ft./level)\n\n  \n  \n  Effect ray\n\n  Duration Instantaneous\n\n    Saving Throw Fortitude partial (object);\n    Spell Resistance yes\n    \n\n  \n\nDescriptionA thin, green ray springs from your pointing "
+    },
+    {
+      "name": "Potion of Disguise Self",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You make yourself--including clothing, armor, weapons, and equipmen--look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender.\nThe spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile"
+    },
+    {
+      "name": "Scroll of Raise Dead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 5, Cleric 5, Oracle 5, Shaman 6, Spiritualist 5, Warpriest 5, Witch 6; Subdomain Resurrection 5\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (diamond worth 5,000 gp), DF\n\n  \n\n  \n  Range Touch\n\n  \n  Targets dead creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw none; see text;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionYou restore life to a deceased creature. You can raise a creature that has been dead for no longer than 1 day p"
+    },
+    {
+      "name": "Scroll of Disguise Self",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You make yourself--including clothing, armor, weapons, and equipmen--look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender.\nThe spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile"
+    },
+    {
+      "name": "Potion of Cure Critical Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 4d8 points of damage + 1 point per caster level (maximum +20)."
+    },
+    {
+      "name": "Potion of Delay Poison",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject becomes temporarily immune to poison. Any poison in its system or any poison to which it is exposed during the spell's duration does not affect the subject until the spell's duration has expired. Delay poison does not cure any damage that poison may have already done."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Scroll of Dispel Magic",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can use dispel magic to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by dispel magic. Dispel magic can dispel (but not counter) spell-like effects just as it does spells. The of a spell with an instantaneous duration can't be dispelled, because the"
+    },
+    {
+      "name": "Potion of Remove Disease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove disease can cure all diseases from which the subject is suffering. You must make a caster level check (1d20 + caster level) against the DC of each disease affecting the target. Success means that the disease is cured. The spell also kills some hazards and parasites, including green slime and others.\nSince the spell's duration is instantaneous, it does not prevent reinfection after a new exposure to the same disease at a later date."
+    },
+    {
+      "name": "Wand of Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light"
+    },
+    {
+      "name": "Scroll of Freedom of Movement",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell enables you or a creature you touch to move and attack normally for the duration of the spell, even under the influence of magic that usually impedes movement, such as paralysis, solid fog, slow, and web. All combat maneuver checks made to grapple the target automatically fail. The subject automatically succeeds on any combat maneuver checks and Escape Artist checks made to escape a grapple or a pin.\nThe spell also allows the subject to move and attack normally while underwater, even "
+    },
+    {
+      "name": "Wand of Disguise Other",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions as disguise self, except you can disguise either yourself or another creature."
+    },
+    {
+      "name": "Scroll of Air Walk, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation [air]; Level Alchemist 5, Cleric 5, Druid 5, Hunter 5, Investigator 5, Occultist 5, Oracle 5, Warpriest 5\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, DF\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creatures touched\n\n  \n  Duration 90 Minutes\n\n    Saving Throw None;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionThis spell functions like air walk, except divide the duration in 10-minute intervals among the creatures touched."
+    },
+    {
+      "name": "Scroll of Fly, Mass",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Arcanist 7, Psychic 7, Sorcerer 7, Wizard 7; Domain Vermin 8; Subdomain Feather 6\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, F (a wing feather)\n\n  \n\n  \n  Range Close (25 ft. + 5 ft./2 levels)\n\n  \n  Targets one creature/level, no two of which can be more than 30 ft. apart\n\n  \n  Duration 130 Minutes\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionThis spell functions as fly, save that it can target numerous creatures"
+    },
+    {
+      "name": "Scroll of Haste",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast "
+    },
+    {
+      "name": "Potion of Remove Blindness/Deafness",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove blindness/deafness cures blindness or deafness (your choice), whether the effect is normal or magical in nature. The spell does not restore ears or eyes that have been lost, but it repairs them if they are damaged.\nRemove blindness/deafness counters and dispels blindness/deafness."
+    },
+    {
+      "name": "Wand of Nondetection",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The warded creature or object becomes difficult to detect by divination spells such as clairaudience/clairvoyance, locate object, and detect spells. Nondetection also prevents location by such magic items as crystal balls. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast nondetection. If you cast nondetection on yourself or on "
+    },
+    {
+      "name": "Wand of Oath of Anonymity",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You swear an oath not to reveal your identity, magically preventing anyone from discovering it so long as you avoid revealing your face or other easily identifiable features. The spell distorts your voice and subtly alters your body language and the appearance of your gear and any animals you use, whether as companions, mounts, or otherwise. This spell does not make you appear to be a different creature type, nor does it change your apparent height or body type.  This spell provides you with a +"
+    },
+    {
+      "name": "Scroll of Dimensional Anchor",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A green ray springs from your hand. You must make a ranged touch attack to hit the target. Any creature or object struck by the ray is covered with a shimmering emerald field that completely blocks extradimensional travel. Forms of movement barred by a dimensional anchor include astral projection, blink, dimension door, ethereal jaunt, etherealness, gate, maze, plane shift, shadow walk, teleport, and similar spell-like abilities. The spell also prevents the use of a gate or teleportation circle "
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Wand of Disguise Self",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You make yourself--including clothing, armor, weapons, and equipmen--look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender.\nThe spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile"
+    },
+    {
+      "name": "Scroll of Resurrection",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Cleric 7, Oracle 7, Shaman 8, Witch 8; Subdomain Divine 7, Resurrection 7\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (diamond worth 10,000 gp), DF\n\n  \n\n  \n  Range Touch\n\n  \n  Targets dead creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw none; see text;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionThis spell functions like raise dead, except that you are able to restore life and complete strength to any deceased creature.\nThe conditi"
+    },
+    {
+      "name": "Potion of Cat's Grace",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creature becomes more graceful, agile, and coordinated. The spell grants a +4 enhancement bonus to Dexterity, adding the usual benefits to AC, Reflex saves, and other uses of the Dexterity modifier."
+    },
+    {
+      "name": "Scroll of Air Walk",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation [air]; Level Alchemist 4, Cleric 4, Druid 4, Hunter 4, Investigator 4, Occultist 4, Oracle 4, Warpriest 4; Domain Air 4\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, DF\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature (Gargantuan or smaller) touched\n\n  \n  Duration 70 Minutes\n\n    Saving Throw None;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionThe subject can tread on air as if walking on solid ground. Moving upward is similar to walking up a hill. The maximum upward or d"
+    },
+    {
+      "name": "Scroll of Teleport, Greater",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Teleportation); Level Arcanist 7, Psychic 7, Sorcerer 7, Summoner 5, Summoner (Unchained) 6, Witch 7, Wizard 7; Domain Travel 7; Bloodline Abyssal 7, Arcane 7, Infernal 7\n    \n\n  \n  Casting Time Standard\n\n  Components V\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you and touched objects or other touched willing creatures\n\n  \n  Duration Instantaneous\n\n  \n\nDescriptionThis spell functions like teleport, except that there is no range limit and there is no chance you arrive off target."
+    },
+    {
+      "name": "Scroll of Overland Flight",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Alchemist 5, Arcanist 5, Investigator 5, Magus 5, Occultist 5, Psychic 5, Shaman 5, Sorcerer 5, Spiritualist 5, Summoner 4, Summoner (Unchained) 5, Witch 5, Wizard 5; Domain Void 5; Subdomain Trade 5; Bloodline Arcane 5, Djinni 5, Starsoul 5, Stormborn 5\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 9 Hours\n\n  \n\nDescriptionThis spell functions like a fly spell, except you can fly at a speed of 40 feet (30"
+    },
+    {
+      "name": "Potion of Delay Disease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The target becomes temporarily immune to disease. Any disease to which it is exposed during the spell's duration does not affect the target until the spell's duration has expired. If the target is currently infected with a disease, you must make a caster level check against the disease's DC to suspend it for the duration of the spell; otherwise, that disease affects the target normally. Delay disease does not cure any damage a disease may have already done."
+    },
+    {
+      "name": "Scroll of Dispel Magic",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can use dispel magic to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by dispel magic. Dispel magic can dispel (but not counter) spell-like effects just as it does spells. The of a spell with an instantaneous duration can't be dispelled, because the"
+    },
+    {
+      "name": "Potion of Neutralize Poison",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You detoxify any sort of venom in the creature or object touched. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each poison affecting the target. Success means that the poison is neutralized. A cured creature suffers no additional effects from the poison, and any temporary effects are ended, but the spell does not reverse instantaneous effects, such as hit point damage, temporary ability damage, or effects that don't go away on their own."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Scroll of Teleport",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Teleportation); Level Arcanist 5, Magus 5, Medium 4, Occultist 5, Psychic 5, Sorcerer 5, Spiritualist 5, Summoner 4, Summoner (Unchained) 5, Witch 5, Wizard 5; Domain Travel 5\n    \n\n  \n  Casting Time Standard\n\n  Components V\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you and touched objects or other touched willing creatures\n\n  \n  Duration Instantaneous\n\n  \n\nDescriptionThis spell instantly transports you to a designated destination, which may be as distant as 100 miles per caster"
+    },
+    {
+      "name": "Scroll of Nondetection, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like nondetection, except you divide the duration in 1-hour increments among the creatures or objects touched."
+    },
+    {
+      "name": "Scroll of Mage's Private Sanctum",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell ensures privacy. Anyone looking into the area from outside sees only a dark, foggy mass. Darkvision cannot penetrate it. No sounds, no matter how loud, can escape the area, so nobody can eavesdrop from outside. Those inside can see out normally.\nDivination (scrying) spells cannot perceive anything within the area, and those within are immune to detect thoughts. The ward prevents speech between those inside and those outside (because it blocks sound), but it does not prevent other comm"
+    },
+    {
+      "name": "Potion of Remove Paralysis",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can free one or more creatures from the effects of temporary paralysis or related magic, including spells and effects that cause a creature to gain the staggered condition. If the spell is cast on one creature, the paralysis is negated. If cast on two creatures, each receives another save with a +4 resistance bonus against the effect that afflicts it. If cast on three or four creatures, each receives another save with a +2 resistance bonus.\nThe spell does not restore ability scores reduced b"
+    },
+    {
+      "name": "Wand of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Scroll of Remove Curse",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove curse can remove all curses on an object or a creature. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each curse affecting the target.\nSuccess means that the curse is removed. Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although a successful caster level check enables the creature afflicted with any such cursed item to remove and get rid of it.\nRemove curse counters and dispels bestow curs"
+    },
+    {
+      "name": "Potion of Remove Curse",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove curse can remove all curses on an object or a creature. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each curse affecting the target.\nSuccess means that the curse is removed. Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although a successful caster level check enables the creature afflicted with any such cursed item to remove and get rid of it.\nRemove curse counters and dispels bestow curs"
+    },
+    {
+      "name": "Scroll of Nondetection",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The warded creature or object becomes difficult to detect by divination spells such as clairaudience/clairvoyance, locate object, and detect spells. Nondetection also prevents location by such magic items as crystal balls. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast nondetection. If you cast nondetection on yourself or on "
+    },
+    {
+      "name": "Scroll of Freedom of Movement",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell enables you or a creature you touch to move and attack normally for the duration of the spell, even under the influence of magic that usually impedes movement, such as paralysis, solid fog, slow, and web. All combat maneuver checks made to grapple the target automatically fail. The subject automatically succeeds on any combat maneuver checks and Escape Artist checks made to escape a grapple or a pin.\nThe spell also allows the subject to move and attack normally while underwater, even "
+    }
+  ]
+}

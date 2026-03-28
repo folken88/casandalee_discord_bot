@@ -1,0 +1,29 @@
+{
+  "name": "Zombie Lord",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 2
+    },
+    {
+      "name": "Monk",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 9
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 16,
+    "con": 0,
+    "int": 12,
+    "wis": 15,
+    "cha": 10
+  },
+  "items": []
+}

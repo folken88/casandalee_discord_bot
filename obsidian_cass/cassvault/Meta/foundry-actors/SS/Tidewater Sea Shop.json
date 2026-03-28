@@ -1,0 +1,579 @@
+{
+  "name": "Tidewater Sea Shop",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Thousand Yes",
+      "type": "loot",
+      "equipped": false,
+      "description": "This book contains 500 pages, with the word \"Yes\" written repeatedly on both sides of every page. Many believe there is more to this book than what meets the eye, but no one has yet identified its true purpose. Holding the book gives an ominous, unsettling feeling, and staring into its pages for too long makes it seem as if the word itself begins to warp and shift. The only clue to its origin is the name of its author is a small note stating \"One.\""
+    },
+    {
+      "name": "Scroll of Magic Missile",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1 points of force damage.\nThe missile strikes unerringly, even if the target is in melee combat, so long as it has less than total cover or total concealment.\nSpecific parts of a creature can't be singled out. Objects are not damaged by the spell.\nFor every two caster levels beyond 1st, you gain an additional missile-two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th "
+    },
+    {
+      "name": "Warhammer",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 12 gp Weight 5 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type B; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Hammers\nDescriptionThis weapon consists of a wooden haft and a heavy, metal head. The head may be single (like a carpenter's hammer) or double (like a sledgehammer). The haft is long enough that you may wield it one- or two-handed. Though heavy and relatively slow to wield, "
+    },
+    {
+      "name": "Wand of Bless Weapon",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This transmutation makes a weapon strike true against evil foes. The weapon is treated as having a +1 enhancement bonus for the purpose of bypassing the DR of evil creatures or striking evil incorporeal creatures (though the spell doesn't grant an actual enhancement bonus). The weapon also becomes good-aligned, which means it can bypass the DR of certain creatures. (This effect overrides and suppresses any other alignment the weapon might have.) Individual arrows or bolts can be transmuted, but "
+    },
+    {
+      "name": "Starknife",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, Rise of the Runelords Player's Guide pg. 11, Curse of the Crimson Throne Player's Guide pg. 13, Pathfinder Campaign Setting pg. 209, PRPG Core Rulebook pg. 142, Varisia, Birthplace of Legends pg. 14\nStatisticsCost 24 gp Weight 3 lbs.\nDamage 1d3 (small), 1d4 (medium); Critical x3; Range 20 ft.; Type P; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Blades, Light; Thrown\nDescriptionFrom a central metal ring, four tapering metal blades extend from this"
+    },
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    },
+    {
+      "name": "Chelish Blacksteel Katana",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Chelish Blacksteel Katana is forged in the fires of the Nine Hells, bestowing it with a dark, ominous gleam. Its blade is sharp enough to cut through the moral fabric between worlds. Often wielded by ninja assassin devils of Cheliax, this katana is a feared symbol of the infernal powers of House Thrune. The hilt is wrapped in black leather, and infernal runes adorn the blade. The weapon is perfectly balanced for both swift slashes and precise thrusts.\nAura: faint transmutation\nCaster Level: "
+    },
+    {
+      "name": "Kit, Disguise",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 77, PRPG Core Rulebook pg. 158\nPrice 50 gp; Weight 8 lbs.\nCategory Tools\nDescriptionThis kit contains tools like makeup and fake facial hair, and provides a +2 circumstance bonus on Disguise checks. A disguise kit is exhausted after 10 uses."
+    },
+    {
+      "name": "Silver Ore",
+      "type": "loot",
+      "equipped": false,
+      "description": "Silver Ore is one of the most sought-after ores, valued for its use in metallurgy and coinage. It is commonly made as an alloy with other metals and is the primary material for minting the most circulated type of coin. Unlike gold, which is often hoarded by the elite, silver circulates widely, fueling trade across vast empires. It can also be ground into fine dust for use in the making of mirrors and weaponry, as it is known to hunt down creatures of the night."
+    },
+    {
+      "name": "Plunderpress Merlot",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Pressed with all the care and grace of a pirate’s boot—one sympathizes.\"\nPlunderpress is the Shackles’ answer to a sailor’s thirst: rough, inconsistent, and just barely deserving of the name \"wine.\" Made from a haphazard mix of grapes and other fruits crushed under less-than-ideal conditions (usually boots or crude shipboard presses), it’s a far cry from fine vintages. Yet, for many pirates, it’s better than risking bad water or enduring sobriety on a long voyage.\nEffectsWhile its quality leave"
+    },
+    {
+      "name": "Lizardfolk Signal Horn",
+      "type": "loot",
+      "equipped": true,
+      "description": "Sounding a horn requires a DC 10 Perform (wind instruments) check and can convey concepts such as \"Attack!\", \"Help!\", \"Advance!\", \"Retreat!\", \"Fire!\", and, \"Alarm!\" The report of a signal horn can be clearly heard (Perception DC 0) up to a half-mile distant. For each quarter-mile beyond, Perception checks to hear the horn suffer a -1 penalty."
+    },
+    {
+      "name": "Whispered Courage Whiskey",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Drink the blood of heroes.\"Whispered Courage is aged in barrels made from pines cut from the Stoneheart Massacre Glade.This powerful spirit grants +4 vs fear saves for 1 hour. The bonus is doubled if an ally who also drank the whiskey is threatened within your sight."
+    },
+    {
+      "name": "Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 2 gp Weight 1 lb.\nDamage 1d3 (small), 1d4 (medium); Critical 19-20/x2; Range 10 ft.; Type P or S; Special -\nCategory Light; Proficiency Simple\nWeapon Groups Blades, Light; Thrown; Tribal\nDescriptionA dagger is a fighting knife. Its blade is usually less than 1 foot long, and can be curved or straight, with one edge or two. Dagger designs vary widely, and can have many different names (such as a thrusting dagger being cal"
+    },
+    {
+      "name": "Handaxe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 6 gp Weight 3 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x3; Range -; Type S; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Axes; Tribal\nDescriptionThis one-handed axe is short (roughly 1 foot long) and designed for use with one hand. Unlike throwing axes, it is not well balanced for a graceful tumbling motion, and is instead heavier at its head. Tomahawks, war hatchets, and other such names usually re"
+    },
+    {
+      "name": "Spear of the Mangrove Watch",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This is a spear grown, not forged, by the rangers of the Windward-Island lizardfolk. Its shaft is a single length of mangrove heartwood, reinforced with braided jungle vine and embedded bone rings. The leaflike blade is carved from magically hardened coral, adorned with a living jade sprout that always stays green. It pulses with the rhythm of the tides, guiding the ranger’s strikes like a living companion.\nForged from swamp tradition, ancestral magic, and salt-wind reverence, this weapon is mor"
+    },
+    {
+      "name": "Tools, Thieves'",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 77, PRPG Core Rulebook pg. 158\nPrice  30 gp (common),  100 gp (masterwork); Weight 1 lb. (common), 2 lbs. (masterwork)\nDescriptionThis kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.\n\n Masterwork Thieves' Tools: This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Devic"
+    },
+    {
+      "name": "Soap",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, Adventurer's Armory pg. 19, PRPG Core Rulebook pg. 158\nPrice 1 cp; Weight 1/2 lb.\nCategory Adventuring Gear\nDescriptionMost soap is made from animal fat and lye derived from ashes. You can use this thick block of soap to scrub clothes, pots, linens, adventurers, or anything else that might be dirty. A bar of soap has approximately 50 uses."
+    },
+    {
+      "name": "Cards",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 92\nPrice 1 sp–100 gp; Weight 1 lb.\nCategory Entertainment\n\nDescription\nPlaying cards range from block-printed symbols on thick paper to elaborate, hand-painted works of art on waxed vellum, ivory, wood, or even metal."
+    },
+    {
+      "name": "Tidebreaker Breastplate",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This breastplate is crafted to withstand the harsh conditions of the sea. A hallmark of the guards stationed at Tidewater Rock, it is adorned with intricate engravings of crashing waves and nautical emblems. It has been polished to a gleaming silver-blue sheen that captures ambient light, reflecting the shimmering depths of the ocean. The armor is renowned among sailors and marines for offering balanced protection while allowing flexibility in combat.\nAura: faint abjuration\nCaster Level: 5\nRequi"
+    },
+    {
+      "name": "Nickel Ore",
+      "type": "loot",
+      "equipped": false,
+      "description": "Nickel ore is a rare and prized mineral that can only be found deep within the earth.  It is said to be incredibly strong and durable, making it highly demanded metal by blacksmiths and craftsmen alike."
+    },
+    {
+      "name": "Potion of Haste",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast "
+    },
+    {
+      "name": "Golden Encrusted Goblet",
+      "type": "loot",
+      "equipped": false,
+      "description": "Throughout history and in certain fringe regions of the realms, goblets served as a symbol of status and refinement. Alchemists and herbalists have long warned against drinking alcohol from gold goblets, as the metal can react with the contents and produce toxic effects. Today, such goblets are most often discovered in forgotten tombs or among the hoards of exotic collectors, winged or otherwise."
+    },
+    {
+      "name": "Ruby Spinel",
+      "type": "loot",
+      "equipped": false,
+      "description": "They say, if you ingest these, although, I wouldn't recommend it one bit, you can remember spells. Now I wonder, how can someone forget? Spinel is a rare mineral, and due to it, used to substitute even rarer ones like rubies. The blue variant is one of the most expensive gemstones on the market."
+    },
+    {
+      "name": "+1 Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Caydenbrew Teenie-Keg",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"One swig, one blessing, one tale to tell—or forget.\"\n\nCaydenbrew Teenie-Kegs are single-serving wooden kegs of Cayden Cailean’s iconic brew, blessed in his name and crafted for adventurers, rogues, and pirates who seek fortune, bravery, and maybe just a bit of luck. Compact and practical, they’re a common sight among the devout—or those who just like to party.\n\nLore\nBrewed with Blessings: Caydenbrew Teenie-Kegs are said to contain a drop of water from Cayden Cailean’s legendary Everlasting Tank"
+    },
+    {
+      "name": "Milk",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 5 cp; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionMilk is a nutritious liquid created by mammals, in particular cows, goats, sheep, and horses. Fresh milk is thick and tends to separate. Often, the cream is allowed to rise to the top and then skimmed off, with the remainder served as a beverage."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Yogurt",
+      "type": "consumable",
+      "equipped": true,
+      "description": "YogurtSource Ultimate Equipment pg. 95\nPrice  1 sp; Weight  1/2 lb.\nCategory Food/DrinkDescriptionThis thick, fermented milk has a tangier taste than unprocessed milk. It may be sweetened with fruit, honey, or jam; blended with chopped herbs and oil to create a sauce; or mixed with water and salt, sugar, fruit, or mint as a drink."
+    },
+    {
+      "name": "Banded Mail",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Banded mail is made up of overlapping strips of metal, fastened to a sturdy backing of leather and chain. The size of the metal plates, interconnected metal bands, and layers of underlying armor make it a more significant defense than similar armors, like scale mail or splint mail."
+    },
+    {
+      "name": "Booger",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This prestigious vintage from the Konzdervoltz Estate—nestled in the limestone-rich hills outside Oppara—is known for its absurdly nasal pronunciation, its deeply complex notes of plums, cedar, and crushed violet, and its power to simultaneously elevate conversation and start duels. While outsiders might snicker at the name, among Taldan nobles, a bottle of Booger is a status symbol. No gala, diplomatic gathering, or high-stakes trade negotiation is considered truly respectable unless Booger is "
+    },
+    {
+      "name": "Candle",
+      "type": "loot",
+      "equipped": false,
+      "description": "Candle\nA candle dimly illuminates a small area, increasing the light level in a 5-foot radius by one step (darkness becomes dim light and dim light becomes normal light). A candle cannot increase the light level above normal light. A candle burns for 1 hour. Price 1 cp; Weight -\n\nCandle, Helmet This device consists of a helmet with a short, thin spike on top upon which a candle is stuck, freeing your hands for other tasks. Price 2 gp; Weight 4 lbs.\n\nCandle Lamp A candle lamp is a small lantern-l"
+    },
+    {
+      "name": "Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A breastplate protects a wearer’s torso with a single piece of sculpted metal, similar to the core piece of a suit of full plate. Despite its sturdiness, its inflexibility and open back make it inferior to complete suits of metal armor, but still an improvement over most non-metal armors."
+    },
+    {
+      "name": "Masterwork Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Scroll of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Brow Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town.\n@JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}"
+    },
+    {
+      "name": "Tidewater Rock Longbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Tidwater Rock Standard Issue Composite Longbow is a finely crafted masterwork weapon, renowned for its role among the elite guards of the Tidwater Rock coastal fortress. This longbow is expertly designed to harness the strength of its wielder, crafted by skilled artisans from the heart of the Tidwater Rock region. Each bow bears intricate etchings along its shaft, depicting waves and nautical motifs, reflecting its origin. Guardians of the fortress favor these bows for their exquisite balanc"
+    },
+    {
+      "name": "Dice",
+      "type": "loot",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 92\nPrice 1 sp; Weight -\nCategory Entertainment\n\nDescription\nDice can come in many shapes, but the most common are cubes."
+    },
+    {
+      "name": "Kit, Climber's",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 77, PRPG Core Rulebook pg. 158\nPrice 80 gp; Weight 5 lbs.\nCategory Tools\nDescriptionThese crampons, pitons, ropes, and other tools give you a +2 circumstance bonus on Climb checks."
+    },
+    {
+      "name": "Sap",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 1 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range -; Type B; Special nonlethal\nCategory Light; Proficiency Martial\nWeapon Groups Close\nDescriptionThis weapon consists of a soft wrapping around a hard, dense core, typically a leather sheath around a lead rod. The head is wider than the handle and designed to spread out the force of the blow, making it less likely to draw blood or break bones."
+    },
+    {
+      "name": "Magnifying Glass",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice 100 gp; Weight -\nCategory Adventuring Gear\nDescriptionThis simple lens allows a closer look at small objects. It is also useful as a substitute for a flint and steel when starting fires. Lighting a fire with a magnifying glass requires bright light, such as sunlight to focus, tinder to ignite, and at least a fullround action. A magnifying glass grants a +2 circumstance bonus on Appraise checks involving any item that is small or "
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Corsair's Coat",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Corsair’s Coat is a stylish, weathered leather coat designed for swashbucklers and those who live by the sea. Light enough to move freely in battle, this coat is reinforced with hidden strips of flexible metal, offering protection without restricting the wearer’s agility.\nIt functions as a mithral chain shirt +1\n +2 on acrobatics - comfortable yet maneuverable feel\n+4 CMD - helping the wearer avoid many dangers of boarding"
+    },
+    {
+      "name": "Verdant Fang Bow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Fashioned from the twisted roots of an ancient mangrove tree that once stood at the heart of a sacred tidal grove, the Verdant Fang is a +1 composite shortbow used by the Windward-Isles lizardfolk druids. Living far from cities and ports, these jungle stalkers rely on cunning, survival instinct, and nature’s favor to protect their territory and feed their clans.\nVines still cling to the bow’s limbs, swaying as if alive, and the grip pulses faintly with primal energy when drawn under the canopy o"
+    },
+    {
+      "name": "+1 Short Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 10 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 19-20/x2; Range -; Type P; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Blades, Light\nDescriptionShort swords are some of the most common weapons found in any martial society, and thus designs are extremely varied, depending on the region and creator. Most are around 2 feet in length. Their blades can be curved or straight, single- or double-ed"
+    },
+    {
+      "name": "Alchemist's fire",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Alchemist's fireSource Alchemy Manual pg. 30, Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158\nPrice 20 gp; Weight 1 lb.\nCategory Alchemical WeaponsDescriptionAlchemist's fire is a mix of several volatile liquids that ignite when exposed to air. You can throw a flask of alchemist's fire as a splash weapon. Treat this attack as a ranged touch attack with a range increment of 10 feet.\n\n A direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hi"
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Lizardfolk Leathers",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Made from a variety of skins blended together. Best not to think about it."
+    },
+    {
+      "name": "Silver Goblet",
+      "type": "loot",
+      "equipped": false,
+      "description": "Silver goblets, along with other pieces such as plates, platters, cutlery, and eating utensils, are ever-present in a noble household. These items are often commissioned in bulk, typically from a dedicated smithy or the local blacksmith. In most cases, the noble provides the silver ingots required for the commission, having full control over the final product."
+    },
+    {
+      "name": "Acid",
+      "type": "consumable",
+      "equipped": true,
+      "description": "AcidSource Alchemy Manual pg. 30, Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158\nPrice 10 gp; Weight 1 lb.\nCategory Alchemical WeaponsDescriptionYou can throw a flask of acid as a splash weapon. Treat this attack as a ranged touch attack with a range increment of 10 feet. A direct hit deals 1d6 points of acid damage. Every creature within 5 feet of the point where the acid hits takes 1 point of acid damage from the splash.\nAlchemical RecipeRecipe (10 brimstone + 8 salt + 1 saltpeter)/dis"
+    },
+    {
+      "name": "Scroll of Summon Swarm",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You summon a swarm of bats, rats, or spiders (your choice), which attacks all other creatures within its area. (You may summon the swarm so that it shares the area of other creatures.) If no living creatures are within its area, the swarm attacks or pursues the nearest creature as best it can. The caster has no control over its target or direction of travel."
+    },
+    {
+      "name": "Heavy Mace",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 12 gp Weight 8 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x2; Range -; Type B; Special -\nCategory One-Handed; Proficiency Simple\nWeapon Groups Hammers\nDescriptionA heavy mace has a larger head and a longer handle than a light mace."
+    },
+    {
+      "name": "Supple, A Wine By Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Calvin Carpenter's finest line of dry white wines, made from the finest potatoes from exclusive farms in Ravounel, has a name - Supple.\nEnjoy a glass of premium and refined flavor.\nSavor the taste and aroma of the rich, earthy notes in each bottle, expertly crafted from the finest ingredients. Raise a glass of Supple, the epitome of luxury and refinement."
+    },
+    {
+      "name": "Chelish Scout Chain Shirt",
+      "type": "equipment",
+      "equipped": false,
+      "description": "The Chelish Scout Chain Shirt is a finely crafted piece of armor, renowned for its exquisite design and bronze sheen that catches the light with every movement. Fashioned in Cheliax, this chain shirt is not just a protective garment but a work of art, designed for those who blend into society with both style and function. It provides excellent protection while allowing for mobility, ideal for scouts exploring the dense forests and treacherous terrains of the region.\nAura: faint transmutation\nCas"
+    },
+    {
+      "name": "Backpack",
+      "type": "container",
+      "equipped": true,
+      "description": "This leather knapsack has one large pocket that closes with a buckled strap and holds about 2 cubic feet of material. Some may have one or more smaller pockets on the sides."
+    },
+    {
+      "name": "Manacles",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Path of the Hellknight pg. 15, PRPG Core Rulebook pg. 158, Ultimate Equipment pg. 57\nPrice  15 gp (common),  50 gp (masterwork),  1,000 gp (mithral); Weight 2 lbs. (common), 2 lbs. (masterwork), 2 lbs. (mithral)\nDescriptionManacles can bind a Medium creature. A manacled creature can use the Escape Artist skill to slip free (DC 30, or DC 35 for masterwork manacles). Breaking the manacles requires a Strength check (DC 26, or DC 28 for masterwork manacles). Manacles have hardness 10 and 10 h"
+    },
+    {
+      "name": "Dart",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 142, Ultimate Equipment pg. 17\nStatisticsCost 5 sp Weight 1/2 lb.\nDamage 1d3 (small), 1d4 (medium); Critical x2; Range 20 ft.; Type P; Special -\nCategory Ranged; Proficiency Simple\nWeapon Groups Thrown\nDescriptionThis thrown weapon is larger than an arrow and shorter than a javelin, with a weighted tip and a shorter range than a javelin. Most darts are wooden shafts with a thick metal point."
+    },
+    {
+      "name": "Mead (Mug)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice  2 gp (gallon),  5 cp (mug); Weight 8 lbs. (gallon), 1/2 lb. (mug)\nDescriptionThis alcoholic beverage is made by fermenting honey and water. It may be flavored with spices, fruit, or hops."
+    },
+    {
+      "name": "Asmodeus Holy Symbol",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57Price 100 gp (gold), 5 gp (iron), 500 gp (platinum), 25 gp (silver), 1 gp (wooden); Weight 1 lb. (gold), 1 lb. (iron), 1 lb. (platinum), 1 lb. (silver), — (wooden)\n\nDescription\nA holy symbol focuses positive energy and is used by good clerics and paladins (or by neutral clerics who want to cast good spells or channel positive energy). Each religion has its own holy symbol. The material used to make the holy symbol has no effect on its powers, though a religion may"
+    },
+    {
+      "name": "Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 8, Pirates of the Inner Sea pg. 19, Skull and Shackles Player's Guide pg. 6, Villain Codex pg. 188\nStatisticsCost 15 gp Weight 4 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis short, curved sword is favored by seafarers for closequarters combat. It is treated as a scimitar for any effects that apply to scimitars."
+    },
+    {
+      "name": "Tiger Eye",
+      "type": "loot",
+      "equipped": false,
+      "description": "One of the more common gemstones out there, used as a status symbol among commoners, as it comes in a combination of gold and black. Due to its high demand, depending on the region, it can be quite rare. In most superstitious groups the gemstone is assumed to repel undead and restless spirits."
+    },
+    {
+      "name": "Scroll of Scorching Ray",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You blast your enemies with a searing beam of fire. You may fire one ray, plus one additional ray for every four levels beyond 3rd (to a maximum of three rays at 11th level). Each ray requires a ranged touch attack to hit and deals 4d6 points of fire damage. The rays may be fired at the same or different targets, but all rays must be aimed at targets within 30 feet of each other and fired simultaneously."
+    },
+    {
+      "name": "Light Crossbow (Underwater)",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, Advanced Race Guide pg. 195, Ultimate Equipment pg. 17\nStatisticsCost 70 gp Weight 4 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range 80 ft.; Type P; Special -\nCategory Ranged; Proficiency Simple\nWeapon Groups Crossbows\nDescriptionAn underwater light crossbow functions like its normal counterpart above water, and can be used underwater. When fired underwater, the crossbow has a range increment of 20 feet. Anyone proficient with a normal light c"
+    },
+    {
+      "name": "Copper Ore",
+      "type": "loot",
+      "equipped": false,
+      "description": "Copper ore is commonly found in multiple veins alongside a variety of other metals. It is easily identified by its reddish-brown color. It serves as the foundation for multiple alloys, such as brass or bronze, and is also an important metal in coin minting in all regions. Arcane casters experiment with copper metal rods in enchanted devices, believing it enhances the flow of arcane energy."
+    },
+    {
+      "name": "Buckler",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a –1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you"
+    },
+    {
+      "name": "Detonator",
+      "type": "loot",
+      "equipped": false,
+      "description": "A tool highly favored by miners, its combination with gunpowder explosive facilitates the rapid creation of holes or tunnels to reach the more interesting metals beneath the ground. Nevertheless, due to the occasional instability of the explosions and the rare risk of shrapnel damaging mine supports, drills tend to be the preferred choice."
+    },
+    {
+      "name": "Tidewater Meat Stick",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A staple of the South Shackles, the Tidewater Meat Stick is both a beloved street food and a shockingly effective weapon. Crafted from tempered steel and loaded with expertly grilled cuts of fish, chicken, and lamb, this savory skewer is seasoned with tongue-numbing coastal spices said to ward off evil spirits—and Northerners with weak constitutions.\nFavored by sailors, dockside duelists, and spicy-food fanatics, the Meat Stick serves as a handy fallback when dinner turns dangerous. Why forge a "
+    },
+    {
+      "name": "Booch",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This vibrant green tea-based kombucha is a local specialty from the Tidewater Rock fortress in the dangerous seas of the southern Shackles, near Windward Isle. Crafted by combining island herbs with fermented tea, Booch serves to fortify sailors and sentries alike. Its tangy taste has a revitalizing quality, making it a popular drink among those who stand watch through the long nights. Folk tales suggest that this drink's unique recipe was a gift from a benevolent sea spirit keen on improving a "
+    },
+    {
+      "name": "Tanglefoot bag",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Tanglefoot bagSource Alchemy Manual pg. 31, Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158\nPrice 50 gp; Weight 4 lbs.\nCategory Alchemical WeaponsDescriptionA tanglefoot bag is a small sack filled with tar, resin, and other sticky substances. When you throw a tanglefoot bag at a creature (as a ranged touch attack with a range increment of 10 feet), the bag comes apart and goo bursts out, entangling the target and then becoming tough and resilient upon exposure to air. An entangled creatur"
+    },
+    {
+      "name": "Goldenwake Mead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "“Smooth seas on the evening, but a storm in the morning”\nGoldenwake Mead is a staple in coastal taverns across the Shackles, brewed with golden honey, faint spices, and a hearty kick of alcohol. It's known for its warmth, easy drinkability, and surprising potency, making it a favorite among sailors and pirates alike. While mostly known for its pleasant effects, overindulging in this stout mead can leave even the hardiest drinker feeling slightly off-kilter.\nEffects\nWhen consumed, Goldenwake Mead"
+    },
+    {
+      "name": "Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 2 gp Weight 1 lb.\nDamage 1d3 (small), 1d4 (medium); Critical 19-20/x2; Range 10 ft.; Type P or S; Special -\nCategory Light; Proficiency Simple\nWeapon Groups Blades, Light; Thrown; Tribal\nDescriptionA dagger is a fighting knife. Its blade is usually less than 1 foot long, and can be curved or straight, with one edge or two. Dagger designs vary widely, and can have many different names (such as a thrusting dagger being cal"
+    },
+    {
+      "name": "Sea-Steel Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Sea-Steel is a rare, magically hardened form of deep-sea coral that is nearly indistinguishable from polished steel, save for its faint iridescent sheen that shifts between blue-green and storm-gray under certain light. Found only in deep ocean trenches, it is harvested and shaped by sahuagin weapon forgers, who infuse it with abyssal salts and elemental water magic to make it as strong as steel.\nUnlike normal coral, Sea-Steel is:✔ As durable as steel but naturally buoyant, making it easier to w"
+    },
+    {
+      "name": "Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Buckler",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a –1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you"
+    },
+    {
+      "name": "Gold Bangle",
+      "type": "loot",
+      "equipped": false,
+      "description": "Gold Bangle is a bracelet crafted from pure gold, designed to symbolize the highest class of nobility and the pinnacle of societal status. Forged by skilled blacksmiths using precise molds, each piece is then handed over to renowned goldsmiths who meticulously finish it with ornate detailing. These bangles are typically priced highly, which makes them frequent targets for thieves and swindlers seeking to profit from their value."
+    },
+    {
+      "name": "Hammock",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, Adventurer's Armory pg. 19\nPrice 1 sp; Weight 3 lbs.\nCategory Adventuring Gear\nDescriptionThis blanket or net is attached to strong ropes, allowing you to hang it from a heavy branch or two trees and sleep above the ground. Climbing into or out of a hammock is a full-round action. A successful DC 5 Dexterity check reduces this to a move action."
+    },
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Tools, Thieves' (Masterwork)",
+      "type": "loot",
+      "equipped": false,
+      "description": "This kit contains lockpicks and other tools you need to use the @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} checks.\n\nThis kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} checks."
+    },
+    {
+      "name": "Composite Longbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical x3; Range 110 ft.; Type P\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use it with proficiency). If your Strength modifier is less than the s"
+    },
+    {
+      "name": "Throwing Axe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 8 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range 10 ft.; Type S; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Axes; Thrown; Tribal\nDescriptionThis one-handed axe is small and perfectly balanced for throwing, and can be used as a melee weapon. Throwing axes have a variety of alternative names, including franciscas, tomahawks, and more. The axe is normally gripped by the haft and throw"
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Composite Shortbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsCost 75 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x3; Range 70 ft.; Type P; Special -\nCategory Ranged; Proficiency Martial\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite shortbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier "
+    },
+    {
+      "name": "Holy water",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Holy waterSource Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158\nPrice 25 gp; Weight 1 lb.\nCategory Alchemical WeaponsDescriptionHoly water damages undead creatures and evil outsiders almost as if it were acid. A flask of holy water can be thrown as a splash weapon.\n\n Treat this attack as a ranged touch attack with a range increment of 10 feet. A flask breaks if thrown against the body of a corporeal creature, but to use it against an incorporeal creature, you must open the flask and pour"
+    },
+    {
+      "name": "Bullseye Rum",
+      "type": "consumable",
+      "equipped": true,
+      "description": "“It hits you right in the center, just not in a good way.”\nBullseye Rum is the drink of choice for the truly desperate, the miserly, or those who simply value quantity over quality. Its dark amber hue suggests a richness it absolutely does not deliver. The label, featuring a dartboard and the motto \"Bullseye,\" is both an ironic jab at the drink's questionable aftereffects and a promise of its unerring ability to ruin your stomach. Produced by dubious distilleries scattered across the Shackles, i"
+    },
+    {
+      "name": "Hair Pin",
+      "type": "loot",
+      "equipped": false,
+      "description": "A designer hairpin crafted with small gemstones to represent high status. It is made in such a way that, when it holds the hair, it exudes elegance and style, or to simply signal membership in the high noble class. These are primarily made by experienced jewelers and only on very high-priced commissions."
+    },
+    {
+      "name": "Club",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsDamage 1d4 (small), 1d6 (medium); Critical x2; Range 10 ft.; Type B\nWeapon Groups Hammers; Thrown; Tribal\nDescriptionThis weapon is usually just a shaped piece of wood, sometimes with a few nails or studs embedded in it."
+    },
+    {
+      "name": "Red Sail Reserve",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Them sails wasn't always red.\"\n\nRed Sails Reserve is a bold, crimson wine known for its sharp, bracing flavor and faint smoky aftertaste, reminiscent of the fiery volcanic soil of Firegrass Island where its grapes are grown. The wine is a staple at Goatshead Port, where the iconic ship Red Courage protects the surrounding waters, ensuring safe trade and keeping smugglers and pirates in check.\nTavern keepers proudly display bottles of Red Sails Reserve, treating them as both a fine drink and a s"
+    },
+    {
+      "name": "Bronze Fleet Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Each Bronze Fleet Cutlass is a testament to the fleet’s ruthless efficiency and disregard for individuality. These weapons are forged from the scraps of defeated ships and prisoners’ shackles, resulting in a haphazard yet functional design. No two Bronze Fleet Cutlasses look the same, but they all reflect the grim legacy of the slave-trading fleet.\nThe blade is often jagged, with imperfections that hint at its brutal origins, while the hilt may feature chains, manacles, or other relics of captiv"
+    },
+    {
+      "name": "Tidewater Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The masterwork cutlass issued to the guards at Tidewater Rock in the Shackles is a finely crafted weapon, reflecting both the pride of the island's defenders and the treacherous seas surrounding it. Fashioned from polished steel with a sweeping guard engraved with nautical motifs, this cutlass is as much a symbol of status among the guards as it is a tool of their trade. Officers receive these weapons upon completing their training, and each blade bears the mark of the shipwrights who forged the"
+    },
+    {
+      "name": "Potion of Barkskin",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Barkskin toughens a creature's skin. The effect grants a +2 enhancement bonus to the creature's existing natural armor bonus. This enhancement bonus increases by 1 for every three caster levels above 3rd, to a maximum of +5 at 12th level.\nThe enhancement bonus provided by barkskin stacks with the target's natural armor bonus, but not with other enhancement bonuses to natural armor. A creature without natural armor has an effective natural armor bonus of +0."
+    },
+    {
+      "name": "Sap",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 1 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range -; Type B; Special nonlethal\nCategory Light; Proficiency Martial\nWeapon Groups Close\nDescriptionThis weapon consists of a soft wrapping around a hard, dense core, typically a leather sheath around a lead rod. The head is wider than the handle and designed to spread out the force of the blow, making it less likely to draw blood or break bones."
+    },
+    {
+      "name": "Amethyst",
+      "type": "loot",
+      "equipped": false,
+      "description": "It is said the first Amethyst was a young and beautiful priestess, however, two goddesses fought over her allegiance and unfortunately destroyed her. As the goddesses mourned and wept their loss, their tears combined and created the gem as it fell to the ground. I'm not certain if this tale holds any truth, as I have also heard that a glance and wine were involved.  Amethyst is a very common mineral and is found throughout the realms. It has a beautiful color and is faceted into jewelry cuts, ma"
+    },
+    {
+      "name": "Chelish Crown",
+      "type": "loot",
+      "equipped": false,
+      "description": "Defacing the crown (scratching off Abrogail’s face, carving holy symbols into it) is a high crime in Cheliax, punishable by branding, imprisonment, or execution."
+    },
+    {
+      "name": "Garden Hoe",
+      "type": "loot",
+      "equipped": false,
+      "description": "The garden hoe serves multiple purposes, assisting with seeding by creating small trenches for seed placement and aiding in weed removal. With its sharp and wide blade, farmers favor the garden hoe for cutting rows of weeds. It effortlessly slides just beneath the soil's surface, cutting the roots of pesky weeds."
+    }
+  ]
+}

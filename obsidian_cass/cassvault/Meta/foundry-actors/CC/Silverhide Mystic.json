@@ -1,0 +1,25 @@
+{
+  "name": "Silverhide Mystic",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Skinwalker",
+  "classes": [
+    {
+      "name": "Sorcerer",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 16
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": []
+}

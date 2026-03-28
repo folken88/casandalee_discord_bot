@@ -1,0 +1,25 @@
+{
+  "name": "Tempest Revenant",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Undead Giant",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 90
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 14,
+    "con": 22,
+    "int": 14,
+    "wis": 16,
+    "cha": 22
+  },
+  "items": []
+}

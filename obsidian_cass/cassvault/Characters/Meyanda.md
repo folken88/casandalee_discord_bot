@@ -1,21 +1,35 @@
 ---
 name: "Meyanda"
 type: character
+campaign: CC
 race: "Android"
-class: "Cleric"
-level: 12
-
-aliases: []
-tags: ["character"]
-created: "2026-02-14T00:00:00.000Z"
-updated: "2026-03-25T19:46:53.664Z"
+class: "Inquisitor 12"
+hp: 24
+tags: ["character", "npc", "cc"]
+foundry_synced: "2026-03-28"
 ---
 
 # Meyanda
 
-**Race:** Android | **Class:** Cleric | **Level:** 12
+**Race:** Android | **Class:** Inquisitor 12 | **HP:** 24
+**STR** 11 | **DEX** 15 | **CON** 14 | **INT** 12 | **WIS** 16 | **CHA** 10
 
-HP 120/120. Cleric (War/Innovation). Firearms, Polytool of Brigh, Spiritual Weapon. Spells: Heal, Blade Barrier, Freedom of Movement, Raise Dead. Synced from Foundry VTT.
+## Key Equipment
+- **DVL-10 Saboteur** (weapon, equipped) — DVL-10 is a lightweight, compact, and silenced rifle in proprietary and current military subsonic calibers and has been developed for special service and combat missions where exceptional accuracy and range are needed. Equipped with a standard Lobaev foldable butt-stock and Lobaev Hummer Barrels stainless steel match-grade barrel.   With the bipod planted and a full-round of uninterupted concentration, this weapon enables Sneak-Attacks at up to 3 range increments.   Vudu Scope halves range negat
+- **Foundrystein** (consumable, equipped) — This copper-steel beer stein perfectly seals and preserves any liquid stored within it. At its tavern of origin, the Foundry Tavern in Torch of Numeria, these can be quickly refilled with a strange device unique to that location. This "Tap" as it is called, fills the stein with ice cold Cayden-Brew, imported from the distant South.
+- **FN Five-seveN MK2 5.7x28 pistol** (weapon, equipped) — Comes in black and flat dark earth. The FN Five-seven, trademarked as the Five-seveN, is a semi-automatic pistol.     Exceptional range, accuracy, and stopping power for a pistol. This model includes an attached flashlight / targetting laser. +2 to hit when the laser is on, but gives away the wielders position.
+- **Go Nuts** (consumable, equipped) — These pale nuts smell vaguely of brimstone and sulpher. They taste very salty and dry.  Type ingested; Addiction medium, Fortitude DC 16 Immediately after ingesting or grinding-up-and-snorting these, the user is affected by a Haste spell for 5 rounds. They are affected by Expeditious Retreat for the following hour. After which they are awake for the following 48 hours. During this period, the user is immune to Sleep and Slow conditions from spells or other chemicals, and suffers a constant -10 t
+- **Pre-Cognition Cortex Expander** (equipment, equipped) — This intricate gold headband is decorated with several small blue and deep purple gemstones.  The headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer’s total Hit Dice. These ranks do no
+- **Polytool of Brigh** (weapon, equipped) — This item can function as a wide variety of tools and as several types of weapons. With a knowledge-engineering check of DC10, it changes as a swift action. Otherwise it takes a full-round action and an intelligence check DC8. The device can be used as thieves tools and to assist in any operation that requires basic tools. It can even function as a basic set of blacksmithing tools.
+- **40mm Gravity Flip** (loot, equipped) — This device reverses gravity in an area, causing unattached objects and creatures in the area to fall upward and reach the top of the area in 1 round. If a solid object (such as a ceiling) is encountered in this fall, falling objects and creatures strike it in the same manner as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, until the spell ends. At the end of the spell duration, af
+- **40mm Lubestorm** (loot, equipped) — This grenade releases a thick gel that coats everything it touches in a 10' radius for 10 rounds. This functions as a Grease spell, granting +10 on escape artist checks and causing bipeds to fall down.
+- **Potion of Cure Moderate Wounds** (consumable, equipped) — This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10).
+- **40mm Smoke** (loot, equipped) — Filled with pellets that ignite on impact, releasing a thick cloud of smoke.
+- **40mm Glitterbomb** (loot, equipped) — This 40mm grenade shell encloses a glitter-bomb, which releases the effect of a glitterdust spell on the target area. Center-target receives -2 to their save.
+- **Enchanted Blackrock Tactical Rig** (equipment, equipped) — Allows for quick access to ammunition, potions, tools, or other equipment. Up to 6 items can be placed in swift-action accessible slots.
+- **40mm Grenade Launcher** (weapon, equipped) — A partial rebuild with mithral alloy, this ancient weapon fires specially crafted grenades long distances with accuracy.
+- **Cybernetic Ears** (equipment, equipped) — The Com-Tac 2 amplifies low-level sounds while suppressing impulse noises. Water resistant for outdoor usage.     +5 Perception. +5 vs deafening spells or attacks.
+- **40mm Blast-Gang** (loot, equipped) — A 40mm High Explosive grenade with a 6, 12, 30, or 60 second timer.
 
 ## Notes & Updates
 

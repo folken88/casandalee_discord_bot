@@ -1,0 +1,25 @@
+{
+  "name": "Kasston Aruda",
+  "type": "character",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Dwarf",
+  "classes": [
+    {
+      "name": "Invulnerable Rager Barbarian",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 45
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 16,
+    "int": 10,
+    "wis": 12,
+    "cha": 11
+  },
+  "items": []
+}

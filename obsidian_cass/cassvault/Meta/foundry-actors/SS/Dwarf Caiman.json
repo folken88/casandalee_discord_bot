@@ -1,0 +1,25 @@
+{
+  "name": "Dwarf Caiman",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Animal",
+  "classes": [
+    {
+      "name": "Animal (Aquatic)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 14
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 11,
+    "con": 15,
+    "int": 1,
+    "wis": 11,
+    "cha": 2
+  },
+  "items": []
+}

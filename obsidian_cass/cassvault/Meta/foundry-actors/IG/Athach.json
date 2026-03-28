@@ -1,0 +1,25 @@
+{
+  "name": "Athach",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Monstrous Humanoid",
+      "level": 16
+    }
+  ],
+  "hp": {
+    "max": 122
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 14,
+    "con": 25,
+    "int": 8,
+    "wis": 12,
+    "cha": 6
+  },
+  "items": []
+}

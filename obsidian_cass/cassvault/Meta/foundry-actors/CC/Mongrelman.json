@@ -1,0 +1,32 @@
+{
+  "name": "Mongrelman",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Monstrous Humanoid",
+  "classes": [
+    {
+      "name": "Monstrous Humanoid (Aquatic)",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 25
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 13,
+    "con": 15,
+    "int": 10,
+    "wis": 12,
+    "cha": 7
+  },
+  "items": [
+    {
+      "name": "Club",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost - Weight 3 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range 10 ft.; Type B; Special -\nCategory One-Handed; Proficiency Simple\nWeapon Groups Hammers; Thrown; Tribal\nDescriptionThis weapon is usually just a shaped piece of wood, sometimes with a few nails or studs embedded in it."
+    }
+  ]
+}

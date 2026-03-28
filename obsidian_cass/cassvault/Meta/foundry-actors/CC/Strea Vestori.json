@@ -1,0 +1,44 @@
+{
+  "name": "Strea Vestori",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Tiefling",
+  "classes": [
+    {
+      "name": "Rogue (Unchained)",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 26
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 14,
+    "int": 12,
+    "wis": 10,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Composite Shortbow MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "You need at least two hands to use a bow, regardless of its size. You can use a composite shortbow while mounted.\n\nAll composite bows are made with a particular Strength rating (that is, each requires a minimum Strength modifier to use with proficiency). If your Strength bonus is lower than the strength rating of the composite bow, you can’t effectively use it, so you take a –2 penalty on attacks with it. The default composite shortbow requires a Strength modifier of +0 or higher to use with pro"
+    },
+    {
+      "name": "Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A dagger has a blade that is about 1 foot in length.\n\nBenefit: You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body (see Using Skills)."
+    },
+    {
+      "name": "Studded Leather Armor MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Juvi Tarrasque",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Magical Beast",
+      "level": 19
+    }
+  ],
+  "hp": {
+    "max": 238
+  },
+  "abilities": {
+    "str": 42,
+    "dex": 16,
+    "con": 34,
+    "int": 10,
+    "wis": 16,
+    "cha": 14
+  },
+  "items": []
+}

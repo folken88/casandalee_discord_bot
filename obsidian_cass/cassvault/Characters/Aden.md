@@ -1,17 +1,25 @@
 ---
 name: "Aden"
 type: character
-campaign: "IG"
-tags: [character, ig]
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T02:59:09.571Z"
 ---
 
 # Aden
 
-**Race:** Unknown | **Class:** Unknown | **Level:** ?
+**Race:** Unknown | **Class:** Unknown
 
+## Notes & Updates
+
+- Attacking enemies, taking damage *(youtube-transcript, 3/28/2026)*
+- Interacting with the innkeeper, asking about occupancy and availability. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Iron Gods - Tactical Remembrance 2024 01 11
-Reported to have been involved in convincing the Technic League captains.
-
+*Session activity from YouTube transcripts will appear here.*

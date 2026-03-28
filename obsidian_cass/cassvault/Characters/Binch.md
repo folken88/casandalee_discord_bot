@@ -1,21 +1,18 @@
 ---
 name: "Binch"
 type: character
+campaign: CC
 race: "Half-Elf"
-class: "Witch"
-level: 7
-
-aliases: []
-tags: ["character"]
-created: "2026-02-23T00:00:00.000Z"
-updated: "2026-03-25T16:30:05.552Z"
+class: "Witch 5"
+hp: 17
+tags: ["character", "npc", "cc"]
+foundry_synced: "2026-03-28"
 ---
 
 # Binch
 
-**Race:** Half-Elf | **Class:** Witch | **Level:** 7
-
-HP 63/63 | Half-Elf Witch | Level 7
+**Race:** Half-Elf | **Class:** Witch 5 | **HP:** 17
+**STR** 11 | **DEX** 15 | **CON** 12 | **INT** 17 | **WIS** 12 | **CHA** 10
 
 ## Notes & Updates
 

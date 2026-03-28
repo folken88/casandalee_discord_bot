@@ -1,0 +1,58 @@
+{
+  "name": "Patch Dangerson",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Aristocrat",
+      "level": 2
+    },
+    {
+      "name": "Rogue (Unchained)",
+      "level": 2
+    },
+    {
+      "name": "Ranger",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 50
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 10,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Blackwood-Style Repeating Heavy Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Antiqued Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings.\nMithral\n\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well. Most mithral armors are one category lighter than normal for purposes of movement and other limitations. Heavy armors are treated as medium, and medium armors are treated as light, but light armors are still treated"
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level adept 1, alchemist 1, bard 1, cleric 1, druid 1, hunter 1, inquisitor 1, investigator 1, occultist 1, oracle 1, paladin 1, ranger 2, shaman 1, skald 1, spiritualist 1, warpriest 1, witch 1; Domain Healing 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 poi"
+    },
+    {
+      "name": "Antiqued Kukri",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A kukri is a curved blade, about 1 foot in length."
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "name": "Lady Smythee's Bedstand",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "The Cumbers of Ustalav: 08",
+      "type": "loot",
+      "equipped": true,
+      "description": "Chapter 8: Damn the Dam of the Damned!The next morning, with backs aching and dignity in shambles, Vilga Deepsack and Berylis Midload set out once more, their absurdly overstocked packs now slightly—slightly—more organized. The tension from the previous night lingered in the air, thick as the mist that curled along the swampy banks of the river.\nThey had been tracking their bounty—the Fuckboi of Carrion Hill, a necromancer with an infuriating smirk and a talent for dodging responsibility—for nea"
+    },
+    {
+      "name": "The Cumbers of Ustalav: 07",
+      "type": "loot",
+      "equipped": true,
+      "description": "Chapter 7: Encumbered Hearts\nThe moon hung bloated and spectral over the craggy hills of Ustalav, bathing the uneven path in silver mist. The land smelled of damp earth, cold stone, and distant rot—the perfect setting for a vampire hunt. But Vilga Deepsack and Berylis Midload had bigger problems.\n“We should make camp soon,” Vilga panted, adjusting the thick leather straps digging into her shoulders. “I can’t feel my spine.”\n“You’re exaggerating,” Berylis scoffed, though her own pack swayed dange"
+    },
+    {
+      "name": "Tidewater's Heart",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Gleaming crimson and gold, this ornate breastplate once symbolized the strength and loyalty of Tidewater Rock. Now, it is a relic of grief and defiance—known to all who sail the Shackles as Tidewater’s Heart. Given by Lady Agasta Smythee to each of her husbands, the armor has been retrieved from the sea more times than any soul should witness. Each time, it washes ashore bearing the broken form of its wearer, as if unwilling to abandon its duty—or its mistress.\nWhether cursed or fiercely loyal, "
+    }
+  ]
+}

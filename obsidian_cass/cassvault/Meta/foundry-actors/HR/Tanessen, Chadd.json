@@ -1,0 +1,38 @@
+{
+  "name": "Tanessen, Chadd",
+  "type": "character",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Eldritch Scion Magus",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 52
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Mithral Shirt +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Estoc",
+      "type": "weapon",
+      "equipped": true,
+      "description": "An estoc is a sword about as long as a bastard sword, but designed exclusively for thrusting attacks. Its “blade” is a steel spike with a triangular, square, or hexagonal cross-section.\n\nLike the bastard sword, an estoc requires special training to use it one handed, but it can also be wielded as a two-handed martial weapon.\n\nWhen you wield an estoc with one hand, treat it as a one-handed weapon; when you wield an estoc with two hands, treat it as a two-handed weapon. If you can use the estoc pr"
+    }
+  ]
+}

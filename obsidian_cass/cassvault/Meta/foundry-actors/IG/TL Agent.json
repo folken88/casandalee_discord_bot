@@ -1,0 +1,62 @@
+{
+  "name": "TL Agent",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Magus",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 18
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 12,
+    "int": 16,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Trooper Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Plate vest from Highcom, popular among USEC PMCs. Lightweight AR500 4th-grade protection plates cover only the chest and back areas.\n\n \n\n+4 to touch AC"
+    },
+    {
+      "name": "Technic League Officer",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Invisibility Sphere",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like invisibility, except that this spell confers invisibility upon all creatures within 10 feet of the recipient at the time the spell is cast. The center of the effect is mobile with the recipient.\nThose affected by this spell can see each other and themselves as if unaffected by the spell. Any affected creature moving out of the area becomes visible, but creatures moving into the area after the spell is cast do not become invisible.\nAffected creatures (other than the reci"
+    },
+    {
+      "name": "Corona Laser Pistol",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Laser pistols are light and reliable, yet they still deal a respectable amount of damage."
+    },
+    {
+      "name": "Carbon Steel Curved Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Compatible Proficiency: Cutlass, Scimitar, Falchion, Longsword.\n\n \n\nAdvanced alloy & construction process causes this blade to pierce DR as an adamantine weapon.  It's creation process is impossible with any known tech or craftsmen on Golarion.\n\n \n\nThis graceful, curving blade further increases the drama inherent in sword fighting."
+    }
+  ]
+}

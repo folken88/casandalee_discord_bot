@@ -1,0 +1,25 @@
+{
+  "name": "Clew",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Commoner",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 12,
+    "con": 14,
+    "int": 8,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": []
+}

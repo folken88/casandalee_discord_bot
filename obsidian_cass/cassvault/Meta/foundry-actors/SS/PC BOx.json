@@ -1,0 +1,105 @@
+{
+  "name": "PC BOx",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Silver Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Devil's Lantern",
+      "type": "loot",
+      "equipped": true,
+      "description": "This black iron lantern has a pit fiend's head logo on the side and casts that horned shadow wherever it shines. It requires no oil and produces light as a normal lantern whenever it is opened. Once per day, it can cause an invisibility purge effect for a few rounds."
+    },
+    {
+      "name": "Midnight Milonga",
+      "type": "loot",
+      "equipped": false,
+      "description": "A collection of eerie tales centered around the ghostly dances held under the moonlit skies of Ardeal. It’s a waltz through time and memory, where the dead lead and the living follow, often to their doom."
+    },
+    {
+      "name": "Iron Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Empire of the Eaten",
+      "type": "loot",
+      "equipped": false,
+      "description": "In the shadow-drenched lands of Ghoulvaria, a relentless struggle for supremacy unfolds among the ruling ghoul clans of the Withered Throne. The novel \"Empire of the Eaten\" centers around the voracious Gristlegrim family, who have ruled over the rotting wastes of Mortuarium with a cold and bony hand. As the patriarch, King Marrowgrin Gristlegrim, faces the decay of his own unlife, his children conspire and clash in grotesque displays of cunning and brutality, each vying to devour their way to so"
+    },
+    {
+      "name": "Wolfsbane Flower",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Used as a poison to execute prisoners in Cheliax, this herb causes 1d3 CON damage but allows a new save vs Curse of Lycanthropy."
+    },
+    {
+      "name": "Vorkstag's Darksight Draught",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Subject gains Darkvision 60' and Keen Senses, but becomes hyper-paranoid and has difficulty trusting others which causes -4 sense-motive and diplomacy for 4 hours."
+    },
+    {
+      "name": "Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 8, Pirates of the Inner Sea pg. 19, Skull and Shackles Player's Guide pg. 6, Villain Codex pg. 188\nStatisticsCost 15 gp Weight 4 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis short, curved sword is favored by seafarers for closequarters combat. It is treated as a scimitar for any effects that apply to scimitars."
+    },
+    {
+      "name": "Real Housewives of Ustalav",
+      "type": "loot",
+      "equipped": true,
+      "description": "A book on various principles with supporting data & tables. This item grants +5 circumstance bonus on knowledge checks (referring to Ustalavian Nobility) when used to \"take 10\" or the book is consulted for at least 10 minutes."
+    },
+    {
+      "name": "Glaive",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsDamage 1d8 (small), 1d10 (medium); Critical x3; Range -; Type S\nWeapon Groups Polearms\nDescriptionA glaive is composed of a simple blade mounted on the end of a pole about 7 feet in length."
+    },
+    {
+      "name": "Inheritor's Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A masterfully crafted blade made in homage to the inheritor's own, from the time before her ascension. This blade functions as a holy symbol for any Lawful-Good Divine Caster."
+    },
+    {
+      "name": "Bronze Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Copper Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

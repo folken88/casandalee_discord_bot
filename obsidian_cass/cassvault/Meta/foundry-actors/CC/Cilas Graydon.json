@@ -1,0 +1,54 @@
+{
+  "name": "Cilas Graydon",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Aristocrat",
+      "level": 2
+    },
+    {
+      "name": "Fighter",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 38
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 14,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Tattoo: Titan Boar + 2",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Mithral Agile Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for Climb checks and Acrobatics checks made to jump is only –1 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty).\nMithral\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well. "
+    },
+    {
+      "name": "Sentry Standard",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Tattoo: Thundering Tyrant + 2",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

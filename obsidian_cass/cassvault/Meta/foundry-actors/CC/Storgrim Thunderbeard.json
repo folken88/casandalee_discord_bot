@@ -1,0 +1,224 @@
+{
+  "name": "Storgrim Thunderbeard",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Dwarf",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 55
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 16,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet.\nConstructionRequirements Craft Wondrous Item, barkskin, creator's caster level must be at least three times the amulet's bonus; Cost 1,000 gp"
+    },
+    {
+      "name": "Deadman's Coin",
+      "type": "equipment",
+      "equipped": true,
+      "description": "DescriptionFeelin' lucky?\nOnce per day, when the bearer of this coin is dropped below 0 hit points she may, as an immediate action, mentally call out heads or tails. If this coin is within 5 feet of the bearer and has the space to do so (such as inside a fairly empty coin purse), this coin will flip. If the coin lands with the called side facing up, the bearer is instantly healed (1d4)d8 hit points. If the coin lands with the uncalled side facing up, nothing happens. This effect can prevent deat"
+    },
+    {
+      "name": "Liar's Dice Set",
+      "type": "container",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Mithral",
+      "type": "loot",
+      "equipped": false,
+      "description": "The rarest metal, provides an otherworldy calming blue glow, making it pleasant to the eyes. The equipment made out of this specific ore is sought after by wealthy nobility, as it is so light that even the poorest of fighters have increased mobility in it making them look better at sparring than they are, also providing a point of their statute to the common folk. While wearing armor crafted from this material, the Dexterity modifier increases by 1, the Strenght requirement decreases by 1 and it"
+    },
+    {
+      "name": "Tindertwig",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Alchemy Manual pg. 30, Ultimate Equipment pg. 103, PRPG Core Rulebook pg. 158\nPrice 1 gp; Weight -\nCategory Alchemical Tools\nDescriptionThe alchemical substance on the end of this small, wooden stick ignites when struck against a rough surface (a move action). Creating a flame with a tindertwig is much faster than creating a flame with tinder and a flint and steel or magnifying glass. Lighting a torch with a tindertwig is a standard action rather than a full-round action, and lighting any"
+    },
+    {
+      "name": "Acid",
+      "type": "consumable",
+      "equipped": true,
+      "description": "AcidSource Alchemy Manual pg. 30, Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158\nPrice 10 gp; Weight 1 lb.\nCategory Alchemical WeaponsDescriptionYou can throw a flask of acid as a splash weapon. Treat this attack as a ranged touch attack with a range increment of 10 feet. A direct hit deals 1d6 points of acid damage. Every creature within 5 feet of the point where the acid hits takes 1 point of acid damage from the splash.\nAlchemical RecipeRecipe (10 brimstone + 8 salt + 1 saltpeter)/dis"
+    },
+    {
+      "name": "Bronze Fleet Volver (Trophy)",
+      "type": "weapon",
+      "equipped": false,
+      "description": "The Bronze Fleet Volver is a highly crafted, ornate six-shot revolver favored by officers and slavers within the Bronze Fleet. Its barrel and frame are forged from polished bronze, etched with swirling nautical patterns that echo the waves. Embedded in the side of the chamber is a small, aquamarine gemstone that glints faintly in the light, often mistaken for a magical focus.\nThe revolver is balanced for expert accuracy and durability, and its elaborate design symbolizes both power and prestige "
+    },
+    {
+      "name": "Chainmail +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Unlike a chain shirt, which covers only the chest, chainmail protects the wearer with a complete mesh of chain links that cover the torso and arms, and extends below the waist. Multiple interconnected pieces offer additional protection over vital areas. The suit includes gauntlets."
+    },
+    {
+      "name": "Hold Fast",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This finely crafted wooden shield is made from enchanted and lightweight materials. As such it is half normal weight, floats when dropped into water, and gives the wielder no negative to swim-checks. \nWhen held overhead and the command words \"Hold Fast\" are spoken, the wearer gains +4 on Reflex saves vs fire, lightning, cold, or sonic attacks that strike in a circle or cone aoe. \"Hold Fast\" is written on the inside handle in the standard font of the Taldane Navy."
+    },
+    {
+      "name": "Prybar",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This tool grants +6 on strength checks to open doors or chests and can be used as a +1 magic club."
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.\nConstructionRequirements Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring; Cost 1,000 gp"
+    },
+    {
+      "name": "Ancient Gold",
+      "type": "loot",
+      "equipped": false,
+      "description": "These gold coins can be found in the deepest tombs or burial chambers. Kings or emperors were buried with jars filled with these types of coins. However, untrained adventurers quickly believe that they have the same value as a regular gold coin. Yet, these coins are 100% pure gold, and collectors will pay a high price for any amount of the ancient gold coins located."
+    },
+    {
+      "name": "Violet Garnet",
+      "type": "loot",
+      "equipped": false,
+      "description": "Or Rhodolite is mainly used by whitesmiths, jewelers, gaffers, and sometimes even blacksmiths for ornamentation purposes. In some cultures and faiths, garnets were thought to be the solidified blood of the religion's specific divine avatar."
+    },
+    {
+      "name": "Goldenwake Mead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "“Smooth seas on the evening, but a storm in the morning”\nGoldenwake Mead is a staple in coastal taverns across the Shackles, brewed with golden honey, faint spices, and a hearty kick of alcohol. It's known for its warmth, easy drinkability, and surprising potency, making it a favorite among sailors and pirates alike. While mostly known for its pleasant effects, overindulging in this stout mead can leave even the hardiest drinker feeling slightly off-kilter.\nEffects\nWhen consumed, Goldenwake Mead"
+    },
+    {
+      "name": "Quartersatchel (2)",
+      "type": "container",
+      "equipped": false,
+      "description": "Part of the Carriers by Calvin line of luxury containers, this finely crafted leather satchel has runework hidden in its stitching.\nThis dimensional pocket magically stores up to 100 cubic feet of items, and reduces their material-plane-weight by 75%."
+    },
+    {
+      "name": "Potion of Bull's Strength",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level adept 2, alchemist 2, antipaladin 2, arcanist 2, bloodrager 2, cleric 2, druid 2, hunter 2, investigator 2, magus 2, medium 2, oracle 2, paladin 2, psychic 2, shaman 2, sorcerer 2, summoner 2, summonerUnchained 2, warpriest 2, wizard 2; Domain Strength 2; Subdomain Rage 2; Bloodline Abyssal 2, Orc 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M/DF (a few hairs, or a pinch of dung, from a bull)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Du"
+    },
+    {
+      "name": "Scourge's Cat-o'-Nine-Tails (Trophy)",
+      "type": "weapon",
+      "equipped": false,
+      "description": "This short whip is made of nine knotted thongs about 3 feet in length.\n\nA cat-o’-nine-tails deals no damage to any creature with an armor bonus of +1 or higher or a natural armor bonus of +3 or higher."
+    },
+    {
+      "name": "Dragonhide",
+      "type": "loot",
+      "equipped": false,
+      "description": "From a dragon, enough leather can be harvested to create a decent Half Plate Armor out of it. Depending on the hide used, it will also come with resistance to damage of propriety of the dragon that was slain dragon(Blue, Lightning/ White, Cold/ Red, Fire). Due to the armor not being made of metal, the druid class will be able to wear it without any penalties."
+    },
+    {
+      "name": "Blood Caimon Tacos",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners!\nEnjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes."
+    },
+    {
+      "name": "Wooden Pipes",
+      "type": "loot",
+      "equipped": false,
+      "description": "Wooden pipes, or tobacco pipes, are specifically designed for smoking tobacco and herbs. They are typically constructed from strong, hardwoods like briar or corn cob, each offering benefits such as durability and a unique smoking flavor."
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Stormhold Sangraal",
+      "type": "loot",
+      "equipped": false,
+      "description": "A robust dwarven red with deep notes of elderberry and a faintly metallic tang, believed to be due to storage in enchanted mithral casks. Its label shows Stormhold Citadel towering above a roaring gale."
+    },
+    {
+      "name": "Alchemist's fire",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Alchemist's fireSource Alchemy Manual pg. 30, Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158\nPrice 20 gp; Weight 1 lb.\nCategory Alchemical WeaponsDescriptionAlchemist's fire is a mix of several volatile liquids that ignite when exposed to air. You can throw a flask of alchemist's fire as a splash weapon. Treat this attack as a ranged touch attack with a range increment of 10 feet.\n\n A direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hi"
+    },
+    {
+      "name": "Backpack",
+      "type": "container",
+      "equipped": false,
+      "description": "This leather knapsack has one large pocket that closes with a buckled strap and holds about 2 cubic feet of material. Some may have one or more smaller pockets on the sides."
+    },
+    {
+      "name": "Beast Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This bubbling and glowing beverage tastes like a thick dark ale. While sipping, one can hear the authentic 'Call of the Beast of Lepidstadt' from somewhere out in the Northern Swamps where the creature still lurks today, waiting for his next victim!"
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).\nConstructionRequirements Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus; Cost 500 gp"
+    },
+    {
+      "name": "Shudderwood Jons",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These flexible short-pants are divinely crafted out of the finest woven jean. They are so unimaginably comfortable that when worn under armor, they reduce the check penalty by 1. \nIf worn by a shapeshifter, they stretch and adapt to any size of bipedal form."
+    },
+    {
+      "name": "Brogan Tharnak",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Brogan's Oath:\nPart 1:\nI sleep through weakness, wake for the dour\nBrace the soldier, betray the cowardWhen you make a fear save from an enemy of at least your level, your weapon casts True Strike on you. This effect lasts for up to 2 rounds.If you fail a fear save, this weapon auto-misses on a roll of 1-5 for 24 hours.Tharnak Lore: \nCrafted of enchanted glass via a process lost even to the dwarves that developed it, this weapon has known many owners across Nidal, Cheliax, and more recently the "
+    },
+    {
+      "name": "Ring Of Swimming",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThis silver ring usually has fishlike designs and motifs etched into the band. It continually grants the wearer a +5 competence bonus on Swim checks.\n\nBase Item: \nRequirementsForge Ring, creator must have 5 ranks in Swim\nSource: Ultimate Equipment"
+    },
+    {
+      "name": "Emerald",
+      "type": "loot",
+      "equipped": false,
+      "description": "Translucent Emeralds are cut and polished in gem cuts for jewelry. Mainly provided as gifts for royalty or nobility. In the past, it was associated with health, fertility, and growth and used to adorn magical items that improved the healing arts."
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Composite Longbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical x3; Range 110 ft.; Type P\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use it with proficiency). If your Strength modifier is less than the s"
+    }
+  ]
+}

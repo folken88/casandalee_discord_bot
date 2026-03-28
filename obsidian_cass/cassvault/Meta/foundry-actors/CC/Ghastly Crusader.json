@@ -1,0 +1,42 @@
+{
+  "name": "Ghastly Crusader",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Ghoul",
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 1
+    },
+    {
+      "name": "Oracle",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 71
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 12,
+    "con": 16,
+    "int": 10,
+    "wis": 12,
+    "cha": 17
+  },
+  "items": [
+    {
+      "name": "Heavy Mace",
+      "type": "weapon",
+      "equipped": true,
+      "description": "\"Match the mercy of the enemy\" is engraved on the handle of this standard-issue heavy mace of the Shining Crusade."
+    },
+    {
+      "name": "Crusader Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A suit of full plate worn by time and battle. Engraved on the inside of the chest piece is the following poem:\n\nWhen dark whispers seek your ear,\nRecall the dawn so bright and clear,\nRaise your blade, with purpose shine,\nAnd know the heavens march in line."
+    }
+  ]
+}

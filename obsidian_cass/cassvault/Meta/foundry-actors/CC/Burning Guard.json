@@ -1,0 +1,38 @@
+{
+  "name": "Burning Guard",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 18
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 10,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Flaming Glaive",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsCost 8 gp Weight 10 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical x3; Range -; Type S; Special reach\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Polearms\nDescriptionA glaive is composed of a simple blade mounted on the end of a pole about 7 feet in length.\nFlaming\nUpon command, a flaming weapon is sheathed in fire that deals an extra 1d6 points of fire damage on a successful hit. The fire does not harm the wield"
+    },
+    {
+      "name": "Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    }
+  ]
+}

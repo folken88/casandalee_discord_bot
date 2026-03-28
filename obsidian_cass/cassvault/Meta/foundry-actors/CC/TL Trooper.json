@@ -1,0 +1,68 @@
+{
+  "name": "TL Trooper",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 16
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Heavy Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 142, Ultimate Equipment pg. 17\nStatisticsCost 50 gp Weight 8 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range 120 ft.; Type P; Special -\nCategory Ranged; Proficiency Simple\nWeapon Groups Crossbows\nDescriptionYou draw a heavy crossbow back by turning a small winch. Loading a heavy crossbow is a full-round action that provokes attacks of opportunity. A heavy crossbow fires crossbow bolts.\n\n Normally, operating a heavy cros"
+    },
+    {
+      "name": "Potion of Spider Climb",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject can climb and travel on vertical surfaces or even traverse ceilings as well as a spider does. The affected creature must have its hands free to climb in this manner. The subject gains a climb speed of 20 feet and a +8 racial bonus on Climb skill checks; furthermore, it need not make Climb checks to traverse a vertical or horizontal surface (even upside down). A spider climbing creature retains its Dexterity bonus to Armor Class (if any) while climbing, and opponents get no special bo"
+    },
+    {
+      "name": "Bastard Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, PRPG Core Rulebook pg. 143\nStatisticsCost 35 gp Weight 6 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy\nDescriptionA bastard sword is about 4 feet in length, making it too large to use in one hand without special training; thus, it is an exotic weapon. You can use a bastard sword two-handed as a martial weapon."
+    },
+    {
+      "name": "Heavy Steel Shield",
+      "type": "equipment",
+      "equipped": true,
+      "description": "You strap a heavy steel shield to your forearm and grip it with your hand. A heavy steel shield is so heavy that you can’t use your shield hand for anything else. Whether wooden or steel, a heavy shield offers the same basic protection and attack benefits, though the two versions respond differently to some spells and effects (such as rusting grasp). A druid can use a heavy wooden shield, but not a heavy steel shield."
+    },
+    {
+      "name": "Wack Juce",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Refreshingly intoxicating, Wack Juce is made with the finest synthetic oranges in Numeria, and the 3rd finest potato vodka in the world: Smashka Noble!\nEnjoy this sweet and soothing taste of home, you can almost hear the anthem of the Fatherland as you slurp!"
+    },
+    {
+      "name": "Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A breastplate protects a wearer’s torso with a single piece of sculpted metal, similar to the core piece of a suit of full plate. Despite its sturdiness, its inflexibility and open back make it inferior to complete suits of metal armor, but still an improvement over most non-metal armors."
+    }
+  ]
+}

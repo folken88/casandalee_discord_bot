@@ -1,0 +1,59 @@
+{
+  "name": "Whalebone Pilk",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 3
+    },
+    {
+      "name": "Breath Taker",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 78
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "int": 14,
+    "wis": 16,
+    "cha": 18
+  },
+  "items": [
+    {
+      "name": "+1 Seeking Harpoon",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, Pirates of the Inner Sea pg. 19, Skull and Shackles Player's Guide pg. 6\nStatisticsCost 5 gp Weight 16 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range 10 ft.; Type P; Special grapple, see text\nCategory Two-Handed; Proficiency Exotic\nWeapon Groups Spears; Thrown\nDescriptionA harpoon is a barbed spear with an attached rope 50 feet or less in length. Most harpoons have metal points, but some use ivory or are made entirely of wood. If you are proficient wi"
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nFlecks of silver or steel are often sown amid the fabric of these magical cloaks. This garment offers magical protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).\nBase Item: \nRequirementsCraft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus\nSource: Ultimate Equipment"
+    },
+    {
+      "name": "Ring Of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThis ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.\nBase Item: \nRequirementsForge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring\nSource: Ultimate Equipment"
+    },
+    {
+      "name": "+1 Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Cutlass Of Waves",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Description\nThis +1 cutlass is constantly soaked with brine. The wielder's attacks with a cutlass of waves don't take penalties from being underwater, as if the cutlass were a piercing weapon. While a creature holds the cutlass in its hand, a low-cresting wave of water carries the cutlass's holder along the deck of a ship or through the water, otherwise as per slipstream.\n\nBase Item: +1 cutlass\nRequirementsCraft Wondrous Item, slipstream\nSource:Villain Codex"
+    }
+  ]
+}

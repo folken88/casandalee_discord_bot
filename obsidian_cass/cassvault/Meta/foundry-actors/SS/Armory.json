@@ -1,0 +1,99 @@
+{
+  "name": "Armory",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Buckler Gun",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 43, Ultimate Combat pg. 137\n\nStatistics\nCost 750 gp Weight 6 lbs.\n\nDamage 1d4 (small), 1d6 (medium); Critical x4; Range 10 ft.; Type B and P; Special -\n\nMisfire 1 (5 ft.); Capacity 2\n\nCategory One-Handed; Proficiency Exotic\n\nDescription\nThe front of this buckler is fitted with a small, double-barreled gun that can be shot while wearing the buckler. Unlike with a double-barreled pistol, you can shoot only one barrel at a time. You must remove the buckler to reload th"
+    },
+    {
+      "name": "Heavy Crossbow (Underwater)",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, Advanced Race Guide pg. 195, Ultimate Equipment pg. 17\nStatisticsCost 100 gp Weight 8 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range 120 ft.; Type P; Special -\nCategory Ranged; Proficiency Simple\nWeapon Groups Crossbows\nDescriptionAbove water, this weapon is identical to a heavy crossbow. You may use it underwater, where it has a range increment of 20 feet. It counts as a heavy crossbow for the purposes of proficiencies and special abilities"
+    },
+    {
+      "name": "Alchemist's fire",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Alchemist's fireSource Alchemy Manual pg. 30, Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158\nPrice 20 gp; Weight 1 lb.\nCategory Alchemical WeaponsDescriptionAlchemist's fire is a mix of several volatile liquids that ignite when exposed to air. You can throw a flask of alchemist's fire as a splash weapon. Treat this attack as a ranged touch attack with a range increment of 10 feet.\n\n A direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hi"
+    },
+    {
+      "name": "Buckler",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a –1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you"
+    },
+    {
+      "name": "Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A breastplate protects a wearer’s torso with a single piece of sculpted metal, similar to the core piece of a suit of full plate. Despite its sturdiness, its inflexibility and open back make it inferior to complete suits of metal armor, but still an improvement over most non-metal armors."
+    },
+    {
+      "name": "Club",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost - Weight 3 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range 10 ft.; Type B; Special -\nCategory One-Handed; Proficiency Simple\nWeapon Groups Hammers; Thrown; Tribal\nDescriptionThis weapon is usually just a shaped piece of wood, sometimes with a few nails or studs embedded in it."
+    },
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Grappling Hook",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice  1 gp (common),  2,001 gp (mithral); Weight 4 lbs. (common), 2 lbs. (mithral)\nDescriptionThrowing a grappling hook requires a ranged attack roll, treating the hook as a thrown weapon with a range increment of 10 feet. Objects with ample places to catch the hook have an AC of 5."
+    },
+    {
+      "name": "Javelin",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 142, Ultimate Combat pg. 144, Ultimate Equipment pg. 17\nStatisticsCost 1 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range 30 ft.; Type P; Special -\nCategory Ranged; Proficiency Simple\nWeapon Groups Spears; Thrown\nDescriptionA javelin is a thin throwing spear . Since it is not designed for melee, you are treated as nonproficient with it and take a -4 penalty on attack rolls if you use a javelin as a melee weapon."
+    },
+    {
+      "name": "Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 8, Pirates of the Inner Sea pg. 19, Skull and Shackles Player's Guide pg. 6, Villain Codex pg. 188\nStatisticsCost 15 gp Weight 4 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis short, curved sword is favored by seafarers for closequarters combat. It is treated as a scimitar for any effects that apply to scimitars."
+    },
+    {
+      "name": "Shortspear",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 1 gp Weight 3 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range 20 ft.; Type P; Special -\nCategory One-Handed; Proficiency Simple\nWeapon Groups Spears; Thrown; Tribal\nDescriptionA shortspear is about 3 feet in length, making it a suitable thrown weapon."
+    },
+    {
+      "name": "Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Rope (50 Ft.)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice 1 gp; Weight 10 lbs.\nCategory Adventuring Gear\nDescriptionThis 50-foot length of hemp rope has 2 hit points and can be burst with a DC 23 Strength check."
+    }
+  ]
+}

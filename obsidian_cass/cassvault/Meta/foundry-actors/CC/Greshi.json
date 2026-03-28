@@ -1,0 +1,44 @@
+{
+  "name": "Greshi",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Locathah",
+  "classes": [
+    {
+      "name": "Cleric",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 6
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 16,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Locathah King War Trident",
+      "type": "weapon",
+      "equipped": true,
+      "description": "StatisticsDamage see text (small), see text (medium); Critical x3; Range 10 ft.; Type P\nDescriptionUpon his 100th birthday, a locathah king's status is officially acknowledged, and he is honored with the presentation of a special weapon, the war trident, reserved exclusively for the use of his kind. These tridents are ligher than normal and as a result they gain finesse and have a x3 critical hit multiplier. In addition, extensive ritualistic practice with this weapon gives the locathah king the"
+    },
+    {
+      "name": "Devilfish Hide",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This +1 hide armor was made for the Locathath King from the scales of the fearsome devilfish. It provides the wearer with a permanent Slipstream effect."
+    },
+    {
+      "name": "Heavy Wooden Shield",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A heavy wooden shield is essentially the same as a heavy steel shield, except that it responds differently to some spells and effects (such as rusting grasp). A druid can use a heavy wooden shield, but not a heavy steel shield."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Weaverworm",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Undefined",
+  "classes": [
+    {
+      "name": "Spiderkin",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 101
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 18,
+    "con": 18,
+    "int": 14,
+    "wis": 14,
+    "cha": 17
+  },
+  "items": []
+}

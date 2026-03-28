@@ -1,0 +1,42 @@
+{
+  "name": "Mockery of Death",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Cavalier",
+      "level": 6
+    },
+    {
+      "name": "Undead",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 25
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 10,
+    "con": 12,
+    "int": 10,
+    "wis": 17,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Harbinger",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    }
+  ]
+}

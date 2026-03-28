@@ -1,0 +1,60 @@
+{
+  "name": "Lord of Gol-Khazak",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Dwarf",
+  "classes": [
+    {
+      "name": "Antipaladin",
+      "level": 6
+    },
+    {
+      "name": "Undead",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 77
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 12,
+    "con": 12,
+    "int": 11,
+    "wis": 10,
+    "cha": 17
+  },
+  "items": [
+    {
+      "name": "Crown of Gol-Khazak",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Once the regalia of King Dorn Helbraaz, ruler of the dwarven settlement of Gol-Khazak, the crown was meant to symbolize resilience and unity in the face of the pirate lords of the Shackles.\nCorrupted by its history, the crown enables the wearer to cast 'Command Undead' once per day at the wearer's level."
+    },
+    {
+      "name": "Bon Chance",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Some believe Bon Chance was forged by dwarves under divine inspiration… but not Torag’s. An ancient story claims a gnome priest of Desna infiltrated the forge-halls during a festival and secretly blessed a half-forged axe, leaving it to \"drift into the right hands.\" Lord Fargrim never admitted this — but he also never had it purified.\nNow, with Khazak fallen, Desna’s influence has grown within the weapon. Some say she stirs within it, waiting for the next champion bold (or foolish) enough to let"
+    },
+    {
+      "name": "Crookit",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Crookit+1 Returning Throwing AxeAura faint transmutation; CL 5thSlot none; Price 8,310 gp; Weight 2 lbs.\nDescriptionCrookit is a strange looking throwing axe that seems poorly suited for melee but ideal for aerial spins. Dwarven runes and storm-call sigils etched into its golden socket hum faintly with magical potential.\nThis +1 throwing axe is designed exclusively for ranged use. It has the returning property, but with unique enhancements and limitations:\nThrow Limit: It can only be thrown once"
+    },
+    {
+      "name": "Gol-Khazak Axe",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Crusader Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A suit of full plate worn by time and battle. Engraved on the inside of the chest piece is the following poem:\n\nWhen dark whispers seek your ear,\nRecall the dawn so bright and clear,\nRaise your blade, with purpose shine,\nAnd know the heavens march in line."
+    }
+  ]
+}

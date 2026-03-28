@@ -1,0 +1,25 @@
+{
+  "name": "Silvermane",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 120
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 24,
+    "con": 18,
+    "int": 12,
+    "wis": 18,
+    "cha": 10
+  },
+  "items": []
+}

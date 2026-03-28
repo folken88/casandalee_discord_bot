@@ -1,0 +1,144 @@
+{
+  "name": "Gabriel",
+  "type": "character",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Aasimar",
+  "classes": [
+    {
+      "name": "Bloodrager",
+      "level": 8
+    },
+    {
+      "name": "Paladin",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 132
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 14,
+    "con": 13,
+    "int": 10,
+    "wis": 11,
+    "cha": 13
+  },
+  "items": [
+    {
+      "name": "Tyranny's End",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A breastplate protects a wearer’s torso with a single piece of sculpted metal, similar to the core piece of a suit of full plate. Despite its sturdiness, its inflexibility and open back make it inferior to complete suits of metal armor, but still an improvement over most non-metal armors."
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Ring of Protection +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 2, Alchemist 2, Bard 2, Cleric 2, Druid 3, Hunter 3, Inquisitor 2, Investigator 2, Occultist 2, Oracle 2, Paladin 3, Ranger 3, Shaman 2, Skald 2, Spiritualist 2, Warpriest 2, Witch 2; Domain Healing 2\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets living creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nDescriptionThis spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point "
+    },
+    {
+      "name": "Potion of Bull's Strength",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Adept 2, Alchemist 2, Antipaladin 2, Arcanist 2, Bloodrager 2, Cleric 2, Druid 2, Hunter 2, Investigator 2, Magus 2, Medium 2, Oracle 2, Paladin 2, Psychic 2, Shaman 2, Sorcerer 2, Summoner 2, Summoner (Unchained) 2, Warpriest 2, Wizard 2; Domain Strength 2; Subdomain Rage 2; Bloodline Abyssal 2, Orc 2\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M/DF (a few hairs, or a pinch of dung, from a bull)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  D"
+    },
+    {
+      "name": "Ring of Evasion",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Belt of Giant Strength +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt is a thick leather affair, often decorated with huge metal buckles. The belt grants the wearer an enhancement bonus to Strength of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Headband of Alluring Charisma +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This attractive silver headband is decorated with a number of small red and orange gemstones.\n\nThe headband grants the wearer an enhancement bonus to Charisma of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn."
+    },
+    {
+      "name": "Wand of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 1, Alchemist 1, Bard 1, Cleric 1, Druid 1, Hunter 1, Inquisitor 1, Investigator 1, Occultist 1, Oracle 1, Paladin 1, Ranger 2, Shaman 1, Skald 1, Spiritualist 1, Warpriest 1, Witch 1; Domain Healing 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Touch\n\n  \n  Targets living creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw Will half; see text;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionWhen laying your "
+    },
+    {
+      "name": "Eyes of the Eagle",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These lenses are made of special crystal and fit over the eyes of the wearer. They grant a +5 competence bonus on Perception checks. Both lenses must be worn to gain the benefit. Wearing only one causes a character to become dizzy and stunned for 1 round.\nConstructionRequirements Craft Wondrous Item, clairaudience/clairvoyance; Cost 1,250 gp"
+    },
+    {
+      "name": "Noble's outfit",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These clothes are designed specifically to be expensive and gaudy. Precious metals and gems are worked into the clothing. A would-be noble also needs a signet ring and jewelry (worth at least 100 gp) to accessorize this outfit.\n\nAs this outfit does not cost 10 gp or less, player characters can not choose this outfit for free when first beginning play."
+    },
+    {
+      "name": "Potion of Cure Critical Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 4d8 points of damage + 1 point per caster level (maximum +20)."
+    },
+    {
+      "name": "Redeemer",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Formerly known as \"Corruption.\"  This +2 Flaming Greatsword is made of green glass (flame burns green) and radiates evil from long possession by evil beings and is tainted by their murderous acts.On the wielder being Lawful Good: Is always Aligned Lawful and Good and hits as adamantite.On Wielder level-up: Gains +1 added bonus, max +4On greater undead kill: Becomes Ghost TouchOn 666 damage to evil: Becomes Redeemed ( Holy 2d6 vs evil)On defeating 10 greater evils (Evil undead, dragon, devil, or "
+    },
+    {
+      "name": "Wand of Infernal Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing) [evil]; Level Arcanist 1, Bloodrager 1, Cleric 1, Magus 1, Oracle 1, Sorcerer 1, Summoner 1, Summoner (Unchained) 1, Warpriest 1, Witch 1, Wizard 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (1 drop of devil blood or 1 dose of unholy water)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration 1 Minutes\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionYou anoint a wounded creature with devil's blood"
+    },
+    {
+      "name": "Potion of Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Illusion (Glamer); Level Adept 2, Alchemist 2, Antipaladin 2, Arcanist 2, Bard 2, Inquisitor 2, Investigator 2, Magus 2, Medium 2, Mesmerist 2, Occultist 2, Psychic 2, Skald 2, Sorcerer 2, Spiritualist 2, Summoner 2, Summoner (Unchained) 2, Wizard 2; Domain Trickery 2; Bloodline Arcane 2, Djinni 2, Oni 2, Rakshasa 2\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M/DF (an eyelash encased in gum arabic)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you or a creature or object weighing no mor"
+    },
+    {
+      "name": "Wand of Shield",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Abjuration [force]; Level Alchemist 1, Arcanist 1, Bloodrager 1, Investigator 1, Magus 1, Occultist 1, Psychic 1, Sorcerer 1, Spiritualist 1, Summoner 1, Summoner (Unchained) 1, Wizard 1; Subdomain Defense 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 1 Minutes\n\n  \n\nDescriptionShield creates an invisible shield of force that hovers in front of you. It negates magic missile attacks directed at you. The disk also provides a +"
+    },
+    {
+      "name": "Potion of Enlarge Person",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Alchemist 1, Arcanist 1, Bloodrager 1, Investigator 1, Magus 1, Medium 1, Occultist 1, Psychic 1, Sorcerer 1, Summoner 1, Summoner (Unchained) 1, Witch 1, Wizard 1; Domain Strength 1; Subdomain Growth 1; Bloodline Boreal 1, Efreeti 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (powdered iron)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets one humanoid creature\n\n  \n  Duration 1 Minutes (D)\n\n  \n\nDescriptionThis spell causes instant growth of a humanoid creature, doub"
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).\nConstructionRequirements Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus; Cost 500 gp"
+    }
+  ]
+}

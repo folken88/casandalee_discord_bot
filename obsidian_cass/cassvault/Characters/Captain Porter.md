@@ -1,17 +1,22 @@
 ---
 name: "Captain Porter"
 type: character
-campaign: "SS"
-tags: [character, ss]
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T02:54:24.378Z"
 ---
 
 # Captain Porter
 
-**Race:** Unknown | **Class:** Unknown | **Level:** ?
+## Notes & Updates
 
+- Discussed splitting the ship's loot and value. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Shackles - Glittersharts 2026 02 26
-Negotiating treasure division with the party, discussing loot distribution between captains
-
+*Session activity from YouTube transcripts will appear here.*

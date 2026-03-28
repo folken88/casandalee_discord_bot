@@ -1,0 +1,66 @@
+{
+  "name": "Tidewater Marksman",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Seaman",
+      "level": 1
+    },
+    {
+      "name": "Town Guard",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 64
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Booch",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This vibrant green tea-based kombucha is a local specialty from the Tidewater Rock fortress in the dangerous seas of the southern Shackles, near Windward Isle. Crafted by combining island herbs with fermented tea, Booch serves to fortify sailors and sentries alike. Its tangy taste has a revitalizing quality, making it a popular drink among those who stand watch through the long nights. Folk tales suggest that this drink's unique recipe was a gift from a benevolent sea spirit keen on improving a "
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Firearm Bullet",
+      "type": "loot",
+      "equipped": false,
+      "description": "The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound."
+    },
+    {
+      "name": "Tidewater Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The masterwork cutlass issued to the guards at Tidewater Rock in the Shackles is a finely crafted weapon, reflecting both the pride of the island's defenders and the treacherous seas surrounding it. Fashioned from polished steel with a sweeping guard engraved with nautical motifs, this cutlass is as much a symbol of status among the guards as it is a tool of their trade. Officers receive these weapons upon completing their training, and each blade bears the mark of the shipwrights who forged the"
+    },
+    {
+      "name": "Tidewater Shipbreaker 32 Pounder",
+      "type": "weapon",
+      "equipped": true,
+      "description": "When Tidewater Rock was claimed in the Lady’s name, these cannons were the first things emplaced—before walls were finished or banners raised. Forged inland and hauled at ruinous cost, each gun was dragged into its stone cradle and fused to the rock with iron collars and spellbound mortar. Since then, no captain ignorant of the Lady’s leave has ever sailed past unchallenged—and few have sailed past unscathed."
+    },
+    {
+      "name": "Tidewater 1-tap",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Tidewater 1-TapMasterwork Lever-Action Rifle\nPrice: 550 gp; Weight: 8 lbs.\nRange: 120 ft.; Damage: 1d10 piercing; Critical: 20/x3; Capacity: 1\nCrafted in the gunworks of Alkenstar, the Tidewater 1-Tap is a masterwork lever-action rifle built for reliability, precision, and ease of use. Commissioned for the steadfast town guards of Tidewater Rock, this rifle has earned its name from the deadly efficiency of its wielders—one shot, one kill.\nWhile it lacks advanced optics, the guards of Tidewater R"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "name": "Road King",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Aristocrat",
+      "level": 2
+    },
+    {
+      "name": "Rogue (Unchained)",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 24
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 10,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Blackwood-Style Repeating Heavy Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Antiqued Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings.\nMithral\n\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well. Most mithral armors are one category lighter than normal for purposes of movement and other limitations. Heavy armors are treated as medium, and medium armors are treated as light, but light armors are still treated"
+    },
+    {
+      "name": "Antiqued Kukri",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A kukri is a curved blade, about 1 foot in length."
+    }
+  ]
+}

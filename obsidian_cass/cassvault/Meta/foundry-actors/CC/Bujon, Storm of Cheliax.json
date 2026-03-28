@@ -1,0 +1,110 @@
+{
+  "name": "Bujon, Storm of Cheliax",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Crossblooded & Tattooed Sorcerer",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 29
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 13,
+    "int": 12,
+    "wis": 8,
+    "cha": 17
+  },
+  "items": [
+    {
+      "name": "Scroll of Dispel Magic",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Abjuration; Level Antipaladin 3, Arcanist 3, Bard 3, Cleric 3, Druid 4, Hunter 4, Inquisitor 3, Magus 3, Medium 3, Mesmerist 3, Occultist 3, Oracle 3, Paladin 3, Psychic 3, Shaman 3, Skald 3, Sorcerer 3, Spiritualist 3, Summoner 3, Summoner (Unchained) 3, Warpriest 3, Witch 3, Wizard 3; Domain Magic 3; Subdomain Entropy 3; Bloodline Arcane 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Medium (100 ft. + 10 ft./level)\n\n  Area one spellcaster, creature, or object\n\n  T"
+    },
+    {
+      "name": "Scroll of Fireball",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Evocation [fire]; Level Arcanist 3, Bloodrager 3, Magus 3, Occultist 3, Sorcerer 3, Wizard 3; Domain Fire 3; Bloodline Efreeti 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (a ball of bat guano and sulfur)\n\n  \n\n  \n  Range Long (400 ft. + 40 ft./level)\n\n  Area 20-ft.-radius spread\n\n  \n  \n  Duration Instantaneous\n\n    Saving Throw Reflex half;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionA fireball spell generates a searing explosion of flame that detonates with a low roar and d"
+    },
+    {
+      "name": "Bracers Of Armor +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese items appear to be wrist or arm guards, sometimes etched with symbols of protection or depictions of vigilant-looking animals. Bracers of armor surround the wearer with an invisible but tangible field of force, granting him an armor bonus of +1 to +8, just as though he were wearing armor. Both bracers of armor must be worn for the magic to be effective.   Alternatively, bracers of armor can be enchanted with armor special abilities. See Table 3-3: Armor Special Abilities for a "
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).\nConstructionRequirements Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus; Cost 500 gp"
+    },
+    {
+      "name": "Goldenwake Mead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "“Smooth seas on the evening, but a storm in the morning”\nGoldenwake Mead is a staple in coastal taverns across the Shackles, brewed with golden honey, faint spices, and a hearty kick of alcohol. It's known for its warmth, easy drinkability, and surprising potency, making it a favorite among sailors and pirates alike. While mostly known for its pleasant effects, overindulging in this stout mead can leave even the hardiest drinker feeling slightly off-kilter.\nEffects\nWhen consumed, Goldenwake Mead"
+    },
+    {
+      "name": "Desert Coffee",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This particularly strong coffee is popular throughout the desert empires. A morning cup is a good cure for lack of rest, but many find that it becomes a habit.\nType ingested; Addiction minor, Fortitude DC 12\n8 hours; user ignores the effects of the fatigued condition.\nAfter 8 hours; the user becomes exhausted, which is reduced to fatigued only after at least 8 hours of rest (instead of 1 hour).\n1 Wis damage"
+    },
+    {
+      "name": "Wand of Thunderstomp",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Evocation [earth]; Level Arcanist 1, Bloodrager 1, Druid 1, Hunter 1, Magus 1, Ranger 1, Sorcerer 1, Wizard 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range 25 ft\n\n  \n  Targets one creature\n\n  \n  Duration Instantaneous\n\n    Saving Throw None;\n    Spell Resistance yes\n    \n\n  \n\nYou stomp your foot or strike your weapon against the ground or floor, creating a ripple of power that you can use to trip a creature. Attempt the combat maneuver check to trip the target, but"
+    },
+    {
+      "name": "Maelstrom",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This silver amulet, crafted in the shape of a jagged lightning bolt, crackles faintly with stored electrical energy. The Stormcaller's Pendant grants its wearer a deeper connection to the primal forces of the storm, empowering those who wield lightning and thunder magic.\nIt enhances the potency of evocation spells cast by the wearer, as well as improving their ability to react to danger."
+    },
+    {
+      "name": "Blood Caimon Tacos",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners!\nEnjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes."
+    },
+    {
+      "name": "Stolen Winds",
+      "type": "loot",
+      "equipped": true,
+      "description": "\"The Codex of Stolen Winds\"A mystical volume bound in blue sharkskin, containing arcane knowledge of wind and weather magic. The cover depicts a ship at sea in a storm, and changes every few days in subtle ways as the waves roll and the ship barely keeps ahead of the lightning.\nEffect: Allows the reader to prepare or cast control weather (once per week) if they have the ability to cast spells.Lore: Scholars believe this book was once kept aboard the flagship of a legendary elven pirate-lord, who"
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": true,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Lady Tukkar Boots",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Lady Tukkar Boots (Level 3 Wondrous Item)Price: 1,400 gp\nAura faint transmutation\nSlot feet\nCL 3rd\nWeight 3 lbs\nDescriptionCrafted from the dense, shaggy fur of the mighty tukkar, these enchanted boots offer resilience, stability, and an earth-shaking stomp. Despite their effectiveness, Thragorn, a 17-foot-tall forest giant, has no understanding of mortal fashion, leading to two distinct versions:\n\"Lady Tukkar\" Boots – After hearing complaints that his boots were \"not stylish,\" Thragorn attempte"
+    },
+    {
+      "name": "Bullseye Rum",
+      "type": "consumable",
+      "equipped": true,
+      "description": "“It hits you right in the center, just not in a good way.”\nBullseye Rum is the drink of choice for the truly desperate, the miserly, or those who simply value quantity over quality. Its dark amber hue suggests a richness it absolutely does not deliver. The label, featuring a dartboard and the motto \"Bullseye,\" is both an ironic jab at the drink's questionable aftereffects and a promise of its unerring ability to ruin your stomach. Produced by dubious distilleries scattered across the Shackles, i"
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.\nConstructionRequirements Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring; Cost 1,000 gp"
+    }
+  ]
+}

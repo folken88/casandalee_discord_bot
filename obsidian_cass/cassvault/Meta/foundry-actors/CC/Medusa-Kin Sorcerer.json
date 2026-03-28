@@ -1,0 +1,29 @@
+{
+  "name": "Medusa-Kin Sorcerer",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Medusa-Kin",
+  "classes": [
+    {
+      "name": "Monk (Unchained)",
+      "level": 1
+    },
+    {
+      "name": "Sorcerer",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 24
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 15,
+    "con": 12,
+    "int": 11,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": []
+}

@@ -1,0 +1,50 @@
+{
+  "name": "CAL-OPS Constable",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Cavalier",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 48
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 10,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "CAL-OPS Hammer",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "CAL-OPS Street Cloak",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A symbol of rank and a magical charm to protect the wearer. A typical CAL-OPS Street cloak has signs of wear and tear, and has been repaired many times."
+    },
+    {
+      "name": "Caliphas Guardsman Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    },
+    {
+      "name": "CAL-OPS 001 Constable's Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Constables (\"CAL-Obstacles\"): Common guards, seen as the “obstacle” to petty crime."
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Molten Bloodeye",
+  "type": "character",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Half-Orc",
+  "classes": [
+    {
+      "name": "Warpriest",
+      "level": 5
+    },
+    {
+      "name": "Divine Scion",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 60
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 14,
+    "int": 11,
+    "wis": 16,
+    "cha": 13
+  },
+  "items": [
+    {
+      "name": "Scrap Horn",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This \"horn\" is more of a metal trumpet without the instrument bit. It is fashioned from re-purposed armor plates, many of which still have bullet/arrow holes and dents from battle.\nThe item is heavily enchanted by months of ritual prayer. The prayers focused on found-family unity and the device now provides several benefits.\nAll effects require yelling into the megaphone.\n1) Communal buff-spells have their duration doubled and affect twice as many targets. This includes communal cure-spells.\n2) "
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Scrapwall Greatersword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This blade was made from unbreakable space metal scraps and enchanted by weeks of constant prayer for the death of one's enemies."
+    },
+    {
+      "name": "Makeshift Hornbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 8\nStatisticsCost 130 gp Weight 7 lbs.\nDamage 1d8 (small), 2d6 (medium); Critical x3; Range 80 ft.; Type P; Special -\nCategory Ranged; Proficiency Exotic\nWeapon Groups Bows\nDescriptionLarger even than a longbow, these bows are often made from the horns of great beasts. Though they have a shorter range than other bows, their greater destructive power is highly favored by orcs and their kin. All hornbows are composite bows and can be modified to benefit from high St"
+    },
+    {
+      "name": "Makeshift 4 Mirror Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This armor consists of four glaucite plates harnessed together with leather shoulder straps. Two round plates protect your front and back, while two smaller rectangular plates cover the sides of the torso. Four-mirror armor is worn over chainmail to provide added protection, and comes with a spiked helmet with a chainmail hood."
+    }
+  ]
+}

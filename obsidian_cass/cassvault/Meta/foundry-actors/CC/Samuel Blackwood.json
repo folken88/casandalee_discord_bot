@@ -1,0 +1,29 @@
+{
+  "name": "Samuel Blackwood",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Aristocrat",
+      "level": 4
+    },
+    {
+      "name": "Mindblade Kensai Magus",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 14,
+    "con": 12,
+    "int": 16,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": []
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Ligma Curio",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Dark Angel",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This weapon appears to be made of dark energy at its edges and pommel tips, but with a glowing dagger of sunlight at its core.\n\n \n\nIt strikes on touch AC and functions as a +2 bastard sword."
+    },
+    {
+      "name": "The King's Pot",
+      "type": "loot",
+      "equipped": false,
+      "description": "This enchanted pot appears to be the size of a coffee mug at most times and weighs less than half a pound. While in it's small form, it protects the King's Personal Chef with an absorption field that absorbs the first 20 points of elemental (fire, cold, acid, shock, force, sonic) damage per day as a limited form of the @Compendium[pf1.spells.1vh2ewwvzvxunoxk]{Protection from Energy} spell and so it does not stack with that spell, only the greater protection is used.\n\n \n\nIf it is so commanded by "
+    },
+    {
+      "name": "Spell Prism",
+      "type": "equipment",
+      "equipped": true,
+      "description": "5% chance to regen spell slot on cast, spell store 5"
+    },
+    {
+      "name": "Eyes Of The Eagle",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese lenses are made of special crystal and fit over the eyes of the wearer. They grant a +5 competence bonus on Perception checks. Both lenses must be worn to gain the benefit. Wearing only one causes a character to become dizzy and stunned for 1 round.\nBase Item: \nRequirementsCraft Wondrous Item, clairaudience/clairvoyance\nSource: Ultimate Equipment"
+    },
+    {
+      "name": "Nidalese Warden Cape",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This beautiful black suede cloak is standard issue for royal bodyguards serving on the Umbral Court in Nidal. The benefits are achieved via a layer of magical stitching embedded in the liner with the 5 principles of the Nidalese Wardens written in Varisian.\n\nPrestige: +5 diplomacy or intimidate checks vs Nidalese citizens. Note that this is not a magical effect, but purely the result of reputation.\n\nResistance: It functions as a cloak of resistance +1. This effect can be upgraded via the @Compen"
+    },
+    {
+      "name": "Captain's Lucky Hat",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This stylish hat gives the wearer a sense of confident authority and naval competence.  While aboard any sea going or flying vessel, if the wearer is the recognized captain, once per day when they issue a general order to the crew, all of their crew are affected by a @Compendium[pf1.spells.vqfrp8t0c1lw1jna]{Heroism} spell that lasts 1 hour per captain's level.\n\n \n\nJust wearing the hat grants one a circumstance bonus to pursuasion skills with any who recognize that it is a captain's hat."
+    },
+    {
+      "name": "Egora Victa",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A Chelish-styled +1 mithril breastplate sculpted in the likeness of a man's bare chest. It provides +5 morale-bonus to Diplomacy, Bluff, and Intimidate checks vs humanoids only when openly displayed. \n\nAs mithril/agile, this breastplate functions as light-armor for purposes of movement and the armor check penalty for Climb checks and Acrobatics checks made to jump is only &ndash;1."
+    },
+    {
+      "name": "Hat Of Disguise",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThis apparently normal hat allows its wearer to alter her appearance as with a disguise self spell. As part of the disguise, the hat can be changed to appear as a comb, ribbon, headband, cap, coif, hood, helmet, or other headwear.\nBase Item: \nRequirementsCraft Wondrous Item, disguise self\nSource: Ultimate Equipment"
+    },
+    {
+      "name": "Golden Bow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Golden Bow is a +3 composite longbow of distance. If the wielder ever experiences free-fall, its golden wings deploy huge white feathers that can be used to glide. If the wielder is unable to use this function due to being immobilized, the bow remains in their hand and holds their grip while causing a 'feather fall' effect."
+    },
+    {
+      "name": "Handy Haversack",
+      "type": "container",
+      "equipped": true,
+      "description": "A backpack of this sort appears to be well made, well used, and quite ordinary. It has two side pouches, each of which appears large enough to hold about a quart of material. In fact, each is like a bag of holding and can actually hold material of as much as 2 cubic feet in volume or 20 pounds in weight. The large central portion of the pack can contain up to 8 cubic feet or 80 pounds of material. Even when so filled, the backpack always weighs only 5 pounds.\n\nWhile such storage is useful enough"
+    },
+    {
+      "name": "Revolver MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A revolver is a pistol with a revolving cylinder containing six chambers. Each chamber can hold a metal cartridge, and when one cartridge is shot, the cylinder automatically rotates (no extra hand or action required), readying the next chamber for firing. A revolver uses metal cartridges as ammunition.\n\n \n\nThis particular model features a 4 chambered cylindar. It takes a full-round action to reload or a move-action will load 1 cartridge."
+    },
+    {
+      "name": "The Clarkson",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A finely crafted smoking pipe in racing-green.\n\nThis long-stemmed, wooden pipe can burn any number of substances, but is primarily used for smoking tobacco. The pipe smoker can command a small, smoky servant to emerge from the pipe to do minor tasks. The servant can move or fetch small objects, and in general acts as an unseen servant, except that it is visible as a small, wispy cloud of gray smoke. Additionally, the servant is capable of clearing one 5-foot square of smoke or fog per round. The"
+    }
+  ]
+}

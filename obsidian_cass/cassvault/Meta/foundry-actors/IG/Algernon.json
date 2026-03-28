@@ -1,0 +1,122 @@
+{
+  "name": "Algernon",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Ratfolk",
+  "classes": [
+    {
+      "name": "Alchemist (Vivisectionist/Beastmorph)",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 14,
+    "int": 16,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Potion of Air Bubble",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nAir bubble creates a small pocket of breathable air that surrounds the touched creature's head or the touched object. The air bubble allows the creature touched to breathe underwater or in similar airless environments, or protects the object touched from water damage.  A firearm within an air bubble can be loaded-assuming the black powder comes from a powder horn, a cartridge, or some other airtight protective device-and fired. When shooting such a firearm underwa"
+    },
+    {
+      "name": "Thoracic Nanite Chamber (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nA thoracic nanite chamber augments the vital organs within a creature's chest, particularly its heart, lungs, and pulmonary system. Once installed, a thoracic nanite chamber grants an enhancement bonus to Constitution."
+    },
+    {
+      "name": "Cyberfiber Muscles (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nCyberfiber muscles are powerful synthetic muscles that augment but do not replace existing muscle mass in a creature. Once installed, cyberfiber muscles grant an enhancement bonus to Strength. This enhancement bonus alters price, implantation value, install DCs, and Craft DCs as listed below."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nSpell Description\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Cybernetic Ears",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 37\nPrice 4,000 gp\nSlot ears; Weight 1 lb.\nInstall DC 28; Implantation 1\nDescriptionA cybernetic ear can be enhanced by cyberart at no additional cost, giving it an unusual color or shape. When a pair of ears is installed, the user gains a +2 circumstance bonus on Perception checks. This bonus stacks with circumstance bonuses on Perception checks from other cybernetic senses. Cybernetic ears grant a +4 resistance bonus on all saving throws against sonic effects.\n\n The "
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Tracker Chip (inactive)",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Implant Mesh (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\n\nAn implant mesh is a cybernetic augmentation that enhanced other cybernetic implants, notably those that heighten their wearers' physical abilities. If used to enhance cyberfiber musclesTG, a thoracic nanite chamberTG, or wirejack tendonsTG, an implant mesh must be installed on that piece of cyberware before the item is implanted in a body. \n\n \n\nThis implant mesh supports up to 3 physical body mods with a maximum bonus of +2."
+    },
+    {
+      "name": "Dermal Plating (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese plates exist under the skin and provide increased resistance to physical attacks. They are undetectable normally, but are visible when struck and for a few moments afterwords."
+    },
+    {
+      "name": "Potion of Gaseous Form",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject and all its gear become insubstantial, misty, and translucent. Its material armor (including natural armor) becomes worthless, though its size, Dexterity, deflection bonuses, and armor bonuses from force effects still apply. The subject gains DR 10/ magic and becomes immune to poison, sneak attacks, and critical hits. It can't attack or cast spells with verbal, somatic, material, or focus components while in gaseous form. This does not rule out the use of certain spells that the subj"
+    },
+    {
+      "name": "Cardiac Accelerator",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Allows a haste-effect to be activated as a swift-action. The amount of rounds per day is hd/2 + Con Mod. The number of rounds is chosen as part of the swift action."
+    },
+    {
+      "name": "Ratfolk Tailblade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Advanced Race Guide pg. 154\nStatisticsCost 11 gp Weight 1/2 lb.\nDamage 1d2 (small), 1d3 (medium); Critical x2; Range -; Type S; Special -\nCategory Light; Proficiency Martial\nDescriptionA tailblade is a small, sharp knife designed to be strapped to the tip of a wielder's tail. It takes a full-round action to strap on or remove a tailblade. The wearer can loosely attach the tailblade (without strapping it securely in place) as a move action, but using a loosely attached tailblade gives the "
+    },
+    {
+      "name": "Wirejack Tendons (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nWirejack tendons not only strengthen and enhance existing reflexes, but also enhance the transmission of nerve impulses to surrounding musculature. Once installed, wirejack tendons grant an enhancement bonus to Dexterity."
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    }
+  ]
+}

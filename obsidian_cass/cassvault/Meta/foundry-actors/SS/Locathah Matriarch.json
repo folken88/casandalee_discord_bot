@@ -1,0 +1,38 @@
+{
+  "name": "Locathah Matriarch",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Locathah",
+  "classes": [
+    {
+      "name": "Humanoid (Aquatic)",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 16
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 10,
+    "int": 13,
+    "wis": 13,
+    "cha": 11
+  },
+  "items": [
+    {
+      "name": "Light Crossbow (Underwater)",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, Advanced Race Guide pg. 195, Ultimate Equipment pg. 17\nStatisticsCost 70 gp Weight 4 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range 80 ft.; Type P; Special -\nCategory Ranged; Proficiency Simple\nWeapon Groups Crossbows\nDescriptionAn underwater light crossbow functions like its normal counterpart above water, and can be used underwater. When fired underwater, the crossbow has a range increment of 20 feet. Anyone proficient with a normal light c"
+    },
+    {
+      "name": "Longspear",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 5 gp Weight 9 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type P; Special brace, reach\nCategory Two-Handed; Proficiency Simple\nWeapon Groups Spears\nDescriptionA longspear is about 8 feet in length."
+    }
+  ]
+}

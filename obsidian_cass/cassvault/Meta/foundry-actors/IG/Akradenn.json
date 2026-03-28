@@ -1,0 +1,508 @@
+{
+  "name": "Akradenn",
+  "type": "character",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Eldritch Knight",
+      "level": 9
+    },
+    {
+      "name": "Cavalier",
+      "level": 1
+    },
+    {
+      "name": "Transmuter Wizard",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 41
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 12,
+    "int": 15,
+    "wis": 11,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Clamdrinc",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Introducing the peculiar elixir that combines the unlikeliest of flavors, Clamdrinc! Drawing inspiration from the iconic elven weapon wielded against the Orcs, this unique soda delivers a briny surprise with every sip. Imagine the essence of the sea captured in a fizzy concoction, where the salty undertones dance alongside a subtle hint of clam, creating an unforgettable taste adventure. With each refreshing gulp, Clamdrinc transports you to a mythical shoreline, where the Elves and the clams un"
+    },
+    {
+      "name": "Nanite Canister",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A nanite canister is used to power technological devices that use nanites—such items generally don’t require other sources of power, as the nanites themselves do the bulk of the work when the object is activated. The canister contains a small, independent power source and a supply of nanites. A single canister contains enough nanites to provide 10 charges for a nanotech item or weapon."
+    },
+    {
+      "name": "Go Nuts",
+      "type": "consumable",
+      "equipped": true,
+      "description": "These pale nuts smell vaguely of brimstone and sulpher. They taste very salty and dry.\n\nType ingested; Addiction medium, Fortitude DC 16\nImmediately after ingesting or grinding-up-and-snorting these, the user is affected by a Haste spell for 5 rounds. They are affected by Expeditious Retreat for the following hour. After which they are awake for the following 48 hours.\nDuring this period, the user is immune to Sleep and Slow conditions from spells or other chemicals, and suffers a constant -10 t"
+    },
+    {
+      "name": "Goremouth War Bell",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This iron-spiked gauntlet has a hollow chamber within the wrist that resonates like a cathedral bell when it strikes flesh. The design is brutal, its surface etched with runic symbols of intimidation. Favored by those who thrive on the chaos of battle, it produces a sound that reverberates through bone and steel, unsettling enemies with a cacophony of violent intent."
+    },
+    {
+      "name": "Scroll of Dominate Person",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can control the actions of any humanoid creature through a telepathic link that you establish with the subject's mind.\nIf you and the subject have a common language, you can generally force the subject to perform as you desire, within the limits of its abilities. If no common language exists, you can communicate only basic commands, such as \"Come here,\" \"Go there,\" \"Fight,\" and \"Stand still.\" You know what the subject is experiencing, but you do not receive direct sensory input from it, nor "
+    },
+    {
+      "name": "Hell's Hot Cocoa",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Wand of Disguise Self",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You make yourself--including clothing, armor, weapons, and equipmen--look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender.\nThe spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile"
+    },
+    {
+      "name": "Potion of Cure Critical Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 4d8 points of damage + 1 point per caster level (maximum +20)."
+    },
+    {
+      "name": "Jung Nuggit",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Real Housewives of Ustalav",
+      "type": "loot",
+      "equipped": true,
+      "description": "A book on various principles with supporting data & tables. This item grants +5 circumstance bonus on knowledge checks (referring to Ustalavian Nobility) when used to \"take 10\" or the book is consulted for at least 10 minutes."
+    },
+    {
+      "name": "Potion of Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint illusion; CL 3rd\n\nThe creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisibl"
+    },
+    {
+      "name": "Desert Coffee",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This particularly strong coffee is popular throughout the desert empires. A morning cup is a good cure for lack of rest, but many find that it becomes a habit.\nType ingested; Addiction minor, Fortitude DC 12\n8 hours; user ignores the effects of the fatigued condition.\nAfter 8 hours; the user becomes exhausted, which is reduced to fatigued only after at least 8 hours of rest (instead of 1 hour).\n1 Wis damage"
+    },
+    {
+      "name": "Magesight",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dilettantes pursue the visions from magesight simply for the wonder of the experience, while back-alley shopkeeps in Absalom, Katapesh, Katheer, and other major trade cities rely on it to provide a valuable ability they have no other way to obtain.\nType inhaled; Addiction minor, Fortitude DC 15\n1d4×10 minutes; the user gains the benefits of a constant detect magic effect, but she treats illumination in the area as dim light; areas of dim light and darkness are treated as darkness.\n1 hour; the us"
+    },
+    {
+      "name": "Armored Spellbook",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Structurally and magically reinforced, this spellbook is armor plated. It is covered with dents, scratches, and burn marks from all the battle it has survived. It also contains passages within that function as \"Arcane in the Membrane.\"\n\n===================================================\nA book on various arcana principles with supporting data & tables. This item grants +5 circumstance bonus on knowledge arcana checks when used to \"take 10\" or the book is consulted for at least 10 minutes.\nThis "
+    },
+    {
+      "name": "Potion of Protection From Arrows",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 3rd\n\nThe warded creature gains resistance to ranged weapons.\nThe subject gains damage reduction 10/magic against ranged weapons. This spell doesn't grant you the ability to damage creatures with similar damage reduction. Once the spell has prevented a total of 10 points of damage per caster level (maximum 100 points), it is discharged."
+    },
+    {
+      "name": "Potion of Air Bubble",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Air bubble creates a small pocket of breathable air that surrounds the touched creature's head or the touched object. The air bubble allows the creature touched to breathe underwater or in similar airless environments, or protects the object touched from water damage.  A firearm within an air bubble can be loaded-assuming the black powder comes from a powder horn, a cartridge, or some other airtight protective device-and fired. When shooting such a firearm underwater, the shot still takes the st"
+    },
+    {
+      "name": "Satchel of Richards",
+      "type": "container",
+      "equipped": true,
+      "description": "Part of the Carriers by Calvin line of luxury containers, this finely crafted leather satchel has runework hidden in its stitching.\nThis dimensional pocket magically stores up to 100 cubic feet of items, and reduces their material-plane-weight by 75%."
+    },
+    {
+      "name": "Headband of Vast Intelligence +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This intricate gold headband is decorated with several small blue and deep purple gemstones.\n\nThe headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer’s total Hit Dice. These ranks do no"
+    },
+    {
+      "name": "Potion of Fly",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load).\nIt can ascend at half speed and descend at double speed, and its maneuverability is good. Using a fly spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can charge but not run, and it cannot carry aloft more weight than its maximum load, plus any armor it wears. The subject gains a bonus"
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Potion of Remove Blindness/Deafness",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove blindness/deafness cures blindness or deafness (your choice), whether the effect is normal or magical in nature. The spell does not restore ears or eyes that have been lost, but it repairs them if they are damaged.\nRemove blindness/deafness counters and dispels blindness/deafness."
+    },
+    {
+      "name": "Grape Tongue",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dyes the user's tongue bright purple, usually spreading to the lips and area around the mouth as it causes excessive licking and smacking. Whatever the user says is heard as incoherent babbling, but the user is granted +8 to save vs mind-affecting attacks with somatic components for 1d8 minutes."
+    },
+    {
+      "name": "Potion of Darkvision",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject gains the ability to see 60 feet even in total darkness. Darkvision is black and white only but otherwise like normal sight.\nDarkvision can be made permanent with a permanency spell."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Scroll of Confusion",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell causes confusion in the targets, making them unable to determine their actions. Roll on the following table at the start of each subject's turn each round to see what it does in that round.\n\nd%Behavior 01-25Act normally 26-50Do nothing but babble incoherently 51-75Deal 1d8 points of damage + Str modifier to self with item in hand 76-100Attack nearest creature (for this purpose, a familiar counts as part of the subject's self)  A confused character who can't carry out the indicated act"
+    },
+    {
+      "name": "Scroll of Passwall",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You create a passage through wooden, plaster, or stone walls, but not through metal or other harder materials. The passage is 10 feet deep plus an additional 5 feet deep per three caster levels above 9th (15 feet at 12th, 20 feet at 15th, and a maximum of 25 feet deep at 18th level). If the wall's thickness is more than the depth of the passage created, then a single passwall simply makes a niche or short tunnel. Several passwall spells can then form a continuing passage to breach very thick wal"
+    },
+    {
+      "name": "Wack Juce",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Refreshingly intoxicating, Wack Juce is made with the finest synthetic oranges in Numeria, and the 3rd finest potato vodka in the world: Smashka Noble!\nEnjoy this sweet and soothing taste of home, you can almost hear the anthem of the Fatherland as you slurp!"
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Scroll of Dismissal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell forces an extraplanar creature back to its proper plane if it fails a Will save. If the spell is successful, the creature is instantly whisked away, but there is a 20% chance of actually sending the subject to a plane other than its own."
+    },
+    {
+      "name": "Scroll of Protection from Technology",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell wards a creature from attacks by technological objects and creatures of the robot subtype, and protects against mental control from technological sources. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has two major effects.\nFirst, the target gains a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. Both of these bonuses apply against attacks made or effects caused by technological objects and creatur"
+    },
+    {
+      "name": "Belt of Physicality",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Remove Curse",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove curse can remove all curses on an object or a creature. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each curse affecting the target.\nSuccess means that the curse is removed. Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although a successful caster level check enables the creature afflicted with any such cursed item to remove and get rid of it.\nRemove curse counters and dispels bestow curs"
+    },
+    {
+      "name": "Nose Diamond",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Grants Darkvision 60' with light-sensitivity. Inhibits sense of smell, causing immunity to Nausea/Sickening conditions. 1d4 hours. Causes the user to sniff, itch their nose, and talk about crypto at every opportunity."
+    },
+    {
+      "name": "Scroll of Mage's Private Sanctum",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell ensures privacy. Anyone looking into the area from outside sees only a dark, foggy mass. Darkvision cannot penetrate it. No sounds, no matter how loud, can escape the area, so nobody can eavesdrop from outside. Those inside can see out normally.\nDivination (scrying) spells cannot perceive anything within the area, and those within are immune to detect thoughts. The ward prevents speech between those inside and those outside (because it blocks sound), but it does not prevent other comm"
+    },
+    {
+      "name": "Potion of Gaseous Form",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject and all its gear become insubstantial, misty, and translucent. Its material armor (including natural armor) becomes worthless, though its size, Dexterity, deflection bonuses, and armor bonuses from force effects still apply. The subject gains DR 10/ magic and becomes immune to poison, sneak attacks, and critical hits. It can't attack or cast spells with verbal, somatic, material, or focus components while in gaseous form. This does not rule out the use of certain spells that the subj"
+    },
+    {
+      "name": "Scroll of Sending",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You contact a particular creature with which you are familiar and send a short message of 25 words or less to the subject. The subject recognizes you if it knows you. It can answer in like manner immediately. A creature with an Intelligence score as low as 1 can understand the sending, though the subject's ability to react is limited as normal by its Intelligence. Even if the sending is received, the subject is not obligated to act upon it in any manner.\nIf the creature in question is not on the"
+    },
+    {
+      "name": "Numerian Fluids",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A strange combination of fluids from wreckage in Numeria.\nNumerian Fluids Table 01"
+    },
+    {
+      "name": "Greenchaw",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Causes user's skin to exude a slimy green glowing substance that provides light & lubrication for 1d6 minutes as Grease & Light 30'."
+    },
+    {
+      "name": "Scroll of Feeblemind",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Target creature's Intelligence and Charisma scores each drop to 1. The affected creature is unable to use Intelligence- or Charismabased skills, cast spells, understand language, or communicate coherently. Still, it knows who its friends are and can follow them and even protect them. The subject remains in this state until a heal, limited wish, miracle, or wish spell is used to cancel the of the feeblemind. A creature that can cast arcane spells, such as a sorcerer or a wizard, takes a -4 penalt"
+    },
+    {
+      "name": "Potion of Spider Climb",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject can climb and travel on vertical surfaces or even traverse ceilings as well as a spider does. The affected creature must have its hands free to climb in this manner. The subject gains a climb speed of 20 feet and a +8 racial bonus on Climb skill checks; furthermore, it need not make Climb checks to traverse a vertical or horizontal surface (even upside down). A spider climbing creature retains its Dexterity bonus to Armor Class (if any) while climbing, and opponents get no special bo"
+    },
+    {
+      "name": "Battleborn Gloves",
+      "type": "weapon",
+      "equipped": true,
+      "description": "These leather gloves bear golden runework in the Ulfen tradition.\nThey provide a number of benefits to a warrior of any type.\nThey function as bracers of archery, and do not stack with that item. (+2 competence bonus to hit and +1 competence bonus on damage for ranged weapons).\nThe gloves provide superior comfort and grip. As such they provide +4 vs cmd attempts to disarm or sunder the wearer's held items. They add +5 circumstance bonus to climbing and acrobatics checks.\nThe gloves add +1 to hit"
+    },
+    {
+      "name": "Steelchew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Temporarily changes all the users soft tissue to hardened steel. This results in an Ironskin spell (+6 natural armor), DR10 vs Slashing, and blindness. lasts 2d6 minutes."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nSpell Description\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Scroll of Teleport",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell instantly transports you to a designated destination, which may be as distant as 100 miles per caster level. Interplanar travel is not possible. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as four Medium creatures"
+    },
+    {
+      "name": "Pipebomb 2.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Remove Curse",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove curse can remove all curses on an object or a creature. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each curse affecting the target.\nSuccess means that the curse is removed. Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although a successful caster level check enables the creature afflicted with any such cursed item to remove and get rid of it.\nRemove curse counters and dispels bestow curs"
+    },
+    {
+      "name": "Upgrade Armor: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Protection from Arrows, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like Protection from Arrows, except you divide the duration in 1-hour intervals among the creatures touched. Once the spell absorbs 10 points of damage per caster level (maximum 100 points) for a subject, the spell's effects end for that subject."
+    },
+    {
+      "name": "Scroll of Ice Storm",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Great magical hailstones pound down upon casting this spell, dealing 3d6 points of bludgeoning damage and 2d6 points of cold damage to every creature in the area. This damage only occurs once, when the spell is cast. For the remaining duration of the spell, heavy snow and sleet rains down in the area. Creatures inside this area take a -4 penalty on Perception skill checks and the entire area is treated as difficult terrain. At the end of the duration, the snow and hail disappear, leaving no afte"
+    },
+    {
+      "name": "Sea Snake, by Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Crafted by the renowned perfumer Calvin Carpenter from the luxury brand from Kintargo in the opulent region of Ravounel, Essence of the Irresistible is an exquisite perfume that captivates the senses of both land and sea creatures. The perfume is housed in an elegant crystal vial, its design inspired by the waves of the sea and the gentle curves of rolling hills. The fragrance inside shimmers with a delicate, ocean-blue hue, infused with the rarest ingredients harvested from the coastal waters o"
+    },
+    {
+      "name": "Scroll of Fly",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load).\nIt can ascend at half speed and descend at double speed, and its maneuverability is good. Using a fly spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can charge but not run, and it cannot carry aloft more weight than its maximum load, plus any armor it wears. The subject gains a bonus"
+    },
+    {
+      "name": "Thunderchonk",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Blue crystals taste bitter when chewed and crunch very loudly. User's voice is amplified to extreme volume. Double range and +2DC for any voice-attacks or spells with Verbal components. +5 for giving speeches. -10 stealth. Lasts 1d3 hours."
+    },
+    {
+      "name": "Scroll of Resist Energy, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like resist energy, except you divide the duration in 10-minute intervals among the creatures touched."
+    },
+    {
+      "name": "Scroll of Protection from Energy, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like protection from energy, except you divide the duration in 10-minute intervals among the creatures touched. Once the spell absorbs 12 points of energy damage per caster level (maximum 120 points) for a subject, the spell's effects end for that subject."
+    },
+    {
+      "name": "Spiteforge",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Historians cannot separate fact from fiction with regards to this item. The legend most often heard involves the dethroning of a cruel king of a long lost subterranean civilization. An earthen warlock of unmatched power, his hateful soul endured long after his body was destroyed. And so his people imprisoned him within a freshly poured band of their most precious metals and gemstones, transferring some part of his power into the item and trapping him forever.\nFor a hundred generations they put h"
+    },
+    {
+      "name": "Slaver's Drops",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dropped into the eyes, this clear liquid awakens the senses but makes the user mentally pliant and open to suggestion. This drug is often used during interrogations or by slavers who seek to force compliance via enchantment effects or similar methods of mind-control.\nType drug (ingested); Addiction minor, Fortitude DC 13\n3 hours; –3 on Will saves, +3 on Perception checks\n1d2 Str damage"
+    },
+    {
+      "name": "Big-Dick Quick-Stick",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Glitterdust",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A cloud of golden particles covers everyone and everything in the area, causing creatures to become blinded and visibly outlining invisible things for the duration of the spell. All within the area are covered by the dust, which cannot be removed and continues to sparkle until it fades. Each round at the end of their turn blinded creatures may attempt new saving throws to end the blindness effect.\nAny creature covered by the dust takes a -40 penalty on Stealth checks."
+    },
+    {
+      "name": "False Teeth",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 13\nPrice 100 gp (clockwork), 5 gp (common), 50 gp (masterwork); Weight 1/2 lb. (clockwork), - (common), - (masterwork)\nDescriptionThese prosthetics are used as a replacement for lost or missing teeth. False teeth fashioned from wood or animal teeth are more common, while masterwork varieties are sculpted from bone or porcelain. Clockwork false teeth are novelties with mechanisms allowing the teeth to clatter and move on their own. Winding the clockworks is a move"
+    },
+    {
+      "name": "Starspore",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A resilient, iridescent mold that blooms with a peridot-colored encrustation before releasing invisible spores, starspore grows on adamantine and other skymetals as well as their alloys. It requires trace toxins to grow. Ingesting or inhaling starspore opens the mind, enhances the senses, and bestows a feeling of invulnerability upon the user, but these sensations come at a price. Starspore uses the rules for addiction.\nType drug, ingested or inhaled; Addiction severe, Fortitude DC 15\n1 hour; in"
+    },
+    {
+      "name": "Scroll of Hellfire Ray",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A blast of hellfire blazes from your hands. You can fire one ray, plus one additional ray for every 4 caster levels beyond 11th (to a maximum of three rays at 19th level). Each ray requires a ranged touch attack to hit and deals 1d6 points of damage per caster level (maximum 15d6). Half the damage is fire damage, but the other half results directly from unholy power and is therefore not subject to being reduced by fire resistance. The rays can be fired at the same target or at different targets,"
+    },
+    {
+      "name": "Deer Shit",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Grants Expeditious Retreat buff for 4d4 minutes. Leaves a bad taste in the mouth."
+    },
+    {
+      "name": "Scroll of Disintegrate",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A thin, green ray springs from your pointing finger. You must make a successful ranged touch attack to hit. Any creature struck by the ray takes 2d6 points of damage per caster level (to a maximum of 40d6). Any creature reduced to 0 or fewer hit points by this spell is entirely disintegrated, leaving behind only a trace of fine dust. A disintegrated creature's equipment is unaffected.\nWhen used against an object, the ray simply disintegrates as much as a 10-foot cube of nonliving matter. Thus, t"
+    },
+    {
+      "name": "Glory",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Glory is a Keen-Impact sword made for the Shining Crusade. It crits on an 18 and deals 2d6 slashing damage."
+    },
+    {
+      "name": "Potion of Haste",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast "
+    },
+    {
+      "name": "Nanite Hypogun 3.0 White",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Color Black\n\nPrimary Effect (1ch) 3d8+8 healing\n\nSecondary Effect CL (5ch) Remove Disease\n\nRemove disease can cure all diseases from which the subject is suffering. You must make a caster level check (1d20 + caster level) against the DC of each disease affecting the target. Success means that the disease is cured. The spell also kills some hazards and parasites, including green slime and others.\n\nSince the spell&rsquo;s duration is instantaneous, it does not prevent reinfection after a new expos"
+    },
+    {
+      "name": "Scroll of Silence",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Upon the casting of this spell, complete silence prevails in the affected area. All sound is stopped: Conversation is impossible, spells with verbal components cannot be cast, and no noise whatsoever issues from, enters, or passes through the area. The spell can be cast on a point in space, but the effect is stationary unless cast on a mobile object. The spell can be centered on a creature, and the effect then radiates from the creature and moves as it moves. An unwilling creature can attempt a "
+    },
+    {
+      "name": "Technic League Captain Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A small golden pin"
+    },
+    {
+      "name": "Upgrade Resistance: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Expeditious Retreat",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint transmutation; CL 1st\n\nThis spell increases your base land speed by 30 feet. This adjustment is treated as an enhancement bonus. There is no effect on other modes of movement, such as burrow, climb, fly, or swim. As with any effect that increases your speed, this spell affects your jumping distance (see the Acrobatics skill)."
+    },
+    {
+      "name": "Wand of Disguise Other",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions as disguise self, except you can disguise either yourself or another creature."
+    },
+    {
+      "name": "Scroll of Haste",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast "
+    },
+    {
+      "name": "Scroll of Dimensional Anchor",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A green ray springs from your hand. You must make a ranged touch attack to hit the target. Any creature or object struck by the ray is covered with a shimmering emerald field that completely blocks extradimensional travel. Forms of movement barred by a dimensional anchor include astral projection, blink, dimension door, ethereal jaunt, etherealness, gate, maze, plane shift, shadow walk, teleport, and similar spell-like abilities. The spell also prevents the use of a gate or teleportation circle "
+    },
+    {
+      "name": "Scroll of Freedom of Movement",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell enables you or a creature you touch to move and attack normally for the duration of the spell, even under the influence of magic that usually impedes movement, such as paralysis, solid fog, slow, and web. All combat maneuver checks made to grapple the target automatically fail. The subject automatically succeeds on any combat maneuver checks and Escape Artist checks made to escape a grapple or a pin.\nThe spell also allows the subject to move and attack normally while underwater, even "
+    },
+    {
+      "name": "Why's He Dead?",
+      "type": "loot",
+      "equipped": true,
+      "description": "A book on various principles with supporting data & tables. This item grants +5 circumstance bonus on heal checks when used to \"take 10\" or the book is consulted for at least 10 minutes."
+    },
+    {
+      "name": "Wand of See Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can see any objects or beings that are invisible within your range of vision, as well as any that are ethereal, as if they were normally visible. Such creatures are visible to you as translucent shapes, allowing you easily to discern the difference between visible, invisible, and ethereal creatures.\nThe spell does not reveal the method used to obtain invisibility.\nIt does not reveal illusions or enable you to see through opaque objects. It does not reveal creatures who are simply hiding, con"
+    },
+    {
+      "name": "Arinyark Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Arinyark is a rare metal that arcane casters find less inhibiting to their spell casting. This breastplate is a mithral & arinyark alloy providing excellent protection as well as allowing full casting abilities.\n\nWith it's reflective outer gloss and inner-kevlar lining, it is designed to provide additional protection vs directed spells, energy weapons, and projectiles."
+    },
+    {
+      "name": "Scroll of Protection from Evil, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like Protection from Evil, except you divide the duration in 1-minute intervals among the creatures touched."
+    },
+    {
+      "name": "Potion of Nondetection",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 5th\n\nThe warded creature or object becomes difficult to detect by divination spells such as clairaudience/clairvoyance, locate object, and detect spells. Nondetection also prevents location by such magic items as crystal balls. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast nondetection. If you cast "
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Tepen the Quiet",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Rogue (Unchained)",
+      "level": 5
+    },
+    {
+      "name": "Pirate",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 22
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 11,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Mithral Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Kukri",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A kukri is a curved blade, about 1 foot in length."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "name": "Krelloort",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 4
+    },
+    {
+      "name": "Monstrous Humanoid",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 84
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 18,
+    "int": 12,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Zul",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Statistics\nDamage 1d6 (small), 1d8 (medium); Critical x2; Range 10 ft.; Type P; Special brace\n\nCategory One-Handed; Proficiency Martial\n\nWeapon Groups Spears; Thrown\n\nDescription\n\nZul is a +1 human bane trident that has been passed down from chieftain to chieftain in Krelloort's tribe for generations. Zul's three-pronged head is crafted of magically strengthened seashells, and its haft is composed of rough, twisted coral that deals 1 point of damage each time it is grasped, unless the wielder ha"
+    },
+    {
+      "name": "Scale Mail",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Scale mail is made up of dozens of small, overlapping metal plates. Similar to both splint mail and banded mail, scalemail has a flexible arrangement of scales in an attempt to avoid hindering the wearer’s mobility, but at the expense of omitting additional protective layers of armor. A suit of scale mail includes gauntlets."
+    }
+  ]
+}

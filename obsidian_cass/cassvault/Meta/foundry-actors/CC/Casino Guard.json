@@ -1,0 +1,38 @@
+{
+  "name": "Casino Guard",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 13
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A breastplate protects a wearer’s torso with a single piece of sculpted metal, similar to the core piece of a suit of full plate. Despite its sturdiness, its inflexibility and open back make it inferior to complete suits of metal armor, but still an improvement over most non-metal armors."
+    },
+    {
+      "name": "Khopesh",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, Pathfinder Campaign Setting pg. 209, Adventurer's Armory pg. 33, Advanced Player's Guide pg. 178\nStatisticsCost 20 gp Weight 8 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range -; Type S; Special trip\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy\nDescriptionThis heavy blade has a convex curve near the end, making its overall shape similar to that of a battleaxe. A typical khopesh is 20 to 24 inches in length. Its curved shape "
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "The Lopper",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 10,
+    "int": 14,
+    "wis": 14,
+    "cha": 20
+  },
+  "items": []
+}

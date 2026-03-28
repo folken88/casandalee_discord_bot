@@ -1,0 +1,25 @@
+{
+  "name": "Ghoul",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Ghoul",
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 9
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 15,
+    "con": 0,
+    "int": 13,
+    "wis": 14,
+    "cha": 14
+  },
+  "items": []
+}

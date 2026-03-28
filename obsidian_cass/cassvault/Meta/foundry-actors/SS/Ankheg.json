@@ -1,0 +1,25 @@
+{
+  "name": "Ankheg",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Magical Beast",
+  "classes": [
+    {
+      "name": "Magical Beast",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 39
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 10,
+    "con": 17,
+    "int": 1,
+    "wis": 13,
+    "cha": 6
+  },
+  "items": []
+}

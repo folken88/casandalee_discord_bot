@@ -1,0 +1,60 @@
+{
+  "name": "Earthen Skinwalker",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Druid",
+      "level": 12
+    },
+    {
+      "name": "Monk (Unchained)",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 32
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 12,
+    "int": 12,
+    "wis": 16,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Deer Shit",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Grants Expeditious Retreat buff for 4d4 minutes. Leaves a bad taste in the mouth."
+    },
+    {
+      "name": "Scrap Horn",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This \"horn\" is more of a metal trumpet without the instrument bit. It is fashioned from re-purposed armor plates, many of which still have bullet/arrow holes and dents from battle. \nThe item is heavily enchanted by months of ritual prayer. The prayers focused on found-family unity and the device now provides several benefits.\nAll effects require yelling into the megaphone.\n1) Communal buff-spells have their duration doubled and affect twice as many targets. This includes communal cure-spells.\n2)"
+    },
+    {
+      "name": "Druid's Vestment",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThis light garment is worn over normal clothing or armor. Most such vestments are green, embroidered with elaborate plant or animal motifs. When this item is worn by a character with the wild shape ability, the character can use that ability one additional time each day.\nBase Item: \nRequirementsCraft Wondrous Item, polymorph or wild shape ability\nSource: Ultimate Equipment"
+    },
+    {
+      "name": "Tooth Necklace",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Made from various animals & peoples teeth, this enchanted necklace is often worn by the Earthendottrs of Numeria."
+    },
+    {
+      "name": "Patchwork Skin Cloak +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    }
+  ]
+}

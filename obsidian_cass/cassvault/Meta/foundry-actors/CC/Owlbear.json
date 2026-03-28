@@ -1,0 +1,38 @@
+{
+  "name": "Owlbear",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Brawler",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 39
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 16,
+    "int": 8,
+    "wis": 8,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    },
+    {
+      "name": "+1 Mithral Harpoon",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A harpoon is a barbed spear with an attached rope 50 feet or less in length. Most harpoons have metal points, but some use ivory or are made entirely of wood. If you are proficient with the harpoon, it is a grappling weapon. A harpoon's weight includes 10 pounds for the weight of 50 feet of hemp rope. The weight can be reduced by using shorter or lighter rope. If you are not proficient with a harpoon, treat it like a spear.\nMithral\n\nMithral is a rare, silvery metal that is lighter than steel but"
+    }
+  ]
+}

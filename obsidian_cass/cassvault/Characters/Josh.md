@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-26T17:43:06.405Z"
+updated: "2026-03-28T03:22:49.580Z"
 ---
 
 # Josh
@@ -17,35 +17,19 @@ updated: "2026-03-26T17:43:06.405Z"
 
 ## Notes & Updates
 
-- Player character (Reese) makes multiple critical shots, decapitating an enemy and dealing 140 damage *(youtube-transcript, 3/25/2026)*
-- Player making jokes about his dad working at Folding Games and switching lightning bolts; Player controlling Reese, discussing spell casting and combat tactics with the party.; Player character who can see through invisibility sphere effects, being discussed in context of spell planning *(youtube-transcript, 3/25/2026)*
+- Player character who can't read the spell title; Lost one of his major buffs, Globe, which allowed him to dispel Mirror Image. *(youtube-transcript, 3/28/2026)*
+- Referring to a giant Druid who is a cannibal and drug addict.; Bought boots and considered buying a sleeping bag; Made a joke about goat perception. *(youtube-transcript, 3/28/2026)*
+- Suspected customers in the area, discussing their power level.; Discussed buying a scroll of teleportation for his character.; Spamming perception checks and discussing Hollow spell casting; Discussing project ideas and casting spells.; Player of CharacterName, casting spells and macros.; Josh rolled initiative.; Discussed creating a character with many buffs.; Experimenting with new AI app; Attacked and cast spells; Spiritual weapon usage; Mentioned as a player who rolled double ones earlier. *(youtube-transcript, 3/28/2026)*
+- Testing stream settings, discussing character abilities.; Discussed using non-detect communal spell and planning an escape route.; Stumbling around the house in the middle of the night, using Braille labels for humor.; Never complimented the boots in the party.; Discussed music preferences with Toby. *(youtube-transcript, 3/28/2026)*
 
 ## Notes & Updates
 
-- Player character (Reese) makes multiple critical shots, decapitating an enemy and dealing 140 damage *(youtube-transcript, 3/25/2026)*
-- Player making jokes about his dad working at Folding Games and switching lightning bolts; Player controlling Reese, discussing spell casting and combat tactics with the party.; Player character who can see through invisibility sphere effects, being discussed in context of spell planning *(youtube-transcript, 3/25/2026)*
-- Abandoned the party for real life. *(youtube-transcript, 3/26/2026)*
+- Player character who can't read the spell title; Lost one of his major buffs, Globe, which allowed him to dispel Mirror Image. *(youtube-transcript, 3/28/2026)*
+- Referring to a giant Druid who is a cannibal and drug addict.; Bought boots and considered buying a sleeping bag; Made a joke about goat perception. *(youtube-transcript, 3/28/2026)*
+- Suspected customers in the area, discussing their power level.; Discussed buying a scroll of teleportation for his character.; Spamming perception checks and discussing Hollow spell casting; Discussing project ideas and casting spells.; Player of CharacterName, casting spells and macros.; Josh rolled initiative.; Discussed creating a character with many buffs.; Experimenting with new AI app; Attacked and cast spells; Spiritual weapon usage; Mentioned as a player who rolled double ones earlier. *(youtube-transcript, 3/28/2026)*
+- Testing stream settings, discussing character abilities.; Discussed using non-detect communal spell and planning an escape route.; Stumbling around the house in the middle of the night, using Braille labels for humor.; Never complimented the boots in the party.; Discussed music preferences with Toby. *(youtube-transcript, 3/28/2026)*
+- Not mentioned directly, but implied to be part of the team.; Sprinting down the pier, yelling 'I'm blue d d Dau die'; Excited about the battle and makes jokes.; Checking if his character was in range of the explosion; Rules lawyer for sprinting invisibility check *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Hell's Vengeance - Fire & Water 2023 11 19
-Player character involved in leveling up and acquiring items; appears to be managing character sheet updates
-
-
-### Hell's Vengeance - How High Is Your Fort Save? 2023 11 05
-Player character (Reese) makes multiple critical shots, decapitating an enemy and dealing 140 damage
-
-### Hell's Vengeance -  Dropping The Rock 2023 10 08
-Player making jokes about his dad working at Folding Games and switching lightning bolts; Player controlling Reese, discussing spell casting and combat tactics with the party.; Player character who can see through invisibility sphere effects, being discussed in context of spell planning
-
-### Carrion Crown - The Corpse Locker 2025 02 23
-Was looking for a new armor with lower Armor class but higher touch AC; Controlled a character, had a lighting problem on the map
-
-### Carrion Crown - Feldgrau Streetfight 2025 02 09
-Controlling a character in the fight
-
-### Carrion Crown - Trojan Corpse 2025 02 02
-Requesting macro reinstatement; Participated in a perception check and was given a super BL.; Discussing Shield upgrades and zombie infiltration plan; Attacking a big guy with magic Missile blades and dropping Freedom's Call for immunity.; Playing the game, making decisions for his character.; Participated in the battle, used a tracker buff and was targeted by invisible enemies.
-
-### Shackles - No Concept of Personal Space 2025 04 24
-Abandoned the party for real life.
+*Session activity from YouTube transcripts will appear here.*

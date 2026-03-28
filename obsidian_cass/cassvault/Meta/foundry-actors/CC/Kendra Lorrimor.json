@@ -1,0 +1,62 @@
+{
+  "name": "Kendra Lorrimor",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Diviner",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 27
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 12,
+    "int": 18,
+    "wis": 13,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Scroll of Summon Ship",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When you cast this spell, you must hold out a miniature model of the ship you intend to create. The spell assembles a ship from raw materials conjured from other planes, taking a shape similar to the miniature ship in your hand. The miniature ship must be elaborately carved and worth 10% of the price of the type of ship it represents. The ship comes with all equipment necessary for sailing or rowing the ship but provides no crew or cargo. If you attempt to conjure the ship into a location where "
+    },
+    {
+      "name": "Enchantique Starter Kit",
+      "type": "container",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": true,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Enchantique Flare Gun",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Wand of Magic Missile",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1 points of force damage.\nThe missile strikes unerringly, even if the target is in melee combat, so long as it has less than total cover or total concealment.\nSpecific parts of a creature can't be singled out. Objects are not damaged by the spell.\nFor every two caster levels beyond 1st, you gain an additional missile-two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th "
+    }
+  ]
+}

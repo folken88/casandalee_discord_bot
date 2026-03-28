@@ -1,0 +1,54 @@
+{
+  "name": "Thragorn",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Monstrous Humanoid",
+      "level": 2
+    },
+    {
+      "name": "Druid",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 102
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 14,
+    "con": 22,
+    "int": 18,
+    "wis": 22,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Great Spear",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type P\nWeapon Groups Spears\nDescriptionA longspear is about 8 feet in length.\nImpact\n\nThis special ability can only be placed on melee weapons that are not light weapons. An impact weapon delivers a potent kinetic jolt when it strikes, dealing damage as if the weapon were one size category larger. In addition, any bull rush combat maneuver the wielder attempts while wiel"
+    },
+    {
+      "name": "+4 Mithral Hide Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Made from animal hide and giant lizard scales over a shirt of interwoven cords, these chest and shoulder coverings protect Shoanti riders without restricting their mobility. The wearer of a hide shirt can make a DC 15 Strength check as a standard action. If he succeeds, the armor gains the broken condition and drops to the ground rather than requiring the usual 1 minute it would take to remove it. The armor must be repaired as though it had taken 8 points of damage before it can be used again; a"
+    },
+    {
+      "name": "Cloak of Resistance +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Ring of Protection +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    }
+  ]
+}

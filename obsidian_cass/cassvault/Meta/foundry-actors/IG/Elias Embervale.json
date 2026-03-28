@@ -1,0 +1,48 @@
+{
+  "name": "Elias Embervale",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Crossblooded Sorcerer",
+      "level": 1
+    },
+    {
+      "name": "Admixture Evoker",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 44
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 14,
+    "int": 18,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Aegis Arcana",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Technic League Captain Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A small golden pin"
+    },
+    {
+      "name": "Ring of Protection +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    }
+  ]
+}

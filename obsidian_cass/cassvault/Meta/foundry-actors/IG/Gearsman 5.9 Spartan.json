@@ -1,0 +1,44 @@
+{
+  "name": "Gearsman 5.9 Spartan",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Divinity Construct",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 87
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 26,
+    "con": 20,
+    "int": 10,
+    "wis": 11,
+    "cha": 1
+  },
+  "items": [
+    {
+      "name": "Glaucite Plating - Light",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings.\nMithral\n\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well. Most mithral armors are one category lighter than normal for purposes of movement and other limitations. Heavy armors are treated as medium, and medium armors are treated as light, but light armors are still treated"
+    },
+    {
+      "name": "Glaucite Shield",
+      "type": "equipment",
+      "equipped": true,
+      "description": "You strap a heavy steel shield to your forearm and grip it with your hand. A heavy steel shield is so heavy that you can’t use your shield hand for anything else. Whether wooden or steel, a heavy shield offers the same basic protection and attack benefits, though the two versions respond differently to some spells and effects (such as rusting grasp). A druid can use a heavy wooden shield, but not a heavy steel shield."
+    },
+    {
+      "name": "Helios Beam Hatchet",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

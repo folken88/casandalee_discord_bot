@@ -1,0 +1,66 @@
+{
+  "name": "Estovion Lozarov",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Spiritualist",
+      "level": 9
+    },
+    {
+      "name": "Aristocrat",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 28
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 13,
+    "con": 13,
+    "int": 12,
+    "wis": 12,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Robes of the Librarian",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Circlet of Ascanor",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bracers of Armor +5",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Estovion's Journal",
+      "type": "loot",
+      "equipped": true,
+      "description": "8th of Abadius, 4717, Ascanor LodgeIt appears that my past has come back to haunt me, in the form of unexpected visitors who arrived last night. Ostensibly nobles from Courtaud, they bore invitations from Adivion Adrissant in Caliphas, and Belik admitted them to see me. Their leader, a disturbing man named Auren Vrood who carried a sinister-looking, twisted demon on his shoulder, confided to me that they were agents of the Whispering Way, come to finally collect the debt I owe them for helping m"
+    },
+    {
+      "name": "Ardis Lord Pendant",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Ring of Wizardry I",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

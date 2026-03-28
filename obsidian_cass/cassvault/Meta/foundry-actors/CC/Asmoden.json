@@ -1,0 +1,36 @@
+{
+  "name": "Asmoden",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 4
+    },
+    {
+      "name": "Oracle",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 86
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 18,
+    "con": 10,
+    "int": 6,
+    "wis": 16,
+    "cha": 26
+  },
+  "items": [
+    {
+      "name": "Mithral Human Bane Longsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This sword is about 3½ feet in length.\n\nEastern Version: Hwandudaedo This heavy sword consists of large straight blade with a thick back and wickedly sharpened edge. It is equivalent to a longsword."
+    }
+  ]
+}

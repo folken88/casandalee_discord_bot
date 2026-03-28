@@ -1,0 +1,26 @@
+---
+name: "House Richton Knight"
+type: npc
+campaign: CC
+race: "Human"
+class: "Fighter 7"
+hp: 17
+tags: ["character", "npc", "cc"]
+foundry_synced: "2026-03-28"
+---
+
+# House Richton Knight
+
+**Race:** Human | **Class:** Fighter 7 | **HP:** 17
+**STR** 16 | **DEX** 12 | **CON** 12 | **INT** 10 | **WIS** 10 | **CHA** 12
+
+## Key Equipment
+- **Full Plate** (equipment, equipped) — This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost 
+- **Heavy Steel Shield** (equipment, equipped) — You strap a heavy steel shield to your forearm and grip it with your hand. A heavy steel shield is so heavy that you can’t use your shield hand for anything else. Whether wooden or steel, a heavy shield offers the same basic protection and attack benefits, though the two versions respond differently to some spells and effects (such as rusting grasp). A druid can use a heavy wooden shield, but not a heavy steel shield.
+- **Torch** (loot) — Price 1 cp; Weight 1 lb.  A torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage.
+- **Blackwood Repeating Heavy Crossbow** (weapon, equipped) — Source Ranged Tactics Toolbox pg. 33, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 21 StatisticsDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range 120 ft.; Type P Weapon Groups Crossbows DescriptionThe repeating heavy crossbow holds 5 repeating crossbow bolts. As long as it holds bolts, you can reload it by pulling the reloading lever (a free action). Loading a new case of 5 bolts is a full-round action that provokes attacks of opportunity. You can fire a repeating crossbow with o
+- **Cold Iron Longsword** (weapon, equipped) — Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142 StatisticsDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range -; Type S Weapon Groups Blades, Heavy DescriptionThis sword is about 3-1/2 feet in length. Cold Iron This iron, mined deep underground and known for its effectiveness against demons and fey creatures, is forged at a lower temperature to preserve its delicate properties. Weapons made of cold iron cost twice as much to make as their normal counterparts. Also, adding any
+
+## Notes & Updates
+
+*No session notes yet.*

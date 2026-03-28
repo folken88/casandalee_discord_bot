@@ -1,0 +1,42 @@
+{
+  "name": "Skeletal Dwarf Warlord",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Dwarf",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 5
+    },
+    {
+      "name": "Undead",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 34
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Battle Axes",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 10 gp Weight 6 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type S; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Axes\nDescriptionThe handle of this axe is long enough that you can wield it one-handed or two-handed. The head may have one blade or two, with blade shapes ranging from half-moons to squared edges like narrower versions of woodcutting axes. The wooden haft may be protected a"
+    },
+    {
+      "name": "Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A breastplate protects a wearer’s torso with a single piece of sculpted metal, similar to the core piece of a suit of full plate. Despite its sturdiness, its inflexibility and open back make it inferior to complete suits of metal armor, but still an improvement over most non-metal armors."
+    }
+  ]
+}

@@ -1,30 +1,28 @@
 ---
 name: "Queen Blossom"
 type: character
-race: "Unknown"
-class: "Unknown"
-level: ?
-
-aliases: []
-tags: ["character"]
-created: ""
-updated: "2026-03-25T16:51:21.736Z"
+campaign: SS
+race: "Lizardfolk"
+class: "Ranger 8"
+hp: 68
+tags: ["character", "npc", "ss"]
+foundry_synced: "2026-03-28"
 ---
 
 # Queen Blossom
 
-**Race:** Unknown | **Class:** Unknown
+**Race:** Lizardfolk | **Class:** Ranger 8 | **HP:** 68
+**STR** 14 | **DEX** 17 | **CON** 12 | **INT** 10 | **WIS** 14 | **CHA** 10
+
+## Key Equipment
+- **Queenie's Verdant Fang Bow** (weapon, equipped) — Fashioned from the twisted roots of an ancient mangrove tree that once stood at the heart of a sacred tidal grove, the Verdant Fang is a +1 composite shortbow used by the Windward-Isles lizardfolk druids. Living far from cities and ports, these jungle stalkers rely on cunning, survival instinct, and nature’s favor to protect their territory and feed their clans. Vines still cling to the bow’s limbs, swaying as if alive, and the grip pulses faintly with primal energy when drawn under the canopy o
+- **Spear of the Mangrove Watch** (weapon, equipped) — This is a spear grown, not forged, by the rangers of the Windward-Island lizardfolk. Its shaft is a single length of mangrove heartwood, reinforced with braided jungle vine and embedded bone rings. The leaflike blade is carved from magically hardened coral, adorned with a living jade sprout that always stays green. It pulses with the rhythm of the tides, guiding the ranger’s strikes like a living companion. Forged from swamp tradition, ancestral magic, and salt-wind reverence, this weapon is mor
+- **Hellchain** (equipment, equipped) — Forged in the infernal forges of Cheliax, this chain-shirt is made from blacksteel, a rare material imbued with dark energies. The Blacksteel Chain-Shirt is favored by the contract devils, feared assassins in the service of Asmodeus, for its ability to blend seamlessly into the shadows and its protective enchantments. The links of the armor seem to absorb light, granting the wearer an ominous presence. Its intricate design features infernal runes and motifs of twisted iron. Due to its infernal o
+- **Lizardfolk Signal Horn** (loot, equipped) — Sounding a horn requires a DC 10 Perform (wind instruments) check and can convey concepts such as "Attack!", "Help!", "Advance!", "Retreat!", "Fire!", and, "Alarm!" The report of a signal horn can be clearly heard (Perception DC 0) up to a half-mile distant. For each quarter-mile beyond, Perception checks to hear the horn suffer a -1 penalty.
 
 ## Notes & Updates
 
-- The Windward Lizardfolk leader who joined the crew. She is invited to visit Thragorn but warned beforehand. She communicates with Thragorn in a clicking/popping language (Silvan). She becomes uncomfortable when shown items taken from dead lizardfolk. *(youtube-transcript, 3/25/2026)*
-- Player (Mandi/Rhyarca) is trying to convince a lizard person (implied to be Queen Blossom) to join the crew. Describes her as fabulous and skilled in combat. Expresses guilt about killing everyone she knew.; Received healing spells from the party last session; party is proving trustworthiness to her; Party discusses whether she stayed with them or returned elsewhere, and whether she could summon or communicate with other lizards on the island; Referenced during combat; players are concerned about her durability and making tactical decisions to protect her *(youtube-transcript, 3/25/2026)*
-
-## Notes & Updates
-
-- The Windward Lizardfolk leader who joined the crew. She is invited to visit Thragorn but warned beforehand. She communicates with Thragorn in a clicking/popping language (Silvan). She becomes uncomfortable when shown items taken from dead lizardfolk. *(youtube-transcript, 3/25/2026)*
-- Player (Mandi/Rhyarca) is trying to convince a lizard person (implied to be Queen Blossom) to join the crew. Describes her as fabulous and skilled in combat. Expresses guilt about killing everyone she knew.; Received healing spells from the party last session; party is proving trustworthiness to her; Party discusses whether she stayed with them or returned elsewhere, and whether she could summon or communicate with other lizards on the island; Referenced during combat; players are concerned about her durability and making tactical decisions to protect her *(youtube-transcript, 3/25/2026)*
-- Participates in combat, charges into battle; Hit by spiritual weapon; later entangled by web spell and fails save with natural 20; Being attacked by party members in combat. She is entangled, uses full attacks with her spear, and is described as looking pretty rough.; Severely injured during combat, appears worried and afraid as the battle progresses. She is disarmed by Ser-Toche and eventually surrenders without her weapon.; Cowering against a wall, unarmed and terrified, protecting her face from Rhyarca's spiritual rapier. Eventually surrenders and is spared by Rhyarca who redirects the rapier to attack the bug instead.; Cowering on the ground/against the wall in the hallway. Being pushed out of the way by a party member to prevent her from being shot. Given a spear back and beer.; Lizard lady encountered in a dark hallway; appears to be an enemy combatant who is being negotiated with and eventually surrenders; Runs down the hall during combat, moves 10 ft maximum.; Lizard folk ranger, eldest of her tribe, at 20 hit points out of maximum. She communicates in limited/mutated Draconic dialect. Her tribe once numbered over 100 but was decimated by the bug god (forest god), leaving only 15-20 alive. She is relieved the forest god is dead.; Female lizardfolk survivor encountered; party debates whether to recruit her to crew; Lizardfolk leader being debated about joining the crew. Party votes to offer her the choice to join them. She initially attacks when given back her spear, then accepts it gracefully. She speaks in Draconic and riddles. She is emotionally traumatized from her experiences. *(youtube-transcript, 3/25/2026)*
+- Joined the crew after being shown mercy. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 

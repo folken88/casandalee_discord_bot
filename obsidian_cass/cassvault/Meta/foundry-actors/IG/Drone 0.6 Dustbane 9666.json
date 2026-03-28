@@ -1,0 +1,29 @@
+{
+  "name": "Drone 0.6 Dustbane 9666",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Android",
+  "classes": [
+    {
+      "name": "Slayer",
+      "level": 10
+    },
+    {
+      "name": "Construct",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 24,
+    "con": 6,
+    "int": 12,
+    "wis": 4,
+    "cha": 20
+  },
+  "items": []
+}

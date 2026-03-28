@@ -1,0 +1,32 @@
+{
+  "name": "Ghaele Azata",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 13
+    }
+  ],
+  "hp": {
+    "max": 136
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 12,
+    "con": 20,
+    "int": 16,
+    "wis": 19,
+    "cha": 17
+  },
+  "items": [
+    {
+      "name": "Greatersword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This immense two-handed sword is about 5 feet in length. A greatsword may have a dulled lower blade that can be gripped."
+    }
+  ]
+}

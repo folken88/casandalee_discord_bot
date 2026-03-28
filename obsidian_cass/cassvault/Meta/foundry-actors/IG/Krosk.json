@@ -1,0 +1,74 @@
+{
+  "name": "Krosk",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Half-Orc",
+  "classes": [
+    {
+      "name": "Bloodrager",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 40
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 16,
+    "int": 10,
+    "wis": 12,
+    "cha": 15
+  },
+  "items": [
+    {
+      "name": "Composite Longbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsCost 100 gp Weight 3 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range 110 ft.; Type P; Special -\nCategory Ranged; Proficiency Martial\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier"
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Demon Edge",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This greataxe is made of an unknown material. It looks like dried and stretched muscle fiber until a shining silver blade emerges out of one side. It has three animate, red eyes on either side of the blade which \"see\" and warn the wielder of imminent dangers (functions as eyes of the eagle)."
+    },
+    {
+      "name": "Soothe",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Displacer Beast Hide",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Hide armor is made from the tanned skin of particularly thickhided beasts, stitched with either multiple overlapping layers of crude leather or exterior pieces of leather stuffed with padding or fur. Damage to the armor is typically repaired by restitching gashes or adding new pieces of hide, giving the most heavily used suits a distinctively patchwork quality."
+    }
+  ]
+}

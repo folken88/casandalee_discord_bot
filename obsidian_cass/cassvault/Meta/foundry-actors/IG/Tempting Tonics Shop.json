@@ -1,0 +1,267 @@
+{
+  "name": "Tempting Tonics Shop",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Potion of Celestial Healing, Greater",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura moderate conjuration; CL 7th\n\nAs per celestial healing, except the target gains fast healing 4 and the target radiates the aura of a good cleric."
+    },
+    {
+      "name": "Mithril Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Gold Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Tomato Bisque",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Soup grants the effects of the @Compendium[pf1.spells.54x9nw6ni4rpphcn]{Keen Senses} and @Compendium[pf1.spells.mz9yr5yhr0f3oqtp]{Darkvision} spells for 4 hours.\n\n \n\nThe subject gains a +2 competence bonus on Perception checks and gains darkvision."
+    },
+    {
+      "name": "Scroll of Air Walk, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura moderate transmutation; CL 9th\n\nThis spell functions like air walk, except divide the duration in 10-minute intervals among the creatures touched."
+    },
+    {
+      "name": "Potion of Expeditious Retreat",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint transmutation; CL 1st\n\nThis spell increases your base land speed by 30 feet. This adjustment is treated as an enhancement bonus. There is no effect on other modes of movement, such as burrow, climb, fly, or swim. As with any effect that increases your speed, this spell affects your jumping distance (see the Acrobatics skill)."
+    },
+    {
+      "name": "Nanite Hypogun 2.0 Black",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Color Black\n\nPrimary Effect (1ch) 2d8+5 healing\n\nSecondary Effect CL (5ch) Lesser restoration 3rd\n\nLesser restoration dispels any magical effects reducing one of the subject&rsquo;s ability scores or cures 1d4 points of temporary ability damage to one of the subject&rsquo;s ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain."
+    },
+    {
+      "name": "Potion of Air Bubble",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nAir bubble creates a small pocket of breathable air that surrounds the touched creature's head or the touched object. The air bubble allows the creature touched to breathe underwater or in similar airless environments, or protects the object touched from water damage.  A firearm within an air bubble can be loaded-assuming the black powder comes from a powder horn, a cartridge, or some other airtight protective device-and fired. When shooting such a firearm underwa"
+    },
+    {
+      "name": "Nanite Hypogun  1.0 Brown",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Color: brown\n\nPrimary Effect (1ch) 1d8+3 healing\n\nSecondary Effect CL (5ch) Remove Sickness\n\nYou quell feelings of illness and nausea in the target, giving it a +4 morale bonus on saving throws against disease, nausea, and sickened effects. If the subject is already under the influence of one of these effects when receiving the spell, that effect is suppressed for the duration of the spell."
+    },
+    {
+      "name": "Zortaphen",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 34\nPrice 2,250 gp\nDescriptionZortaphen is a powerful anesthetic. A creature that takes a dose of zortaphen must succeed at a DC 15 Fortitude saving throw or become unconscious for 1 hour; the unconsciousness takes effect 1d6 rounds after the failed save. A creature under the effects of zortaphen is numbed as well, making it immune to pain effects while sleeping. Damage inflicted on someone put to sleep with zortaphen does not cause the sleeper to awaken. Awakening som"
+    },
+    {
+      "name": "Jung Nuggit",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Protection From Evil",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 1st\n\nThis spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.\nFirst, the subject gains a +2 deflection bonus to AC and a +2 resistance bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures.\nSecond, the subject immediately receives another "
+    },
+    {
+      "name": "Cologne: Musk, by Calvin Carpenter",
+      "type": "loot",
+      "equipped": false,
+      "description": "What drives him? His driver. Who clothes him? His tailor. Who shaves him? The barber. \n\nWho calls to her loins with the force of a hurricane's howl? \n\nHis Musk.....................................................\n\nThis scent smells of basil leaves, mint, and stinkbug because it is made from those things. It is -2 Diplomacy for 4 hours after applying unless a creature has no sense of smell or is powerfully attracted to teenage noblemen in which case they can hold their nose."
+    },
+    {
+      "name": "Grape Tongue",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dyes the user's tongue bright purple, usually spreading to the lips and area around the mouth as it causes excessive licking and smacking. Whatever the user says is heard as incoherent babbling, but the user is granted +8 to save vs mind-affecting attacks with somatic components for 1d8 minutes."
+    },
+    {
+      "name": "Potion of Protection From Arrows",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 3rd\n\nThe warded creature gains resistance to ranged weapons.\nThe subject gains damage reduction 10/magic against ranged weapons. This spell doesn't grant you the ability to damage creatures with similar damage reduction. Once the spell has prevented a total of 10 points of damage per caster level (maximum 100 points), it is discharged."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nSpell Description\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Potion of Gaseous Form",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject and all its gear become insubstantial, misty, and translucent. Its material armor (including natural armor) becomes worthless, though its size, Dexterity, deflection bonuses, and armor bonuses from force effects still apply. The subject gains DR 10/ magic and becomes immune to poison, sneak attacks, and critical hits. It can't attack or cast spells with verbal, somatic, material, or focus components while in gaseous form. This does not rule out the use of certain spells that the subj"
+    },
+    {
+      "name": "Deer Shit",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Grants Expeditious Retreat buff for 4d4 minutes. Leaves a bad taste in the mouth."
+    },
+    {
+      "name": "Scroll of Protection from Evil, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 3rd\n\nThis spell functions like protection from evil, except you divide the duration in 1-minute intervals among the creatures touched."
+    },
+    {
+      "name": "Chicken Noodle Hot Tub",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure serious wounds, healing 3d8+7 damage and also granting a new save vs poison and disease at +4."
+    },
+    {
+      "name": "Nanite Hypogun 4.0 Gray",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Color Black\n\nPrimary Effect (1ch) 4d8+10 healing\n\nSecondary Effect CL (5ch) Neutralize Poison\n\nYou detoxify any sort of venom in the creature or object touched. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each poison affecting the target. Success means that the poison is neutralized. A cured creature suffers no additional effects from the poison, and any temporary effects are ended, but the spell does not reverse instantaneous effects, "
+    },
+    {
+      "name": "Needler pistol, Advanced",
+      "type": "weapon",
+      "equipped": false,
+      "description": "A favorite of assassins and battlefield medics alike, the needler pistol uses magnetic fields or pressurized gas to launch darts that inject a substance into the target. This injection gun can be fitted with cartridges containing medicine or poison."
+    },
+    {
+      "name": "Analgesic, Tier 1",
+      "type": "consumable",
+      "equipped": true,
+      "description": "An analgesic deadens sensory input and is used by medical professionals to reduce sensations of pain. If you take or are injected with an analgesic, you are flat-footed for 1 round per tier of the medicinal. You also gain a bonus (equal to the analgesic&rsquo;s tier) to saving throws against pain effects for 10 minutes per tier of the medicinal."
+    },
+    {
+      "name": "Potion of Feather Fall",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint transmutation; CL 1st\n\nThe affected creatures or objects fall slowly. Feather fall instantly changes the rate at which the targets fall to a mere 60 feet per round (equivalent to the end of a fall from a few feet), and the subjects take no damage upon landing while the spell is in effect. When the spell duration expires, a normal rate of falling resumes.\nThe spell affects one or more Medium or smaller creatures (including gear and carried objects up to each creature's maximum load) or"
+    },
+    {
+      "name": "Swamp Egg Goulash",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This bubbling green soup has a slight glow to it, illuminating a 5' area when heated to serving temperature.\n\nIt occasionally appears to have moving/swimming creatures in it but none can ever be found.\n\n \n\nIt provides fast-healing 3 for 1 minute after taking HP damage up to 4 hours after consuming it. The eater also enjoys +4 vs poison, disease, and paralysis effects for this period."
+    },
+    {
+      "name": "Mixed Veggie Noodle",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This Soup grants the effects of @Compendium[pf1.spells.e0rlki4hwu76l5ya]{Death Ward} for 1 hour."
+    },
+    {
+      "name": "Potion of Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint illusion; CL 3rd\n\nThe creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisibl"
+    },
+    {
+      "name": "Greenchaw",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Causes user's skin to exude a slimy green glowing substance that provides light & lubrication for 1d6 minutes as Grease & Light 30'."
+    },
+    {
+      "name": "Antitoxin, Tier 1",
+      "type": "consumable",
+      "equipped": true,
+      "description": "An antitoxin is a broad-spectrum medicinal designed to weaken all poisons in your system. When you take or are injected with an antitoxin, you gain a bonus (equal to 3 + the medicinal’s tier) to saving throws against poison for a number of hours equal to its tier."
+    },
+    {
+      "name": "Silver Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Steelchew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Temporarily changes all the users soft tissue to hardened steel. This results in an Ironskin spell (+6 natural armor), DR10 vs Slashing, and blindness. lasts 2d6 minutes."
+    },
+    {
+      "name": "Nanite Hypogun 3.0 White",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Color Black\n\nPrimary Effect (1ch) 3d8+8 healing\n\nSecondary Effect CL (5ch) Remove Disease\n\nRemove disease can cure all diseases from which the subject is suffering. You must make a caster level check (1d20 + caster level) against the DC of each disease affecting the target. Success means that the disease is cured. The spell also kills some hazards and parasites, including green slime and others.\n\nSince the spell&rsquo;s duration is instantaneous, it does not prevent reinfection after a new expos"
+    },
+    {
+      "name": "Potion of Darkvision",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject gains the ability to see 60 feet even in total darkness. Darkvision is black and white only but otherwise like normal sight.\nDarkvision can be made permanent with a permanency spell."
+    },
+    {
+      "name": "Brow Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town.\n\n \n\n@JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}"
+    },
+    {
+      "name": "Grease Packet",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Prawn Chowdah",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This soup grants the effects of @Compendium[pf1.spells.pysrx5kxfjvsjjsi]{Expeditious Retreat}, @Compendium[pf1.spells.ts50hpvkdgerfp1a]{Touch of the Sea}, and @Compendium[pf1.spells.ns2zo6qgd9co02uf]{Jump} for 4 hours."
+    },
+    {
+      "name": "Miso Beef Ramen Delight",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This soup grants the effects of @Compendium[pf1.spells.vqfrp8t0c1lw1jna]{Heroism} & @Compendium[pf1.spells.hosf489xyoexmp57]{Longstrider} for 4 hours."
+    },
+    {
+      "name": "Potion of Monkey Fish",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint transmutation; CL 1st\n\nYour hands and feet alter to make you better at climbing and swimming. You gain a 10 foot climb speed and swim speed. This spell has no effect if you are wearing medium or heavy armor or carrying a medium or heavy load."
+    },
+    {
+      "name": "Potion of Infernal Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nYou anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment."
+    },
+    {
+      "name": "Thunderchonk",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Blue crystals taste bitter when chewed and crunch very loudly. User's voice is amplified to extreme volume. Double range and +2DC for any voice-attacks or spells with Verbal components. +5 for giving speeches. -10 stealth. Lasts 1d3 hours."
+    },
+    {
+      "name": "Nose Diamond",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Grants Darkvision 60' with light-sensitivity. Inhibits sense of smell, causing immunity to Nausea/Sickening conditions. 1d4 hours. Causes the user to sniff, itch their nose, and talk about crypto at every opportunity."
+    }
+  ]
+}

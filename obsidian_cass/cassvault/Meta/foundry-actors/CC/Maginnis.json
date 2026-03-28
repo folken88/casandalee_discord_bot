@@ -1,0 +1,260 @@
+{
+  "name": "Maginnis",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Gunslinger",
+      "level": 11
+    }
+  ],
+  "hp": {
+    "max": 80
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 14,
+    "int": 10,
+    "wis": 16,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Muleback Cords",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Backpack (masterwork)",
+      "type": "container",
+      "equipped": true,
+      "description": "BackpackSource Ultimate Equipment pg. 56, Adventurer's Armory pg. 19, Advanced Player's Guide pg. 181\nPrice   25 gp (carrier),    2 gp (common),   40 gp (hydration),    50 gp (masterwork),   25 gp (weaponrack); Weight 5 lbs. (carrier),  2 lbs. (common), 4 lbs. (hydration),  4 lbs. (masterwork), 5 lbs. (weaponrack)DescriptionThis leather knapsack has one large pocket that closes with a buckled strap and holds about 2 cubic feet of material. Some may have one or more smaller pockets on the sides.\n"
+    },
+    {
+      "name": "Commset",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a built-in camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile—beyond this range, communication is impossible without enhancing the signal strength with a signal booster. The price and cost listed for this item are for a"
+    },
+    {
+      "name": "Nanite Canister",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A nanite canister is used to power technological devices that use nanites—such items generally don’t require other sources of power, as the nanites themselves do the bulk of the work when the object is activated. The canister contains a small, independent power source and a supply of nanites. A single canister contains enough nanites to provide 10 charges for a nanotech item or weapon."
+    },
+    {
+      "name": "Bedroll",
+      "type": "loot",
+      "equipped": false,
+      "description": "This consists of two woolen sheets sewn together along the bottom and one side to create a bag for sleeping in. Some have cloth straps along the open side so the bedroll can be tied closed while you are sleeping. It can be rolled and tied into a tight coil for storage or transport. Most people use a blanket with the bedroll to stay warm or provide a ground cushion."
+    },
+    {
+      "name": "Ooze Grease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Dungeon Denizens Revisited pg. 19\nPrice 50 gp; Weight 1 lb.\nCategory Alchemical Tools\nDescriptionThis alchemical concoction can be spread over a Medium or Small creature's body as a full-round action. It provides a +5 alchemical bonus on Escape Artist checks, grapple checks to avoid a grapple, and Reflex saves to avoid an ooze's improved grab or engulf abilities, but gives a -5 penalty to disarm checks, grapple checks to start or maintain a grapple or pin, and other checks that may be hin"
+    },
+    {
+      "name": "Gavrilo's Noxious Veil +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This tattered looking cloak is made of tightly woven vines. It appears fragile but is quite resistant to damage. The item always smells of dark forest earth if it is dry, and it smells of rotting death when wet.\n\n \n\nIt grants the wearer Acid Resistance 20 and the ability to see normally through Obscuring Mist, Fog Cloud, Solid Fog, and Acid Cloud.\n\n \n\nFunctions as a Cloak of Resistance +2"
+    },
+    {
+      "name": "Spyglass",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1000 gp; Weight 1 lb.\n\nObjects viewed through a spyglass are magnified to twice their size. Characters using a spyglass take a -1 penalty on Perception skill checks per 20 feet of distance to the target, if the target is visible."
+    },
+    {
+      "name": "Dominion Glaser",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Whenst holding the properly fueled weaponitem one visualizes the demise of targetted enemy through focused energy ejection into a vital organ prioritizing nervous or cardiovascular systems above structural targets. An illuminating green laser assists with accuracy for the unascended. For the collective."
+    },
+    {
+      "name": "Grape Tongue",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dyes the user's tongue bright purple, usually spreading to the lips and area around the mouth as it causes excessive licking and smacking. Whatever the user says is heard as incoherent babbling, but the user is granted +8 to save vs mind-affecting attacks with somatic components for 1d8 minutes."
+    },
+    {
+      "name": "Prawn Chowdah",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This soup grants the effects of @Compendium[pf1.spells.pysrx5kxfjvsjjsi]{Expeditious Retreat}, @Compendium[pf1.spells.ts50hpvkdgerfp1a]{Touch of the Sea}, and @Compendium[pf1.spells.ns2zo6qgd9co02uf]{Jump} for 4 hours."
+    },
+    {
+      "name": "Justice",
+      "type": "weapon",
+      "equipped": true,
+      "description": "An advanced prototype of an old concept, this 6-chambered revolver is the pinacle of it's kind. Perfect balance, weight, and an absolutely reliable mechanism delivers an accurate shot every time. On a natural 1, it does not break, but locks its mechanism, requiring a move action to clear it. Justice fires virtually any type of .45 round.\n\nJustice is a +2 seeking weapon. The barrel subtly tugs toward the target, negating any miss chances that would otherwise apply, such as from concealment. The w"
+    },
+    {
+      "name": "Universal Power Adapter",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A power cable is a short length of flexible cord (typically no more than 5 feet long) that can be used to attach a technological device to a power generator. It takes a move action to attach a cable to a generator or a device—thus, it takes a full round to fully connect the two together. Once connected, the item draws power from the generator rather than from its internal battery stores. If an item can be recharged, it automatically replenishes its missing charges from the generator (up to the g"
+    },
+    {
+      "name": "Nanite Hypogun 2.0 Black",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Color Black\n\nPrimary Effect (1ch) 2d8+5 healing\n\nSecondary Effect CL (5ch) Lesser restoration 3rd\n\nLesser restoration dispels any magical effects reducing one of the subject’s ability scores or cures 1d4 points of temporary ability damage to one of the subject’s ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain."
+    },
+    {
+      "name": "Gunslinger's Coat",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This long black coat always looks a little worn, but never worse. The tag inside the neck reads:\n\n\"For my darling Ayrton, against the road, the law, and the elements.\"\n\n \n\nThe Road: It sheds dirt, blood, and blastmarks immediately via a persistent prestidigitation-clean effect that benefits the wearer as well. The item always looks slightly time-worn and broken-in, but never dirty.\n\nThe Law: It features a hidden back-holster that can conceal a pistol at +5 to the wearer's sleight-of-hand check. "
+    },
+    {
+      "name": "Slip Sliders",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These enchanted shoes are finely crafted yet heavily worn around the edges and show signs of repeated, masterful repair work. \n\n \n\nOnce a wearer becomes accustomed to them, they are able to move in surprising ways. \n\n \n\nSlide Hop: 5' Hops can now be 10' hops if the wearer slides in a single direction (no turns). This does not provoke AoO ever. \n\n \n\nAir Walk: The shoes allow the wearer to float on air as the @Compendium[pf1.spells.e4v1uv8hexeu9sxj]{Air Walk} spell for a limited distance per day, "
+    },
+    {
+      "name": "Sketchbook, Nemgedder Janz",
+      "type": "loot",
+      "equipped": false,
+      "description": "There's a man who walks beside me he is who I used to be\nAnd I wonder if she sees him and confuses him with me\nAnd I wonder who she's pining for on nights I'm not around\nCould it be the man who did the things I'm living down\n\n \n\nI was rougher than the timber shipping out of Caliphas\nWhen I headed north at seventeen, the sheriff on my back\nI'd never held a lover in my arms or in my gaze\nSo I found another victim every couple days\n\n \n\nBut the night I fell in love with her, I made my weakness known"
+    },
+    {
+      "name": "Insomnia powder",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Insomnia powderSource Dungeoneer's Handbook pg. 26\nPrice 60 gp; Weight 2 lbs.\nCategory Alchemical WeaponsDescriptionThis fine white powder is a powerful stimulant that affects the nervous systems of any creatures that inhale or ingest it, preventing them from sleeping for 24 hours. A packet of insomnia powder can be thrown as a splash weapon with a range increment of 10 feet. A creature struck by a direct hit must succeed at a DC 12 Fortitude save to avoid the effect, while those in the splash r"
+    },
+    {
+      "name": "Goo Tube",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Battery",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Most technological items are powered by electricity. While one can use the electricity provided by a generator, these are rare, expensive, and rarely portable. It’s more common and practical to charge such items with batteries. A battery looks like a small silver disk that’s etched with strange lines—the people have taken to calling batteries “silverdisks” and sometimes use them as coins. A battery contains 10 charges when full; to charge an item with a battery, one simply slips the disk-shaped "
+    },
+    {
+      "name": "Kit, Gunsmith's",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 15 gp; Weight 2 lbs.\n\nThis small kit has all the tools a person needs to create, repair, and restore firearms, except for the necessary raw materials. Without such a kit, you cannot properly construct or provide upkeep for firearms."
+    },
+    {
+      "name": "Parodi Ammezzati Cigars",
+      "type": "consumable",
+      "equipped": true,
+      "description": "These cigars are created from fine tobacco and treated paper through a meticulous process akin to creating a magic potion.\n\n \n\nLighting and drawing from these cigars requires a full-round action to receive the benefits.\n\n \n\nEffects: + 2 Grit or Pinache, can exceed the smoker's normal maximum. Extra-grit points last until rest.\n\n \n\nSmokevision: smoker can see through normal or magical smoke as if it were not there. Immune to blinding spells and effects. +5 insight bonus to perception. +5 insight "
+    },
+    {
+      "name": "Blackrock Tactical Rig",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Allows for quick access to ammunition, potions, tools, or other equipment. Up to 6 items can be placed in swift-action accessible slots."
+    },
+    {
+      "name": "Potion of Fly",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load).\nIt can ascend at half speed and descend at double speed, and its maneuverability is good. Using a fly spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can charge but not run, and it cannot carry aloft more weight than its maximum load, plus any armor it wears. The subject gains a bonus"
+    },
+    {
+      "name": "Flechette Grenade",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Nightvision Goggles",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Grants Darkvision 60' for 1 hour per charge."
+    },
+    {
+      "name": "Belt of Incredible Dexterity +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt has a large silver buckle, usually depicting the image of a tiger.\n\nThe belt grants the wearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Smoke Bomb",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Curse of the Crimson Throne (PFRPG) pg. 432\nPrice 100 gp; Weight 1 lb.\nCategory Alchemical Tools\nDescriptionA smoke bomb appears as a polished ceramic sphere that can be held comfortably in one hand. Many crafters of these alchemical weapons take pride in painting or etching these bombs with complex scenes, or even making them look like small humanoid skulls, despite the fact that the bombs shatter when thrown. When thrown as a splash weapon, a smoke bomb bursts and fills the 5-foot squar"
+    },
+    {
+      "name": ".45 ACP FMJ",
+      "type": "loot",
+      "equipped": false,
+      "description": "A .45 ACP (11.43x23mm) Match FMJ cartridge (Cartridge, Caliber .45, Ball, Match, M1911) with a 14.9 gram lead core bullet with a copper jacket, in a brass case. This cartridge is manufactured with an increased accuracy to meet the needs of modern .45 ACP caliber weaponry used by the United States Armed Forces, being capable of piercing basic ballistic body protection as well as offering a significant stopping power effect."
+    },
+    {
+      "name": "Nose Diamond",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Grants Darkvision 60' with light-sensitivity. Inhibits sense of smell, causing immunity to Nausea/Sickening conditions. 1d4 hours. Causes the user to sniff, itch their nose, and talk about crypto at every opportunity."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nSpell Description\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Spiked Gauntlet MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Benefit: An attack with a spiked gauntlet is considered an armed attack. Your opponent cannot use a disarm action to disarm you of spiked gauntlets.\n\nNote: The cost and weight given are for a single gauntlet."
+    },
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Smokestick",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 20 gp; Weight 1/2 lb.\n\nThis alchemically treated wooden stick instantly creates thick, opaque smoke when burned. The smoke fills a 10-foot cube (treat the effect as a fog cloud spell, except that a moderate or stronger wind dissipates the smoke in 1 round). The stick is consumed after 1 round, and the smoke dissipates naturally after 1 minute.\n\nAlchemical Power Component\n\nSource PZO9410\n\nSmokesticks work best with spells that create clouds or smoke.\n\nFog Cloud (M): Increase the radius of t"
+    },
+    {
+      "name": "Bouncer Bolter Bullet",
+      "type": "loot",
+      "equipped": false,
+      "description": "This explosive bullet is technically a small rocket-propelled grenade. Expensive and difficult to craft, it packs a punch and can only be safely fired by specific platforms."
+    },
+    {
+      "name": "Antitoxin",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n\nIf you drink a vial of antitoxin, you get a +5 alchemical bonus on Fortitude saving throws against poison for 1 hour.\n\nAlchemical Power Component\n\nSource PZO9410\n\nLike antiplague, antitoxin can augment certain healing spells.\n\nNeutralize Poison (M): Add +2 on your caster level check to neutralize poison on a target creature. Antitoxin has no effect when you cast the spell on an object."
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 5th\n\nThis ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "MGA-E Bouncer",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Bouncer is a prototype revolver designed to fire explosive shells. These cartridges detonate on impact in a small radius with a thundering boom. Nearby flammable objects are often ignited.\n\n \n\nDue to its enchanted barrel, it strikes as a +2 magical weapon."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    }
+  ]
+}

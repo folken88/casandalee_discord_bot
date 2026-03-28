@@ -1,0 +1,25 @@
+{
+  "name": "Salt Revenant",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Revenant Undead",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 14
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 16
+  },
+  "items": []
+}

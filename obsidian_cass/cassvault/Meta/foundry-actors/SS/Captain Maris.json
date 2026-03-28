@@ -1,0 +1,32 @@
+{
+  "name": "Captain Maris",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 50
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Vellatrix",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This exquisite rapier was originally crafted in Cheliax for the renowned duelist Seraphina Vellatrix. Its blade is etched with intricate infernal runes, a testament to its Chelish origin, and the hilt is adorned with dark, gleaming gemstones. The weapon mysteriously resurfaced in the Shackles, wielded by a notorious merchant ship captain who was feared for her unmatched prowess in both combat and negotiation."
+    }
+  ]
+}

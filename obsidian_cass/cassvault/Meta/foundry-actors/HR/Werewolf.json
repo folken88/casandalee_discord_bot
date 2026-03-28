@@ -1,0 +1,29 @@
+{
+  "name": "Werewolf",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Monstrous Humanoid",
+      "level": 1
+    },
+    {
+      "name": "Monstrous Humanoid",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 24
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 13,
+    "con": 14,
+    "int": 8,
+    "wis": 14,
+    "cha": 8
+  },
+  "items": []
+}

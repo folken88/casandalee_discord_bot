@@ -1,0 +1,42 @@
+{
+  "name": "Deadshot",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Gunslinger",
+      "level": 6
+    },
+    {
+      "name": "Whispering Way Creation",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 10,
+    "int": 10,
+    "wis": 15,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": ".308 762x51mm Nosler Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "7.62x51mm Nosler cartridge. The bullet is loaded with two separate lead cores with a solid partition between them. The front part is torn quickly, delivering great energy. The base remains intact and provides deep penetration, even when hitting bones."
+    },
+    {
+      "name": "Thundering Silencer",
+      "type": "weapon",
+      "equipped": true,
+      "description": "An ancient artifact of Numeria"
+    }
+  ]
+}

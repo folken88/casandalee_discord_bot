@@ -1,0 +1,38 @@
+{
+  "name": "Skeletal Guard Captain",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 18
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 10,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A breastplate protects a wearer’s torso with a single piece of sculpted metal, similar to the core piece of a suit of full plate. Despite its sturdiness, its inflexibility and open back make it inferior to complete suits of metal armor, but still an improvement over most non-metal armors."
+    },
+    {
+      "name": "Dual Heavy Mace",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 12 gp Weight 8 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x2; Range -; Type B; Special -\nCategory One-Handed; Proficiency Simple\nWeapon Groups Hammers\nDescriptionA heavy mace has a larger head and a longer handle than a light mace."
+    }
+  ]
+}

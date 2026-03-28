@@ -1,0 +1,25 @@
+{
+  "name": "Great Hammerhead Shark",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Race: Animal",
+  "classes": [
+    {
+      "name": "Animal (Aquatic)",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 38
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 13,
+    "int": 1,
+    "wis": 12,
+    "cha": 2
+  },
+  "items": []
+}

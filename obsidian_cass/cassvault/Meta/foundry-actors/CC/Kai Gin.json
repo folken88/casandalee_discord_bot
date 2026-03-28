@@ -1,0 +1,392 @@
+{
+  "name": "Kai Gin",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Half-Orc",
+  "classes": [
+    {
+      "name": "Slayer",
+      "level": 11
+    }
+  ],
+  "hp": {
+    "max": 62
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 17,
+    "con": 14,
+    "int": 12,
+    "wis": 10,
+    "cha": 13
+  },
+  "items": [
+    {
+      "name": "The Horn of Kai",
+      "type": "loot",
+      "equipped": true,
+      "description": "Sounding a horn requires a DC 10 Perform (wind instruments) check and can convey concepts such as \"Attack!\", \"Help!\", \"Advance!\", \"Retreat!\", \"Fire!\", and, \"Alarm!\" The report of a signal horn can be clearly heard (Perception DC 0) up to a half-mile distant. For each quarter-mile beyond, Perception checks to hear the horn suffer a -1 penalty."
+    },
+    {
+      "name": "Potion of Remove Blindness/Deafness",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level cleric 3, oracle 3, paladin 3, alchemist 3, witch 3, shaman 3, mesmerist 3, spiritualist 3; Subdomain Purity 3\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nRemove blindness/deafness cures blindness or deafness (your choice), whether the effect is normal or magical in nature. The spell does not restore ears or eyes that have been lost, but it repairs them if they "
+    },
+    {
+      "name": "Equivocator",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Forged from a mysterious Numerian Metal, this ultra-heavy revolver takes a strong arm to even hold, and a strong-body to discharge without falling over. It's mechanism is purely focused on delivering a steady, potent shot, and gives zero thought to comfort or recoil management."
+    },
+    {
+      "name": "Tyrant's Band",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring, forged from black steel and set with six deep emerald gems, exudes a sense of dark purpose and power. The centerpiece is a skull, its mouth gagged—an emblem reflecting the cult's reverence for silence and secrets, and their goal of serving the Whispering Tyrant, Tar-Baphon, the former ruler of Ustalav. Each gem could be said to represent an aspect of the Tyrant's power, and the gagged skull symbolizes the silence under which these powers must be reassembled.\nBase Ability: As a Ring of"
+    },
+    {
+      "name": "+1 Werewolf Bane Mithral Greatsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsDamage 1d10 (small), 2d6 (medium); Critical 19-20/x2; Range -; Type S\nWeapon Groups Blades, Heavy\nDescriptionThis immense two-handed sword is about 5 feet in length. A greatsword may have a dulled lower blade that can be gripped.\nMithral\n\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well"
+    },
+    {
+      "name": "Candle",
+      "type": "loot",
+      "equipped": true,
+      "description": "Candle\nA candle dimly illuminates a small area, increasing the light level in a 5-foot radius by one step (darkness becomes dim light and dim light becomes normal light). A candle cannot increase the light level above normal light. A candle burns for 1 hour. Price 1 cp; Weight -\n\nCandle, Helmet This device consists of a helmet with a short, thin spike on top upon which a candle is stuck, freeing your hands for other tasks. Price 2 gp; Weight 4 lbs.\n\nCandle Lamp A candle lamp is a small lantern-l"
+    },
+    {
+      "name": "Belladona",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Used by Cheliax as a biological weapon to contaminate their enemies food reserves, this herb causes 1d2 STR damage but allows a new save vs Curse of Lycanthropy."
+    },
+    {
+      "name": "note stuck between pages",
+      "type": "loot",
+      "equipped": true,
+      "description": "\"see halo of dreams\""
+    },
+    {
+      "name": "Holy water",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Holy waterSource Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158\nPrice 25 gp; Weight 1 lb.\nCategory Alchemical WeaponsDescriptionHoly water damages undead creatures and evil outsiders almost as if it were acid. A flask of holy water can be thrown as a splash weapon.\n\n Treat this attack as a ranged touch attack with a range increment of 10 feet. A flask breaks if thrown against the body of a corporeal creature, but to use it against an incorporeal creature, you must open the flask and pour"
+    },
+    {
+      "name": "Flint And Steel",
+      "type": "loot",
+      "equipped": true,
+      "description": "Lighting a torch with a flint and steel is a full-round action. Lighting any other fire with them takes at least that long."
+    },
+    {
+      "name": "Tater Tot Hot Dish",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance\nProvides Enlarge Person for 30 minutes.\nThe recipe for this hearty creation was gifted to me by Zokar Elkarid, the owner of Ravengo’s own Laughing Demon! While it isn’t his signature horror-themed fare, Zokar told me this is what he enjoys on his day off. Tater tot hotdish combines golden tater tots, succulent ground meat, and a symphony of vegetables, bound together by a velvety sauce. It is a feast fit for champions, promising satisfaction and nourishment"
+    },
+    {
+      "name": "40mm Haunt Siphon 3.0",
+      "type": "loot",
+      "equipped": true,
+      "description": "A custom 40mm grenade with a compacted, yet potent, haunt siphon. Utilizing ancient Ustalavian anti-undead magics and cutting edge Numerian engineering, this shell is guaranteed to absolutely positively blast those ghosties back into the nether realm."
+    },
+    {
+      "name": "Potion of Remove Disease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove disease can cure all diseases from which the subject is suffering. You must make a caster level check (1d20 + caster level) against the DC of each disease affecting the target. Success means that the disease is cured. The spell also kills some hazards and parasites, including green slime and others.\nSince the spell's duration is instantaneous, it does not prevent reinfection after a new exposure to the same disease at a later date."
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Potion of Protection from Energy",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Protection from energy grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of energy damage (to a maximum of 120 points at 10th level), it is discharged.\nProtection from energy overlaps (and does not stack with) resist energy. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is exhausted."
+    },
+    {
+      "name": "Manacles (Masterwork)",
+      "type": "loot",
+      "equipped": true,
+      "description": "Source Path of the Hellknight pg. 15, Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice  15 gp (common),  50 gp (masterwork),  1,000 gp (mithral); Weight 2 lbs. (common), 2 lbs. (masterwork), 2 lbs. (mithral)\nDescriptionManacles can bind a Medium creature. A manacled creature can use the Escape Artist skill to slip free (DC 30, or DC 35 for masterwork manacles). Breaking the manacles requires a Strength check (DC 26, or DC 28 for masterwork manacles). Manacles have hardness 10 and 10 h"
+    },
+    {
+      "name": "Black Boots",
+      "type": "loot",
+      "equipped": true,
+      "description": "These enchanted black boots make little to no sound when walking or running, provide excellent grip and traction on almost any surface, and leave no marks or scent behind.\nThey grant the wearer the Fast Stealth Rogue Talent, and if they already possess that talent, the first 10' of their movement in any round is a \"shift\" and can move through solid objects to empty squares without provoking AoO."
+    },
+    {
+      "name": "Potion of Feeblemind",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Target creature's Intelligence and Charisma scores each drop to 1. The affected creature is unable to use Intelligence- or Charismabased skills, cast spells, understand language, or communicate coherently. Still, it knows who its friends are and can follow them and even protect them. The subject remains in this state until a heal, limited wish, miracle, or wish spell is used to cancel the of the feeblemind. A creature that can cast arcane spells, such as a sorcerer or a wizard, takes a -4 penalt"
+    },
+    {
+      "name": "Lightfoot Aegis",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Worn with either Medium or Light armor proficiency, this breastplate is so well made that it encumbers as light armor. Made of an unknown alloy, it can only be modified by the finest forges.\nIt is decades old with hundreds of scratches, punctures, dents, and a dozen major repairs. At one point, an advanced ballistic deflection layer was added under the plates, and the outer surfaces themselves coated in an energy-resistant chemical which was permanently bonded to the item. This translates into a"
+    },
+    {
+      "name": "Torch City Roller",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Wolfsbane Flower",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Used as a poison to execute prisoners in Cheliax, this herb causes 1d3 CON damage but allows a new save vs Curse of Lycanthropy."
+    },
+    {
+      "name": "Hungering Gaze",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Forged in the Eye-Forges of Uzul'Zeth, a plane where thoughts become metal and madness is currency, the Greataxe of the Hungering Gaze is as much a living being as it is a weapon. Wielded by the eldritch minotaur Vaugron the Labyrinth-Tearer, this axe hungers for sentience, latching its gaze onto those it deems worthy of execution. The living eye embedded between its blades never blinks, constantly moving, twitching, and twitching toward future prey.\nStatistics:\nDamage: 1d12 + 3 (two-handed, sla"
+    },
+    {
+      "name": ".357 Magnum Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "The .357 Magnum cartridge is notable for its highly effective terminal ballistics."
+    },
+    {
+      "name": "Ustalav Marshal Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Key: P13",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scarab Necklace",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This scarab-pendant is bronze with a long red stone in the center with a heavy bronze chain. It is the customary award to a friend of one of the lost Numerian tribes absorbed by the Black Sovereigns conquest of that area over a century ago.\n\nIt functions as an amulet of natural armor +1."
+    },
+    {
+      "name": "Grape Tongue",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dyes the user's tongue bright purple, usually spreading to the lips and area around the mouth as it causes excessive licking and smacking. Whatever the user says is heard as incoherent babbling, but the user is granted +8 to save vs mind-affecting attacks with somatic components for 1d8 minutes."
+    },
+    {
+      "name": "Wraithguard Cloak",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This cloak, once worn by a veteran of the Shining Crusade, now grants enhanced resistance against deathly magic. In addition to providing +3 to all saving throws, the mantle can activate a death ward effect once per day, granting the wearer temporary immunity to death effects, negative energy, and energy drain for 9 minutes. This ancient relic was lost during a doomed stand against Tar-Baphon's undead legions.\nDeath Ward:\nThe subject gains a +4 morale bonus on saves against all death spells and "
+    },
+    {
+      "name": "Whisperthread Cords",
+      "type": "equipment",
+      "equipped": true,
+      "description": "When donned, Whisperthread Cords function identically to muleback cords, granting the wearer a +8 enhancement bonus to Strength solely for the purpose of determining carrying capacity. However, their necromantic origins carry a shadowed side effect: when first attuned (worn for 24 hours), the cords whisper the names of those whose remains were desecrated in their making. The wearer must succeed at a DC 12 Will save or take a –1 penalty on saves against fear effects for 24 hours, as an uneasy chi"
+    },
+    {
+      "name": "Go Nuts",
+      "type": "consumable",
+      "equipped": true,
+      "description": "These pale nuts smell vaguely of brimstone and sulpher. They taste very salty and dry.\n\nType ingested; Addiction medium, Fortitude DC 16\nImmediately after ingesting or grinding-up-and-snorting these, the user is affected by a Haste spell for 5 rounds. They are affected by Expeditious Retreat for the following hour. After which they are awake for the following 48 hours.\nDuring this period, the user is immune to Sleep and Slow conditions from spells or other chemicals, and suffers a constant -10 t"
+    },
+    {
+      "name": "40mm Glitterbomb",
+      "type": "loot",
+      "equipped": true,
+      "description": "This 40mm grenade shell encloses a glitter-bomb, which releases the effect of a glitterdust spell on the target area. Center-target receives -2 to their save."
+    },
+    {
+      "name": "Altyn Helmet",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A heavy armor-plated helmet with bullet-proof face shield. Hampers perception but provides exceptional defense.\n Adds extra protection to the head. +8 vs any attacks or spells that target the head.\nIncreases Fortification by 20% and stacks with armor of fortification. Fortification maxes out at 88%.\nFortification: This suit of armor or shield produces a magical force that protects vital areas of the wearer more effectively. When a critical hit or sneak attack is scored on the wearer, there is a "
+    },
+    {
+      "name": "40mm Smoke",
+      "type": "loot",
+      "equipped": true,
+      "description": "Filled with pellets that ignite on impact, releasing a thick cloud of smoke."
+    },
+    {
+      "name": "Rope (50 Ft.)",
+      "type": "loot",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice 1 gp; Weight 10 lbs.\nCategory Adventuring Gear\nDescriptionThis 50-foot length of hemp rope has 2 hit points and can be burst with a DC 23 Strength check."
+    },
+    {
+      "name": "Potion of Hideous Laughter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell afflicts the subject with uncontrollable laughter. It collapses into gales of manic laughter, falling prone. The subject can take no actions while laughing, but is not considered helpless.\nAfter the spell ends, it can act normally. On the creature's next turn, it may attempt a new saving throw to end the effect. This is a full round action that does not provoke attacks of opportunity.\nIf this save is successful, the effect ends. If not, the creature continues laughing for the entire d"
+    },
+    {
+      "name": "Desert Coffee",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This particularly strong coffee is popular throughout the desert empires. A morning cup is a good cure for lack of rest, but many find that it becomes a habit.\nType ingested; Addiction minor, Fortitude DC 12\n8 hours; user ignores the effects of the fatigued condition.\nAfter 8 hours; the user becomes exhausted, which is reduced to fatigued only after at least 8 hours of rest (instead of 1 hour).\n1 Wis damage"
+    },
+    {
+      "name": "Baseline",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 33\nDescriptionAn injection of baseline floods the brain with neuroinhibitors that purge the mind of excess emotion. Baseline has an onset time of 10 minutes. When it takes effect, baseline renders the recipient immune to insanity, mind-affecting effects, and morale bonuses for 1 hour, as well as suppressing (but not removing) any such active, ongoing effects. It can be resisted with a successful DC 14 Fortitude saving throw. Once a creature has been affected by baseli"
+    },
+    {
+      "name": "Elven Sweetroll",
+      "type": "loot",
+      "equipped": false,
+      "description": "Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts. If you are an elf who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the Endurance feat. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+    },
+    {
+      "name": "Scarf, Pocketed",
+      "type": "loot",
+      "equipped": true,
+      "description": "Source PZO9410\n\nAn elaborate design disguises several small pockets on one side of this scarf. This scarf grants you a +4 bonus on Sleight of Hand checks made to hide objects on your body. This bonus does not stack with the bonus wearing heavy clothing provides but does stack with bonuses for attempting to hide small objects."
+    },
+    {
+      "name": "Commset 1m",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a built-in camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile—beyond this range, communication is impossible without enhancing the signal strength with a signal booster. The price and cost listed for this item are for a"
+    },
+    {
+      "name": "Garlic",
+      "type": "loot",
+      "equipped": false,
+      "description": "The most used spice in the majority of dishes. Cooked, sliced, diced, minced, or even boiled, if it is a cooked dish, it most likely has a pinch of garlic in it."
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": true,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Animal repellent",
+      "type": "loot",
+      "equipped": true,
+      "description": "Source Ultimate Wilderness pg. 24\nPrice 15 gp; Weight -\nCategory Animal Gear\nDescriptionLeshys and other plant creatures have to be wary of hungry herbivorous animals. A dose of animal repellent makes a plant creature smell unappetizing for 24 hours. Animals do not attempt to consume a plant creature coated in animal repellent if there are other food sources available, and in combat prefer to use natural attacks that are not bite attacks against such a creature if they can. Animal repellent coun"
+    },
+    {
+      "name": "Orcish Bastard's Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "An Orcish-Bastard's Blade reforged in Adamantine steel."
+    },
+    {
+      "name": "Potion of Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Illusion (glamer); Level Adept 2, Alchemist 2, Antipaladin 2, Arcanist 2, Bard 2, Inquisitor 2, Investigator 2, Magus 2, Medium 2, Mesmerist 2, Occultist 2, Psychic 2, Skald 2, Sorcerer 2, Spiritualist 2, Summoner 2, Summoner (Unchained) 2, Wizard 2; Domain Trickery 2; Bloodline Arcane 2, Djinni 2, Oni 2, Rakshasa 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M/DF (an eyelash encased in gum arabic)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you or a creature or object weighing no m"
+    },
+    {
+      "name": "Belt of Mighty Constitution & Muleback Cords",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.\nConstructionRequirements Craft Wondrous Item, Bear's Endurance; Cost 8,000 gp"
+    },
+    {
+      "name": "Steelchew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Temporarily changes all the users soft tissue to hardened steel. This results in an Ironskin spell (+6 natural armor), DR10 vs Slashing, and blindness. lasts 2d6 minutes."
+    },
+    {
+      "name": "Soothe",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This strange, pink, gel-like substance is generally contained in a small glass jar that holds 1 dose.\nA single dose of soothe dulls pain and creates a euphoric sensation, particularly when applied to an open wound. Rubbing a dose of soothe onto one's skin or imbibing the faintly citrusflavored stuff cures 1 point of damage, but rubbing a dose onto a wound received in the last minute heals the user of 1d8 points of damage.\nIn addition, for the next minute, the user becomes immune to bleed damage "
+    },
+    {
+      "name": "Potion of Tongues",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell grants the creature touched the ability to speak and understand the language of any intelligent creature, whether it is a racial tongue or a regional dialect. The subject can speak only one language at a time, although it may be able to understand several languages. Tongues does not enable the subject to speak with creatures who don't speak. The subject can make itself understood as far as its voice carries. This spell does not predispose any creature addressed toward the subject in a"
+    },
+    {
+      "name": "Holy water",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158Price 25 gp; Weight 1 lb.Category Alchemical Weapons\n\nDescription\nHoly water damages undead creatures and evil outsiders almost as if it were acid. A flask of holy water can be thrown as a splash weapon.Treat this attack as a ranged touch attack with a range increment of 10 feet. A flask breaks if thrown against the body of a corporeal creature, but to use it against an incorporeal creature, you must open the flask and pour the holy wa"
+    },
+    {
+      "name": "Potion of Levitate",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Levitate allows you to move yourself, another creature, or an object up and down as you wish. A creature must be willing to be levitated, and an object must be unattended or possessed by a willing creature. You can mentally direct the recipient to move up or down as much as 20 feet each round; doing so is a move action.\nYou cannot move the recipient horizontally, but the recipient could clamber along the face of a cliff, for example, or push against a ceiling to move laterally (generally at half"
+    },
+    {
+      "name": "40mm Lubestorm",
+      "type": "loot",
+      "equipped": true,
+      "description": "This grenade releases a thick gel that coats everything it touches in a 10' radius for 10 rounds. This functions as a Grease spell, granting +10 on escape artist checks and causing bipeds to fall down."
+    },
+    {
+      "name": "Wyvern Cassoulet",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance,this recipe combines tender chunks of wyvern meat with hearty beans, aromatic herbs, and vegetables to create a dish worthy of the mightiest warriors!\nEating a full bowl of this delicacy causes an Neutralize Poison effect along with a 12 hour Delay Poison!"
+    },
+    {
+      "name": "Notes on Captured Cultist",
+      "type": "loot",
+      "equipped": true,
+      "description": "Notes on Captured Cultist"
+    },
+    {
+      "name": "Haunt Siphon 2.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": "These glass vials are held within stylized cold-iron casings etched with strange runes, necromantic designs, or other eldritch markings. Within the vial roils a small wisp of white vapor, churning as if caught in a miniature vortex of air. To capture a haunt’s energies within a haunt siphon, you need only twist the metal casing to open the vial in the same round that the haunt manifests (a standard action)—this can be before or after the haunt has acted. You must be within the haunt’s area of in"
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.\nConstructionRequirements Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring; Cost 4,000 gp"
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Handy Haversack (120lbs max)",
+      "type": "container",
+      "equipped": true,
+      "description": "A backpack of this sort appears to be well made, well used, and quite ordinary. It has two side pouches, each of which appears large enough to hold about a quart of material. In fact, each is like a bag of holding and can actually hold material of as much as 2 cubic feet in volume or 20 pounds in weight. The large central portion of the pack can contain up to 8 cubic feet or 80 pounds of material. Even when so filled, the backpack always weighs only 5 pounds.\n\nWhile such storage is useful enough"
+    },
+    {
+      "name": "Silence",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A +1 keen kukri.\nForged in the dark underbelly of Golarion, the Shadow's Silence was crafted by a cabal of necromancers in service to the Whispering Way. The blade is made from a rare metal that is said to have been mined from the depths of the Shadow Plane, giving it its unique abilities. The cabal created a series of these daggers, each intended for their most skilled assassins. The Shadow's Silence is not only a weapon but a symbol of the assassin's pledge to the Whispering Way, to pursue the"
+    },
+    {
+      "name": ".357 Northgarde Magnum Special",
+      "type": "loot",
+      "equipped": false,
+      "description": "The .357 Magnum or 9×33mmR (as it is known in unofficial metric designation) is a smokeless powder cartridge with a 0.357 in (9.07 mm) bullet diameter.\nThis particular model is only made in Northgarde, Ustalav and delivers both physical and holy damage to targets."
+    },
+    {
+      "name": "Dragon's Blood",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Dragonslayer's Handbook pg. 19\nPrice 60 gp; Weight 1 lb.\nCategory Dragoncraft\nDescriptionRenowned for its energizing and defensive properties, dragon's blood has a variety of effects, depending on how it's used. In addition to use in its raw form, it's also valuable as an alchemical ingredient. Below are two common uses for dragon's blood, but clever dragoncrafters may invent new uses as well.\n\n Drinking: When imbibed, a vial of dragon's blood heals 1d4 points of damage. It also grants a "
+    }
+  ]
+}

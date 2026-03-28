@@ -1,0 +1,50 @@
+{
+  "name": "Asmodean Enchanter",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Half-Elf",
+  "classes": [
+    {
+      "name": "Enchanter",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 47
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 12,
+    "int": 18,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Dagger MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A dagger has a blade that is about 1 foot in length.\n\nBenefit: You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body (see Using Skills)."
+    },
+    {
+      "name": "Spellbook",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n\nA spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells).\n\nCompact Spellbook The need to be able to record and travel with dozens or even hundreds of spells often forces some wizards to seek lighter spellbooks. Compact spellbooks hold only 70 pages of spells, but they weigh significantly less than an ordinary spellbook. Source PZO1121\n\nTraveling Spellbook A traveling spellbook is lighter and less cumbersome than i"
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "name": "typical pirate",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Rogue (Unchained)",
+      "level": 1
+    },
+    {
+      "name": "Expert",
+      "level": 1
+    },
+    {
+      "name": "Swashbuckler",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 29
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 11,
+    "cha": 14
+  },
+  "items": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Horned Devil",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 217
+  },
+  "abilities": {
+    "str": 31,
+    "dex": 27,
+    "con": 28,
+    "int": 14,
+    "wis": 22,
+    "cha": 23
+  },
+  "items": []
+}

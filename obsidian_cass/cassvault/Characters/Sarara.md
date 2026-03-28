@@ -1,17 +1,22 @@
 ---
 name: "Sarara"
 type: character
-campaign: "SS"
-tags: [character, ss]
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T01:44:54.749Z"
 ---
 
 # Sarara
 
-**Race:** Unknown | **Class:** Unknown | **Level:** ?
+## Notes & Updates
 
+- Rolled an 11 for a slow progression with the safety rope.; A college graduate who is introduced to the giant Druid. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Shackles - Drow Envy 2026 03 05
-Casts spells to animate skeletons; can cast twice since Bria is in an unhelpful state
-
+*Session activity from YouTube transcripts will appear here.*

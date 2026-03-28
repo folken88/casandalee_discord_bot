@@ -1,0 +1,60 @@
+{
+  "name": "CAL-OPS Captain",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Aristocrat",
+      "level": 3
+    },
+    {
+      "name": "Cavalier",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 108
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 12,
+    "con": 14,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "CAL-OPS 003 Lieutenant's Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Lieutenants (\"CAL-LOOKIE LOU\"): A spin on their rank, suggesting they merely observe most encounters."
+    },
+    {
+      "name": "CAL-OPS Officer's Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This sword is about 3-1/2 feet in length."
+    },
+    {
+      "name": "CAL-OPS Lieutenant's Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for Climb checks and Acrobatics checks made to jump is only –1 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty)."
+    },
+    {
+      "name": "CAL-OPS Officer's Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This sword is about 3-1/2 feet in length."
+    },
+    {
+      "name": "CAL-OPS Officer's Cloak",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A symbol of rank and a magical charm to protect the wearer."
+    }
+  ]
+}

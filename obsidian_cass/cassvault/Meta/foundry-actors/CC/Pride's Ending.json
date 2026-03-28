@@ -1,0 +1,66 @@
+{
+  "name": "Pride's Ending",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Gunslinger",
+      "level": 9
+    },
+    {
+      "name": "Whispering Way Creation",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 22,
+    "con": 10,
+    "int": 14,
+    "wis": 15,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Pride's Ending",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ominous +3 technological breastplate is a fusion of Numerian engineering and unholy Ustalavic sorcery, worn by the undead gunslinger known as Pride's Ending. It is crafted from dark alloyed plates adorned with etched circuitry that faintly glows a sickly green, and its centerpiece is a skull motif whose hollow eyes emit an eerie, flickering light.\nWhile alive, the gunslinger called \"Pride\" forged this armor to blend his Numerian roots with his unshakable arrogance. After his violent demise "
+    },
+    {
+      "name": "Judge & Jury",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Judge: +2 to hit when both pistols are fired at the same target for an entire round. \n\nJury: When firing both pistols at a target, gain +4 saves against any spells or abilities of that target until the start of your next turn.\n\nContinuance: When either of the pistols kills a target to CON or performs a Coup De Grace to kill a target, both are fully repaired, reloaded with 12 of the last bullet fired, and any jams are cleared."
+    },
+    {
+      "name": "The Mask of Pride",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Mask of Pride is a ghastly skull-shaped mask forged from a blend of Numerian alloy and cursed bone. Its eye sockets blaze with flickering orange light, and its teeth gleam with sharp, metallic menace. Originally crafted to amplify the arrogance and commanding presence of the gunslinger known as Pride, the mask was transformed into an unholy artifact when Pride was slain and raised as a graveknight.\nThe mask radiates a palpable aura of dread, bending the will of those who gaze upon its lifele"
+    },
+    {
+      "name": "Black Cloak of Resistance +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A +5 Cloak of Resistance, in matte black. Because: of course."
+    },
+    {
+      "name": ".357 Magnum Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "The .357 Magnum cartridge is notable for its highly effective terminal ballistics."
+    },
+    {
+      "name": "Pride's Black Hat",
+      "type": "loot",
+      "equipped": false,
+      "description": "The blackest hat anyone ever had."
+    }
+  ]
+}

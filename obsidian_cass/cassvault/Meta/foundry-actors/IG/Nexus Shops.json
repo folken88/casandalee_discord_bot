@@ -1,0 +1,393 @@
+{
+  "name": "Nexus Shops",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Headband of Inspired Wisdom +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This simple bronze headband is decorated with an intricate pattern of fine green etchings.\n\nThe headband grants the wearer an enhancement bonus to Wisdom of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn."
+    },
+    {
+      "name": "Planar Alchemical Catalyst",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Blood of the Elements pg. 21\nPrice 200 gp; Weight 2 lbs.\nCategory Alchemical Tools\nDescriptionThis vibrant, variegated gemstone is found naturally on the Elemental Plane of Earth but can also be artificially reproduced, albeit with a fair amount of difficulty. The catalyst is highly sought for its remarkable ability to enhance and alter alchemical tools and weapons.\n\n As a move action, you can apply the catalyst to one of the following items to enhance or alter the alchemical item's effec"
+    },
+    {
+      "name": "Arrow +1 Ghost Touch",
+      "type": "loot",
+      "equipped": false,
+      "description": "A ghost touch weapon deals damage normally against incorporeal creatures, regardless of its bonus. \nAn incorporeal creature’s 50% reduction in damage from corporeal sources does not apply to attacks made against it with ghost touch weapons. \nThe weapon can be picked up and moved by an incorporeal creature at any time. A manifesting ghost can wield the weapon against corporeal foes. Essentially, a ghost touch weapon counts as both corporeal or incorporeal."
+    },
+    {
+      "name": "Headband of Alluring Charisma +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This attractive silver headband is decorated with a number of small red and orange gemstones.\n\nThe headband grants the wearer an enhancement bonus to Charisma of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn."
+    },
+    {
+      "name": "Headband of Alluring Charisma +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This attractive silver headband is decorated with a number of small red and orange gemstones.\n\nThe headband grants the wearer an enhancement bonus to Charisma of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn."
+    },
+    {
+      "name": "Amulet of Natural Armor +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Arrow +1 Dragon Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "A bane weapon excels against certain foes. \nAgainst a designated foe, the weapon’s enhancement bonus is +2 better than its actual bonus. \nIt also deals an extra 2d6 points of damage against such foes."
+    },
+    {
+      "name": "Thunder Kettle",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Blood of the Elements pg. 19\nPrice 275 gp; Weight 3 lbs.\nCategory Alchemical Tools\nDescriptionThis intricate glass and metal jug vibrates gently, and contains a light cloud of white vapor and crackling blue electricity. Djinn of the Plane of Air use thunder kettles to capture the essence of air and lightning elementals within planar super storms. When uncorked as a standard action, a thunder kettle releases a rumbling cacophony of thunder in a 10-foot-radius burst. Creatures in the area m"
+    },
+    {
+      "name": "Soap",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source PPZO9410\n\nYou can use this thick block of soap to scrub clothes, pots, linens, or anything else that might be dirty. A bar of soap has approximately 50 uses."
+    },
+    {
+      "name": "Arrow +2",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Arrow +1",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Dancer's Garb",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PPZO94102\n \nPrice 100 gp; Weight 5 lbs.\n \nThis combination of loose-fitting sashes, veils, and ornamentation accentuates a dancer's form and movements.\n \nDancer's garb provides a +2 circumstance bonus on Perform (dance) checks, similar to that provided by masterwork instruments for other Perform skills, but does not grant this benefit when worn with armor or other concealing clothing."
+    },
+    {
+      "name": "Thieves' Tools, Concealable",
+      "type": "loot",
+      "equipped": false,
+      "description": "Type\r\nPrice\r\nWeight\r\n\r\n\r\n\r\n\r\nCommon\r\n30 gp\r\n1 lb.\r\n\r\n\r\nConcealable\r\n190 gp\r\n1/2 lb.\r\n\r\n\r\nMasterwork\r\n100 gp\r\n2 lbs.\r\n\r\n\r\n\r\nThis kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.\n\r\n\r\nMasterwork Thieves' Tools: Price 100 gp; Weight 2 lbs.; This kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Device chec"
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Powder horn",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, Ultimate Combat pg. 141, Inner Sea World Guide pg. 293\n\nDescription\nTypically crafted from hollowed-out animal horn, but increasingly crafted from metal in a wide variety of shapes, a powder horn can hold up to 10 doses of black powder. A powder horn protects black powder stored within in it from exposure to fire, electricity, firearm misfires, and water, and the narrow end of the horn is useful in funneling the expensive powder carefully into the barrel of a fi"
+    },
+    {
+      "name": "Outfit, Peasant's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PZO1110\n\nThis set of clothes consists of a loose shirt and baggy breeches, or a loose shirt and skirt or overdress. Cloth wrappings are used for shoes."
+    },
+    {
+      "name": "Wand of Grease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nA grease spell covers a solid surface with a layer of slippery grease. Any creature in the area when the spell is cast must make a successful Reflex save or fall. A creature can walk within or through the area of grease at half normal speed with a DC 10 Acrobatics check. Failure means it can't move that round (and must then make a Reflex save or fall), while failure by 5 or more means it falls (see the Acrobatics skill for details). Creatures that do not move on t"
+    },
+    {
+      "name": "Backpack, Masterwork",
+      "type": "container",
+      "equipped": true,
+      "description": "This backpack has numerous pockets for storing items that might be needed while adventuring. Hooks are included for attaching items such as canteens, pouches, or even a rolled-up blanket. It has padded bands that strap across the chest and the waist to distribute its weight more evenly. Like a common backpack, it can hold about 2 cubic feet of material in its main container. When wearing a masterwork backpack, treat your Strength score as +1 higher than normal when calculating your carrying capa"
+    },
+    {
+      "name": "Wand of Heroism",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell imbues a single creature with great bravery and morale in battle. The target gains a +2 morale bonus on attack rolls, saves, and skill checks."
+    },
+    {
+      "name": "GBH Shafts",
+      "type": "loot",
+      "equipped": true,
+      "description": "Custom made +1 magic arrow shafts designed for a huge-bow. The primary focus of the enchantment placed upon these missiles is to ensure they survive being fired."
+    },
+    {
+      "name": "Cloak of Resistance +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Pot, Cooking (Iron)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n \nCooking pots come in a variety of materials, but the most common is formed of iron.\n \nA mithral cooking pot weighs 2 lbs. and costs 2,001 gp.\n \nEmpty Weight: 2 lb.; Capacity: 1 gallon/8 lb."
+    },
+    {
+      "name": "Poncho",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 5 sp; Weight 2 lbs.\n \nThis circle of water-resistant fabric (typically wool or leather) has a hooded opening in the center, making it easy to slip it on or off and protecting your entire body from rain or snow."
+    },
+    {
+      "name": "Belt of Giant Strength +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt is a thick leather affair, often decorated with huge metal buckles. The belt grants the wearer an enhancement bonus to Strength of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Crossbow Bolt +1",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Crossbow Bolt +2",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Smoke Signal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source People of the Sands pg. 28\nPrice 5 gp; Weight 1 lb.\nCategory Alchemical Tools\nDescriptionThis alchemically fused powder ball creates a plume of brightly colored smoke when lit. While the smoke is not thick enough to significantly impair vision, it is clearly visible up to 1d6 miles away under average conditions, and may be visible at greater distances in ideal conditions. Many desert clans use particular signature colors of smoke to indicate their allegiance, or use smoke signals with spe"
+    },
+    {
+      "name": "Ring of Protection +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": false,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Headband of Vast Intelligence +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This intricate gold headband is decorated with several small blue and deep purple gemstones.\n\nThe headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer’s total Hit Dice. These ranks do no"
+    },
+    {
+      "name": "Wand of Disguise Self",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint illusion; CL 1st\n\nYou make yourself--including clothing, armor, weapons, and equipmen--look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender.\nThe spell does not provide the abilities or mannerisms of the chosen form, nor does i"
+    },
+    {
+      "name": "Wand of Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint illusion; CL 3rd\n\nThe creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisibl"
+    },
+    {
+      "name": "Belt of Mighty Constitution +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Outfit, Scholar's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PZO1110\n\nPerfect for a scholar, this outfit includes a robe, a belt, a cap, soft shoes, and possibly a cloak."
+    },
+    {
+      "name": "Dragon's Blood",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Dragonslayer's Handbook pg. 19\nPrice 60 gp; Weight 1 lb.\nCategory Dragoncraft\nDescriptionRenowned for its energizing and defensive properties, dragon's blood has a variety of effects, depending on how it's used. In addition to use in its raw form, it's also valuable as an alchemical ingredient. Below are two common uses for dragon's blood, but clever dragoncrafters may invent new uses as well.\n\n Drinking: When imbibed, a vial of dragon's blood heals 1d4 points of damage. It also grants a "
+    },
+    {
+      "name": "Belt of Incredible Dexterity +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt has a large silver buckle, usually depicting the image of a tiger.\n\nThe belt grants the wearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Cloak of Resistance +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Wand of Fireball",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A fireball spell generates a searing explosion of flame that detonates with a low roar and deals 1d6 points of fire damage per caster level (maximum 10d6) to every creature within the area.\nUnattended objects also take this damage. The explosion creates almost no pressure.\nYou point your finger and determine the range (distance and height) at which the fireball is to burst. A glowing, pea-sized bead streaks from the pointing digit and, unless it impacts upon a material body or solid barrier prio"
+    },
+    {
+      "name": "Inkpen",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n\r\nPrice 1 sp; Weight -\n\r\nThis is a wooden stylus with a metal tip that retains a small amount of ink after you dip it in a vial of ink."
+    },
+    {
+      "name": "Outfit, Courtesan's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PPZO94102\n\nThis outfit includes fine silk or satin garments tailored to complement your figure. In addition, the outfit contains a loose shawl or robe with several discreet pockets for items such as perfume, massage oils, or even a small  dagger."
+    },
+    {
+      "name": "Mirror",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n\nA small steel mirror."
+    },
+    {
+      "name": "Wand of Dispel Magic",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can use dispel magic to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by dispel magic. Dispel magic can dispel (but not counter) spell-like effects just as it does spells. The of a spell with an instantaneous duration can't be dispelled, because the"
+    },
+    {
+      "name": "Alchemist's Fire",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source PZO1110\n\nYou can throw a flask of alchemist's fire as a splash weapon with a range increment of 10 feet.\n\nA direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hits takes 1 point of fire damage from the splash. On the round following a direct hit, the target takes an additional 1d6 points of damage. If desired, the target can use a full-round action to attempt to extinguish the flames before taking this additional damage. Extinguishing the"
+    },
+    {
+      "name": "Flint And Steel",
+      "type": "loot",
+      "equipped": false,
+      "description": "Lighting a torch with a flint and steel is a full-round action. Lighting any other fire with them takes at least that long."
+    },
+    {
+      "name": "Wand of Ant Haul",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint transmutation; CL 1st\n\nThe target's carrying capacity triples (see Table 7-4: Carrying Capacity on page 171 of the Core Rulebook). This does not affect the creature's actual Strength in any way, merely the amount of material it can carry while benefiting from this spell. It also has no effect on encumbrance due to armor. If the creature wears armor it still takes the normal penalties for doing so regardless of how much weight the spell allows it to carry."
+    },
+    {
+      "name": "Outfit, Burglar's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PPZO94102\n\nThis outfit consists of fitted pants, a shirt, a hooded reversible cloak, soft leather boots, and a face mask, all in dark or neutral colors. The outfit's few buttons and rivets are wrapped in dull, dark cloth to avoid jingling or reflecting light. A number of loops and shallow pockets are also worked into the outfit, providing ample spaces for stashing small tools or weapons."
+    },
+    {
+      "name": "Hammock",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, Adventurer's Armory pg. 19\nPrice 1 sp; Weight 3 lbs.\nCategory Adventuring Gear\nDescriptionThis blanket or net is attached to strong ropes, allowing you to hang it from a heavy branch or two trees and sleep above the ground. Climbing into or out of a hammock is a full-round action. A successful DC 5 Dexterity check reduces this to a move action."
+    },
+    {
+      "name": "Nethys's Dagger",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Heroes of the Wild pg. 10\nPrice 50 gp; Weight -\nCategory Herbs\nGather DC 18\nTerrain deserts\nDescriptionFound most often in lands heavily modified by magic, this bulbous cactus is topped with twilight-blue flowers. The sap from the cactus can be used as an additive when crafting potions, causing all variable numeric effects of the potion to be determined as if the potion's caster level were 1 higher. When processed into a powder with a successful DC 15 Craft (alchemy) check, Nethys's dagge"
+    },
+    {
+      "name": "Arrow +1 Human Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "A bane weapon excels against certain foes. \nAgainst a designated foe, the weapon’s enhancement bonus is +2 better than its actual bonus. \nIt also deals an extra 2d6 points of damage against such foes."
+    },
+    {
+      "name": "Arrow +1 Elf Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "A bane weapon excels against certain foes. \nAgainst a designated foe, the weapon’s enhancement bonus is +2 better than its actual bonus. \nIt also deals an extra 2d6 points of damage against such foes."
+    },
+    {
+      "name": "Amulet of Natural Armor +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Holy water",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158Price 25 gp; Weight 1 lb.Category Alchemical Weapons\n\nDescription\nHoly water damages undead creatures and evil outsiders almost as if it were acid. A flask of holy water can be thrown as a splash weapon.Treat this attack as a ranged touch attack with a range increment of 10 feet. A flask breaks if thrown against the body of a corporeal creature, but to use it against an incorporeal creature, you must open the flask and pour the holy wa"
+    },
+    {
+      "name": "Wand of Infernal Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nYou anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment."
+    },
+    {
+      "name": "Wand of Daylight",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You touch an object when you cast this spell, causing the object to shed bright light in a 60-foot radius. This illumination increases the light level for an additional 60 feet by one step (darkness becomes dim light, dim light becomes normal light, and normal light becomes bright light). Creatures that take penalties in bright light take them while within the 60-foot radius of this magical light. Despite its name, this spell is not the equivalent of daylight for the purposes of creatures that a"
+    },
+    {
+      "name": "Tobacco",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO9410\n\r\nThese crushed and shredded leaves range in color from peppery red to black; users can either smoke or chew them. Tobacco users experience a certain level of calm and are more easily able to shrug off hunger pangs. Tobacco is addictive (Fort DC 10 to resist), and long-term users suffer Constitution damage."
+    },
+    {
+      "name": "Arrow +1 Undead Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "A bane weapon excels against certain foes.\nAgainst a designated foe, the weapon’s enhancement bonus is +2 better than its actual bonus.\nIt also deals an extra 2d6 points of damage against such foes."
+    },
+    {
+      "name": "Rope (Silk, 50 Ft.)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PRPG Core Rulebook pg. 158\nPrice 10 gp; Weight 5 lbs.\nCategory Adventuring Gear\nDescriptionThis rope has 4 hit points and can be burst with a DC 24 Strength check."
+    },
+    {
+      "name": "Arrow +1 Construct Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "A bane weapon excels against certain foes. \nAgainst a designated foe, the weapon’s enhancement bonus is +2 better than its actual bonus. \nIt also deals an extra 2d6 points of damage against such foes."
+    },
+    {
+      "name": "Rope, silk",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57\nPrice 10 gp; Weight 5 lbs.\nCategory Adventuring Gear\n\nDescription\nThis 50-foot length of silk rope has 4 hit points and can be broken with a DC 24 Strength check."
+    },
+    {
+      "name": "Wand of Fly",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load).\nIt can ascend at half speed and descend at double speed, and its maneuverability is good. Using a fly spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can charge but not run, and it cannot carry aloft more weight than its maximum load, plus any armor it wears. The subject gains a bonus"
+    },
+    {
+      "name": "Rations, Trail",
+      "type": "loot",
+      "equipped": false,
+      "description": "Rations, Trail\r\nPrice 5 sp; Weight 1 lb.\n\r\nThe listed price is for a day's worth of food. This bland food is usually some kind of hard tack, jerky, and dried fruit, though the contents vary from region to region and the race of those creating it. As long as it stays dry, it can go for months without spoiling."
+    },
+    {
+      "name": "Crossbow Bolt +1 Undead Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "A bane weapon excels against certain foes.\nAgainst a designated foe, the weapon’s enhancement bonus is +2 better than its actual bonus.\nIt also deals an extra 2d6 points of damage against such foes."
+    }
+  ]
+}

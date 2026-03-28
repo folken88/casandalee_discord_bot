@@ -1,0 +1,789 @@
+{
+  "name": "Stroke Pit",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Nippers Tongs",
+      "type": "loot",
+      "equipped": false,
+      "description": "Crafted mainly from steel, also referred to as farrier nippers, mirror the appearance of a giant pair of nail clippers. Their primary function involves removing a previously placed horseshoe. Beyond that, these tools prove adept at cutting the flat end of bolts or nails, resulting in a smoother finish for armor, furniture, or even walls."
+    },
+    {
+      "name": "Willowmere Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    },
+    {
+      "name": "Robes of the Whispering Way",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These black and green traveling robes are enchanted for protection and durability. Even then, they are very worn from travel and use. They provide protection as light armor but do not interfere wtih spellcasting, item use, or general mobility.\nThe integrated mask also provides a constant air-bubble, and completely conceals the wearer's identity by covering every part of the body.\nThe suit increases Acid Resistance by 20."
+    },
+    {
+      "name": "Everkeeps",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Everkeeps is a trail ration that never expires! This delicious and nutritious snack can maintain the body with carbs, proteins, vitamins, and minerals! Enjoy the sweet and spicy taste as you trudge through the barren wasteland! Using the finest ingredients, masterful cooking and preparation techniques, and dark magics, we craft this incredible portable meal you can rely on! You will expire before Everkeeps expire!"
+    },
+    {
+      "name": "Foundrystein",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This copper-steel beer stein perfectly seals and preserves any liquid stored within it. At its tavern of origin, the Foundry Tavern in Torch of Numeria, these can be quickly refilled with a strange device unique to that location. This \"Tap\" as it is called, fills the stein with ice cold Cayden-Brew, imported from the distant South."
+    },
+    {
+      "name": "Sandalwood Lumber",
+      "type": "loot",
+      "equipped": true,
+      "description": "Sandalwood is extremely rare and precious, it is used for intricate carvings, to make sturdy furniture, medicines, cosmetics, and religious rites. The heartwood of the tree is treasured for its aroma and is one of the finest natural materials for making beautifully carved furniture and tools."
+    },
+    {
+      "name": "Palladium",
+      "type": "loot",
+      "equipped": false,
+      "description": "Palladium, with its lustrous white appearance, stands as a precious metal highly prized for its rarity and distinctive characteristics. Its notable usage in jewelry, especially as an alloy for crafting white gold."
+    },
+    {
+      "name": "Cloak of Woodland Creatures",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source: AP 115\nThis forest-green wool cloak is thick and warm. Its hem and the edge of its hood are embroidered with small figures of forest creatures (rabbits, squirrels, and the like) in white thread.  When worn, this cloak bestows a +1 resistance bonus on all saving throws. The wearer can remove the cloak at any time and lay it on the ground outdoors. This ends the resistance bonus but summons a number of animals from the cloak. The animals serve the character who summoned them for 10 minutes"
+    },
+    {
+      "name": "Redwood Plank",
+      "type": "loot",
+      "equipped": false,
+      "description": "Usually used for creating boxes, tables, stools, bats, and bridges, and due to it, it has quite a high demand for anyone with a background in any form of construction.\n?á"
+    },
+    {
+      "name": "Blackwood Leathers",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Boots of the Cat",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These high-soled blue boots provide a great deal of comfort and arch support while also making the wearer appear a little bit taller than normal. The boot's wearer always takes the minimum possible damage from falls (as if the GM had rolled a 1 on each die of damage incurred by the fall) and at the end of a fall always lands on his feet.\nConstructionRequirements Craft Wondrous Item, feather fall"
+    },
+    {
+      "name": "Crusader's Greatsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A finely craft blade with many knotches and signs of wear."
+    },
+    {
+      "name": "Bronze",
+      "type": "loot",
+      "equipped": false,
+      "description": "Bronze, an alloy commonly created by mixing Copper and Tin, is the most familiar material for most artists, but also for treasurers for making coins. It is also broadly used in boat and ship fittings, as well as in the manufacturing process of mirrors, bells, and instrument strings."
+    },
+    {
+      "name": "Book of Marvelous Recipes",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The pages of this thick and travel-worn leather book visibly rewrite themselves as a reader flips through them, creating a number of delicious recipes that seem to anticipate the current craving or culinary desires of the reader. The recipes can aid the reader in creating such dishes, allowing him to use the Profession (cook) skill untrained, or granting a +4 competence bonus on such checks if the reader is trained in that skill.  Furthermore, once per day, this book can be used to enhance a mea"
+    },
+    {
+      "name": "Kit, Brewer's Masterwork",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Price 75 gp; Weight 50 lbs.\nCategory Alchemical Tools\nDescriptionThis exceptionally crafted kit provides extra spices, a wider variety of herbs, and higher quality tools than a normal brewer's kit. A masterwork brewer's kit grants a +2 circumstance bonus on Craft (alchemy) checks to produce alcoholic beverages."
+    },
+    {
+      "name": "Book of Perilous Journeys",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This leather-bound book looks like a journal partially ruined by moisture. The pages that are still legible detail three violent events that apparently took place while the writer was traveling through an unknown land. There are several varieties of the book, each describing a perilous journey through a different terrain type corresponding to the encounter tables on page 324 of the Pathfinder RPG Bestiary.  Reading any of the three accounts triggers the curse, after which the reader is compelled"
+    },
+    {
+      "name": "Brass",
+      "type": "loot",
+      "equipped": false,
+      "description": "Brass is similar to bronze, another alloy containing Copper and Tin. Brass is quite a popular material for decoration due to its bright gold appearance. Its usage ranges from locks, hinges, and gears to plumbing and valves, as well as in the creation of instruments like horns or bells."
+    },
+    {
+      "name": "Holy water",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Holy waterSource Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158\nPrice 25 gp; Weight 1 lb.\nCategory Alchemical WeaponsDescriptionHoly water damages undead creatures and evil outsiders almost as if it were acid. A flask of holy water can be thrown as a splash weapon.\n\n Treat this attack as a ranged touch attack with a range increment of 10 feet. A flask breaks if thrown against the body of a corporeal creature, but to use it against an incorporeal creature, you must open the flask and pour"
+    },
+    {
+      "name": "Cauldron, common",
+      "type": "loot",
+      "equipped": false,
+      "description": "This larger version of an iron pot holds approximately 1 gallon-enough to fill the bellies of four hungry humans for one meal. It can also be used for potion-making and similar activities."
+    },
+    {
+      "name": "Velvet",
+      "type": "loot",
+      "equipped": false,
+      "description": "One of the most well known materials. It is woven on special types of looms that have a distinct way of seaming the cloth together. Velvet is often associated with nobility, however, in more recent times it got replaced with Cashmere wool."
+    },
+    {
+      "name": "Fried Pumpkin Seeds",
+      "type": "loot",
+      "equipped": false,
+      "description": "After fall festivals and fairs, taverns often have leftover pumpkins, and the seeds can be put to good use. The seeds are salted, fried, and served as a tasty snack for tavern patrons."
+    },
+    {
+      "name": "Mithril Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Anvil, blacksmith (100 lbs)",
+      "type": "loot",
+      "equipped": false,
+      "description": "While anvil sizes vary depending on the type of smithing for which they are used, all anvils have the same basic shape and construction. Blacksmith anvils are much heavier and larger (100 pounds) than farrier anvils (50 pounds), which in turn are much bigger than silver- or goldsmith anvils (10 pounds). Many metalworking tasks are impossible without the proper anvil."
+    },
+    {
+      "name": "Priceless Numerian Cultural Artifacts",
+      "type": "weapon",
+      "equipped": true,
+      "description": "\"It's not a violent instrument of death, it's my culture\" - average Numerian"
+    },
+    {
+      "name": "Tyrant's Band",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring, forged from black steel and set with six deep emerald gems, exudes a sense of dark purpose and power. The centerpiece is a skull, its mouth gagged—an emblem reflecting the cult's reverence for silence and secrets, and their goal of serving the Whispering Tyrant, Tar-Baphon, the former ruler of Ustalav. Each gem could be said to represent an aspect of the Tyrant's power, and the gagged skull symbolizes the silence under which these powers must be reassembled.\nBase Ability: As a Ring of"
+    },
+    {
+      "name": "Hand Axe",
+      "type": "loot",
+      "equipped": false,
+      "description": "The go-to axe for various applications, it proves its usefulness as a camping tool for felling small trees, splitting kindling, and preparing firewood. Craftsmen appreciate its finesse in cutting wood to size and creating intricate patterns on furniture."
+    },
+    {
+      "name": "Adamantine",
+      "type": "loot",
+      "equipped": false,
+      "description": "This amazingly hard metal is close to indestructible. It is known that this material can only be worked by world-renowned blacksmiths, as it is hard to work with, a regular blacksmith will simply destroy the ingot not being able to mold it into shape. Due to the blacksmith required, the cheapest price for an arrow can be anything in between 20 gold or 500 gold pieces, however, this is a stipulation as this ore is quite rare and hard to locate, and no one exactly knows their exact pricing. When t"
+    },
+    {
+      "name": "Instant Fertilizer",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Price 20 gp; Weight 4 lbs.\nCategory Alchemical Tools\nDescriptionThis ruby-red earth can be sprinkled over a 5-foot patch of ground as a standard action that provokes attacks of opportunity. Noncreature plants and fungi in the area grow with alarming speed, and the ground becomes weedy, difficult terrain for non-plant creatures. Any non-plant creature in the square must succeed at a DC 15 Reflex save or it becomes entangled by the surging plants. Any plant creature in the affected square is heale"
+    },
+    {
+      "name": "Robes of the Whispering Way",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These black and green traveling robes are enchanted for protection and durability. Even then, they are very worn from travel and use. They provide protection as light armor but do not interfere wtih spellcasting, item use, or general mobility.\nThe integrated mask also provides a constant air-bubble, and completely conceals the wearer's identity by covering every part of the body.\nThe suit increases Acid Resistance by 20."
+    },
+    {
+      "name": "Elven Prosthetics",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Price 250 gp; Weight 1 lb.\nCategory Clothing\nDescriptionThe canny half-elf sometimes needs a little something extra to look like a full elf. Ear extensions make somewhat elongated half-elf ears look like sharp elf ears, and colored lenses make a half-elf's human-like eyes look like elven eyes. These accessories give a half-elf a +6 circumstance bonus on Disguise checks to resemble an elf and can be used only by a half-elf."
+    },
+    {
+      "name": "Crusader Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A suit of full plate worn by time and battle. Engraved on the inside of the chest piece is the following poem:\n\nWhen dark whispers seek your ear,\nRecall the dawn so bright and clear,\nRaise your blade, with purpose shine,\nAnd know the heavens march in line."
+    },
+    {
+      "name": "Destabilizer",
+      "type": "weapon",
+      "equipped": false,
+      "description": "This mithral heavy mace is formed into upheld hands made of hardened steel yet plated with gold. It shines brightly and does not stay tarnished after a battle (persistent prestidigitate).\nOnce wielded by the legendary Hamdad the Defiant, it was said by his fellow Shining Crusaders that fighting near Hamdad was as dangerous as being his enemy while he carried this weapon."
+    },
+    {
+      "name": "Flat Tongs",
+      "type": "loot",
+      "equipped": false,
+      "description": "These particular tongs are available in various shapes, ranging from a slender design crafted for creating small indentations in metals to broader variants designed for handling firey-hot metals. They stand out as some of the most versatile types of tongs, serving the purpose of picking up and gripping hot pieces of flat metal, preferred by most novice blacksmiths."
+    },
+    {
+      "name": "Hand Drill",
+      "type": "loot",
+      "equipped": false,
+      "description": "Functioning as a manual tool, a hand drill transforms and magnifies the circular motion of the crank into the rotation of a drill chuck. The tool includes a cranking handle that turns pinion gears on the main shaft, with a chuck at the end designed to secure a drill bit. This versatile tool finds common use among masons, carpenters, leatherworkers, and even blacksmiths, facilitating the drilling of fine holes in hard materials such as wood, hard leather, stone, soft metals, or even bones."
+    },
+    {
+      "name": "True Vampire Bones",
+      "type": "loot",
+      "equipped": false,
+      "description": "The blackened bones of a true vampire."
+    },
+    {
+      "name": "Mithral",
+      "type": "loot",
+      "equipped": false,
+      "description": "The rarest metal, provides an otherworldy calming blue glow, making it pleasant to the eyes. The equipment made out of this specific ore is sought after by wealthy nobility, as it is so light that even the poorest of fighters have increased mobility in it making them look better at sparring than they are, also providing a point of their statute to the common folk. While wearing armor crafted from this material, the Dexterity modifier increases by 1, the Strenght requirement decreases by 1 and it"
+    },
+    {
+      "name": "Bronze",
+      "type": "loot",
+      "equipped": false,
+      "description": "Bronze, an alloy commonly created by mixing Copper and Tin, is the most familiar material for most artists, but also for treasurers for making coins. It is also broadly used in boat and ship fittings, as well as in the manufacturing process of mirrors, bells, and instrument strings."
+    },
+    {
+      "name": "Rations, Orc Trail",
+      "type": "loot",
+      "equipped": false,
+      "description": "Rations, Orc Trail\nPrice 1 gp; Weight 1 lb.\n\nA typical orc trail ration consists of coarse black bread, thin sausages as hard as leather that must be chewed slowly to soften them, dried meat of uncertain origin, and pungent peppers. If you are an orc or half-orc who subsists on nothing but these rations for at least 1 week, you add +2 to the DC to resist any Intimidate checks you make. This bonus lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+    },
+    {
+      "name": "Wyvern Cassoulet",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance,this recipe combines tender chunks of wyvern meat with hearty beans, aromatic herbs, and vegetables to create a dish worthy of the mightiest warriors!\nEating a full bowl of this delicacy causes an Neutralize Poison effect along with a 12 hour Delay Poison!"
+    },
+    {
+      "name": "Corona Laser Pistol",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Laser pistols are light and reliable, yet they still deal a respectable amount of damage."
+    },
+    {
+      "name": "Wool",
+      "type": "loot",
+      "equipped": false,
+      "description": "A textile fabric that is obtained from farm animals, mainly sheep, and is primarily used for clothing. In addition to that, it is also used for blankets, saddle cloths for cavalry, carpeting, and on rare occasions even a soil fertilizer."
+    },
+    {
+      "name": "Moleskin",
+      "type": "loot",
+      "equipped": false,
+      "description": "A heavy cotton fabric which got its name due to the soft feeling to the touch, which bears similarity to mole's fur. The most common use of moleskin is for creating trousers, however, it is also usually a prime material for bandaging."
+    },
+    {
+      "name": "Imperial conquest",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 250 gp; Weight 4 lbs.\nCategory Entertainment\nDescriptionThis strategy game, best played with an elaborate ebony board and intricate ivory pieces, follows deceptively simple rules with great strategic depth. While the game can be played with less expensive sets, only a suitably intricate and well-crafted game set can generate the state of mind necessary to gain the tactical benefits of the game. Imperial conquest is a great intellectual pursuit across the breadth of the Padishah Empire, but"
+    },
+    {
+      "name": "Pride's Ending",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ominous +3 technological breastplate is a fusion of Numerian engineering and unholy Ustalavic sorcery, worn by the undead gunslinger known as Pride's Ending. It is crafted from dark alloyed plates adorned with etched circuitry that faintly glows a sickly green, and its centerpiece is a skull motif whose hollow eyes emit an eerie, flickering light.\nWhile alive, the gunslinger called \"Pride\" forged this armor to blend his Numerian roots with his unshakable arrogance. After his violent demise "
+    },
+    {
+      "name": "Nails",
+      "type": "loot",
+      "equipped": false,
+      "description": "Nails are commonly made out of bronze or iron, and are mainly used as fasteners in construction, from small roofing nails to large iron spikes. They are also occasionally made out of copper or steel, particularly in environments where corrosion resistance is a key factor, such as coastal or riverside areas."
+    },
+    {
+      "name": "Corpse Cartography",
+      "type": "loot",
+      "equipped": false,
+      "description": "A controvertial tome when it first released, it was found to be merely a collection of unsavory rumors of noble activity in Ardeal before the capital was moved. Such scandalous rituals as \"Grandpa Pinatas\" and \"Jack O Lantern Therapy.\""
+    },
+    {
+      "name": "Rose Gold",
+      "type": "loot",
+      "equipped": false,
+      "description": "Rose gold, created by combining pure gold and copper, is popular in specialized jewelry. It is more malleable than pure gold, making it a preferred material for whitesmiths, and it is less expensive than gold or white gold."
+    },
+    {
+      "name": "Billow cape",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Price 100 gp; Weight 4 lbs.\nCategory Clothing\nDescriptionThis silk cape is constructed of many carefully arranged overlapping layers that are loosely stitched together. When exposed to a sudden influx of air, like that caused by falling, the cloak unfolds like a crude parachute. When falling, a creature wearing a billow cape is treated as if he had deliberately jumped from the height. When worn in areas of strong wind or greater, a billow cape hampers movement. In such wind conditions, the weare"
+    },
+    {
+      "name": "+1 Cold Iron Shortsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Short swords are some of the most common weapons found in any martial society, and thus designs are extremely varied, depending on the region and creator. Most are around 2 feet in length. Their blades can be curved or straight, single- or double-edged, and wide or narrow. Hilts may be ornate or simple, with crossguards, basket hilts, or no guard at all. Such weapons are often used on their own, but can also be paired as a matched set, or used in conjunction with a dagger or longer sword.\nCold I"
+    },
+    {
+      "name": "Twin Talons",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A matching pair of +2 keen sickle-daggers. Perfect for precision killing. The eye in the handle looks around occasionally, vibrating the handle of the dagger if danger is close. This prevents the wielder from being flanked if they have one of the daggers in each hand."
+    },
+    {
+      "name": "Crowbar",
+      "type": "loot",
+      "equipped": false,
+      "description": "This versatile tool is designed to help pry open whatever the user desires. A crowbar grants a +2 circumstance bonus on Strength checks made to force open a door or chest. If it is used in combat, treat a crowbar as a one-handed improvised weapon that deals bludgeoning damage equal to that of a club of its size."
+    },
+    {
+      "name": "Rose Gold",
+      "type": "loot",
+      "equipped": false,
+      "description": "Rose gold, created by combining pure gold and copper, is popular in specialized jewelry. It is more malleable than pure gold, making it a preferred material for whitesmiths, and it is less expensive than gold or white gold."
+    },
+    {
+      "name": "Silverdisc",
+      "type": "loot",
+      "equipped": true,
+      "description": "Most Numerian technological items are powered by electricity. While one can use the electricity provided by a generator, these are rare, expensive, and rarely portable. It's more common and practical to charge such items with batteries. A battery looks like a small silver disk that's etched with strange lines-the people of Numeria have taken to calling batteries \"silverdisks\" and sometimes use them as coins. A battery contains 10 charges when full; to charge an item with a battery, one simply sl"
+    },
+    {
+      "name": "Heavy Mace",
+      "type": "weapon",
+      "equipped": true,
+      "description": "\"Match the mercy of the enemy\" is engraved on the handle of this standard-issue heavy mace of the Shining Crusade."
+    },
+    {
+      "name": "Nails",
+      "type": "loot",
+      "equipped": false,
+      "description": "Nails are commonly made out of bronze or iron, and are mainly used as fasteners in construction, from small roofing nails to large iron spikes. They are also occasionally made out of copper or steel, particularly in environments where corrosion resistance is a key factor, such as coastal or riverside areas."
+    },
+    {
+      "name": "Mystimon",
+      "type": "loot",
+      "equipped": false,
+      "description": "Game Description:\nStep into the haunted land of Ustalav with Mystimon: Ghosts of Ustalav, a strategic card game where players become master mystics and necromancers, capturing and commanding ghosts, spirits, and undead entities. Harness the power of the arcane and the occult to outwit your opponents and assert control over the restless dead.\nIn Mystimon, players build decks filled with spectral creatures, powerful spells, and ancient artifacts. Each card represents a unique entity or mystical fo"
+    },
+    {
+      "name": "Broadcloth",
+      "type": "loot",
+      "equipped": false,
+      "description": "The most common type of cloth, it is usually referred to as plain cloth. Traditionally used in any form of clothing, as well, as for interior decoration, such as tablecloths, curtains, and wall covers."
+    },
+    {
+      "name": "Lions & Unicorns",
+      "type": "loot",
+      "equipped": false,
+      "description": "Concept: In the magical land of Fantasia, a game of adventure and friendship unfolds where the brave Lions and the mystical Unicorns vie for treasure and happiness. But beware, for landing on the Shadow Beast tile means everyone must unite to overcome a great challenge!\nGame Objective: Collect treasure and friendship points to become the most beloved hero of Fantasia. However, landing on the Shadow Beast tile triggers a challenge that all players must face together.\nGame Components:Game Board:\nD"
+    },
+    {
+      "name": "Hourglass (1 hour)",
+      "type": "loot",
+      "equipped": false,
+      "description": "This hourglass takes 1 hour to empty the sand from the upper chamber."
+    },
+    {
+      "name": "Mithril Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Elasmosaurus",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 3,500 gp; Weight -\nCategory Mounts/Pets\nDescriptionDescription from \"Dinosaurs and Megafauna\" section of Animal Archive, page 14.\nThe following animals are classified as either dinosaurs or megafauna, and garner a significantly higher price than most animals on the open market. The prices listed are for dinosaurs and megafauna that have been reared from birth in order to serve as pets or mounts. Combat-trained dinosaurs and megafauna are incredibly rare and have similarly extravagant costs"
+    },
+    {
+      "name": "Gold Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Hand Saw",
+      "type": "loot",
+      "equipped": false,
+      "description": "With a wide range of applications, hand saws are the go-to tools for tasks like roughly cutting wood and logs, as well as making intricate curved cuts in wood. Whether used in professional trades or by the commoner for projects at home or in the garden, they prove to be indispensable tools."
+    },
+    {
+      "name": "Lead",
+      "type": "loot",
+      "equipped": false,
+      "description": "The weirdest stuff I?ÇÖve heard of it being used for is, funny enough, make-up, but I feel it can have better usage. Most cities that have any plumbing have it thanks to lead. This specific metal is quite heavy and has a silvery appearance with a hint of blue. It's mainly used in ammunition due to it being heavy and resistant, plumbing and pipelines, as well as in fishing."
+    },
+    {
+      "name": "Hat",
+      "type": "loot",
+      "equipped": false,
+      "description": "Hats of various styles appear in all cultures. Ranging from the turban to the headscarf to the tricorn to the furred cap, a hat can be a simple covering for the head or a sign of rank and status. Particular hats are sometimes mandatory for social or religious sects. Pirates often wear bandanas or tricorn hats, while captains prefer bicornes and may wear them either \"fore-and-aft\" (with the points in front of and behind them) or \"athwart\" (sideways.)"
+    },
+    {
+      "name": "Rope, Bloodvine",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Advanced Class Guide pg. 207\nPrice 200 gp; Weight 5 lbs.\nCategory Alchemical Tools\nDescriptionThis 50-foot length of tough, lightweight rope is made from alchemically treated bloodvine, a rare scarlet-colored vine that grows only in warm jungle environments. Though prized by climbers for its durability, bloodvine can also be used to bind creatures. Bloodvine rope has a hardness of 5 and 10 hit points, and can be broken with a DC 30 Strength check. A creature bound by bloodvine rope can es"
+    },
+    {
+      "name": "Tools, Thieves' (Masterwork)",
+      "type": "loot",
+      "equipped": true,
+      "description": "This kit contains lockpicks and other tools you need to use the @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} checks.\n\nThis kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} checks."
+    },
+    {
+      "name": "Kings and Tyrants",
+      "type": "loot",
+      "equipped": false,
+      "description": "Concept: In the grim and gothic land of Ustalav, a game of power and intrigue unfolds where the noble families typically dominate, but the lurking shadow of the Whispering Tyrant ensures that victory is never certain.\nGame Objective: Accumulate wealth and influence to become the most powerful noble house in Ustalav. However, beware the Whispering Tyrant tile, for landing on it results in everyone's downfall.\nGame Components:Game Board:\nDivided into regions representing the counties of Ustalav.Sp"
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Belt of Giant Strength +2",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This belt is a thick leather affair, often decorated with huge metal buckles. The belt grants the wearer an enhancement bonus to Strength of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.\nConstructionRequirements Craft Wondrous Item, bull's strength; Cost 2,000 gp"
+    },
+    {
+      "name": "Fog of the Mindspin",
+      "type": "loot",
+      "equipped": false,
+      "description": "Journey through the fog-enshrouded Mindspin Mountains where the narratives of lost travelers merge into a spine-chilling anthology. The stories blur the lines between reality and madness, infused with a dark humor about human frailty."
+    },
+    {
+      "name": "Caydenbrew",
+      "type": "loot",
+      "equipped": false,
+      "description": "This ale is the standard beer drunk in Absalom. The recipe was said to be the last beer Cayden Cailean had before he undertook the Test of the Starstone. The hops for this beer were originally grown on the Isle of Kortos, but the massive brewery now imports from Andoran and Taldor."
+    },
+    {
+      "name": "Hot Punch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Referred to either as a forging punch or hot punch, this tool is primarily utilized for cutting or punching through metal to shape and secure it. Moreover, it lends itself to forming impressions or designs, making it a choice for the more discerning customers."
+    },
+    {
+      "name": "Pharasma-Tazz Apron",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Alchemical Silver",
+      "type": "loot",
+      "equipped": false,
+      "description": "On the rare occasions when the Blacksmiths and the Alchemists get together, they manage to create an ingot that seems to look liquid but don't be fooled, this specific material is sturdier than the regular silver equipment. When it's supposed to be crafted, the Blacksmith and Alchemist work together to attach the liquid to a steel blade, and once attached it cannot be removed. If the Alchemical Silver weapon is used against a creature specifically stating that is resistant to nonmagical attacks "
+    },
+    {
+      "name": "Hand Saw",
+      "type": "loot",
+      "equipped": false,
+      "description": "With a wide range of applications, hand saws are the go-to tools for tasks like roughly cutting wood and logs, as well as making intricate curved cuts in wood. Whether used in professional trades or by the commoner for projects at home or in the garden, they prove to be indispensable tools."
+    },
+    {
+      "name": "Belt of Tumbling",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This thin and flexible cotton cord is meant to be wrapped several times around wearer's waist. The belt's wearer gains a +4 competence bonus on Acrobatics checks made to move through a threatened square or through an enemy's space.\nConstructionRequirements Craft Wondrous Item, cat's grace"
+    },
+    {
+      "name": "Pathfinder Chronicle: Shining Crusade",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Adventurer's Guide pg. 147, Inner Sea World Guide pg. 293\nPrice 50 gp; Weight 1 lb.\nCategory Adventuring Gear\nDescriptionNumerous volumes and editions of the Pathfinder Chronicles exist. When used as a reference (an action that takes 1d4 full rounds of searching the text), a Pathfinder Chronicle grants a +2 circumstance bonus on a specific Knowledge check. Each Pathfinder Chronicle grants this bonus to a different type of Knowledge. Regardless of which type that particular chronicle is fo"
+    },
+    {
+      "name": "Boiled Corn",
+      "type": "loot",
+      "equipped": false,
+      "description": "Young corn, before it fully matures, can be grilled or boiled with salt. This seasonal delicacy is available only before the corn's harvest and for a very limited time. It tends to be in high demand due to its delicious timed flavor."
+    },
+    {
+      "name": "Masterwork tools",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 50 gp; Weight 1 lb.\nCategory Tools\nDescriptionThis tool is perfect for its intended job. It grants a +2 circumstance bonus on a related skill check (if any). The bonuses provided by multiple masterwork items do not stack.\nSeveral common items already count as masterwork tools for particular skills. These are the alchemist's lab, climber's kit, disguise kit, healer's kit, masterwork musical instrument, and masterwork thieves' tools. Therefore, there is no masterwork climber's kit, masterwor"
+    },
+    {
+      "name": "Scarlet",
+      "type": "loot",
+      "equipped": false,
+      "description": "The most expensive woolen cloth material, often dyed with kermes dye, created from rare insects, which provides a bright red color to the fabric making it one the most expensive dyes in use. This type of material is only used by the finest seamstresses or dressmakers."
+    },
+    {
+      "name": "Rations, Trail",
+      "type": "loot",
+      "equipped": false,
+      "description": "The listed price is for a day's worth of food. This bland food is usually some kind of hard tack, jerky, and dried fruit, though the contents vary from region to region and the race of those creating it. As long as it stays dry, it can go for months without spoiling."
+    },
+    {
+      "name": "Double Death Bomb Chorizo Poutine Fries",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bacon",
+      "type": "loot",
+      "equipped": true,
+      "description": "Likely hog."
+    },
+    {
+      "name": "Coffee Pot",
+      "type": "loot",
+      "equipped": false,
+      "description": "This tall, teapot-like device contains a small chamber for coffee grounds and a large chamber for water, connected by a small tube. Heating the pot forces boiling water through the tube and into the grounds. A glass knob at the top of the tube allows you to see the color of the brew and stop when it is sufficiently strong. It can brew up to 4 cups of coffee at a time. It can also be used to make tea, steep medicinal herbs, or just boil water."
+    },
+    {
+      "name": "Crusader Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A suit of full plate worn by time and battle. Engraved on the inside of the chest piece is the following poem:\n\nWhen dark whispers seek your ear,\nRecall the dawn so bright and clear,\nRaise your blade, with purpose shine,\nAnd know the heavens march in line."
+    },
+    {
+      "name": "Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Bolts, nuts, and screws are indispensable in various aspects of life, serving roles in the construction of tools, locks, clocks, furniture, and even in fastening together robust pieces of metal equipment. Noble individuals, particularly those clad in heavy-wearing armor, often retain the services of a dedicated armorer who accompanies them at all times. This skilled armorer carries essential tools of the trade, including a hammer, replacement bolts, wire cutter, and nail puller, ensuring that th"
+    },
+    {
+      "name": "Oak Plank",
+      "type": "loot",
+      "equipped": false,
+      "description": "An easy-to-work durable wood that is used with carpentry tools and is best to use when building furniture."
+    },
+    {
+      "name": "Black Talon's Garb",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Armor of the Black TalonTailored for Velka’s deadly work, this armor is as silent as death itself.\nShroud of the Unseen (+3 Shadow Silent Moves Leather Armor)A suit of midnight-black leather, stitched with the sinew of unknown beasts and reinforced with alchemical blacksteel plating to absorb impact while remaining eerily quiet. The armor carries no insignia, no markings, and exudes an unsettling stillness—perfect for an assassin who leaves no trace behind.\nProperties:+3 Leather Armor (Light, do"
+    },
+    {
+      "name": "Fir Log",
+      "type": "loot",
+      "equipped": false,
+      "description": "The Fir Log is a sturdy and versatile piece of wood, prized for its strength and durability. The logs are cut from the resilient fir trees that grow in the snowy mountains, imbued with their rugged spirit and strength. Because fir wood is strong and durable, it is an ideal material for creating frames and other structural components of a building. In addition to their practical uses, fir planks are also prized for their attractive appearance. The wood has a distinctive light-colored, straight-gr"
+    },
+    {
+      "name": "Flint And Steel",
+      "type": "loot",
+      "equipped": false,
+      "description": "Lighting a torch with a flint and steel is a full-round action. Lighting any other fire with them takes at least that long."
+    },
+    {
+      "name": "Chest, large",
+      "type": "container",
+      "equipped": true,
+      "description": "The common wooden chest comes in several sizes, including small (2 cubic feet, 1 hit point, break DC 17), medium (4 cubic feet, 15 hp, break DC 23), large (6 cubic feet, 30 hit points, break DC 29), and huge (8 cubic feet, 50 hit points, break DC 35). Most include a simple inset lock."
+    },
+    {
+      "name": "Coal",
+      "type": "loot",
+      "equipped": false,
+      "description": "It is what I would call the Blacksmith's favorite type of ore. Without good quality coal, they will not be able to do what they do. On a small blacksmithing station you can get away with just some coal and wood, but when it comes to foundries, coal in high quantities is a must. The favorite tool of the metalworker, coal can be found mainly underground, making it one of the most common items uncovered while mining. Coal can be found close to the surface, as well, as underground, making dwarfs one"
+    },
+    {
+      "name": "Enchantique Starter Kit",
+      "type": "container",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "The Mask of Pride",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Mask of Pride is a ghastly skull-shaped mask forged from a blend of Numerian alloy and cursed bone. Its eye sockets blaze with flickering orange light, and its teeth gleam with sharp, metallic menace. Originally crafted to amplify the arrogance and commanding presence of the gunslinger known as Pride, the mask was transformed into an unholy artifact when Pride was slain and raised as a graveknight.\nThe mask radiates a palpable aura of dread, bending the will of those who gaze upon its lifele"
+    },
+    {
+      "name": "Mahogany Lumber",
+      "type": "loot",
+      "equipped": false,
+      "description": "Mahogany is important lumber prized for its beauty, durability, and color, and tends to be the most prized type of lumber. It is used for paneling and to make furniture, boats, decorative pieces, musical instruments, and other items."
+    },
+    {
+      "name": "Battery",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Most technological items are powered by electricity. While one can use the electricity provided by a generator, these are rare, expensive, and rarely portable. It’s more common and practical to charge such items with batteries. A battery looks like a small silver disk that’s etched with strange lines—the people have taken to calling batteries “silverdisks” and sometimes use them as coins. A battery contains 10 charges when full; to charge an item with a battery, one simply slips the disk-shaped "
+    },
+    {
+      "name": "Willowmere Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Brass",
+      "type": "loot",
+      "equipped": false,
+      "description": "Brass is similar to bronze, another alloy containing Copper and Tin. Brass is quite a popular material for decoration due to its bright gold appearance. Its usage ranges from locks, hinges, and gears to plumbing and valves, as well as in the creation of instruments like horns or bells."
+    },
+    {
+      "name": "+1 Fire-Forged Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    },
+    {
+      "name": "Rope (Silk, 50 Ft.)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PRPG Core Rulebook pg. 158\nPrice 10 gp; Weight 5 lbs.\nCategory Adventuring Gear\nDescriptionThis rope has 4 hit points and can be burst with a DC 24 Strength check."
+    },
+    {
+      "name": "Whispering Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Absinthe (bottle)",
+      "type": "loot",
+      "equipped": false,
+      "description": "This green alcoholic drink, made from wormwood, is rumored to enhance creativity, which makes it a favored beverage of artists and eccentrics."
+    },
+    {
+      "name": "Outfit, Cold-Weather",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PZO1110\n\nThis outfit includes a wool coat, linen shirt, wool cap, heavy cloak, thick pants or skirt, and boots. This outfit grants a +5 circumstance bonus on Fortitude saving throws against exposure to cold weather."
+    },
+    {
+      "name": "Folding Chair",
+      "type": "loot",
+      "equipped": false,
+      "description": "This simple folding chair has a wooden frame and canvas seat and back, making it easy to transport and set up wherever you wish. It folds up easily and fits in a handy carrying bag. The chair can support up to 250 pounds with ease."
+    },
+    {
+      "name": "Void Shard",
+      "type": "weapon",
+      "equipped": false,
+      "description": "The void shard is a 5' long beam of heavy black steel with an orb suspended 2\" off one end of it. This orb both absorbs ambient light and appears to be a black void of nothingness, and yet it is surrounded by a faint orange and yellow glow of igniting elements.\nThe haft is totally black, and if stared into for long enough, it appears to peer into a deep night sky where stars and other stellar phenomena are visible. While it appears to model a dying star collapsing into a black hole, it does not "
+    },
+    {
+      "name": "Aspen Lumber",
+      "type": "loot",
+      "equipped": false,
+      "description": "Aspen Lumber is a wood that is soft but fairly strong, and it is closest to white in color. It has a fine-grained, uniform texture and lacks a distinctive pattern. Due to its light color, it is perfect for making paper, matchsticks, furniture, doors, and window frames."
+    },
+    {
+      "name": "Wolf-Jaw Tongs",
+      "type": "loot",
+      "equipped": false,
+      "description": "Considered the most universal tongs for general work of varying sizes, wolf jaw tongs feature smooth, narrow jaws on top with a V-notch on the inside running its length. This makes them one of the most essential tools in the tool belt of any blacksmith."
+    },
+    {
+      "name": "Vanadium",
+      "type": "loot",
+      "equipped": false,
+      "description": "Vanadium is a desired metal throughout the realms, and for very good reason. It is insanely rare and has a deep, green-gray luster that shines in the light. Some blacksmiths and alchemists can imbue vanadium with magical properties, making it even more valuable. Vanadium is very light yet stronger than steel and is speculated that it can absorb and store magical energy."
+    },
+    {
+      "name": "Sewing Needle",
+      "type": "loot",
+      "equipped": false,
+      "description": "A sewing needle, utilized for hand-sewing and crafted from steel or bone, is a long slender tool with a pointed tip at one end and a hole, or eye, designed to hold the sewing thread."
+    },
+    {
+      "name": "Halfling jugglesticks",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 25 gp; Weight 1 lb.\nCategory Entertainment\nDescriptionThis group of four brightly colored sticks is adorned with colorful streamers that can be juggled and manipulated to create displays and patterns. Halflings use them to even greater effect, gaining a +2 circumstance bonus on Perform (comedy) checks."
+    },
+    {
+      "name": "Nickel Ingot",
+      "type": "loot",
+      "equipped": false,
+      "description": "A nickel ingot is a small, perfectly formed bar of pure nickel. It is said to be incredibly dense and heavy, and can only be forged by the most skilled blacksmiths. The metal has a shiny, silver color that glimmers in the light, and is an incredibly resilient metal, able to withstand even the strongest blows. Many tales and legends surround this rare and valuable metal, with some claiming that it holds magical properties and can bestow objects with incredible strength and durability, however in "
+    },
+    {
+      "name": "Crusader's Greatsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A finely craft blade with many knotches and signs of wear."
+    },
+    {
+      "name": "That Will Buff Out",
+      "type": "loot",
+      "equipped": true,
+      "description": "A book on various engineering principles with supporting data & tables. This item grants +5 circumstance bonus on knowledge engineering checks when used to \"take 10\" or the book is consulted for at least 10 minutes.\nBy the famed Caliphas Engineer, Michael Cronin."
+    },
+    {
+      "name": "Lead",
+      "type": "loot",
+      "equipped": false,
+      "description": "The weirdest stuff I?ÇÖve heard of it being used for is, funny enough, make-up, but I feel it can have better usage. Most cities that have any plumbing have it thanks to lead. This specific metal is quite heavy and has a silvery appearance with a hint of blue. It's mainly used in ammunition due to it being heavy and resistant, plumbing and pipelines, as well as in fishing."
+    },
+    {
+      "name": "Bean Soup",
+      "type": "loot",
+      "equipped": false,
+      "description": "The bean soup is a very hearty meal with beans, veggies for garnish, and meats. In some more distinctive places, it is served in a bread bowl or with a few slices of bread."
+    },
+    {
+      "name": "White Gold",
+      "type": "loot",
+      "equipped": false,
+      "description": "White gold, an alloy of gold and silver, should not be mistaken for platinum. Known as gray gold in some regions, it is highly valued by the nobility for its high price and pristine silver look in their jewelry."
+    },
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).\nConstructionRequirements Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus; Cost 2,000 gp"
+    },
+    {
+      "name": "Garlic",
+      "type": "loot",
+      "equipped": false,
+      "description": "A pungent spice used in alchemical concoctions and protection charms.\nSource PZO9410\nThese pungent white cloves serve as food and medicine and play a role in many traditional cleansing rituals. It is well established that vampires cannot abide the presence of garlic (vampires cannot tolerate the strong odor of garlic and will not enter an area laced with it.)"
+    },
+    {
+      "name": "Chalk",
+      "type": "loot",
+      "equipped": false,
+      "description": "This fat piece of white chalk easily marks wood, metal, or stone. You can write with it for about 24 hours before it is expended. Chalk also comes in other colors, but these are rarer and can be more expensive."
+    },
+    {
+      "name": "Ladder, Folding",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 56, Adventurer's Armory pg. 19\nPrice 2 gp; Weight 16 lbs.\nCategory Adventuring Gear\nDescriptionThe hook, pole, and rungs of this 10-foot ladder are hinged, allowing you to fold it into a 3-foot-by-1-foot-by-1-foot bundle. Folding or unfolding it is a standard action."
+    },
+    {
+      "name": "Pupil's friend",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Pupil's friendSource Potions and Poisons pg. 25\nPrice 30 gp; Weight 0\nType ingested; Save Fortitude DC 10\nOnset 10 minutes; Frequency 1/minute for 15 minutes\nEffect sickened for 1 minute; if the target is affected by a second dose while already under the effects of this poison, the victim is instead nauseated for 1 minute\nCure 1 save\nDescriptionThis mostly benign, malodorous mold induces temporary illness with no lasting effect, and it can be detected in food or drink with a DC 15 Perception che"
+    },
+    {
+      "name": "Steel",
+      "type": "loot",
+      "equipped": false,
+      "description": "Well, the building block of life, or so they say. I do love its glimmer in the night, especially when guardsmen wear their polished armors, keeps me safe, you know?\n?á\nCreated from slabs of iron ore in high heat furnaces with added charcoal, it creates one of the sturdiest metals for weaponry. Steel is used mainly in cutlery, inexpensive rings, armor, and weaponr"
+    },
+    {
+      "name": "Honey Cookies",
+      "type": "loot",
+      "equipped": false,
+      "description": "These types of cookies, made with honey, tend to have a fluffier texture and sweeter taste. Due to their affordability, filling nature, and extended shelf life, most taverns keep them in stock for sale at all times."
+    },
+    {
+      "name": "Maple Log",
+      "type": "loot",
+      "equipped": false,
+      "description": "Maple trees are usually in high demand in the spice industry because of their sap, syrup, and sugar can be made."
+    },
+    {
+      "name": "Bucket",
+      "type": "container",
+      "equipped": false,
+      "description": "A typical bucket has a rope handle and can hold 1–2 gallons of liquid."
+    },
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    }
+  ]
+}

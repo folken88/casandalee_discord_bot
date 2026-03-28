@@ -1,0 +1,38 @@
+{
+  "name": "Serge",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Bard",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 15
+  },
+  "items": [
+    {
+      "name": "Musical Instrument, Masterwork",
+      "type": "loot",
+      "equipped": false,
+      "description": "If you want to perform using a @Compendium[pf1.skills.HhV5UmaRLTjtB3Xh]{Perform} skill associated with a musical instrument (keyboard, percussion, string, or wind), you must have an appropriate musical instrument; otherwise you can't use the skill. The listed cost and weight is for a typical small instrument you could carry by hand, such as a drum, lyre, bell, harp, or flute; larger instruments such as a cello or piano are of course larger and more expensive.\n\nThis high-quality instrument grants"
+    },
+    {
+      "name": "Outfit, Entertainer's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PZO1110\n\nThis set of flashy-perhaps even gaudy-clothes is for entertaining. While the outfit looks whimsical, its practical design lets you tumble, dance, walk a tightrope, or just run (if the audience turns ugly)."
+    }
+  ]
+}

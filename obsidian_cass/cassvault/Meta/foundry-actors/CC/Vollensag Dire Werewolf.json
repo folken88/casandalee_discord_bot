@@ -1,0 +1,25 @@
+{
+  "name": "Vollensag Dire Werewolf",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Skinwalker",
+  "classes": [
+    {
+      "name": "Barbarian",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 32
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": []
+}

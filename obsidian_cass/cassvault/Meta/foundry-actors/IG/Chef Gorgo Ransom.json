@@ -1,0 +1,94 @@
+{
+  "name": "Chef Gorgo Ransom",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Half-Orc",
+  "classes": [
+    {
+      "name": "Investigator",
+      "level": 8
+    },
+    {
+      "name": "Monk (Unchained Martial Artist)",
+      "level": 4
+    },
+    {
+      "name": "Barbarian",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 58
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 14,
+    "int": 14,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Yes Chef",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, PRPG Core Rulebook pg. 143\nStatisticsCost 30 gp Weight 8 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical x3; Range -; Type S; Special -\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Axes\nDescriptionA dwarven waraxe has a large, ornate head mounted on a thick handle, making it too large to use in one hand without special training; thus, it is an exotic weapon. A Medium character can use a dwarven waraxe two-handed as a martial weapon, or a Large creature"
+    },
+    {
+      "name": "The Void",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This item is crafted with unknown materials and tech from a long-dead civilization. It requires a DC30 Knowledge Engineering & Arcana check to repair or modify.\nIt imparts the following thought to any sentient bearer that holds it the first time they pick it up:\n\"We are stardust, made from exploded stars. Parts of your left hand are made from a different star than your right. All the elements of creation come from the furnace of a star. Those elements can change, just as the bullets fired out of"
+    },
+    {
+      "name": "Bracers Of Armor +6",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese items appear to be wrist or arm guards, sometimes etched with symbols of protection or depictions of vigilant-looking animals. Bracers of armor surround the wearer with an invisible but tangible field of force, granting him an armor bonus of +1 to +8, just as though he were wearing armor. Both bracers of armor must be worn for the magic to be effective.   Alternatively, bracers of armor can be enchanted with armor special abilities. See Table 3-3: Armor Special Abilities for a "
+    },
+    {
+      "name": "Cayden's Mug",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Tattoo: Whispered Courage + 4",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Force Boots",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These boots at 10 to the wearers land speed and this bonus stacks with other spells + upgrades.\n\nThe wearer can cast Bladed Dash either as an offensive maneuver or escape move. If they can cast the bladed dash spell and choose to do so while using this item, the effect is upgraded to Bladed Dash, Greater.  The range of these effects is adjusted to the wearer's total land-speed."
+    },
+    {
+      "name": "Hethicc",
+      "type": "container",
+      "equipped": true,
+      "description": "Part of the Carriers by Calvin line of luxury containers, this finely crafted backpack has runework hidden in its stitching.\nThis dimensional pocket magically stores up to 200 cubic feet of items, and reduces their material-plane-weight by 95%. The bag is huge, even when empty, and can detract from stealth attempts."
+    },
+    {
+      "name": "Tattoo: Titan Boar +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Savage Sustenance",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A cookbook for carnivorous barbarians. This item grants +5 circumstance bonus on cooking checks when used to \"take 10\" or the book is consulted for at least 10 minutes. It also contains a number of famous recipes from all over Ustalav, each slightly improved by the author.\nConquer your hunger with a symphony of carnivorous decadence, forging legends through each ravenous bite, and embracing the primal ecstasy that only the flesh of the slain can provide.\nSavage Sustenance"
+    },
+    {
+      "name": "Headband of Vast Intelligence +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This intricate gold headband is decorated with several small blue and deep purple gemstones.\n\nThe headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer’s total Hit Dice. These ranks do no"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Jub Jub",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Kobold",
+  "classes": [
+    {
+      "name": "Druid",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 18
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 15,
+    "con": 14,
+    "int": 11,
+    "wis": 15,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Quarterstaff",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsDamage 1d4/1d4 (small), 1d6/1d6 (medium); Critical x2; Range -; Type B\nWeapon Groups Double; Monk\nDescriptionA quarterstaff is a simple piece of wood, about 5 feet in length. In battle, it's held with one hand at the butt and the other a quarter of the way up the staff, allowing it to block blows and make quick strikes."
+    },
+    {
+      "name": "+1 Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Heart of the Forest",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Petrified roots of a long extinct type of willow tree form the band of this ancient ring. Within the coils it holds a nameless stone.\nWearing this ring grants several abilities\nAll wearers:\nThe ring grants a natural armor bonus, and the wearers skin becomes course to the touch, resistant to fire and cold, and alters hue at will. Providing the following spell effects:\nResist Energy 10 vs Fire & Cold\nBlend at-will (+4 stealth)\nNon-druids:\nBeast Shape I 1x per day per con mod.\nFor druids:\nIncreases"
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Clamdrinc",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Introducing the peculiar elixir that combines the unlikeliest of flavors, Clamdrinc! Drawing inspiration from the iconic elven weapon wielded against the Orcs, this unique soda delivers a briny surprise with every sip. Imagine the essence of the sea captured in a fizzy concoction, where the salty undertones dance alongside a subtle hint of clam, creating an unforgettable taste adventure. With each refreshing gulp, Clamdrinc transports you to a mythical shoreline, where the Elves and the clams un"
+    }
+  ]
+}

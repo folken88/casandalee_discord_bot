@@ -41,3 +41,6 @@ Country where barbarians will try to destabilize the country tomorrow; The count
 
 ### Carrion Crown - Feldgrau Streetfight 2025 02 09
 A region with a history of dark magic and supernatural occurrences.; A region in the campaign world; A region with advanced engineering and sorcery.
+
+### Iron Gods - Slayin' Pipe 2023 05 11
+Discussed plans in a town with guard patrols and a Waffle House.

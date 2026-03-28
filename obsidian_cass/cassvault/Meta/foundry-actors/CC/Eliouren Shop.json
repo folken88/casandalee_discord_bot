@@ -1,0 +1,579 @@
+{
+  "name": "Eliouren Shop",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Scroll of Remove Blindness/Deafness",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove blindness/deafness cures blindness or deafness (your choice), whether the effect is normal or magical in nature. The spell does not restore ears or eyes that have been lost, but it repairs them if they are damaged.\nRemove blindness/deafness counters and dispels blindness/deafness."
+    },
+    {
+      "name": "Yogurt",
+      "type": "consumable",
+      "equipped": true,
+      "description": "YogurtSource Ultimate Equipment pg. 95\nPrice 1 sp; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionThis thick, fermented milk has a tangier taste than unprocessed milk. It may be sweetened with fruit, honey, or jam; blended with chopped herbs and oil to create a sauce; or mixed with water and salt, sugar, fruit, or mint as a drink."
+    },
+    {
+      "name": "+1 Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "+2 Mithral Elven Chain",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This extremely light chainmail is made of very fine mithral links. This armor is treated, in all ways, like light armor, including when determining proficiency. The armor has an arcane spell failure chance of 20%, a maximum Dexterity bonus of +4, and an armor check penalty of -2.\nMithral\n\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well. Most mithral armor"
+    },
+    {
+      "name": "Elven Sweetroll",
+      "type": "loot",
+      "equipped": false,
+      "description": "Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts. If you are an elf who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the Endurance feat. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+    },
+    {
+      "name": "Upgrade Deflection AC: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Silk",
+      "type": "loot",
+      "equipped": false,
+      "description": "It is one of the rarest materials to find. It is mainly produced by either fantastical beasts or insects of different sizes. It is speculated that only the most trained gatherers can create something called Pure Silk, however, some of them end up losing their lives sometimes, getting more than they bargained for from some eight-legged monsters."
+    },
+    {
+      "name": "+1 Undead Bane Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows.\nBane\n\nA bane weapon excels against certain foes. Against a designated foe, the weapon's enhancement bonus is +2 better tha"
+    },
+    {
+      "name": "Soap",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, Adventurer's Armory pg. 19, PRPG Core Rulebook pg. 158\nPrice 1 cp; Weight 1/2 lb.\nCategory Adventuring Gear\nDescriptionMost soap is made from animal fat and lye derived from ashes. You can use this thick block of soap to scrub clothes, pots, linens, adventurers, or anything else that might be dirty. A bar of soap has approximately 50 uses."
+    },
+    {
+      "name": "Scroll of Restoration, Greater",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like lesser restoration, except that it dispels all permanent and temporary negative levels afflicting the healed creature. Greater restoration also dispels all magical effects penalizing the creature's abilities, cures all temporary ability damage, and restores all points permanently drained from all ability scores. It also eliminates fatigue and exhaustion, and removes all forms of insanity, confusion, and similar mental effects."
+    },
+    {
+      "name": "Brow Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town.\n@JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}"
+    },
+    {
+      "name": "Scroll of Dimension Door",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You instantly transfer yourself from your current location to any other spot within range. You always arrive at exactly the spot desired--whether by simply visualizing the area or by stating direction. After using this spell, you can't take any other actions until your next turn. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equival"
+    },
+    {
+      "name": "Upgrade Weapon: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Wand of See Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Divination; Level Adept 2, Alchemist 2, Arcanist 2, Bard 3, Bloodrager 2, Inquisitor 2, Investigator 2, Mesmerist 3, Occultist 2, Psychic 2, Skald 3, Sorcerer 2, Spiritualist 2, Summoner 2, Summoner (Unchained) 2, Witch 2, Wizard 2; Subdomain Revelation 2; Bloodline Marid 2\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (talc and powdered silver)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 30 Minutes\n\n  \n\nDescriptionYou can see any objects or beings that are invisibl"
+    },
+    {
+      "name": "Scroll of Remove Curse",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove curse can remove all curses on an object or a creature. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each curse affecting the target.\nSuccess means that the curse is removed. Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although a successful caster level check enables the creature afflicted with any such cursed item to remove and get rid of it.\nRemove curse counters and dispels bestow curs"
+    },
+    {
+      "name": "Scroll of Restoration",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like lesser restoration, except that it also dispels temporary negative levels or one permanent negative level. If this spell is used to dispel a permanent negative level, it has a material component of diamond dust worth 1,000 gp. This spell cannot be used to dispel more than one permanent negative level possessed by a target in a 1-week period.\nRestoration cures all temporary ability damage, and it restores all points permanently drained from a single ability score (your c"
+    },
+    {
+      "name": "Upgrade Armor: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "High Elven Bracers",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These finely crafted leather bracers have plates of silvered steel covering the back, and silver buckles at the wrist and forearm. The bracers enable the wearer to use any traditional elven weapon (longbows, composite longbows, longswords, rapiers, shortbows, composite shortbows, and any weapon with the word elven in its name) as if he were proficient in its use. If he uses such a weapon and is already proficient with it, he gains a +1 competence bonus on attack and damage rolls. Both bracers mu"
+    },
+    {
+      "name": "Upgrade Resistance: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Deflection AC: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Restoration",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like lesser restoration, except that it also dispels temporary negative levels or one permanent negative level. If this spell is used to dispel a permanent negative level, it has a material component of diamond dust worth 1,000 gp. This spell cannot be used to dispel more than one permanent negative level possessed by a target in a 1-week period.\nRestoration cures all temporary ability damage, and it restores all points permanently drained from a single ability score (your c"
+    },
+    {
+      "name": "Broadcloth",
+      "type": "loot",
+      "equipped": false,
+      "description": "The most common type of cloth, it is usually referred to as plain cloth. Traditionally used in any form of clothing, as well, as for interior decoration, such as tablecloths, curtains, and wall covers."
+    },
+    {
+      "name": "Cloak of Elvenkind",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These cloaks of famed elven design are enhanced to reflect the wearer's surroundings, aiding him in blending in with any terrain. When this plain gray cloak is worn with the hood drawn up around the head, the wearer gains a +5 competence bonus on Stealth checks.\nConstructionRequirements Craft Wondrous Item, invisibility, creator must be an elf; Cost 1,250 gp"
+    },
+    {
+      "name": "Scroll of Nondetection, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like nondetection, except it blocks the effects of only divination spells and effects that target an area, rather than you or an object in your possession specifically. For example, lesser nondetection doesn't ward you against a spellcaster who is attempting to scry on you with the scrying spell or find an object in your possession with locate object, but it does protect  you against effects that target an area you happen to be in, such as detect spells or clairaudience/clai"
+    },
+    {
+      "name": "Upgrade Weapon: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Delay Poison",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject becomes temporarily immune to poison. Any poison in its system or any poison to which it is exposed during the spell's duration does not affect the subject until the spell's duration has expired. Delay poison does not cure any damage that poison may have already done."
+    },
+    {
+      "name": "Upgrade Armor: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Boots of Elvenkind",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These soft boots are partially made out of living leaves and other natural materials. They enable the wearer to move nimbly about in virtually any surroundings, granting a +5 competence bonus on Acrobatics checks.\nConstructionRequirements Craft Wondrous Item, creator must be an elf; Cost 1,250 gp"
+    },
+    {
+      "name": "Wand of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Wand of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Belt of Incredible Dexterity +6",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt has a large silver buckle, usually depicting the image of a tiger.\nThe belt grants the wearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.\nConstructionRequirements Craft Wondrous Item, Cat's Grace; Cost 18,000 gp"
+    },
+    {
+      "name": "Eliouren Bow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "All arrows fired from an eliouren bow are Ghost-Touch and ignore up to 2 points of the targets Natural Armor or Armor bonus. Firing the bow makes almost no sound and does not necessarily give away the wielders firing position. The arrows in flight and striking targets still create sounds."
+    },
+    {
+      "name": "+2 Mithral Elven Curve Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Essentially a longer version of a scimitar, but with a thinner blade, the elven curve blade is exceptionally rare. You receive a +2 circumstance bonus to your CMD whenever a foe attempts to sunder your elven curve blade because of its flexible metal.\nYou can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier on attack rolls with an elven curve blade that is sized for you, even though it isn't a light weapon.\nMithral\n\nMithral is a rare, silvery metal th"
+    },
+    {
+      "name": "Scroll of Nondetection, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like nondetection, except you divide the duration in 1-hour increments among the creatures or objects touched."
+    },
+    {
+      "name": "Upgrade Resistance: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Glitterdust",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A cloud of golden particles covers everyone and everything in the area, causing creatures to become blinded and visibly outlining invisible things for the duration of the spell. All within the area are covered by the dust, which cannot be removed and continues to sparkle until it fades. Each round at the end of their turn blinded creatures may attempt new saving throws to end the blindness effect.\nAny creature covered by the dust takes a -40 penalty on Stealth checks."
+    },
+    {
+      "name": "Scroll of Dimensional Anchor",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A green ray springs from your hand. You must make a ranged touch attack to hit the target. Any creature or object struck by the ray is covered with a shimmering emerald field that completely blocks extradimensional travel. Forms of movement barred by a dimensional anchor include astral projection, blink, dimension door, ethereal jaunt, etherealness, gate, maze, plane shift, shadow walk, teleport, and similar spell-like abilities. The spell also prevents the use of a gate or teleportation circle "
+    },
+    {
+      "name": "Scroll of Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light"
+    },
+    {
+      "name": "Grape Tongue",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dyes the user's tongue bright purple, usually spreading to the lips and area around the mouth as it causes excessive licking and smacking. Whatever the user says is heard as incoherent babbling, but the user is granted +8 to save vs mind-affecting attacks with somatic components for 1d8 minutes."
+    },
+    {
+      "name": "Starknife",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, Rise of the Runelords Player's Guide pg. 11, Curse of the Crimson Throne Player's Guide pg. 13, Pathfinder Campaign Setting pg. 209, PRPG Core Rulebook pg. 142, Varisia, Birthplace of Legends pg. 14\nStatisticsCost 24 gp Weight 3 lbs.\nDamage 1d3 (small), 1d4 (medium); Critical x3; Range 20 ft.; Type P; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Blades, Light; Thrown\nDescriptionFrom a central metal ring, four tapering metal blades extend from this"
+    },
+    {
+      "name": "Antlers",
+      "type": "loot",
+      "equipped": false,
+      "description": "Antlers are usually shed and regrown each year by deers, elk, reindeer, or caribous. Due to the replacement nature of the antlers, they can be used to make tools, weapons, ornaments, or even toys. Antler hairdressers are used as a form of leadership by shamans, spiritual figures, and druidic circles. Some forest folk use them as crowns, of different sizes, for their lords, princes, kings, or depending on the case, emperors."
+    },
+    {
+      "name": "Scroll of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Potion of Cure Critical Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 4d8 points of damage + 1 point per caster level (maximum +20)."
+    },
+    {
+      "name": "Supple, A Wine By Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Calvin Carpenter's finest line of dry white wines, made from the finest potatoes from exclusive farms in Ravounel, has a name - Supple.\nEnjoy a glass of premium and refined flavor.\nSavor the taste and aroma of the rich, earthy notes in each bottle, expertly crafted from the finest ingredients. Raise a glass of Supple, the epitome of luxury and refinement."
+    },
+    {
+      "name": "+1 Mithral Rapier",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 20 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type P; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Light\nDescriptionYou can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn't a light weapon. You can't wield a rapier in two hands in order to apply 1-1"
+    },
+    {
+      "name": "Belt of Physical Might +6 (Dex & Con)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt grants the wearer an enhancement bonus to two physical ability scores of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. These bonuses are chosen when the belt is created and cannot be changed.\nConstructionRequirements Craft Wondrous Item, bear's endurance, cat's grace; Cost 45,000 gp"
+    },
+    {
+      "name": "Scroll of See Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can see any objects or beings that are invisible within your range of vision, as well as any that are ethereal, as if they were normally visible. Such creatures are visible to you as translucent shapes, allowing you easily to discern the difference between visible, invisible, and ethereal creatures.\nThe spell does not reveal the method used to obtain invisibility.\nIt does not reveal illusions or enable you to see through opaque objects. It does not reveal creatures who are simply hiding, con"
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Wand of Restoration, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Alchemist 2, Cleric 2, Druid 2, Hunter 2, Inquisitor 2, Investigator 2, Mesmerist 2, Oracle 2, Paladin 1, Shaman 2, Spiritualist 2, Warpriest 2\n    \n\n  \n  Casting Time 3 Standard Actions\n\n  Components V, S\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionLesser restoration dispels any magical effects reducing one of the subject's ability"
+    },
+    {
+      "name": "Scroll of Darkvision, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like darkvision, except you may divide the duration in 1-hour intervals among the creatures touched."
+    },
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    },
+    {
+      "name": "Scroll of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Scroll of Neutralize Poison",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You detoxify any sort of venom in the creature or object touched. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each poison affecting the target. Success means that the poison is neutralized. A cured creature suffers no additional effects from the poison, and any temporary effects are ended, but the spell does not reverse instantaneous effects, such as hit point damage, temporary ability damage, or effects that don't go away on their own."
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Nutonia, Luxury Spread by Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Nutonia, Luxury Spread by Calvin Carpenter\nSmear refinement in paste-form across the bread of your life. Nutonia is a nut butter made from the sack of the most robust harvest of Taldania-nuts. Taste the nut of a generational-talent."
+    },
+    {
+      "name": "Scroll of Remove Fear",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You instill courage in the subject, granting it a +4 morale bonus against fear effects for 10 minutes. If the subject is under the influence of a fear effect when receiving the spell, that effect is suppressed for the duration of the spell.\nRemove fear counters and dispels cause fear."
+    },
+    {
+      "name": "Upgrade Weapon: +1 from Masterwork",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Restoration, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Lesser restoration dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain."
+    },
+    {
+      "name": "Wolfsbane Flower",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Used as a poison to execute prisoners in Cheliax, this herb causes 1d3 CON damage but allows a new save vs Curse of Lycanthropy."
+    },
+    {
+      "name": "+2 Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Upgrade Natural Armor: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Chain Shirt MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Eliouren Leafblade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Eliouren blades are all effectively Ghost-Touch."
+    },
+    {
+      "name": "Scroll of Daylight",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You touch an object when you cast this spell, causing the object to shed bright light in a 60-foot radius. This illumination increases the light level for an additional 60 feet by one step (darkness becomes dim light, dim light becomes normal light, and normal light becomes bright light). Creatures that take penalties in bright light take them while within the 60-foot radius of this magical light. Despite its name, this spell is not the equivalent of daylight for the purposes of creatures that a"
+    },
+    {
+      "name": "Potion of Restoration, Greater",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like lesser restoration, except that it dispels all permanent and temporary negative levels afflicting the healed creature. Greater restoration also dispels all magical effects penalizing the creature's abilities, cures all temporary ability damage, and restores all points permanently drained from all ability scores. It also eliminates fatigue and exhaustion, and removes all forms of insanity, confusion, and similar mental effects."
+    },
+    {
+      "name": "Scroll of Haste",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast "
+    },
+    {
+      "name": "Upgrade Armor: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Raise Dead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You restore life to a deceased creature. You can raise a creature that has been dead for no longer than 1 day per caster level. In addition, the subject's soul must be free and willing to return.\nIf the subject's soul is not willing to return, the spell does not work; therefore, a subject that wants to return receives no saving throw.\nComing back from the dead is an ordeal. The subject of the spell gains two permanent negative levels when it is raised, just as if it had been hit by an energy-dra"
+    },
+    {
+      "name": "Scroll of Dispel Magic",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can use dispel magic to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by dispel magic. Dispel magic can dispel (but not counter) spell-like effects just as it does spells. The of a spell with an instantaneous duration can't be dispelled, because the"
+    },
+    {
+      "name": "Scroll of Remove Disease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove disease can cure all diseases from which the subject is suffering. You must make a caster level check (1d20 + caster level) against the DC of each disease affecting the target. Success means that the disease is cured. The spell also kills some hazards and parasites, including green slime and others.\nSince the spell's duration is instantaneous, it does not prevent reinfection after a new exposure to the same disease at a later date."
+    },
+    {
+      "name": "Belt of Physical Might +4 (Dex & Con)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt grants the wearer an enhancement bonus to two physical ability scores of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. These bonuses are chosen when the belt is created and cannot be changed.\nConstructionRequirements Craft Wondrous Item, bear's endurance, cat's grace; Cost 20,000 gp"
+    },
+    {
+      "name": "Scroll of Levitate",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Levitate allows you to move yourself, another creature, or an object up and down as you wish. A creature must be willing to be levitated, and an object must be unattended or possessed by a willing creature. You can mentally direct the recipient to move up or down as much as 20 feet each round; doing so is a move action.\nYou cannot move the recipient horizontally, but the recipient could clamber along the face of a cliff, for example, or push against a ceiling to move laterally (generally at half"
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Enchantique Starter Kit",
+      "type": "container",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Remove Sickness",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You quell feelings of illness and nausea in the target, giving it a +4 morale bonus on saving throws against disease, nausea, and sickened effects. If the subject is already under the influence of one of these effects when receiving the spell, that effect is suppressed for the duration of the spell."
+    },
+    {
+      "name": "Scroll of Ant Haul, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like ant haul (see page 202 of the Pathfinder RPG Advanced Player's Guide), except you may divide the duration in 2-hour intervals among the creatures touched."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Upgrade Armor: +1 from Masterwork",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Chainmail",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Unlike a chain shirt, which covers only the chest, chainmail protects the wearer with a complete mesh of chain links that cover the torso and arms, and extends below the waist. Multiple interconnected pieces offer additional protection over vital areas. The suit includes gauntlets."
+    },
+    {
+      "name": "Wand of Dispel Magic",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can use dispel magic to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by dispel magic. Dispel magic can dispel (but not counter) spell-like effects just as it does spells. The of a spell with an instantaneous duration can't be dispelled, because the"
+    },
+    {
+      "name": "Upgrade Deflection AC: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Restoration, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Lesser restoration dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain."
+    },
+    {
+      "name": "Olykoeks",
+      "type": "loot",
+      "equipped": false,
+      "description": "They are known as oily cakes, or more commonly known as doughnuts, are a beloved pastry enjoyed by many, are a popular treat enjoyed by people all over the planes. The sweetened dough is dipped in hot oil for roughly 2 minutes, then taken out and topped with powdered sugar, jams, sweet cocoa paste, or even thin slices of fruit while still hot. Making this one of the most produced item by most bakeries, this pastry is a popular accompaniment to morning beverages or enjoyed by young folk with ever"
+    },
+    {
+      "name": "Scroll of Protection from Arrows, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like Protection from Arrows, except you divide the duration in 1-hour intervals among the creatures touched. Once the spell absorbs 10 points of damage per caster level (maximum 100 points) for a subject, the spell's effects end for that subject."
+    },
+    {
+      "name": "Upgrade Weapon: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Eliouren Branched Spear",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Eliouren weapons are all effectively Ghost-Touch."
+    },
+    {
+      "name": "Upgrade Natural Armor: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Nondetection",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The warded creature or object becomes difficult to detect by divination spells such as clairaudience/clairvoyance, locate object, and detect spells. Nondetection also prevents location by such magic items as crystal balls. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast nondetection. If you cast nondetection on yourself or on "
+    },
+    {
+      "name": "Belt of Incredible Dexterity +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt has a large silver buckle, usually depicting the image of a tiger.\nThe belt grants the wearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.\nConstructionRequirements Craft Wondrous Item, Cat's Grace; Cost 8,000 gp"
+    },
+    {
+      "name": "Potion of Celestial Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You anoint a wounded creature with the blood of an outsider with the good subtype (such as an angel) or holy water, giving it fast healing 1. The target radiates the aura of a good creature for the duration of the spell and can sense the righteousness of the magic, though this has no long-term effect on the target's alignment. If the target has its own evil aura, this is not suppressed by celestial healing, and can also be detected normally."
+    },
+    {
+      "name": "Scroll of Slow",
+      "type": "consumable",
+      "equipped": true,
+      "description": "An affected creature moves and attacks at a drastically slowed rate. Creatures affected by this spell are staggered and can take only a single move action or standard action each turn, but not both (nor may it take full-round actions). Additionally, it takes a -1 penalty on attack rolls, AC, and Reflex saves. A slowed creature moves at half its normal speed (round down to the next 5-foot increment), which affects the creature's jumping distance as normal for decreased speed.\nMultiple slow effect"
+    },
+    {
+      "name": "Scroll of Heroism",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell imbues a single creature with great bravery and morale in battle. The target gains a +2 morale bonus on attack rolls, saves, and skill checks."
+    },
+    {
+      "name": "Potion of Restoration",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like lesser restoration, except that it also dispels temporary negative levels or one permanent negative level. If this spell is used to dispel a permanent negative level, it has a material component of diamond dust worth 1,000 gp. This spell cannot be used to dispel more than one permanent negative level possessed by a target in a 1-week period.\nRestoration cures all temporary ability damage, and it restores all points permanently drained from a single ability score (your c"
+    }
+  ]
+}

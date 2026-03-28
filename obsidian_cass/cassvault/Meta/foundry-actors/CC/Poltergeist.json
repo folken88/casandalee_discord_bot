@@ -1,0 +1,25 @@
+{
+  "name": "Poltergeist",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 16
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 12,
+    "int": 5,
+    "wis": 12,
+    "cha": 16
+  },
+  "items": []
+}

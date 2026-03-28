@@ -1,0 +1,25 @@
+{
+  "name": "Brogan's Axe",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Dwarf",
+  "classes": [
+    {
+      "name": "Cavalier",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 10
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 14,
+    "wis": 18,
+    "cha": 14
+  },
+  "items": []
+}

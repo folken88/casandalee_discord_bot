@@ -1,0 +1,25 @@
+{
+  "name": "Ectoplasmic Human",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": []
+}

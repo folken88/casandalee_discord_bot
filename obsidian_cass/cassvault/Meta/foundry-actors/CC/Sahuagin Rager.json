@@ -1,0 +1,54 @@
+{
+  "name": "Sahuagin Rager",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Sahuagin",
+  "classes": [
+    {
+      "name": "Bloodrager",
+      "level": 5
+    },
+    {
+      "name": "Sahuagin (Aquatic)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 72
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 10,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Sea-Steel Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Sea-Steel is a rare, magically hardened form of deep-sea coral that is nearly indistinguishable from polished steel, save for its faint iridescent sheen that shifts between blue-green and storm-gray under certain light. Found only in deep ocean trenches, it is harvested and shaped by sahuagin weapon forgers, who infuse it with abyssal salts and elemental water magic to make it as strong as steel.\nUnlike normal coral, Sea-Steel is:✔ As durable as steel but naturally buoyant, making it easier to w"
+    },
+    {
+      "name": "Sharkskin Jacket",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Restoration, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Alchemist 2, Cleric 2, Druid 2, Hunter 2, Inquisitor 2, Investigator 2, Mesmerist 2, Oracle 2, Paladin 1, Shaman 2, Spiritualist 2, Warpriest 2\n    \n\n  \n  Casting Time 3 Standard Actions\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nDescriptionLesser restoration dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the sub"
+    },
+    {
+      "name": "Heavy Crossbow (Underwater)",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, Advanced Race Guide pg. 195, Ultimate Equipment pg. 17\nStatisticsCost 100 gp Weight 8 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range 120 ft.; Type P; Special -\nCategory Ranged; Proficiency Simple\nWeapon Groups Crossbows\nDescriptionAbove water, this weapon is identical to a heavy crossbow. You may use it underwater, where it has a range increment of 20 feet. It counts as a heavy crossbow for the purposes of proficiencies and special abilities"
+    }
+  ]
+}

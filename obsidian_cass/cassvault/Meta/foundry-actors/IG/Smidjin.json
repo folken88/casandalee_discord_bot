@@ -1,0 +1,25 @@
+{
+  "name": "Smidjin",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 50
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 18,
+    "con": 21,
+    "int": 2,
+    "wis": 17,
+    "cha": 11
+  },
+  "items": []
+}

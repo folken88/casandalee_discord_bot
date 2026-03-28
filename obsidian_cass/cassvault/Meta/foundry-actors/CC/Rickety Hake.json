@@ -1,0 +1,66 @@
+{
+  "name": "Rickety Hake",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 5
+    },
+    {
+      "name": "Expert",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 14,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.\nConstructionRequirements Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring; Cost 4,000 gp"
+    },
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).\nConstructionRequirements Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus; Cost 2,000 gp"
+    },
+    {
+      "name": "+1 Mithral Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings.\nMithral\n\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well. Most mithral armors are one category lighter than normal for purposes of movement and other limitations. Heavy armors are treated as medium, and medium armors are treated as light, but light armors are still treated"
+    },
+    {
+      "name": "Squib Cane",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This slender light blade lies within a wooden container that serves as both its scabbard and hiding place. You can draw the blade as a swift action (or a free action if you have the Quick Draw feat). An observer must succeed at a DC 20 Perception check to realize an undrawn sword cane is a weapon rather than a walking stick; the DC decreases to 10 if the observer is able to handle the weapon. You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier t"
+    },
+    {
+      "name": "The Gunslinger +2 Dex & Con",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This tattoo grants the wearer an enhancement bonus to two physical ability scores of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. These bonuses are chosen when the tattoo created and cannot be changed.\nIt also grants a +2 competence bonus on all dex-based skill checks.\nConstructionRequirements Craft Wondrous Item, bear's endurance, cat's grace; Cost 6,000 gp"
+    },
+    {
+      "name": "Amulet of Natural Armor +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet.\nConstructionRequirements Craft Wondrous Item, barkskin, creator's caster level must be at least three times the amulet's bonus; Cost 4,000 gp"
+    }
+  ]
+}

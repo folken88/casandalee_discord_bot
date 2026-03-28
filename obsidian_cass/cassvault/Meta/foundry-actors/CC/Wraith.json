@@ -1,0 +1,25 @@
+{
+  "name": "Wraith",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Undead",
+  "classes": [
+    {
+      "name": "Undead (Incorporeal)",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 30
+  },
+  "abilities": {
+    "str": 0,
+    "dex": 16,
+    "con": 0,
+    "int": 14,
+    "wis": 14,
+    "cha": 21
+  },
+  "items": []
+}

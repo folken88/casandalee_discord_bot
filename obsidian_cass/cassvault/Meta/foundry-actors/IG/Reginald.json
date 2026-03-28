@@ -1,0 +1,84 @@
+{
+  "name": "Reginald",
+  "type": "character",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Rogue (Unchained)",
+      "level": 5
+    },
+    {
+      "name": "Swashbuckler",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 28
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 12,
+    "int": 14,
+    "wis": 10,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Gunslingers Friend",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A revolver is a pistol with a revolving cylinder containing six chambers. Each chamber can hold a metal cartridge, and when one cartridge is shot, the cylinder automatically rotates (no extra hand or action required), readying the next chamber for firing. A revolver uses metal cartridges as ammunition.\n\n \n\nThis particular model features a 4 chambered cylindar. It takes a full-round action to reload or a move-action will load 1 cartridge."
+    },
+    {
+      "name": "Mithral Cookware",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57\nPrice  8 sp (common),  2,001 gp (mithral); Weight 4 lbs. (common), 2 lbs. (mithral)\nDescriptionThis 8-inch-diameter iron pot is sturdy and has feet, a lid, and a rounded handle. It can hold enough stew to feed one hungry human for one meal. A mithral pot is lighter and food rarely sticks to it."
+    },
+    {
+      "name": "Universal Power Adapter",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A power cable is a short length of flexible cord (typically no more than 5 feet long) that can be used to attach a technological device to a power generator. It takes a move action to attach a cable to a generator or a device&mdash;thus, it takes a full round to fully connect the two together. Once connected, the item draws power from the generator rather than from its internal battery stores. If an item can be recharged, it automatically replenishes its missing charges from the generator (up to"
+    },
+    {
+      "name": "Refitted TL Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nSpell Description\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 2 gp Weight 1 lb.\nDamage 1d3 (small), 1d4 (medium); Critical 19-20/x2; Range 10 ft.; Type P or S; Special -\nCategory Light; Proficiency Simple\nWeapon Groups Blades, Light; Thrown; Tribal\nDescriptionA dagger is a fighting knife. Its blade is usually less than 1 foot long, and can be curved or straight, with one edge or two. Dagger designs vary widely, and can have many different names (such as a thrusting dagger being cal"
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Nanite Hypogun 2.0 Black",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Color Black\n\nPrimary Effect (1ch) 2d8+5 healing\n\nSecondary Effect CL (5ch) Lesser restoration 3rd\n\nLesser restoration dispels any magical effects reducing one of the subject&rsquo;s ability scores or cures 1d4 points of temporary ability damage to one of the subject&rsquo;s ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain."
+    }
+  ]
+}

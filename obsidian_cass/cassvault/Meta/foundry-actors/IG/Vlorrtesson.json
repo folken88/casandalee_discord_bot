@@ -1,0 +1,25 @@
+{
+  "name": "Vlorrtesson",
+  "type": "character",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Illithid",
+  "classes": [
+    {
+      "name": "Magus",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 23
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 12,
+    "int": 24,
+    "wis": 20,
+    "cha": 22
+  },
+  "items": []
+}

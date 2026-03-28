@@ -1,0 +1,42 @@
+{
+  "name": "Mohrg",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 5
+    },
+    {
+      "name": "Cavalier",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 19,
+    "con": 10,
+    "int": 11,
+    "wis": 10,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Willowmere Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    },
+    {
+      "name": "Willowmere Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

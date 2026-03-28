@@ -1,0 +1,32 @@
+{
+  "name": "Herecite of Asmodeus",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 63
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 19,
+    "con": 10,
+    "int": 14,
+    "wis": 9,
+    "cha": 22
+  },
+  "items": [
+    {
+      "name": "Heavy Mace MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A heavy mace has a larger head and a longer handle than a normal (light) mace."
+    }
+  ]
+}

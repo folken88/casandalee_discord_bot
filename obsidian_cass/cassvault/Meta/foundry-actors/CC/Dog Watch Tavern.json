@@ -1,0 +1,69 @@
+{
+  "name": "Dog Watch Tavern",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Supple, A Wine By Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Calvin Carpenter's finest line of dry white wines, made from the finest potatoes from exclusive farms in Ravounel, has a name - Supple.\nEnjoy a glass of premium and refined flavor.\nSavor the taste and aroma of the rich, earthy notes in each bottle, expertly crafted from the finest ingredients. Raise a glass of Supple, the epitome of luxury and refinement."
+    },
+    {
+      "name": "Abby's Own, Royal Vodka",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Bottled in the historic docks district of Egorian, this fine spirit is rumored to be a favorite of Queen Abrogail II, ruler of Cheliax!\nEnhance yourself, enhance your life, with Abby's Own!"
+    },
+    {
+      "name": "Jung Nuggit",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Calms the nerves and yet makes one paranoid. Smoking this stinky-finger grants +4vs Mind Affecting attacks, +4 Sense Motive, -10 Initiative, and incites rambling discourse. Lasts 1d3+2 hours."
+    },
+    {
+      "name": "Face Crepes",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Crepes made in the shape of a face, in homage to the face-stealing skin-killers of Lepidstadt that were never caught!"
+    },
+    {
+      "name": "Wack Juce",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Refreshingly intoxicating, Wack Juce is made with the finest synthetic oranges in Numeria, and the 3rd finest potato vodka in the world: Smashka Noble!\nEnjoy this sweet and soothing taste of home, you can almost hear the anthem of the Fatherland as you slurp!"
+    },
+    {
+      "name": "Beast Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This bubbling and glowing beverage tastes like a thick dark ale. While sipping, one can hear the authentic 'Call of the Beast of Lepidstadt' from somewhere out in the Northern Swamps where the creature still lurks today, waiting for his next victim!"
+    },
+    {
+      "name": "Nutonia, Luxury Spread by Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Nutonia, Luxury Spread by Calvin Carpenter\nSmear refinement in paste-form across the bread of your life. Nutonia is a nut butter made from the sack of the most robust harvest of Taldania-nuts. Taste the nut of a generational-talent."
+    },
+    {
+      "name": "Desert Coffee",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This particularly strong coffee is popular throughout the desert empires. A morning cup is a good cure for lack of rest, but many find that it becomes a habit.\nType ingested; Addiction minor, Fortitude DC 12\n8 hours; user ignores the effects of the fatigued condition.\nAfter 8 hours; the user becomes exhausted, which is reduced to fatigued only after at least 8 hours of rest (instead of 1 hour).\n1 Wis damage"
+    }
+  ]
+}

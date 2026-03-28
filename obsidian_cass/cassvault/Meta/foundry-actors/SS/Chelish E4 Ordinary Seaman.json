@@ -1,0 +1,44 @@
+{
+  "name": "Chelish E4 Ordinary Seaman",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Sailor",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 44
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 11,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Chelish Navy Pattern Heavy Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This finely wrought heavy crossbow is standard issue aboard Chelish naval vessels. Featuring burnished brass fittings, a reinforced steel prod, and a hardwood stock lacquered in crimson and black (the colors of House Thrune), it exemplifies both state pride and battlefield efficiency. Despite lacking magical enhancements, it is a weapon of superior construction, built to endure brutal salt-weathered campaigns and still punch through enemy hulls or pierce a pirate captain's throat at 120 feet."
+    },
+    {
+      "name": "Chelish Service Saber",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Chelish Service Saber is the standard-issue melee weapon for trusted crew aboard Chelish naval vessels—such as boatswains, veteran navigators, and long-serving able seamen. It strikes a balance between form and function: simple enough to mass-produce for the imperial navy, but elegant enough to signal discipline and readiness.\nThis masterwork saber has a slightly curved steel blade, a modest but practical brass guard with minimal engraving, and a sturdy leather-wrapped hilt. While it lacks m"
+    }
+  ]
+}

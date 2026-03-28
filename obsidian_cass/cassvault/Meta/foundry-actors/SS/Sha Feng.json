@@ -1,0 +1,236 @@
+{
+  "name": "Sha Feng",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Hobgoblin",
+  "classes": [
+    {
+      "name": "Brawler (Battle Dancer)",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 64
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 15,
+    "con": 15,
+    "int": 11,
+    "wis": 12,
+    "cha": 8
+  },
+  "items": [
+    {
+      "name": "Tidewater Rock Longbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Tidwater Rock Standard Issue Composite Longbow is a finely crafted masterwork weapon, renowned for its role among the elite guards of the Tidwater Rock coastal fortress. This longbow is expertly designed to harness the strength of its wielder, crafted by skilled artisans from the heart of the Tidwater Rock region. Each bow bears intricate etchings along its shaft, depicting waves and nautical motifs, reflecting its origin. Guardians of the fortress favor these bows for their exquisite balanc"
+    },
+    {
+      "name": "Blood Caimon Hide",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Caimon Hide Armor is Buoyant and it bestows no armor check penalty on Swim checks attempted by the wearer. \nIt's smooth texture allows for smooth movement through water, granting a small swim-skill bonus.  \nIt is slightly lighter than conventional hide armor, and allows for greater dexterity. \nAll other armor check penalties apply as normal."
+    },
+    {
+      "name": "Brow Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town.\n@JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}"
+    },
+    {
+      "name": "Noble's outfit",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These clothes are designed specifically to be expensive and gaudy. Precious metals and gems are worked into the clothing. A would-be noble also needs a signet ring and jewelry (worth at least 100 gp) to accessorize this outfit.\n\nAs this outfit does not cost 10 gp or less, player characters can not choose this outfit for free when first beginning play."
+    },
+    {
+      "name": "Windapede Podbaby",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bullseye Rum",
+      "type": "consumable",
+      "equipped": true,
+      "description": "“It hits you right in the center, just not in a good way.”\nBullseye Rum is the drink of choice for the truly desperate, the miserly, or those who simply value quantity over quality. Its dark amber hue suggests a richness it absolutely does not deliver. The label, featuring a dartboard and the motto \"Bullseye,\" is both an ironic jab at the drink's questionable aftereffects and a promise of its unerring ability to ruin your stomach. Produced by dubious distilleries scattered across the Shackles, i"
+    },
+    {
+      "name": "Tukkaroo Sleeping Bag",
+      "type": "loot",
+      "equipped": true,
+      "description": "Tukkaroo Sleeping Bag (Level 3 Wondrous Item)Price: 1,500 gp\nAura faint transmutation\nSlot —\nCL 3rd\nWeight 7 lbs\nDescriptionThe Tukkaroo Sleeping Bag is a thick, yak-like fur bedroll, crafted from naturally shed tukkar wool and lined with woven seaweed fibers from the shores of Firegrass Island. Enchanted with druidic magic, this bedroll provides unparalleled warmth, resilience, and rejuvenation to those who rest within it.\nWhen a creature sleeps in a Tukkaroo Sleeping Bag for at least 4 hours, "
+    },
+    {
+      "name": "Firegrass Angler",
+      "type": "weapon",
+      "equipped": false,
+      "description": "Level 3 Magic Fishing Pole – “The Firegrass Angler” (Wondrous Item, 2,000 gp)Aura faint transmutation\nSlot —\nCL 3rd\nWeight 5 lbs\nDescriptionThis masterfully crafted fishing rod is carved from driftwood, reinforced with tukkar sinew, and tipped with an obsidian hook said to be from the depths of the volcanic trenches surrounding Firegrass Island. It hums with primal ocean magic, granting the wielder an uncanny ability to lure and reel in fish of all sizes—including sea monsters.\nAbilities:\nMaster"
+    },
+    {
+      "name": "Bullseye Rum",
+      "type": "consumable",
+      "equipped": true,
+      "description": "“It hits you right in the center, just not in a good way.”\nBullseye Rum is the drink of choice for the truly desperate, the miserly, or those who simply value quantity over quality. Its dark amber hue suggests a richness it absolutely does not deliver. The label, featuring a dartboard and the motto \"Bullseye,\" is both an ironic jab at the drink's questionable aftereffects and a promise of its unerring ability to ruin your stomach. Produced by dubious distilleries scattered across the Shackles, i"
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Iron Clutch of the Devil",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Forged in the depths of Egorian from Chelish black iron, this jagged, rune-etched prosthetic arm replaces a lost limb. Once affixed, it bonds painfully to the user over 10 minutes, leaving permanent scorch-marks along the stump. The Clutch radiates faint heat and pulses with infernal energy.\nIf the wearer is proficient in unarmed combat, the arm allows them to deliver blunt, piercing, or slash damage at their discretion and is treated as a +1 magic weapon. The enhancement bonus of this item is u"
+    },
+    {
+      "name": "Rope (Silk, 50 Ft.)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PRPG Core Rulebook pg. 158\nPrice 10 gp; Weight 5 lbs.\nCategory Adventuring Gear\nDescriptionThis rope has 4 hit points and can be burst with a DC 24 Strength check."
+    },
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Plunderpress Merlot",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Pressed with all the care and grace of a pirate’s boot—one sympathizes.\"\nPlunderpress is the Shackles’ answer to a sailor’s thirst: rough, inconsistent, and just barely deserving of the name \"wine.\" Made from a haphazard mix of grapes and other fruits crushed under less-than-ideal conditions (usually boots or crude shipboard presses), it’s a far cry from fine vintages. Yet, for many pirates, it’s better than risking bad water or enduring sobriety on a long voyage.\nEffectsWhile its quality leave"
+    },
+    {
+      "name": "Isle 418 Wildflower Petals",
+      "type": "loot",
+      "equipped": true,
+      "description": "Dried wildflower petals from Isle 418 in Southern Shackles. Said to have hallucinogenic properties."
+    },
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).\nConstructionRequirements Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus; Cost 500 gp"
+    },
+    {
+      "name": "Red Sail Reserve",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Them sails wasn't always red.\"\n\nRed Sails Reserve is a bold, crimson wine known for its sharp, bracing flavor and faint smoky aftertaste, reminiscent of the fiery volcanic soil of Firegrass Island where its grapes are grown. The wine is a staple at Goatshead Port, where the iconic ship Red Courage protects the surrounding waters, ensuring safe trade and keeping smugglers and pirates in check.\nTavern keepers proudly display bottles of Red Sails Reserve, treating them as both a fine drink and a s"
+    },
+    {
+      "name": "Numerian Vibrox",
+      "type": "weapon",
+      "equipped": false,
+      "description": "Said to be made with an ancient, possibly alien technology in Numeria, these blades are non-magical and yet unbelievably sharp and resilient.\nThey strike as adamantine for purposes of bypassing Damage Reduction."
+    },
+    {
+      "name": "Blood Caimon Tacos",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners!\nEnjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes."
+    },
+    {
+      "name": "Harpy Feathers",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Harpy Feathers are prized for their unique magical properties that make them an essential component in the creation of various magic items, particularly those involving transformation and enchantment magics. Harvested from the mystical harpies that dwell in the high cliffs and isolated regions, these feathers possess a shimmering quality and are often threaded through with varying hues of blue and green. Alchemists and enchanters alike seek after these feathers for their ability to augment potio"
+    },
+    {
+      "name": "Bubby-Stone",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Bubby-Stone is a smooth, palm-sized gemstone that glimmers with a faint azure light. Often sought by adventurers exploring the depths of the sea or venturing into airless caverns, the stone is said to be a gift from the elemental lords of air. When held in the mouth, it makes it difficult to speak as the stone constantly emits bubbles of breathable air. With practice, the owner can use this to breathe underwater or in poisonous gas clouds for up to 10 minutes. After use, the stone must be le"
+    },
+    {
+      "name": "Maracas",
+      "type": "loot",
+      "equipped": true,
+      "description": "Known by various names like chac-chac, tamaracas, or shakers, maracas are rattle instruments usually played in pairs. They contain a few pebbles inside and are traditionally covered with the skin of a rare bird called the scarlet ibis. Many believe that the dances accompanied by the maracas can heal the sick."
+    },
+    {
+      "name": "Ear Plugs",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Whispered Courage Whiskey",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Drink the blood of heroes.\"Whispered Courage is aged in barrels made from pines cut from the Stoneheart Massacre Glade.This powerful spirit grants +4 vs fear saves for 1 hour. The bonus is doubled if an ally who also drank the whiskey is threatened within your sight."
+    },
+    {
+      "name": "Necklace of 7 Coins",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Kofusachi's religious symbol is a string of seven coins."
+    },
+    {
+      "name": "Glowing Mushroom",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Outfit, Doctor's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Any creature wearing this outfit gains a +2 circumstance bonus on Fortitude saves made to resist contact diseases.\n\nAs this outfit does not cost 10 gp or less, player characters can not choose this outfit for free when first beginning play."
+    },
+    {
+      "name": "Rolling Sea",
+      "type": "weapon",
+      "equipped": false,
+      "description": "These steel-knuckles are etched with swirling storm clouds and lightning bolts. When worn, they hum faintly with the sound of distant thunder, as though they are perpetually on the edge of a brewing storm.\nThey are +1 magic, and deliver an additional 1d6 sonic damage. Their base damage is 1d4, or the wearer's unarmed damage value if they are a monk or brawler. \nA limited number of times per day, the wearer can deliver an aoe sonic attack by punching the ground with both fists."
+    },
+    {
+      "name": "Liar's Dice Set",
+      "type": "container",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Loa's Dream Sap",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Lo’a’s Dream Sap – A thick, golden sap from an ancient jungle tree that only grows near Lo’a’s nesting grounds. If mixed into a potion, it doubles its duration or potency, but the drinker must make a Wisdom save (DC 14) or fall into a deep, primal sleep filled with visions of prehistoric beasts."
+    },
+    {
+      "name": "Sentinal",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Dwarven Sentinel Hammer is a testament to the resilience and valor of dwarven craftsmanship. Forged in the glowing forges of the stonehold kingdom of Durnheim, this lucerne hammer was wielded by the famed dwarven Justicar, Thurik Stoneguard—a rare breed of paladin bodyguard sworn to defend the innocent and uphold ancestral law. Stoneguard protected the esteemed explorer, Durgan Brighthelm, on countless quests through treacherous caverns and ancient ruins. The weapon’s shaft bears intricate r"
+    },
+    {
+      "name": "Booger",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This prestigious vintage from the Konzdervoltz Estate—nestled in the limestone-rich hills outside Oppara—is known for its absurdly nasal pronunciation, its deeply complex notes of plums, cedar, and crushed violet, and its power to simultaneously elevate conversation and start duels. While outsiders might snicker at the name, among Taldan nobles, a bottle of Booger is a status symbol. No gala, diplomatic gathering, or high-stakes trade negotiation is considered truly respectable unless Booger is "
+    },
+    {
+      "name": "Doctor's outfit",
+      "type": "loot",
+      "equipped": false,
+      "description": "Any creature wearing this outfit gains a +2 circumstance bonus on Fortitude saves made to resist contact diseases."
+    },
+    {
+      "name": "Holy water",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Holy waterSource Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158\nPrice 25 gp; Weight 1 lb.\nCategory Alchemical WeaponsDescriptionHoly water damages undead creatures and evil outsiders almost as if it were acid. A flask of holy water can be thrown as a splash weapon.\n\n Treat this attack as a ranged touch attack with a range increment of 10 feet. A flask breaks if thrown against the body of a corporeal creature, but to use it against an incorporeal creature, you must open the flask and pour"
+    },
+    {
+      "name": "Savage Sustenance",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A cookbook for carnivorous barbarians. This item grants +5 circumstance bonus on cooking checks when used to \"take 10\" or the book is consulted for at least 10 minutes. It also contains a number of famous recipes from all over Ustalav, each slightly improved by the author.\nConquer your hunger with a symphony of carnivorous decadence, forging legends through each ravenous bite, and embracing the primal ecstasy that only the flesh of the slain can provide.\nSavage Sustenance"
+    }
+  ]
+}

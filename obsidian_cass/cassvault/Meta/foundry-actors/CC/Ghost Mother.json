@@ -1,0 +1,25 @@
+{
+  "name": "Ghost Mother",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Undead",
+  "classes": [
+    {
+      "name": "Undead (Incorporeal)",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 30
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 24,
+    "con": 10,
+    "int": 14,
+    "wis": 14,
+    "cha": 24
+  },
+  "items": []
+}

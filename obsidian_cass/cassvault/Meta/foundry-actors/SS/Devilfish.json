@@ -1,0 +1,25 @@
+{
+  "name": "Devilfish",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Magical Beast",
+  "classes": [
+    {
+      "name": "Magical Beast (Aquatic)",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 65
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 17,
+    "con": 16,
+    "int": 3,
+    "wis": 12,
+    "cha": 8
+  },
+  "items": []
+}

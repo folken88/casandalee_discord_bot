@@ -1,0 +1,44 @@
+{
+  "name": "Gearsman 3.0 Riot Suppressor",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Construct",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 113
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 16,
+    "con": 20,
+    "int": 10,
+    "wis": 11,
+    "cha": 1
+  },
+  "items": [
+    {
+      "name": "Riot hammer",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This weapon consists of a wooden haft and a heavy, metal head. The head may be single (like a carpenter’s hammer) or double (like a sledgehammer). The haft is long enough that you may wield it one- or two-handed. Though heavy and relatively slow to wield, warhammers are capable of delivering immense blows, crushing armor and flesh alike."
+    },
+    {
+      "name": "Riot Foam Gun Arm",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Heavy Transparent Aluminum Shield",
+      "type": "equipment",
+      "equipped": true,
+      "description": "You strap a heavy steel shield to your forearm and grip it with your hand. A heavy steel shield is so heavy that you can’t use your shield hand for anything else. Whether wooden or steel, a heavy shield offers the same basic protection and attack benefits, though the two versions respond differently to some spells and effects (such as rusting grasp). A druid can use a heavy wooden shield, but not a heavy steel shield."
+    }
+  ]
+}

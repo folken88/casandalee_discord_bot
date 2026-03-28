@@ -1,0 +1,36 @@
+{
+  "name": "Squib Jim",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Expert",
+      "level": 2
+    },
+    {
+      "name": "Swashbuckler",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 5
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 12,
+    "int": 12,
+    "wis": 10,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This short, curved sword is favored by seafarers for closequarters combat. It is treated as a scimitar for any effects that apply to scimitars."
+    }
+  ]
+}

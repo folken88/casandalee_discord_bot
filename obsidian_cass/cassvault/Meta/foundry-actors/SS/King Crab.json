@@ -1,0 +1,25 @@
+{
+  "name": "King Crab",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Vermin",
+  "classes": [
+    {
+      "name": "Vermin",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 13
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 15,
+    "con": 12,
+    "int": 0,
+    "wis": 10,
+    "cha": 2
+  },
+  "items": []
+}

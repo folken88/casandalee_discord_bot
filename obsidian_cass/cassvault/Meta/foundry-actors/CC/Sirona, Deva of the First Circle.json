@@ -1,0 +1,162 @@
+{
+  "name": "Sirona, Deva of the First Circle",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Angel",
+      "level": 1
+    },
+    {
+      "name": "Paladin",
+      "level": 11
+    }
+  ],
+  "hp": {
+    "max": 46
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 16,
+    "int": 10,
+    "wis": 14,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "40mm Gravity Flip",
+      "type": "loot",
+      "equipped": true,
+      "description": "This device reverses gravity in an area, causing unattached objects and creatures in the area to fall upward and reach the top of the area in 1 round. If a solid object (such as a ceiling) is encountered in this fall, falling objects and creatures strike it in the same manner as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, until the spell ends. At the end of the spell duration, af"
+    },
+    {
+      "name": "Cloak of Resistance +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).\nConstructionRequirements Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus; Cost 8,000 gp"
+    },
+    {
+      "name": "40mm Grenade Launcher",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A partial rebuild with mithral alloy, this ancient weapon fires specially crafted grenades long distances with accuracy."
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "40mm Haunt Siphon 4.0",
+      "type": "loot",
+      "equipped": true,
+      "description": "A custom 40mm grenade with a compacted, yet potent, haunt siphon. Utilizing ancient Ustalavian anti-undead magics and cutting edge Numerian engineering, this shell is guaranteed to absolutely positively blast those ghosties back into the nether realm."
+    },
+    {
+      "name": "Numerian Northgarde Exosuit",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "40mm Gravity Flip",
+      "type": "loot",
+      "equipped": true,
+      "description": "This device reverses gravity in an area, causing unattached objects and creatures in the area to fall upward and reach the top of the area in 1 round. If a solid object (such as a ceiling) is encountered in this fall, falling objects and creatures strike it in the same manner as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, until the spell ends. At the end of the spell duration, af"
+    },
+    {
+      "name": "Separator",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Larger and heavier than a conventional greatsword, this massive weapon strikes as cold-iron, silver, and magic. It allows a competent wielder use of the Cleave feat. \nIf the wielder has the Vital Strike feats, they can use Weapon Trick: 2h Cleaving Smash.\nCleaving Smash (Cleave, Improved Vital Strike, Power Attack): When you use Cleave, you can add the additional damage from Vital Strike to both your initial and your secondary attacks. If you also have the Greater Vital Strike feat, you can inst"
+    },
+    {
+      "name": "40mm Smoke",
+      "type": "loot",
+      "equipped": true,
+      "description": "Filled with pellets that ignite on impact, releasing a thick cloud of smoke."
+    },
+    {
+      "name": "Holy Double Sawed Off",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A heavy weapon that kicks like a mule when fired. Those with less than +4 strength modifier will fall prone after discharging this weapon."
+    },
+    {
+      "name": "Northgarde Captain's Horn",
+      "type": "loot",
+      "equipped": true,
+      "description": "Sounding a horn requires a DC 10 Perform (wind instruments) check and can convey concepts such as \"Attack!\", \"Help!\", \"Advance!\", \"Retreat!\", \"Fire!\", and, \"Alarm!\" The report of a signal horn can be clearly heard (Perception DC 0) up to a half-mile distant. For each quarter-mile beyond, Perception checks to hear the horn suffer a -1 penalty."
+    },
+    {
+      "name": ".357 Northgarde Magnum Special",
+      "type": "loot",
+      "equipped": false,
+      "description": "The .357 Magnum or 9×33mmR (as it is known in unofficial metric designation) is a smokeless powder cartridge with a 0.357 in (9.07 mm) bullet diameter.\nThis particular model is only made in Northgarde, Ustalav and delivers both physical and holy damage to targets."
+    },
+    {
+      "name": "40mm HE",
+      "type": "loot",
+      "equipped": true,
+      "description": "A standard 40mm High Explosive grenade."
+    },
+    {
+      "name": "Amulet of Natural Armor +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet.\nConstructionRequirements Craft Wondrous Item, barkskin, creator's caster level must be at least three times the amulet's bonus; Cost 16,000 gp"
+    },
+    {
+      "name": "40mm Haunt Siphon 5.0",
+      "type": "loot",
+      "equipped": true,
+      "description": "A custom 40mm grenade with a compacted, yet potent, haunt siphon. Utilizing ancient Ustalavian anti-undead magics and cutting edge Numerian engineering, this shell is guaranteed to absolutely positively blast those ghosties back into the nether realm."
+    },
+    {
+      "name": "40mm Blast-Gang",
+      "type": "loot",
+      "equipped": true,
+      "description": "A 40mm High Explosive grenade with a 6, 12, 30, or 60 second timer."
+    },
+    {
+      "name": ".357 Northgarde Magnum Special",
+      "type": "loot",
+      "equipped": false,
+      "description": "The .357 Magnum or 9×33mmR (as it is known in unofficial metric designation) is a smokeless powder cartridge with a 0.357 in (9.07 mm) bullet diameter.\nThis particular model is only made in Northgarde, Ustalav and delivers both physical and holy damage to targets."
+    },
+    {
+      "name": "40mm Haunt Siphon 3.0",
+      "type": "loot",
+      "equipped": true,
+      "description": "A custom 40mm grenade with a compacted, yet potent, haunt siphon. Utilizing ancient Ustalavian anti-undead magics and cutting edge Numerian engineering, this shell is guaranteed to absolutely positively blast those ghosties back into the nether realm."
+    },
+    {
+      "name": "40mm Blast-Gang",
+      "type": "loot",
+      "equipped": true,
+      "description": "A 40mm High Explosive grenade with a 6, 12, 30, or 60 second timer."
+    },
+    {
+      "name": "Ring of Protection +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.\nConstructionRequirements Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring; Cost 16,000 gp"
+    },
+    {
+      "name": "Holy Buckshot",
+      "type": "loot",
+      "equipped": false,
+      "description": "These shells deliver physical, force, and holy damage to targets."
+    },
+    {
+      "name": "40mm Glitterbomb",
+      "type": "loot",
+      "equipped": true,
+      "description": "This 40mm grenade shell encloses a glitter-bomb, which releases the effect of a glitterdust spell on the target area. Center-target receives -2 to their save."
+    }
+  ]
+}

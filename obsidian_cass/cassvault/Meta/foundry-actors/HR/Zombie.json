@@ -1,0 +1,25 @@
+{
+  "name": "Zombie",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Zombie",
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 9
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 10,
+    "con": 0,
+    "int": 0,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": []
+}

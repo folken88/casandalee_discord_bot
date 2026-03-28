@@ -1,0 +1,62 @@
+{
+  "name": "Shackles Navigator",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Seaman",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 10,
+    "int": 14,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Map Bundle: Bloodcove",
+      "type": "equipment",
+      "equipped": false,
+      "description": "These maps are made from high-quality parchment and feature vibrant inks that mark important points of interest. \n\nThis map bundle details the city of Bloodcove, both its geographic location, and a map detailing the city's many canals and docks."
+    },
+    {
+      "name": "Goatshead Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Crafted in the salt-lashed forges and workyards of Goatshead Port, the Goatshead Crossbow is the hallmark weapon of the Goatshead militia and many a freebooter vessel calling the port home. Constructed from brine-hardened coastal timber and strung with twisted gut from mountain goats native to the cliffs above the harbor, each crossbow is a symbol of the region’s defiant spirit and deadly precision.\nThis masterwork light crossbow features a folding stock and limbs, allowing it to collapse into a"
+    },
+    {
+      "name": "Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This short, curved sword is favored by seafarers for closequarters combat. It is treated as a scimitar for any effects that apply to scimitars."
+    },
+    {
+      "name": "Map Bundle: Senghor",
+      "type": "equipment",
+      "equipped": false,
+      "description": "These maps are made from high-quality parchment and feature vibrant inks that mark important points of interest. \n\nThis map bundle details the city of Senghor, both its geographic location, and a map detailing the city's walls and docks."
+    },
+    {
+      "name": "Goatshead Sea-Leathers",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Pirate clothes",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Pirates of the Inner Sea pg. 21\nPrice   1 sp (basic),   30 gp (fancy); Weight 2 lbs. (basic), 6 lbs. (fancy)\nDescriptionPirates can appear in a variety of clothing styles, but most wear a basic outfit consisting of a linen shirt, canvas knee-breeches, cotton stockings, and leather shoes (though some pirates prefer to go barefoot at sea). In addition, well-to-do pirates, particularly pirate captains, often add fancy touches to their outfits, such as colorful jackets of velvet or silk done "
+    }
+  ]
+}

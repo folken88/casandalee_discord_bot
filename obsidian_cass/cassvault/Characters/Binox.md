@@ -1,17 +1,21 @@
 ---
 name: "Binox"
-type: character
-race: "Unknown"
-class: "Unknown"
-level: ?
-
-aliases: []
-tags: ["character"]
-created: ""
-updated: "2026-03-25T16:13:23.532Z"
+type: npc
+campaign: IG
+race: "Race: Construct"
+class: "Construct (Robot) 16"
+hp: 98
+tags: ["character", "npc", "ig"]
+foundry_synced: "2026-03-28"
 ---
 
 # Binox
+
+**Race:** Race: Construct | **Class:** Construct (Robot) 16 | **HP:** 98
+**STR** 22 | **DEX** 26 | **CON** 10 | **INT** 20 | **WIS** 15 | **CHA** 10
+
+## Key Equipment
+- **XM-53 Anti-Tank Missile Launcher** (weapon, equipped) — A portable anti-tank missile launcher.
 
 ## Notes & Updates
 

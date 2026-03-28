@@ -1,0 +1,32 @@
+{
+  "name": "Royal Marine Sergeant",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Gunslinger",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 15
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 11
+  },
+  "items": [
+    {
+      "name": "Musket",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 43, Ultimate Combat pg. 137\n\nStatistics\nCost 1,500 gp Weight 9 lbs.\n\nDamage 1d10 (small), 1d12 (medium); Critical x4; Range 40 ft.; Type B and P; Special -\n\nMisfire 1-2 (5 ft.); Capacity 1\n\nCategory Two-Handed; Proficiency Exotic\n\nDescription\nThis long-barreled firearm has a much greater range than a pistol. A musket uses either a bullet and 1 dose of black powder or a single alchemical cartridge as its ammunition.\n\nThis is an early firearm."
+    }
+  ]
+}

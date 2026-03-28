@@ -1,0 +1,195 @@
+{
+  "name": "Velvet Morning",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Flour, Bag O",
+      "type": "loot",
+      "equipped": true,
+      "description": "For the finest biscuits, cakes and pies."
+    },
+    {
+      "name": "Oil, Cooking",
+      "type": "loot",
+      "equipped": false,
+      "description": "A bottle of cooking oil, made from vegetable extract."
+    },
+    {
+      "name": "Bread, Baguette",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Usable as a blunt-weapon 4 days after baking."
+    },
+    {
+      "name": "Wack Juce",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Refreshingly intoxicating, Wack Juce is made with the finest synthetic oranges in Numeria, and the 3rd finest potato vodka in the world: Smashka Noble!\nEnjoy this sweet and soothing taste of home, you can almost hear the anthem of the Fatherland as you slurp!"
+    },
+    {
+      "name": "Lepidstadt Fog",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Butter",
+      "type": "loot",
+      "equipped": true,
+      "description": "A common cooking fat, adding richness to recipes."
+    },
+    {
+      "name": "Ogre Oats",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A recipe featured in the famous Savage Sustenance Cookbook, Ogre Oats!\nA substantial bowl of steel-cut oats cooked with milk, honey, and a variety of toppings such as nuts, dried fruits, and a dollop of creamy yogurt. A nutritious and energizing start to the day.\nBenefit: Grants Ogre Oats Buff. Consumer is immune to the Fatigued condition for 6 hours."
+    },
+    {
+      "name": "Myceloid Mushroom",
+      "type": "loot",
+      "equipped": true,
+      "description": "A Myceloid mushroom chunk. Chefs should be aware that the Purple Pox disease can still spread from ingesting this item if it is not prepared with care."
+    },
+    {
+      "name": "Berzerker's Hash",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance\nCauses a Rage effect for 1 minute, and may not take effect until combat up to 1 hour after eating.\nA hearty breakfast skillet filled with diced potatoes, onions, bell peppers, and chunks of smoked ham or bacon. Topped with fried eggs and served with a side of freshly baked bread."
+    },
+    {
+      "name": "Scone",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Milk",
+      "type": "loot",
+      "equipped": true,
+      "description": "From a cow or goat, you hope."
+    },
+    {
+      "name": "Cheese",
+      "type": "loot",
+      "equipped": true,
+      "description": "A delectable dairy product, enjoyed as a standalone snack or used for culinary creations."
+    },
+    {
+      "name": "Yogurt Parfait",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Blueberry Pancakes",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Salt",
+      "type": "loot",
+      "equipped": false,
+      "description": "A basic mineral used to enhance the flavor of foods and preserve them.\nSalt is a vital mineral commodity. It is most commonly used as a desiccant and as a catalyst.\nAlchemical Power Component:\nDoses 20 (10 gp); Spells necromancy school\nSpells of the necromancy school are cast at +1 caster level for the purpose of effects."
+    },
+    {
+      "name": "Steel-Cut Oats",
+      "type": "loot",
+      "equipped": true,
+      "description": "Whole oat groats that are cut into smaller pieces, resulting in a hearty and nutritious breakfast option when cooked."
+    },
+    {
+      "name": "Brow Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town.\n@JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}"
+    },
+    {
+      "name": "Barbarian Banana Bread",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, this Barbarian Banana Bread is highly filling and is enough to sustain most any four medium creatures or one large creature for 24 hours."
+    },
+    {
+      "name": "Ground Beef",
+      "type": "loot",
+      "equipped": true,
+      "description": "Not necessarily beef…."
+    },
+    {
+      "name": "Bacon",
+      "type": "loot",
+      "equipped": true,
+      "description": "Likely hog."
+    },
+    {
+      "name": "Desert Coffee",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This particularly strong coffee is popular throughout the desert empires. A morning cup is a good cure for lack of rest, but many find that it becomes a habit.\nType ingested; Addiction minor, Fortitude DC 12\n8 hours; user ignores the effects of the fatigued condition.\nAfter 8 hours; the user becomes exhausted, which is reduced to fatigued only after at least 8 hours of rest (instead of 1 hour).\n1 Wis damage"
+    },
+    {
+      "name": "Bloody Mantis",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, the Bloody Mantis grants Regeneration buff of Fast-Healing-5 for 5 rounds. Effect delays up to 1 hour or until damage is taken.\nA robust and spicy brunch cocktail made with vodka, tomato juice, Worcestershire sauce, and a mix of bold seasonings. Garnished with a celery stalk, crispy bacon, and a pickled vegetable skewer."
+    },
+    {
+      "name": "Abby's Own, Royal Vodka",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Bottled in the historic docks district of Egorian, this fine spirit is rumored to be a favorite of Queen Abrogail II, ruler of Cheliax!\nEnhance yourself, enhance your life, with Abby's Own!"
+    },
+    {
+      "name": "Eggs Caromarc",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Ham, Pork Leg",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Usable as a melee weapon."
+    },
+    {
+      "name": "Sugar",
+      "type": "loot",
+      "equipped": true,
+      "description": "A prized sweetener used in desserts and various dishes, often imported from exotic lands. Borrowable."
+    },
+    {
+      "name": "Avocado Toast",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Egg",
+      "type": "loot",
+      "equipped": true,
+      "description": "Likely chicken or other domestic fowl."
+    },
+    {
+      "name": "Cinnamon",
+      "type": "loot",
+      "equipped": false,
+      "description": "An exotic and highly prized spice with a sweet and warm flavor, often used in desserts and beverages."
+    }
+  ]
+}

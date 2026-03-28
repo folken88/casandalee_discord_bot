@@ -1,0 +1,93 @@
+{
+  "name": "Thragorn's Shop",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Scroll of Restoration",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level Adept 4, Alchemist 4, Cleric 4, Inquisitor 4, Investigator 4, Mesmerist 4, Oracle 4, Paladin 4, Shaman 4, Spiritualist 4, Warpriest 4\n    \n\n  \n  Casting Time 3 Standard Actions\n\n  Components V, S, M (diamond dust worth 100 gp or 1,000 gp, see text)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nThis spell functions like lesser restoration, except"
+    },
+    {
+      "name": "Loa's Dream Sap",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Lo’a’s Dream Sap – A thick, golden sap from an ancient jungle tree that only grows near Lo’a’s nesting grounds. If mixed into a potion, it doubles its duration or potency, but the drinker must make a Wisdom save (DC 14) or fall into a deep, primal sleep filled with visions of prehistoric beasts."
+    },
+    {
+      "name": "Nose Diamond",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Grants Darkvision 60' with light-sensitivity. Inhibits sense of smell, causing immunity to Nausea/Sickening conditions. 1d4 hours. Causes the user to sniff, itch their nose, and talk about crypto at every opportunity."
+    },
+    {
+      "name": "Firegrass Angler",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Level 3 Magic Fishing Pole – “The Firegrass Angler” (Wondrous Item, 2,000 gp)Aura faint transmutation\nSlot —\nCL 3rd\nWeight 5 lbs\nDescriptionThis masterfully crafted fishing rod is carved from driftwood, reinforced with tukkar sinew, and tipped with an obsidian hook said to be from the depths of the volcanic trenches surrounding Firegrass Island. It hums with primal ocean magic, granting the wielder an uncanny ability to lure and reel in fish of all sizes—including sea monsters.\nAbilities:\nMaster"
+    },
+    {
+      "name": "Thunderchonk",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Blue crystals taste bitter when chewed and crunch very loudly. User's voice is amplified to extreme volume. Double range and +2DC for any voice-attacks or spells with Verbal components. +5 for giving speeches. -10 stealth. Lasts 1d3 hours."
+    },
+    {
+      "name": "Sea Snake, by Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Crafted by the renowned perfumer Calvin Carpenter from the luxury brand from Kintargo in the opulent region of Ravounel, Essence of the Irresistible is an exquisite perfume that captivates the senses of both land and sea creatures. The perfume is housed in an elegant crystal vial, its design inspired by the waves of the sea and the gentle curves of rolling hills. The fragrance inside shimmers with a delicate, ocean-blue hue, infused with the rarest ingredients harvested from the coastal waters o"
+    },
+    {
+      "name": "Tukkar Shit",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Grants Expeditious Retreat buff for 4d4 minutes. Leaves a bad taste in the mouth."
+    },
+    {
+      "name": "Tukkar Boots",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Tukkar Boots (Level 3 Wondrous Item)Price: 1,400 gp\nAura faint transmutation\nSlot feet\nCL 3rd\nWeight 3 lbs\nDescriptionCrafted from the dense, shaggy fur of the mighty tukkar, these enchanted boots offer resilience, stability, and an earth-shaking stomp.\nTukkar Boots – These massive, hideous fur-lined boots look like someone skinned an entire tukkar calf and wrapped it around their feet. They are warm, durable, and completely unfashionable.Abilities:Tukkar’s Stomp: The wearer can stomp the ground"
+    },
+    {
+      "name": "Tukkaroo Sleeping Bag",
+      "type": "loot",
+      "equipped": true,
+      "description": "Tukkaroo Sleeping Bag (Level 3 Wondrous Item)Price: 1,500 gp\nAura faint transmutation\nSlot —\nCL 3rd\nWeight 7 lbs\nDescriptionThe Tukkaroo Sleeping Bag is a thick, yak-like fur bedroll, crafted from naturally shed tukkar wool and lined with woven seaweed fibers from the shores of Firegrass Island. Enchanted with druidic magic, this bedroll provides unparalleled warmth, resilience, and rejuvenation to those who rest within it.\nWhen a creature sleeps in a Tukkaroo Sleeping Bag for at least 4 hours, "
+    },
+    {
+      "name": "Lady Tukkar Boots",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Lady Tukkar Boots (Level 3 Wondrous Item)Price: 1,400 gp\nAura faint transmutation\nSlot feet\nCL 3rd\nWeight 3 lbs\nDescriptionCrafted from the dense, shaggy fur of the mighty tukkar, these enchanted boots offer resilience, stability, and an earth-shaking stomp. Despite their effectiveness, Thragorn, a 17-foot-tall forest giant, has no understanding of mortal fashion, leading to two distinct versions:\n\"Lady Tukkar\" Boots – After hearing complaints that his boots were \"not stylish,\" Thragorn attempte"
+    },
+    {
+      "name": "Greenchaw",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Causes user's skin to exude a slimy green glowing substance that provides light & lubrication for 1d6 minutes as Grease & Light 30'."
+    },
+    {
+      "name": "Tukkar Horn",
+      "type": "loot",
+      "equipped": true,
+      "description": "Tukkar Horn of Vitality (Level 2 Wondrous Item)Price: 900 gp\nAura faint transmutation\nSlot —\nCL 2nd\nWeight 2 lbs\nDescriptionCarved from the naturally shed horn of a tukkar, this drinking vessel is reinforced with braided leather bands and etched with primal runes that resonate with life-giving energy. The horn retains the warmth of a living beast, faintly pulsing when filled with a healing potion.\nAny potion stored in the Tukkar Horn of Vitality for at least 1 round gains the following benefits "
+    }
+  ]
+}

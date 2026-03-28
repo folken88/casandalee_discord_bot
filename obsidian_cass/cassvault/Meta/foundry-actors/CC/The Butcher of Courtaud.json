@@ -1,0 +1,48 @@
+{
+  "name": "The Butcher of Courtaud",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Cavalier",
+      "level": 8
+    },
+    {
+      "name": "Genus Loci (Undead)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 32
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 15,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Butchers Blades",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Unfortunate historical artifacts, these axes have murdered more Ustalavian citizens and solders than can be remembered.\n\nThey are enchanted +1 battle axes, and return when thrown by the wielder."
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Guard of the Black Butcher",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for Climb checks and Acrobatics checks made to jump is only –1 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty).\nMithral\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well. "
+    }
+  ]
+}

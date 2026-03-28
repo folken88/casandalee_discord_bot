@@ -1,0 +1,297 @@
+{
+  "name": "Eckart's Armory",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Upgrade Armor: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    },
+    {
+      "name": "Vortch Vengeance",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsCost 20 gp Weight 12 lbs.\nDamage 1d10 (small), 1d12 (medium); Critical x3; Range -; Type S; Special -\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Axes\nDescriptionThis two-handed battle axe is heavy enough that you can't wield it with one hand. The head may have one blade or two, and may be \"bearded\" (meaning hooked or trailing at the bottom) to increase cleaving power and help pull down enemy shields. The haft is u"
+    },
+    {
+      "name": "Upgrade Weapon: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Caromarc Guard Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Deflection AC: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Four-Mirror",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This armor consists of four plates harnessed together with leather shoulder straps. Two round plates protect your front and back, while two smaller rectangular plates cover the sides of the torso. Four-mirror armor is worn over chainmail to provide added protection, and comes with a spiked helmet with a chainmail hood."
+    },
+    {
+      "name": "Upgrade Deflection AC: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Breastplate MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A breastplate protects a wearer’s torso with a single piece of sculpted metal, similar to the core piece of a suit of full plate. Despite its sturdiness, its inflexibility and open back make it inferior to complete suits of metal armor, but still an improvement over most non-metal armors."
+    },
+    {
+      "name": "Alchemist's Lab",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n\r\nThis lab is used for making alchemical items, and provides a +2 circumstance bonus on Craft (alchemy) checks. It has no bearing on the costs related to the Craft (alchemy) skill. Without this lab, a character with the Craft (alchemy) skill is assumed to have enough tools to use the skill but not enough to get the +2 bonus that the lab provides."
+    },
+    {
+      "name": "Parade Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Most wealthy countries with standing armies have a different uniform for use in showy noncombat situations such as parades, coronation ceremonies, and so on. The appearance of this armor varies by the country of origin and the branch of the military, but still provides some protection in case the soldier needs to fight while in parade dress. For example, one country’s parade armor may be a chain shirt, tabard, leather greaves, and a winged helm. If you’re wearing a country’s parade armor, you ga"
+    },
+    {
+      "name": "Cranial Bomb (deactivated) AND GOLD",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 35\nStatisticsSlot head\nInstall DC 25; Implantation 1\nDescriptionA cranial bomb is a bomb implanted at the base of the skull that explodes when remotely activated by a detonator's (see page 43) signal. Though normally implanted, a cranial bomb can also be detonated outside of a body. If detonated while implanted, it deals 2d6 points of bludgeoning damage and 2d6 points of fire damage, and the recipient must succeed at a Fortitude saving throw (DC = 10 + the damage deal"
+    },
+    {
+      "name": "Upgrade Resistance: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Armor: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Haramaki",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Also called a belly-warmer, a haramaki is a simple silken sash lined with chainmail or articulated metal plates and tied about the stomach to protect it."
+    },
+    {
+      "name": "Kikko",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Kikko armor consists of a clever arrangement of hexagonal plates made from iron and sewn to cloth, granting the wearer greater flexibility than that provided by many armors that afford similar defense. The plates may be left exposed or hidden by a layer of cloth."
+    },
+    {
+      "name": "Upgrade Weapon: +1 from Masterwork",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Weapon: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Armor: +1 from Masterwork",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Deflection AC: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "+1 Ghost Touch Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows.\nGhost Touch\nA ghost touch weapon deals damage normally against incorporeal creatures, regardless of its bonus. An incorpor"
+    },
+    {
+      "name": "Longspear",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 5 gp Weight 9 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type P; Special brace, reach\nCategory Two-Handed; Proficiency Simple\nWeapon Groups Spears\nDescriptionA longspear is about 8 feet in length."
+    },
+    {
+      "name": "+2 Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    },
+    {
+      "name": "Upgrade Weapon: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bestplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "\"As stylish as it is protective, this armor was crafted by none other than Eckart's Armory, Lepidstadt.\" - engraving on the interior of the armor."
+    },
+    {
+      "name": "Tatami-Do",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Worn by samurai as a lighter-weight alternative to o-yoroi, tatami-do is a full-body field armor that combines both metal lamellar and kikko components into a suit of mail with a cloth backing. It typically includes a collapsible kabuto helmet or an armored hood, as well as arm, shoulder, and thigh guards."
+    },
+    {
+      "name": "+1 Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Sculpted Godskin",
+      "type": "equipment",
+      "equipped": true,
+      "description": "\"As stylish as it is protective, this armor was crafted by none other than Eckart's Armory, Lepidstadt.\" - engraving on the interior of the armor."
+    },
+    {
+      "name": "Upgrade Resistance: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "+1 O-Yoroi",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Worn almost exclusively by highranking samurai, o-yoroi—or “great armor”—is a heavy combat armor that consists of various supplementary components that include both plate and lamellar elements. Each suit is crafted for a specific individual and displays the owner’s aesthetic. Upon completion, the suit is colored and sealed with a final lacquer finish. The centerpiece of o-yoroi is a cuirass consisting of two parts—a separate reinforcement for the right side called a waidate, and a kikko cuirass."
+    },
+    {
+      "name": "Shuriken",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 33, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 21\n\nStatistics\nCost 1 gp Weight 1/2 lb.\n\nDamage 1 (small), 1d2 (medium); Critical x2; Range 10 ft.; Type P; Special monk\n\nCategory Ranged; Proficiency Exotic\n\nDescription\nA shuriken is a small piece of metal with sharpened edges, designed for throwing. A shuriken can't be used as a melee weapon. Although they are thrown weapons, shuriken are treated as ammunition for the purposes of drawing them and crafting"
+    },
+    {
+      "name": "Upgrade Natural Armor: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "+1 Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    },
+    {
+      "name": "Nethys's Dagger",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Heroes of the Wild pg. 10\nPrice 50 gp; Weight -\nCategory Herbs\nGather DC 18\nTerrain deserts\nDescriptionFound most often in lands heavily modified by magic, this bulbous cactus is topped with twilight-blue flowers. The sap from the cactus can be used as an additive when crafting potions, causing all variable numeric effects of the potion to be determined as if the potion's caster level were 1 higher. When processed into a powder with a successful DC 15 Craft (alchemy) check, Nethys's dagge"
+    },
+    {
+      "name": "Upgrade Armor: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Nodachi",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 19, Ultimate Combat pg. 133\nStatisticsCost 60 gp Weight 8 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 18-20/x2; Range -; Type S or P; Special brace\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy; Polearms\nDescriptionThis very long, two-handed weapon has a slender but wickedly sharp 4-foot-long blade at one end. It is predominantly used by ground troops to attack mounted warriors, and can be used to hack riders from their mounts or set to r"
+    },
+    {
+      "name": "Composite Longbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical x3; Range 110 ft.; Type P\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use it with proficiency). If your Strength modifier is less than the s"
+    },
+    {
+      "name": "Naginata",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 19, Ultimate Combat pg. 133\nStatisticsCost 35 gp Weight 9 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x4; Range -; Type S; Special reach\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Polearms\nDescriptionThe naginata consists of a 6-foot staff affixed to a 2-foot-long, slightly curved, swordlike blade. The shaft is designed to keep the wielder out of reach from swords and shorter weapons."
+    },
+    {
+      "name": "Dragonlance Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Specialized ammo for the Dragonlance Crossbow."
+    },
+    {
+      "name": "Mantrap",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 77, Advanced Player's Guide pg. 184, Adventurer's Armory pg. 19\nPrice 2 gp; Weight 10 lbs.\nCategory Tools\nDescriptionAlthough intended for trapping large animals, bear traps work as well for trapping humanoids or monsters. The hinged jaws of the trap are attached to a chain, which in turn is secured to a spike driven into the ground to ensure that the victim cannot simply crawl away. Prying open the jaws or pulling the spike from the ground requires a DC 20 Strength"
+    },
+    {
+      "name": "Warlord's Brand",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Worn almost exclusively by highranking samurai, o-yoroi—or “great armor”—is a heavy combat armor that consists of various supplementary components that include both plate and lamellar elements. Each suit is crafted for a specific individual and displays the owner’s aesthetic. Upon completion, the suit is colored and sealed with a final lacquer finish. The centerpiece of o-yoroi is a cuirass consisting of two parts—a separate reinforcement for the right side called a waidate, and a kikko cuirass."
+    },
+    {
+      "name": "Sexy Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Rapier",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type P\nWeapon Groups Blades, Light\nDescriptionYou can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn't a light weapon. You can't wield a rapier in two hands in order to apply 1-1/2 times your Strength modifier to its damage."
+    },
+    {
+      "name": "+1 Undead Bane Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows.\nBane\nA bane weapon excels against certain foes. Against a designated foe, the weapon's enhancement bonus is +2 better than"
+    },
+    {
+      "name": "Upgrade Natural Armor: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Matador's Guard",
+      "type": "equipment",
+      "equipped": true,
+      "description": "\"As stylish as it is protective, this armor was crafted by none other than Eckart's Armory, Lepidstadt.\" - engraving on the interior of the armor."
+    }
+  ]
+}

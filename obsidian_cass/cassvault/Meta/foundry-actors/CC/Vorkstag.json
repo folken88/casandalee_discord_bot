@@ -1,0 +1,84 @@
+{
+  "name": "Vorkstag",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Skin Stealer",
+  "classes": [
+    {
+      "name": "Alchemist",
+      "level": 9
+    },
+    {
+      "name": "Fey",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 24
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 12,
+    "int": 16,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Vorkstag's Darksight Draught",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Subject gains Darkvision 60' and Keen Senses, but becomes hyper-paranoid and has difficulty trusting others which causes -4 sense-motive and diplomacy for 4 hours."
+    },
+    {
+      "name": "Vorkstag's Tonbokiri Draft",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Imbiber receives Bull's Strength and Bear's Endurance effects, but must make a will-save to cease combat. If the save fails, they keep melee-attacking whatever target is nearest."
+    },
+    {
+      "name": "Vorkstag's Formula Book",
+      "type": "loot",
+      "equipped": false,
+      "description": "Recipes for many simple potions, and some experimental items that require rare ingredients.\n\nVorkstag's Tonbokiri Draft\nVorkstag's Demon Blood Elixer\nVorkstag's Person Remover\nVorkstag's Darksight Draught\nVorkstag's Getaway Go-Juice"
+    },
+    {
+      "name": "Vorkstag's Demon Blood Elixer",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Heals as a cure-light and also provides an infernal healing effect."
+    },
+    {
+      "name": "Blood Reaper",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Blood Reaper is a Kusarigama of some fame. Once the weapon of a famous monk who traveled across Golarion challenging other warriors to a duel to the death, he was eventually killed via poisoning by one of his students.\nThe weapon still bears some measure of his malice. When used to coup-de-grace a living enemy that has been defeated in a duel, it heals the wielder of 2d8+5 HP."
+    },
+    {
+      "name": "Vorkstag's Person Remover",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This potion turns the imbiber invisible and grants them a pass-without-trace effect for 1 hour. For this hour, the imbiber loses their sense of taste and smell."
+    },
+    {
+      "name": "Vorkstag's Getaway Go-Juice",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This potion uses a combination of Monkey Fish, Spider Climb, and Burrow effects to create the ultimate movement potion buff for 10 minutes.\n\nFor the duration, the imbiber has 2 extra hooved feet, two extra clawed arms that protrude from their mid-section, and two tentacles covered in suction cups. These limbs can only be used for movement."
+    },
+    {
+      "name": "Potion of Endure Elements",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A creature protected by endure elements suffers no harm from being in a hot or cold environment. It can exist comfortably in conditions between -50 and 140 degrees Fahrenheit without having to make Fortitude saves. The creature's equipment is likewise protected.\nEndure elements doesn't provide any protection from fire or cold damage, nor does it protect against other environmental hazards such as smoke, lack of air, and so forth."
+    }
+  ]
+}

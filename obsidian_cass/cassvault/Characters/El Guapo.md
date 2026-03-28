@@ -1,19 +1,23 @@
 ---
 name: "El Guapo"
 type: character
-race: "Unknown"
-class: "Unknown"
-level: ?
-
-aliases: []
-tags: ["character"]
-created: ""
-updated: "2026-03-25T17:07:45.239Z"
+campaign: HV
+race: "Human"
+class: "Swashbuckler 14"
+hp: 48
+tags: ["character", "npc", "hv"]
+foundry_synced: "2026-03-28"
 ---
 
 # El Guapo
 
-**Race:** Unknown | **Class:** Unknown
+**Race:** Human | **Class:** Swashbuckler 14 | **HP:** 48
+**STR** 10 | **DEX** 18 | **CON** 14 | **INT** 10 | **WIS** 10 | **CHA** 16
+
+## Key Equipment
+- **Pirate Captain's Ring** (equipment, equipped) — A dingy golden ring with a skull and crossbones as its sigil. If the wearer is a current or past pirate captain, acts as a circlet of charisma +4.
+- **Slippery Chain** (equipment, equipped) — Covering the torso, this shirt is made up of thousands of interlocking metal rings.
+- **Mithril Scimitar +2** (weapon, equipped) — You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn’t a light weapon. You can’t wield a rapier in two hands in order to apply 1-1/2 times your Strength bonus to damage.
 
 ## Notes & Updates
 

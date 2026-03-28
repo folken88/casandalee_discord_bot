@@ -1,0 +1,68 @@
+{
+  "name": "Black Sovereign War Poetess",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Skald",
+      "level": 14
+    }
+  ],
+  "hp": {
+    "max": 36
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 14,
+    "int": 12,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Book Of War Prayers",
+      "type": "loot",
+      "equipped": true,
+      "description": "Book of War Prayers This small, leather-bound collection of war prayers features pages of fine vellum. If you have a Charisma of 13 or higher, or at least 1 rank in Perform, you can read aloud prayers from the book before battle to hearten others for the trials to come. Reading prayers for this effect takes 5 minutes. \n\nThe first time this is done in a given day, the readers next  @Compendium[pf1.spells.wa0zb2pncesmm9lz]{Bless} spell has its duration increased to 1hr/level, bonus doubled to +2, "
+    },
+    {
+      "name": "Numerian Compact Bow",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Falcata",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Ravenous Urchin Swarm",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Vermin",
+  "classes": [
+    {
+      "name": "Vermin",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 32
+  },
+  "abilities": {
+    "str": 1,
+    "dex": 13,
+    "con": 10,
+    "int": 0,
+    "wis": 13,
+    "cha": 9
+  },
+  "items": []
+}

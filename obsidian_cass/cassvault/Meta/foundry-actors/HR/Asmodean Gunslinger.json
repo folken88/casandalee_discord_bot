@@ -1,0 +1,48 @@
+{
+  "name": "Asmodean Gunslinger",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Inquisitor",
+      "level": 5
+    },
+    {
+      "name": "Gunslinger",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 79
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 14,
+    "int": 11,
+    "wis": 16,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Dagger MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A dagger has a blade that is about 1 foot in length.\n\nBenefit: You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body (see Using Skills)."
+    },
+    {
+      "name": "Musket Pistol MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Chain Shirt MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Troll",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Troll",
+  "classes": [
+    {
+      "name": "Humanoid",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 33
+  },
+  "abilities": {
+    "str": 21,
+    "dex": 14,
+    "con": 23,
+    "int": 6,
+    "wis": 9,
+    "cha": 6
+  },
+  "items": []
+}

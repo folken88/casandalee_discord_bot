@@ -1,0 +1,25 @@
+{
+  "name": "Brinetooth Leviathan",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Magical Beast",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 50
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 20,
+    "con": 20,
+    "int": 5,
+    "wis": 12,
+    "cha": 8
+  },
+  "items": []
+}

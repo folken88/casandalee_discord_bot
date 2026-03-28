@@ -1,0 +1,458 @@
+{
+  "name": "Dinvaya",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Aasimar",
+  "classes": [
+    {
+      "name": "Cleric",
+      "level": 11
+    }
+  ],
+  "hp": {
+    "max": 43
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 18,
+    "cha": 13
+  },
+  "items": [
+    {
+      "name": "Scroll of Sanctify Corpse",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell blesses a corpse with positive energy, preventing it from being turned into an undead creature. Attempts to raise the corpse as an undead automatically fail. If the corpse is of a person slain by a creature that creates undead out of its slain foes (such as a shadow, vampire, or wraith), that is delayed until the end of this spell. It is possible to protect a corpse for an extended time by casting this spell each day.\nSanctify corpse can be made permanent with a permanency spell by a "
+    },
+    {
+      "name": "Numerian Slick Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "High tech armor that is also an ancient construction. Few smithies on Golarion can repair or modify it. Offers protection against both physical and touch attacks."
+    },
+    {
+      "name": "Tyrant's Band",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring, forged from black steel and set with six deep emerald gems, exudes a sense of dark purpose and power. The centerpiece is a skull, its mouth gagged—an emblem reflecting the cult's reverence for silence and secrets, and their goal of serving the Whispering Tyrant, Tar-Baphon, the former ruler of Ustalav. Each gem could be said to represent an aspect of the Tyrant's power, and the gagged skull symbolizes the silence under which these powers must be reassembled.\nBase Ability: As a Ring of"
+    },
+    {
+      "name": "Scroll of Bear's Endurance",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level sorcerer 2, wizard 2, cleric 2, oracle 2, druid 2, ranger 2, alchemist 2, summoner 2, magus 2, adept 2, bloodrager 2, shaman 2, psychic 2, medium 2, hunter 2, unchained Summoner 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M/DF (a few hairs, or a pinch of dung, from a bear)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration 1 min./level\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nThe affected creature g"
+    },
+    {
+      "name": "Scroll of Raise Kai",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You restore life to a deceased creature. You can raise a creature that has been dead for no longer than 1 day per caster level. In addition, the subject's soul must be free and willing to return.\nIf the subject's soul is not willing to return, the spell does not work; therefore, a subject that wants to return receives no saving throw.\nComing back from the dead is an ordeal. The subject of the spell gains two permanent negative levels when it is raised, just as if it had been hit by an energy-dra"
+    },
+    {
+      "name": "Scroll of Restoration, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Lesser restoration dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain."
+    },
+    {
+      "name": "Blood Caimon Tacos",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners!\nEnjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes."
+    },
+    {
+      "name": "Scroll of Infernal Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Diadem of Devotion",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A plain silver circlet. On the outer-facing ring in beautiful Taldane calligraphy:Where loss and love intertwineTrue enlightenment we find.On the inner ring, scratched in a crude scrawl with a sharp blade after the item had seen years of use:I will never get over you.\n\nThis plain looking silver circlet radiates no magic or alignment auras until it is placed upon the head of a good-aligned positive channeler.\nIt then begins to glow and floats off their head, expanding into a bright ring of light "
+    },
+    {
+      "name": "Scroll of Protection from Evil",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.\nFirst, the subject gains a +2 deflection bonus to AC and a +2 resistance bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures.\nSecond, the subject immediately receives another saving throw (if one was allowe"
+    },
+    {
+      "name": "Wand of Dimensional Anchor",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Abjuration; Level Sorcerer 4, Wizard 4, Cleric 4, Oracle 4, Summoner 3, Inquisitor 3, Psychic 4, Medium 3, Occultist 4, Spiritualist 4, Summoner (Unchained) 4; Subdomain Wards 4\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range 170 ft\n\n  \n  \n  Effect ray\n\n  Duration 1 min./level\n\n    Saving Throw None;\n    Spell Resistance yes\n    \n\n  \n\nA green ray springs from your hand. You must make a ranged touch attack to hit the target. Any creature or object struck by the ray is"
+    },
+    {
+      "name": "Worn Shield of the Shining Crusade",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A heavy wooden shield is essentially the same as a heavy steel shield, except that it responds differently to some spells and effects (such as rusting grasp). A druid can use a heavy wooden shield, but not a heavy steel shield."
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Grape Tongue",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dyes the user's tongue bright purple, usually spreading to the lips and area around the mouth as it causes excessive licking and smacking. Whatever the user says is heard as incoherent babbling, but the user is granted +8 to save vs mind-affecting attacks with somatic components for 1d8 minutes."
+    },
+    {
+      "name": "Torch City Roller",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Wand of Celestial Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Daylight",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You touch an object when you cast this spell, causing the object to shed bright light in a 60-foot radius. This illumination increases the light level for an additional 60 feet by one step (darkness becomes dim light, dim light becomes normal light, and normal light becomes bright light). Creatures that take penalties in bright light take them while within the 60-foot radius of this magical light. Despite its name, this spell is not the equivalent of daylight for the purposes of creatures that a"
+    },
+    {
+      "name": "Spyglass",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1000 gp; Weight 1 lb.\n\nObjects viewed through a spyglass are magnified to twice their size. Characters using a spyglass take a -1 penalty on Perception skill checks per 20 feet of distance to the target, if the target is visible."
+    },
+    {
+      "name": "Potion of Remove Disease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove disease can cure all diseases from which the subject is suffering. You must make a caster level check (1d20 + caster level) against the DC of each disease affecting the target. Success means that the disease is cured. The spell also kills some hazards and parasites, including green slime and others.\nSince the spell's duration is instantaneous, it does not prevent reinfection after a new exposure to the same disease at a later date."
+    },
+    {
+      "name": "Scroll of Tongues, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Divination; Level sorcerer 4, wizard 4, cleric 5, oracle 5, bard 3, alchemist 4, summoner 4, witch 4, psychic 4, mesmerist 3, unchained Summoner 4\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, M/DF (a clay model of a ziggurat)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creatures touched\n\n  \n  Duration 10 min./level\n\n    Saving Throw Will negates;\n    Spell Resistance no; Harmless yes\n    \n\n  \n\nThis spell functions like tongues, except you divide the duration in 10-minute intervals among th"
+    },
+    {
+      "name": "Silverdisc",
+      "type": "loot",
+      "equipped": true,
+      "description": "Most Numerian technological items are powered by electricity. While one can use the electricity provided by a generator, these are rare, expensive, and rarely portable. It's more common and practical to charge such items with batteries. A battery looks like a small silver disk that's etched with strange lines-the people of Numeria have taken to calling batteries \"silverdisks\" and sometimes use them as coins. A battery contains 10 charges when full; to charge an item with a battery, one simply sl"
+    },
+    {
+      "name": "Cloak of Resistance +3",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Wand of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Bronze War Medal",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This war medallion bears the sigil of the Shining Crusade."
+    },
+    {
+      "name": "Winterhold  Student's Satchel",
+      "type": "container",
+      "equipped": true,
+      "description": "Part of the Carriers by Calvin line of luxury containers, this finely crafted leather satchel has runework hidden in its stitching.\nThis dimensional pocket magically stores up to 100 cubic feet of items, and reduces their material-plane-weight by 88%."
+    },
+    {
+      "name": "Scroll of Heroism",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell imbues a single creature with great bravery and morale in battle. The target gains a +2 morale bonus on attack rolls, saves, and skill checks."
+    },
+    {
+      "name": "Scroll of Align Weapon",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Hell's Hot Cocoa",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Ring of Truth",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Deceptively pleasant-looking, a ring of truth bears images of childlike angels and broadly smiling divine creatures holding onto links of a heavy chain. The wearer of this cursed ring is rendered unable to tell a deliberate lie, in either speech or writing. The wearer may simply omit the truth or choose not to communicate, but even then must succeed at a DC 20 Will saving throw to avoid answering a direct question truthfully. The wearer cannot remove the ring unless the magic of the curse is neg"
+    },
+    {
+      "name": "Scroll of Protection from Evil, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like Protection from Evil, except you divide the duration in 1-minute intervals among the creatures touched."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Everburning Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 56, PRPG Core Rulebook pg. 158\nPrice 110 gp; Weight 1 lb.\nCategory Adventuring Gear\nDescriptionThis otherwise normal torch has a continual flame spell cast on it. This causes it to shed light like an ordinary torch, but it does not emit heat or deal fire damage if used as a weapon."
+    },
+    {
+      "name": "Belt of Mighty Constitution & Muleback Cords",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Valkyrie Berry Crumble",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, this delicious dessert can be shared by up to 4 medium creatures.\nA warm and bubbling berry filling topped with a buttery crumble made with oats, flour, brown sugar, and spices. Served with a scoop of vanilla ice cream or a dollop of whipped cream.\nBenefit: The smell of this delicacy while baking provides a Flesh to Stone effect with +4 morale bonus on the save. Up to 4 consumers of this dessert receive Truespeech for 4 hours (as Tongues)."
+    },
+    {
+      "name": "Shudderwood Jons",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These flexible short-pants are divinely crafted out of the finest woven jean. They are so unimaginably comfortable that when worn under armor, they reduce the check penalty by 1. \nIf worn by a shapeshifter, they stretch and adapt to any size of bipedal form."
+    },
+    {
+      "name": "Meyandas Scream Box",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Remove Curse",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove curse can remove all curses on an object or a creature. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each curse affecting the target.\nSuccess means that the curse is removed. Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although a successful caster level check enables the creature afflicted with any such cursed item to remove and get rid of it.\nRemove curse counters and dispels bestow curs"
+    },
+    {
+      "name": "Polytool of Brigh",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This item can function as a wide variety of tools and as several types of weapons. With a knowledge-engineering check of DC10, it changes as a swift action. Otherwise it takes a full-round action and an intelligence check DC8.\nThe device can be used as thieves tools and to assist in any operation that requires basic tools. It can even function as a basic set of blacksmithing tools."
+    },
+    {
+      "name": "Scroll of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Chalk",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 56, PRPG Core Rulebook pg. 158\nPrice 1 cp; Weight -\nCategory Adventuring Gear\nDescriptionThis fat piece of white chalk easily marks wood, metal, or stone. You can write with it for about 24 hours before it is expended. Chalk also comes in other colors, but these are rarer and can be more expensive."
+    },
+    {
+      "name": "Destabilizer",
+      "type": "weapon",
+      "equipped": false,
+      "description": "This mithral heavy mace is formed into upheld hands made of hardened steel yet plated with gold. It shines brightly and does not stay tarnished after a battle (persistent prestidigitate).\nOnce wielded by the legendary Hamdad the Defiant, it was said by his fellow Shining Crusaders that fighting near Hamdad was as dangerous as being his enemy while he carried this weapon."
+    },
+    {
+      "name": "Blue Summer",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Crafted from a rich blue fabric, this cloak glimmers like the ocean under a bright summer sky.\nPowers:\nAquatic Affinity: Grants a +5 competence bonus to Swim checks. Always dry and clean.Sun's Blessing: Provides resistance 15 to fire damage.History: Breeze Underhill, the party's bard, wore this cloak, drawing inspiration from the summer's warmth and the sea's freedom."
+    },
+    {
+      "name": "Scroll of Invisibility Purge",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Evocation; Level Cleric 3, Oracle 3, Inquisitor 3, Occultist 3, Spiritualist 3\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 1 min./level\n\n  \n\nYou surround yourself with a sphere of power with a radius of 5 feet per caster level that negates all forms of invisibility.\nAnything invisible becomes visible while in the area."
+    },
+    {
+      "name": "Wand of Restoration, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Lesser restoration dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain."
+    },
+    {
+      "name": "Commset 1m",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a built-in camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile—beyond this range, communication is impossible without enhancing the signal strength with a signal booster. The price and cost listed for this item are for a"
+    },
+    {
+      "name": "Scroll of Dispel Evil",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Shimmering, white holy energy surrounds you. This energy has three effects.\nFirst, you gain a +4 deflection bonus to AC against attacks by evil creatures.\nSecond, on making a successful melee touch attack against an evil creature from another plane, you can choose to drive that creature back to its home plane. The creature can negate the effects with a successful Will save (spell resistance applies). This use discharges and ends the spell.\nThird, with a touch you can automatically dispel any one"
+    },
+    {
+      "name": "Ustalav Marshal Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Wayfinder",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Acts as a 3rd level Pearl of Power and is a functional compass, always pointing North. \n \nDescriptionOnce per day on command, this item functions as a pearl of power, restoring a spent spell slot of 2nd level or lower."
+    },
+    {
+      "name": "Scroll of Neutralize Poison",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You detoxify any sort of venom in the creature or object touched. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each poison affecting the target. Success means that the poison is neutralized. A cured creature suffers no additional effects from the poison, and any temporary effects are ended, but the spell does not reverse instantaneous effects, such as hit point damage, temporary ability damage, or effects that don't go away on their own."
+    },
+    {
+      "name": "Dorcroast",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dorcroast, the invigorating cold brew coffee inspired by the triumph over darkness in Ustalav, awakens your senses with a bittersweet symphony. With a delightful spritz of energy, Dorcroast revitalizes your day, infusing it with the indomitable spirit that arises from the genocide of one's enemies. This remarkable brew serves as a tribute to the resilience of those who stood against evil, reminding you that even in the face of adversity, there is always room for celebration and the promise of a "
+    },
+    {
+      "name": "Scroll of Magic Circle against Evil",
+      "type": "consumable",
+      "equipped": true,
+      "description": "All creatures within the area gain the effects of a Protection from Evil spell, and evil summoned creatures cannot enter the area either. Creatures in the area, or who later enter the area, receive only one attempt to suppress effects that are controlling them.\nIf successful, such effects are suppressed as long as they remain in the area. Creatures that leave the area and come back are not protected. You must overcome a creature's spell resistance in order to keep it at bay (as in the third func"
+    },
+    {
+      "name": "Butcher's Brand",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Forged in the final years of the Demonskin Wars, this cold iron sword is imbued with frost magic specifically to harm demonic invaders. The blade now pulses with icy energy, dealing an additional 1d6 cold damage. The sword warns the wielder of approaching demonic presence, subtly vibrating in their hand. This weapon once belonged to a commander who fell in defense of Northgarde's walls."
+    },
+    {
+      "name": "Scroll of Dimensional Anchor",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A green ray springs from your hand. You must make a ranged touch attack to hit the target. Any creature or object struck by the ray is covered with a shimmering emerald field that completely blocks extradimensional travel. Forms of movement barred by a dimensional anchor include astral projection, blink, dimension door, ethereal jaunt, etherealness, gate, maze, plane shift, shadow walk, teleport, and similar spell-like abilities. The spell also prevents the use of a gate or teleportation circle "
+    },
+    {
+      "name": "Scroll of Freedom of Movement",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Abjuration; Level Cleric 4, Oracle 4, Druid 4, Ranger 4, Bard 4, Alchemist 4, Inquisitor 4, Psychic 4, Medium 4, Mesmerist 4, Occultist 4, Spiritualist 4, Hunter 4; Domain Liberation 4, Luck 4; Subdomain Flowing 4; Bloodline Destined 4\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M (a leather strip bound to the target), DF\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you or creature touched\n\n  \n  Duration 10 min./level\n\n  \n\nThis spell enables you or a creature you touch to move and at"
+    },
+    {
+      "name": "Scroll of Breath of Life",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level Cleric 5, Oracle 5, Shaman 5, Spiritualist 5, Warpriest 5; Domain Healing 5\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw Will negates or Will half, see text;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nThis spell cures 5d8 points of damage + 1 point per caster level (maximum +25).\nUnlike other spells that heal damage, Breath of Life can bring recen"
+    },
+    {
+      "name": "READ ME NOW: Journal of Petros Lorrimor",
+      "type": "loot",
+      "equipped": true,
+      "description": "Ten Years Ago:\nThe Whispering Way is more than just a cabal of necromancers. I see that now. Undeath is their fountain of youth. Uncovering their motivation does not place me at ease as I thought it might. Their desire to be eternal simply makes them more dangerous.\n\n \n\nTwo Months Ago:\nIt is as I had feared. The Way is interested in something here in Ravengro. But what could it be?\n\n \n\nOne Month Ago:\nWhatever the Way seeks, I am now convinced their goal is connected to Harrowstone. In retrospect"
+    },
+    {
+      "name": "Scroll of Shield of Faith",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Abjuration; Level cleric 1, oracle 1, inquisitor 1; Domain Glory 1; Subdomain Agathion 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M (parchment with a holy text written on it)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration 1 min./level\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nThis spell creates a shimmering, magical field around the target that averts and deflects attacks. The spell grants the subject a +2 deflectio"
+    },
+    {
+      "name": "Tindertwig",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Alchemy Manual pg. 30, Ultimate Equipment pg. 103, PRPG Core Rulebook pg. 158\nPrice 1 gp; Weight -\nCategory Alchemical Tools\nDescriptionThe alchemical substance on the end of this small, wooden stick ignites when struck against a rough surface (a move action). Creating a flame with a tindertwig is much faster than creating a flame with tinder and a flint and steel or magnifying glass. Lighting a torch with a tindertwig is a standard action rather than a full-round action, and lighting any"
+    },
+    {
+      "name": "Foundrystein",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This copper-steel beer stein perfectly seals and preserves any liquid stored within it. At its tavern of origin, the Foundry Tavern in Torch of Numeria, these can be quickly refilled with a strange device unique to that location. This \"Tap\" as it is called, fills the stein with ice cold Cayden-Brew, imported from the distant South."
+    },
+    {
+      "name": "Haunt Siphon 2.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": "These glass vials are held within stylized cold-iron casings etched with strange runes, necromantic designs, or other eldritch markings. Within the vial roils a small wisp of white vapor, churning as if caught in a miniature vortex of air. To capture a haunt&rsquo;s energies within a haunt siphon, you need only twist the metal casing to open the vial in the same round that the haunt manifests (a standard action)&mdash;this can be before or after the haunt has acted. You must be within the haunt&"
+    },
+    {
+      "name": "Scroll of Cure Critical Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level cleric 4, oracle 4, druid 5, bard 4, alchemist 4, witch 5, inquisitor 4, adept 4, shaman 4, occultist 4, spiritualist 4, hunter 5; Domain Healing 4\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw Will half ; see text;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nThis spell functions like cure light wounds, except that it cures 4d8 points of damage + 1 "
+    },
+    {
+      "name": "Haunt Siphon 3.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": "These glass vials are held within stylized cold-iron casings etched with strange runes, necromantic designs, or other eldritch markings. Within the vial roils a small wisp of white vapor, churning as if caught in a miniature vortex of air. To capture a haunt’s energies within a haunt siphon, you need only twist the metal casing to open the vial in the same round that the haunt manifests (a standard action)—this can be before or after the haunt has acted. You must be within the haunt’s area of in"
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Pipebomb 2.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Dismissal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Abjuration; Level arcanist 5, cleric 4, inquisitor 4, medium 4, occultist 4, oracle 4, psychic 5, shaman 4, sorcerer 5, spiritualist 5, summoner 4, summonerUnchained 5, warpriest 4, wizard 5; Bloodline Abyssal 5\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, DF\n\n  \n\n  \n  Range 40 ft\n\n  \n  Targets one extraplanar creature\n\n  \n  Duration Instantaneous\n\n    Saving Throw Will negates; see text;\n    Spell Resistance yes\n    \n\n  \n\nThis spell forces an extraplanar creature back to its pr"
+    },
+    {
+      "name": "Scroll of Hallow",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Hallow makes a particular site, building, or structure a holy site.\nThis has four major effects.\nFirst, the site is warded by a magic circle against evil effect.\nSecond, the DC to resist positive channeled energy within this area gains a +4 sacred bonus and the DC to resist negative energy is reduced by 4. Spell resistance does not apply to this effect. This provision does not apply to the druid version of the spell.\nThird, any dead body interred in a hallowed site cannot be turned into an undea"
+    },
+    {
+      "name": "Scroll of Dispel Magic",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can use dispel magic to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by dispel magic. Dispel magic can dispel (but not counter) spell-like effects just as it does spells. The of a spell with an instantaneous duration can't be dispelled, because the"
+    },
+    {
+      "name": "That Will Buff Out",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The author's note and dedication reads only:\n\"God Dammit\"\nA book on various engineering principles with supporting data & tables. This item grants +5 circumstance bonus on knowledge engineering checks when used to \"take 10\" or the book is consulted for at least 10 minutes.\nOnce per day, the item can be turned to a specific page and it will deploy a full set of tools for blacksmithing and engineering, complete with a retractable table to work on, and small forge that can smelt anything up to mith"
+    },
+    {
+      "name": "God Complex",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A book on various principles with supporting data & tables. This item grants +5 circumstance bonus on heal checks when used to \"take 10\" or the book is consulted for at least 10 minutes.\nThis book has a number of potent healing scrolls in its later pages, and many more pages have been torn out over the years."
+    },
+    {
+      "name": "Candle",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 56, PRPG Core Rulebook pg. 158\nPrice 1 cp; Weight -\nCategory Adventuring Gear\nDescriptionA candle dimly illuminates a small area, increasing the light level in a 5-foot radius by one step (darkness becomes dim light and dim light becomes normal light). A candle cannot increase the light level above normal light. A candle burns for 1 hour."
+    },
+    {
+      "name": "Wand of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    }
+  ]
+}

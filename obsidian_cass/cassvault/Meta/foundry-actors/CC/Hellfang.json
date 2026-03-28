@@ -1,0 +1,32 @@
+{
+  "name": "Hellfang",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Skinwalker",
+  "classes": [
+    {
+      "name": "Bloodrager",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 28
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Demon Skin Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for Climb checks and Acrobatics checks made to jump is only –1 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty).\nEel Hide\n\nThis supple material offers as much protection as leather, but is more flexible and resistant to electricity. Leather, hide, or studded leather armor can be produced with eel hide. The armor"
+    }
+  ]
+}

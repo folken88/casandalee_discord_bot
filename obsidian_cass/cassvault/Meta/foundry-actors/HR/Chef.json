@@ -1,0 +1,226 @@
+{
+  "name": "Chef",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Gunslinger",
+      "level": 1
+    },
+    {
+      "name": "Expert",
+      "level": 3
+    },
+    {
+      "name": "Barbarian",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 70
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 16,
+    "int": 16,
+    "wis": 18,
+    "cha": 20
+  },
+  "items": [
+    {
+      "name": "40mm Lubestorm",
+      "type": "loot",
+      "equipped": true,
+      "description": "This grenade releases a thick gel that coats everything it touches in a 10' radius for 10 rounds. This functions as a Grease spell, granting +10 on escape artist checks and causing bipeds to fall down."
+    },
+    {
+      "name": "40mm Gravity Flip",
+      "type": "loot",
+      "equipped": true,
+      "description": "This device reverses gravity in an area, causing unattached objects and creatures in the area to fall upward and reach the top of the area in 1 round. If a solid object (such as a ceiling) is encountered in this fall, falling objects and creatures strike it in the same manner as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, until the spell ends. At the end of the spell duration, af"
+    },
+    {
+      "name": "Challenge of the Herald",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This Shining Crusade era artifact is legendary amongst the Iomedaean and Sarenite paladin legions. It was worn by many champions during their long campaign against the tyrant. Each time the wearer was killed, it was picked up by their allies and worn to symbolize the Crusade's tireless pursuit of victory at any cost. The last to wear it was a mortal Iomedae, but she set it aside when she left for Absalom to take the test of the Starstone.\n\nThe helmets constant granted powers are:\nDarkvision 60'\n"
+    },
+    {
+      "name": "Broken Sword Hilt",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A broken sword, shattered just above the guard."
+    },
+    {
+      "name": "Blondie's Poncho",
+      "type": "loot",
+      "equipped": true,
+      "description": "Couple steps back."
+    },
+    {
+      "name": "Northgarde Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "40mm Blast-Gang",
+      "type": "loot",
+      "equipped": true,
+      "description": "A 40mm High Explosive grenade with a 6, 12, 30, or 60 second timer."
+    },
+    {
+      "name": "40mm Haunt Siphon 4.0",
+      "type": "loot",
+      "equipped": true,
+      "description": "A custom 40mm grenade with a compacted, yet potent, haunt siphon. Utilizing ancient Ustalavian anti-undead magics and cutting edge Numerian engineering, this shell is guaranteed to absolutely positively blast those ghosties back into the nether realm."
+    },
+    {
+      "name": "Wraithguard Cloak",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This cloak, once worn by a veteran of the Shining Crusade, now grants enhanced resistance against deathly magic. In addition to providing +3 to all saving throws, the mantle can activate a death ward effect once per day, granting the wearer temporary immunity to death effects, negative energy, and energy drain for 9 minutes. This ancient relic was lost during a doomed stand against Tar-Baphon's undead legions.\nDeath Ward:\nThe subject gains a +4 morale bonus on saves against all death spells and "
+    },
+    {
+      "name": "Whispered Courage Whiskey",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Drink the blood of heroes.\"Whispered Courage is aged in barrels made from pines cut from the Stoneheart Massacre Glade.This powerful spirit grants +4 vs fear saves for 1 hour. The bonus is doubled if an ally who also drank the whiskey is threatened within your sight."
+    },
+    {
+      "name": "Broken Sword w 4 shards",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This blade bears the old symbol of Pharasma that has not been used by her followers since the Shining Crusade. The blade is snapped off just above the guard despite the weapons superior construction. It radiates powerful necromantic magic.\nHandle: +1 Dagger 1d4 19/2\n1 Shard: +2 Short Sword Undead Bane 1d6 19/2\n2 Shards: Keen, Ghost Touch 1d6 17/2\n3 Shards: +3, Dispelling Strike 1d8 17/2\n4 Shards: +4, Defiant, 1d10 17/2"
+    },
+    {
+      "name": "Void Vortex",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Silverdisc",
+      "type": "loot",
+      "equipped": true,
+      "description": "Most Numerian technological items are powered by electricity. While one can use the electricity provided by a generator, these are rare, expensive, and rarely portable. It's more common and practical to charge such items with batteries. A battery looks like a small silver disk that's etched with strange lines-the people of Numeria have taken to calling batteries \"silverdisks\" and sometimes use them as coins. A battery contains 10 charges when full; to charge an item with a battery, one simply sl"
+    },
+    {
+      "name": "Butcher's Brand",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Forged in the final years of the Demonskin Wars, this cold iron sword is imbued with frost magic specifically to harm demonic invaders. The blade now pulses with icy energy, dealing an additional 1d6 cold damage. The sword warns the wielder of approaching demonic presence, subtly vibrating in their hand. This weapon once belonged to a commander who fell in defense of Northgarde's walls."
+    },
+    {
+      "name": "Kings and Tyrants",
+      "type": "loot",
+      "equipped": false,
+      "description": "Concept: In the grim and gothic land of Ustalav, a game of power and intrigue unfolds where the noble families typically dominate, but the lurking shadow of the Whispering Tyrant ensures that victory is never certain.\nGame Objective: Accumulate wealth and influence to become the most powerful noble house in Ustalav. However, beware the Whispering Tyrant tile, for landing on it results in everyone's downfall.\nGame Components:Game Board:\nDivided into regions representing the counties of Ustalav.Sp"
+    },
+    {
+      "name": "Arrow of the Crusader",
+      "type": "loot",
+      "equipped": false,
+      "description": "Inscription written in flowing Taldane script down the shaft reads: \"Nothing will divert me from my purpose.\"\n\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\nUndead Bane\nA bane weapon excels against certain foes. Against a designated foe, the weapon's enhancement bonus is +2 better than its actual bonus. It also deals an extra 2d6 points of damage against such foes. To randoml"
+    },
+    {
+      "name": "Broken Sword w 1 Shard",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "OBS Drone",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bouncing Rod, Lesser Metamagic",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Alters a spell of 3rd level or lower as per the feat:\nBouncing Spell"
+    },
+    {
+      "name": "Scroll of Reverse Gravity",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level arcanist 7, druid 8, psychic 7, sorcerer 7, wizard 7; Domain Void 7; Bloodline Starsoul 7\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M/DF (lodestone and iron filings)\n\n  \n\n  \n  Range 230 ft\n\n  Area up to one 10-ft. cube/level (S)\n\n  \n  \n  Duration 1 round/level\n\n    Saving Throw none; see text;\n    Spell Resistance no\n    \n\n  \n\nThis spell reverses gravity in an area, causing unattached objects and creatures in the area to fall upward and reach the top of t"
+    },
+    {
+      "name": "The Reach",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Reach is a legendary weapon, forged a century ago for Numeria’s greatest warrior, a master of all weapons and combat styles, known simply as Zalren the Undefeated. Zalren's name is etched into history, not just for his peerless skill in battle, but for his philosophical approach to combat, in which he believed adaptability and precision were the keys to defeating any foe. Legend holds that the Black Sovereign himself, ruler of Numeria, trained under Zalren in his youth, inheriting much of th"
+    },
+    {
+      "name": "Chef Ramsay's Cleaver",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This is a small axe balanced for throwing."
+    },
+    {
+      "name": "Ashen Glaive",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Forged during the Shining Crusade, this ash-colored glaive not only ignores the insubstantial nature of incorporeal creatures but also strikes undead with devastating power. It is said to be forged from the smoldering ruin of a greater lich destroyed by the holy fire of Arazni herself.\nThe item appears as a smoking black glaive but feels cool to the touch. In the hands of a skilled wielder, it can be commanded to \"burn\" into the form of a tattoo depicting a thin line of smoke and fire from their"
+    },
+    {
+      "name": "40mm Grenade Launcher",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A partial rebuild with mithral alloy, this ancient weapon fires specially crafted grenades long distances with accuracy."
+    },
+    {
+      "name": "Shattered Corpselight",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This blade bears the old symbol of Pharasma that has not been used by her followers since the Shining Crusade. The blade is snapped off just above the guard despite the weapons superior construction. It radiates powerful necromantic magic.\nHandle: +1 1d4 19/2\n1 Shard: +2 Undead Bane 1d6 19/2\n2 Shards: Keen, Ghost Touch 1d6 17/2\n3 Shards: +3, Dispelling Strike 1d8 17/2\n4 Shards: +4, Defiant 1d10 17/2\n5 Shards: +5, Vorpal, Holy 2d6 17/2"
+    },
+    {
+      "name": "Broken Sword w 3 shards",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This blade bears the old symbol of Pharasma that has not been used by her followers since the Shining Crusade. The blade is snapped off just above the guard despite the weapons superior construction. It radiates powerful necromantic magic.\nHandle: +1 Dagger 1d4 19/2\n1 Shard: +2 Short Sword Undead Bane 1d6 19/2\n2 Shards: Keen, Ghost Touch 1d6 17/2\n3 Shards: +3, Dispelling Strike 1d8 17/2"
+    },
+    {
+      "name": "Broken Sword w 2 shards",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This blade bears the old symbol of Pharasma that has not been used by her followers since the Shining Crusade. The blade is snapped off just above the guard despite the weapons superior construction. It radiates powerful necromantic magic.\nHandle: +1 Dagger 1d4 19/2\n1 Shard: +2 Short Sword Undead Bane\n2 Shards: Keen, Ghost Touch"
+    },
+    {
+      "name": "40mm Haunt Siphon 3.0",
+      "type": "loot",
+      "equipped": true,
+      "description": "A custom 40mm grenade with a compacted, yet potent, haunt siphon. Utilizing ancient Ustalavian anti-undead magics and cutting edge Numerian engineering, this shell is guaranteed to absolutely positively blast those ghosties back into the nether realm."
+    },
+    {
+      "name": "Arbalest Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "A larger, heavier variant of the crossbow-bolt."
+    },
+    {
+      "name": "Bloodthirst Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This cursed blade grows hungrier over time. In addition to its enchantment, the dagger now allows its wielder to cast vampiric touch twice per day, siphoning life from enemies to heal its owner. The weapon, originally crafted by a vampire assassin, was once used to betray allies during the Shining Crusade and has since passed through many hands. It radiates a sinister aura, feeding on the blood spilled by its wielder."
+    },
+    {
+      "name": "Lions & Unicorns",
+      "type": "loot",
+      "equipped": false,
+      "description": "Concept: In the magical land of Fantasia, a game of adventure and friendship unfolds where the brave Lions and the mystical Unicorns vie for treasure and happiness. But beware, for landing on the Shadow Beast tile means everyone must unite to overcome a great challenge!\nGame Objective: Collect treasure and friendship points to become the most beloved hero of Fantasia. However, landing on the Shadow Beast tile triggers a challenge that all players must face together.\nGame Components:Game Board:\nD"
+    },
+    {
+      "name": "Mystimon",
+      "type": "loot",
+      "equipped": false,
+      "description": "Game Description:\nStep into the haunted land of Ustalav with Mystimon: Ghosts of Ustalav, a strategic card game where players become master mystics and necromancers, capturing and commanding ghosts, spirits, and undead entities. Harness the power of the arcane and the occult to outwit your opponents and assert control over the restless dead.\nIn Mystimon, players build decks filled with spectral creatures, powerful spells, and ancient artifacts. Each card represents a unique entity or mystical fo"
+    }
+  ]
+}

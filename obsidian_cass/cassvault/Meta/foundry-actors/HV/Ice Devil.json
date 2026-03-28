@@ -1,0 +1,25 @@
+{
+  "name": "Ice Devil",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 14
+    }
+  ],
+  "hp": {
+    "max": 161
+  },
+  "abilities": {
+    "str": 23,
+    "dex": 21,
+    "con": 22,
+    "int": 25,
+    "wis": 22,
+    "cha": 20
+  },
+  "items": []
+}

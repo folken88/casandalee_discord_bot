@@ -1,19 +1,28 @@
 ---
 name: "Bruce"
 type: character
-race: "Unknown"
-class: "Unknown"
-level: ?
-
-aliases: []
-tags: ["character"]
-created: ""
-updated: "2026-03-25T19:56:21.570Z"
+campaign: HV
+race: "Aasimar"
+class: "Monk (Unchained) 4 / Sorcerer 1 / Dragon Disciple 8"
+hp: 54
+player: "Chris"
+tags: ["character", "pc", "hv"]
+foundry_synced: "2026-03-28"
 ---
 
 # Bruce
 
-**Race:** Unknown | **Class:** Unknown
+**Race:** Aasimar | **Class:** Monk (Unchained) 4 / Sorcerer 1 / Dragon Disciple 8 | **HP:** 54 | **Player:** Chris
+**STR** 16 | **DEX** 14 | **CON** 14 | **INT** 10 | **WIS** 10 | **CHA** 14
+
+## Key Equipment
+- **Cloak of Resistance +3** (equipment, equipped) — Aura moderate abjuration; CL 9th  This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).
+- **Ring of Protection +3** (equipment) — Aura moderate abjuration; CL 9th  This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.
+- **Conjunction** (equipment, equipped) — This band is composed of disparate strands holding together 7 heavenly bodies in direct alignment. Whenever the wearer employs a spell with a "Line effect" such as Lightning Bolt, after the spell is cast they may Dimension Door to any open space along that line as a free action. Wearer may also relocate any damaged targets that failed their save vs this spell to anywhere along the line that is open or contains another failed-save creature. They may not be teleported into each other, but can be s
+- **Belt of Physical Con +2** (equipment, equipped) — This belt is a thick leather affair, often decorated with huge metal buckles. The belt grants the wearer an enhancement bonus to Strength of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.
+- **Tattoo of Sustenance** (equipment, equipped) — This tattoo continually provides its wearer with life-sustaining nourishment. The tattoo also refreshes the body and mind; its wearer needs only sleep 2 hours per day to gain the benefit of 8 hours of sleep. This allows a spellcaster that requires rest to prepare spells to do so after only 2 hours, but this does not allow a spellcaster to prepare spells more than once per day. The tattoo must be finished for a full week before it begins to work. If it is removed, the effect is lost.
+- **Black Ring of the Dominion II** (equipment, equipped) — Fashioned of an unknown, dull-black metal, these rings have a single squinting eye made of a pale orange gemstone. They provide a number of protections. This item radiates intense evil.
+- **Headband of Inspired Wisdom +2** (equipment, equipped) — This simple bronze headband is decorated with an intricate pattern of fine green etchings.  The headband grants the wearer an enhancement bonus to Wisdom of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn.
 
 ## Notes & Updates
 

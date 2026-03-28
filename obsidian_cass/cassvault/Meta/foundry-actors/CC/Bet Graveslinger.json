@@ -1,0 +1,42 @@
+{
+  "name": "Bet Graveslinger",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Gunslinger",
+      "level": 6
+    },
+    {
+      "name": "Whispering Way Creation",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 10,
+    "int": 10,
+    "wis": 15,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Priceless Numerian Cultural Artifacts",
+      "type": "weapon",
+      "equipped": true,
+      "description": "\"It's not a violent instrument of death, it's my culture\" - average Numerian"
+    },
+    {
+      "name": ".357 Magnum Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "The .357 Magnum cartridge is notable for its highly effective terminal ballistics."
+    }
+  ]
+}

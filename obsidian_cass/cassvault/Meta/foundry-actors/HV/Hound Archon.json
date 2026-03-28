@@ -1,0 +1,32 @@
+{
+  "name": "Hound Archon",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Paladin",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 52
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 10,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "The Bite of Steel",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This immense two-handed sword is about 5 feet in length. A greatsword may have a dulled lower blade that can be gripped."
+    }
+  ]
+}

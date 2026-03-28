@@ -1,0 +1,44 @@
+{
+  "name": "Riaris Krine",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Fighter (Drill Sergeant)",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 84
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 13
+  },
+  "items": [
+    {
+      "name": "Chainmail",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Unlike a chain shirt, which covers only the chest, chainmail protects the wearer with a complete mesh of chain links that cover the torso and arms, and extends below the waist. Multiple interconnected pieces offer additional protection over vital areas. The suit includes gauntlets."
+    },
+    {
+      "name": "Spear",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 2 gp Weight 6 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range 20 ft.; Type P; Special brace\nCategory Two-Handed; Proficiency Simple\nWeapon Groups Spears; Thrown; Tribal\nDescriptionA spear is 5 feet in length and can be thrown."
+    },
+    {
+      "name": "Boarding Pike",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Pirates of the Inner Sea pg. 19, Skull and Shackles Player's Guide pg. 6\nStatisticsCost 8 gp Weight 9 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type P; Special brace, reach\nCategory Two-Handed; Proficiency Simple\nDescriptionA boarding pike is an 8-foot-long pole topped with a foot-long tapered metal tip. Boarding pikes look much like longspears, but the metal pike is designed to flow into the wooden haft, leaving no grooves, collars, or spikes that could trap salt water"
+    }
+  ]
+}

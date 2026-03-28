@@ -1,0 +1,44 @@
+{
+  "name": "Krakken Tribe Warrior",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Nagaji",
+  "classes": [
+    {
+      "name": "Monk (Unchained)",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 94
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 16,
+    "int": 10,
+    "wis": 11,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Lucerne Hammer",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This polearm has both a pronged hammer head for crushing blows and a spiked head for piercing and peeling armor. The long haft allows the wielder to put amazing force behind the head of this weapon.\n\nYou gain a +2 bonus on combat maneuver checks to sunder medium or heavy armor with a lucerne hammer."
+    },
+    {
+      "name": "Tattoo of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Tattoo of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This magic tattoo offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    }
+  ]
+}

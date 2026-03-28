@@ -1,0 +1,38 @@
+{
+  "name": "Patch Patchsalt",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Gnome",
+  "classes": [
+    {
+      "name": "Rogue (Pirate)",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 54
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 18,
+    "con": 12,
+    "int": 13,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Kukri",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 8 gp Weight 2 lbs.\nDamage 1d3 (small), 1d4 (medium); Critical 18-20/x2; Range -; Type S; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Blades, Light\nDescriptionA kukri is a curved blade, about 1 foot in length."
+    },
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Pig",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Race: Animal",
+  "classes": [
+    {
+      "name": "Animal (Aquatic)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 14
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 12,
+    "con": 15,
+    "int": 2,
+    "wis": 13,
+    "cha": 4
+  },
+  "items": []
+}

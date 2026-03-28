@@ -1,0 +1,68 @@
+{
+  "name": "Sandara Quinn",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Cleric",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 45
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 17,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Rapier",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 20 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type P; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Light\nDescriptionYou can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn't a light weapon. You can't wield a rapier in two hands in order to apply 1-1"
+    },
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Bolts come in a case or quiver that holds 10 bolts (or 5 for a repeating crossbow).\n\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (–4 penalty on attack rolls) and deals damage as a dagger of its size (crit ×2)."
+    },
+    {
+      "name": "Hand Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "You can draw a hand crossbow back by hand. Loading a hand crossbow is a move action that provokes attacks of opportunity. A hand crossbow fires standard crossbow bolts, like those used by light and heavy crossbows.\nYou can shoot, but not load, a hand crossbow with one hand at no penalty. You can shoot a hand crossbow with each hand, but you take a penalty on attack rolls as if attacking with two light weapons."
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Buckler",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a –1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you"
+    },
+    {
+      "name": "Besmara's Tricorne",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThis black leather tricorne hat is weather-beaten and salt-stained.  It grants its wearer a +2 competence bonus on Profession (sailor) and Swim checks.  If Besmara is the wearer's patron, once per day the wearer can speak a command word to transform the hat into a small ship's boat such as a cutter, jolly boat, or longboat (Skull & Shackles Player's Guide 25). The boat is 20 feet long, has two pairs of oars and a single mast with a square sail, and can carry up to 12 passengers and c"
+    },
+    {
+      "name": "Tools, Thieves' (Masterwork)",
+      "type": "loot",
+      "equipped": false,
+      "description": "This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.\n\nThis kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Device checks."
+    }
+  ]
+}

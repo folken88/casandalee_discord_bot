@@ -27,6 +27,7 @@ const serverSchedule = require('./utils/serverSchedule');
 const YouTubeTranscriptProcessor = require('./utils/youtubeTranscriptProcessor');
 const conversationLogger = require('./utils/conversationLogger');
 const dripSummarizer = require('./utils/dripSummarizer');
+const vaultSearch = require('./utils/vaultSearch');
 
 // Create Discord client
 const client = new Client({
@@ -247,6 +248,17 @@ client.once(Events.ClientReady, async readyClient => {
         }
     } catch (error) {
         logger.warn('Could not watch personality directory:', error.message);
+    }
+
+    // Initialize vault search (Cass's brain) — force-build index on startup
+    try {
+        const vaultIndex = vaultSearch.buildIndex(true);
+        logger.info(`✅ Vault search initialized: ${vaultIndex.length} notes indexed from ${vaultSearch.vaultDir}`);
+        if (vaultIndex.length === 0) {
+            logger.error('❌ CRITICAL: Vault index is empty! Cass has no memory. Check OBSIDIAN_VAULT_PATH and volume mounts.');
+        }
+    } catch (error) {
+        logger.error('❌ Failed to initialize vault search:', error);
     }
 
     // Initialize YouTube transcript processor

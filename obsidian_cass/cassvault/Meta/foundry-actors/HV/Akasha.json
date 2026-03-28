@@ -1,0 +1,54 @@
+{
+  "name": "Akasha",
+  "type": "character",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Succubus",
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 1
+    },
+    {
+      "name": "Magus",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 33
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 12,
+    "int": 18,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Spellbook",
+      "type": "loot",
+      "equipped": false,
+      "description": "A spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells). A newly purchased spellbook contains no spells. A wizard character begins play with a spellbook containing the spells he knows."
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura moderate abjuration; CL 6th\n\nThis ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Dagger MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A dagger has a blade that is about 1 foot in length.\n\nBenefit: You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body (see Using Skills)."
+    },
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura moderate abjuration; CL 6th\n\nThis garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Broken Scout",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Skinwalker",
+  "classes": [
+    {
+      "name": "Ranger",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 18
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 17,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 11
+  },
+  "items": [
+    {
+      "name": "+1 Eel Hide Hide Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Hide armor is made from the tanned skin of particularly thickhided beasts, stitched with either multiple overlapping layers of crude leather or exterior pieces of leather stuffed with padding or fur. Damage to the armor is typically repaired by restitching gashes or adding new pieces of hide, giving the most heavily used suits a distinctively patchwork quality.\nEel Hide\nThis supple material offers as much protection as leather, but is more flexible and resistant to electricity. Leather, hide, or"
+    },
+    {
+      "name": "Composite Longbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical x3; Range 110 ft.; Type P\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use it with proficiency). If your Strength modifier is less than the s"
+    }
+  ]
+}

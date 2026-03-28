@@ -1,0 +1,50 @@
+{
+  "name": "Guard, Elite",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 68
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Longsword MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This sword is about 3½ feet in length.\n\nEastern Version: Hwandudaedo This heavy sword consists of large straight blade with a thick back and wickedly sharpened edge. It is equivalent to a longsword."
+    },
+    {
+      "name": "Heavy Wooden Shield",
+      "type": "equipment",
+      "equipped": true,
+      "description": "You strap a heavy steel shield to your forearm and grip it with your hand. A heavy steel shield is so heavy that you can’t use your shield hand for anything else. Whether wooden or steel, a heavy shield offers the same basic protection and attack benefits, though the two versions respond differently to some spells and effects (such as rusting grasp). A druid can use a heavy wooden shield, but not a heavy steel shield."
+    },
+    {
+      "name": "Scale Mail",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Scale mail is made up of dozens of small, overlapping metal plates. Similar to both splint mail and banded mail, scalemail has a flexible arrangement of scales in an attempt to avoid hindering the wearer’s mobility, but at the expense of omitting additional protective layers of armor. A suit of scale mail includes gauntlets."
+    },
+    {
+      "name": "Heavy Crossbow MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Load: Loading a heavy crossbow is a full-round action that provokes attacks of opportunity.\n\nYou draw a heavy crossbow back by turning a small winch. Normally, operating a heavy crossbow requires two hands. However, you can shoot, but not load, a heavy crossbow with one hand at a –4 penalty on attack rolls. You can shoot a heavy crossbow with each hand, but you take a penalty on attack rolls as if attacking with two one-handed weapons. This penalty is cumulative with the penalty for one-handed f"
+    }
+  ]
+}

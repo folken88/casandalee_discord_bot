@@ -1,0 +1,116 @@
+{
+  "name": "Zernebeth",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Wizard",
+      "level": 16
+    }
+  ],
+  "hp": {
+    "max": 38
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 14,
+    "int": 18,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Cybernetic Eyes",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nA cybernetic eye can be enhanced by cyber art for no additional cost, giving it an unusual color or pattern. When a pair of eyes is installed, the user gains:\n\nDarkvision 60'\n+5 circumstance bonus on Perception checks\n+4 resistance bonus on saving throws against blindness or visual effects."
+    },
+    {
+      "name": "Thoracic Nanite Chamber (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nA thoracic nanite chamber augments the vital organs within a creature's chest, particularly its heart, lungs, and pulmonary system. Once installed, a thoracic nanite chamber grants an enhancement bonus to Constitution."
+    },
+    {
+      "name": "Cybernetic Arm",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 36\n\nPrice 4,750 gp\n\nSlot arm; Weight 9 lbs.\n\nInstall DC 28; Implantation 2\n\nDescription\nA cybernetic arm completely replaces a normal arm, from the shoulder to the hand. It can take the place of an arm lost to a severing wound. The arm is fully functional and no different in appearance from a regular arm, although cyberart can be added to the arm at no additional cost. A cybernetic arm does not increase a user's Strength score. With two installed, they function as Mul"
+    },
+    {
+      "name": "Implant Mesh (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\n\nAn implant mesh is a cybernetic augmentation that enhanced other cybernetic implants, notably those that heighten their wearers' physical abilities. If used to enhance cyberfiber musclesTG, a thoracic nanite chamberTG, or wirejack tendonsTG, an implant mesh must be installed on that piece of cyberware before the item is implanted in a body. \n\n \n\nThis implant mesh supports up to 3 physical body mods with a maximum bonus of +2."
+    },
+    {
+      "name": "Arc Pistol +2",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A mint condition arc pistol."
+    },
+    {
+      "name": "Cybernetic Ears",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 37\nPrice 4,000 gp\nSlot ears; Weight 1 lb.\nInstall DC 28; Implantation 1\nDescriptionA cybernetic ear can be enhanced by cyberart at no additional cost, giving it an unusual color or shape. When a pair of ears is installed, the user gains a +2 circumstance bonus on Perception checks. This bonus stacks with circumstance bonuses on Perception checks from other cybernetic senses. Cybernetic ears grant a +4 resistance bonus on all saving throws against sonic effects.\n\n The "
+    },
+    {
+      "name": "Wirejack Tendons (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nWirejack tendons not only strengthen and enhance existing reflexes, but also enhance the transmission of nerve impulses to surrounding musculature. Once installed, wirejack tendons grant an enhancement bonus to Dexterity."
+    },
+    {
+      "name": "Cardiac Accelerator",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Allows a haste-effect to be activated as a swift-action. The amount of rounds per day is hd/2 + Con Mod. The number of rounds is chosen as part of the swift action."
+    },
+    {
+      "name": "Technic League Leader Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Technic League Captain Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A small golden pin"
+    },
+    {
+      "name": "Trauma pack plus",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 52\nPrice 11,250 gp\nSlot none; Weight 5 lbs.\nCapacity 5; Usage 1 charge (disposable)\nDescriptionA trauma pack plus functions as a trauma pack, except that it's advanced chemicals and tools allow someone to restore a recently slain creature to life if the healing provided by the trauma pack plus is administered within 1 round of the target's death, as breath of life. A trauma pack heals 2d8+2 points of damage on a successful DC 15 Heal check. For every 5 points by which"
+    },
+    {
+      "name": "Dermal Plating (Mark III)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese plates exist under the skin and provide increased resistance to physical attacks. They are undetectable normally, but are visible when struck and for a few moments afterwords."
+    },
+    {
+      "name": "Cyberfiber Muscles (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nCyberfiber muscles are powerful synthetic muscles that augment but do not replace existing muscle mass in a creature. Once installed, cyberfiber muscles grant an enhancement bonus to Strength. This enhancement bonus alters price, implantation value, install DCs, and Craft DCs as listed below."
+    },
+    {
+      "name": "Datajack",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Implanted at the base of the neck, this device allows direct mental connection to any compatible device. \n\nIf connected to a device, the wearer receives +5 on knowledge engineering checks to manipulate or diagnose that device."
+    },
+    {
+      "name": "Battery",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Most technological items are powered by electricity. While one can use the electricity provided by a generator, these are rare, expensive, and rarely portable. It’s more common and practical to charge such items with batteries. A battery looks like a small silver disk that’s etched with strange lines—the people have taken to calling batteries “silverdisks” and sometimes use them as coins. A battery contains 10 charges when full; to charge an item with a battery, one simply slips the disk-shaped "
+    }
+  ]
+}

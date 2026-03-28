@@ -1,0 +1,25 @@
+{
+  "name": "Shackles Phase Spider",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Magical Beast",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 78
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 17,
+    "con": 16,
+    "int": 7,
+    "wis": 16,
+    "cha": 10
+  },
+  "items": []
+}

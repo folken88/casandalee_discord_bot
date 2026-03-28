@@ -1,0 +1,74 @@
+{
+  "name": "Conchobar Turlach Shortstone",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Gnome",
+  "classes": [
+    {
+      "name": "Bard",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 56
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Chelish Blacksteel Katana",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Chelish Blacksteel Katana is forged in the fires of the Nine Hells, bestowing it with a dark, ominous gleam. Its blade is sharp enough to cut through the moral fabric between worlds. Often wielded by ninja assassin devils of Cheliax, this katana is a feared symbol of the infernal powers of House Thrune. The hilt is wrapped in black leather, and infernal runes adorn the blade. The weapon is perfectly balanced for both swift slashes and precise thrusts.\nAura: faint transmutation\nCaster Level: "
+    },
+    {
+      "name": "Wand of Mirror Image",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell creates a number of illusory doubles of you that inhabit your square. These doubles make it difficult for enemies to precisely locate and attack you.\nWhen mirror image is cast, 1d4 images plus one image per three caster levels (maximum eight images total) are created.\nThese images remain in your space and move with you, mimicking your movements, sounds, and actions exactly. Whenever you are attacked or are the target of a spell that requires an attack roll, there is a possibility that"
+    },
+    {
+      "name": "Shackles Rum Ration",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Hellchain",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Forged in the infernal forges of Cheliax, this chain-shirt is made from blacksteel, a rare material imbued with dark energies. The Blacksteel Chain-Shirt is favored by the contract devils, feared assassins in the service of Asmodeus, for its ability to blend seamlessly into the shadows and its protective enchantments. The links of the armor seem to absorb light, granting the wearer an ominous presence. Its intricate design features infernal runes and motifs of twisted iron.\nDue to its infernal o"
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Potion of Animate Rope",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can animate a nonliving rope-like object. The maximum length assumes a rope with a 1-inch diameter. Reduce the maximum length by 50% for every additional inch of thickness, and increase it by 50% for each reduction of the rope's diameter by half.\nThe possible commands are \"coil\" (form a neat, coiled stack), \"coil and knot,\" \"loop,\" \"loop and knot,\" \"tie and knot,\" and the opposites of all of the above (\"uncoil,\" and so forth). You can give one command each round as a move action, as if direc"
+    },
+    {
+      "name": "Ear Plugs",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Eye Patch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Pirates of the Inner Sea pg. 21\nPrice 1 sp; Weight -\nCategory Adventuring Gear\nDescriptionAn eye patch covers one eye and ties around the head. Pirates usually wear eye patches to cover injured or blind eyes, but some wear eye patches to look more intimidating, or to keep one eye covered and thus retain their night vision when transitioning from the relative darkness belowdecks to the sunlight above."
+    }
+  ]
+}

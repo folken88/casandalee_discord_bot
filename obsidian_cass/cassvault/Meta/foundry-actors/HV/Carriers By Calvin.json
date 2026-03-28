@@ -1,0 +1,69 @@
+{
+  "name": "Carriers By Calvin",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Backpack, Masterwork",
+      "type": "container",
+      "equipped": true,
+      "description": "This backpack has numerous pockets for storing items that might be needed while adventuring. Hooks are included for attaching items such as canteens, pouches, or even a rolled-up blanket. It has padded bands that strap across the chest and the waist to distribute its weight more evenly. Like a common backpack, it can hold about 2 cubic feet of material in its main container. When wearing a masterwork backpack, treat your Strength score as +1 higher than normal when calculating your carrying capa"
+    },
+    {
+      "name": "Backpack",
+      "type": "container",
+      "equipped": true,
+      "description": "This leather knapsack has one large pocket that closes with a buckled strap and holds about 2 cubic feet of material. Some may have one or more smaller pockets on the sides."
+    },
+    {
+      "name": "Totes McGoats",
+      "type": "container",
+      "equipped": true,
+      "description": "Part of the Carriers by Calvin line of luxury containers, this finely crafted leather satchel has runework hidden in its stitching. Made with real demon-goat leather, making this item flame resistant (20).\nThis dimensional pocket magically stores up to 50 cubic feet of items, and reduces their material-plane-weight by 69%."
+    },
+    {
+      "name": "Hethicc",
+      "type": "container",
+      "equipped": true,
+      "description": "Part of the Carriers by Calvin line of luxury containers, this finely crafted backpack has runework hidden in its stitching.\nThis dimensional pocket magically stores up to 200 cubic feet of items, and reduces their material-plane-weight by 95%. The bag is huge, even when empty, and can detract from stealth attempts."
+    },
+    {
+      "name": "Big Mack's Uncanny Fannypack",
+      "type": "container",
+      "equipped": true,
+      "description": "Part of the Carriers by Calvin line of luxury containers, this finely crafted leather satchel has runework hidden in its stitching.\nThis dimensional pocket magically stores up to 100 cubic feet of items, and reduces their material-plane-weight by 75%."
+    },
+    {
+      "name": "Bapsack",
+      "type": "container",
+      "equipped": true,
+      "description": "Part of the Carriers by Calvin line of luxury containers, this finely crafted leather satchel has runework hidden in its stitching.\nThis dimensional pocket magically stores up to 10 cubic feet of items, and reduces their material-plane-weight by 50%."
+    },
+    {
+      "name": "Winterhold  Student's Satchel",
+      "type": "container",
+      "equipped": true,
+      "description": "Part of the Carriers by Calvin line of luxury containers, this finely crafted leather satchel has runework hidden in its stitching.\nThis dimensional pocket magically stores up to 100 cubic feet of items, and reduces their material-plane-weight by 88%."
+    },
+    {
+      "name": "Supple, A Wine By Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Calvin Carpenter's finest line of dry white wines, made from the finest potatoes from exclusive farms in Ravounel, has a name - Supple.\nEnjoy a glass of premium and refined flavor.\nSavor the taste and aroma of the rich, earthy notes in each bottle, expertly crafted from the finest ingredients. Raise a glass of Supple, the epitome of luxury and refinement."
+    }
+  ]
+}

@@ -1,0 +1,410 @@
+{
+  "name": "Luna Kresnik",
+  "type": "character",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Angel Blood Aasimar",
+  "classes": [
+    {
+      "name": "Bloodrager Primalist Spelleater",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 45
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 17,
+    "int": 12,
+    "wis": 12,
+    "cha": 13
+  },
+  "items": [
+    {
+      "name": "Universal Power Adapter",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A power cable is a short length of flexible cord (typically no more than 5 feet long) that can be used to attach a technological device to a power generator. It takes a move action to attach a cable to a generator or a device&mdash;thus, it takes a full round to fully connect the two together. Once connected, the item draws power from the generator rather than from its internal battery stores. If an item can be recharged, it automatically replenishes its missing charges from the generator (up to"
+    },
+    {
+      "name": "Muleback Cord Tattoo",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Headband of Inspired Wisdom +6",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This simple bronze headband is decorated with an intricate pattern of fine green etchings.\n\nThe headband grants the wearer an enhancement bonus to Wisdom of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn."
+    },
+    {
+      "name": "Arrow +1 Human Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "A bane weapon excels against certain foes. \nAgainst a designated foe, the weapon’s enhancement bonus is +2 better than its actual bonus. \nIt also deals an extra 2d6 points of damage against such foes."
+    },
+    {
+      "name": "Scroll of Longstrider, Greater",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Druid 3, Hunter 3, Ranger 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (a pinch of dirt)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 5 Hours (D)\n\n  \n\nDescriptionThis functions as Longstrider, except it gives you a +20-foot enhancement bonus to your base speed and a +10-foot enhancement bonus to your other modes of movement (burrow, climb, fly, swim, and so on). It does not affect movement modes you do not actually have-for example, if you do "
+    },
+    {
+      "name": "Troll Blood Stew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Beat Your Meat Cookbook, it's Troll Blood Stew\nProvides 2 minutes of Infernal Healing and Ferocity (Orc) for 2 hours.\nA hearty stew made with chunks of troll meat, root vegetables, and a blend of aromatic spices. Consuming troll meat is said to grant regenerative properties, making this stew a popular choice among Barbarians."
+    },
+    {
+      "name": "Wicked Herlov",
+      "type": "equipment",
+      "equipped": true,
+      "description": "History:\nCrafted by the Knights of Saranrae as a gift of thanks to a particular Numerian Tribe. The barbarians came to the aid of the knights in a crucial battle and suffered dramatic losses.\nConstant:\nEndure Elements\nResist Energy: Cold, Fire, Electricity, and Sonic\nHardened Charge:\nWhen the wearer uses the \"charge\" action, the armor plates shift to reinforce the spine and shoulders, removing the -2 armor class negative from charging and granting a +4 circumstance bonus on bull-rush and overrun"
+    },
+    {
+      "name": "Settler",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This heavy but well balanced throwing axe has a returning enchantment upon it. As long as it goes no farther than 50', it flies back to the thrower."
+    },
+    {
+      "name": "Scroll of Overland Flight",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Alchemist 5, Arcanist 5, Investigator 5, Magus 5, Occultist 5, Psychic 5, Shaman 5, Sorcerer 5, Spiritualist 5, Summoner 4, Summoner (Unchained) 5, Witch 5, Wizard 5; Domain Void 5; Subdomain Trade 5; Bloodline Arcane 5, Djinni 5, Starsoul 5, Stormborn 5\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 9 Hours\n\n  \n\nDescriptionThis spell functions like a fly spell, except you can fly at a speed of 40 feet (30"
+    },
+    {
+      "name": "Steelchew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Temporarily changes all the users soft tissue to hardened steel. This results in an Ironskin spell (+6 natural armor), DR10 vs Slashing, and blindness. lasts 2d6 minutes."
+    },
+    {
+      "name": "Potion of Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint illusion; CL 3rd\n\nThe creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisibl"
+    },
+    {
+      "name": "Blood-Brand of Kurgess",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This brutal greatsword bears jagged notches along its edges and is etched with the fading red spiral of Kurgess. The hilt is wrapped in leather that tells tales of past warriors with every worn groove. It exudes an aura of ferocity and valiant strength, calling forth the spirit of competition from its wielder. When held by a warrior in the throes of rage, the blade ignites with a fiery crimson luminescence, radiating power and a desire for glory."
+    },
+    {
+      "name": "Potion of Haste",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast "
+    },
+    {
+      "name": "Potion of Remove Blindness/Deafness",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove blindness/deafness cures blindness or deafness (your choice), whether the effect is normal or magical in nature. The spell does not restore ears or eyes that have been lost, but it repairs them if they are damaged.\nRemove blindness/deafness counters and dispels blindness/deafness."
+    },
+    {
+      "name": "Pipebomb 3.2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Void Vortex",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This extraplanar item was created by a creater Voidlord for an unlikely friend who happened to be an elven archer. It is made of unknown metals and held together by void energy that constantly emits a very quiet hum and vibration that only the wielder can notice.\nAs a bow, this item functions as a composite longbow +2, summons its own endless ammunition, and strikes as piercing, force, electricity, or negative energy: whichever will do the most damage.\nIt can also fire a single shot that functio"
+    },
+    {
+      "name": "Portable ram",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57\nPrice 10 gp; Weight 20 lbs.\nCategory Adventuring Gear\n\nDescription\nThis iron-shod wooden beam gives you a +2 circumstance bonus on Strength checks made to break open a door and allows a second person to help, automatically increasing your bonus by +2."
+    },
+    {
+      "name": "5.56x45mm FMJ",
+      "type": "loot",
+      "equipped": false,
+      "description": "A .223 Remington (5.56x45mm) FMJ cartridge with a 3.6 gram lead core bullet with a bimetallic jacket in a steel case, intended for hunting, home defense, and target practice.\n\nDespite its rudimentary design and not having the full energy of an intermediate cartridge, the bullet is capable of pierce through basic ballistic body protections."
+    },
+    {
+      "name": "Scroll of Freedom of Movement",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell enables you or a creature you touch to move and attack normally for the duration of the spell, even under the influence of magic that usually impedes movement, such as paralysis, solid fog, slow, and web. All combat maneuver checks made to grapple the target automatically fail. The subject automatically succeeds on any combat maneuver checks and Escape Artist checks made to escape a grapple or a pin.\nThe spell also allows the subject to move and attack normally while underwater, even "
+    },
+    {
+      "name": "Arrow +1 Undead Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "A bane weapon excels against certain foes.\nAgainst a designated foe, the weapon’s enhancement bonus is +2 better than its actual bonus.\nIt also deals an extra 2d6 points of damage against such foes."
+    },
+    {
+      "name": "Potion of Cure Critical Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 4d8 points of damage + 1 point per caster level (maximum +20)."
+    },
+    {
+      "name": "Wilds Cloak",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This cloak is thick and fully weatherproof on the outside, having a constant but limited Prestidigitation effect that keeps it clean and dry. The inner lining is thick and soft enough for it to be used as a bedroll.\n\nThis garment offers magic protection in the form of a +2 resistance bonus on all saving throws (Fortitude, Reflex, and Will).  This effect can be upgraded."
+    },
+    {
+      "name": "9x19mm AP 6.3",
+      "type": "loot",
+      "equipped": false,
+      "description": "A 9x19 mm Parabellum AP 6.3 cartridge with a two-part controlled fragmenting projectile, an armor-piercing bullet that features a brass sabot and a hardened steel penetrator of 6.3mm. Thanks to the design of the AP bullet (Armor-Piercing) and despite having an average muzzle velocity relative to other cartridges of the same caliber, it has capabilities of piercing basic ballistic body protection along with some intermediate models."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Belt of Incredible Dexterity +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt has a large silver buckle, usually depicting the image of a tiger.\n\nThe belt grants the wearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Bacon",
+      "type": "loot",
+      "equipped": true,
+      "description": "Likely hog."
+    },
+    {
+      "name": "Scroll of Air Walk",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation [air]; Level Alchemist 4, Cleric 4, Druid 4, Hunter 4, Investigator 4, Occultist 4, Oracle 4, Warpriest 4; Domain Air 4\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, DF\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature (Gargantuan or smaller) touched\n\n  \n  Duration 70 Minutes\n\n    Saving Throw None;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionThe subject can tread on air as if walking on solid ground. Moving upward is similar to walking up a hill. The maximum upward or d"
+    },
+    {
+      "name": "Arrow of the Crusader",
+      "type": "loot",
+      "equipped": false,
+      "description": "Inscription written in flowing Taldane script down the shaft reads: \"Nothing will divert me from my purpose.\"\n\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\nUndead Bane\nA bane weapon excels against certain foes. Against a designated foe, the weapon's enhancement bonus is +2 better than its actual bonus. It also deals an extra 2d6 points of damage against such foes. To randoml"
+    },
+    {
+      "name": "Arrow +1 Construct Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "A bane weapon excels against certain foes. \nAgainst a designated foe, the weapon’s enhancement bonus is +2 better than its actual bonus. \nIt also deals an extra 2d6 points of damage against such foes."
+    },
+    {
+      "name": "Miso Beef Ramen Delight",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This soup grants the effects of @Compendium[pf1.spells.vqfrp8t0c1lw1jna]{Heroism} & @Compendium[pf1.spells.hosf489xyoexmp57]{Longstrider} for 4 hours."
+    },
+    {
+      "name": "Potion of Air Bubble",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Air bubble creates a small pocket of breathable air that surrounds the touched creature's head or the touched object. The air bubble allows the creature touched to breathe underwater or in similar airless environments, or protects the object touched from water damage.  A firearm within an air bubble can be loaded-assuming the black powder comes from a powder horn, a cartridge, or some other airtight protective device-and fired. When shooting such a firearm underwater, the shot still takes the st"
+    },
+    {
+      "name": "Arrow +1",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Pipebomb 2.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Commset",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a built-in camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile—beyond this range, communication is impossible without enhancing the signal strength with a signal booster. The price and cost listed for this item are for a"
+    },
+    {
+      "name": "The Space Bone",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Roughly the size and shape of a femur bone from a large human-adjacent male, this object radiates intense magic.\nThe space bone exists as many different dimensional occurences of itself. Due to a particular confluence of factors on one of its many instances, all the versions trade specific positions with each other several times per millisecond.\nThis causes the bone's texture to appear as ever-moving space, with frequent storms and energy bursts.\nDue to its multi-dimensional nature, it strikes a"
+    },
+    {
+      "name": "7.62x54 SPT Grad Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "7.62x54mm R BS gs (GRAU Index - 7N37) cartridge with a 12.2 gram armor-piercing bullet with a pointed tungsten carbide core over a lead base with a bimetallic jacket, in a steel case. This BS bullet (Bronebóynaya Spetsiál'naya - \"Armor-piercing Special\") was developed by TsNIITochMash to greatly increase the penetration capabilities of designated marksman rifles such as the SVD and its variants, being able of piercing through the most modern specialized ballistic body protections, in addition to"
+    },
+    {
+      "name": ".50 BMG Cartridge XM1022a",
+      "type": "loot",
+      "equipped": false,
+      "description": "Cartridge, caliber .50, ball, XM1022A long-range match cartridge specifically designed for long-range work using the M107 rifle."
+    },
+    {
+      "name": "Turtle Ring",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Functions as both a Ring of Prot +2 and an Amulet of Natural Armor +2, each effect is individually upgradeable.\n\nOffers continual magical protection in the form of a deflection bonus of +2 to AC.\n\nGrants an enhancement bonus to his natural armor of+2."
+    },
+    {
+      "name": "Scroll of Dimension Door",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You instantly transfer yourself from your current location to any other spot within range. You always arrive at exactly the spot desired--whether by simply visualizing the area or by stating direction. After using this spell, you can't take any other actions until your next turn. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equival"
+    },
+    {
+      "name": "Krastus' Technic League Captain Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Wand of Nondetection",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The warded creature or object becomes difficult to detect by divination spells such as clairaudience/clairvoyance, locate object, and detect spells. Nondetection also prevents location by such magic items as crystal balls. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast nondetection. If you cast nondetection on yourself or on "
+    },
+    {
+      "name": "5.7x28 submachine gun ammunition",
+      "type": "loot",
+      "equipped": false,
+      "description": "A 5.7x28mm FN SS190 cartridge with a 2 gram armor-piercing bullet with a steel penetrator over an aluminum core with a reinforced copper jacket, in a brass case.\nThanks to its muzzle velocity and design, this cartridge is capable of piercing basic ballistic body protections and provides excellent results against intermediate protection models, however, due to its design, it has a high bounce probability off various surfaces."
+    },
+    {
+      "name": "Swarmbane Clasp",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An ancient fossilized insect lies trapped within this ornate amber clasp, impaled by the long golden pin that fastens the wearer's cloak. The wearer's weapons, unarmed attacks, and natural attacks deal full damage to swarms, regardless of the swarm's immunity to weapon damage (if any, although damage reduction applies as normal). If the wearer is damaged by a swarm, she automatically succeeds on her saving throw against the swarm's distraction ability.\nConstructionRequirements Craft Wondrous Ite"
+    },
+    {
+      "name": "Datajack - Standard",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This cybernetic includes a programmable data port that allows you to access different types of computers and digital storage media. Any handheld computer can be inserted directly into the port, while larger systems need to be connected by an adapter cable. Having the system connected directly to your nervous system obviates the need for an interface to access data on a system. Actually operating the system requires you to use the Computers skill as usual. Some closed systems don’t allow data acc"
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Constitution +6 Body Tattoo",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Crossbow Bolt +2",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Cold Hearted Iron",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Cold-Iron masterwork, forged into magic, and then wielded by one of the most hated warriors in Numerian history. This blade was made for malice and bears the skull-symbol of its original owner. Crafted from both metal and the swords of his captured enemies, this blade radiates evil but has no negative effects associated with this.\nIt is +4, Keen, Furious, and a frost enchantment can be toggled on or off by the wielder as a swift-action.\nA furious weapon serves as a focus for its wielder’s anger."
+    },
+    {
+      "name": "Incendiary Grenade",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Handy Haversack",
+      "type": "container",
+      "equipped": true,
+      "description": "A backpack of this sort appears to be well made, well used, and quite ordinary. It has two side pouches, each of which appears large enough to hold about a quart of material. In fact, each is like a bag of holding and can actually hold material of as much as 2 cubic feet in volume or 20 pounds in weight. The large central portion of the pack can contain up to 8 cubic feet or 80 pounds of material. Even when so filled, the backpack always weighs only 5 pounds. While such storage is useful enough,"
+    },
+    {
+      "name": "Potion of Restoration, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Lesser restoration dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's ability scores. It also eliminates any fatigue suffered by the character, and improves an exhausted condition to fatigued. It does not restore permanent ability drain."
+    },
+    {
+      "name": "Strength +6 Shoulder Tattoo",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Nondetection",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The warded creature or object becomes difficult to detect by divination spells such as clairaudience/clairvoyance, locate object, and detect spells. Nondetection also prevents location by such magic items as crystal balls. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast nondetection. If you cast nondetection on yourself or on "
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Potion of Fly",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load).\nIt can ascend at half speed and descend at double speed, and its maneuverability is good. Using a fly spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can charge but not run, and it cannot carry aloft more weight than its maximum load, plus any armor it wears. The subject gains a bonus"
+    },
+    {
+      "name": "Evertreads",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These boots grant a number of powers related to positioning on a large scale battlefield.\n\nThey are an improved version of Boots of Striding and Springing, granting +10 movement and +5 acrobatics (instead of just +5 jumping from the standard version).\n\nThey grant +4 CMD vs Bull-Rush, Overrun, and Trip attempts against the wearer.\n\nAt need, the wearer can execute a sprinter's start, performing a charge-attack without the normal 10' minimum distance. This ability is con based."
+    },
+    {
+      "name": "03 White Card (Security)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A card typically carried by Security Personnel with low-level access. Unlocks White and Black security seals."
+    },
+    {
+      "name": "Barbarian Banana Bread",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, this Barbarian Banana Bread is highly filling and is enough to sustain most any four medium creatures or one large creature for 24 hours."
+    },
+    {
+      "name": "Wack Juce",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Refreshingly intoxicating, Wack Juce is made with the finest synthetic oranges in Numeria, and the 3rd finest potato vodka in the world: Smashka Noble!\nEnjoy this sweet and soothing taste of home, you can almost hear the anthem of the Fatherland as you slurp!"
+    },
+    {
+      "name": "Phoenix Sigil",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ancient ring belonged to a famous champion. It grants abilities to those who worship an ancient avatar of fire and restoration.\n\nConstant:\nResist Heat 10 (adds to racial bonus)\nResist Electricity 10 (adds to racial bonus)\nResist Cold 10 (adds to racial bonus)\n\nFlash Reaction:\nOnce per day when the wearer is attacked or has to make a saving throw against a hostile effect, she may spend 2 rounds of rage to begin a rage as an immediate action.\n\nTake the Heat:\nWhenever your total innate fire or"
+    },
+    {
+      "name": "Charisma +4 Neck Tattoo",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Wand of See Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can see any objects or beings that are invisible within your range of vision, as well as any that are ethereal, as if they were normally visible. Such creatures are visible to you as translucent shapes, allowing you easily to discern the difference between visible, invisible, and ethereal creatures.\nThe spell does not reveal the method used to obtain invisibility.\nIt does not reveal illusions or enable you to see through opaque objects. It does not reveal creatures who are simply hiding, con"
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "XM-53 Anti-Tank Missile Launcher",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A portable anti-tank missile launcher."
+    }
+  ]
+}

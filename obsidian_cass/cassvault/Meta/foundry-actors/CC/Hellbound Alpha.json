@@ -1,0 +1,36 @@
+{
+  "name": "Hellbound Alpha",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Skinwalker",
+  "classes": [
+    {
+      "name": "Bloodrager",
+      "level": 9
+    },
+    {
+      "name": "Outsider",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 33
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 18,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Jezeldan Moonfang",
+      "type": "weapon",
+      "equipped": true,
+      "description": "An alchemical silver two bladed sword, +1 enchantment."
+    }
+  ]
+}

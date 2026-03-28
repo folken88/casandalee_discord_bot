@@ -41,3 +41,18 @@ A city in Numeria where the character is hiding from Wizards; A town in Numeria 
 
 ### Iron Gods - A Bug's Life 2024 02 29
 City with a technically compound and underground tunnels; Capital of Numeria, home to Black Sovereign Kevoth-Kul; Capital of Numeria, ruled by Kevoth-Kul
+
+### Iron Gods - Maths Be Mathin 2023 11 09
+City where characters planned and prepared for a heist.; A fortress built on a rocky outcropping with observation towers and barracks.
+
+### Iron Gods - Manly Meetings 2023 08 03
+A city with a strange street layout and an underground facility.
+
+### Iron Gods - Slayin' Pipe 2023 05 11
+Discussed as a potential location for the teleportation circle.; Discussed for a potential safe house location; A city with well-made buildings, smog-filled streets, and a beautiful palace on the hill.
+
+### Iron Gods - Measure Twice, Murder Once 2023 04 27
+Location of the mission and Black Sovereign's capital; Location for potential safe house setup.; City known for its high-end magic item stores like Warmageddon and Montane.
+
+### Iron Gods - Bug Hunt 2023 03 30
+A city where Wizards can buy high-level scrolls and magic items. The market is illegal and smells funky.; Location of the battle and city aggroed by wizards and barbarians.

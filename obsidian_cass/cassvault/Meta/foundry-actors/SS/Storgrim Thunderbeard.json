@@ -1,0 +1,254 @@
+{
+  "name": "Storgrim Thunderbeard",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Dwarf",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 81
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 16,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Map Bundle: Bloodcove",
+      "type": "equipment",
+      "equipped": false,
+      "description": "These maps are made from high-quality parchment and feature vibrant inks that mark important points of interest. \n\nThis map bundle details the city of Bloodcove, both its geographic location, and a map detailing the city's many canals and docks."
+    },
+    {
+      "name": "Captain's Parcel",
+      "type": "loot",
+      "equipped": false,
+      "description": "Chelish Imperial Navy – Blockade CommandFrom: Cmdr. Valeria Rauthim, HMS Veil of DuthelmTo: Commodore Heron Valstraz, Flotilla MarithraxDate: 15 Desnus, 4717RE: Resupply, Recon Loss, Tidewater Status\nCommodore,\nThe Iron-Harvest has departed to rendezvous at Point Crimson Reef with your flotilla.\nI am requesting:\nFood Provisions for Veil of Duthelm +60% surplus for Bronze Fleet auxiliaries\n720 cannonballs\n3600lbs of powder\nStatus Updates:\nBlockade: Tidewater remains sealed. No significant traffic"
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 1, Alchemist 1, Bard 1, Cleric 1, Druid 1, Hunter 1, Inquisitor 1, Investigator 1, Occultist 1, Oracle 1, Paladin 1, Ranger 2, Shaman 1, Skald 1, Spiritualist 1, Warpriest 1, Witch 1; Domain Healing 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets living creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nDescriptionWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points o"
+    },
+    {
+      "name": "Deadman's Coin",
+      "type": "equipment",
+      "equipped": true,
+      "description": "DescriptionFeelin' lucky?\nOnce per day, when the bearer of this coin is dropped below 0 hit points she may, as an immediate action, mentally call out heads or tails. If this coin is within 5 feet of the bearer and has the space to do so (such as inside a fairly empty coin purse), this coin will flip. If the coin lands with the called side facing up, the bearer is instantly healed (1d4)d8 hit points. If the coin lands with the uncalled side facing up, nothing happens. This effect can prevent deat"
+    },
+    {
+      "name": "Map Bundle: Senghor",
+      "type": "equipment",
+      "equipped": false,
+      "description": "These maps are made from high-quality parchment and feature vibrant inks that mark important points of interest. \n\nThis map bundle details the city of Senghor, both its geographic location, and a map detailing the city's walls and docks. It has a pirate's mark on the Southwest side of the North bay."
+    },
+    {
+      "name": "Bronze Fleet Volver (Trophy)",
+      "type": "weapon",
+      "equipped": false,
+      "description": "The Bronze Fleet Volver is a highly crafted, ornate six-shot revolver favored by officers and slavers within the Bronze Fleet. Its barrel and frame are forged from polished bronze, etched with swirling nautical patterns that echo the waves. Embedded in the side of the chamber is a small, aquamarine gemstone that glints faintly in the light, often mistaken for a magical focus.\nThe revolver is balanced for expert accuracy and durability, and its elaborate design symbolizes both power and prestige "
+    },
+    {
+      "name": "Chainmail +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Unlike a chain shirt, which covers only the chest, chainmail protects the wearer with a complete mesh of chain links that cover the torso and arms, and extends below the waist. Multiple interconnected pieces offer additional protection over vital areas. The suit includes gauntlets."
+    },
+    {
+      "name": "Prybar",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This tool grants +6 on strength checks to open doors or chests and can be used as a +1 magic club."
+    },
+    {
+      "name": "Tidewater Side Piece",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ornate signet ring displays a beautiful scene of a crashing wave surrounded by ornate silver and pirate iconography. It is issued only to the current favored consort of Pirate Queen Lady Smythee of Tidewater Rock. Known colloquially as \"the Side Piece,\" it is both a badge of station and a subtle warning—its bearer enjoys the Lady’s favor for now.\nAll officers, staff, and soldiers sworn to Tidewater Rock recognize the ring and are instructed to treat its bearer as a valuable guest. This incl"
+    },
+    {
+      "name": "Mead (Mug)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice  2 gp (gallon),  5 cp (mug); Weight 8 lbs. (gallon), 1/2 lb. (mug)\nDescriptionThis alcoholic beverage is made by fermenting honey and water. It may be flavored with spices, fruit, or hops."
+    },
+    {
+      "name": "Bullseye Rum",
+      "type": "consumable",
+      "equipped": true,
+      "description": "“It hits you right in the center, just not in a good way.”\nBullseye Rum is the drink of choice for the truly desperate, the miserly, or those who simply value quantity over quality. Its dark amber hue suggests a richness it absolutely does not deliver. The label, featuring a dartboard and the motto \"Bullseye,\" is both an ironic jab at the drink's questionable aftereffects and a promise of its unerring ability to ruin your stomach. Produced by dubious distilleries scattered across the Shackles, i"
+    },
+    {
+      "name": "Goldenwake Mead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "“Smooth seas on the evening, but a storm in the morning”\nGoldenwake Mead is a staple in coastal taverns across the Shackles, brewed with golden honey, faint spices, and a hearty kick of alcohol. It's known for its warmth, easy drinkability, and surprising potency, making it a favorite among sailors and pirates alike. While mostly known for its pleasant effects, overindulging in this stout mead can leave even the hardiest drinker feeling slightly off-kilter.\nEffects\nWhen consumed, Goldenwake Mead"
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.\nConstructionRequirements Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring; Cost 1,000 gp"
+    },
+    {
+      "name": "Crookit",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Crookit+1 Returning Throwing AxeAura faint transmutation; CL 5thSlot none; Price 8,310 gp; Weight 2 lbs.\nDescriptionCrookit is a strange looking throwing axe that seems poorly suited for melee but ideal for aerial spins. Dwarven runes and storm-call sigils etched into its golden socket hum faintly with magical potential.\nThis +1 throwing axe is designed exclusively for ranged use. It has the returning property, but with unique enhancements and limitations:\nThrow Limit: It can only be thrown once"
+    },
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet.\nConstructionRequirements Craft Wondrous Item, barkskin, creator's caster level must be at least three times the amulet's bonus; Cost 1,000 gp"
+    },
+    {
+      "name": "Tidewater Meat Stick",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A staple of the South Shackles, the Tidewater Meat Stick is both a beloved street food and a shockingly effective weapon. Crafted from tempered steel and loaded with expertly grilled cuts of fish, chicken, and lamb, this savory skewer is seasoned with tongue-numbing coastal spices said to ward off evil spirits—and Northerners with weak constitutions.\nFavored by sailors, dockside duelists, and spicy-food fanatics, the Meat Stick serves as a handy fallback when dinner turns dangerous. Why forge a "
+    },
+    {
+      "name": "Scourge's Cat-o'-Nine-Tails (Trophy)",
+      "type": "weapon",
+      "equipped": false,
+      "description": "This short whip is made of nine knotted thongs about 3 feet in length.\n\nA cat-o’-nine-tails deals no damage to any creature with an armor bonus of +1 or higher or a natural armor bonus of +3 or higher."
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Whispered Courage Whiskey",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Drink the blood of heroes.\"Whispered Courage is aged in barrels made from pines cut from the Stoneheart Massacre Glade.This powerful spirit grants +4 vs fear saves for 1 hour. The bonus is doubled if an ally who also drank the whiskey is threatened within your sight."
+    },
+    {
+      "name": "Lifeline - Truehammer family",
+      "type": "loot",
+      "equipped": false,
+      "description": "Lifeline is a ring crafted by the most secluded underground folk, usually made in pairs, though larger sets are not unheard of. Its purpose is to keep in contact with friends or family. Primarily forged from iron or steel, the inscription on the inside contains the names of loved ones. With the aid of arcane knowledge, the ring forms a link to the others. When the text glows, it signals that the close family member or friend is still alive."
+    },
+    {
+      "name": "Wandering Dreamer Boots",
+      "type": "loot",
+      "equipped": true,
+      "description": "These supple boots of purplish-brown leather gleam faintly with silvery trim that shimmers like starlight when moonlight strikes it. Winding silver thread traces intricate celestial patterns up the sides—stylized constellations of Desna’s sacred flight. The boots never scuff, no matter how far or hard they roam.\nDesna’s Mercy in Motion:When the wearer moves more than 10 feet in a round during combat and is either attacking or being attacked, the boots unleash a brief pulse of radiant energy. As "
+    },
+    {
+      "name": "Blood Caimon Tacos",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners!\nEnjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes."
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Backpack",
+      "type": "container",
+      "equipped": false,
+      "description": "This leather knapsack has one large pocket that closes with a buckled strap and holds about 2 cubic feet of material. Some may have one or more smaller pockets on the sides."
+    },
+    {
+      "name": "Booch",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This vibrant green tea-based kombucha is a local specialty from the Tidewater Rock fortress in the dangerous seas of the southern Shackles, near Windward Isle. Crafted by combining island herbs with fermented tea, Booch serves to fortify sailors and sentries alike. Its tangy taste has a revitalizing quality, making it a popular drink among those who stand watch through the long nights. Folk tales suggest that this drink's unique recipe was a gift from a benevolent sea spirit keen on improving a "
+    },
+    {
+      "name": "Potion of Haste",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast "
+    },
+    {
+      "name": "Beast Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This bubbling and glowing beverage tastes like a thick dark ale. While sipping, one can hear the authentic 'Call of the Beast of Lepidstadt' from somewhere out in the Northern Swamps where the creature still lurks today, waiting for his next victim!"
+    },
+    {
+      "name": "Shudderwood Jons",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These flexible short-pants are divinely crafted out of the finest woven jean. They are so unimaginably comfortable that when worn under armor, they reduce the check penalty by 1. \nIf worn by a shapeshifter, they stretch and adapt to any size of bipedal form."
+    },
+    {
+      "name": "Brogan Tharnak",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Brogan's Oath:\nPart 1:\nI sleep through weakness, wake for the dour\nBrace the soldier, betray the cowardWhen you make a fear save from an enemy of at least your level, your weapon casts True Strike on you. This effect lasts for up to 2 rounds or until you make an attack with this weapon.If you fail a fear save, this weapon auto-misses on a roll of 1-5 for 24 hours.Tharnak Lore: \nCrafted of enchanted glass via a process lost even to the dwarves that developed it, this weapon has known many owners "
+    },
+    {
+      "name": "Oath-Cinder",
+      "type": "container",
+      "equipped": false,
+      "description": "This is a dwarven fact book. It has a pull-tab on it which will ignite the interior and destroy all of the contents that has been partially pulled, but did not properly ignite due to moisture damage."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 2, Alchemist 2, Bard 2, Cleric 2, Druid 3, Hunter 3, Inquisitor 2, Investigator 2, Occultist 2, Oracle 2, Paladin 3, Ranger 3, Shaman 2, Skald 2, Spiritualist 2, Warpriest 2, Witch 2; Domain Healing 2\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets living creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nDescriptionThis spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point "
+    },
+    {
+      "name": "Composite Longbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical x3; Range 110 ft.; Type P\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use it with proficiency). If your Strength modifier is less than the s"
+    },
+    {
+      "name": "Aegis Unseen",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This thick, round shield is engraved with runes honoring nameless soldiers. The surface is dented in places, but glows faintly with protective magic. It bears a faint image of a closed eye at its center.\nEffect: +1 heavy steel shield.\nSpecial: Surrendering to the will that crafted this item bears an instinctive blocking ability. The wielder is +4 vs flanking attacks.\nSaid to be owned by Kestrel 'Kez' Ironbloom, the cloud-eyed dwarf oracle of battle, marching into danger with the whispers of fall"
+    },
+    {
+      "name": "Chelish Service Saber (Trophy)",
+      "type": "weapon",
+      "equipped": false,
+      "description": "The Chelish Service Saber is the standard-issue melee weapon for trusted crew aboard Chelish naval vessels—such as boatswains, veteran navigators, and long-serving able seamen. It strikes a balance between form and function: simple enough to mass-produce for the imperial navy, but elegant enough to signal discipline and readiness.\nThis masterwork saber has a slightly curved steel blade, a modest but practical brass guard with minimal engraving, and a sturdy leather-wrapped hilt. While it lacks m"
+    },
+    {
+      "name": "Bubby-Stone",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Bubby-Stone is a smooth, palm-sized gemstone that glimmers with a faint azure light. Often sought by adventurers exploring the depths of the sea or venturing into airless caverns, the stone is said to be a gift from the elemental lords of air. When held in the mouth, it makes it difficult to speak as the stone constantly emits bubbles of breathable air. With practice, the owner can use this to breathe underwater or in poisonous gas clouds for up to 10 minutes. After use, the stone must be le"
+    },
+    {
+      "name": "Squid-Bag ( h'ntai )",
+      "type": "container",
+      "equipped": true,
+      "description": "The Squid-Bag is a treasure of the Sahuagin people often found in the Shackles region. It functions as a bag of holding Type 1, and not only protects the contents from water damage but dries them out if they are already soaked. Due to the \"grabby\" tentacles that occasionally reach out and try to grab random objects, placing any item in the bag is a free-action. Drawing an item out usually takes a full-round due to the depth and size of the container unless what you have stored in the bag is any "
+    },
+    {
+      "name": "Potion of Blur",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject's outline appears blurred, shifting, and wavering. This distortion grants the subject concealment (20% miss chance).\nA see invisibility spell does not counteract the blur effect, but a true seeing spell does.\nOpponents that cannot see the subject ignore the spell's effect (though fighting an unseen opponent carries penalties of its own)."
+    },
+    {
+      "name": "Rocket Dwarf +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This tattoo grants the wearer an enhancement bonus to two physical ability scores of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. These bonuses are chosen when the tattoo is created and cannot be changed.\nIt also grants a +4 competence bonus to CMD.\nConstructionRequirements Craft Wondrous Item, bear's endurance, bull's strength; Cost 6,000 gp"
+    }
+  ]
+}

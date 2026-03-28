@@ -1,0 +1,68 @@
+{
+  "name": "Eliouren Warden",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Elf",
+  "classes": [
+    {
+      "name": "Ranger",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 30
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Boots of Elvenkind",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These soft boots are partially made out of living leaves and other natural materials. They enable the wearer to move nimbly about in virtually any surroundings, granting a +5 competence bonus on Acrobatics checks.\nConstructionRequirements Craft Wondrous Item, creator must be an elf; Cost 1,250 gp"
+    },
+    {
+      "name": "Eliouren Bow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "All arrows fired from an eliouren bow are Ghost-Touch and ignore up to 2 points of the targets Natural Armor or Armor bonus. Firing the bow makes almost no sound and does not necessarily give away the wielders firing position. The arrows in flight and striking targets still create sounds."
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "An arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Eliouren Leafblade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Eliouren blades are all effectively Ghost-Touch."
+    },
+    {
+      "name": "Cloak of Elvenkind",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These cloaks of famed elven design are enhanced to reflect the wearer's surroundings, aiding him in blending in with any terrain. When this plain gray cloak is worn with the hood drawn up around the head, the wearer gains a +5 competence bonus on Stealth checks.\nConstructionRequirements Craft Wondrous Item, invisibility, creator must be an elf; Cost 1,250 gp"
+    },
+    {
+      "name": "+2 Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Eliouren Branched Spear",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Eliouren weapons are all effectively Ghost-Touch."
+    }
+  ]
+}

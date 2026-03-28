@@ -1,0 +1,25 @@
+{
+  "name": "Drone 0.5 Rhoomba",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Android",
+  "classes": [
+    {
+      "name": "Construct",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 5
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 8,
+    "con": 8,
+    "int": 4,
+    "wis": 4,
+    "cha": 20
+  },
+  "items": []
+}

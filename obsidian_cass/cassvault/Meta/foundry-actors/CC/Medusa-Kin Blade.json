@@ -1,0 +1,36 @@
+{
+  "name": "Medusa-Kin Blade",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Medusa-Kin",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 6
+    },
+    {
+      "name": "Monk (Unchained)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 27
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 12,
+    "int": 11,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Medusa-Kin Rapier",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 20 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type P; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Light\nDescriptionYou can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn't a light weapon. You can't wield a rapier in two hands in order to apply 1-1"
+    }
+  ]
+}

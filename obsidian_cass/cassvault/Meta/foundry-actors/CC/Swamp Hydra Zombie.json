@@ -1,0 +1,25 @@
+{
+  "name": "Swamp Hydra Zombie",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Undead Giant",
+      "level": 17
+    }
+  ],
+  "hp": {
+    "max": 12
+  },
+  "abilities": {
+    "str": 42,
+    "dex": 10,
+    "con": 10,
+    "int": 14,
+    "wis": 17,
+    "cha": 22
+  },
+  "items": []
+}

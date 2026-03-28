@@ -1,0 +1,25 @@
+{
+  "name": "Reefclaw",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Aberration",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 13,
+    "con": 14,
+    "int": 5,
+    "wis": 12,
+    "cha": 13
+  },
+  "items": []
+}

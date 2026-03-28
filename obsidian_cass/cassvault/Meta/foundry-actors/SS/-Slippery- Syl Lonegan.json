@@ -1,0 +1,62 @@
+{
+  "name": "\"Slippery\" Syl Lonegan",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 24
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 13
+  },
+  "items": [
+    {
+      "name": "Boarding Axe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 8, Pirates of the Inner Sea pg. 19, Skull and Shackles Player's Guide pg. 6\nStatisticsCost 6 gp Weight 3 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x3; Range -; Type P or S; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Axes\nDescriptionA boarding axe is similar to a handaxe, but features a spike that allows the weapon to do either slashing or piercing damage. When in hand, a boarding axe grants a +2 circumstance bonus on Climb checks to scale w"
+    },
+    {
+      "name": "Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 8, Pirates of the Inner Sea pg. 19, Skull and Shackles Player's Guide pg. 6, Villain Codex pg. 188\nStatisticsCost 15 gp Weight 4 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis short, curved sword is favored by seafarers for closequarters combat. It is treated as a scimitar for any effects that apply to scimitars."
+    },
+    {
+      "name": "Pirate clothes",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Pirates of the Inner Sea pg. 21\nPrice   1 sp (basic),   30 gp (fancy); Weight 2 lbs. (basic), 6 lbs. (fancy)\nDescriptionPirates can appear in a variety of clothing styles, but most wear a basic outfit consisting of a linen shirt, canvas knee-breeches, cotton stockings, and leather shoes (though some pirates prefer to go barefoot at sea). In addition, well-to-do pirates, particularly pirate captains, often add fancy touches to their outfits, such as colorful jackets of velvet or silk done "
+    },
+    {
+      "name": "Sap",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 1 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range -; Type B; Special nonlethal\nCategory Light; Proficiency Martial\nWeapon Groups Close\nDescriptionThis weapon consists of a soft wrapping around a hard, dense core, typically a leather sheath around a lead rod. The head is wider than the handle and designed to spread out the force of the blow, making it less likely to draw blood or break bones."
+    },
+    {
+      "name": "Throwing Axe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 8 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range 10 ft.; Type S; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Axes; Thrown; Tribal\nDescriptionThis one-handed axe is small and perfectly balanced for throwing, and can be used as a melee weapon. Throwing axes have a variety of alternative names, including franciscas, tomahawks, and more. The axe is normally gripped by the haft and throw"
+    },
+    {
+      "name": "Unarmed Strike",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

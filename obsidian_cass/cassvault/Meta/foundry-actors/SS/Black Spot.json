@@ -1,0 +1,25 @@
+{
+  "name": "Black Spot",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Magical Beast",
+  "classes": [
+    {
+      "name": "Magical Beast (Aquatic)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 15
+  },
+  "abilities": {
+    "str": 1,
+    "dex": 13,
+    "con": 10,
+    "int": 0,
+    "wis": 10,
+    "cha": 15
+  },
+  "items": []
+}

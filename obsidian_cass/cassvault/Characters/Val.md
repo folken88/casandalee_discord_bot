@@ -1,25 +1,21 @@
 ---
 name: "Val"
 type: character
-race: "Human"
-class: "Magus"
-level: 12
+race: "Unknown"
+class: "Unknown"
+level: ?
 
-aliases: ["Val Baine"]
+aliases: []
 tags: ["character"]
-created: "2026-02-14T00:00:00.000Z"
-updated: "2026-02-14T00:00:00.000Z"
+created: ""
+updated: "2026-03-28T02:54:24.321Z"
 ---
 
 # Val
 
-**Race:** Human | **Class:** Magus | **Level:** 12
-
-HP 130/130. Magus; spell combat, spellstrike. Scimitar; spells: Shocking Grasp, Haste, Dimension Door, Stoneskin, Beast Shape II. Mithral Shirt, Amulet of Natural Armor +2. Synced from Foundry VTT.
-
 ## Notes & Updates
 
-- [Foundry sync] Level 12 Human Magus. HP 130/130. Spell Combat, Improved Spell Combat; Piranha Strike, Intensified Spell. Equipment: Scimitar, Mithral Shirt, Cloak of Resistance +2. *(foundry-sync, 2/13/2026)*
+- Misses with an attack, then kills a Goblin Captain *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 

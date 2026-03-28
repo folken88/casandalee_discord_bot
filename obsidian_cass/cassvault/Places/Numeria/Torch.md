@@ -38,3 +38,24 @@ A settlement where Meyanda makes a deal with the Skulks; City or settlement ment
 
 ### Iron Gods - A Bug's Life 2024 02 29
 A settlement where the party is discussing their plan; Location where Meyanda made a deal with the Skulks; A settlement in the campaign world
+
+### Iron Gods -Minds are Blown 2023 12 21
+Location of the discussion and potential escape route; A town recently attacked by AOE spells and explosives, with some buildings damaged.; Location for the setup.
+
+### Iron Gods - Fire Husbando 2023 11 30
+Location where discussions about Garton and Osman took place.; Location of map exploration and token usage; Location where Mayanda developed a new type of grenade.
+
+### Iron Gods - Maths Be Mathin 2023 11 09
+Location of discussions and teleportation plans; Location where Meyanda secured a hiding place for the power relay.; A location where characters are discussing and casting spells.; A location under attack by enemies using ordinance attacks.
+
+### Iron Gods - Black or Brown-out 2023 07 20
+Location of combat and spell usage.; Location of the fight and spell casting
+
+### Iron Gods - Bug Hunt 2023 03 30
+Location where characters are discussing administering effects on Tokala.
+
+### Iron Gods - Unmarked Police-Cat 2023 03 23
+A city with casinos and other gambling establishments.; A junkyard in Torch.; A place where characters discuss acquiring souvenirs and the Technic League's return with tech.; A tavern where characters gathered and discussed information.; Location of the Red River and where information gathering was planned.; Previous location mentioned by a player.
+
+### Iron Gods - Ways & Means 2023 03 02
+A city with older and simpler architecture compared to present-day Torch.; Location where the party is currently in.; Characters are in Torch and discussing currency weight and disguises.

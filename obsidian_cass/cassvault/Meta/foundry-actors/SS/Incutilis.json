@@ -1,0 +1,25 @@
+{
+  "name": "Incutilis",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Aberration",
+  "classes": [
+    {
+      "name": "Aberration (Aquatic)",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 26
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 15,
+    "con": 11,
+    "int": 12,
+    "wis": 13,
+    "cha": 8
+  },
+  "items": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Triceratops",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 14
+    }
+  ],
+  "hp": {
+    "max": 161
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 9,
+    "con": 24,
+    "int": 2,
+    "wis": 12,
+    "cha": 7
+  },
+  "items": []
+}

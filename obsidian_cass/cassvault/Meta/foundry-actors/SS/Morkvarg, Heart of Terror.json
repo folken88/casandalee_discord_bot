@@ -1,0 +1,25 @@
+{
+  "name": "Morkvarg, Heart of Terror",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Barbarian (Invulnerable Rager)",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 85
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 16,
+    "int": 8,
+    "wis": 12,
+    "cha": 8
+  },
+  "items": []
+}

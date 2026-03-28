@@ -1,0 +1,403 @@
+{
+  "name": "Rodney \"Danger\" Smith",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Ranger",
+      "level": 11
+    }
+  ],
+  "hp": {
+    "max": 40
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Hushing Arrow, Greater (GBH)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Description\nThis +1 arrow makes no sound on release or as it flies through the air. A creature struck by a hushing arrow must succeed at a DC 13 Will save or be affected by silence (as the spell) for 5 rounds. The silence effect is not triggered by arrows that miss or those that strike an inanimate object.  A greater hushing arrow functions just like a normal hushing arrow, except the target must succeed at a DC 16 Will save to avoid being silenced. Hushing bolts and greater hushing bolts can al"
+    },
+    {
+      "name": "Arrow +2 (GBH)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Footprints Book",
+      "type": "loot",
+      "equipped": false,
+      "description": "This 50-page tome contains accurate drawings of various common animal, humanoid, and monster tracks, as well as notes on stride length, tread depth, and similarly useful information. The book gives you a +2 circumstance bonus to identify a creature by its tracks, though the use of shoes makes identifying many humanoids difficult or impossible. Though the book can't help you identify unique individuals, it can help you tell an ogre footprint from a troll footprint, or an elf's track from an orc's"
+    },
+    {
+      "name": "Blood Caimon Tacos",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners!\nEnjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes."
+    },
+    {
+      "name": "Foundrystein",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This copper-steel beer stein perfectly seals and preserves any liquid stored within it. At its tavern of origin, the Foundry Tavern in Torch of Numeria, these can be quickly refilled with a strange device unique to that location. This \"Tap\" as it is called, fills the stein with ice cold Cayden-Brew, imported from the distant South."
+    },
+    {
+      "name": "Supple, A Wine By Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Calvin Carpenter's finest line of dry white wines, made from the finest potatoes from exclusive farms in Ravounel, has a name - Supple.\nEnjoy a glass of premium and refined flavor.\nSavor the taste and aroma of the rich, earthy notes in each bottle, expertly crafted from the finest ingredients. Raise a glass of Supple, the epitome of luxury and refinement."
+    },
+    {
+      "name": "Arrow of the Crusader",
+      "type": "loot",
+      "equipped": false,
+      "description": "Inscription written in flowing Taldane script down the shaft reads: \"Nothing will divert me from my purpose.\"\n\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\nUndead Bane\nA bane weapon excels against certain foes. Against a designated foe, the weapon's enhancement bonus is +2 better than its actual bonus. It also deals an extra 2d6 points of damage against such foes. To randoml"
+    },
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Crusader Captain's Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Vigilant Rest:While the target of this spell is asleep, she retains some of her normal powers of perception. While she tunes out harmless sounds such as the crackling of the campfire, crickets, or light breezes, she does not take the normal +10 modifier to the DC of Perception checks she attempts while asleep.\nIf the target detects a threat or unexplained noise while sleeping, she can wake immediately and stand up from her sleeping position as a free action.\nIf the target is roused but returns t"
+    },
+    {
+      "name": "Steelchew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Temporarily changes all the users soft tissue to hardened steel. This results in an Ironskin spell (+6 natural armor), DR10 vs Slashing, and blindness. lasts 2d6 minutes."
+    },
+    {
+      "name": "Potion of Bear's Endurance",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The affected creature gains greater vitality and stamina. The spell grants the subject a +4 enhancement bonus to Constitution, which adds the usual benefits to hit points, Fortitude saves, Constitution checks, and so forth. Hit points gained by a temporary increase in Constitution score are not temporary hit points. They go away when the subject's Constitution drops back to normal. They are not lost first as temporary hit points are."
+    },
+    {
+      "name": "GBH Shafts",
+      "type": "loot",
+      "equipped": true,
+      "description": "Custom made +1 magic arrow shafts designed for a huge-bow. The primary focus of the enchantment placed upon these missiles is focused on ensuring they survive being fired."
+    },
+    {
+      "name": "Devil in Grey Cloak",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A cloak made from the famous Devil In Grey. This item grants a number of powerful benefits.\nIt grants Cold Resist 30, Functions as a belt of CON +4 and Cloak of Resistance +4, and the wearer leaves no tracks."
+    },
+    {
+      "name": "Danger's Duckhorn",
+      "type": "loot",
+      "equipped": false,
+      "description": "Sounding a horn requires a DC 10 Perform (wind instruments) check and can convey concepts such as \"Attack!\", \"Help!\", \"Advance!\", \"Retreat!\", \"Fire!\", and, \"Alarm!\" The report of a signal horn can be clearly heard (Perception DC 0) up to a half-mile distant. For each quarter-mile beyond, Perception checks to hear the horn suffer a -1 penalty."
+    },
+    {
+      "name": "Potion of Gaseous Form",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject and all its gear become insubstantial, misty, and translucent. Its material armor (including natural armor) becomes worthless, though its size, Dexterity, deflection bonuses, and armor bonuses from force effects still apply. The subject gains DR 10/ magic and becomes immune to poison, sneak attacks, and critical hits. It can't attack or cast spells with verbal, somatic, material, or focus components while in gaseous form. This does not rule out the use of certain spells that the subj"
+    },
+    {
+      "name": "Hushing Arrow, Greater",
+      "type": "loot",
+      "equipped": false,
+      "description": "Description\nThis +1 arrow makes no sound on release or as it flies through the air. A creature struck by a hushing arrow must succeed at a DC 13 Will save or be affected by silence (as the spell) for 5 rounds. The silence effect is not triggered by arrows that miss or those that strike an inanimate object.  A greater hushing arrow functions just like a normal hushing arrow, except the target must succeed at a DC 16 Will save to avoid being silenced. Hushing bolts and greater hushing bolts can al"
+    },
+    {
+      "name": "Thundering Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Thundering\nA thundering weapon creates a cacophonous roar like abilities thunder whenever it strikes a target with a successful critical hit. The sonic energy does not harm the wielder. A thundering weapon deals an extra 1d8 points of sonic damage on a successful critical hit. If the weapon's critical multiplier is x3, add an extra 2d8 points of sonic damage instead, and if the multiplier is x4, add an extra 3d8 points of sonic damage. Subjects dealt critical hits by a thundering weapon must mak"
+    },
+    {
+      "name": "Sniper Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "This arrow subtley guides the hand of the shooter. When knocked to the string of any magical bow, this arrow begins to hum so softly only the wielder can hear it.\nFor each round the wielder holds the arrow knocked and moves no more than 30' per round, they gain a stacking +1 to hit bonus. The maximum for this bonus is +5. \nSniper arrows function as if their wielder has the Improved Critical feat, granting +4 to confirm critical hits."
+    },
+    {
+      "name": "Decapitator",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This greatsword was masterwork once. It bears many chips and dents and has several different types of leather wrapped together around the handle. It looks like a combination of several other broken weapons."
+    },
+    {
+      "name": "Ghost Touch Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Ghost Touch\nA ghost touch weapon deals damage normally against incorporeal creatures, regardless of its bonus. An incorporeal creature's 50% reduction in damage from corporeal sources does not apply to attacks made against it with ghost touch weapons. The weapon can be picked up and moved by an incorporeal creature at any time. A manifesting ghost can wield the weapon against corporeal foes. Essentially, a ghost touch weapon counts as both corporeal or incorporeal. This special ability can only "
+    },
+    {
+      "name": "Arrow of Silver",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows.\nSilver, Alchemical\nA complex process involving metallurgy and alchemy can bond silver to a weapon made of steel so that it"
+    },
+    {
+      "name": "Arrow +2",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Ustalav Patriot Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Patriotic\nA patriotic weapon radiates with the collective power and strength of a particular nation of people. If the wielder is a member of that nationality, he gains several benefits.\nIf the owner's target is confirmed to be a traitor or aggressor against Ustalav, the arrow ignores any concealment chance of 80% or lower, and can even make up to two 90-degree turns to hit the target.\nUpon striking such an enemy, the arrow emits a flash of bright light, illuminating the area round them for a mom"
+    },
+    {
+      "name": "Wack Juce",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Refreshingly intoxicating, Wack Juce is made with the finest synthetic oranges in Numeria, and the 3rd finest potato vodka in the world: Smashka Noble!\nEnjoy this sweet and soothing taste of home, you can almost hear the anthem of the Fatherland as you slurp!"
+    },
+    {
+      "name": "Silverdisc",
+      "type": "loot",
+      "equipped": true,
+      "description": "Most Numerian technological items are powered by electricity. While one can use the electricity provided by a generator, these are rare, expensive, and rarely portable. It's more common and practical to charge such items with batteries. A battery looks like a small silver disk that's etched with strange lines-the people of Numeria have taken to calling batteries \"silverdisks\" and sometimes use them as coins. A battery contains 10 charges when full; to charge an item with a battery, one simply sl"
+    },
+    {
+      "name": "Phase Locking Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Phase Locking\n\nA phase locking weapon interferes with dimensional travel. A creature damaged by a phase locking weapon is affected as though by the dimensional anchor spell for 1 round."
+    },
+    {
+      "name": "Commset 1m",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a built-in camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile—beyond this range, communication is impossible without enhancing the signal strength with a signal booster. The price and cost listed for this item are for a"
+    },
+    {
+      "name": "Gamekeeper's Cross",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This 3\" diameter amulet of wood bears an inscription in varisian across the back: \"They killed my uncle, the were-bear called \"Bern the Bloodsoaked.\" When they buried him, a great tree grew out of his grave within days. They chopped it down and burned it. I saved only this piece. Now for vengeance.\"\nThis item provides a number of benefits to a druid or ranger who holds it.\nIt acts as an amulet of Natural Armor +1.\nWhen the wearer recieves a  Barkskin spell, the amulet also casts Enlarge Person a"
+    },
+    {
+      "name": "Berzerker's Hash Recipe",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Warden's Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Functions as a ring of protection +1. When worn openly, it also grants +2 vs Fear Effects."
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Devastator",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This masterwork composite longbow has the word \"Devastator\" carved into it in common with barely legible script. \n\nIt shows the marks of an old weapon that has been repaired many times."
+    },
+    {
+      "name": "Arrow of Werewolf Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "Silver, Alchemical\nA complex process involving metallurgy and alchemy can bond silver to a weapon made of steel so that it bypasses the damage reduction of creatures such as lycanthropes.\nBane\nA bane weapon excels against certain foes. Against a designated foe, the weapon's enhancement bonus is +2 better than its actual bonus. It also deals an extra 2d6 points of damage against such foes."
+    },
+    {
+      "name": "Arrow of the Crusader (GBH)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Inscription written in flowing Taldane script down the shaft reads: \"Nothing will divert me from my purpose.\"\n\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\nUndead Bane\nA bane weapon excels against certain foes. Against a designated foe, the weapon's enhancement bonus is +2 better than its actual bonus. It also deals an extra 2d6 points of damage against such foes. To randoml"
+    },
+    {
+      "name": "Blood Caimon Tacos",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners!\nEnjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes."
+    },
+    {
+      "name": "Beer",
+      "type": "loot",
+      "equipped": false,
+      "description": "Most taverns, pubs, and monasteries brew their own beers to meet local demand. Since beer is inexpensive to produce in large quantities, it consistently provides a steady profit for these establishments."
+    },
+    {
+      "name": "Hell's Hot Cocoa",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Phase Locking Arrow (GBH)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Phase Locking\n\nA phase locking weapon interferes with dimensional travel. A creature damaged by a phase locking weapon is affected as though by the dimensional anchor spell for 1 round."
+    },
+    {
+      "name": "Boots of Landing",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These boots allow the wearer to recover instantly from a fall and can absorb some damage from falling once per day.\nThe wearer lands on her feet no matter how far she falls,\nand takes 2 fewer dice of damage from the fall than normal.\nConstruction\nRequirements Craft Wondrous Item, catfall; Cost 500 gp"
+    },
+    {
+      "name": "Dragonshart Hot Sawse",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Set your taste buds ablaze with this molten concoction of ill-advised ingredients from the furthest corners of the Inner Sea. You'll Inner-See-What-Youre-Made-Of with just a drop of this heat."
+    },
+    {
+      "name": "Silver Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows.\nSilver, Alchemical\nA complex process involving metallurgy and alchemy can bond silver to a weapon made of steel so that it"
+    },
+    {
+      "name": "Ghost Touch Arrow (GBH)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Ghost Touch\nA ghost touch weapon deals damage normally against incorporeal creatures, regardless of its bonus. An incorporeal creature's 50% reduction in damage from corporeal sources does not apply to attacks made against it with ghost touch weapons. The weapon can be picked up and moved by an incorporeal creature at any time. A manifesting ghost can wield the weapon against corporeal foes. Essentially, a ghost touch weapon counts as both corporeal or incorporeal. This special ability can only "
+    },
+    {
+      "name": "Ustalav Marshal Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Shield Of Faith",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Abjuration; Level Cleric 1, Oracle 1, Inquisitor 1; Domain Glory 1; Subdomain Agathion 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M (parchment with a holy text written on it)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration 1 min./level\n\n  \n\nThis spell creates a shimmering, magical field around the target that averts and deflects attacks. The spell grants the subject a +2 deflection bonus to AC, with an additional +1 to the bonus for every six levels yo"
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Arrow of Ghost Touch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Ghost Touch\nA ghost touch weapon deals damage normally against incorporeal creatures, regardless of its bonus. An incorporeal creature's 50% reduction in damage from corporeal sources does not apply to attacks made against it with ghost touch weapons. The weapon can be picked up and moved by an incorporeal creature at any time. A manifesting ghost can wield the weapon against corporeal foes. Essentially, a ghost touch weapon counts as both corporeal or incorporeal. This special ability can only "
+    },
+    {
+      "name": "Beat Your Meat",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A cookbook for carnivorous barbarians. This item grants +5 circumstance bonus on cooking checks when used to \"take 10\" or the book is consulted for at least 10 minutes. It also contains a number of famous recipes from all over Ustalav, each slightly improved by the author.\nConquer your hunger with a symphony of carnivorous decadence, forging legends through each ravenous bite, and embracing the primal ecstasy that only the flesh of the slain can provide.\nSavage Sustenance"
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Beast Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This bubbling and glowing beverage tastes like a thick dark ale. While sipping, one can hear the authentic 'Call of the Beast of Lepidstadt' from somewhere out in the Northern Swamps where the creature still lurks today, waiting for his next victim!"
+    },
+    {
+      "name": "Belt of Incredible Dexterity & Muleback",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt has a large silver buckle, usually depicting the image of a tiger.\nThe belt grants the wearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.\nConstructionRequirements Craft Wondrous Item, Cat's Grace; Cost 2,000 gp"
+    },
+    {
+      "name": "Milt Slaying Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Description\nThis +1 arrow is keyed to a particular type or subtype of creature. If it strikes such a creature, the target must succeed at a DC 20 Fortitude save or take 50 points of damage. Note that even creatures normally exempt from Fortitude saves (undead and constructs) are subject to this attack.\n\nAccording to a very clearly written runic inscription along the arrow shaft, this weapon is keyed to a very specific creature. If the target is Human, Male, named Milton/Milt/Mil or next of kin t"
+    },
+    {
+      "name": "Potion of Divine Favor",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Evocation; Level Cleric 1, Oracle 1, Paladin 1, Inquisitor 1; Domain Nobility 1; Subdomain Archon 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, DF\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 1 Minutes\n\n  \n\nCalling upon the strength and wisdom of a deity, you gain a +1 luck bonus on attack and weapon damage rolls for every three caster levels you have (at least +1, maximum +3). The bonus doesn't apply to spell damage."
+    },
+    {
+      "name": "Arrow of Undead Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows.\nSilver, Alchemical\n\nA complex process involving metallurgy and alchemy can bond silver to a weapon made of steel so that i"
+    },
+    {
+      "name": "Hollow Book",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 15 gp; Weight 3 lbs.\nCategory Adventuring Gear\nDescriptionUnder regular scrutiny, a hollow book appears as a normal tome. However, it is designed to hold a concealed item within its pages. One type of hollow book simply has a cavity cut into the interior pages that can hold a small pouch or similar item. Flipping the cover of this type of book open instantly reveals its true nature. Another type has a much thinner cavity cut into its unusually thick cover. The cavity is concealed by the bo"
+    },
+    {
+      "name": "Tater Tot Hot Dish",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance\nProvides Enlarge Person for 30 minutes.\nThe recipe for this hearty creation was gifted to me by Zokar Elkarid, the owner of Ravengo’s own Laughing Demon! While it isn’t his signature horror-themed fare, Zokar told me this is what he enjoys on his day off. Tater tot hotdish combines golden tater tots, succulent ground meat, and a symphony of vegetables, bound together by a velvety sauce. It is a feast fit for champions, promising satisfaction and nourishment"
+    },
+    {
+      "name": "Soothe",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This strange, pink, gel-like substance is generally contained in a small glass jar that holds 1 dose.\nA single dose of soothe dulls pain and creates a euphoric sensation, particularly when applied to an open wound. Rubbing a dose of soothe onto one's skin or imbibing the faintly citrusflavored stuff cures 1 point of damage, but rubbing a dose onto a wound received in the last minute heals the user of 1d8 points of damage.\nIn addition, for the next minute, the user becomes immune to bleed damage "
+    },
+    {
+      "name": "The Reach",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Reach is a legendary weapon, forged a century ago for Numeria’s greatest warrior, a master of all weapons and combat styles, known simply as Zalren the Undefeated. Zalren's name is etched into history, not just for his peerless skill in battle, but for his philosophical approach to combat, in which he believed adaptability and precision were the keys to defeating any foe. Legend holds that the Black Sovereign himself, ruler of Numeria, trained under Zalren in his youth, inheriting much of th"
+    },
+    {
+      "name": "Crusader's Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Inscription written in flowing Taldane script down the shaft reads: \"Nothing will divert me from my purpose.\"\n\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\nUndead Bane\nA bane weapon excels against certain foes. Against a designated foe, the weapon's enhancement bonus is +2 better than its actual bonus. It also deals an extra 2d6 points of damage against such foes. To randoml"
+    },
+    {
+      "name": "Carbon Steel Curved Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Compatible Proficiency: Cutlass, Scimitar, Falchion, Longsword.\n\n \n\nAdvanced alloy & construction process causes this blade to pierce DR as an adamantine weapon.  It's creation process is impossible with any known tech or craftsmen on Golarion.\n\n \n\nThis graceful, curving blade further increases the drama inherent in sword fighting."
+    },
+    {
+      "name": "Caydenbrew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Adventurer's Armory pg. 19\nPrice 5 cp/mug; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionThis ale is the standard beer drunk in Absalom. The recipe was said to be the last beer Cayden Cailean had before he undertook the Test of the Starstone. The hops for this beer were originally grown on the Isle of Kortos, but the massive brewery now imports from Andoran and Taldor."
+    },
+    {
+      "name": "Arrow of Undead Bane (GBH)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows.\nSilver, Alchemical\n\nA complex process involving metallurgy and alchemy can bond silver to a weapon made of steel so that i"
+    },
+    {
+      "name": "Great Buffalo Hunt",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Made from the horns of a great buffalo, this Orcish-Hornbow is a massive compound bow that requires a +4 strength bonus to use.\nIt also requires custom ammunition, as regular arrows are snapped into pieces by the greater forces exerted by this weapon. Properly built and treated arrows for GBH are enchanted at least +1 to survive being fired out of it. On impact, they explode in a small but potent 2' diameter orange fireball.\nThe noise of the impacts from this weapon can be heard for miles. It is"
+    },
+    {
+      "name": "Potion of Bull's Strength",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual benefits to melee attack rolls, melee damage rolls, and other uses of the Strength modifier."
+    }
+  ]
+}

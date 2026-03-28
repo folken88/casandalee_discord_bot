@@ -1,0 +1,25 @@
+{
+  "name": "Succubus",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 84
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 17,
+    "con": 20,
+    "int": 18,
+    "wis": 14,
+    "cha": 27
+  },
+  "items": []
+}

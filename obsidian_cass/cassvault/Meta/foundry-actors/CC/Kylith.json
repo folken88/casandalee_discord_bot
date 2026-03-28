@@ -1,0 +1,44 @@
+{
+  "name": "Kylith",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Tiefling",
+  "classes": [
+    {
+      "name": "Slayer",
+      "level": 11
+    }
+  ],
+  "hp": {
+    "max": 89
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 12,
+    "int": 12,
+    "wis": 11,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Kukri +1",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A kukri is a curved blade, about 1 foot in length."
+    },
+    {
+      "name": "Chain Shirt MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Composite Longbow +1",
+      "type": "weapon",
+      "equipped": true,
+      "description": "You need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted.\n\nAll composite bows are made with a particular Strength rating (that is, each requires a minimum Strength modifier to use with proficiency). If your Strength bonus is less than the strength rating of the composite bow, you can’t effectively use it, so you take a –2 penalty on attacks with it. The default composite longbow requires a Strength modifier of +0 or higher to use with profic"
+    }
+  ]
+}

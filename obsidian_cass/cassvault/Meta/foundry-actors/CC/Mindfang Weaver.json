@@ -1,0 +1,29 @@
+{
+  "name": "Mindfang Weaver",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Psychic",
+      "level": 5
+    },
+    {
+      "name": "Predator",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 46
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 20,
+    "con": 18,
+    "int": 18,
+    "wis": 12,
+    "cha": 12
+  },
+  "items": []
+}

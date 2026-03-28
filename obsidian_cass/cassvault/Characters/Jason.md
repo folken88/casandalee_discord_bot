@@ -1,19 +1,44 @@
 ---
 name: "Jason"
 type: character
-race: "Unknown"
-class: "Unknown"
-level: ?
-
-aliases: []
-tags: ["character"]
-created: ""
-updated: "2026-03-25T16:03:29.271Z"
+campaign: HV
+race: "Tiefling"
+class: "Divine Scion 6 / Cleric 8"
+hp: 44
+player: "Charles"
+tags: ["character", "pc", "hv"]
+foundry_synced: "2026-03-28"
 ---
 
 # Jason
 
-**Race:** Unknown | **Class:** Unknown
+**Race:** Tiefling | **Class:** Divine Scion 6 / Cleric 8 | **HP:** 44 | **Player:** Charles
+**STR** 14 | **DEX** 12 | **CON** 14 | **INT** 12 | **WIS** 20 | **CHA** 12
+
+## Key Equipment
+- **Abbie's Ring** (equipment, equipped) — Constant Freedom of Movement, Resist Energy (Fire: 20). If this fire resistance pushes the wearer's total to 30 or greater, they become immune to fire.
+- **Headband of Inspired Wisdom +4** (equipment, equipped) — This simple bronze headband is decorated with an intricate pattern of fine green etchings.  The headband grants the wearer an enhancement bonus to Wisdom of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn.
+- **Potion of Invisibility** (consumable, equipped) — The creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so. Items dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light
+- **Eyes Of The Eagle** (equipment, equipped) — Description These lenses are made of special crystal and fit over the eyes of the wearer. They grant a +5 competence bonus on Perception checks. Both lenses must be worn to gain the benefit. Wearing only one causes a character to become dizzy and stunned for 1 round. Base Item:  RequirementsCraft Wondrous Item, clairaudience/clairvoyance Source: Ultimate Equipment
+- **Potion of Cure Moderate Wounds** (consumable, equipped) — Aura faint conjuration; CL 3rd  Spell Description When laying your hand upon a living creature, you channel positive energy that cures 2d8 points of damage +1 point per caster level (maximum +10). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage.
+- **Ring of Protection +3** (equipment, equipped) — This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.
+- **Potion of Cure Critical Wounds** (consumable, equipped) — This spell functions like cure light wounds, except that it cures 4d8 points of damage + 1 point per caster level (maximum +20).
+- **Potion of Cure Critical Wounds** (consumable, equipped) — This spell functions like cure light wounds, except that it cures 4d8 points of damage + 1 point per caster level (maximum +20).
+- **Wand of Cure Serious Wounds** (consumable, equipped) — This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15).
+- **Potion of Disguise Self: peasant** (consumable, equipped) — You make yourself--including clothing, armor, weapons, and equipmen--look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender. The spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile
+- **Demon's Sack** (container, equipped) — Part of the Carriers by Calvin line of luxury containers, this finely crafted leather satchel has runework hidden in its stitching. This dimensional pocket magically stores up to 50 cubic feet of items, and reduces their material-plane-weight by 69%.
+- **Belt of Mighty Constitution +4** (equipment, equipped) — This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.
+- **Book of Terrors** (equipment, equipped) — This book only be claimed by one owner. It can only be read by them. To all others, the pages are blank. If the owner is ever killed, the pages are erased and the book can take a new owner.  The book has 9 blank chapters, each marked by a numbered heading. When the full name of any creature of Hell, Heaven, or Abaddon is written into the appropriate chapter for their power level, the book gains the ability to summon any one of those creatures once per month planar-binding with no conditions or c
+- **Scroll of Protection from Good, Communal** (consumable, equipped) — This spell functions like Protection from Good, except you divide the duration in 1-minute intervals among the creatures touched.
+- **Potion of Cure Light Wounds** (consumable, equipped) — Aura faint conjuration; CL 1st  Spell Description When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage.
+- **Outfit, Entertainer's** (equipment) — Source Ultimate Equipment pg. 89, PRPG Core Rulebook pg. 159 Price  3 gp; Weight  4 lbs. Category Clothing DescriptionThis set of flashy-perhaps even gaudy- clothes is meant for entertaining. Entertainer's outfits come in a wide range of styles, from scandalous to flattering to absurd. While the outfit looks whimsical, its practical design does nothing to inhibit your ability to tumble, dance, walk a tightrope, or run (if the audience turns ugly).
+- **Serpentine Owl Figurine of Wondrous Power** (consumable, equipped) — This figurine becomes either a normal-sized horned owl or a giant owl (use the stats for the giant eagle) according to the command word used. The owl communicates with its owner by telepathic means, informing her of all it sees and hears.  The transformation can take place once per day, with a maximum duration of 8 continuous hours. However, after three transformations into giant owl form, the statuette loses all its magical properties.
+- **Numerian Adaptive Plate** (equipment, equipped) — Description As an immediate action, the wearer can command the armor to shift its plates to provide different benefits. Each mode lasts for 1 minute and the suit can activate a mode 3x per day. The following configurations are possible:  Seamless Mode: The plates connect along perfectly formed lines sealing every joint against slashing attacks which provides DR 10 vs slashing. In this mode, the wearer is sealed in with 1 minute of air, sealing out any liquids or gasses.  Mobility Mode: The great
+- **Potion of Feather Fall** (consumable, equipped) — Aura faint transmutation; CL 1st  The affected creatures or objects fall slowly. Feather fall instantly changes the rate at which the targets fall to a mere 60 feet per round (equivalent to the end of a fall from a few feet), and the subjects take no damage upon landing while the spell is in effect. When the spell duration expires, a normal rate of falling resumes. The spell affects one or more Medium or smaller creatures (including gear and carried objects up to each creature's maximum load) or
+- **Cloak of Resistance +3** (equipment, equipped) — This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).
+- **Force Pike** (weapon, equipped) — Allows you to manipulate others, for good or evil.     The Force-Pike is at the very least, a sturdy weapon. To the trained user however, it is much more.     To those with at least +4 base attack, it grants the following powers: Feat: Improved Bull Rush (+2br and +2vs br)  To those with at least +8 base attack, it also grants: Feat: Greater Bull Rush (+2br and +2vs br, stacks w above)  The Force-Pike's Bull-Rush attempts always use the wielders HD instead of BAB to compute CMD, and can use DEX,
+- **Amulet of Natural Armor +2** (equipment, equipped) — Aura moderate transmutation; CL 6th  This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet.
+- **Potion of Expeditious Retreat** (consumable, equipped) — Aura faint transmutation; CL 1st  This spell increases your base land speed by 30 feet. This adjustment is treated as an enhancement bonus. There is no effect on other modes of movement, such as burrow, climb, fly, or swim. As with any effect that increases your speed, this spell affects your jumping distance (see the Acrobatics skill).
 
 ## Notes & Updates
 

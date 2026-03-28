@@ -1,0 +1,44 @@
+{
+  "name": "Knuckles Grype",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Fighter (Brawler)",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 76
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 17,
+    "con": 14,
+    "int": 10,
+    "wis": 8,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Belt of Giant Strength +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt is a thick leather affair, often decorated with huge metal buckles. The belt grants the wearer an enhancement bonus to Strength of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Spiked Gauntlet",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Benefit: An attack with a spiked gauntlet is considered an armed attack. Your opponent cannot use a disarm action to disarm you of spiked gauntlets.\n\nNote: The cost and weight given are for a single gauntlet."
+    },
+    {
+      "name": "Breastplate (Agile) +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for Climb checks and Acrobatics checks made to jump is only –1 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty)."
+    }
+  ]
+}

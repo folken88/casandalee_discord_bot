@@ -1,0 +1,36 @@
+{
+  "name": "Belligerent Spirit",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Race: Undead",
+  "classes": [
+    {
+      "name": "Technomancer",
+      "level": 3
+    },
+    {
+      "name": "Wizard",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 46
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 10,
+    "int": 20,
+    "wis": 12,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    }
+  ]
+}

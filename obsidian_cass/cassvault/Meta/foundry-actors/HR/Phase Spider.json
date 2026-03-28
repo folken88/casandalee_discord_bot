@@ -1,0 +1,25 @@
+{
+  "name": "Phase Spider",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Magical Beast",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 51
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 17,
+    "con": 16,
+    "int": 7,
+    "wis": 13,
+    "cha": 10
+  },
+  "items": []
+}

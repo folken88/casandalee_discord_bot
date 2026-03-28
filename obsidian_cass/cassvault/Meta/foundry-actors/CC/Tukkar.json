@@ -1,0 +1,25 @@
+{
+  "name": "Tukkar",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Magical Beast",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 144
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 10,
+    "con": 24,
+    "int": 2,
+    "wis": 16,
+    "cha": 9
+  },
+  "items": []
+}

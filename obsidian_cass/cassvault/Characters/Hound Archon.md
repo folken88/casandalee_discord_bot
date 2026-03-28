@@ -1,17 +1,20 @@
 ---
 name: "Hound Archon"
-type: character
-race: "Unknown"
-class: "Unknown"
-level: ?
-
-aliases: []
-tags: ["character"]
-created: ""
-updated: "2026-03-25T17:07:45.548Z"
+type: npc
+campaign: HV
+class: "Paladin 6"
+hp: 52
+tags: ["character", "npc", "hv"]
+foundry_synced: "2026-03-28"
 ---
 
 # Hound Archon
+
+**Class:** Paladin 6 | **HP:** 52
+**STR** 16 | **DEX** 10 | **CON** 14 | **INT** 10 | **WIS** 14 | **CHA** 14
+
+## Key Equipment
+- **The Bite of Steel** (weapon, equipped) — This immense two-handed sword is about 5 feet in length. A greatsword may have a dulled lower blade that can be gripped.
 
 ## Notes & Updates
 

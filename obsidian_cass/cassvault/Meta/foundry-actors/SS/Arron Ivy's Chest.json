@@ -1,0 +1,57 @@
+{
+  "name": "Arron Ivy's Chest",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Silver Tankard",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice 2 cp; Weight 1 lb.\nCategory Adventuring Gear\nDescriptionWhether it is a simple pottery cup or an elaborate drinking stein with a handle and decorative lid that flips up, this cup may be used to hold any sort of beverage. Tankards are commonly made out of clay or tin."
+    },
+    {
+      "name": "Outfit, Courtier's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 89, PRPG Core Rulebook pg. 159\nPrice  30 gp; Weight  6 lbs.\nCategory Clothing\nDescriptionThis outfit includes tailored clothes in whatever fashion happens to be current in noble courts of that region. Anyone trying to influence nobles or courtiers while wearing street dress will have a hard time of it (-2 penalty on Charisma-based skill checks to influence such individuals). If you wear this outfit without jewelry (costing an additional 50 gp), you look like an out-"
+    },
+    {
+      "name": "Silver Locket",
+      "type": "loot",
+      "equipped": false,
+      "description": "A silver locket depicting a beautiful, buxom young blonde woman."
+    },
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    },
+    {
+      "name": "Ring Of Swimming",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThis silver ring usually has fishlike designs and motifs etched into the band. It continually grants the wearer a +5 competence bonus on Swim checks.\nBase Item: \nRequirementsForge Ring, creator must have 5 ranks in Swim\nSource: Ultimate Equipment"
+    },
+    {
+      "name": "Spear",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 2 gp Weight 6 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range 20 ft.; Type P; Special brace\nCategory Two-Handed; Proficiency Simple\nWeapon Groups Spears; Thrown; Tribal\nDescriptionA spear is 5 feet in length and can be thrown."
+    }
+  ]
+}

@@ -4,7 +4,7 @@ type: timeline
 campaign: "SS"
 campaignName: "Skull & Shackles"
 eventCount: 35
-lastSync: "2026-03-26T17:36:09.082Z"
+lastSync: "2026-03-28T04:13:11.862Z"
 tags: ["timeline", "ss"]
 ---
 
@@ -49,56 +49,3 @@ tags: ["timeline", "ss"]
 | 4717.04.20 | Windward Isle | Storgrim & crew battle Maven & Fugly the Harpy Himbo, they destroy the coven and retrieve the Cumbers of Ustalav chapter 9 for Tidewater. |
 | 4717.04.24 | Windward Isle | The TPK is badly damaged in a storm while navigating the rocky Eastern coast of Windward Isle. |
 | 4717.04.26 | Tidewater Rock | Battle of Tidewater Blockade. 2 Bronze Fleet & 1 Chelish Frigate are taken by the Goatshead fleet with TPK Crew as their boarding party. |
-
-### From: Shackles - No Concept of Personal Space 2025 04 24
-
-- **Buhan is dead.**
-  - Characters: [[Buhan]]
-- **Shaf was captured by the enemy.**
-  - Characters: [[Shaf]]
-- **Exploration of a collapsed tunnel system.** *(Underground cave in Gol Khazak)*
-  - Characters: [[Bujon, Sorak]]
-- **Combat with a wraith starts.**
-  - Characters: [[Swagen]], [[Wraith]]
-- **Holden flanked an opponent and helped in combat.**
-  - Characters: [[Holden]]
-- **Riarch put Vaughn as a hero and knocked him down, causing his bones to crumble into little bits.**
-  - Characters: [[Riarch]], [[Vaughn]]
-- **Storrim had a discovery torch and was running into a crowd of zombies.** *(south of Storrim)*
-  - Characters: [[Storrim]]
-- **Dwarven undead emerge from a door after being attacked by the group.**
-  - Characters: [[Group of players]], [[Dwarven undead]]
-- **The speaker attacks Fish with a hammer, causing multiple hits and eventually killing him.**
-  - Characters: [[speaker]], [[Fish]]
-- **Characters engage in combat and discover a dwarf corpse with items.** *(Underwater cave or nearby area)*
-  - Characters: [[Sorak]], [[Holden]], [[Van]]
-- **Reincarnation of Bujon as an Iku-Turso** — Correlates to: 4717.04.12
-  - Characters: [[Bujon]]
-- **Identifying and discussing Kez Kestrel's shield and armor.**
-  - Characters: [[speaker]], [[Riarcha]], [[wami]]
-- **Buhan was slain by a character** *(On land)*
-  - Characters: [[character who killed Buhan]]
-- **Riviera is late and spits at her** *(On land)*
-  - Characters: [[character who noticed Riviera's lateness and spitting]]
-- **Holden attacks the door loudly and destructively.**
-  - Characters: [[Holden]]
-- **The group encounters a large room with an old dead war machine and a strange furnace.** *(A huge room with a giant Strange looking machine)*
-  - Characters: [[Holden]], [[Ryan]]
-- **Characters prepare to fight potential undead creatures in a room.**
-  - Characters: [[Storrim]], [[Vaughn]]
-- **Combat against a ring zombie and other zombies in a hallway.** *(Unknown location within a building or dungeon.)*
-  - Characters: [[Sorak]], [[Riviera]]
-- **Characters engaged in combat against zombie-like enemies.**
-  - Characters: [[Sha Feng]], [[Storm Grim]], [[Fish]]
-- **A spell was cast using the scroll, removing blindness/deafness.**
-  - Characters: [[Holden]], [[players]]
-- **An axe with a challenge was activated and used in combat.**
-  - Characters: [[Holden]], [[soldiers]]
-- **A character named Shaong was nearly killed by Holden's character but survived.**
-  - Characters: [[Holden]], [[Shaong]]
-- **Fish boy is directed and attacked by a soldier.**
-  - Characters: [[Fish boy]], [[Soldier]]
-- **Combat against enemies, including a soldier and a cleric.**
-  - Characters: [[I]], [[Storm]], [[Wami]]
-- **Combat session with characters fighting soldiers, an undead, and dealing with webbed enemies**
-  - Characters: [[Wami]], [[Storm]], [[Lieutenant Dan]]

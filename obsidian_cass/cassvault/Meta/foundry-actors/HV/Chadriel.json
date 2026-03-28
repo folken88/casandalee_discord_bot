@@ -1,0 +1,36 @@
+{
+  "name": "Chadriel",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Celestial",
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 2
+    },
+    {
+      "name": "Paladin",
+      "level": 13
+    }
+  ],
+  "hp": {
+    "max": 215
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 18,
+    "con": 16,
+    "int": 16,
+    "wis": 16,
+    "cha": 18
+  },
+  "items": [
+    {
+      "name": "Goldenrod",
+      "type": "weapon",
+      "equipped": true,
+      "description": "45 pounds of gold plated justice."
+    }
+  ]
+}

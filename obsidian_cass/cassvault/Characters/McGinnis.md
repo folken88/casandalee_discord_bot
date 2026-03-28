@@ -1,17 +1,22 @@
 ---
 name: "McGinnis"
 type: character
-campaign: "IG"
-tags: [character, ig]
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T02:33:08.544Z"
 ---
 
 # McGinnis
 
+## Notes & Updates
 
-
+- Accused others of being a spy and joined the party. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Test Video GrVccgefn9g
-Party member asking practical questions about entry and exit strategy
-
+*Session activity from YouTube transcripts will appear here.*

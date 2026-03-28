@@ -1,0 +1,32 @@
+{
+  "name": "Bahari-Kofi Longspear",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Tengu",
+  "classes": [
+    {
+      "name": "Ranger",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 22
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 13,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Bahari-Kofi Longspear",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A longspear is about 8 feet in length."
+    }
+  ]
+}

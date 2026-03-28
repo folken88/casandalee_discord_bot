@@ -1,0 +1,146 @@
+{
+  "name": "Dietrick",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Dwarf",
+  "classes": [
+    {
+      "name": "Slayer",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 14,
+    "int": 14,
+    "wis": 12,
+    "cha": 13
+  },
+  "items": [
+    {
+      "name": "Vomit Capsule",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Advanced Class Guide pg. 208\nPrice 12 gp; Weight -\nCategory Alchemical Tools\nDescriptionThese small capsules consist of a concentrated mix of nauseainducing herbs. To use a capsule, you bite down and ingest its contents, which almost immediately cause you to projectile vomit. The vomiting lasts 1 full round, during which you can take no other actions. The following round you recover fully, and suffer no other ill effects. These capsules are most often used by rogues working in teams to cr"
+    },
+    {
+      "name": "Weird Edge",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, PRPG Core Rulebook pg. 143\nStatisticsCost 30 gp Weight 8 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical x3; Range -; Type S; Special -\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Axes\nDescriptionA dwarven waraxe has a large, ornate head mounted on a thick handle, making it too large to use in one hand without special training; thus, it is an exotic weapon. A Medium character can use a dwarven waraxe two-handed as a martial weapon, or a Large creature"
+    },
+    {
+      "name": "Studded Leather Armor +1",
+      "type": "equipment",
+      "equipped": false,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost 2 gp Weight 1 lb.\nDamage 1d3 (small), 1d4 (medium); Critical 19-20/x2; Range 10 ft.; Type P or S; Special -\nCategory Light; Proficiency Simple\nWeapon Groups Blades, Light; Thrown; Tribal\nDescriptionA dagger is a fighting knife. Its blade is usually less than 1 foot long, and can be curved or straight, with one edge or two. Dagger designs vary widely, and can have many different names (such as a thrusting dagger being cal"
+    },
+    {
+      "name": "Brass Knuckles",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, Adventurer's Armory pg. 2, Advanced Player's Guide pg. 176\nStatisticsCost 1 gp Weight 1 lb.\nDamage 1d2 (small), 1d3 (medium); Critical x2; Range -; Type B; Special monk, see text\nCategory Light; Proficiency Simple\nWeapon Groups Close; Monk\nDescriptionThese weapons fit snugly around the knuckles and allow you to deal lethal damage with an unarmed strike. You may hold, but not wield, a weapon or other object in a hand wearing brass knuckles. You may cast a spell w"
+    },
+    {
+      "name": "Backpack, Masterwork",
+      "type": "container",
+      "equipped": true,
+      "description": "This backpack has numerous pockets for storing items that might be needed while adventuring. Hooks are included for attaching items such as canteens, pouches, or even a rolled-up blanket. It has padded bands that strap across the chest and the waist to distribute its weight more evenly. Like a common backpack, it can hold about 2 cubic feet of material in its main container. When wearing a masterwork backpack, treat your Strength score as +1 higher than normal when calculating your carrying capa"
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Potion of Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light"
+    },
+    {
+      "name": "Powder",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 57, Adventurer's Armory pg. 19, Pathfinder Society Field Guide pg. 48, Advanced Player's Guide pg. 183\nPrice 1 cp; Weight 1/2 lb.\nCategory Adventuring Gear\nDescriptionPowdered chalk, flour, and similar materials are popular with adventurers for their utility in pinpointing invisible creatures. Throwing a bag of powder into a square is an attack against AC 5, and momentarily reveals whether an invisible creature is there. A much more effective method is to spread pow"
+    },
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "+1 Heavy Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 142, Ultimate Equipment pg. 17\nStatisticsCost 50 gp Weight 8 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range 120 ft.; Type P; Special -\nCategory Ranged; Proficiency Simple\nWeapon Groups Crossbows\nDescriptionYou draw a heavy crossbow back by turning a small winch. Loading a heavy crossbow is a full-round action that provokes attacks of opportunity. A heavy crossbow fires crossbow bolts.\n\n Normally, operating a heavy cros"
+    },
+    {
+      "name": "Potion of Bull's Strength",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject becomes stronger. The spell grants a +4 enhancement bonus to Strength, adding the usual benefits to melee attack rolls, melee damage rolls, and other uses of the Strength modifier."
+    },
+    {
+      "name": "Scroll of Ant Haul",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The target's carrying capacity triples (see Table 7-4: Carrying Capacity on page 171 of the Core Rulebook). This does not affect the creature's actual Strength in any way, merely the amount of material it can carry while benefiting from this spell. It also has no effect on encumbrance due to armor. If the creature wears armor it still takes the normal penalties for doing so regardless of how much weight the spell allows it to carry."
+    },
+    {
+      "name": "Tools, Thieves' (Masterwork)",
+      "type": "loot",
+      "equipped": false,
+      "description": "This kit contains lockpicks and other tools you need to use the @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} checks.\n\nThis kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on @Compendium[pf1.skills.CCy1fajKKU3K02iQ]{Disable Device} checks."
+    },
+    {
+      "name": "+3 Mithral Chainmail",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Unlike a chain shirt, which covers only the chest, chainmail protects the wearer with a complete mesh of chain links that cover the torso and arms, and extends below the waist. Multiple interconnected pieces offer additional protection over vital areas. The suit includes gauntlets.\nMithral\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well. Most mithral armo"
+    },
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Thunderstone",
+      "type": "consumable",
+      "equipped": true,
+      "description": "ThunderstoneSource Alchemy Manual pg. 31, Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158\nPrice 30 gp; Weight 1 lb.\nCategory Alchemical WeaponsDescriptionYou can throw this stone as a ranged attack with a range increment of 20 feet. When it strikes a hard surface (or is struck hard), it creates a deafening bang that is treated as a sonic attack. Each creature within a 10-foot-radius spread must make a DC 15 Fortitude save or be deafened for 1 hour. A deafened creature, in addition to the "
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Potion of Enlarge Person",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell causes instant growth of a humanoid creature, doubling its height and multiplying its weight by 8. This increase changes the creature's size category to the next larger one. The target gains a +2 size bonus to Strength, a -2 size penalty to Dexterity (to a minimum of 1), and a -1 penalty on attack rolls and AC due to its increased size.\nA humanoid creature whose size increases to Large has a space of 10 feet and a natural reach of 10 feet. This spell does not change the target's speed"
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    }
+  ]
+}

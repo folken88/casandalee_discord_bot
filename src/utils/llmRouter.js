@@ -306,14 +306,20 @@ class LLMRouter {
                 }
             }
             // Fallback: Ollama fast model (free, local, fits in VRAM)
+            // Use fallbackSystem prompt if provided (structured facts instead of full vault dump)
             try {
-                const text = await this.ollamaGenerate(prompt, {
+                const ollamaOpts = {
                     ...options,
                     model: this.ollamaModelFast,
                     maxTokens: options.maxTokens || 250,
                     temperature: options.temperature ?? 0.7,
                     timeout: 60000
-                });
+                };
+                if (options.fallbackSystem) {
+                    ollamaOpts.system = options.fallbackSystem;
+                    logger.info('📋 Using structured fact sheet for Ollama fallback');
+                }
+                const text = await this.ollamaGenerate(prompt, ollamaOpts);
                 if (text && text.trim().length > 0) {
                     return { text: text.trim(), provider: 'ollama-fallback' };
                 }

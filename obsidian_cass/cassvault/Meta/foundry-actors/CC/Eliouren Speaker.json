@@ -1,0 +1,50 @@
+{
+  "name": "Eliouren Speaker",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Elf",
+  "classes": [
+    {
+      "name": "Druid",
+      "level": 11
+    }
+  ],
+  "hp": {
+    "max": 19
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 16,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "+2 Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Boots of Elvenkind",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These soft boots are partially made out of living leaves and other natural materials. They enable the wearer to move nimbly about in virtually any surroundings, granting a +5 competence bonus on Acrobatics checks.\nConstructionRequirements Craft Wondrous Item, creator must be an elf; Cost 1,250 gp"
+    },
+    {
+      "name": "Eliouren Branched Spear",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Eliouren weapons are all effectively Ghost-Touch."
+    },
+    {
+      "name": "Cloak of Elvenkind",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These cloaks of famed elven design are enhanced to reflect the wearer's surroundings, aiding him in blending in with any terrain. When this plain gray cloak is worn with the hood drawn up around the head, the wearer gains a +5 competence bonus on Stealth checks.\nConstructionRequirements Craft Wondrous Item, invisibility, creator must be an elf; Cost 1,250 gp"
+    }
+  ]
+}

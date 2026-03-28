@@ -1,0 +1,25 @@
+{
+  "name": "Ancient Mariner",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Undead",
+  "classes": [
+    {
+      "name": "Undead (Aquatic)",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 72
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 10,
+    "con": 0,
+    "int": 6,
+    "wis": 14,
+    "cha": 15
+  },
+  "items": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Longdreamer",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "magical beast",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 118
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 23,
+    "con": 18,
+    "int": 11,
+    "wis": 17,
+    "cha": 18
+  },
+  "items": []
+}

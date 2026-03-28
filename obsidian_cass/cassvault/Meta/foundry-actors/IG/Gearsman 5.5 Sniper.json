@@ -1,0 +1,46 @@
+{
+  "name": "Gearsman 5.5 Sniper",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Rogue (Unchained)",
+      "level": 3
+    },
+    {
+      "name": "Gunslinger",
+      "level": 7
+    },
+    {
+      "name": "Construct",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 82
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 24,
+    "con": 14,
+    "int": 14,
+    "wis": 14,
+    "cha": 8
+  },
+  "items": [
+    {
+      "name": "Makeshift Greatsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsCost 50 gp Weight 8 lbs.\nDamage 1d10 (small), 2d6 (medium); Critical 19-20/x2; Range -; Type S; Special -\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis immense two-handed sword is about 5 feet in length. A greatsword may have a dulled lower blade that can be gripped."
+    },
+    {
+      "name": "DVL-10 Saboteur",
+      "type": "weapon",
+      "equipped": true,
+      "description": "DVL-10 is a lightweight, compact, and silenced rifle in proprietary and current military subsonic calibers and has been developed for special service and combat missions where exceptional accuracy and range are needed. Equipped with a standard Lobaev foldable butt-stock and Lobaev Hummer Barrels stainless steel match-grade barrel.\n\n \n\nWith the bipod planted and a full-round of uninterupted concentration, this weapon enables Sneak-Attacks at up to 3 range increments.\n\n \n\nVudu Scope halves range n"
+    }
+  ]
+}

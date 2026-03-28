@@ -1,0 +1,38 @@
+{
+  "name": "The Shade (dead)",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Bard",
+      "level": 14
+    }
+  ],
+  "hp": {
+    "max": 50
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 16,
+    "int": 12,
+    "wis": 10,
+    "cha": 21
+  },
+  "items": [
+    {
+      "name": "+2 Mithral Chainmail",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Unlike a chain shirt, which covers only the chest, chainmail protects the wearer with a complete mesh of chain links that cover the torso and arms, and extends below the waist. Multiple interconnected pieces offer additional protection over vital areas. The suit includes gauntlets.\nMithral\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well. Most mithral armo"
+    },
+    {
+      "name": "Cybernetic Ears",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 37\nPrice 4,000 gp\nSlot ears; Weight 1 lb.\nInstall DC 28; Implantation 1\nDescriptionA cybernetic ear can be enhanced by cyberart at no additional cost, giving it an unusual color or shape. When a pair of ears is installed, the user gains a +2 circumstance bonus on Perception checks. This bonus stacks with circumstance bonuses on Perception checks from other cybernetic senses. Cybernetic ears grant a +4 resistance bonus on all saving throws against sonic effects.\n\n The "
+    }
+  ]
+}

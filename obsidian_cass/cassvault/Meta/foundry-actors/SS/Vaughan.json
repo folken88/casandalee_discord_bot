@@ -1,0 +1,152 @@
+{
+  "name": "Vaughan",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Half-Elf",
+  "classes": [
+    {
+      "name": "Magus",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 54
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 17,
+    "con": 12,
+    "int": 15,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Blood Caimon Tacos",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners!\nEnjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes."
+    },
+    {
+      "name": "Desert Coffee",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This particularly strong coffee is popular throughout the desert empires. A morning cup is a good cure for lack of rest, but many find that it becomes a habit.\nType ingested; Addiction minor, Fortitude DC 12\n8 hours; user ignores the effects of the fatigued condition.\nAfter 8 hours; the user becomes exhausted, which is reduced to fatigued only after at least 8 hours of rest (instead of 1 hour).\n1 Wis damage"
+    },
+    {
+      "name": "Bone Dice",
+      "type": "loot",
+      "equipped": false,
+      "description": "Made from most creatures, mainly ankle bones from animals or otherwise, however, hooves, horns, and even antlers were also used. In the past the dice were not used for games, were used by religious figures with rocks, sticks, or even animal entrails, for fortune-telling. In some of the more remote regions playing dice might be an insult and is advisable against it."
+    },
+    {
+      "name": "Chocolate",
+      "type": "loot",
+      "equipped": false,
+      "description": "Chocolate comes in many shapes, sizes, and tastes. It is a staple sweet primarily made from cocoa beans, sugar, and milk. A major ingredient used in many desserts such as pudding, cakes, and candy. It can be in a solid form like a candy bar or in a liquid form like hot chocolate, to fit various needs and tastes."
+    },
+    {
+      "name": "Potion of Levitate",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level alchemist 2, arcanist 2, investigator 2, magus 2, medium 2, mesmerist 2, occultist 2, psychic 2, shaman 2, sorcerer 2, spiritualist 2, summoner 2, summonerUnchained 2, witch 2, wizard 2; Domain Void 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, F (a leather loop or golden wire bent into a cup shape)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you or one willing creature or one object (total weight up to 100 lbs./level)\n\n  \n  Duration 1 min./level\n\n  \n\nLevitate a"
+    },
+    {
+      "name": "Bright Flame Sash",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A long crimson sash tied at the waist, this cloth never frays and trails glowing motes when Zhilin moves quickly. It flares when he moves through combat, accentuating every step of his deadly footwork.\nEffect: Grants +5 ft. enhancement bonus to base land speed.\nSpecial: Once per day, when the wearer uses Spell Combat, he may also cast Bladed Dash or Bladed Dash, Greater, if he has those spells prepared or spontaneously available."
+    },
+    {
+      "name": "Tortugan, the Walking War-Cannon",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Walking War-Cannon \"Tortugan\"Level 8 Construct (or Level 6 Animated Object)\nAura faint transmutation; CL 8th\nConstruction Cost 20,000 gp; Market Price 40,000 gp\nDescription:\nThe Walking War-Cannon, colloquially referred to as the \"Tortugan,\" is an ingenious construct designed to act as both a self-mobile artillery piece and a defensive asset. Forged by an unknown but undeniably brilliant artisan, this construct resembles a giant tortoise made of reinforced steel and brass. Its \"head\" is a long-b"
+    },
+    {
+      "name": "Cannon ball",
+      "type": "loot",
+      "equipped": true,
+      "description": "Source Inner Sea World Guide pg. 293\nPrice 30 gp; Weight 25 lbs.\nCategory Adventuring Gear\nDescriptionA cannon ball is the ammunition of a cannon and many other siege firearms. Picking up or drawing a cannon ball requires a move action for Medium and Small creatures, but is a free action for Large and larger creatures."
+    },
+    {
+      "name": "Radiance",
+      "type": "weapon",
+      "equipped": true,
+      "description": "'And the Sun shall never harm you, for it is but my embrace. When you fear the dark, keep me close to your heart, and wear a brave smile upon your face.'\nThese slightly curved swords measure just over 3 feet in length. An Aldori dueling sword can be used as a martial weapon (in which case it functions as a longsword), but if you have the feat Exotic Weapon Proficiency (Aldori dueling sword), you can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to"
+    },
+    {
+      "name": "Greenchaw",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Causes user's skin to exude a slimy green glowing substance that provides light & lubrication for 1d6 minutes as Grease & Light 30'."
+    },
+    {
+      "name": "Tukkar Horn",
+      "type": "loot",
+      "equipped": true,
+      "description": "Tukkar Horn of Vitality (Level 2 Wondrous Item)Price: 900 gp\nAura faint transmutation\nSlot —\nCL 2nd\nWeight 2 lbs\nDescriptionCarved from the naturally shed horn of a tukkar, this drinking vessel is reinforced with braided leather bands and etched with primal runes that resonate with life-giving energy. The horn retains the warmth of a living beast, faintly pulsing when filled with a healing potion.\nAny potion stored in the Tukkar Horn of Vitality for at least 1 round gains the following benefits "
+    },
+    {
+      "name": "Blood Caimon Hide",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Caimon Hide Armor is Buoyant and it bestows no armor check penalty on Swim checks attempted by the wearer. \nIt's smooth texture allows for smooth movement through water, granting a small swim-skill bonus.  \nIt is slightly lighter than conventional hide armor, and allows for greater dexterity. \nAll other armor check penalties apply as normal."
+    },
+    {
+      "name": "Spellbook",
+      "type": "loot",
+      "equipped": false,
+      "description": "A spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells). A newly purchased spellbook contains no spells. A wizard character begins play with a spellbook containing the spells he knows."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 1, Alchemist 1, Bard 1, Cleric 1, Druid 1, Hunter 1, Inquisitor 1, Investigator 1, Occultist 1, Oracle 1, Paladin 1, Ranger 2, Shaman 1, Skald 1, Spiritualist 1, Warpriest 1, Witch 1; Domain Healing 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets living creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nDescriptionWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points o"
+    },
+    {
+      "name": "Amulet of the Echo Line",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A simple iron disk on a leather cord, etched with the figure of a defiant dwarf sentinal. The wearer feels a comforting pressure at their back, as if others stand beside them in formation.\nEffect: Grants the wearer a +4 morale bonus on saving throws vs. fear and +2 on concentration checks when casting defensively.\nSpecial: Once per day, when the wearer drops to 0 HP or fewer, she may stay conscious for 1 extra round as though under the effects of heroic defiance (no action required). If used, th"
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).\nConstructionRequirements Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus; Cost 500 gp"
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 2, Alchemist 2, Bard 2, Cleric 2, Druid 3, Hunter 3, Inquisitor 2, Investigator 2, Occultist 2, Oracle 2, Paladin 3, Ranger 3, Shaman 2, Skald 2, Spiritualist 2, Warpriest 2, Witch 2; Domain Healing 2\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets living creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nDescriptionThis spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point "
+    },
+    {
+      "name": "Masterwork Slingshot",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Fuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck you, I won't do what you tell me\nFuck y"
+    },
+    {
+      "name": "9 Pound Cannon",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Combat pg. 162\nStatisticsDamage 6d6; Critical x4; Range 100 ft.; Type B and P\nCrew 2; Aim 1; Load 3; Speed 10 ft.\nCategory Direct-Fire (Large); Proficiency Siege Engine\nDescriptionCannons are crafted of metal-some are cast in one piece, others welded with iron bands-and mounted either in the ground or on wooden frames. Cannons use black powder to propel their projectiles with great force. A cannon has a misfire range of 1 (20 feet). Cannons have a hardness of 10 and 70 hit points"
+    },
+    {
+      "name": "Outfit, Traveler's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PZO1110\n\nThis set of clothes consists of boots, a wool skirt or breeches, a sturdy belt, a shirt (perhaps with a vest or jacket), and an ample cloak with a hood."
+    }
+  ]
+}

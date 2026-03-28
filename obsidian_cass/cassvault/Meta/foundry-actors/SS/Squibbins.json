@@ -1,0 +1,57 @@
+{
+  "name": "Squibbins",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Plank: Sargavan Mahogany",
+      "type": "loot",
+      "equipped": false,
+      "description": "Grown in the well-managed plantations of former Sargava (now Vidrian), this richly colored wood is favored for both functional and decorative purposes aboard fine vessels. Its strength, ease of carving, and resistance to warping make it ideal for interior joinery, captain’s cabins, and ceremonial figureheads. Mahogany also finds use in Cheliax and Absalom for furniture and architectural details, but it remains a staple in Shackles shipbuilding."
+    },
+    {
+      "name": "Plank: Greenheart",
+      "type": "loot",
+      "equipped": false,
+      "description": "Native to the deepest parts of the Sodden Lands and Terwa Uplands, Greenheart is a legendary timber known for its dark hue and unnatural hardness. It is so dense that it sinks in water, and its resistance to both weather and impact makes it perfect for keel timbers, ramming prows, and armored hull plates. Greenheart is difficult to work without enchanted tools, and it's rumored that some of the trees retain faint animistic spirits from Gozreh’s domain."
+    },
+    {
+      "name": "Plank: Mwangi Teak",
+      "type": "loot",
+      "equipped": false,
+      "description": "Harvested from the dense rainforests of the Mwangi Expanse, Mwangi Teak is a durable, water-resistant hardwood prized by shipwrights across the Fever Sea. Its natural oils protect it from rot, salt, and wood-boring creatures, making it ideal for decking and hull planking. Mwangi Teak is often traded in secretive coastal ports, as logging the trees is dangerous work, given the jungle's monstrous inhabitants and druidic guardians who view the teak groves as sacred."
+    },
+    {
+      "name": "Plank: Ironwood",
+      "type": "loot",
+      "equipped": false,
+      "description": "Found in the Verduran Forest and some sacred groves in Kyonin, this magically reinforced hardwood is often harvested under the supervision of druids. It is nearly as hard as metal when properly treated or magically enhanced (via the Ironwood spell), and is used for reinforced doors, mast supports, and even armor for druids and shipboard spellcasters. Rare in the Shackles, but sometimes gifted by Andoren allies or bought at steep prices through black market elven traders."
+    },
+    {
+      "name": "Plank: Chelish Oak",
+      "type": "loot",
+      "equipped": false,
+      "description": "Chelish Oak is a rare, magically cultivated variant of oak grown in the infernal gardens and arboretums of Cheliax. It is prized for its iron-hard density, resistance to fire and rot, and its uniquely dark, almost obsidian-toned grain, which gleams with crimson undertones when polished. Used in the hulls and detailing of elite Chelish warships and Hellknight vessels, Chelish Oak is often etched with infernal runes or lacquered in alchemical resins that shimmer like brimstone in moonlight. A symb"
+    },
+    {
+      "name": "Plank: Iroko",
+      "type": "loot",
+      "equipped": false,
+      "description": "Known locally as \"Ironbark,\" this tough, golden-brown wood comes from the southern Arcadian Coast, where it is felled by indigenous tribes and Free Captain traders with caution and reverence. Iroko’s exceptional resistance to decay and marine pests makes it a favored material for structural beams, keels, and rudders. Though heavier than teak, it is more affordable and often used in combination with lighter woods in Shackles-built ships."
+    }
+  ]
+}

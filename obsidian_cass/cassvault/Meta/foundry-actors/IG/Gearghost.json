@@ -1,0 +1,29 @@
+{
+  "name": "Gearghost",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Race: Undead",
+  "classes": [
+    {
+      "name": "Construct",
+      "level": 2
+    },
+    {
+      "name": "Undead (Incorporeal)",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 40
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 18,
+    "con": 0,
+    "int": 16,
+    "wis": 14,
+    "cha": 18
+  },
+  "items": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Joram Kyte",
+  "type": "character",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Cleric",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 29
+  },
+  "abilities": {
+    "str": 9,
+    "dex": 11,
+    "con": 9,
+    "int": 13,
+    "wis": 20,
+    "cha": 11
+  },
+  "items": []
+}

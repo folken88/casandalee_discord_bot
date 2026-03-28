@@ -1,0 +1,72 @@
+{
+  "name": "Chelish Captain",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 6
+    },
+    {
+      "name": "Sailor",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 126
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 11,
+    "cha": 13
+  },
+  "items": [
+    {
+      "name": "Hellchain",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Forged in the infernal forges of Cheliax, this chain-shirt is made from blacksteel, a rare material imbued with dark energies. The Blacksteel Chain-Shirt is favored by the contract devils, feared assassins in the service of Asmodeus, for its ability to blend seamlessly into the shadows and its protective enchantments. The links of the armor seem to absorb light, granting the wearer an ominous presence. Its intricate design features infernal runes and motifs of twisted iron.\nDue to its infernal o"
+    },
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Chelish Captain's Signet Ring",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This ornate silver ring is engraved with the emblem of a Chelish naval captain, portraying the infernal grandeur associated with Cheliax. Its intricate design serves both as a mark of rank and as a practical tool, used to seal important documents with the owner's personal insignia. Often passed down through generations, these rings are imbued with both protective magic and symbolic authority.\nAura: faint abjuration\nCaster Level: 5\nRequirements: Forge Ring, shield of faith\nCreation Cost: 4000 gp"
+    },
+    {
+      "name": "Chelish Captain's Signet Ring",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This ornate silver ring is engraved with the emblem of a Chelish naval captain, portraying the infernal grandeur associated with Cheliax. Its intricate design serves both as a mark of rank and as a practical tool, used to seal important documents with the owner's personal insignia. Often passed down through generations, these rings are imbued with both protective magic and symbolic authority.\nAura: faint abjuration\nCaster Level: 5\nRequirements: Forge Ring, shield of faith\nCreation Cost: 4000 gp"
+    },
+    {
+      "name": "Chelish Captain's Signet Ring",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Chelish Captain's Saber",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Chelish Captain's Saber is a finely crafted longsword with a hilt boasting intricate designs inspired by Cheliax's heraldry. Each blade is emblazoned with the insignia of the Chelish Navy, representing both authority and duty. These sabers are bestowed upon captains who have proven themselves in maritime operations, serving as both a badge of office and a weapon ready for both deadly skirmishes and ceremonial displays."
+    },
+    {
+      "name": "Chelish Navy Pattern Heavy Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This finely wrought heavy crossbow is standard issue aboard Chelish naval vessels. Featuring burnished brass fittings, a reinforced steel prod, and a hardwood stock lacquered in crimson and black (the colors of House Thrune), it exemplifies both state pride and battlefield efficiency. Despite lacking magical enhancements, it is a weapon of superior construction, built to endure brutal salt-weathered campaigns and still punch through enemy hulls or pierce a pirate captain's throat at 120 feet."
+    }
+  ]
+}

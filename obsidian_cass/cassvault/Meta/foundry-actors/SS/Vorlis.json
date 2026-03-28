@@ -1,0 +1,32 @@
+{
+  "name": "Vorlis",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Monk (Unchained)",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 38
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 22,
+    "con": 14,
+    "int": 11,
+    "wis": 16,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Ring of the Chelish Agent",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This elegant ring is crafted of dark silver and etched with the emblem of House Thrune, the ruling family of Cheliax. It is a mark of authority and protection among agents of the Chelish government. The ring is often awarded to those who have proven their loyalty and prowess in the service of the infernal nation. The wearer feels a subtle aura of safety and strength, as if shielded by an unseen force."
+    }
+  ]
+}

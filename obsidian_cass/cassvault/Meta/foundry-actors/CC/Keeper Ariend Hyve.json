@@ -1,0 +1,62 @@
+{
+  "name": "Keeper Ariend Hyve",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Rogue (Unchained)",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 32
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 14,
+    "int": 12,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Carrion Hill Keeper's Sigil",
+      "type": "equipment",
+      "equipped": true,
+      "description": "\"To stand against the rot, one must be harder than the stone beneath it.\"\nForged from blackened silver and set against a background of deep violet stone, the Carrion Hill Keeper’s Sigil is more than just an amulet—it is a symbol of authority, a ward against the city's endless decay, and a mark of duty worn by the three elected Keepers of Carrion Hill.\nEach of the three sigils has passed through the hands of countless rulers, warriors, and priests over the centuries, yet the town remains ever on "
+    },
+    {
+      "name": "Twin Talons",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A matching pair of +2 keen sickle-daggers. Perfect for precision killing. The eye in the handle looks around occasionally, vibrating the handle of the dagger if danger is close. This prevents the wielder from being flanked if they have one of the daggers in each hand."
+    },
+    {
+      "name": "Cloaked of the Hangman",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Cloak of the Hangman A tattered dark maroon cloak rumored to have been made with stitching from a well-used noose. Grants +5 to Stealth, muffles footsteps, and once per day, allows the wearer to use gaseous form for 3 rounds."
+    },
+    {
+      "name": "Black Talon's Garb",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Armor of the Black TalonTailored for Velka’s deadly work, this armor is as silent as death itself.\nShroud of the Unseen (+3 Shadow Silent Moves Leather Armor)A suit of midnight-black leather, stitched with the sinew of unknown beasts and reinforced with alchemical blacksteel plating to absorb impact while remaining eerily quiet. The armor carries no insignia, no markings, and exudes an unsettling stillness—perfect for an assassin who leaves no trace behind.\nProperties:+3 Leather Armor (Light, do"
+    },
+    {
+      "name": "Beetle Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Possibly the worst tasting beer in Ustalav."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Lodge Hound",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 16,
+    "int": 2,
+    "wis": 12,
+    "cha": 6
+  },
+  "items": []
+}

@@ -23,3 +23,6 @@ Mentioned in this session.
 
 ### Carrion Crown - Trojan Corpse 2025 02 02
 Characters are under attack by fire giants and corpse hooks.
+
+### Carrion Crown 1Shot - Neck-Deep in BHOL 2024 11 13
+A room with a beautiful meeting setup and slaves being held for a banquet.

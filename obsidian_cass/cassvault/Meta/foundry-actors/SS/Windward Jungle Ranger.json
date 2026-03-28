@@ -1,0 +1,44 @@
+{
+  "name": "Windward Jungle Ranger",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Lizardfolk",
+  "classes": [
+    {
+      "name": "Ranger",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 35
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 18,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Verdant Fang Bow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Fashioned from the twisted roots of an ancient mangrove tree that once stood at the heart of a sacred tidal grove, the Verdant Fang is a +1 composite shortbow used by the Windward-Isles lizardfolk druids. Living far from cities and ports, these jungle stalkers rely on cunning, survival instinct, and nature’s favor to protect their territory and feed their clans.\nVines still cling to the bow’s limbs, swaying as if alive, and the grip pulses faintly with primal energy when drawn under the canopy o"
+    },
+    {
+      "name": "Lizardfolk Leathers",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Made from a variety of skins blended together. Best not to think about it."
+    },
+    {
+      "name": "Spear of the Mangrove Watch",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This is a spear grown, not forged, by the rangers of the Windward-Island lizardfolk. Its shaft is a single length of mangrove heartwood, reinforced with braided jungle vine and embedded bone rings. The leaflike blade is carved from magically hardened coral, adorned with a living jade sprout that always stays green. It pulses with the rhythm of the tides, guiding the ranger’s strikes like a living companion.\nForged from swamp tradition, ancestral magic, and salt-wind reverence, this weapon is mor"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "name": "Lady Agasta Smythee",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human CHA",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 6
+    },
+    {
+      "name": "Aristocrat",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 99
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 14,
+    "con": 14,
+    "int": 12,
+    "wis": 9,
+    "cha": 17
+  },
+  "items": [
+    {
+      "name": "Crossbow Bolt +1",
+      "type": "loot",
+      "equipped": false,
+      "description": "Bolts come in a case or quiver that holds 10 bolts (or 5 for a repeating crossbow).\n\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (–4 penalty on attack rolls) and deals damage as a dagger of its size (crit ×2)."
+    },
+    {
+      "name": "Corsair's Coat",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Corsair’s Coat is a stylish, weathered leather coat designed for swashbucklers and those who live by the sea. Light enough to move freely in battle, this coat is reinforced with hidden strips of flexible metal, offering protection without restricting the wearer’s agility.\nIt functions as a mithral chain shirt +1\n +2 on acrobatics - comfortable yet maneuverable feel\n+4 CMD - helping the wearer avoid many dangers of boarding"
+    },
+    {
+      "name": "Potion of Aid",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aid grants the target a +1 morale bonus on attack rolls and saves against fear effects, plus temporary hit points equal to 1d8 + caster level (to a maximum of 1d8+10 temporary hit points at caster level 10th)."
+    },
+    {
+      "name": "Red Widow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Red Widow is an elegant yet fearsome blade, its curved edge gleaming with a faint crimson sheen in the right light. The hilt is adorned with a dark iron guard shaped like a widow’s fangs, its grip wrapped in black leather. A blood-red gemstone sits at the center of the crossguard, rumored to darken when the blade tastes fresh blood.\nAbilities:\nWidow’s Bite – When striking a foe who has betrayed, insulted, or challenged Agasta’s authority, the blade deals an additional 1d6 precision damage (once "
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Corpsehook",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Ogre",
+  "classes": [
+    {
+      "name": "Undead Giant",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 12
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 12,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 18
+  },
+  "items": []
+}

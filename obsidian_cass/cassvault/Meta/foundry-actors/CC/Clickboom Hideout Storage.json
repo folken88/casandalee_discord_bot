@@ -1,0 +1,267 @@
+{
+  "name": "Clickboom Hideout Storage",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Chocolate",
+      "type": "loot",
+      "equipped": false,
+      "description": "Chocolate comes in many shapes, sizes, and tastes. It is a staple sweet primarily made from cocoa beans, sugar, and milk. A major ingredient used in many desserts such as pudding, cakes, and candy. It can be in a solid form like a candy bar or in a liquid form like hot chocolate, to fit various needs and tastes."
+    },
+    {
+      "name": "Caliphas Sergeant's Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    },
+    {
+      "name": "Pickaxe",
+      "type": "loot",
+      "equipped": false,
+      "description": "Pickaxes, also referred to as mattocks, are tools used for breaking up rocks, paving, or earth, commonly employed in activities such as digging, soil preparation, demolition, or specialized applications like mining."
+    },
+    {
+      "name": "The Lion Sleeps Tonight",
+      "type": "loot",
+      "equipped": true,
+      "description": "Painting notes:\nSubject Commentary: \"A man must be lion-hearted in battle, but even the greatest beasts of the world must rest.\"\nCritical Reception: \"A remarkable display of brushwork wasted entirely on the subject.\""
+    },
+    {
+      "name": "Dragistan (Belongs to Kelda)",
+      "type": "loot",
+      "equipped": true,
+      "description": "Artist: Commissioned from the famed portraitist Jastor Valienne, known for his breathtaking depictions of Caliphas nobility. Though Valienne refused to discuss the circumstances of the painting’s creation, he left Ustalav for Druma shortly thereafter, and some say he paints only landscapes now.\n\"True nobility transcends mere appearance, my dear. Some men wear their station like armor—others, like art.\"\n\"I do not become the Lady—I reveal her.\"\n\"There are those who questioned why I had this portra"
+    },
+    {
+      "name": "Mantrap",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 77, Advanced Player's Guide pg. 184, Adventurer's Armory pg. 19\nPrice 2 gp; Weight 10 lbs.\nCategory Tools\nDescriptionAlthough intended for trapping large animals, bear traps work as well for trapping humanoids or monsters. The hinged jaws of the trap are attached to a chain, which in turn is secured to a spike driven into the ground to ensure that the victim cannot simply crawl away. Prying open the jaws or pulling the spike from the ground requires a DC 20 Strength"
+    },
+    {
+      "name": "The G.O.A.T., With Goats",
+      "type": "loot",
+      "equipped": true,
+      "description": "\"One wonders if the goats were meant to represent something symbolic, or if Lord Duristan simply arrived with them and insisted they be included.\"\"Despite its technical mastery, the composition remains deeply unsettling—primarily due to the inexplicable intelligence in the goats' expressions.\"\"A deeply haunting study of self-obsession. Also, goats.\""
+    },
+    {
+      "name": "Da Clerb",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This weapon is usually just a shaped piece of wood, sometimes with a few nails or studs embedded in it."
+    },
+    {
+      "name": "Sweet Bread",
+      "type": "loot",
+      "equipped": false,
+      "description": "Sweet bread varies significantly in taste and appearance depending on the region. Some regions opt for cocoa, while others prefer fruit-based recipes. However, regardless of the specific type ordered, whether in taverns or bakeries, sweet bread is a popular choice for religious celebrations or events, as well as for those with a sweet tooth."
+    },
+    {
+      "name": "Kukri",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A kukri is a curved blade, about 1 foot in length."
+    },
+    {
+      "name": "Site17 Manifest",
+      "type": "loot",
+      "equipped": true,
+      "description": "Preliminary Catalog: Site 17 Excavation Artifacts(Shipment notes for QA Museum; further magical analysis pending.)Note: Some speculative observations recorded by Assistant Research Assistant in Charge of Field Research Thandrel Fornost.\nShipment 1 (Abadius 10) – 7 ArtifactsCeremonial Warhorn Fragment – A broken silver warhorn inscribed with early Crusader motifs; trace battle damage suggests it may have been dramatically shattered mid-charge or possibly hurled at an undead warlord in desperation"
+    },
+    {
+      "name": "Nails",
+      "type": "loot",
+      "equipped": false,
+      "description": "Nails are commonly made out of bronze or iron, and are mainly used as fasteners in construction, from small roofing nails to large iron spikes. They are also occasionally made out of copper or steel, particularly in environments where corrosion resistance is a key factor, such as coastal or riverside areas."
+    },
+    {
+      "name": "Composite Shortbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "You need at least two hands to use a bow, regardless of its size. You can use a composite shortbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier to use with proficiency). If your Strength modifier is lower than the strength rating of the composite bow, you can't effectively use it, so you take a -2 penalty on attacks with it. The default composite shortbow requires a Strength modifier of +0 or higher to use with p"
+    },
+    {
+      "name": "Flint And Steel",
+      "type": "loot",
+      "equipped": false,
+      "description": "Lighting a torch with a flint and steel is a full-round action. Lighting any other fire with them takes at least that long."
+    },
+    {
+      "name": "CAL-OPS Hammer",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Wakizashi (Toni's, Hands off, Bitches)",
+      "type": "weapon",
+      "equipped": true,
+      "description": "These short, slender blades are between 1 to 2 feet long. They are primarily used as back-up weapons, to decapitate defeated enemies, or to commit seppuku (ritual suicide) as a matter of honor. These blades are specifically worn by samurai and are intended to be paired with a katana. Together, this set of blades is referred to as a daisho."
+    },
+    {
+      "name": "Mason Hammer",
+      "type": "loot",
+      "equipped": false,
+      "description": "Commonly called brick hammers, mason's hammers are primarily designed for the precise breaking of bricks, rocks, pavers, or driving stakes. They feature one flat traditional face and, on the back, a short or long chisel-shaped blade. This design allows them to effectively chip off edges or small pieces of stone and cut brick masonry units without the need for a separate chisel."
+    },
+    {
+      "name": "king of skanktown's head",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Linen",
+      "type": "loot",
+      "equipped": true,
+      "description": "A very strong and absorbent material, that is very comfortable to wear in hot weather and is widely used in textiles."
+    },
+    {
+      "name": "Cold Iron",
+      "type": "loot",
+      "equipped": false,
+      "description": "This specific iron, found in the most secluded deep mines quite cold to the touch, it is known that for those who venture into the Fey realm, it is a must. Most sylvan creatures damaged or attempting to attack a creature wearing Cold Iron armors seem to be taking an additional 1d4 cold damage."
+    },
+    {
+      "name": "Duristan Rising",
+      "type": "loot",
+      "equipped": true,
+      "description": "\"A masterful composition of light and shadow, though one questions the subject’s presence on the battlefield in any meaningful capacity.\"\"Duristan’s position in the foreground, immaculate and untouched by war, tells us all we need to know.\"\"The rebellion itself was barely noted in historical accounts, yet thanks to this painting, many now associate it with Duristan’s ‘noble vigilance.’\""
+    },
+    {
+      "name": "Hand Axe (Toni's, Will Be Used to Remove Your Hands if you Steal)",
+      "type": "loot",
+      "equipped": false,
+      "description": "The go-to axe for various applications, it proves its usefulness as a camping tool for felling small trees, splitting kindling, and preparing firewood. Craftsmen appreciate its finesse in cutting wood to size and creating intricate patterns on furniture."
+    },
+    {
+      "name": "Maple Sap",
+      "type": "loot",
+      "equipped": false,
+      "description": "Being one of the sweetest variants of sap, it can be used by brewmasters to create ales, or by tavern keeps to sweeten water, as a syrup, or even tea. Alchemists use it to create potions that make your aim true."
+    },
+    {
+      "name": "Flute",
+      "type": "loot",
+      "equipped": true,
+      "description": "The flute is known for its adaptability, being made from a wide range of materials such as bamboo, jade, glass, blackwood, bone, and various metals. Its light, bright sound has made it a beloved instrument in many cultures, especially in tavern settings where it often forms part of a trio with the lute and harp. Beyond its popularity in taverns, the flute is also widely used in rituals, celebrations, and folk traditions, giving it a strong cultural presence in both formal and informal events acr"
+    },
+    {
+      "name": "Studded Leather Armor (Toni's, Has Blood on It)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Pipebomb 1.0 (2)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "BOOM"
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "An arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Wheel of Cheese",
+      "type": "loot",
+      "equipped": false,
+      "description": "While some may argue that what beats a slice of cheese, in most scenarios, the answer is indeed a wheel of cheese, and fortunately, most markets and taverns offer it for sale."
+    },
+    {
+      "name": "Cotton",
+      "type": "loot",
+      "equipped": false,
+      "description": "Cotton farming is relatively straightforward as most city-states have dedicated regions of farmland specifically for it, as it is one of the most widely used materials in clothing and indoor decoration."
+    },
+    {
+      "name": "Hardtack",
+      "type": "loot",
+      "equipped": false,
+      "description": "Hardtack, made from flour, water, and salt, is known for its long shelf life. Due to its affordability and durability, it serves as a staple sustenance during long sea voyages and military campaigns, where most other foods are scarce."
+    },
+    {
+      "name": "Da Clerb (Toni's, Don't Steal)",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This weapon is usually just a shaped piece of wood, sometimes with a few nails or studs embedded in it."
+    },
+    {
+      "name": "Sling",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 142, Ultimate Equipment pg. 17\nStatisticsDamage 1d3 (small), 1d4 (medium); Critical x2; Range 50 ft.; Type B\nWeapon Groups Thrown\nDescriptionA sling is little more than a leather cup attached to a pair of strings. Your Strength modifier applies to damage rolls when you use a sling, just as it does for thrown weapons. You can fire, but not load, a sling with one hand. Loading a sling is a move action that requires two hands and provokes "
+    },
+    {
+      "name": "Wool",
+      "type": "loot",
+      "equipped": false,
+      "description": "A textile fabric that is obtained from farm animals, mainly sheep, and is primarily used for clothing. In addition to that, it is also used for blankets, saddle cloths for cavalry, carpeting, and on rare occasions even a soil fertilizer."
+    },
+    {
+      "name": "Duristan at Blackwing Vale 4705",
+      "type": "loot",
+      "equipped": true,
+      "description": "\"An undeniably striking piece, though one cannot shake the suspicion that the subject arrived after the battle—if he arrived at all.\"\"There is an interesting artistic choice here: the inclusion of a battle, despite Duristan clearly being the intended focal point.\"\"A masterclass in dramatic contrast. The chaos, the ruin, the devastation… and Duristan.\""
+    },
+    {
+      "name": "Shovel",
+      "type": "loot",
+      "equipped": false,
+      "description": "The Shovel is a tool used to dig as well as to move loose dirt, gravel, grain, or snow, from one spot to another. It can also be used for making trenches and uprooting deep-rooted weeds and plants."
+    },
+    {
+      "name": "Oak Log",
+      "type": "loot",
+      "equipped": false,
+      "description": "The logs are usually processed into lumber, however, it's also commonly used in bakeries, furnaces, or home fireplaces as kindle."
+    },
+    {
+      "name": "Silk",
+      "type": "loot",
+      "equipped": false,
+      "description": "It is one of the rarest materials to find. It is mainly produced by either fantastical beasts or insects of different sizes. It is speculated that only the most trained gatherers can create something called Pure Silk, however, some of them end up losing their lives sometimes, getting more than they bargained for from some eight-legged monsters."
+    },
+    {
+      "name": "The Rogue Prince of Ustalav",
+      "type": "loot",
+      "equipped": true,
+      "description": "\"The pose is undeniably striking, but the artist’s pained brushstrokes suggest deep reluctance in their execution.\"\"One wonders if Lord Duristan has ever actually wielded a blade in anger, or if this was the first time he held one for longer than five minutes.\"\"If one were unaware of the subject’s reputation, this would be a masterpiece of roguish allure. Knowing him, however, it is performance art at its finest.\""
+    },
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    },
+    {
+      "name": "Training Dummy",
+      "type": "loot",
+      "equipped": false,
+      "description": "While quite rare and often quickly replaced by living partners, training dummies serve the purpose of training new combatants in body positions and strike techniques. Due to their fragility and tendency to break with minimal use, they are rare."
+    }
+  ]
+}

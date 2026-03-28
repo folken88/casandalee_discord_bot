@@ -1,0 +1,25 @@
+{
+  "name": "Canopy Creeper",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Canopy Creeper",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 192
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 16,
+    "con": 26,
+    "int": 2,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": []
+}

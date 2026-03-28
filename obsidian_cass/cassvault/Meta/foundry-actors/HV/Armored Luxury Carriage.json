@@ -1,0 +1,57 @@
+{
+  "name": "Armored Luxury Carriage",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Potion of Cure Critical Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 4d8 points of damage + 1 point per caster level (maximum +20)."
+    },
+    {
+      "name": "Ring Of Truth",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Description\nDeceptively pleasant-looking, a ring of truth bears images of childlike angels and broadly smiling divine creatures holding onto links of a heavy chain. The wearer of this cursed ring is rendered unable to tell a deliberate lie, in either speech or writing. The wearer may simply omit the truth or choose not to communicate, but even then must succeed at a DC 20 Will saving throw to avoid answering a direct question truthfully. The wearer cannot remove the ring unless the magic of the "
+    },
+    {
+      "name": "Riot Pipes [Cursed]",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Description\nThis simple musical instrument seems and behaves in all ways like any other kind of magical pipes until its owner plays it in an urban setting. Once he does, it requires all people within hearing range to make a DC 15 Will saving throw to avoid falling into a murderous fury. Those who fail their saves gain the effects of a rage spell for the next 1d6 hours and experience a strong compulsion (DC 15 Will save negates) to attack any stranger or disliked person whom they encounter during"
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 3rd\n\nSpell Description\nWhen laying your hand upon a living creature, you channel positive energy that cures 2d8 points of damage +1 point per caster level (maximum +10). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Severed Dragon Head",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The severed head of the great Gold Dragon: Parnoneryx, Champion of the Glorious Reclamation."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nSpell Description\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage."
+    }
+  ]
+}

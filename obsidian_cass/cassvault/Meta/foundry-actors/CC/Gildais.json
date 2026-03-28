@@ -1,0 +1,24 @@
+{
+  "name": "Gildais",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Undead (C)",
+      "level": 20
+    }
+  ],
+  "hp": {
+    "max": 90
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 23,
+    "int": 11,
+    "wis": 18,
+    "cha": 29
+  },
+  "items": []
+}

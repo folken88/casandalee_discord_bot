@@ -1,0 +1,25 @@
+{
+  "name": "Salt Mephit",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 19
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 15,
+    "con": 12,
+    "int": 6,
+    "wis": 11,
+    "cha": 14
+  },
+  "items": []
+}

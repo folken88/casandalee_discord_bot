@@ -40,16 +40,29 @@ class VaultSearch {
             return this.index;
         }
 
+        logger.info(`📂 Building vault index from: ${this.vaultDir}`);
+        if (!fs.existsSync(this.vaultDir)) {
+            logger.error(`❌ Vault directory does NOT exist: ${this.vaultDir}`);
+            // Don't cache the empty result — retry next call
+            return [];
+        }
+
         const index = [];
         this._indexDirectory(this.vaultDir, index, '');
         this.index = index;
         this.lastIndexTime = now;
-        logger.debug(`Vault index built: ${index.length} notes`);
+        logger.info(`🧠 Vault index built: ${index.length} notes`);
+        if (index.length === 0) {
+            logger.warn(`⚠️ Vault index is EMPTY — directory exists but no .md files found in ${this.vaultDir}`);
+        }
         return index;
     }
 
     _indexDirectory(dir, index, relativePath) {
-        if (!fs.existsSync(dir)) return;
+        if (!fs.existsSync(dir)) {
+            logger.warn(`⚠️ Vault subdirectory missing: ${dir}`);
+            return;
+        }
 
         const entries = fs.readdirSync(dir, { withFileTypes: true });
         for (const entry of entries) {
@@ -166,36 +179,70 @@ class VaultSearch {
     }
 
     /**
+     * Find notes by frontmatter type field (character, item, place, etc.)
+     */
+    byType(type) {
+        const idx = this.buildIndex();
+        return idx.filter(n => (n.frontmatter.type || '').toLowerCase() === type.toLowerCase());
+    }
+
+    /**
+     * Find a note by name that also matches a specific type.
+     * Used by answerBuilder to distinguish "Curator" (item) from "Kovira" (character).
+     */
+    byNameAndType(name, type) {
+        const hits = this.byName(name);
+        const typed = hits.filter(n => (n.frontmatter.type || '').toLowerCase() === type.toLowerCase());
+        return typed.length > 0 ? typed : [];
+    }
+
+    /**
      * Full-text search across note content (case-insensitive)
      */
     byText(query, maxResults = 20) {
         const idx = this.buildIndex();
-        const terms = query.toLowerCase().replace(/[?!.,;:'"()]/g, '').split(/\s+/).filter(Boolean);
+        const STOP_WORDS = new Set(['the','a','an','is','was','were','are','did','do','does','when','where','who','what','how','why','about','have','has','had','can','could','will','would','should','this','that','with','from','for','and','but','not','die','died','dies','kill','killed','happen','happened','start','started','tell','know']);
+        const terms = query.toLowerCase().replace(/[?!.,;:'"()]/g, '').split(/\s+/).filter(t => t.length > 2 && !STOP_WORDS.has(t));
+
+        if (terms.length === 0) return [];
 
         const scored = [];
         for (const note of idx) {
             const searchText = `${note.filename} ${Object.values(note.frontmatter).join(' ')} ${note.body}`.toLowerCase();
             let score = 0;
-            let allMatch = true;
+            let matchedTerms = 0;
             for (const term of terms) {
                 const count = (searchText.match(new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi')) || []).length;
-                if (count === 0) { allMatch = false; break; }
-                score += count;
+                if (count > 0) {
+                    matchedTerms++;
+                    score += count;
+                }
             }
+
+            // Require at least 1 term matched for short queries, 2+ for longer ones
+            const threshold = terms.length <= 2 ? 1 : Math.max(2, Math.ceil(terms.length * 0.4));
+            if (matchedTerms < threshold) continue;
+
+            // Bonus for matching more terms (relevance)
+            score *= (matchedTerms / terms.length);
+
             // Boost exact filename matches
             if (note.filename.toLowerCase().includes(query.toLowerCase())) {
                 score += 50;
             }
-            if (allMatch && score > 0) {
-                // Boost structured/curated content over raw transcripts
-                const type = (note.frontmatter.type || '').toLowerCase();
-                if (type === 'timeline') score *= 10;           // Timeline is authoritative
-                else if (type === 'session-summary') score *= 5; // Summaries are curated
-                else if (type === 'character') score *= 4;       // Character dossiers
-                else if (type === 'raw-transcript') score *= 0;  // Never inject raw transcripts
-
-                if (score > 0) scored.push({ note, score });
+            // Boost individual name matches in filename
+            for (const term of terms) {
+                if (note.filename.toLowerCase().includes(term)) score += 10;
             }
+
+            // Boost structured/curated content over raw transcripts
+            const type = (note.frontmatter.type || '').toLowerCase();
+            if (type === 'timeline') score *= 10;           // Timeline is authoritative
+            else if (type === 'session-summary') score *= 5; // Summaries are curated
+            else if (type === 'character') score *= 4;       // Character dossiers
+            else if (type === 'raw-transcript') score *= 0;  // Never inject raw transcripts
+
+            if (score > 0) scored.push({ note, score });
         }
 
         return scored
@@ -228,6 +275,34 @@ class VaultSearch {
 
         // Fallback to text search
         return this.byText(name, 5);
+    }
+
+    /**
+     * Extract proper nouns / entity names from a query string.
+     * Tries nameResolver first, then falls back to capitalized words.
+     */
+    _extractNames(query) {
+        const names = [];
+        const words = query.replace(/[?!.,;:'"()]/g, '').split(/\s+/);
+
+        // Try multi-word combinations (e.g., "Khonnir Baine", "Sha-Feng")
+        for (let i = 0; i < words.length; i++) {
+            // Try 2-word combo
+            if (i < words.length - 1) {
+                const twoWord = `${words[i]} ${words[i + 1]}`;
+                const resolved = nameResolver.resolve(twoWord);
+                if (resolved) { names.push(resolved); i++; continue; }
+            }
+            // Try single word
+            const resolved = nameResolver.resolve(words[i]);
+            if (resolved) { names.push(resolved); continue; }
+            // Keep capitalized non-stop words as potential names
+            if (words[i].length > 2 && words[i][0] === words[i][0].toUpperCase() && words[i][0] !== words[i][0].toLowerCase()) {
+                names.push(words[i]);
+            }
+        }
+        // Dedupe
+        return [...new Set(names)];
     }
 
     /**
@@ -309,13 +384,15 @@ class VaultSearch {
         let totalChars = 0;
         const includedPaths = new Set();
 
-        // 1. TIMELINE FIRST — search all timeline files for matching rows
-        // This is the most authoritative data and must come first
+        // 1. TIMELINE — search timeline files for matching rows
+        // Use ANY-match with scoring: more matched terms = higher relevance
         const idx = this.buildIndex();
         const queryLower = query.toLowerCase();
-        const STOP_WORDS = new Set(['the','a','an','is','was','were','are','did','do','does','when','where','who','what','how','why','about','have','has','had','can','could','will','would','should','this','that','with','from','for','and','but','not','die','died','dies','kill','killed','happen','happened']);
+        const STOP_WORDS = new Set(['the','a','an','is','was','were','are','did','do','does','when','where','who','what','how','why','about','have','has','had','can','could','will','would','should','this','that','with','from','for','and','but','not','die','died','dies','kill','killed','happen','happened','start','started','tell','know']);
         const queryTerms = queryLower.replace(/[?!.,;:'"()]/g, '').split(/\s+/).filter(t => t.length > 2 && !STOP_WORDS.has(t));
         const timelineNotes = idx.filter(n => (n.frontmatter.type || '').toLowerCase() === 'timeline');
+
+        logger.debug(`🔍 Vault search terms: [${queryTerms.join(', ')}]`);
 
         const matchingRows = [];
         for (const note of timelineNotes) {
@@ -323,17 +400,24 @@ class VaultSearch {
             for (const line of lines) {
                 if (!line.startsWith('|') || line.startsWith('| Date') || line.startsWith('|---')) continue;
                 const lineLower = line.toLowerCase();
-                // Require ALL non-stop query terms to match for timeline precision
-                if (queryTerms.length > 0 && queryTerms.every(t => lineLower.includes(t))) {
-                    matchingRows.push(line.trim());
+                // Score each row by how many query terms it matches
+                const matchCount = queryTerms.filter(t => lineLower.includes(t)).length;
+                // Require at least 2 terms OR >50% of terms to match
+                const threshold = Math.max(2, Math.ceil(queryTerms.length * 0.4));
+                if (matchCount >= threshold) {
+                    matchingRows.push({ line: line.trim(), score: matchCount });
                 }
             }
         }
 
+        // Sort by match score (most relevant first)
+        matchingRows.sort((a, b) => b.score - a.score);
+
         if (matchingRows.length > 0) {
-            const timelineContext = `[TIMELINE — Verified canonical events]\n| Date | Location | Event |\n|------|----------|-------|\n${matchingRows.slice(0, 15).join('\n')}`;
+            const timelineContext = `[TIMELINE — Verified canonical events]\n| Date | Location | Event |\n|------|----------|-------|\n${matchingRows.slice(0, 15).map(r => r.line).join('\n')}`;
             sections.push(timelineContext);
             totalChars += timelineContext.length;
+            logger.debug(`🧠 Timeline matches: ${matchingRows.length} rows (top score: ${matchingRows[0].score}/${queryTerms.length} terms)`);
         }
 
         // 2. If we know who's asking, get their character info
@@ -347,17 +431,20 @@ class VaultSearch {
             }
         }
 
-        // 3. Direct name matches (characters, places)
-        const nameHits = this.byName(query);
-        for (const note of nameHits.slice(0, 3)) {
-            if (totalChars > maxTokens) break;
-            if (includedPaths.has(note.path)) continue;
-            if ((note.frontmatter.type || '').toLowerCase() === 'timeline') continue; // already handled
-            if ((note.frontmatter.type || '').toLowerCase() === 'conversation-log') continue; // skip logs
-            const summary = this._summarizeNote(note);
-            sections.push(`[${note.folder || 'Note'}: ${note.filename}]\n${summary}`);
-            totalChars += summary.length;
-            includedPaths.add(note.path);
+        // 3. Direct name matches — try each proper noun in the query, not the whole string
+        const nameTokens = this._extractNames(query);
+        for (const name of nameTokens) {
+            const nameHits = this.byName(name);
+            for (const note of nameHits.slice(0, 2)) {
+                if (totalChars > maxTokens) break;
+                if (includedPaths.has(note.path)) continue;
+                if ((note.frontmatter.type || '').toLowerCase() === 'timeline') continue;
+                if ((note.frontmatter.type || '').toLowerCase() === 'conversation-log') continue;
+                const summary = this._summarizeNote(note);
+                sections.push(`[${note.folder || 'Note'}: ${note.filename}]\n${summary}`);
+                totalChars += summary.length;
+                includedPaths.add(note.path);
+            }
         }
 
         // 4. Full text search for session summaries and character notes
@@ -371,6 +458,8 @@ class VaultSearch {
             totalChars += summary.length;
             includedPaths.add(note.path);
         }
+
+        logger.debug(`🧠 Vault context: ${sections.length} sections, ${totalChars} chars`);
 
         if (sections.length === 0) {
             return '';

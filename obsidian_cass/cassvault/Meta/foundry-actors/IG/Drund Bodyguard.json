@@ -1,0 +1,38 @@
+{
+  "name": "Drund Bodyguard",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Barbarian",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 30
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Tetsubo",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 21, Ultimate Combat pg. 134\nStatisticsCost 20 gp Weight 10 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical x4; Range -; Type B; Special -\nCategory Two-Handed; Proficiency Exotic\nWeapon Groups Hammers\nDescriptionA slight improvement over the greatclub, this weapon consists of a long, slender length of wood or metal whose upper half is shod with a thick sheet of studded iron. The iron gives added weight and strength to the club, while the studs are designed to crack "
+    },
+    {
+      "name": "Scale Mail",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Scale mail is made up of dozens of small, overlapping metal plates. Similar to both splint mail and banded mail, scalemail has a flexible arrangement of scales in an attempt to avoid hindering the wearer’s mobility, but at the expense of omitting additional protective layers of armor. A suit of scale mail includes gauntlets."
+    }
+  ]
+}

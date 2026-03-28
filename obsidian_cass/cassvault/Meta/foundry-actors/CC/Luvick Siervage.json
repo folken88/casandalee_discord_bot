@@ -1,0 +1,68 @@
+{
+  "name": "Luvick Siervage",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Half-Elf",
+  "classes": [
+    {
+      "name": "Cavalier",
+      "level": 1
+    },
+    {
+      "name": "Eldritch Knight",
+      "level": 10
+    },
+    {
+      "name": "Rogue (Unchained)",
+      "level": 3
+    },
+    {
+      "name": "Wizard",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 60
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 17,
+    "con": 10,
+    "int": 15,
+    "wis": 10,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Belt of Physical Perfection +6",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt has a large platinum buckle and grants the wearer an enhancement bonus to all physical ability scores (Strength, Dexterity, and Constitution) of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.\nConstructionRequirements Craft Wondrous Item, bear's endurance, bull's strength, cat's grace; Cost 77,000 gp"
+    },
+    {
+      "name": "Spellbook",
+      "type": "loot",
+      "equipped": false,
+      "description": "A spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells). A newly purchased spellbook contains no spells. A wizard character begins play with a spellbook containing the spells he knows."
+    },
+    {
+      "name": "Nocturne",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Forged in the shadow of Caliphas centuries before the rise of the Whispering Tyrant, Nocturne’s Fang was once the ceremonial blade of the elven-blooded wardens of Ustalav’s old noble courts. When Luvick Siervage fell to vampirism but retained his will and dignity, he reforged the blade in secret, embedding it with the will to defy domination and resist the undead tyrant who would later bring Ustalav to ruin.\nThe weapon is a +4 mithral Aldori dueling sword, granting a +2 bonus on initiative rolls"
+    },
+    {
+      "name": "+4 Glamered Mithral O-Yoroi",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Worn almost exclusively by highranking samurai, o-yoroi—or \"great armor\"—is a heavy combat armor that consists of various supplementary components that include both plate and lamellar elements. Each suit is crafted for a specific individual and displays the owner’s aesthetic. Upon completion, the suit is colored and sealed with a final lacquer finish. The centerpiece of o-yoroi is a cuirass consisting of two parts—a separate reinforcement for the right side called a waidate, and a kikko cuirass."
+    },
+    {
+      "name": "Headband of Mental Superiority +6",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ornate headband is decorated with numerous clusters of small gemstones. The headband grants the wearer an enhancement bonus to all mental ability scores (Intelligence, Wisdom, and Charisma) of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. The headband also grants skill ranks as a headband of vast intelligence.\nConstructionRequirements Craft Wondrous Item, eagle's splendor, fox's cunning, owl's wisdom; Cost 77,000 gp"
+    }
+  ]
+}

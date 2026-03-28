@@ -1,0 +1,25 @@
+{
+  "name": "Dr. Alaric Voss",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Expert",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 14,
+    "int": 15,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": []
+}

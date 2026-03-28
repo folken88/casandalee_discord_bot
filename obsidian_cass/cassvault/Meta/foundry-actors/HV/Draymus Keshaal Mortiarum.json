@@ -1,0 +1,168 @@
+{
+  "name": "Draymus Keshaal Mortiarum",
+  "type": "character",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Dhampir",
+  "classes": [
+    {
+      "name": "Agent of the Grave",
+      "level": 5
+    },
+    {
+      "name": "Necromancer",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 53
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 14,
+    "int": 23,
+    "wis": 10,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Anaconda Coil",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This Belt contains the strength of the anaconda. The wearer's strength is increased to 16 if it is below that.  They also gain +4 on grapple checks, and +10 to escape artist checks due to flexible joints. In addition, the belt grants the wearer the constrict ability, doing 2d6 damage plus their strength modifier to grapple targets. Can Beast Shape into an anaconda once per day with unlimited duration."
+    },
+    {
+      "name": "Deathwine (Cure Serious)",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Scroll of Resist Energy, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like resist energy, except you divide the duration in 10-minute intervals among the creatures touched."
+    },
+    {
+      "name": "Scroll of Teleport",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell instantly transports you to a designated destination, which may be as distant as 100 miles per caster level. Interplanar travel is not possible. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as four Medium creatures"
+    },
+    {
+      "name": "Amulet of Natural Armor +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura moderate transmutation; CL 6th\n\nThis amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Bracers Of Armor +6",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese items appear to be wrist or arm guards, sometimes etched with symbols of protection or depictions of vigilant-looking animals. Bracers of armor surround the wearer with an invisible but tangible field of force, granting him an armor bonus of +1 to +8, just as though he were wearing armor. Both bracers of armor must be worn for the magic to be effective.   Alternatively, bracers of armor can be enchanted with armor special abilities. See Table 3-3: Armor Special Abilities for a "
+    },
+    {
+      "name": "Big Dick Quick Stick",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The wielder can cast up to three sixth-level-or-lower spells per day that are quickened as though using the Quicken Spell feat."
+    },
+    {
+      "name": "Outfit, Entertainer's",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 89, PRPG Core Rulebook pg. 159\nPrice  3 gp; Weight  4 lbs.\nCategory Clothing\nDescriptionThis set of flashy-perhaps even gaudy- clothes is meant for entertaining. Entertainer's outfits come in a wide range of styles, from scandalous to flattering to absurd. While the outfit looks whimsical, its practical design does nothing to inhibit your ability to tumble, dance, walk a tightrope, or run (if the audience turns ugly)."
+    },
+    {
+      "name": "Scroll of Phantom Steed, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like phantom steed, except you can summon up to six steeds, and you divide the duration in 1-hour intervals among the steeds summoned."
+    },
+    {
+      "name": "Ring of Protection +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Potion of Cure Critical Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 4d8 points of damage + 1 point per caster level (maximum +20)."
+    },
+    {
+      "name": "Headband of Vast Intelligence +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This intricate gold headband is decorated with several small blue and deep purple gemstones.\n\nThe headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer’s total Hit Dice. These ranks do no"
+    },
+    {
+      "name": "Deathwine (Cure Critical)",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Protection from Energy, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like protection from energy, except you divide the duration in 10-minute intervals among the creatures touched. Once the spell absorbs 12 points of energy damage per caster level (maximum 120 points) for a subject, the spell's effects end for that subject."
+    },
+    {
+      "name": "Spellbook",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n\r\nA spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells).\n\r\nCompact Spellbook The need to be able to record and travel with dozens or even hundreds of spells often forces some wizards to seek lighter spellbooks. Compact spellbooks hold only 70 pages of spells, but they weigh significantly less than an ordinary spellbook. Source PZO1121\n\r\nTraveling Spellbook A traveling spellbook is lighter and less cumbersome tha"
+    },
+    {
+      "name": "Pharoah's Phylactery",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This urn has a hardness of 20, 40 hit points, and a break DC of 40.   It was made for a powerful ruler who's organs were to inhabit it and grant them eternal life. The ritual was never completed.\n \nUsing a ritual, a skilled ritualist can extract organs from a living host and store them within the urn.  The subject gains some powers of a lich depending on which organs are stored. \n \nThe subject must be of a minimum power level or they will lose their connection to the organs and thus lose their f"
+    },
+    {
+      "name": "Necromancer's Athmae",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This pallid length of sharpened thighbone is carved into the shape of a dagger, but with tiny holes bored into it at equal intervals, almost like a flute. A necromancer who selects the athame as his bonded object can use it to spontaneously convert any prepared wizard necromancy spell into any other wizard necromancy spell he knows; the desired spell must be of the same level or lower than the prepared spell."
+    },
+    {
+      "name": "Scroll of Stoneskin, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like stoneskin, except you divide the duration in 10 minute intervals among the creatures touched. Once the spell has prevented 10 points of damage per caster level (maximum 150 points) for a subject, the spell's effects end for that subject."
+    },
+    {
+      "name": "Inheritor's Light",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Longsword with additional enchantments of +2, Speed, and it sheds light at-will in a 60' radius. This is a 2nd level light-effect."
+    },
+    {
+      "name": "Deathwine (Cure Moderate)",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Cloak Of Resistance +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nFlecks of silver or steel are often sown amid the fabric of these magical cloaks. This garment offers magical protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).\nBase Item: \nRequirementsCraft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus\nSource: Ultimate Equipment"
+    }
+  ]
+}

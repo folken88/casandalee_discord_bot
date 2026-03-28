@@ -1,0 +1,25 @@
+{
+  "name": "Young Giant Moray Eel",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Race: Animal",
+  "classes": [
+    {
+      "name": "Animal (Aquatic)",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 77
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 14,
+    "con": 16,
+    "int": 1,
+    "wis": 12,
+    "cha": 8
+  },
+  "items": []
+}

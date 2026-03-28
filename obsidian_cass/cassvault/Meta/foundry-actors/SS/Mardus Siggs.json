@@ -1,0 +1,38 @@
+{
+  "name": "Mardus Siggs",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Cleric",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 15
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 17,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Rapier",
+      "type": "weapon",
+      "equipped": true,
+      "description": "You can use the @Compendium[pf1.feats.vWiTqHC4Y3Xn1Pme]{Weapon Finesse} feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn&rsquo;t a light weapon.\n\nYou can&rsquo;t wield a rapier in two hands in order to apply 1-1/2 times your Strength bonus to damage."
+    }
+  ]
+}

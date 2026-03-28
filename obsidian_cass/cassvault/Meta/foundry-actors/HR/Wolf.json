@@ -1,0 +1,25 @@
+{
+  "name": "Wolf",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Wolf",
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 11
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 15,
+    "con": 15,
+    "int": 2,
+    "wis": 12,
+    "cha": 6
+  },
+  "items": []
+}

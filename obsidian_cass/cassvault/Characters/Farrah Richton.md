@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-26T04:22:25.948Z"
+updated: "2026-03-28T02:59:09.612Z"
 ---
 
 # Farrah Richton
@@ -17,14 +17,8 @@ updated: "2026-03-26T04:22:25.948Z"
 
 ## Notes & Updates
 
-- Becomes Kendra's ward and is formally adopted; Was remanded to the Asylum, but met Judge Darymid instead of the judge who remanded her. *(youtube-transcript, 3/25/2026)*
-- Apprehended by Officer Kovira of CP-USS and placed in the Lepidstadt Foster Care system *(youtube-transcript, 3/25/2026)*
-
-## Notes & Updates
-
-- Becomes Kendra's ward and is formally adopted; Was remanded to the Asylum, but met Judge Darymid instead of the judge who remanded her. *(youtube-transcript, 3/25/2026)*
-- Apprehended by Officer Kovira of CP-USS and placed in the Lepidstadt Foster Care system *(youtube-transcript, 3/25/2026)*
-- Involved in discussions about the cult and potential attacks.; Involved in planning an encounter with a Hill giant zombie. *(youtube-transcript, 3/26/2026)*
+- Adopted by Kendra Lorrimor, involved in the search for records.; Witnessed slavery earlier, feeling it happens in Califa. *(youtube-transcript, 3/28/2026)*
+- Sought out the judge that remanded her to the asylum but instead met Darymid.; Escaped Lepidstadt Asylum and was killed by a skeleton with axes. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 

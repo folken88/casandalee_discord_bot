@@ -1,0 +1,32 @@
+{
+  "name": "Indentured Eternal",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Race: Undead",
+  "classes": [
+    {
+      "name": "Undead (Augmented Human)",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 17
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 24,
+    "con": 10,
+    "int": 0,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Scythe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This weapon consists of a long wooden shaft with protruding handles and a sharp curved blade set at a right angle. Derived from a farm tool used to mow down crops, a scythe requires two hands to use, and is unwieldy but capable of inflicting grievous wounds. Its connotations as a symbol of death due to its association with reaping also make the scythe a particularly intimidating weapon."
+    }
+  ]
+}

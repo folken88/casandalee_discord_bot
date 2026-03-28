@@ -4,7 +4,7 @@ type: timeline
 campaign: "IG"
 campaignName: "Iron Gods"
 eventCount: 90
-lastSync: "2026-03-26T17:36:09.076Z"
+lastSync: "2026-03-28T04:13:11.856Z"
 tags: ["timeline", "ig"]
 ---
 
@@ -104,62 +104,3 @@ tags: ["timeline", "ig"]
 | 4717.03.14 | Starfall | The Black Sovereign eats a healburger and is cured of his addiction to Numerian Fluids. Unity attacks the Palace of Fallen Stars. |
 | 4717.03.16 | Starfall | The Black Sovereign makes Tokala, Brow, Ulfred, Luna, Nomkath, and Olbryn War Chiefs of Numeria. Matriarch's Tiara purchased. |
 | 4717.03.19 | Silver Mount | Nomkath, Tokala, Ulfred, Olbryn, Luna, Akraden, Mr Brow, and Casandalee sneak into Silvermount via Entryway 40. |
-
-### From: Iron Gods - Tactical Remembrance 2024 01 11
-
-- **Toala received an upgrade while underground.**
-  - Characters: [[Toala]]
-- **Technic League captains convinced two-thirds of the forces to stand down.** *(Starfall)*
-  - Characters: [[Zerth]], [[Aden]], [[Elias]]
-- **Toala and allies plan to storm a dungeon and kill Technic League wizards without the main group's knowledge.** *(Technic League compound)*
-  - Characters: [[Toala]], [[Scouts]], [[Main group]]
-- **Toala bursts out of the ground and uses a radio to communicate with the main group.** *(Underground)*
-  - Characters: [[Toala]]
-- **The group plans to attack Osman and his forces, using stealth and speed.**
-  - Characters: [[Osman]], [[Grin and Stok Kinder]], [[Warlord Toala]], [[Scrap Witch]]
-- **Mini combat scenario involving TR and Toala's characters, with TR successfully killing a sniper quietly.** *(Unknown location, possibly on a wall or fence.)*
-  - Characters: [[TR]], [[Toala]]
-- **A battle took place where characters used various abilities to defeat an enemy.** *(Starfall compound wall)*
-  - Characters: [[Alfred]], [[Tokala]], [[Luna]], [[Olen]]
-- **Characters prepare to enter a compound and open gates.** *(Inside the Fortress)*
-  - Characters: [[Luna]], [[Cass]]
-- **Group discussed strategy for clearing the courtyard and taking control of gate controls.**
-  - Characters: [[Toby]], [[Kala]], [[Toala]]
-- **Barbarian perception check and realization of giant dwarfs** *(Near the gates)*
-  - Characters: [[Barbarian]], [[Alfred]], [[Luna]], [[Rin]]
-- **Player's character incapacitated an enemy by flying over and striking him.**
-  - Characters: [[player's character]], [[Alfred]]
-- **Characters engaged in combat with a Barbarian and Roomba.** *(Black Hill Caves)*
-  - Characters: [[Nom cath]], [[Tala]], [[Alfred]]
-- **Characters are in a tight hallway with soldiers and snipers nearby.** *(Bottom of stairs, hallway)*
-  - Characters: [[Josh]], [[Nom cath]], [[Ry]]
-- **Trier was killed by a sniper shot**
-  - Characters: [[Trier]]
-- **Zing used wild shape to transform into a cockroach and teleport through a door**
-  - Characters: [[Zing]]
-- **Players are fighting enemies in a compound hallway.** *(Compound hallway)*
-  - Characters: [[Alred]], [[Cass]], [[Makees]], [[Luna]]
-- **Characters encounter strange figures and Watchers in a control room.** *(Inside the command center)*
-  - Characters: [[Takala]], [[Watchers]], [[Grease buffed characters]]
-- **Characters engaged in combat with cyborgs and Wizards.** *(Black Hill Caves)*
-  - Characters: [[Ry]], [[Trooper]], [[Watcher]], [[Superior Tech Sniper]], [[Nam cath]], [[Toala]]
-- **Watchers were defeated by the party's attacks**
-  - Characters: [[Watchers]], [[Luna]], [[Toala]], [[Tracy]]
-- **Troopers and snipers engaged the party**
-  - Characters: [[Troopers]], [[Snipers]]
-- **Expeditions to the Black Hill Caves were unsuccessful until Khonnir Baine's group managed to enter the habitat module with a dormant repair drone.** *(Black Hill Caves)* — Correlates to: 4716.07.05
-  - Characters: [[Khonnir Baine]]
-- **Characters engage Borgs with chain lightning and other attacks** *(Unknown location in a hallway)*
-  - Characters: [[Orrin, Tala]]
-- **Multiple expeditions to the Black Hill Caves were made, with varying outcomes.** *(Black Hill Caves)*
-  - Characters: [[Khonnir Baine]], [[First Expedition]], [[Second Expedition]], [[Third Expedition]], [[Fourth Expedition]], [[Fifth Expedition]]
-- **A character uses a chainsaw to kill an enemy for 99 damage.**
-  - Characters: [[Chainsaw user]]
-- **Borg charged and missed, then hit with a spell causing tiny damage based on AC.** *(hallway)*
-  - Characters: [[Borg]]
-- **Toby and Josh discuss tactics for clearing the level.** *(Command level of an underground facility.)*
-  - Characters: [[Toby]], [[Josh]]
-- **Characters engaged in combat with Toala, Alred, and Nam cath**
-  - Characters: [[Toala]], [[Alred]], [[Nam cath]]
-- **Characters engaged in tactical combat using a lightsaber called The Null Blade**
-  - Characters: [[Tracy]], [[Enrique]]

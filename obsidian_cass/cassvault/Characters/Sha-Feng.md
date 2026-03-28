@@ -7,8 +7,8 @@ level: ?
 
 aliases: []
 tags: ["character"]
-created: "2026-03-25T15:11:04.497Z"
-updated: "2026-03-26T17:43:06.496Z"
+created: ""
+updated: "2026-03-28T03:22:49.627Z"
 ---
 
 # Sha-Feng
@@ -17,48 +17,19 @@ updated: "2026-03-26T17:43:06.496Z"
 
 ## Notes & Updates
 
-- Ship's cook of TPK, willing to attend negotiations and offer magical support; Crew member mentioned alongside Storgrim in the TPK ship interface; Ship's cook, mentioned in context of crew roles; Ship's cook on the newly captured Chelish vessel, needs an assistant for the larger ship and expanded crew; Wants to resurrect a chef to help with cooking; creates a skeleton chef assistant that attempts to taste soup; The party's cook who was recently reincarnated and now appears as a blue character. Thragorn asks about him upon the party's arrival.; Speaks Sylvin language and converses with a draconic NPC about the party's acquisition of items from dead draconic people. Points out individual party members as the NPC questions why they have so many items.; Blue hobgoblin character who was killed and avenged by another party member; player is considering creating a new drow character instead; Mentioned in context of being a versatile character with multiple combat and utility abilities; Player discusses their character's stats and transformation. As a hobgoblin, gained strength bonuses. Has 18 strength and 21 constitution. Previously was a different race (Shaong mentioned) but was strength-focused before the hobgoblin transformation. *(youtube-transcript, 3/25/2026)*
-- One of the party members in combat, rolls initiative; Received haste buff from Darla's spell.; Casts a massive lightning bolt that hits six enemies, sets two ships on fire, and kills three Bronze Fleet soldiers. The spell catches both the Wicked Chains and Red Courage decks on fire.; Captain Sha-Feng makes a comment about enemies standing together, drops ordinary and officer enemies; Referenced as being in goblin form, loved by the druid's pet, was the one brought back in goblin form by the druid; Healed by 21 HP, mostly recovered from recent combat; Mentioned as casting a second level spell and vanishing as a swift action *(youtube-transcript, 3/25/2026)*
-- Performs tumbling maneuvers and brutally kills a navigator by caving in her skull; A character with reach abilities and flurry attacks. Tumbled into combat and hit an opponent, then used five-foot steps to move next to Holden and delivered another punch to Captain Titus. *(youtube-transcript, 3/25/2026)*
-- Shot multiple times by a Bronze Fleet officer with a revolver, hit multiple times but no vital damage *(youtube-transcript, 3/25/2026)*
+- Taken by Sahuagin, killed and reincarnated as a Hobgoblin.; Killed and reincarnated as a Hobgoblin.; Taken by Sahuagin, freed, killed and reincarnated.; Taken by Sahuagin, killed, and reincarnated as a Hobgoblin.; Taken by Sahuagin, freed from Gol Khazak.; Taken by Sahuagin, freed from Gol Khazak, killed and reincarnated as a Hobgoblin.; Rescued by the crew and reincarnated as a Hobgoblin. *(youtube-transcript, 3/28/2026)*
+- Fell towards rocks but was caught by a web spell. *(youtube-transcript, 3/28/2026)*
+- Discussed as being taken by Sahuagin and later freed.; Taken by Sahuagin, later freed and reincarnated as a Hobgoblin.; Was taken by Sahuagin and later freed.; Taken by Sahuagin, freed from Gol Khazak.; Switching directions and using Marshall Flexibility; Taken by Sahuagin, killed and reincarnated as a Hobgoblin.; Reincarnated as an Iku-Turso, killed and reincarnated again as a Hobgoblin. *(youtube-transcript, 3/28/2026)*
+- Cook and later killed and reincarnated as a Hobgoblin. *(youtube-transcript, 3/28/2026)*
 
 ## Notes & Updates
 
-- Ship's cook of TPK, willing to attend negotiations and offer magical support; Crew member mentioned alongside Storgrim in the TPK ship interface; Ship's cook, mentioned in context of crew roles; Ship's cook on the newly captured Chelish vessel, needs an assistant for the larger ship and expanded crew; Wants to resurrect a chef to help with cooking; creates a skeleton chef assistant that attempts to taste soup; The party's cook who was recently reincarnated and now appears as a blue character. Thragorn asks about him upon the party's arrival.; Speaks Sylvin language and converses with a draconic NPC about the party's acquisition of items from dead draconic people. Points out individual party members as the NPC questions why they have so many items.; Blue hobgoblin character who was killed and avenged by another party member; player is considering creating a new drow character instead; Mentioned in context of being a versatile character with multiple combat and utility abilities; Player discusses their character's stats and transformation. As a hobgoblin, gained strength bonuses. Has 18 strength and 21 constitution. Previously was a different race (Shaong mentioned) but was strength-focused before the hobgoblin transformation. *(youtube-transcript, 3/25/2026)*
-- One of the party members in combat, rolls initiative; Received haste buff from Darla's spell.; Casts a massive lightning bolt that hits six enemies, sets two ships on fire, and kills three Bronze Fleet soldiers. The spell catches both the Wicked Chains and Red Courage decks on fire.; Captain Sha-Feng makes a comment about enemies standing together, drops ordinary and officer enemies; Referenced as being in goblin form, loved by the druid's pet, was the one brought back in goblin form by the druid; Healed by 21 HP, mostly recovered from recent combat; Mentioned as casting a second level spell and vanishing as a swift action *(youtube-transcript, 3/25/2026)*
-- Performs tumbling maneuvers and brutally kills a navigator by caving in her skull; A character with reach abilities and flurry attacks. Tumbled into combat and hit an opponent, then used five-foot steps to move next to Holden and delivered another punch to Captain Titus. *(youtube-transcript, 3/25/2026)*
-- Shot multiple times by a Bronze Fleet officer with a revolver, hit multiple times but no vital damage *(youtube-transcript, 3/25/2026)*
-- Captured by the enemy due to his material attachment to a fishing hole. *(youtube-transcript, 3/26/2026)*
-- Taken by Sahuagin and later freed.; Captured by zombies, then freed and reincarnated as a Hobgoblin. *(youtube-transcript, 3/26/2026)*
+- Taken by Sahuagin, killed and reincarnated as a Hobgoblin.; Killed and reincarnated as a Hobgoblin.; Taken by Sahuagin, freed, killed and reincarnated.; Taken by Sahuagin, killed, and reincarnated as a Hobgoblin.; Taken by Sahuagin, freed from Gol Khazak.; Taken by Sahuagin, freed from Gol Khazak, killed and reincarnated as a Hobgoblin.; Rescued by the crew and reincarnated as a Hobgoblin. *(youtube-transcript, 3/28/2026)*
+- Fell towards rocks but was caught by a web spell. *(youtube-transcript, 3/28/2026)*
+- Discussed as being taken by Sahuagin and later freed.; Taken by Sahuagin, later freed and reincarnated as a Hobgoblin.; Was taken by Sahuagin and later freed.; Taken by Sahuagin, freed from Gol Khazak.; Switching directions and using Marshall Flexibility; Taken by Sahuagin, killed and reincarnated as a Hobgoblin.; Reincarnated as an Iku-Turso, killed and reincarnated again as a Hobgoblin. *(youtube-transcript, 3/28/2026)*
+- Cook and later killed and reincarnated as a Hobgoblin. *(youtube-transcript, 3/28/2026)*
+- Mentioned as being taken by Sahuagin and later freed, then killed and reincarnated as a Hobgoblin.; Not mentioned directly, but implied as a crew member involved in the battle; Killed and reincarnated as a Hobgoblin. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Shackles - Drow Envy 2026 03 05
-Ship's cook of TPK, willing to attend negotiations and offer magical support; Crew member mentioned alongside Storgrim in the TPK ship interface; Ship's cook, mentioned in context of crew roles; Ship's cook on the newly captured Chelish vessel, needs an assistant for the larger ship and expanded crew; Wants to resurrect a chef to help with cooking; creates a skeleton chef assistant that attempts to taste soup; The party's cook who was recently reincarnated and now appears as a blue character. Thragorn asks about him upon the party's arrival.; Speaks Sylvin language and converses with a draconic NPC about the party's acquisition of items from dead draconic people. Points out individual party members as the NPC questions why they have so many items.; Blue hobgoblin character who was killed and avenged by another party member; player is considering creating a new drow character instead; Mentioned in context of being a versatile character with multiple combat and utility abilities; Player discusses their character's stats and transformation. As a hobgoblin, gained strength bonuses. Has 18 strength and 21 constitution. Previously was a different race (Shaong mentioned) but was strength-focused before the hobgoblin transformation.
-
-### Shackles - Glittersharts 2026 02 26
-One of the party members in combat, rolls initiative; Received haste buff from Darla's spell.; Casts a massive lightning bolt that hits six enemies, sets two ships on fire, and kills three Bronze Fleet soldiers. The spell catches both the Wicked Chains and Red Courage decks on fire.; Captain Sha-Feng makes a comment about enemies standing together, drops ordinary and officer enemies; Referenced as being in goblin form, loved by the druid's pet, was the one brought back in goblin form by the druid; Healed by 21 HP, mostly recovered from recent combat; Mentioned as casting a second level spell and vanishing as a swift action
-
-### Shackles - Death & Bungi 2025 10 16
-Player mentions having Sha-Feng's arm in a bag, planning to cook and eat it eventually. References that Sha-Feng was handed the arm.; Mentioned in context of using scorch and ray spell during combat; Enrique's character, mentioned as being far away during the encounter
-
-### Shackles - It's a Bug Story, Baby Just Say Yes 2025 09 11
-Runs up and pushes Storgrim out of the way, taking an embryo impregnation attack meant for him; Casts spiky ice and snowballs at Queen Blossom, missing her touch AC of 15. Appears to be enjoying the combat.; Hobgoblin character in combat situation in dark hallway; Running low on bullseye rum, rationing it for later use. Receives healing from Sara.; Offers food as an apology for carnage; character eats it. GM notes she seems emotionally calm despite trauma, which is concerning
-
-### Shackles - In The Rear With The Beer 2025 08 28
-Was killed and reincarnated as a Hobgoblin; Killed and reincarnated as a Hobgoblin; Being taken by Sahuagin, reincarnated as a Hobgoblin; Ship's cook and killed by Sahuagin, reincarnated as a Hobgoblin
-
-### Shackles - So anyways, I started decapitating.. 2025 08 21
-Taken by Sahuagin, reincarnated as a Hobgoblin; Being taken by Sahuagin, reincarnated as a Hobgoblin; Being reincarnated as a hobgoblin, being taken by Sahuagin; Killed and reincarnated as a Hobgoblin; Was killed and reincarnated as a Hobgoblin; Ship's cook and killed by Sahuagin, reincarnated as a Hobgoblin
-
-### Shackles - Who's Ready To Farty? 2025 07 03 19 12 35
-Was killed and reincarnated as a hobgoblin, then later as a hobgoblin again; Being taken by Sahuagin, reincarnated as a Hobgoblin; Was reincarnated as a hobgoblin after being killed by the Sahuagin; Reincarnated as a hobgoblin, received phase spider jerky from Thragorn; Member of the Pillager's Knife crew, reincarnated as a hobgoblin; Being killed and reincarnated as a Hobgoblin; Ship's cook and killed by Sahuagin, reincarnated as a Hobgoblin
-
-### Shackles - His Head, His Choice 2025 06 05 19 26 15
-Discussed reincarnation options, including becoming a hobgoblin; Was killed and reincarnated as a Hobgoblin; Captured by Sahuagin, reincarnated as a hobgoblin; Ship's cook and killed by Sahuagin, reincarnated as a Hobgoblin
-
-### Speak with Skull (& Shackles) 2025 05 29
-Reincarnated as a Hobgoblin and freed from Sahuagin captivity.; Admitted history of cannibalism and desire to command undead.; Wore a slave collar that needed to be removed.; Held by the Sahuagin and secured by Sorax's people.
-
-### Shackles - Gill Issue 2025 05 01
-Killed and reincarnated as a Hobgoblin, then freed by the Sahuagin alliance.; Taken by Sahuagin, freed from Gol Khazak, killed and reincarnated as a Hobgoblin.; Described as breathing underwater and wearing a glowing pink and purple metal coral collar.; Was ransomed but allowed to help after being rescued by Sorax.
+*Session activity from YouTube transcripts will appear here.*

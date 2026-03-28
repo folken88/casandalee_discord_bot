@@ -1,0 +1,25 @@
+{
+  "name": "First Sovereign",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 18
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 32,
+    "con": 10,
+    "int": 15,
+    "wis": 18,
+    "cha": 26
+  },
+  "items": []
+}

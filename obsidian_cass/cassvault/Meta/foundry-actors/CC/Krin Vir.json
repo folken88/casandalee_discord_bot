@@ -1,0 +1,68 @@
+{
+  "name": "Krin Vir",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Half-Orc",
+  "classes": [
+    {
+      "name": "Paladin",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 26
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 12,
+    "con": 14,
+    "int": 12,
+    "wis": 12,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Headband of Alluring Charisma +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This attractive silver headband is decorated with a number of small red and orange gemstones.\n\nThe headband grants the wearer an enhancement bonus to Charisma of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn."
+    },
+    {
+      "name": "Sigil of the Blue Hand",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Blue Steel Longsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Lorzobun Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Made of a fine steel with a blue-ish tint."
+    }
+  ]
+}

@@ -26,3 +26,12 @@ A settlement where the Man's Promise was renamed 'The Pillager's Knife'
 
 ### Shackles - Gill Issue 2025 05 01
 A shipwrecked area where the party found items and recruited new crew members.
+
+### Shackles - Impress Me, Spice Rack 2025 02 06
+Location where the Pillager's Knife emerged.; A new Brig in the South Shackles where the TPK emerges.; Location where Josh's items were discussed.
+
+### Shackles - Parlay Deez Nutz 2025 01 30
+Location where the Pillager's Knife emerged and a new Brig was established.
+
+### Shackles - Risky Fishness 2025 01 16
+Location where the TPK emerged from Rickety Squibs.

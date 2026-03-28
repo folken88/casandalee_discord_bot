@@ -1,0 +1,25 @@
+{
+  "name": "Titan Boar",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 56
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 14,
+    "con": 22,
+    "int": 2,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": []
+}

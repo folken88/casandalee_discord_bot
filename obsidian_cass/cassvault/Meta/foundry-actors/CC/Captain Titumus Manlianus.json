@@ -1,0 +1,29 @@
+{
+  "name": "Captain Titumus Manlianus",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Wizard",
+      "level": 5
+    },
+    {
+      "name": "Undead",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 26
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 14,
+    "int": 17,
+    "wis": 14,
+    "cha": 12
+  },
+  "items": []
+}

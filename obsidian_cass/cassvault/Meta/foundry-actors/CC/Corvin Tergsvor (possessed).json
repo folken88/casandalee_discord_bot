@@ -1,0 +1,64 @@
+{
+  "name": "Corvin Tergsvor (possessed)",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Rogue",
+      "level": 3
+    },
+    {
+      "name": "Humanoid (Human)",
+      "level": 1
+    },
+    {
+      "name": "Aristocrat",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 93
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 16,
+    "int": 12,
+    "wis": 8,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Expensive Bottle of Absinthe (worth 50 Gp)",
+      "type": "loot",
+      "equipped": true,
+      "description": "sbc | As expensive bottle of absinthe (worth 50 gp) could not be found in any compendium, a placeholder was generated."
+    },
+    {
+      "name": "Jewelry Worth 100 Gp",
+      "type": "loot",
+      "equipped": true,
+      "description": "sbc | As jewelry worth 100 gp could not be found in any compendium, a placeholder was generated."
+    },
+    {
+      "name": "Noble's Outfit",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PZO1110\n\nThese clothes are designed specifically to be expensive and gaudy. Precious metals and gems are worked into the clothing. A would-be noble also needs a signet ring and jewelry (worth at least 100 gp) to accessorize this outfit.\n\nAs this outfit does not cost 10 gp or less, player characters can not choose this outfit for free when first beginning play."
+    },
+    {
+      "name": "Clear Spindle Ioun Stone",
+      "type": "loot",
+      "equipped": true,
+      "description": "sbc | As clear spindle ioun stone could not be found in any compendium, a placeholder was generated."
+    },
+    {
+      "name": "Signet Ring",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n \nA ring with a family symbol or crest on it. It is often pressed into hot wax on objects when they are sealed, leaving a family imprint."
+    }
+  ]
+}

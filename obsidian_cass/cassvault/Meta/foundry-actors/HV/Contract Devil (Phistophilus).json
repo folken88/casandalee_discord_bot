@@ -1,0 +1,25 @@
+{
+  "name": "Contract Devil (Phistophilus)",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "outsider (devil,evil,extraplanar,lawful)",
+      "level": 13
+    }
+  ],
+  "hp": {
+    "max": 136
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 25,
+    "con": 20,
+    "int": 24,
+    "wis": 23,
+    "cha": 22
+  },
+  "items": []
+}

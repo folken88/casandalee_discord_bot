@@ -1,0 +1,56 @@
+{
+  "name": "CAL-OPS Nightguard",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Slayer",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 19
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "+1 Mithral Agile Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for Climb checks and Acrobatics checks made to jump is only –1 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty).\nMithral\n\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well."
+    },
+    {
+      "name": "CAL-OPS Officer's Cloak",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A symbol of rank and a magical charm to protect the wearer."
+    },
+    {
+      "name": "CAL-OPS Officer's Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This sword is about 3-1/2 feet in length."
+    },
+    {
+      "name": "CAL-OPS Officer's Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This sword is about 3-1/2 feet in length."
+    },
+    {
+      "name": "CAL-OPS 003 Lieutenant's Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Lieutenants (\"CAL-LOOKIE LOU\"): A spin on their rank, suggesting they merely observe most encounters."
+    }
+  ]
+}

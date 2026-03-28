@@ -1,0 +1,25 @@
+{
+  "name": "Whispering Sentinal",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Undead Giant",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 10,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": []
+}

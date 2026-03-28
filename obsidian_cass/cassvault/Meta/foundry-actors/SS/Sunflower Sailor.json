@@ -1,0 +1,25 @@
+{
+  "name": "Sunflower Sailor",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Seaman",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 25
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 15
+  },
+  "items": []
+}

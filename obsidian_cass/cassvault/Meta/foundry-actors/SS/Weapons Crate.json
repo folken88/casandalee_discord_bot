@@ -1,0 +1,69 @@
+{
+  "name": "Weapons Crate",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Scroll of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Scroll of Mage Armor",
+      "type": "consumable",
+      "equipped": true,
+      "description": "An invisible but tangible field of force surrounds the subject of a mage armor spell, providing a +4 armor bonus to AC.\nUnlike mundane armor, mage armor entails no armor check penalty, arcane spell failure chance, or speed reduction. Since mage armor is made of force, incorporeal creatures can't bypass it the way they do normal armor."
+    },
+    {
+      "name": "Scroll of Summon Swarm",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You summon a swarm of bats, rats, or spiders (your choice), which attacks all other creatures within its area. (You may summon the swarm so that it shares the area of other creatures.) If no living creatures are within its area, the swarm attacks or pursues the nearest creature as best it can. The caster has no control over its target or direction of travel."
+    },
+    {
+      "name": "Warhammer",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 12 gp Weight 5 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type B; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Hammers\nDescriptionThis weapon consists of a wooden haft and a heavy, metal head. The head may be single (like a carpenter's hammer) or double (like a sledgehammer). The haft is long enough that you may wield it one- or two-handed. Though heavy and relatively slow to wield, "
+    },
+    {
+      "name": "Scroll of Magic Missile",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1 points of force damage.\nThe missile strikes unerringly, even if the target is in melee combat, so long as it has less than total cover or total concealment.\nSpecific parts of a creature can't be singled out. Objects are not damaged by the spell.\nFor every two caster levels beyond 1st, you gain an additional missile-two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th "
+    },
+    {
+      "name": "+1 Short Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 10 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 19-20/x2; Range -; Type P; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Blades, Light\nDescriptionShort swords are some of the most common weapons found in any martial society, and thus designs are extremely varied, depending on the region and creator. Most are around 2 feet in length. Their blades can be curved or straight, single- or double-ed"
+    },
+    {
+      "name": "Scroll of Scorching Ray",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You blast your enemies with a searing beam of fire. You may fire one ray, plus one additional ray for every four levels beyond 3rd (to a maximum of three rays at 11th level). Each ray requires a ranged touch attack to hit and deals 4d6 points of fire damage. The rays may be fired at the same or different targets, but all rays must be aimed at targets within 30 feet of each other and fired simultaneously."
+    },
+    {
+      "name": "Wand of Bless Weapon",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This transmutation makes a weapon strike true against evil foes. The weapon is treated as having a +1 enhancement bonus for the purpose of bypassing the DR of evil creatures or striking evil incorporeal creatures (though the spell doesn't grant an actual enhancement bonus). The weapon also becomes good-aligned, which means it can bypass the DR of certain creatures. (This effect overrides and suppresses any other alignment the weapon might have.) Individual arrows or bolts can be transmuted, but "
+    }
+  ]
+}

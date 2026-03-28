@@ -1,0 +1,32 @@
+{
+  "name": "Draghul the First",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "wompeer",
+  "classes": [
+    {
+      "name": "True Vampire",
+      "level": 13
+    }
+  ],
+  "hp": {
+    "max": 39
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 16,
+    "con": 16,
+    "int": 16,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Butcher's Brand",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Forged in the final years of the Demonskin Wars, this cold iron sword is imbued with frost magic specifically to harm demonic invaders. The blade now pulses with icy energy, dealing an additional 1d6 cold damage. The sword warns the wielder of approaching demonic presence, subtly vibrating in their hand. This weapon once belonged to a commander who fell in defense of Northgarde's walls."
+    }
+  ]
+}

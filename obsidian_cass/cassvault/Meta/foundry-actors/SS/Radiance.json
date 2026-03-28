@@ -1,0 +1,25 @@
+{
+  "name": "Radiance",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Elf",
+  "classes": [
+    {
+      "name": "Inquisitor",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 14,
+    "wis": 18,
+    "cha": 14
+  },
+  "items": []
+}

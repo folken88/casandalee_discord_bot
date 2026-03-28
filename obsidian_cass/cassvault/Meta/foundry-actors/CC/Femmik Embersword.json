@@ -1,0 +1,92 @@
+{
+  "name": "Femmik Embersword",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Ifrit",
+  "classes": [
+    {
+      "name": "Dervish Dancer",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 24
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 14,
+    "int": 12,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Lammas Aeternum",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Researchable Lore: Technically an elven curved blade, this weapon can be wielded by anyone who has weapon focus in a dex-based sword technique. At 10lbs it is heavy for an elven blade, but perfectly balanced.\n\nFormer Owner: Lord Aeturno of  Pangolais had no time for court. His childhood friend was dead at the hands of a demon and his heart left no room for anything but vengeance. He mastered every technique known to the Nidalese Witch Hunters and went on his crusade. He killed until the Demons k"
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "The Timestopper",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The tattoo grants the wearer an enhancement bonus to Charisma of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the tattoo is worn.\nThe item also allows the bearer to add their charisma bonus to initiative checks.\nConstructionRequirements Craft Wondrous Item, Eagle's Splendor; Cost 2,500 gp"
+    },
+    {
+      "name": "Supple, A Wine By Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Calvin Carpenter's finest line of dry white wines, made from the finest potatoes from exclusive farms in Ravounel, has a name - Supple.\nEnjoy a glass of premium and refined flavor.\nSavor the taste and aroma of the rich, earthy notes in each bottle, expertly crafted from the finest ingredients. Raise a glass of Supple, the epitome of luxury and refinement."
+    },
+    {
+      "name": "Cloak Of Elvenkind",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese cloaks of famed elven design are enhanced to reflect the wearer's surroundings, aiding him in blending in with any terrain. When this plain gray cloak is worn with the hood drawn up around the head, the wearer gains a +5 competence bonus on Stealth checks.\n\nBase Item: \nRequirementsCraft Wondrous Item, invisibility, creator must be an elf\nSource: Ultimate Equipment"
+    },
+    {
+      "name": "Potion of Freedom of Movement",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell enables you or a creature you touch to move and attack normally for the duration of the spell, even under the influence of magic that usually impedes movement, such as paralysis, solid fog, slow, and web. All combat maneuver checks made to grapple the target automatically fail. The subject automatically succeeds on any combat maneuver checks and Escape Artist checks made to escape a grapple or a pin.\nThe spell also allows the subject to move and attack normally while underwater, even "
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura moderate abjuration; CL 6th\n\nThis ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Admiral's Jacket",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Sea Snake, by Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Crafted by the renowned perfumer Calvin Carpenter from the luxury brand from Kintargo in the opulent region of Ravounel, Essence of the Irresistible is an exquisite perfume that captivates the senses of both land and sea creatures. The perfume is housed in an elegant crystal vial, its design inspired by the waves of the sea and the gentle curves of rolling hills. The fragrance inside shimmers with a delicate, ocean-blue hue, infused with the rarest ingredients harvested from the coastal waters o"
+    },
+    {
+      "name": "Boots of the Daredevil",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This pair of magical softpaw boots allows the wearer to gain extra maneuverability while moving through hazardous areas.\n\nAs a free action, the wearer can click her heels together to grant herself a +5 competence bonus on Acrobatics checks made to move through threatened squares or to move through an enemy’s space without provoking attacks of opportunity for up to 10 rounds per day. The rounds need not be consecutive. Furthermore, anytime the wearer of the boots successfully moves though the spa"
+    },
+    {
+      "name": "Nutonia, Luxury Spread by Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Nutonia, Luxury Spread by Calvin Carpenter\nSmear refinement in paste-form across the bread of your life. Nutonia is a nut butter made from the sack of the most robust harvest of Taldania-nuts. Taste the nut of a generational-talent."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Mecha 5.5 Warden",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Construct",
+      "level": 17
+    }
+  ],
+  "hp": {
+    "max": 129
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 14,
+    "con": 24,
+    "int": 26,
+    "wis": 14,
+    "cha": 8
+  },
+  "items": [
+    {
+      "name": "Long Gun",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Hellcore Shell",
+      "type": "loot",
+      "equipped": true,
+      "description": "Material: Neutron-Compressed Hyperalloy Core with Plasma-Sheathed CasingOrigin: Reverse-engineered from Androffan warship debris, adapted by the Technic LeaguePurpose: Anti-armor and bunker-busting ordinance\nDescriptionHellcore Shells are a devastating advancement in kinetic projectile technology, using an ultra-dense core composed of neutron-compressed hyperalloy—a material harvested from the shattered remains of Androffan dreadnoughts. The shell is encased in a sheath of energized plasma, gene"
+    }
+  ]
+}

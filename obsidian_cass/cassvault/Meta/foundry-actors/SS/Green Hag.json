@@ -1,0 +1,25 @@
+{
+  "name": "Green Hag",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Monstrous Humanoid",
+  "classes": [
+    {
+      "name": "Monstrous Humanoid (Evil, Mythic)",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 99
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 12,
+    "con": 12,
+    "int": 15,
+    "wis": 13,
+    "cha": 14
+  },
+  "items": []
+}

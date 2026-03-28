@@ -1,19 +1,22 @@
 ---
 name: "Scrapwall Orcs"
-type: npc
+type: character
+race: "Unknown"
+class: "Unknown"
+level: ?
+
 aliases: []
-campaign: ["IG"]
-mentions: 2
-tags: ["character", "npc", "ig"]
+tags: ["character"]
+created: ""
+updated: "2026-03-28T02:50:01.985Z"
 ---
 
 # Scrapwall Orcs
 
-**Type:** NPC
-**Campaigns:** IG
-**Mentions:** 2 session(s)
-
-
 ## Notes & Updates
 
-*No notes yet. Information will be added as Cass learns more from conversations and sessions.*
+- Engaging in a battle with the Wizards. *(youtube-transcript, 3/28/2026)*
+
+## Session Appearances
+
+*Session activity from YouTube transcripts will appear here.*

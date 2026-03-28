@@ -1,0 +1,62 @@
+{
+  "name": "Asmodean Inquisitor",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Inquisitor",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 66
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Holy symbol (Silver)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57Price 100 gp (gold), 5 gp (iron), 500 gp (platinum), 25 gp (silver), 1 gp (wooden); Weight 1 lb. (gold), 1 lb. (iron), 1 lb. (platinum), 1 lb. (silver), — (wooden)\n\nDescription\nA holy symbol focuses positive energy and is used by good clerics and paladins (or by neutral clerics who want to cast good spells or channel positive energy). Each religion has its own holy symbol. The material used to make the holy symbol has no effect on its powers, though a religion may"
+    },
+    {
+      "name": "Chain Shirt MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Saber of Chelish Authority",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Saber of Chelish Authority is issued to naval lieutenants and captains whose performance and loyalty have been deemed exemplary. Though clearly ostentatious with its gilded basket hilt, engraved devil-wing motifs, and lacquered red-black steel blade, its material value is modest. The real worth lies in its deadly craftsmanship and the subtle enchantments laced into the steel by naval artificers of House Thrune.\nIt is a +1 saber (use stats for a scimitar) designed for fluid combat and visual "
+    },
+    {
+      "name": "Sea-Service Pistol",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This masterfully crafted flintlock-style pistol, issued exclusively to officers of the Chelish Navy, represents the height of their martial craftsmanship. The weapon's stock is made from lacquered darkheart rosewood and inlaid with infernal gold filigree, its grip engraved with the winged crown of House Thrune. Despite appearing archaic to Alkenstar engineers or Technic League scholars, it is a weapon of status, discipline, and deadly precision in Cheliax."
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    }
+  ]
+}

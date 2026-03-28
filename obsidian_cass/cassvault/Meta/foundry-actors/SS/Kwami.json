@@ -1,0 +1,74 @@
+{
+  "name": "Kwami",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Monk (Unchained)",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 57
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 15,
+    "con": 13,
+    "int": 12,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.\nConstructionRequirements Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring; Cost 1,000 gp"
+    },
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet.\nConstructionRequirements Craft Wondrous Item, barkskin, creator's caster level must be at least three times the amulet's bonus; Cost 1,000 gp"
+    },
+    {
+      "name": "Trail Rations, Dwarven",
+      "type": "loot",
+      "equipped": true,
+      "description": "Dwarven trail rations consist of smoked sausages and salted meat, rounded out with hard biscuits and dried vegetables. If you are a dwarf who subsists on nothing but these rations for at least 1 week, you can hustle or make a forced march for an additional hour without ill effects, but cannot do both in the same day. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+    },
+    {
+      "name": "Spear of the Mangrove Watch",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This is a spear grown, not forged, by the rangers of the Windward-Island lizardfolk. Its shaft is a single length of mangrove heartwood, reinforced with braided jungle vine and embedded bone rings. The leaflike blade is carved from magically hardened coral, adorned with a living jade sprout that always stays green. It pulses with the rhythm of the tides, guiding the ranger’s strikes like a living companion.\nForged from swamp tradition, ancestral magic, and salt-wind reverence, this weapon is mor"
+    },
+    {
+      "name": "Ashwood Bow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Fashioned from the rare darkwood, the Ashwood Bow is favored by Chelish assassins for its compact design and surprising power. The darkwood construction not only makes it lightweight but also enhances its flexibility, allowing the shooter to utilize their full strength for maximum damage. The bow features intricate crimson engravings that are said to channel the stealthy nature of its wielder. Designed for covert operations, this weapon is as deadly as it is beautiful.\nAura: faint transmutation\n"
+    },
+    {
+      "name": "Chelish Blacksteel Katana",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Chelish Blacksteel Katana is forged in the fires of the Nine Hells, bestowing it with a dark, ominous gleam. Its blade is sharp enough to cut through the moral fabric between worlds. Often wielded by ninja assassin devils of Cheliax, this katana is a feared symbol of the infernal powers of House Thrune. The hilt is wrapped in black leather, and infernal runes adorn the blade. The weapon is perfectly balanced for both swift slashes and precise thrusts.\nAura: faint transmutation\nCaster Level: "
+    },
+    {
+      "name": "Verdant Fang Bow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Fashioned from the twisted roots of an ancient mangrove tree that once stood at the heart of a sacred tidal grove, the Verdant Fang is a +1 composite shortbow used by the Windward-Isles lizardfolk druids. Living far from cities and ports, these jungle stalkers rely on cunning, survival instinct, and nature’s favor to protect their territory and feed their clans.\nVines still cling to the bow’s limbs, swaying as if alive, and the grip pulses faintly with primal energy when drawn under the canopy o"
+    },
+    {
+      "name": "Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This short, curved sword is favored by seafarers for closequarters combat. It is treated as a scimitar for any effects that apply to scimitars."
+    }
+  ]
+}

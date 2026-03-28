@@ -1,0 +1,38 @@
+{
+  "name": "Gearsman 6.7 Scraper",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Divinity Construct",
+      "level": 16
+    }
+  ],
+  "hp": {
+    "max": 156
+  },
+  "abilities": {
+    "str": 38,
+    "dex": 14,
+    "con": 28,
+    "int": 12,
+    "wis": 16,
+    "cha": 1
+  },
+  "items": [
+    {
+      "name": "Glaucite Plating - Heavy",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    },
+    {
+      "name": "Laser Rifle",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

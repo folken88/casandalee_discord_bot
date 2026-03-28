@@ -1,0 +1,29 @@
+{
+  "name": "Cousin Fasra",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Catfolk",
+  "classes": [
+    {
+      "name": "Ninja",
+      "level": 12
+    },
+    {
+      "name": "Monk (Unchained)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 44
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 14,
+    "int": 14,
+    "wis": 12,
+    "cha": 12
+  },
+  "items": []
+}

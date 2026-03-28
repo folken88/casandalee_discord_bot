@@ -1,0 +1,36 @@
+{
+  "name": "Human Zombie Rogue",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Race: Undead",
+  "classes": [
+    {
+      "name": "Rogue (Unchained)",
+      "level": 2
+    },
+    {
+      "name": "Undead (Augmented Human)",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 25
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 10,
+    "int": 0,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "MW Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

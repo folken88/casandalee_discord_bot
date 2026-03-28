@@ -1,0 +1,25 @@
+{
+  "name": "Hecore",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Skinwalker",
+  "classes": [
+    {
+      "name": "Barbarian",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 36
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": []
+}

@@ -1,0 +1,104 @@
+{
+  "name": "Kevoth-kul",
+  "type": "character",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Barbarian",
+      "level": 17
+    }
+  ],
+  "hp": {
+    "max": 46
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Burning Hate",
+      "type": "weapon",
+      "equipped": true,
+      "description": "+4 Keen, Flaming-burst Greatsword."
+    },
+    {
+      "name": "Goremouth War Bell",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This iron-spiked gauntlet has a hollow chamber within the wrist that resonates like a cathedral bell when it strikes flesh. The design is brutal, its surface etched with runic symbols of intimidation. Favored by those who thrive on the chaos of battle, it produces a sound that reverberates through bone and steel, unsettling enemies with a cacophony of violent intent."
+    },
+    {
+      "name": "Crown of Numeria",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Crafted from the bones of a dire wolf, fur of a great bear, and the jewels of a King, this is the crown of the Black Sovereign."
+    },
+    {
+      "name": "Warlord's Belt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The belt of a King. Fashioned for the Black Sovereign, Ruler of Numeria, Warlord of All Clans, Master of Starfall"
+    },
+    {
+      "name": "Great Beast Hide",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This cloak functions as a +4 resistance cloak and also provides Cold Resist 20."
+    },
+    {
+      "name": "Gauntlets of the Flint-Singer",
+      "type": "equipment",
+      "equipped": false,
+      "description": "These thick stone-knuckled gauntlets are forged with the essence of earth and fire, granting the wearer significant melee power. Their rugged surfaces shimmer with a subdued glow reminiscent of heated stone. The wearer can use their unarmed strikes as if they were wielding a +2 weapon, channeling the destructive force of the earth. Travelers speak of their origin in the volcanic forges of a hidden society that honors both the mountain's fury and tranquility."
+    },
+    {
+      "name": "Eye of the Black Sovereign",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring is one of the items of station belonging to the Black Sovereign, ruler of Numeria.\n\nIt is forged of blackened adamant and set with a huge orange gemstone of unknown type. A scrying-view of Silvermount can be seen in its depths."
+    },
+    {
+      "name": "Beak of the Void Raven",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Forged from voidsteel and laced with blackgold circuitry, this terrifying helm is shaped like a monstrous raven with a razor-like beak and glowing red eyes. The Beak of the Void Raven is believed to be a remnant of a crashed alien war automaton, scavenged by the Black Sovereign’s horde and reforged into a helm by a barbarian shaman who fed it souls. The Technic League cataloged the helm as “Artifact 77-D: Raven AI Host Interface,” but dismissed it as \"over-sentimentalized techno-barbarism\" after"
+    },
+    {
+      "name": "Allosaur Hide Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Hide armor is made from the tanned skin of particularly thickhided beasts, stitched with either multiple overlapping layers of crude leather or exterior pieces of leather stuffed with padding or fur. Damage to the armor is typically repaired by restitching gashes or adding new pieces of hide, giving the most heavily used suits a distinctively patchwork quality."
+    },
+    {
+      "name": "Mantle of the Mammoth King",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Woven from the fur of the last northern mammoth, this shaggy white mantle possesses an ancient and primal power. Its thick, warm texture provides comfort in even the coldest environments. The mantle exudes a subtle, earthy scent, reminiscent of mammoth fur warmed by the tundra winds. Though its appearance may seem too rustic and barbaric for some, it embodies the raw endurance and strength of the legendary mammoth."
+    },
+    {
+      "name": "Shattertooth",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Shattertooth is a formidable Earthbreaker rumored to have been wielded by the Sovereign in his youth. The weapon's head appears to be carved from solid rock, encrusted with iron deposits that shimmer menacingly in the light. This awe-inspiring maul is said to hit with the intensity of a collapsing cliff and bears a weightiness that matches its legacy. Its rugged design, coupled with its battlefield history, gives off a pungent scent of rust and the thrill of victory. Due to its immense power, th"
+    },
+    {
+      "name": "Ragepipe of the Hollow Mountain",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This massive war horn is carved from the horn of a fiendish dire ram. Ornately etched with primal symbols, it resonates with the echoes of battles long past. Known to have been found on expeditions to the fabled Hollow Mountain, its creation is rumored to involve savage rites led by a barbarian chieftain. When blown, it emits a deep note that invigorates allies and terrifies foes with its roaring power."
+    },
+    {
+      "name": "Chieftan's Scepter of Leadership",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A finely balanced throwing axe with a number of enchantments.\n\nWith a range increment of 20', the axe accelerates to incredible speed once thrown. Striking its target up to 5 increments (100') away, and flying back to the thrower's hand by the end of their turn.\n\nIf thrown with two hands as a full-round-attack action, the axe delivers the thrower's normal secondary attacks to any viable targets within 1 range increment of the previous target before returning."
+    }
+  ]
+}

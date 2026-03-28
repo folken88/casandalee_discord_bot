@@ -1,0 +1,25 @@
+{
+  "name": "The Wormwood",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Colossal Water Vehicle",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 1620
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": []
+}

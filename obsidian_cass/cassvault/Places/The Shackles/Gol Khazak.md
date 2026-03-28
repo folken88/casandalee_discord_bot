@@ -32,3 +32,18 @@ Underwater cave and lost dwarven settlement.; Lost dwarven settlement where Bujo
 
 ### Shackles - No Concept of Personal Space 2025 04 24
 Underwater cave system with collapsed tunnels and undead dwarves.
+
+### Shackles - Just Stuff Me In The Bag 2025 04 17
+Underwater dwarven structure with schools of fish and ancient writing.; Lost dwarven settlement where an alliance is forged with the Sahuagin.; Underwater cave and lost dwarven settlement where Bujon was slain and reincarnated.; Underwater cave and lost dwarven settlement.; Lost dwarven settlement where an alliance was forged with Sahuagin.
+
+### Shackles - Kraken Muh Dingy 2025 04 03
+Underwater cave where Sahuagin and Hobgoblin are located.
+
+### Shackles - Edging the Guardian 2025 02 27
+An underwater dwarven settlement with a Golem guardian and magical defenses.
+
+### Shackles - Impress Me, Spice Rack 2025 02 06
+Underwater dwarven settlement where Bujon was slain and reincarnated.; Underwater dwarven settlement where Bujon was slain and reincarnated as an Iku-Turso.; Lost dwarven settlement where Sahuagin alliance is forged.
+
+### Shackles - Weekend at Storgrims 2025 01 23
+Underwater dwarven settlement where Bujon was slain and reincarnated.

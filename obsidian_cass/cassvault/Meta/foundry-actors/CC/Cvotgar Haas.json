@@ -1,0 +1,56 @@
+{
+  "name": "Cvotgar Haas",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Dhampir",
+  "classes": [
+    {
+      "name": "Monk (Unchained)",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 22
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 13,
+    "int": 10,
+    "wis": 12,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Wirejack Tendons (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nWirejack tendons not only strengthen and enhance existing reflexes, but also enhance the transmission of nerve impulses to surrounding musculature. Once installed, wirejack tendons grant an enhancement bonus to Dexterity."
+    },
+    {
+      "name": "Implant Mesh (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\n\nAn implant mesh is a cybernetic augmentation that enhanced other cybernetic implants, notably those that heighten their wearers' physical abilities. If used to enhance cyberfiber musclesTG, a thoracic nanite chamberTG, or wirejack tendonsTG, an implant mesh must be installed on that piece of cyberware before the item is implanted in a body. \n\n \n\nThis implant mesh supports up to 3 physical body mods with a maximum bonus of +2."
+    },
+    {
+      "name": "Cyberfiber Muscles (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nCyberfiber muscles are powerful synthetic muscles that augment but do not replace existing muscle mass in a creature. Once installed, cyberfiber muscles grant an enhancement bonus to Strength. This enhancement bonus alters price, implantation value, install DCs, and Craft DCs as listed below."
+    },
+    {
+      "name": "Dermal Plating (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese plates exist under the skin and provide increased resistance to physical attacks. They are undetectable normally, but are visible when struck and for a few moments afterwords."
+    },
+    {
+      "name": "Cybernetic Legs (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nA cybernetic leg completely replaces a normal leg, from the hip to the foot. It can take the place of a leg lost to a severing wound. The leg is fully functional and no different in appearance from a regular leg, although cyberart can be added to the leg at no additional cost. A cybernetic leg does not increase a user's Strength score. If both legs are replaced, they increase the user's base land speed by 10 feet and grant a +5 bonus to CMD against trip attempts and a +5 circumstance"
+    }
+  ]
+}

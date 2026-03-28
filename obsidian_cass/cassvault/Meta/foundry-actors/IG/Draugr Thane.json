@@ -1,0 +1,48 @@
+{
+  "name": "Draugr Thane",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Barbarian",
+      "level": 11
+    },
+    {
+      "name": "Undead",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 44
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 10,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Throwing Axe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 8 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range 10 ft.; Type S; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Axes; Thrown; Tribal\nDescriptionThis one-handed axe is small and perfectly balanced for throwing, and can be used as a melee weapon. Throwing axes have a variety of alternative names, including franciscas, tomahawks, and more. The axe is normally gripped by the haft and throw"
+    },
+    {
+      "name": "Chainmail MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Unlike a chain shirt, which covers only the chest, chainmail protects the wearer with a complete mesh of chain links that cover the torso and arms, and extends below the waist. Multiple interconnected pieces offer additional protection over vital areas. The suit includes gauntlets."
+    },
+    {
+      "name": "Greataxe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsCost 20 gp Weight 12 lbs.\nDamage 1d10 (small), 1d12 (medium); Critical x3; Range -; Type S; Special -\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Axes\nDescriptionThis two-handed battle axe is heavy enough that you can't wield it with one hand. The head may have one blade or two, and may be \"bearded\" (meaning hooked or trailing at the bottom) to increase cleaving power and help pull down enemy shields. The haft is u"
+    }
+  ]
+}

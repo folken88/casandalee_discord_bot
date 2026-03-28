@@ -1,0 +1,25 @@
+{
+  "name": "Ilsani",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Monk (Unchained)",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 34
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 15,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": []
+}

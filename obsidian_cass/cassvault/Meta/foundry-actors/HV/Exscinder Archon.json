@@ -1,0 +1,25 @@
+{
+  "name": "Exscinder Archon",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 14
+    }
+  ],
+  "hp": {
+    "max": 220
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 19,
+    "con": 28,
+    "int": 16,
+    "wis": 25,
+    "cha": 21
+  },
+  "items": []
+}

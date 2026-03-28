@@ -1,0 +1,216 @@
+{
+  "name": "Savage",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Tiefling",
+  "classes": [
+    {
+      "name": "Bloodrager",
+      "level": 4
+    },
+    {
+      "name": "Dragon Disciple",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 50
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 14,
+    "int": 12,
+    "wis": 12,
+    "cha": 15
+  },
+  "items": [
+    {
+      "name": "Grape Tongue",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dyes the user's tongue bright purple, usually spreading to the lips and area around the mouth as it causes excessive licking and smacking. Whatever the user says is heard as incoherent babbling, but the user is granted +8 to save vs mind-affecting attacks with somatic components for 1d8 minutes."
+    },
+    {
+      "name": "Steelchew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Temporarily changes all the users soft tissue to hardened steel. This results in an Ironskin spell (+6 natural armor), DR10 vs Slashing, and blindness. lasts 2d6 minutes."
+    },
+    {
+      "name": "Desert Coffee",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This particularly strong coffee is popular throughout the desert empires. A morning cup is a good cure for lack of rest, but many find that it becomes a habit.\nType ingested; Addiction minor, Fortitude DC 12\n8 hours; user ignores the effects of the fatigued condition.\nAfter 8 hours; the user becomes exhausted, which is reduced to fatigued only after at least 8 hours of rest (instead of 1 hour).\n1 Wis damage"
+    },
+    {
+      "name": "Wolfsbane Flower",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Used as a poison to execute prisoners in Cheliax, this herb causes 1d3 CON damage but allows a new save vs Curse of Lycanthropy."
+    },
+    {
+      "name": "Potion of Haste",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast "
+    },
+    {
+      "name": "Enchantique Flare Gun",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Sexy Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Wand of Burning Hands",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A cone of searing flame shoots from your fingertips. Any creature in the area of the flames takes 1d4 points of fire damage per caster level (maximum 5d4). Flammable materials burn if the flames touch them. A character can extinguish burning items as a full-round action."
+    },
+    {
+      "name": "L-PIU Officer Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Belladona",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Used by Cheliax as a biological weapon to contaminate their enemies food reserves, this herb causes 1d2 STR damage but allows a new save vs Curse of Lycanthropy."
+    },
+    {
+      "name": "Silver Greataxe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsCost 20 gp Weight 12 lbs.\nDamage 1d10 (small), 1d12 (medium); Critical x3; Range -; Type S; Special -\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Axes\nDescriptionThis two-handed battle axe is heavy enough that you can't wield it with one hand. The head may have one blade or two, and may be \"bearded\" (meaning hooked or trailing at the bottom) to increase cleaving power and help pull down enemy shields. The haft is u"
+    },
+    {
+      "name": "Enchantique Starter Kit",
+      "type": "container",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Dispel Magic",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can use dispel magic to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by dispel magic. Dispel magic can dispel (but not counter) spell-like effects just as it does spells. The of a spell with an instantaneous duration can't be dispelled, because the"
+    },
+    {
+      "name": "Sweet Rest by Enchantique",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When imbibed, this effervescent solution causes a heavy warmth to spread from your stomach outward to your limbs, resulting in feelings of security and well-being. If you sleep for at least 1 hour after consuming the solution, the next time within the next 24 hours that you attempt a saving throw to remove a temporary negative level, you can roll the save twice and use the better result. Crafting this item requires a successful DC 20 Craft (alchemy) check.\n\nRequires Enchantique shaker bottle."
+    },
+    {
+      "name": "Potion of Disguise Self",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You make yourself--including clothing, armor, weapons, and equipmen--look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender.\nThe spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile"
+    },
+    {
+      "name": "Insight Leaf Powder Concentrate by Enchantique",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You steep these herbs in hot water, then drink the resulting tisane while it's still warm before going to bed. While you sleep, you experience vivid hallucinations that offer insight into matters with which you previously had only limited familiarity. After 8 hours of uninterrupted rest, you can attempt a previously failed Knowledge check with a +2 alchemical bonus.\n\nRequires Enchantique shaker bottle."
+    },
+    {
+      "name": "Applecheek Concentrate by Enchantique",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This sticky-sweet syrup is distilled from ivy and rabbit musk, and causes a mild allergic reaction in halflings. The slight swelling- especially in the face-and mild redness it induces makes the face seem younger, granting a halfling who drinks a dose of applecheek a +2 alchemical bonus on Disguise checks to look like an elven, half-elven, or human child. The effects of a dose of applecheek persist for 24 hours. Crafting a dose of applecheek requires a successful DC 15 Craft (alchemy) check.\n\nRe"
+    },
+    {
+      "name": "Cologne: Musk, by Calvin Carpenter",
+      "type": "loot",
+      "equipped": false,
+      "description": "What drives him? His driver. Who clothes him? His tailor. Who shaves him? The barber. \n\nWho calls to her loins with the force of a hurricane's howl? \n\nHis Musk.....................................................\n\nThis scent smells of basil leaves, mint, and stinkbug because it is made from those things. It is -2 Diplomacy for 4 hours after applying unless a creature has no sense of smell or is powerfully attracted to teenage noblemen in which case they can hold their nose."
+    },
+    {
+      "name": "Widowmaker",
+      "type": "weapon",
+      "equipped": true,
+      "description": "No vow, no bond, no sacred thread,\nShall keep me from the justice bled,\nBeneath her gaze, with stinging grace,\nI end his breath, cleave his face.\n\nLegends say this axe & poem are both the creation of an infamous priest of Calistria. The weapon was made for disposing of jealous husbands."
+    },
+    {
+      "name": "Savage Business Cards",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": true,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Supple, A Wine By Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Calvin Carpenter's finest line of dry white wines, made from the finest potatoes from exclusive farms in Ravounel, has a name - Supple.\nEnjoy a glass of premium and refined flavor.\nSavor the taste and aroma of the rich, earthy notes in each bottle, expertly crafted from the finest ingredients. Raise a glass of Supple, the epitome of luxury and refinement."
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Nutonia, Luxury Spread by Calvin Carpenter",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Nutonia, Luxury Spread by Calvin Carpenter\nSmear refinement in paste-form across the bread of your life. Nutonia is a nut butter made from the sack of the most robust harvest of Taldania-nuts. Taste the nut of a generational-talent."
+    },
+    {
+      "name": "Wand of Magic Missile",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1 points of force damage.\nThe missile strikes unerringly, even if the target is in melee combat, so long as it has less than total cover or total concealment.\nSpecific parts of a creature can't be singled out. Objects are not damaged by the spell.\nFor every two caster levels beyond 1st, you gain an additional missile-two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th "
+    },
+    {
+      "name": "Crystal-Sweet Concentrate by Enchantique",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This sugary blue drink, often cut with mint to reduce the cloying sweetness, brightens your demeanor and sweetens your voice, granting a +2 alchemical bonus on Diplomacy checks. It renders you naive and perilously trusting, however, imparting a -4 penalty on your Sense Motive checks.\n\nRequires Enchantique shaker bottle."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Enchantique Shaker by Calvin Carpenter",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Liniment Concentrate by Enchantique",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This lotion is made from soothing herbs and oils. When rubbed on your skin, liniment relieves pain, allowing you to ignore the effects of 2 points of ability damage caused by a single disease you have. The benefits of the liniment last for 30 minutes, and it does not cure, prevent, or otherwise protect you from the effects of diseases. You cannot benefit from the effects of liniment more than once in a 24-hour period.\n\nRequires Enchantique shaker bottle."
+    },
+    {
+      "name": "Ardis Lord Pendant",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Nostalgia by Enchantique",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Pathfinders pride themselves on their camaraderie, and among the worst threats are those that can magically compel agents to fight among themselves. Nostalgia oil is a vial of concentrated aromatics that evoke positive memories of the Grand Lodge and common trials overcome during a Pathfinder's training. By dabbing this oil on her face, neck, or arms as a standard action, a Pathfinder gains a +2 alchemical bonus on saving throws against effects with the emotionUM descriptor and on secondary savi"
+    }
+  ]
+}

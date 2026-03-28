@@ -1,0 +1,44 @@
+{
+  "name": "Bilge",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Wood Golem",
+  "classes": [
+    {
+      "name": "Construct",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 22
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 16,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Tool, masterwork",
+      "type": "loot",
+      "equipped": false,
+      "description": "This tool is perfect for its intended job. It grants a +2 circumstance bonus on a related skill check (if any). The bonuses provided by multiple masterwork items do not stack.\nSeveral common items already count as masterwork tools for particular skills. These are the alchemist's lab, climber's kit, disguise kit, healer's kit, masterwork musical instrument, and masterwork thieves' tools. Therefore, there is no masterwork climber's kit, masterwork healer's kit, and so on-those items are already th"
+    },
+    {
+      "name": "Wooden Chestbox",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A breastplate protects a wearer’s torso with a single piece of sculpted metal, similar to the core piece of a suit of full plate. Despite its sturdiness, its inflexibility and open back make it inferior to complete suits of metal armor, but still an improvement over most non-metal armors."
+    },
+    {
+      "name": "Thieves' Tools, masterwork",
+      "type": "loot",
+      "equipped": true,
+      "description": "This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.\n\nThis kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Device checks."
+    }
+  ]
+}

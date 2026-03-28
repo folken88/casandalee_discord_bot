@@ -1,0 +1,25 @@
+{
+  "name": "Gator of the Sea",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 84
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 12,
+    "con": 18,
+    "int": 1,
+    "wis": 12,
+    "cha": 2
+  },
+  "items": []
+}

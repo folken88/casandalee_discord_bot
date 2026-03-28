@@ -1,0 +1,25 @@
+{
+  "name": "Kwami",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Monk (Unchained)",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 13
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 13,
+    "int": 10,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": []
+}

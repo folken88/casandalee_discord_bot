@@ -1,0 +1,38 @@
+{
+  "name": "Strix Shaman",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Strix",
+  "classes": [
+    {
+      "name": "Shaman",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 59
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 18,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Dagger MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A dagger has a blade that is about 1 foot in length.\n\nBenefit: You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body (see Using Skills)."
+    },
+    {
+      "name": "Hide Armor MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Hide armor is made from the tanned skin of particularly thickhided beasts, stitched with either multiple overlapping layers of crude leather or exterior pieces of leather stuffed with padding or fur. Damage to the armor is typically repaired by restitching gashes or adding new pieces of hide, giving the most heavily used suits a distinctively patchwork quality."
+    }
+  ]
+}

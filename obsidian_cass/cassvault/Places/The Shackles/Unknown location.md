@@ -23,3 +23,9 @@ Mentioned in this session.
 
 ### Speak with Skull (& Shackles) 2025 05 29
 Part of a battle involving multiple enemies and allies.
+
+### Shackles - Kraken Muh Dingy 2025 04 03
+Potential location of ruins and cult.
+
+### Shackles - Nerdloot 2025 03 06
+A room with a planar portal and footprints leading to it; A dark cavern with spider webs and a dead giant spider.

@@ -1,0 +1,44 @@
+{
+  "name": "Xaervan",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Drow",
+  "classes": [
+    {
+      "name": "Slayer",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 38
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 18,
+    "con": 14,
+    "int": 12,
+    "wis": 12,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Ring of the Chelish Agent",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This elegant ring is crafted of dark silver and etched with the emblem of House Thrune, the ruling family of Cheliax. It is a mark of authority and protection among agents of the Chelish government. The ring is often awarded to those who have proven their loyalty and prowess in the service of the infernal nation. The wearer feels a subtle aura of safety and strength, as if shielded by an unseen force."
+    },
+    {
+      "name": "Culling Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This exquisite wakazashi is a masterpiece of Chelish craftsmanship, renowned for its perfect balance and razor-sharp edge. The blade is polished to a mirror finish, with intricate Chelish motifs etched along the flat. The hilt is wrapped in deep crimson leather, providing a secure grip. This weapon is favored by Chelish assassins for its deadly precision and ease of concealment. It is said that the blade can cut through the silence itself, making it an ideal tool for surprise attacks."
+    },
+    {
+      "name": "Chelish Scout Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Chelish Scout Chain Shirt is a finely crafted piece of armor, renowned for its exquisite design and bronze sheen that catches the light with every movement. Fashioned in Cheliax, this chain shirt is not just a protective garment but a work of art, designed for those who blend into society with both style and function. It provides excellent protection while allowing for mobility, ideal for scouts exploring the dense forests and treacherous terrains of the region.\nAura: faint transmutation\nCas"
+    }
+  ]
+}

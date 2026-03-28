@@ -1,0 +1,38 @@
+{
+  "name": "Tortugán",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Construct",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 64
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 2,
+    "con": 28,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Tortugan, the Walking War-Cannon",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Walking War-Cannon \"Tortugan\"Level 8 Construct (or Level 6 Animated Object)\nAura faint transmutation; CL 8th\nConstruction Cost 20,000 gp; Market Price 40,000 gp\nDescription:\nThe Walking War-Cannon, colloquially referred to as the \"Tortugan,\" is an ingenious construct designed to act as both a self-mobile artillery piece and a defensive asset. Forged by an unknown but undeniably brilliant artisan, this construct resembles a giant tortoise made of reinforced steel and brass. Its \"head\" is a long-b"
+    },
+    {
+      "name": "Cannon ball",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Inner Sea World Guide pg. 293\nPrice 30 gp; Weight 25 lbs.\nCategory Adventuring Gear\nDescriptionA cannon ball is the ammunition of a cannon and many other siege firearms. Picking up or drawing a cannon ball requires a move action for Medium and Small creatures, but is a free action for Large and larger creatures."
+    }
+  ]
+}

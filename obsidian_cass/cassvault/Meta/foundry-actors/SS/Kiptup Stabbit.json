@@ -1,0 +1,42 @@
+{
+  "name": "Kiptup Stabbit",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Kobold",
+  "classes": [
+    {
+      "name": "Rogue (Unchained)",
+      "level": 5
+    },
+    {
+      "name": "Monstrous Humanoid",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 18
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 10,
+    "int": 12,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Hide Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Kukri",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "Hill Giant",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Humanoid",
+  "classes": [
+    {
+      "name": "Barbarian",
+      "level": 4
+    },
+    {
+      "name": "Humanoid (Giant)",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 135
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 8,
+    "con": 20,
+    "int": 6,
+    "wis": 10,
+    "cha": 7
+  },
+  "items": [
+    {
+      "name": "Great Club",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This larger, bulkier version of the common club is heavy enough that you can’t wield it with one hand. It may be ornate and carved, reinforced with metal, or a simple branch from a tree. Like simple clubs, greatclubs have many names, such as cudgels, bludgeons, shillelaghs, and more."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Sterklindr",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Witch",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 21
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 12,
+    "con": 13,
+    "int": 17,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Headband of Vast Intelligence +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This intricate gold headband is decorated with several small blue and deep purple gemstones.\n\nThe headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer’s total Hit Dice. These ranks do no"
+    },
+    {
+      "name": "Crystalys",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This blade can take the form of a nearly any known sword with a full-round action and DC25 spellcraft check to engage its power. \n\nIt increases the DC of cold-descriptor spells cast by the wielder by 2, and is a formidable weapon as well."
+    },
+    {
+      "name": "Belt of Giant Strength +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt is a thick leather affair, often decorated with huge metal buckles. The belt grants the wearer an enhancement bonus to Strength of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    }
+  ]
+}

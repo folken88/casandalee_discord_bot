@@ -1,0 +1,42 @@
+{
+  "name": "Gearsman 5.0 Gunslinger",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Gunslinger",
+      "level": 7
+    },
+    {
+      "name": "Construct",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 68
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 24,
+    "con": 14,
+    "int": 14,
+    "wis": 14,
+    "cha": 8
+  },
+  "items": [
+    {
+      "name": "Revolvers",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A revolver is a pistol with a revolving cylinder containing six chambers. Each chamber can hold a metal cartridge, and when one cartridge is shot, the cylinder automatically rotates (no extra hand or action required), readying the next chamber for firing. A revolver uses metal cartridges as ammunition.\n\n \n\nThis particular model features a 4 chambered cylindar. It takes a full-round action to reload or a move-action will load 1 cartridge."
+    },
+    {
+      "name": "Makeshift Greatsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsCost 50 gp Weight 8 lbs.\nDamage 1d10 (small), 2d6 (medium); Critical 19-20/x2; Range -; Type S; Special -\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis immense two-handed sword is about 5 feet in length. A greatsword may have a dulled lower blade that can be gripped."
+    }
+  ]
+}

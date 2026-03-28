@@ -1,0 +1,25 @@
+{
+  "name": "Salt Guardian",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Construct",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 16
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 16,
+    "cha": 10
+  },
+  "items": []
+}

@@ -1,0 +1,57 @@
+{
+  "name": "The Harrow Hearse",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Soap",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source PPZO9410\n\nYou can use this thick block of soap to scrub clothes, pots, linens, or anything else that might be dirty. A bar of soap has approximately 50 uses."
+    },
+    {
+      "name": "Waterskin",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n \nA water or wineskin holds 1/2 gallon of liquid and weighs 4 lb when full.\n \nEmpty Weight: -; Capacity: 1/2 gallon/4 lb.1\n \n1 When made for Medium characters. Weighs one-quarter the normal amount when made for Small characters. Weighs twice the normal amount when made for Large characters. Containers carry one-quarter the normal amount when made for Small characters.\n \n\n \nMagic Containers \nMagic containers come in almost as many varieties as there are alchemists, and so are of in"
+    },
+    {
+      "name": "Bedroll, CPUSS Standard Issue",
+      "type": "loot",
+      "equipped": false,
+      "description": "A CPUSS standard issue bedroll."
+    },
+    {
+      "name": "Myceloid Mushroom",
+      "type": "loot",
+      "equipped": true,
+      "description": "A Myceloid mushroom chunk. Chefs should be aware that the Purple Pox disease can still spread from ingesting this item if it is not prepared with care."
+    },
+    {
+      "name": "Tongue of Ghoul",
+      "type": "loot",
+      "equipped": true,
+      "description": "The tongue of a Ghoul, or ghoul-variant. Handle with care, as this item still carries both its paralytic qualities and ghoul fever until properly cooked."
+    },
+    {
+      "name": "Bedroll",
+      "type": "loot",
+      "equipped": false,
+      "description": "This consists of two woolen sheets sewn together along the bottom and one side to create a bag for sleeping in. Some have cloth straps along the open side so the bedroll can be tied closed while you are sleeping. It can be rolled and tied into a tight coil for storage or transport. Most people use a blanket with the bedroll to stay warm or provide a ground cushion."
+    }
+  ]
+}

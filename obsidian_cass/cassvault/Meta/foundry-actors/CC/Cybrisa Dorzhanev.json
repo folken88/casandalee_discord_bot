@@ -1,0 +1,50 @@
+{
+  "name": "Cybrisa Dorzhanev",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Skinwalker",
+  "classes": [
+    {
+      "name": "Druid",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 12,
+    "int": 14,
+    "wis": 20,
+    "cha": 9
+  },
+  "items": [
+    {
+      "name": "+1 Eel Hide Hide Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Hide armor is made from the tanned skin of particularly thickhided beasts, stitched with either multiple overlapping layers of crude leather or exterior pieces of leather stuffed with padding or fur. Damage to the armor is typically repaired by restitching gashes or adding new pieces of hide, giving the most heavily used suits a distinctively patchwork quality.\nEel Hide\n\nThis supple material offers as much protection as leather, but is more flexible and resistant to electricity. Leather, hide, o"
+    },
+    {
+      "name": "Jung Nuggit",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Deer Shit",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Wack Juce",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Refreshingly intoxicating, Wack Juce is made with the finest synthetic oranges in Numeria, and the 3rd finest potato vodka in the world: Smashka Noble!\nEnjoy this sweet and soothing taste of home, you can almost hear the anthem of the Fatherland as you slurp!"
+    }
+  ]
+}

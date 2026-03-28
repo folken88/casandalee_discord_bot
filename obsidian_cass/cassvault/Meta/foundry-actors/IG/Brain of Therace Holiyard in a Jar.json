@@ -1,0 +1,40 @@
+{
+  "name": "Brain of Therace Holiyard in a Jar",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Wizard",
+      "level": 3
+    },
+    {
+      "name": "Rogue (Unchained)",
+      "level": 3
+    },
+    {
+      "name": "Arcane Trickster",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 33
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 14,
+    "con": 12,
+    "int": 18,
+    "wis": 12,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "+1 Club",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost - Weight 3 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x2; Range 10 ft.; Type B; Special -\nCategory One-Handed; Proficiency Simple\nWeapon Groups Hammers; Thrown; Tribal\nDescriptionThis weapon is usually just a shaped piece of wood, sometimes with a few nails or studs embedded in it."
+    }
+  ]
+}

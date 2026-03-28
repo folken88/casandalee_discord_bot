@@ -1,0 +1,62 @@
+{
+  "name": "El Guapo",
+  "type": "character",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 14
+    }
+  ],
+  "hp": {
+    "max": 48
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Revolver",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Pirate Captain's Ring",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A dingy golden ring with a skull and crossbones as its sigil. If the wearer is a current or past pirate captain, acts as a circlet of charisma +4."
+    },
+    {
+      "name": "Slippery Chain",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Cayden's Mug",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Mithril Scimitar +2",
+      "type": "weapon",
+      "equipped": true,
+      "description": "You can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn’t a light weapon.\nYou can’t wield a rapier in two hands in order to apply 1-1/2 times your Strength bonus to damage."
+    },
+    {
+      "name": "Tiger Belt",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

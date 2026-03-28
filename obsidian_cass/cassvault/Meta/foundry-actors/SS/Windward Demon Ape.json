@@ -1,0 +1,29 @@
+{
+  "name": "Windward Demon Ape",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Monk (Unchained)",
+      "level": 1
+    },
+    {
+      "name": "Animal",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 47
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 17,
+    "con": 12,
+    "int": 6,
+    "wis": 14,
+    "cha": 8
+  },
+  "items": []
+}

@@ -1,0 +1,29 @@
+{
+  "name": "Ettercap",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Undefined",
+  "classes": [
+    {
+      "name": "Shapechanger",
+      "level": 4
+    },
+    {
+      "name": "Slayer",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 68
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 24,
+    "con": 18,
+    "int": 6,
+    "wis": 16,
+    "cha": 8
+  },
+  "items": []
+}

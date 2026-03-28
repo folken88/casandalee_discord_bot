@@ -1,0 +1,58 @@
+{
+  "name": "Sweet Wilihem Poore",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Dwarf",
+  "classes": [
+    {
+      "name": "Rogue (Unchained)",
+      "level": 1
+    },
+    {
+      "name": "Swashbuckler",
+      "level": 6
+    },
+    {
+      "name": "Seaman",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 36
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 11,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Firearm Bullet",
+      "type": "loot",
+      "equipped": false,
+      "description": "The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound."
+    },
+    {
+      "name": "Alkanstar Bolt-Action Longarm",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Darkwood Battle Axe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The handle of this axe is long enough that you can wield it one-handed or two-handed. The head may have one blade or two, with blade shapes ranging from half-moons to squared edges like narrower versions of woodcutting axes. The wooden haft may be protected and strengthened with metal bands called langets.\nDarkwood\n\nThis rare magic wood is as hard as normal wood but very light. Any wooden or mostly wooden item (such as a bow or spear) made from darkwood is considered a masterwork item and weighs"
+    },
+    {
+      "name": "Corsair's Coat",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Corsair’s Coat is a stylish, weathered leather coat designed for swashbucklers and those who live by the sea. Light enough to move freely in battle, this coat is reinforced with hidden strips of flexible metal, offering protection without restricting the wearer’s agility.\nIt functions as a mithral chain shirt +1\n +2 on acrobatics - comfortable yet maneuverable feel\n+4 CMD - helping the wearer avoid many dangers of boarding"
+    }
+  ]
+}

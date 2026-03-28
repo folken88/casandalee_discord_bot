@@ -1,0 +1,74 @@
+{
+  "name": "El Guapo",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 13
+    }
+  ],
+  "hp": {
+    "max": 23
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 17,
+    "con": 12,
+    "int": 12,
+    "wis": 9,
+    "cha": 15
+  },
+  "items": [
+    {
+      "name": "Clamdrinc",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Introducing the peculiar elixir that combines the unlikeliest of flavors, Clamdrinc! Drawing inspiration from the iconic elven weapon wielded against the Orcs, this unique soda delivers a briny surprise with every sip. Imagine the essence of the sea captured in a fizzy concoction, where the salty undertones dance alongside a subtle hint of clam, creating an unforgettable taste adventure. With each refreshing gulp, Clamdrinc transports you to a mythical shoreline, where the Elves and the clams un"
+    },
+    {
+      "name": "Captain's Lucky Hat",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This stylish hat gives the wearer a sense of confident authority and naval competence.  While aboard any sea going or flying vessel, if the wearer is the recognized captain, once per day when they issue a general order to the crew, all of their crew are affected by a @Compendium[pf1.spells.vqfrp8t0c1lw1jna]{Heroism} spell that lasts 1 hour per captain's level.\n\n \n\nJust wearing the hat grants one a circumstance bonus to pursuasion skills with any who recognize that it is a captain's hat."
+    },
+    {
+      "name": "Heart of Greed",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Heart of Greed is a +3 keen mithral-alloy rapier that provides Critical Focus to the wielder if they have at least +6 base attack. \n\nIf the wielder already has Improved Critical skill, the rapier casts Cure Light Wounds on a confirmed crit or Cure Moderate Wounds if the crit kills or downs an opponent of at least 5hd.\nIf the wielder achieves surprise by betraying an ally within melee combat and kills them, the weapon casts Remove Curse on the wielder at +10 caster level."
+    },
+    {
+      "name": "Bloodshot",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This weapon can be aimed with either firearm or wand proficiency, but it is technically a magic item and involves no technology. It radiates intense evil, was created through a heinous process that costs dozens of unwilling creatures their eternal souls, and has been wielded by the most destructive and terrifying entities known on Golarion for centuries. This evil has no direct effect on the wielder, it is believed.\nFound on the corpse of a terrifying warrior near the world wound, the Sarenite P"
+    },
+    {
+      "name": "Dorcroast",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dorcroast, the invigorating cold brew coffee inspired by the triumph over darkness in Ustalav, awakens your senses with a bittersweet symphony. With a delightful spritz of energy, Dorcroast revitalizes your day, infusing it with the indomitable spirit that arises from the genocide of one's enemies. This remarkable brew serves as a tribute to the resilience of those who stood against evil, reminding you that even in the face of adversity, there is always room for celebration and the promise of a "
+    },
+    {
+      "name": "Charisma +2 Tattoo",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Boots of Landing",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These boots allow the wearer to recover instantly from a fall and can absorb some damage from falling once per day.\nThe wearer lands on her feet no matter how far she falls,\nand takes 2 fewer dice of damage from the fall than normal.\nConstruction\nRequirements Craft Wondrous Item, catfall; Cost 500 gp"
+    },
+    {
+      "name": "Demon's Sack",
+      "type": "container",
+      "equipped": true,
+      "description": "Part of the Carriers by Calvin line of luxury containers, this finely crafted leather satchel has runework hidden in its stitching.\nThis dimensional pocket magically stores up to 50 cubic feet of items, and reduces their material-plane-weight by 69%."
+    }
+  ]
+}

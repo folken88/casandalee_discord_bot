@@ -1,0 +1,29 @@
+{
+  "name": "Odexidie",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 4
+    },
+    {
+      "name": "Wizard",
+      "level": 16
+    }
+  ],
+  "hp": {
+    "max": 232
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 30,
+    "con": 24,
+    "int": 28,
+    "wis": 25,
+    "cha": 24
+  },
+  "items": []
+}

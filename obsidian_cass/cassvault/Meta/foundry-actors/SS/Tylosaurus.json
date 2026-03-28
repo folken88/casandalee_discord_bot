@@ -1,0 +1,25 @@
+{
+  "name": "Tylosaurus",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 105
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 13,
+    "con": 22,
+    "int": 2,
+    "wis": 13,
+    "cha": 9
+  },
+  "items": []
+}

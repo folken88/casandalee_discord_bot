@@ -1,0 +1,96 @@
+{
+  "name": "Chugg the Beautiful",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Half-Orc",
+  "classes": [
+    {
+      "name": "Monk (Unchained)",
+      "level": 3
+    },
+    {
+      "name": "Skald",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 31
+  },
+  "abilities": {
+    "str": 15,
+    "dex": 14,
+    "con": 12,
+    "int": 12,
+    "wis": 12,
+    "cha": 15
+  },
+  "items": [
+    {
+      "name": "Headband of Alluring Charisma +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This attractive silver headband is decorated with a number of small red and orange gemstones.\n\nThe headband grants the wearer an enhancement bonus to Charisma of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn."
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Magesight",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dilettantes pursue the visions from magesight simply for the wonder of the experience, while back-alley shopkeeps in Absalom, Katapesh, Katheer, and other major trade cities rely on it to provide a valuable ability they have no other way to obtain.\nType inhaled; Addiction minor, Fortitude DC 15\n1d4×10 minutes; the user gains the benefits of a constant detect magic effect, but she treats illumination in the area as dim light; areas of dim light and darkness are treated as darkness.\n1 hour; the us"
+    },
+    {
+      "name": "Go Nuts",
+      "type": "consumable",
+      "equipped": true,
+      "description": "These pale nuts smell vaguely of brimstone and sulpher. They taste very salty and dry.\n\nType ingested; Addiction medium, Fortitude DC 16\nImmediately after ingesting or grinding-up-and-snorting these, the user is affected by a Haste spell for 5 rounds. They are affected by Expeditious Retreat for the following hour. After which they are awake for the following 48 hours.\nDuring this period, the user is immune to Sleep and Slow conditions from spells or other chemicals, and suffers a constant -10 t"
+    },
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "AEther 2.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": "AEtherType drug (inhaled); Addiction moderate, Fortitude DC 16\n1 hour; +2 caster level\n1d4 hours; user must make a caster check to cast spells, DC 15 + spell level\n1d2 Con damage"
+    },
+    {
+      "name": "Old Mage",
+      "type": "consumable",
+      "equipped": true,
+      "description": "In higher circles of nobility, some petty nobles pretend to be mighty wizards. Old-mage offers a temporary taste of eldritch power at an exorbitant cost—both financial and physical.\nType injury; Addiction major, Fortitude DC 18\n12 hours; the user gains the ability to activate scrolls as if she had succeeded at a Use Magic Device check to activate a given scroll. \n1d4 charisma damage is sustained when taking the medication and the positive effects are removed if the damage is cured. User takes 1 "
+    },
+    {
+      "name": "Amulet of Natural Armor +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Slaver's Drops",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dropped into the eyes, this clear liquid awakens the senses but makes the user mentally pliant and open to suggestion. This drug is often used during interrogations or by slavers who seek to force compliance via enchantment effects or similar methods of mind-control.\nType drug (ingested); Addiction minor, Fortitude DC 13\n3 hours; –3 on Will saves, +3 on Perception checks\n1d2 Str damage"
+    },
+    {
+      "name": "Scrap Horn",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This \"horn\" is more of a metal trumpet without the instrument bit. It is fashioned from re-purposed armor plates, many of which still have bullet/arrow holes and dents from battle.\nThe item is heavily enchanted by months of ritual prayer. The prayers focused on found-family unity and the device now provides several benefits.\nAll effects require yelling into the megaphone.\n1) Communal buff-spells have their duration doubled and affect twice as many targets. This includes communal cure-spells.\n2) "
+    },
+    {
+      "name": "Desert Coffee",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This particularly strong coffee is popular throughout the desert empires. A morning cup is a good cure for lack of rest, but many find that it becomes a habit.\nType ingested; Addiction minor, Fortitude DC 12\n8 hours; user ignores the effects of the fatigued condition.\nAfter 8 hours; the user becomes exhausted, which is reduced to fatigued only after at least 8 hours of rest (instead of 1 hour).\n1 Wis damage"
+    }
+  ]
+}

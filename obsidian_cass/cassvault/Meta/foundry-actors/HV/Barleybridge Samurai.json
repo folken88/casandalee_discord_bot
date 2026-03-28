@@ -1,0 +1,38 @@
+{
+  "name": "Barleybridge Samurai",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Samurai",
+      "level": 11
+    }
+  ],
+  "hp": {
+    "max": 92
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Katana +1",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Specifically constructed for samurai, katanas employ multiple types of steel combined in a distinctive forging process. The result are swords noted for their wickedly sharp yet slender, gently curved blades, designed to make graceful hacking strokes capable of severing opponents’ heads and limbs. Though finely balanced, these blades are difficult to master.\n\nBenefit: Characters can use a katana two-handed as a martial weapon, but must take the Exotic Weapon Proficiency (katana) feat to use it on"
+    },
+    {
+      "name": "O-Yoroi +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Worn almost exclusively by highranking samurai, o-yoroi—or “great armor”—is a heavy combat armor that consists of various supplementary components that include both plate and lamellar elements. Each suit is crafted for a specific individual and displays the owner’s aesthetic. Upon completion, the suit is colored and sealed with a final lacquer finish. The centerpiece of o-yoroi is a cuirass consisting of two parts—a separate reinforcement for the right side called a waidate, and a kikko cuirass."
+    }
+  ]
+}

@@ -8,14 +8,14 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T16:13:23.569Z"
+updated: "2026-03-28T03:01:22.359Z"
 ---
 
 # Hell
 
 ## Notes & Updates
 
-- The inhibitor device was previously used on Helen with significant effect, impairing her functionality and causing negatives to charisma, skill checks, saving throws, initiative, and attack rolls. *(youtube-transcript, 3/25/2026)*
+- [Memory 2026-03-27] Cass served a lord who trusted in a robotic enforcer that malfunctioned during a critical duel. *(Cass (memory consolidation), 3/28/2026)*
 
 ## Session Appearances
 

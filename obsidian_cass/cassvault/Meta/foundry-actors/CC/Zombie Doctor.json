@@ -1,0 +1,32 @@
+{
+  "name": "Zombie Doctor",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Race: Undead",
+  "classes": [
+    {
+      "name": "Undead (Augmented Human)",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 24
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 10,
+    "con": 10,
+    "int": 0,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Bone Saw",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Bone Saw is a finely crafted kukri with an edge so keen it seems to sing through the air. Its blade is slightly curved, resembling the tools used by ancient surgeons. Made from high-quality steel, the weapon features intricate bone-like engravings along the hilt, giving it a macabre yet elegant appearance. The kukri is favored by those who appreciate the precision of surgical strikes, and it is said to have been used by a renowned Chelaxian assassin who left no bone uncut."
+    }
+  ]
+}

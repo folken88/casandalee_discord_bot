@@ -1,0 +1,29 @@
+{
+  "name": "Storm Hag",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Witch",
+      "level": 10
+    },
+    {
+      "name": "Monstrous Humanoid",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 199
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 18,
+    "con": 18,
+    "int": 22,
+    "wis": 13,
+    "cha": 18
+  },
+  "items": []
+}

@@ -1,0 +1,46 @@
+---
+name: "Krok'tah"
+type: character
+campaign: IG
+race: "Kasatha"
+class: "Ancient Guardian Druid 14"
+hp: 89
+tags: ["character", "npc", "ig"]
+foundry_synced: "2026-03-28"
+---
+
+# Krok'tah
+
+**Race:** Kasatha | **Class:** Ancient Guardian Druid 14 | **HP:** 89
+**STR** 14 | **DEX** 15 | **CON** 16 | **INT** 10 | **WIS** 16 | **CHA** 8
+
+## Key Equipment
+- **Ring of Force Shield** (equipment, equipped) — This ring generates a shield-sized (and shield-shaped) wall of force that stays with the ring and can be wielded by the wearer as if it were a heavy shield (+2 AC). This special creation has no armor check penalty or arcane spell failure chance since it is weightless and encumbrance-free. It can be activated and deactivated at will as a free action.
+- **Desert Coffee** (consumable, equipped) — This particularly strong coffee is popular throughout the desert empires. A morning cup is a good cure for lack of rest, but many find that it becomes a habit. Type ingested; Addiction minor, Fortitude DC 12 8 hours; user ignores the effects of the fatigued condition. After 8 hours; the user becomes exhausted, which is reduced to fatigued only after at least 8 hours of rest (instead of 1 hour). 1 Wis damage
+- **Belt of Mighty Constitution +4** (equipment, equipped) — This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.
+- **False Teeth** (loot) — Source Adventurer's Armory 2 pg. 13 Price  100 gp (clockwork),  5 gp (common),  50 gp (masterwork); Weight 1/2 lb. (clockwork), - (common), - (masterwork) DescriptionThese prosthetics are used as a replacement for lost or missing teeth. False teeth fashioned from wood or animal teeth are more common, while masterwork varieties are sculpted from bone or porcelain. Clockwork false teeth are novelties with mechanisms allowing the teeth to clatter and move on their own. Winding the clockworks is a m
+- **Cloak of Resistance +2** (equipment, equipped) — This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).
+- **Spell Prism** (equipment, equipped) — 5% chance to regen spell slot on cast, spell store 5 levels
+- **Potion of Protection From Evil** (consumable, equipped) — Aura faint abjuration; CL 1st  This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects. First, the subject gains a +2 deflection bonus to AC and a +2 resistance bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures. Second, the subject immediately receives another 
+- **Sachs Organ** (equipment, equipped) — This organ both stores a small amount of electrical charge and senses electricomagnetic radiation in a small area.   This organ can sense electromagnetic fields around it up to 30' away, providing blind sense.   For a few moments per day, the organ can emit a small area electrical charge (swift action) which causes 1 electrical damage to anything in a 60' radius. While this pulse is active, the organs blindsense is extended to 60' for 1 round per charge.   The blindsense produced by this organ c
+- **Ring of Protection +2** (equipment, equipped) — This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.
+- **Belt of Mighty Constitution +2** (equipment) — This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.
+- **Cloak of Resistance +2** (equipment) — This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).
+- **Torch** (loot) — Price 1 cp; Weight 1 lb.  A torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage.
+- **Kasatha Trophy Skull** (loot, equipped) — Young, healthy, druid.
+- **Starmetal Shard Spear** (weapon, equipped) — This light and perfectly balanced weapon bends and flexes as easily as bamboo or becomes rigid as hardened steel according to the wielder's whim. It functions as an 'agile' weapon, allowing dex to damage instead of strength.   When wielded by a monk or druid, it functions as an amulet of mighty-fists with a bonus equal to the weapons and causes all their unarmed or natural attacks to strike as magic/silver.
+- **Slaver's Drops** (consumable, equipped) — Dropped into the eyes, this clear liquid awakens the senses but makes the user mentally pliant and open to suggestion. This drug is often used during interrogations or by slavers who seek to force compliance via enchantment effects or similar methods of mind-control. Type drug (ingested); Addiction minor, Fortitude DC 13 3 hours; –3 on Will saves, +3 on Perception checks 1d2 Str damage
+- **Cloak of the Wild Man** (equipment) — Made from a single male lion’s coat with the mane surrounding its hood, the lion cloak is an impressive sight. A creature wearing the cloak gains a +2 resistance bonus on saving throws made against mind-affecting and fear effects and a +2 circumstance bonus on Intimidate checks. Once per day, the wearer can pull the hood over her head, assuming the form of a lion (as the beast shape II spell, except that it allows only lion form) for up to 10 minutes. If the wearer has the smite class feature, s
+- **Techstone** (equipment, equipped) — An intricate process of magic craftsmanship changed this mundane river-stone into a potent magic item with the specific purpose of connecting with technology, or defending against it. Possessing this stone grants the owner +2 vs any saving throws vs technology based effects, and +2 on knowledge-engineering checks. Throwing the stone in the air causes it to orbit the owner 1-2' away, as an ioun stone does. While doing this, the stone functions as a communicator, and can communicate with most radi
+- **Headband of Inspired Wisdom +2** (equipment, equipped) — This simple bronze headband is decorated with an intricate pattern of fine green etchings.  The headband grants the wearer an enhancement bonus to Wisdom of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn.
+- **Steelchew** (consumable, equipped) — Temporarily changes all the users soft tissue to hardened steel. This results in an Ironskin spell (+6 natural armor), DR10 vs Slashing, and blindness. lasts 2d6 minutes.
+- **Soothe** (consumable, equipped) — This strange, pink, gel-like substance is generally contained in a small glass jar that holds 1 dose. A single dose of soothe dulls pain and creates a euphoric sensation, particularly when applied to an open wound. Rubbing a dose of soothe onto one's skin or imbibing the faintly citrusflavored stuff cures 1 point of damage, but rubbing a dose onto a wound received in the last minute heals the user of 1d8 points of damage. In addition, for the next minute, the user becomes immune to bleed damage 
+- **Greenchaw** (consumable, equipped) — Causes user's skin to exude a slimy green glowing substance that provides light & lubrication for 1d6 minutes as Grease & Light 30'.
+- **The Space Bone** (weapon, equipped) — Roughly the size and shape of a femur bone from a large human-adjacent male, this object radiates intense magic. The space bone exists as many different dimensional occurences of itself. Due to a particular confluence of factors on one of its many instances, all the versions trade specific positions with each other several times per millisecond. This causes the bone's texture to appear as ever-moving space, with frequent storms and energy bursts. Due to its multi-dimensional nature, it strikes a
+- **Greenweave Chain Shirt** (equipment, equipped) — Made of tightly woven vines enchanted to possess the strength of steel, this chain-shirt does not interfere with any spellcasting and functions as +1 Wild armor.
+- **jubei.exe** (weapon) — +2, Keen, Returning, Range 30'
+- **Potion of Nondetection** (consumable, equipped) — Aura faint abjuration; CL 5th  The warded creature or object becomes difficult to detect by divination spells such as clairaudience/clairvoyance, locate object, and detect spells. Nondetection also prevents location by such magic items as crystal balls. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast nondetection. If you cast 
+
+## Notes & Updates
+
+*No session notes yet.*

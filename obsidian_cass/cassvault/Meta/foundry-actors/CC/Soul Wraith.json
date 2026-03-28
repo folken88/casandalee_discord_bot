@@ -1,0 +1,23 @@
+{
+  "name": "Soul Wraith",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Undead (Incorporeal)",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 67
+  },
+  "abilities": {
+    "dex": 16,
+    "int": 19,
+    "wis": 16,
+    "cha": 17
+  },
+  "items": []
+}

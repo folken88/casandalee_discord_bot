@@ -1,0 +1,25 @@
+{
+  "name": "Thalvo",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Half-Elf",
+  "classes": [
+    {
+      "name": "Witch",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 31
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 15,
+    "con": 12,
+    "int": 17,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": []
+}

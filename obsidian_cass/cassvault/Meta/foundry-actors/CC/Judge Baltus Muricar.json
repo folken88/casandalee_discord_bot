@@ -1,0 +1,25 @@
+{
+  "name": "Judge Baltus Muricar",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Aristocrat",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 16,
+    "wis": 14,
+    "cha": 14
+  },
+  "items": []
+}

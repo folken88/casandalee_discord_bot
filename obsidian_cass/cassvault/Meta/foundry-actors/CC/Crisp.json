@@ -1,0 +1,32 @@
+{
+  "name": "Crisp",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Velociraptor",
+  "classes": [
+    {
+      "name": "Animal Companion",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 55
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 17,
+    "con": 17,
+    "int": 2,
+    "wis": 12,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    }
+  ]
+}

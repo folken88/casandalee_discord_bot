@@ -1,0 +1,224 @@
+{
+  "name": "Spice Rack (ShaFeng)",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Ifrit (sunsoul)",
+  "classes": [
+    {
+      "name": "Brawler (Battle Dancer)",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 40
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 15,
+    "con": 15,
+    "int": 11,
+    "wis": 12,
+    "cha": 8
+  },
+  "items": [
+    {
+      "name": "Mead (Mug)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice  2 gp (gallon),  5 cp (mug); Weight 8 lbs. (gallon), 1/2 lb. (mug)\nDescriptionThis alcoholic beverage is made by fermenting honey and water. It may be flavored with spices, fruit, or hops."
+    },
+    {
+      "name": "Bullseye Rum",
+      "type": "consumable",
+      "equipped": true,
+      "description": "“It hits you right in the center, just not in a good way.”\nBullseye Rum is the drink of choice for the truly desperate, the miserly, or those who simply value quantity over quality. Its dark amber hue suggests a richness it absolutely does not deliver. The label, featuring a dartboard and the motto \"Bullseye,\" is both an ironic jab at the drink's questionable aftereffects and a promise of its unerring ability to ruin your stomach. Produced by dubious distilleries scattered across the Shackles, i"
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level adept 2, Alchemist 2, Bard 2, Cleric 2, Druid 3, Hunter 3, Inquisitor 2, Investigator 2, Occultist 2, Oracle 2, Paladin 3, Ranger 3, Shaman 2, Skald 2, Spiritualist 2, Warpriest 2, Witch 2; Domain Healing 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nThis spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level"
+    },
+    {
+      "name": "Blood Caimon Hide",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Caimon Hide Armor is Buoyant and it bestows no armor check penalty on Swim checks attempted by the wearer. \nIt's smooth texture allows for smooth movement through water, granting a small swim-skill bonus.  \nIt is slightly lighter than conventional hide armor, and allows for greater dexterity. \nAll other armor check penalties apply as normal."
+    },
+    {
+      "name": "Upgrade Armor: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Street Meat",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 95\nPrice 1 cp; Weight 1/2 lb.\nCategory Food/Drink\nDescriptionUsually sold by vendors on a thin wooden stick, these small chunks of cooked meat often come from many different sorts of creatures-rats and pigeons are the most common."
+    },
+    {
+      "name": "Firegrass Angler",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Level 3 Magic Fishing Pole – “The Firegrass Angler” (Wondrous Item, 2,000 gp)Aura faint transmutation\nSlot —\nCL 3rd\nWeight 5 lbs\nDescriptionThis masterfully crafted fishing rod is carved from driftwood, reinforced with tukkar sinew, and tipped with an obsidian hook said to be from the depths of the volcanic trenches surrounding Firegrass Island. It hums with primal ocean magic, granting the wielder an uncanny ability to lure and reel in fish of all sizes—including sea monsters.\nAbilities:\nMaster"
+    },
+    {
+      "name": "Rope (Silk, 50 Ft.)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PRPG Core Rulebook pg. 158\nPrice 10 gp; Weight 5 lbs.\nCategory Adventuring Gear\nDescriptionThis rope has 4 hit points and can be burst with a DC 24 Strength check."
+    },
+    {
+      "name": "Mulled Wine",
+      "type": "loot",
+      "equipped": true,
+      "description": "Mulled wine becomes a staple drink as the colder seasons begin. The wine is boiled and then infused with sugar, black pepper, cinnamon, cloves, and orange peels. Served hot, it is rumored to cure the common cold, though it is primarily enjoyed for its warming effect."
+    },
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Alchemist's Fire",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source PZO1110\n\nYou can throw a flask of alchemist's fire as a splash weapon with a range increment of 10 feet.\n\nA direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hits takes 1 point of fire damage from the splash. On the round following a direct hit, the target takes an additional 1d6 points of damage. If desired, the target can use a full-round action to attempt to extinguish the flames before taking this additional damage. Extinguishing the"
+    },
+    {
+      "name": "Tukkaroo Sleeping Bag",
+      "type": "loot",
+      "equipped": true,
+      "description": "Tukkaroo Sleeping Bag (Level 3 Wondrous Item)Price: 1,500 gp\nAura faint transmutation\nSlot —\nCL 3rd\nWeight 10 lbs\nDescriptionThe Tukkaroo Sleeping Bag is a thick, yak-like fur bedroll, crafted from naturally shed tukkar wool and lined with woven seaweed fibers from the shores of Firegrass Island. Enchanted with druidic magic, this bedroll provides unparalleled warmth, resilience, and rejuvenation to those who rest within it.\nWhen a creature sleeps in a Tukkaroo Sleeping Bag for at least 4 hours,"
+    },
+    {
+      "name": "Broadcloth",
+      "type": "loot",
+      "equipped": false,
+      "description": "The most common type of cloth, it is usually referred to as plain cloth. Traditionally used in any form of clothing, as well, as for interior decoration, such as tablecloths, curtains, and wall covers."
+    },
+    {
+      "name": "Isle 418 Wildflower Petals",
+      "type": "loot",
+      "equipped": true,
+      "description": "Dried wildflower petals from Isle 418 in Southern Shackles. Said to have hallucinogenic properties."
+    },
+    {
+      "name": "phase spider meat",
+      "type": "consumable",
+      "equipped": true,
+      "description": "??"
+    },
+    {
+      "name": "Whispered Courage Whiskey",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Drink the blood of heroes.\"Whispered Courage is aged in barrels made from pines cut from the Stoneheart Massacre Glade.This powerful spirit grants +4 vs fear saves for 1 hour. The bonus is doubled if an ally who also drank the whiskey is threatened within your sight."
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).\nConstructionRequirements Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus; Cost 500 gp"
+    },
+    {
+      "name": "Numerian Vibrox",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Said to be made with an ancient, possibly alien technology in Numeria, these blades are non-magical and yet unbelievably sharp and resilient.\nThey strike as adamantine for purposes of bypassing Damage Reduction."
+    },
+    {
+      "name": "Whispered Courage Whiskey",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Drink the blood of heroes.\"Whispered Courage is aged in barrels made from pines cut from the Stoneheart Massacre Glade.This powerful spirit grants +4 vs fear saves for 1 hour. The bonus is doubled if an ally who also drank the whiskey is threatened within your sight."
+    },
+    {
+      "name": "Mulled Wine",
+      "type": "loot",
+      "equipped": true,
+      "description": "Mulled wine becomes a staple drink as the colder seasons begin. The wine is boiled and then infused with sugar, black pepper, cinnamon, cloves, and orange peels. Served hot, it is rumored to cure the common cold, though it is primarily enjoyed for its warming effect."
+    },
+    {
+      "name": "Assassin Vines",
+      "type": "loot",
+      "equipped": false,
+      "description": "It is sometimes also named Sparrow Grass, its young shoots are often used as a spring vegetable. They are usually served as an appetizer or a vegetable side dish. In some regions, there is word of a festival held in its honor."
+    },
+    {
+      "name": "Devil's Lantern",
+      "type": "loot",
+      "equipped": true,
+      "description": "This black iron lantern has a pit fiend's head logo on the side and casts that horned shadow wherever it shines. It requires no oil and produces light as a normal lantern whenever it is opened. Once per day, it can cause an invisibility purge effect for a few rounds."
+    },
+    {
+      "name": "Necklace of 7 Coins",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Kofusachi's religious symbol is a string of seven coins."
+    },
+    {
+      "name": "Glowing Mushroom",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Yogurt",
+      "type": "consumable",
+      "equipped": true,
+      "description": "YogurtSource Ultimate Equipment pg. 95\nPrice  1 sp; Weight  1/2 lb.\nCategory Food/DrinkDescriptionThis thick, fermented milk has a tangier taste than unprocessed milk. It may be sweetened with fruit, honey, or jam; blended with chopped herbs and oil to create a sauce; or mixed with water and salt, sugar, fruit, or mint as a drink."
+    },
+    {
+      "name": "Chain Shirt MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Rolling Sea",
+      "type": "weapon",
+      "equipped": true,
+      "description": "These steel-knuckles are etched with swirling storm clouds and lightning bolts. When worn, they hum faintly with the sound of distant thunder, as though they are perpetually on the edge of a brewing storm.\nThey are +1 magic, and deliver an additional 1d6 sonic damage. Their base damage is 1d4, or the wearer's unarmed damage value if they are a monk or brawler. \nA limited number of times per day, the wearer can deliver an aoe sonic attack by punching the ground with both fists."
+    },
+    {
+      "name": "Meat of Blood Caiman",
+      "type": "loot",
+      "equipped": true,
+      "description": "Meat of an Ustalavian Blood Caiman."
+    },
+    {
+      "name": "Liar's Dice Set",
+      "type": "container",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Loa's Dream Sap",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Lo’a’s Dream Sap – A thick, golden sap from an ancient jungle tree that only grows near Lo’a’s nesting grounds. If mixed into a potion, it doubles its duration or potency, but the drinker must make a Wisdom save (DC 14) or fall into a deep, primal sleep filled with visions of prehistoric beasts."
+    },
+    {
+      "name": "Upgrade Armor: +1 from Masterwork",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Blood Caimon Tacos",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners!\nEnjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes."
+    },
+    {
+      "name": "Savage Sustenance",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A cookbook for carnivorous barbarians. This item grants +5 circumstance bonus on cooking checks when used to \"take 10\" or the book is consulted for at least 10 minutes. It also contains a number of famous recipes from all over Ustalav, each slightly improved by the author.\nConquer your hunger with a symphony of carnivorous decadence, forging legends through each ravenous bite, and embracing the primal ecstasy that only the flesh of the slain can provide.\nSavage Sustenance"
+    }
+  ]
+}

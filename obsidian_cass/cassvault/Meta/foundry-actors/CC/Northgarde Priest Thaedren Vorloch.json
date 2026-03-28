@@ -1,0 +1,56 @@
+{
+  "name": "Northgarde Priest Thaedren Vorloch",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Cleric",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 24
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 18,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet.\nConstructionRequirements Craft Wondrous Item, barkskin, creator's caster level must be at least three times the amulet's bonus; Cost 1,000 gp"
+    },
+    {
+      "name": "Wraithguard Cloak",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This cloak, once worn by a veteran of the Shining Crusade, now grants enhanced resistance against deathly magic. In addition to providing +3 to all saving throws, the mantle can activate a death ward effect once per day, granting the wearer temporary immunity to death effects, negative energy, and energy drain for 9 minutes. This ancient relic was lost during a doomed stand against Tar-Baphon's undead legions.\nDeath Ward:\nThe subject gains a +4 morale bonus on saves against all death spells and "
+    },
+    {
+      "name": "Northgarde Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bloodthirst Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This cursed blade grows hungrier over time. In addition to its enchantment, the dagger now allows its wielder to cast vampiric touch twice per day as a swift action and the next time it strikes a living target it begins siphoning life to heal its owner. \nThe weapon, originally crafted by a vampire assassin, was once used to betray allies during the Shining Crusade and has since passed through many hands. It radiates a sinister aura, feeding on the blood spilled by its wielder."
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.\nConstructionRequirements Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring; Cost 1,000 gp"
+    }
+  ]
+}

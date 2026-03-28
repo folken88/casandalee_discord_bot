@@ -1,0 +1,25 @@
+{
+  "name": "Nidal Sorceress",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Dhampir",
+  "classes": [
+    {
+      "name": "Sorcerer",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 74
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 18
+  },
+  "items": []
+}

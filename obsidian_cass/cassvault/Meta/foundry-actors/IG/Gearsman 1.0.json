@@ -1,0 +1,32 @@
+{
+  "name": "Gearsman 1.0",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Construct",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 34
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 10,
+    "con": 18,
+    "int": 8,
+    "wis": 8,
+    "cha": 8
+  },
+  "items": [
+    {
+      "name": "Baton, Shock",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This slender rod has an insulated grip and a conductive tip. All bludgeoning damage dealt by an active stun baton is nonlethal, while the electrical charge c a n b e either nonlethal or letha l .\n\nBy activating a control in the handle as a swift action, the wielder can switch the attack between a nonlethal jolt and a lethal shock. On a confirmed critical hit, a target m ust succeed at a Fortitude saving throw (DC = 10 + the damage dealt by the critical h it) or be staggered for 1 round. When it'"
+    }
+  ]
+}

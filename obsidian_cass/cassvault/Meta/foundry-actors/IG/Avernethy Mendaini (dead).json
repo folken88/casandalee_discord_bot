@@ -1,0 +1,62 @@
+{
+  "name": "Avernethy Mendaini (dead)",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Wizard",
+      "level": 13
+    }
+  ],
+  "hp": {
+    "max": 32
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 14,
+    "int": 18,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Dermal Plating (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese plates exist under the skin and provide increased resistance to physical attacks. They are undetectable normally, but are visible when struck and for a few moments afterwords."
+    },
+    {
+      "name": "Trauma pack",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 52\nPrice 1,500 gp\nSlot none; Weight 5 lbs.\nCapacity 5; Usage 1 charge (disposable)\nDescriptionThis small box of emergency medical gear can be used to augment a creature's Heal skill to allow for enhanced healing. A full trauma pack has enough supplies to be used 5 times before it is depleted. When using a trauma pack to provide healing, attempt a DC 15 Heal check as a standard action. If he succeeds, the pack provides 1d8+1 points of healing. For every 5 points by whi"
+    },
+    {
+      "name": "Implant Mesh (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\n\nAn implant mesh is a cybernetic augmentation that enhanced other cybernetic implants, notably those that heighten their wearers' physical abilities. If used to enhance cyberfiber musclesTG, a thoracic nanite chamberTG, or wirejack tendonsTG, an implant mesh must be installed on that piece of cyberware before the item is implanted in a body. \n\n \n\nThis implant mesh supports up to 3 physical body mods with a maximum bonus of +2."
+    },
+    {
+      "name": "Humanoid Enviro Suit",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A functional space-suit for a medium-sized humanoid creature.\n\nProtection lasts 10 hours per charge. Suit can store up to 5 batteries.\n\nImmune to environmental cold, acid, heat, force, and shock damage. Provides resist 10 vs attacks vs all elements."
+    },
+    {
+      "name": "Thoracic Nanite Chamber (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nA thoracic nanite chamber augments the vital organs within a creature's chest, particularly its heart, lungs, and pulmonary system. Once installed, a thoracic nanite chamber grants an enhancement bonus to Constitution."
+    },
+    {
+      "name": "Cybernetic Ears",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 37\nPrice 4,000 gp\nSlot ears; Weight 1 lb.\nInstall DC 28; Implantation 1\nDescriptionA cybernetic ear can be enhanced by cyberart at no additional cost, giving it an unusual color or shape. When a pair of ears is installed, the user gains a +2 circumstance bonus on Perception checks. This bonus stacks with circumstance bonuses on Perception checks from other cybernetic senses. Cybernetic ears grant a +4 resistance bonus on all saving throws against sonic effects.\n\n The "
+    }
+  ]
+}

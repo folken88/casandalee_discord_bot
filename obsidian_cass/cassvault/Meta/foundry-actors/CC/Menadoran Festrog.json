@@ -1,0 +1,31 @@
+{
+  "name": "Menadoran Festrog",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Undead (Hungry Are the Dead 30)",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "dex": 11,
+    "con": 0,
+    "int": 2,
+    "wis": 12,
+    "cha": 17
+  },
+  "items": [
+    {
+      "name": "Hide Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Hide armor is made from the tanned skin of particularly thickhided beasts, stitched with either multiple overlapping layers of crude leather or exterior pieces of leather stuffed with padding or fur. Damage to the armor is typically repaired by restitching gashes or adding new pieces of hide, giving the most heavily used suits a distinctively patchwork quality."
+    }
+  ]
+}

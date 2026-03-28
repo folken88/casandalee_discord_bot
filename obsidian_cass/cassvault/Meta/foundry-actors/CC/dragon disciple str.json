@@ -1,0 +1,29 @@
+{
+  "name": "dragon disciple str",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Aasimar",
+  "classes": [
+    {
+      "name": "Bloodrager",
+      "level": 5
+    },
+    {
+      "name": "Dragon Disciple",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 185
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 12,
+    "con": 13,
+    "int": 10,
+    "wis": 10,
+    "cha": 15
+  },
+  "items": []
+}

@@ -23,3 +23,9 @@ Mentioned in this session.
 
 ### Carrion Crown - Pier Reviewed 2025 04 13
 A town with a cult workshop that was destroyed by the party
+
+### Carrion Crown - Sympathy for the Demon-Wolves 2025 01 19
+A town where the party encountered a large group of Whispering Way cultists and demon wolves.
+
+### Carrion Crown - Trench Toast 2024 11 17
+A cursed battlefield with mass graves and hauntings from recent and older conflicts.

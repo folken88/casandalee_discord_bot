@@ -1,0 +1,56 @@
+{
+  "name": "Vampire Trixter",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Rogue (Unchained)",
+      "level": 1
+    },
+    {
+      "name": "Monk (Unchained)",
+      "level": 1
+    },
+    {
+      "name": "Wizard",
+      "level": 3
+    },
+    {
+      "name": "Arcane Trickster",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 39
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 15,
+    "con": 12,
+    "int": 16,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Deathsight",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A technological marvel of extra-sensory augmentation, this device hones in on the weak points of any visible target. It can focus on structural integrity, operational components, or other vital areas.\nAimed Spells:\nThis translates into an alteration of the magical damage caused by the wearer. Any touch or ranged touch spell cast by the caster has its dice size reduced by one, but critical threat range and multiplier expanded by 1.\nEg: Scorching Ray for 4d6, 20x2 becomes 4d4, 19/3.\nArea Spells:\nT"
+    },
+    {
+      "name": "Cranial Bomb (deactivated)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 35\nStatisticsSlot head\nInstall DC 25; Implantation 1\nDescriptionA cranial bomb is a bomb implanted at the base of the skull that explodes when remotely activated by a detonator's (see page 43) signal. Though normally implanted, a cranial bomb can also be detonated outside of a body. If detonated while implanted, it deals 2d6 points of bludgeoning damage and 2d6 points of fire damage, and the recipient must succeed at a Fortitude saving throw (DC = 10 + the damage deal"
+    },
+    {
+      "name": "Technic League Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

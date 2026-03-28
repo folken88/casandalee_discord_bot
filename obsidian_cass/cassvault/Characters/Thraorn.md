@@ -1,17 +1,22 @@
 ---
 name: "Thraorn"
 type: character
-campaign: "SS"
-tags: [character, ss]
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T01:44:54.816Z"
 ---
 
 # Thraorn
 
+## Notes & Updates
 
-
+- Tyrannosaurus familiar of Loa, turns invisible with her. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Shackles - Drow Envy 2026 03 05
-Party is going into the jungle to talk to them
-
+*Session activity from YouTube transcripts will appear here.*

@@ -1,0 +1,32 @@
+{
+  "name": "Bahari-Kofi Fisher",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Tengu",
+  "classes": [
+    {
+      "name": "Rogue (Unchained)",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 18
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 13,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Kukri",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A kukri is a curved blade, about 1 foot in length."
+    }
+  ]
+}

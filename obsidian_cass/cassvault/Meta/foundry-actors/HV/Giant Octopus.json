@@ -1,0 +1,25 @@
+{
+  "name": "Giant Octopus",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 90
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 15,
+    "con": 17,
+    "int": 2,
+    "wis": 12,
+    "cha": 3
+  },
+  "items": []
+}

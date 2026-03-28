@@ -1,0 +1,24 @@
+{
+  "name": "Hammerhead Shark",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Race: Animal",
+  "classes": [
+    {
+      "name": "Animal (Aquatic)",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 44
+  },
+  "abilities": {
+    "dex": 16,
+    "con": 17,
+    "int": 1,
+    "wis": 16,
+    "cha": 6
+  },
+  "items": []
+}

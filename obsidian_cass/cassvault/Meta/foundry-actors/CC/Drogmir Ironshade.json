@@ -1,0 +1,29 @@
+{
+  "name": "Drogmir Ironshade",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Dwarf",
+  "classes": [
+    {
+      "name": "Cavalier",
+      "level": 6
+    },
+    {
+      "name": "Undead",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 86
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 15,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 14
+  },
+  "items": []
+}

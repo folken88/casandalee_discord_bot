@@ -1,0 +1,63 @@
+{
+  "name": "Lord Caliphvaso's Carriage",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Waterskin",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n \nA water or wineskin holds 1/2 gallon of liquid and weighs 4 lb when full.\n \nEmpty Weight: -; Capacity: 1/2 gallon/4 lb.1\n \n1 When made for Medium characters. Weighs one-quarter the normal amount when made for Small characters. Weighs twice the normal amount when made for Large characters. Containers carry one-quarter the normal amount when made for Small characters.\n \n\n \nMagic Containers \nMagic containers come in almost as many varieties as there are alchemists, and so are of in"
+    },
+    {
+      "name": "Rations, Trail",
+      "type": "loot",
+      "equipped": false,
+      "description": "Rations, Trail\r\nPrice 5 sp; Weight 1 lb.\n\r\nThe listed price is for a day's worth of food. This bland food is usually some kind of hard tack, jerky, and dried fruit, though the contents vary from region to region and the race of those creating it. As long as it stays dry, it can go for months without spoiling."
+    },
+    {
+      "name": "Pot, Cooking (Iron)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PZO1110\n \nCooking pots come in a variety of materials, but the most common is formed of iron.\n \nA mithral cooking pot weighs 2 lbs. and costs 2,001 gp.\n \nEmpty Weight: 2 lb.; Capacity: 1 gallon/8 lb."
+    },
+    {
+      "name": "Bedroll",
+      "type": "loot",
+      "equipped": false,
+      "description": "Bedroll\r\nPrice 1 sp; Weight 5 lbs.\n\r\nThis consists of two woolen sheets sewn together along the bottom and one side to create a bag for sleeping in. Some have cloth straps along the open side so the bedroll can be tied closed while you are sleeping. It can be rolled and tied into a tight coil for storage or transport. Most people use a blanket with the bedroll to stay warm or provide a ground cushion."
+    },
+    {
+      "name": "Tent",
+      "type": "loot",
+      "equipped": false,
+      "description": "Tent\r\nSource PZO1115\n\r\nTents come in a variety of sizes and accommodate between one and 10 people. Two Small creatures count as a Medium creature, and one Large creature counts as two Medium creatures. Packing up a tent takes half as long as assembling it.\n\r\n\r\nSmall/Normal: A small tent holds one Medium creature and takes 20 minutes to assemble.\n\r\nMedium: A medium tent holds two creatures and takes 30 minutes to assemble.\n\r\nLarge: A large tent holds four creatures and takes 45 minutes to assembl"
+    },
+    {
+      "name": "Rope (Silk, 50 Ft.)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source PRPG Core Rulebook pg. 158\nPrice 10 gp; Weight 5 lbs.\nCategory Adventuring Gear\nDescriptionThis rope has 4 hit points and can be burst with a DC 24 Strength check."
+    },
+    {
+      "name": "Bedroll",
+      "type": "loot",
+      "equipped": false,
+      "description": "This consists of two woolen sheets sewn together along the bottom and one side to create a bag for sleeping in. Some have cloth straps along the open side so the bedroll can be tied closed while you are sleeping. It can be rolled and tied into a tight coil for storage or transport. Most people use a blanket with the bedroll to stay warm or provide a ground cushion."
+    }
+  ]
+}

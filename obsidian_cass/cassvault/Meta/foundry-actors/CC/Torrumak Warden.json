@@ -1,0 +1,42 @@
+{
+  "name": "Torrumak Warden",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Dwarf",
+  "classes": [
+    {
+      "name": "Cavalier",
+      "level": 2
+    },
+    {
+      "name": "Undead",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 34
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 10,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A breastplate protects a wearer’s torso with a single piece of sculpted metal, similar to the core piece of a suit of full plate. Despite its sturdiness, its inflexibility and open back make it inferior to complete suits of metal armor, but still an improvement over most non-metal armors."
+    },
+    {
+      "name": "Spectral Greathammer",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This weapon consists of a wooden haft and a heavy, metal head. The head may be single (like a carpenter's hammer) or double (like a sledgehammer). The haft is long enough that you may wield it one- or two-handed. Though heavy and relatively slow to wield, warhammers are capable of delivering immense blows, crushing armor and flesh alike."
+    }
+  ]
+}

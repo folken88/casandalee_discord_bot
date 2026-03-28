@@ -1,0 +1,44 @@
+{
+  "name": "Jank Marsden",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Bard",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 11
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Lodge Brian Leathers",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Ascanor Employee Ring",
+      "type": "equipment",
+      "equipped": true,
+      "description": "For 8hrs per day and within 10 miles of Ascanor Lodge, this ring functions as a ring of protection +1.\nThe ring provides a constant sense of direction towards Ascanor Lodge, which results in a +2 survival check to navigate Shudderwood."
+    },
+    {
+      "name": "Musical Instrument, Masterwork",
+      "type": "loot",
+      "equipped": false,
+      "description": "If you want to perform using a Perform skill associated with a musical instrument (keyboard, percussion, string, or wind), you must have an appropriate musical instrument; otherwise you can't use the skill. The listed cost and weight is for a typical small instrument you could carry by hand, such as a drum, lyre, bell, harp, or flute; larger instruments such as a cello or piano are of course larger and more expensive.\n\nThis high-quality instrument grants a +2 circumstance bonus on Perform checks"
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Sahuagin Prince",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Sahuagin",
+  "classes": [
+    {
+      "name": "Cavalier",
+      "level": 7
+    },
+    {
+      "name": "Sahuagin (Aquatic)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 60
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 16,
+    "con": 20,
+    "int": 13,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Princely Sea-Steel Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Sea-Steel is a rare, magically hardened form of deep-sea coral that is nearly indistinguishable from polished steel, save for its faint iridescent sheen that shifts between blue-green and storm-gray under certain light. Found only in deep ocean trenches, it is harvested and shaped by sahuagin weapon forgers, who infuse it with abyssal salts and elemental water magic to make it as strong as steel.\nUnlike normal coral, Sea-Steel is:✔ As durable as steel but naturally buoyant, making it easier to w"
+    },
+    {
+      "name": "Sharkskin Jacket +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Belt of Mighty Constitution +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Potion of Heroism",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell imbues a single creature with great bravery and morale in battle. The target gains a +2 morale bonus on attack rolls, saves, and skill checks."
+    },
+    {
+      "name": "Potion of Barkskin",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Barkskin toughens a creature's skin. The effect grants a +2 enhancement bonus to the creature's existing natural armor bonus. This enhancement bonus increases by 1 for every three caster levels above 3rd, to a maximum of +5 at 12th level.\nThe enhancement bonus provided by barkskin stacks with the target's natural armor bonus, but not with other enhancement bonuses to natural armor. A creature without natural armor has an effective natural armor bonus of +0."
+    }
+  ]
+}

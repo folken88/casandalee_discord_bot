@@ -1,0 +1,36 @@
+{
+  "name": "Whaling Enthusiast",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Seaman",
+      "level": 1
+    },
+    {
+      "name": "Ranger",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 12,
+    "con": 13,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Harpoon",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A harpoon is a barbed spear with an attached rope 50 feet or less in length. Most harpoons have metal points, but some use ivory or are made entirely of wood. If you are proficient with the harpoon, it is a grappling weapon. A harpoon's weight includes 10 pounds for the weight of 50 feet of hemp rope. The weight can be reduced by using shorter or lighter rope. If you are not proficient with a harpoon, treat it like a spear."
+    }
+  ]
+}

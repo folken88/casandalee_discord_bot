@@ -8,16 +8,15 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T19:22:18.848Z"
+updated: "2026-03-28T02:17:07.564Z"
 ---
 
 # DM
 
 ## Notes & Updates
 
-- Knew about CP-USS in early February *(youtube-transcript, 3/25/2026)*
+- Former constable who witnessed a violent encounter with EGIS guards. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Shackles - So anyways, I started decapitating.. 2025 08 21
-Answered questions and provided information about the terrain of Windward Island
+*Session activity from YouTube transcripts will appear here.*

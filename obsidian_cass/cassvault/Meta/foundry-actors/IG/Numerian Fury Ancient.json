@@ -1,0 +1,42 @@
+{
+  "name": "Numerian Fury Ancient",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Aasimar",
+  "classes": [
+    {
+      "name": "Ancient Spirit",
+      "level": 1
+    },
+    {
+      "name": "Barbarian",
+      "level": 14
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 14,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "+4 Mithral Hide Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Made from animal hide and giant lizard scales over a shirt of interwoven cords, these chest and shoulder coverings protect Shoanti riders without restricting their mobility. The wearer of a hide shirt can make a DC 15 Strength check as a standard action. If he succeeds, the armor gains the broken condition and drops to the ground rather than requiring the usual 1 minute it would take to remove it. The armor must be repaired as though it had taken 8 points of damage before it can be used again; a"
+    },
+    {
+      "name": "Fury Blades",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, Ultimate Combat pg. 134\nStatisticsDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type P or S\nWeapon Groups Blades, Light\nDescriptionThese short, slender blades are between 1 to 2 feet long. They are primarily used as back-up weapons, to decapitate defeated enemies, or to commit seppuku (ritual suicide) as a matter of honor. These blades are specifically worn by samurai and are intended to be paired with a katana. Together, this set of blades is re"
+    }
+  ]
+}

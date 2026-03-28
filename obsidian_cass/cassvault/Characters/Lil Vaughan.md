@@ -1,22 +1,20 @@
 ---
-name: """Lil Vaughan"""
+name: "Lil Vaughan"
 type: character
-race: """Unknown"""
-class: """Familiar"""
-level: 7
-player: Tim
-campaign: "["SS"]"
-aliases: ""[]""
-tags: ""["character", "pc", "pc"]""
-created: """2026-02-25T00:00:00.000Z"""
-updated: ""2026-03-24T23:00:49.499Z""
+campaign: CC
+class: "Familiar 5"
+hp: 8
+tags: ["character", "npc", "cc"]
+foundry_synced: "2026-03-28"
 ---
 
 # Lil Vaughan
 
-**Class:** Familiar | **Level:** 7 | **Player:** Multiple Owners
+**Class:** Familiar 5 | **HP:** 8
+**STR** 6 | **DEX** 22 | **CON** 10 | **INT** 8 | **WIS** 12 | **CHA** 8
 
-HP 31/31 | Familiar | Level 7
+## Key Equipment
+- **Potion of Cure Light Wounds** (consumable, equipped) — School Conjuration (healing); Level Adept 1, Alchemist 1, Bard 1, Cleric 1, Druid 1, Hunter 1, Inquisitor 1, Investigator 1, Occultist 1, Oracle 1, Paladin 1, Ranger 2, Shaman 1, Skald 1, Spiritualist 1, Warpriest 1, Witch 1; Domain Healing 1            Casting Time 1 Standard    Components V, S           Range Personal       Targets creature touched       Duration Instantaneous      When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 poi
 
 ## Notes & Updates
 

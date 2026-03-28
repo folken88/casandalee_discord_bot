@@ -1,0 +1,48 @@
+{
+  "name": "Lord Oda Nobunaga",
+  "type": "character",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Monk (Unchained)",
+      "level": 12
+    },
+    {
+      "name": "Samurai",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 101
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 12,
+    "int": 18,
+    "wis": 14,
+    "cha": 18
+  },
+  "items": [
+    {
+      "name": "Circlet of Persuasion +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Belt of Dexterity +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bracers of Armor +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

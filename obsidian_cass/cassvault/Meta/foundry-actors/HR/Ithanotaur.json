@@ -1,0 +1,25 @@
+{
+  "name": "Ithanotaur",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Dragon",
+      "level": 19
+    }
+  ],
+  "hp": {
+    "max": 217
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 10,
+    "con": 21,
+    "int": 20,
+    "wis": 21,
+    "cha": 20
+  },
+  "items": []
+}

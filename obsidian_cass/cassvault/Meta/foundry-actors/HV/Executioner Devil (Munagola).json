@@ -1,0 +1,20 @@
+{
+  "name": "Executioner Devil (Munagola)",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 25,
+    "dex": 23,
+    "con": 24,
+    "int": 14,
+    "wis": 23,
+    "cha": 24
+  },
+  "items": []
+}

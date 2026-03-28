@@ -8,14 +8,17 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T16:45:12.497Z"
+updated: "2026-03-28T04:10:37.055Z"
 ---
 
 # Allan
 
+**Race:** Unknown | **Class:** Unknown
+
 ## Notes & Updates
 
 - Hears a crash and sees the guard knocked down, observes the well-dressed man closing the door on him; Referenced as someone entering a broom closet where the party has gathered with other strange individuals.; Mentioned as suggesting high explosives to blow up the entire base of the tower. *(youtube-transcript, 3/25/2026)*
+- Party member instructed to head down to the bar *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 

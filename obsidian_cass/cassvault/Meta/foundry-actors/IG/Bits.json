@@ -1,0 +1,25 @@
+{
+  "name": "Bits",
+  "type": "character",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Halfling",
+  "classes": [
+    {
+      "name": "Expert (NPC)",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 21
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 15,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 12
+  },
+  "items": []
+}

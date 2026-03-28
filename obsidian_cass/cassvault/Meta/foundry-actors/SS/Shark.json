@@ -1,0 +1,25 @@
+{
+  "name": "Shark",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Race: Animal",
+  "classes": [
+    {
+      "name": "Animal (Aquatic)",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 40
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 12,
+    "con": 14,
+    "int": 1,
+    "wis": 12,
+    "cha": 2
+  },
+  "items": []
+}

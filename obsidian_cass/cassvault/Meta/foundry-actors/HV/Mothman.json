@@ -1,0 +1,25 @@
+{
+  "name": "Mothman",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Monstrous Humanoid",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 76
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 24,
+    "con": 16,
+    "int": 17,
+    "wis": 19,
+    "cha": 18
+  },
+  "items": []
+}

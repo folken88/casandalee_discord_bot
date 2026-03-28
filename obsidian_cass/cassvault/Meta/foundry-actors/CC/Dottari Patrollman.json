@@ -1,0 +1,50 @@
+{
+  "name": "Dottari Patrollman",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 28
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 10,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Heavy Steel Shield MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "You strap a heavy steel shield to your forearm and grip it with your hand. A heavy steel shield is so heavy that you can’t use your shield hand for anything else. Whether wooden or steel, a heavy shield offers the same basic protection and attack benefits, though the two versions respond differently to some spells and effects (such as rusting grasp). A druid can use a heavy wooden shield, but not a heavy steel shield."
+    },
+    {
+      "name": "Heavy Crossbow MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Load: Loading a heavy crossbow is a full-round action that provokes attacks of opportunity.\n\nYou draw a heavy crossbow back by turning a small winch. Normally, operating a heavy crossbow requires two hands. However, you can shoot, but not load, a heavy crossbow with one hand at a –4 penalty on attack rolls. You can shoot a heavy crossbow with each hand, but you take a penalty on attack rolls as if attacking with two one-handed weapons. This penalty is cumulative with the penalty for one-handed f"
+    },
+    {
+      "name": "Heavy Mace MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A heavy mace has a larger head and a longer handle than a normal (light) mace."
+    },
+    {
+      "name": "Chainmail MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Unlike a chain shirt, which covers only the chest, chainmail protects the wearer with a complete mesh of chain links that cover the torso and arms, and extends below the waist. Multiple interconnected pieces offer additional protection over vital areas. The suit includes gauntlets."
+    }
+  ]
+}

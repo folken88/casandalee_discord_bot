@@ -1,0 +1,66 @@
+{
+  "name": "Mangvhune",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 7
+    },
+    {
+      "name": "Assassin",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 261
+  },
+  "abilities": {
+    "str": 30,
+    "dex": 22,
+    "con": 30,
+    "int": 20,
+    "wis": 17,
+    "cha": 18
+  },
+  "items": [
+    {
+      "name": "Wand of Cure Critical Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 4d8 points of damage + 1 point per caster level (maximum +20)."
+    },
+    {
+      "name": "Black Dragonhide Breastplate +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A breastplate protects a wearer’s torso with a single piece of sculpted metal, similar to the core piece of a suit of full plate. Despite its sturdiness, its inflexibility and open back make it inferior to complete suits of metal armor, but still an improvement over most non-metal armors."
+    },
+    {
+      "name": "Corrosive Bastard Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A bastard sword is about 4 feet in length, making it too large to use in one hand without special training; thus, it is an exotic weapon. A character can use a bastard sword two-handed as a martial weapon."
+    },
+    {
+      "name": "Tools, Surgeon's (Mithral)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 20 gp; Weight 5 lbs.\n\r\nWhen used in conjunction with a healer's kit, surgeon's tools raise the kit's bonus to a +3 circumstance bonus on Heal checks to treat wounds or deadly wounds."
+    },
+    {
+      "name": "Wand of Invisibility, Greater",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like @Compendium[pf1.spells.oylikodnyku2zewu]{Invisibility}, except that it doesn't end if the subject attacks."
+    },
+    {
+      "name": "Wand of Maximized Magic Missile",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1 points of force damage.\nThe missile strikes unerringly, even if the target is in melee combat, so long as it has less than total cover or total concealment.\nSpecific parts of a creature can't be singled out. Objects are not damaged by the spell.\nFor every two caster levels beyond 1st, you gain an additional missile-two at 3rd level, three at 5th, four at 7th, and the maximum of five missiles at 9th "
+    }
+  ]
+}

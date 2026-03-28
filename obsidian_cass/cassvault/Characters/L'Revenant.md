@@ -1,0 +1,37 @@
+---
+name: "L'Revenant"
+type: character
+campaign: CC
+race: "Human"
+class: "Psychic 12"
+hp: 30
+tags: ["character", "npc", "cc"]
+foundry_synced: "2026-03-28"
+---
+
+# L'Revenant
+
+**Race:** Human | **Class:** Psychic 12 | **HP:** 30
+**STR** 10 | **DEX** 15 | **CON** 14 | **INT** 17 | **WIS** 10 | **CHA** 10
+
+## Key Equipment
+- **Torch** (loot) — Price 1 cp; Weight 1 lb.  A torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage.
+- **Wack Juce** (consumable, equipped) — Refreshingly intoxicating, Wack Juce is made with the finest synthetic oranges in Numeria, and the 3rd finest potato vodka in the world: Smashka Noble! Enjoy this sweet and soothing taste of home, you can almost hear the anthem of the Fatherland as you slurp!
+- **Deer Shit** (consumable, equipped) — Grants Expeditious Retreat buff for 4d4 minutes. Leaves a bad taste in the mouth.
+- **Wand of Disguise Self** (consumable, equipped) — You make yourself--including clothing, armor, weapons, and equipmen--look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender. The spell does not provide the abilities or mannerisms of the chosen form, nor does it alter the perceived tactile
+- **Bracers Of Armor +6** (equipment, equipped) — Description These items appear to be wrist or arm guards, sometimes etched with symbols of protection or depictions of vigilant-looking animals. Bracers of armor surround the wearer with an invisible but tangible field of force, granting him an armor bonus of +1 to +8, just as though he were wearing armor. Both bracers of armor must be worn for the magic to be effective.   Alternatively, bracers of armor can be enchanted with armor special abilities. See Table 3-3: Armor Special Abilities for a 
+- **The Undying +2** (equipment, equipped) — This tattoo depicts a golden haired angel with black feather wings and a flaming greatsword. It grants the bearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the tattoo is worn. It also increases the amount gained from regeneration spells such as Infernal Healing or Celestial Healing by 1 per round. ConstructionRequirements Craft Wondrous Item, Bear's Endurance; Cost 2,500 gp
+- **Scroll of Mirror Image** (consumable, equipped) — School Illusion (figment); Level Sorcerer 2, Wizard 2, Bard 2, Magus 2, Adept 2, Bloodrager 2, Psychic 2, Medium 2, Mesmerist 2, Occultist 2; Subdomain Deception 2            Casting Time 1 Standard    Components V, S           Range Personal       Targets you       Duration 1 min./level      This spell creates a number of illusory doubles of you that inhabit your square. These doubles make it difficult for enemies to precisely locate and attack you. When mirror image is cast, 1d4 images plus on
+- **Potion of Levitate** (consumable, equipped) — School Transmutation; Level Alchemist 2, Arcanist 2, Investigator 2, Magus 2, Medium 2, Mesmerist 2, Occultist 2, Psychic 2, Shaman 2, Sorcerer 2, Spiritualist 2, Summoner 2, Summoner (Unchained) 2, Witch 2, Wizard 2; Domain Void 2            Casting Time 1 Standard    Components V, S, F (a leather loop or golden wire bent into a cup shape)           Range Personal       Targets you or one willing creature or one object (total weight up to 100 lbs./level)       Duration 1 min./level      Levitat
+- **Potion of Neutralize Poison** (consumable, equipped) — School Conjuration (healing); Level Adept 3, Alchemist 4, Bard 4, Cleric 4, Druid 3, Hunter 3, Inquisitor 4, Investigator 4, Oracle 4, Paladin 4, Ranger 3, Shaman 4, Skald 4, Spiritualist 4, Warpriest 4, Witch 4; Subdomain Restoration 4            Casting Time 1 Standard    Components V, S, M/DF (charcoal)           Range Personal       Targets creature or object of up to 1 cu. ft./level touched       Duration instantaneous or 10 min./level; see text      You detoxify any sort of venom in the cr
+- **Amulet of Natural Armor +2** (equipment, equipped) — This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet. ConstructionRequirements Craft Wondrous Item, barkskin, creator's caster level must be at least three times the amulet's bonus; Cost 4,000 gp
+- **Nose Diamond** (consumable, equipped) — Grants Darkvision 60' with light-sensitivity. Inhibits sense of smell, causing immunity to Nausea/Sickening conditions. 1d4 hours. Causes the user to sniff, itch their nose, and talk about crypto at every opportunity.
+- **Arrogance +2** (equipment, equipped) — The tattoo grants the wearer an enhancement bonus to all mental ability scores (Intelligence, Wisdom, and Charisma) of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the tattoo is worn. The headband also grants skill ranks as a headband of vast intelligence. ConstructionRequirements Craft Wondrous Item, eagle's splendor, fox's cunning, owl's wisdom; Cost 8,000 gp
+- **Ring of Protection +2** (equipment, equipped) — This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC. ConstructionRequirements Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring; Cost 4,000 gp
+- **Potion of Cure Serious Wounds** (consumable, equipped) — School Conjuration (healing); Level Adept 3, Alchemist 3, Bard 3, Cleric 3, Druid 4, Hunter 4, Inquisitor 3, Investigator 3, Occultist 3, Oracle 3, Paladin 4, Ranger 4, Shaman 3, Skald 3, Spiritualist 3, Warpriest 3, Witch 4; Domain Healing 3            Casting Time 1 Standard    Components V, S           Range Personal       Targets creature touched       Duration Instantaneous      This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level
+- **Potion of Invisibility** (consumable, equipped) — School Illusion (glamer); Level Adept 2, Alchemist 2, Antipaladin 2, Arcanist 2, Bard 2, Inquisitor 2, Investigator 2, Magus 2, Medium 2, Mesmerist 2, Occultist 2, Psychic 2, Skald 2, Sorcerer 2, Spiritualist 2, Summoner 2, Summoner (Unchained) 2, Wizard 2; Domain Trickery 2; Bloodline Arcane 2, Djinni 2, Oni 2, Rakshasa 2            Casting Time 1 Standard    Components V, S, M/DF (an eyelash encased in gum arabic)           Range Personal       Targets you or a creature or object weighing no m
+- **Cloak of Resistance +2** (equipment, equipped) — This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will). ConstructionRequirements Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus; Cost 2,000 gp
+
+## Notes & Updates
+
+*No session notes yet.*

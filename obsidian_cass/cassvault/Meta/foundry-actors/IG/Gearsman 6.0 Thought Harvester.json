@@ -1,0 +1,32 @@
+{
+  "name": "Gearsman 6.0 Thought Harvester",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Construct",
+      "level": 13
+    }
+  ],
+  "hp": {
+    "max": 130
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 16,
+    "con": 18,
+    "int": 12,
+    "wis": 16,
+    "cha": 1
+  },
+  "items": [
+    {
+      "name": "Integrated Sonic Rifle",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Sonic pistols have a stocky barrel capped with a concave resonating chamber that amplifies and directs its sonic blast. They use high-intensity sound to shake molecules apart."
+    }
+  ]
+}

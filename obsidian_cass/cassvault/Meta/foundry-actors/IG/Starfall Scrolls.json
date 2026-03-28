@@ -1,0 +1,291 @@
+{
+  "name": "Starfall Scrolls",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Scroll of Silence",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Upon the casting of this spell, complete silence prevails in the affected area. All sound is stopped: Conversation is impossible, spells with verbal components cannot be cast, and no noise whatsoever issues from, enters, or passes through the area. The spell can be cast on a point in space, but the effect is stationary unless cast on a mobile object. The spell can be centered on a creature, and the effect then radiates from the creature and moves as it moves. An unwilling creature can attempt a "
+    },
+    {
+      "name": "Scroll of Protection from Arrows, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like Protection from Arrows, except you divide the duration in 1-hour intervals among the creatures touched. Once the spell absorbs 10 points of damage per caster level (maximum 100 points) for a subject, the spell's effects end for that subject."
+    },
+    {
+      "name": "Scroll of Resist Energy",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This abjuration grants a creature limited protection from damage of whichever one of five energy types you select: acid, cold, electricity, fire, or sonic. The subject gains resist energy 10 against the energy type chosen, meaning that each time the creature is subjected to such damage (whether from a natural or magical source), that damage is reduced by 10 points before being applied to the creature's hit points. The value of the energy resistance granted increases to 20 points at 7th level and"
+    },
+    {
+      "name": "Scroll of Plane Shift",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You move yourself or some other creature to another plane of existence or alternate dimension. If several willing persons link hands in a circle, as many as eight can be affected by the plane shift at the same time. Precise accuracy as to a particular arrival location on the intended plane is nigh impossible. From the Material Plane, you can reach any other plane, though you appear 5 to 500 miles (5d%) from your intended destination. Plane shift transports creatures instantaneously and then ends"
+    },
+    {
+      "name": "Scroll of Dominate Person",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can control the actions of any humanoid creature through a telepathic link that you establish with the subject's mind.\nIf you and the subject have a common language, you can generally force the subject to perform as you desire, within the limits of its abilities. If no common language exists, you can communicate only basic commands, such as \"Come here,\" \"Go there,\" \"Fight,\" and \"Stand still.\" You know what the subject is experiencing, but you do not receive direct sensory input from it, nor "
+    },
+    {
+      "name": "Scroll of Dimension Door",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You instantly transfer yourself from your current location to any other spot within range. You always arrive at exactly the spot desired--whether by simply visualizing the area or by stating direction. After using this spell, you can't take any other actions until your next turn. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equival"
+    },
+    {
+      "name": "Scroll of Protection from Technology",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell wards a creature from attacks by technological objects and creatures of the robot subtype, and protects against mental control from technological sources. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has two major effects.\nFirst, the target gains a +2 deflection bonus to AC and a +2 resistance bonus on saving throws. Both of these bonuses apply against attacks made or effects caused by technological objects and creatur"
+    },
+    {
+      "name": "Scroll of Protection from Arrows",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The warded creature gains resistance to ranged weapons.\nThe subject gains damage reduction 10/magic against ranged weapons. This spell doesn't grant you the ability to damage creatures with similar damage reduction. Once the spell has prevented a total of 10 points of damage per caster level (maximum 100 points), it is discharged."
+    },
+    {
+      "name": "Scroll of Protection from Evil",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects.\nFirst, the subject gains a +2 deflection bonus to AC and a +2 resistance bonus on saves. Both these bonuses apply against attacks made or effects created by evil creatures.\nSecond, the subject immediately receives another saving throw (if one was allowe"
+    },
+    {
+      "name": "Scroll of Fire Snake",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You create a sinuous line of flames that you may shape as desired. The fire snake affects one 5-foot square per caster level, and each square must be adjacent to the previous square, starting with you. The fire snake may not extend beyond its maximum range. Creatures in the path of the fire snake take 1d6 points of fire damage per caster level (maximum 15d6)."
+    },
+    {
+      "name": "Scroll of Scorching Ray",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You blast your enemies with a searing beam of fire. You may fire one ray, plus one additional ray for every four levels beyond 3rd (to a maximum of three rays at 11th level). Each ray requires a ranged touch attack to hit and deals 4d6 points of fire damage. The rays may be fired at the same or different targets, but all rays must be aimed at targets within 30 feet of each other and fired simultaneously."
+    },
+    {
+      "name": "Scroll of Hellfire Ray",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A blast of hellfire blazes from your hands. You can fire one ray, plus one additional ray for every 4 caster levels beyond 11th (to a maximum of three rays at 19th level). Each ray requires a ranged touch attack to hit and deals 1d6 points of damage per caster level (maximum 15d6). Half the damage is fire damage, but the other half results directly from unholy power and is therefore not subject to being reduced by fire resistance. The rays can be fired at the same target or at different targets,"
+    },
+    {
+      "name": "Scroll of Overland Flight",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like a fly spell, except you can fly at a speed of 40 feet (30 feet if wearing medium or heavy armor, or if carrying a medium or heavy load) with a bonus on Fly skill checks equal to half your caster level. When using this spell for long-distance movement, you can hustle without taking nonlethal damage (a forced march still requires Constitution checks). This means you can cover 64 miles in an 8-hour period of flight (or 48 miles at a speed of 30 feet)."
+    },
+    {
+      "name": "Scroll of Dimensional Anchor",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A green ray springs from your hand. You must make a ranged touch attack to hit the target. Any creature or object struck by the ray is covered with a shimmering emerald field that completely blocks extradimensional travel. Forms of movement barred by a dimensional anchor include astral projection, blink, dimension door, ethereal jaunt, etherealness, gate, maze, plane shift, shadow walk, teleport, and similar spell-like abilities. The spell also prevents the use of a gate or teleportation circle "
+    },
+    {
+      "name": "Scroll of Protection from Energy",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Protection from energy grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of energy damage (to a maximum of 120 points at 10th level), it is discharged.\nProtection from energy overlaps (and does not stack with) resist energy. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is exhausted."
+    },
+    {
+      "name": "Scroll of Feeblemind",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Target creature's Intelligence and Charisma scores each drop to 1. The affected creature is unable to use Intelligence- or Charismabased skills, cast spells, understand language, or communicate coherently. Still, it knows who its friends are and can follow them and even protect them. The subject remains in this state until a heal, limited wish, miracle, or wish spell is used to cancel the of the feeblemind. A creature that can cast arcane spells, such as a sorcerer or a wizard, takes a -4 penalt"
+    },
+    {
+      "name": "Scroll of Beast Shape IV",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions as beast shape III except that it also allows you to assume the form of a Tiny or Large creature of the magical beast type. If the form you assume has any of the following abilities, you gain the listed ability: burrow 60 feet, climb 90 feet, fly 120 feet (good maneuverability), swim 120 feet, blindsense 60 feet, darkvision 90 feet, low-light vision, scent, tremorsense 60 feet, breath weapon, constrict, ferocity, grab, jet, poison, pounce, rake, rend, roar, spikes, trample, "
+    },
+    {
+      "name": "Scroll of Grease, Greater",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like @Compendium[pf1.spells.ik9u3eel5vfwrtb5]{Grease}, except as noted here. When you use this spell to cover a solid surface with slippery grease, the 10-foot squares must form a continuous area, each part of which must be within the spell's range. When you use this spell to create a greasy coating on items, no two of the targeted items can be more than 30 feet apart. You cannot target both items and surfaces with a single casting of this spell."
+    },
+    {
+      "name": "Scroll of Sending",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You contact a particular creature with which you are familiar and send a short message of 25 words or less to the subject. The subject recognizes you if it knows you. It can answer in like manner immediately. A creature with an Intelligence score as low as 1 can understand the sending, though the subject's ability to react is limited as normal by its Intelligence. Even if the sending is received, the subject is not obligated to act upon it in any manner.\nIf the creature in question is not on the"
+    },
+    {
+      "name": "Scroll of Lightning Bolt",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You release a powerful stroke of electrical energy that deals 1d6 points of electricity damage per caster level (maximum 10d6) to each creature within its area. The bolt begins at your fingertips.\nThe lightning bolt sets fire to combustibles and damages objects in its path. It can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze. If the damage caused to an interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the spell's"
+    },
+    {
+      "name": "Scroll of Slow",
+      "type": "consumable",
+      "equipped": true,
+      "description": "An affected creature moves and attacks at a drastically slowed rate. Creatures affected by this spell are staggered and can take only a single move action or standard action each turn, but not both (nor may it take full-round actions). Additionally, it takes a -1 penalty on attack rolls, AC, and Reflex saves. A slowed creature moves at half its normal speed (round down to the next 5-foot increment), which affects the creature's jumping distance as normal for decreased speed.\nMultiple slow effect"
+    },
+    {
+      "name": "Scroll of Disintegrate",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A thin, green ray springs from your pointing finger. You must make a successful ranged touch attack to hit. Any creature struck by the ray takes 2d6 points of damage per caster level (to a maximum of 40d6). Any creature reduced to 0 or fewer hit points by this spell is entirely disintegrated, leaving behind only a trace of fine dust. A disintegrated creature's equipment is unaffected.\nWhen used against an object, the ray simply disintegrates as much as a 10-foot cube of nonliving matter. Thus, t"
+    },
+    {
+      "name": "Scroll of Fireball",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A fireball spell generates a searing explosion of flame that detonates with a low roar and deals 1d6 points of fire damage per caster level (maximum 10d6) to every creature within the area.\nUnattended objects also take this damage. The explosion creates almost no pressure.\nYou point your finger and determine the range (distance and height) at which the fireball is to burst. A glowing, pea-sized bead streaks from the pointing digit and, unless it impacts upon a material body or solid barrier prio"
+    },
+    {
+      "name": "Scroll of Haste",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The transmuted creatures move and act more quickly than normal. This extra speed has several effects.\nWhen making a full attack action, a hasted creature may make one extra attack with one natural or manufactured weapon. The attack is made using the creature's full base attack bonus, plus any modifiers appropriate to the situation. (This effect is not cumulative with similar effects, such as that provided by a speed weapon, nor does it actually grant an extra action, so you can't use it to cast "
+    },
+    {
+      "name": "Scroll of Confusion",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell causes confusion in the targets, making them unable to determine their actions. Roll on the following table at the start of each subject's turn each round to see what it does in that round.\nd%Behavior 01-25Act normally 26-50Do nothing but babble incoherently 51-75Deal 1d8 points of damage + Str modifier to self with item in hand 76-100Attack nearest creature (for this purpose, a familiar counts as part of the subject's self)  A confused character who can't carry out the indicated acti"
+    },
+    {
+      "name": "Scroll of Passwall",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You create a passage through wooden, plaster, or stone walls, but not through metal or other harder materials. The passage is 10 feet deep plus an additional 5 feet deep per three caster levels above 9th (15 feet at 12th, 20 feet at 15th, and a maximum of 25 feet deep at 18th level). If the wall's thickness is more than the depth of the passage created, then a single passwall simply makes a niche or short tunnel. Several passwall spells can then form a continuing passage to breach very thick wal"
+    },
+    {
+      "name": "Scroll of Resist Energy, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like resist energy, except you divide the duration in 10-minute intervals among the creatures touched."
+    },
+    {
+      "name": "Scroll of Fickle Winds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You create a mobile cylinder of wind encompassing every target of the spell and protecting them as wind wall, but not interfering with them in any way. For example, arrows and bolts fired at the targets are deflected upward and miss, but the targets' own arrows or bolts pass through the wall as if it were not there.\nA Large creature counts as 4 Medium creatures for the purpose of how many targets you can effect with the spell; a Huge creature counts as 8, a Gargantuan creature as 16, and a Colos"
+    },
+    {
+      "name": "Scroll of Beast Shape I",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When you cast this spell, you can assume the form of any Small or Medium creature of the animal type. If the form you assume has any of the following abilities, you gain the listed ability: climb 30 feet, fly 30 feet (average maneuverability), swim 30 feet, darkvision 60 feet, low-light vision, and scent.\nSmall animal: If the form you take is that of a Small animal, you gain a +2 size bonus to your Dexterity and a +1 natural armor bonus.\nMedium animal: If the form you take is that of a Medium an"
+    },
+    {
+      "name": "Scroll of Shocking Grasp",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Your successful melee touch attack deals 1d6 points of electricity damage per caster level (maximum 5d6). When delivering the jolt, you gain a +3 bonus on attack rolls if the opponent is wearing metal armor (or is carrying a metal weapon or is made of metal)."
+    },
+    {
+      "name": "Scroll of Protection from Energy, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like protection from energy, except you divide the duration in 10-minute intervals among the creatures touched. Once the spell absorbs 12 points of energy damage per caster level (maximum 120 points) for a subject, the spell's effects end for that subject."
+    },
+    {
+      "name": "Scroll of Fly",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load).\nIt can ascend at half speed and descend at double speed, and its maneuverability is good. Using a fly spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can charge but not run, and it cannot carry aloft more weight than its maximum load, plus any armor it wears. The subject gains a bonus"
+    },
+    {
+      "name": "Scroll of Dismissal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell forces an extraplanar creature back to its proper plane if it fails a Will save. If the spell is successful, the creature is instantly whisked away, but there is a 20% chance of actually sending the subject to a plane other than its own."
+    },
+    {
+      "name": "Scroll of Beast Shape III",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions as beast shape II, except that it also allows you to assume the form of a Diminutive or Huge creature of the animal type. This spell also allows you to take on the form of a Small or Medium creature of the magical beast type. If the form you assume has any of the following abilities, you gain the listed ability: burrow 30 feet, climb 90 feet, fly 90 feet (good maneuverability), swim 90 feet, blindsense 30 feet, darkvision 60 feet, low-light vision, scent, constrict, ferocity"
+    },
+    {
+      "name": "Scroll of Remove Curse",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove curse can remove all curses on an object or a creature. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each curse affecting the target.\nSuccess means that the curse is removed. Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although a successful caster level check enables the creature afflicted with any such cursed item to remove and get rid of it.\nRemove curse counters and dispels bestow curs"
+    },
+    {
+      "name": "Scroll of Teleport",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell instantly transports you to a designated destination, which may be as distant as 100 miles per caster level. Interplanar travel is not possible. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as four Medium creatures"
+    },
+    {
+      "name": "Scroll of Beast Shape II",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions as beast shape I, except that it also allows you to assume the form of a Tiny or Large creature of the animal type. If the form you assume has any of the following abilities, you gain the listed ability: climb 60 feet, fly 60 feet (good maneuverability), swim 60 feet, darkvision 60 feet, low-light vision, scent, grab, pounce, and trip.\nTiny animal: If the form you take is that of a Tiny animal, you gain a +4 size bonus to your Dexterity, a -2 penalty to your Strength, and a "
+    },
+    {
+      "name": "Scroll of Glitterdust",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A cloud of golden particles covers everyone and everything in the area, causing creatures to become blinded and visibly outlining invisible things for the duration of the spell. All within the area are covered by the dust, which cannot be removed and continues to sparkle until it fades. Each round at the end of their turn blinded creatures may attempt new saving throws to end the blindness effect.\nAny creature covered by the dust takes a -40 penalty on Stealth checks."
+    },
+    {
+      "name": "Scroll of Antimagic Field",
+      "type": "consumable",
+      "equipped": true,
+      "description": "An invisible barrier surrounds you and moves with you. The space within this barrier is impervious to most magical effects, including spells, spell-like abilities, and supernatural abilities.\nLikewise, it prevents the functioning of any magic items or spells within its confines.\nAn antimagic field suppresses any spell or magical effect used within, brought into, or cast into the area, but does not dispel it.\nTime spent within an antimagic field counts against the suppressed spell's duration.\nSum"
+    },
+    {
+      "name": "Scroll of Cone of Cold",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Cone of cold creates an area of extreme cold, originating at your hand and extending outward in a cone. It drains heat, dealing 1d6 points of cold damage per caster level (maximum 15d6)."
+    },
+    {
+      "name": "Scroll of Protection from Evil, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like Protection from Evil, except you divide the duration in 1-minute intervals among the creatures touched."
+    },
+    {
+      "name": "Scroll of Chain Lightning",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell creates an electrical discharge that begins as a single stroke commencing from your fingertips. Unlike lightning bolt, chain lightning strikes one object or creature initially, then arcs to other targets.\nThe bolt deals 1d6 points of electricity damage per caster level (maximum 20d6) to the primary target. After it strikes, lightning can arc to a number of secondary targets equal to your caster level (maximum 20). The secondary bolts each strike one target and deal as much damage as t"
+    },
+    {
+      "name": "Scroll of Cloudkill",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell generates a bank of fog, similar to a fog cloud, except that its vapors are yellowish green and poisonous. These vapors automatically kill any living creature with 3 or fewer HD (no save).\nA living creature with 4 to 6 HD is slain unless it succeeds on a Fortitude save (in which case it takes 1d4 points of Constitution damage on your turn each round while in the cloud).\nA living creature with more than 6 HD takes 1d4 points of Constitution damage on your turn each round while in the c"
+    },
+    {
+      "name": "Scroll of Polymorph",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell transforms a willing creature into an animal, humanoid or elemental of your choosing; the spell has no effect on unwilling creatures, nor can the creature being targeted by this spell influence the new form assumed (apart from conveying its wishes, if any, to you verbally).\n\nIf you use this spell to cause the target to take on the form of an animal or magical beast, the spell functions as @Compendium[pf1.spells.774kmgcb7ygviht0]{Beast Shape II}. If the form is that of an elemental, th"
+    },
+    {
+      "name": "Scroll of Ice Storm",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Great magical hailstones pound down upon casting this spell, dealing 3d6 points of bludgeoning damage and 2d6 points of cold damage to every creature in the area. This damage only occurs once, when the spell is cast. For the remaining duration of the spell, heavy snow and sleet rains down in the area. Creatures inside this area take a -4 penalty on Perception skill checks and the entire area is treated as difficult terrain. At the end of the duration, the snow and hail disappear, leaving no afte"
+    }
+  ]
+}

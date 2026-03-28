@@ -1,0 +1,20 @@
+{
+  "name": "Howling Raver",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Skinwalker",
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": []
+}

@@ -1,0 +1,56 @@
+{
+  "name": "Torch City Guard",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Slayer",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 15
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 12,
+    "cha": 11
+  },
+  "items": [
+    {
+      "name": ".357 Magnum Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "The .357 Magnum cartridge is notable for its highly effective terminal ballistics."
+    },
+    {
+      "name": "Torch City Roller",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Torch Rosco",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 43, Ultimate Combat pg. 138\n\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical x4; Range 20 ft.; Type B and P\n\nMisfire 1 (5 ft.); Capacity 1\n\nDescription\nThe basic single-shot pistol is one of the most common firearms, although in most campaigns it is still rare enough to be an object of envy or curiosity to most. As such, it can take a variety of different forms, from wildly ornate masterpieces in the shape of fire-breathing dragons to the more common woodhandle"
+    },
+    {
+      "name": "Torch Forged Longsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range -; Type S\nWeapon Groups Blades, Heavy\nDescriptionThis sword is about 3-1/2 feet in length.\nGlaucite\nBoth ancient and modern metallurgists have devised numerous alloys that mix skymetals with other materials. Many of these are highly specialized, but one deserves special mention: glaucite. This dull gray metal is an alloy of adamantine and iron. Though it has hardness "
+    },
+    {
+      "name": "Numerian Slick Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "High tech armor that is also an ancient construction. Few smithies on Golarion can repair or modify it. Offers protection against both physical and touch attacks."
+    }
+  ]
+}

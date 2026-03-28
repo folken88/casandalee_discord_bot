@@ -1,0 +1,25 @@
+{
+  "name": "Dire Lion",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 108
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 20,
+    "con": 18,
+    "int": 10,
+    "wis": 16,
+    "cha": 10
+  },
+  "items": []
+}

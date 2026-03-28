@@ -1,0 +1,57 @@
+{
+  "name": "Paetyr's Dispensaria Shop",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nSpell Description\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Vive",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 34\nPrice 200 gp\nDescriptionVive revitalizes the body at the cost of mental acuity. This pharmaceutical has an onset time of 1 minute. It eliminates fatigue and exhaustion and heals 1d4 points of ability damage to a physical ability score (Strength, Dexterity, or Constitution) of the target's choice. The first dose taken in a 24-hour period deals 1d2 points of ability damage to Intelligence and Wisdom; additional doses in that period deal 1d4 points of ability damage i"
+    },
+    {
+      "name": "Steelchew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Temporarily changes all the users soft tissue to hardened steel. This results in an Ironskin spell (+6 natural armor), DR10 vs Slashing, and blindness. lasts 2d6 minutes."
+    },
+    {
+      "name": "Life Giving Amulet",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Once per day when the wearer of this amulet is reduced to 0hp or lower, an @Compendium[pf1.spells.ny2qxht2aeesoi08]{Infernal Healing, Greater} spell is cast upon them immediately. \n\n \n\nIf the wearer is instantly killed by HP damage (reduced to CON below zero), the amulet shatters and casts @Compendium[pf1.spells.qiiis9ekgy3syu7j]{Breath of Life} on them."
+    },
+    {
+      "name": "Deer Shit",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Grants Expeditious Retreat buff for 4d4 minutes. Leaves a bad taste in the mouth."
+    },
+    {
+      "name": "Potion of Air Bubble",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nAir bubble creates a small pocket of breathable air that surrounds the touched creature's head or the touched object. The air bubble allows the creature touched to breathe underwater or in similar airless environments, or protects the object touched from water damage.  A firearm within an air bubble can be loaded-assuming the black powder comes from a powder horn, a cartridge, or some other airtight protective device-and fired. When shooting such a firearm underwa"
+    }
+  ]
+}

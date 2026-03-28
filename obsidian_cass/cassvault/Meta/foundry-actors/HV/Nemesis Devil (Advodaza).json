@@ -1,0 +1,20 @@
+{
+  "name": "Nemesis Devil (Advodaza)",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 25,
+    "con": 30,
+    "int": 23,
+    "wis": 25,
+    "cha": 24
+  },
+  "items": []
+}

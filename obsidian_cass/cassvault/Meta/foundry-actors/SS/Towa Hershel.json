@@ -1,0 +1,176 @@
+{
+  "name": "Towa Hershel",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Drow",
+  "classes": [
+    {
+      "name": "Legendary Ninja",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 70
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 16,
+    "con": 14,
+    "int": 14,
+    "wis": 14,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "Bronze Fleet Volver",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Bronze Fleet Volver is a highly crafted, ornate six-shot revolver favored by officers and slavers within the Bronze Fleet. Its barrel and frame are forged from polished bronze, etched with swirling nautical patterns that echo the waves. Embedded in the side of the chamber is a small, aquamarine gemstone that glints faintly in the light, often mistaken for a magical focus.\nThe revolver is balanced for expert accuracy and durability, and its elaborate design symbolizes both power and prestige "
+    },
+    {
+      "name": "Vorkstag's Person Remover",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This potion turns the imbiber invisible and grants them a pass-without-trace effect for 1 hour. For this hour, the imbiber loses their sense of taste and smell."
+    },
+    {
+      "name": "Booch",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This vibrant green tea-based kombucha is a local specialty from the Tidewater Rock fortress in the dangerous seas of the southern Shackles, near Windward Isle. Crafted by combining island herbs with fermented tea, Booch serves to fortify sailors and sentries alike. Its tangy taste has a revitalizing quality, making it a popular drink among those who stand watch through the long nights. Folk tales suggest that this drink's unique recipe was a gift from a benevolent sea spirit keen on improving a "
+    },
+    {
+      "name": "Culling Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This exquisite wakazashi is a masterpiece of Chelish craftsmanship, renowned for its perfect balance and razor-sharp edge. The blade is polished to a mirror finish, with intricate Chelish motifs etched along the flat. The hilt is wrapped in deep crimson leather, providing a secure grip. This weapon is favored by Chelish assassins for its deadly precision and ease of concealment. It is said that the blade can cut through the silence itself, making it an ideal tool for surprise attacks."
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 2, Alchemist 2, Bard 2, Cleric 2, Druid 3, Hunter 3, Inquisitor 2, Investigator 2, Occultist 2, Oracle 2, Paladin 3, Ranger 3, Shaman 2, Skald 2, Spiritualist 2, Warpriest 2, Witch 2; Domain Healing 2\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets living creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nDescriptionThis spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point "
+    },
+    {
+      "name": "Black Sails Concordance",
+      "type": "loot",
+      "equipped": true,
+      "description": "\"The Black Sails Concordance\"A treatise on the Free Captains of the Shackles\nEffect: Grants a +2 competence bonus on Knowledge (local / history) checks regarding pirate politics and Free Captain rivalries.Lore: Compiled by an anonymous chronicler, this book is full of firsthand accounts of betrayals, duels, and secret dealings among the Shackles’ pirate elite."
+    },
+    {
+      "name": "Alkenstar Gutterblade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This +1 wakizashi is crafted with Alkenstar’s signature fusion of arcane precision and mechanical innovation. When sheathed or hidden, the weapon appears as nothing more than a reinforced hilt, no longer than a dagger's handle. With a swift action, the blade unfolds in a blur of metallic clicks and a flash of arcane energy, extending into a fully functional wakizashi with the strength and balance of a traditionally forged blade.\nDespite its compact construction, the Collapsing Edge loses none of"
+    },
+    {
+      "name": "Headband of Alluring Charisma +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This attractive silver headband is decorated with a number of small red and orange gemstones.\nThe headband grants the wearer an enhancement bonus to Charisma of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn.\nConstructionRequirements Craft Wondrous Item, Eagle's Splendor; Cost 2,000 gp"
+    },
+    {
+      "name": "Tidewater Meat Stick",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A staple of the South Shackles, the Tidewater Meat Stick is both a beloved street food and a shockingly effective weapon. Crafted from tempered steel and loaded with expertly grilled cuts of fish, chicken, and lamb, this savory skewer is seasoned with tongue-numbing coastal spices said to ward off evil spirits—and Northerners with weak constitutions.\nFavored by sailors, dockside duelists, and spicy-food fanatics, the Meat Stick serves as a handy fallback when dinner turns dangerous. Why forge a "
+    },
+    {
+      "name": "Ear Plugs",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Shadows Refuge",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This armor is made of hard plates taken from an umberhulk. When in use or in bright light, its plates appear more glass tinted dark purple. Even stranger, the material feels like suede or another smooth textured fabric to the touch, and the various pieces make no sound as they flex and move together with use.\nThe armor includes a full hood, which slides into place or retracts as an immediate action, even deploying an illusion of black smoke over their eyes to fully conceal their identity. This b"
+    },
+    {
+      "name": "Bubby-Stone",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Bubby-Stone is a smooth, palm-sized gemstone that glimmers with a faint azure light. Often sought by adventurers exploring the depths of the sea or venturing into airless caverns, the stone is said to be a gift from the elemental lords of air. When held in the mouth, it makes it difficult to speak as the stone constantly emits bubbles of breathable air. With practice, the owner can use this to breathe underwater or in poisonous gas clouds for up to 10 minutes. After use, the stone must be le"
+    },
+    {
+      "name": "Goldenwake Mead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "“Smooth seas on the evening, but a storm in the morning”\nGoldenwake Mead is a staple in coastal taverns across the Shackles, brewed with golden honey, faint spices, and a hearty kick of alcohol. It's known for its warmth, easy drinkability, and surprising potency, making it a favorite among sailors and pirates alike. While mostly known for its pleasant effects, overindulging in this stout mead can leave even the hardiest drinker feeling slightly off-kilter.\nEffects\nWhen consumed, Goldenwake Mead"
+    },
+    {
+      "name": "Handy Haversack",
+      "type": "container",
+      "equipped": true,
+      "description": "A backpack of this sort appears to be well made, well used, and quite ordinary. It has two side pouches, each of which appears large enough to hold about a quart of material. In fact, each is like a bag of holding and can actually hold material of as much as 2 cubic feet in volume or 20 pounds in weight. The large central portion of the pack can contain up to 8 cubic feet or 80 pounds of material. Even when so filled, the backpack always weighs only 5 pounds. While such storage is useful enough,"
+    },
+    {
+      "name": "Backlash",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Forged in Alkenstar workshops where spellcraft and clockwork meet, Backlash is a sleek black-steel kunai etched with faint arcane channels along its spine. When thrown, a muted pulse of magic snaps taut, wrenching the blade back into its wielder’s grasp moments after impact. Balanced for precision and speed, it is favored by assassins who strike once—and never leave their weapon behind."
+    },
+    {
+      "name": "Caydenbrew Teenie-Keg",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"One swig, one blessing, one tale to tell—or forget.\"\n\nCaydenbrew Teenie-Kegs are single-serving wooden kegs of Cayden Cailean’s iconic brew, blessed in his name and crafted for adventurers, rogues, and pirates who seek fortune, bravery, and maybe just a bit of luck. Compact and practical, they’re a common sight among the devout—or those who just like to party.\n\nLore\nBrewed with Blessings: Caydenbrew Teenie-Kegs are said to contain a drop of water from Cayden Cailean’s legendary Everlasting Tank"
+    },
+    {
+      "name": "Spring Forward",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This cloak is woven from a vibrant green fabric that shimmers with an inner vitality, reminiscent of fresh spring leaves.\nPowers:\nNature's Grace: Grants a +5 competence bonus to Acrobatics.Renewal: Increases Land and Swim speed by 10.History: Worn by Fern Meadowbloom, the group's healer, this cloak symbolizes renewal and growth, aiding her in tending to her companions' injuries."
+    },
+    {
+      "name": "Blood Caimon Tacos",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners!\nEnjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes."
+    },
+    {
+      "name": "Dorcroast",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dorcroast, the invigorating cold brew coffee inspired by the triumph over darkness in Ustalav, awakens your senses with a bittersweet symphony. With a delightful spritz of energy, Dorcroast revitalizes your day, infusing it with the indomitable spirit that arises from the genocide of one's enemies. This remarkable brew serves as a tribute to the resilience of those who stood against evil, reminding you that even in the face of adversity, there is always room for celebration and the promise of a "
+    },
+    {
+      "name": "Whispered Courage Whiskey",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Drink the blood of heroes.\"Whispered Courage is aged in barrels made from pines cut from the Stoneheart Massacre Glade.This powerful spirit grants +4 vs fear saves for 1 hour. The bonus is doubled if an ally who also drank the whiskey is threatened within your sight."
+    },
+    {
+      "name": "Belt of Mighty Constitution +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.\nConstructionRequirements Craft Wondrous Item, Bear's Endurance; Cost 2,000 gp"
+    },
+    {
+      "name": "The Operative +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The tattoo grants the bearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.\nThe item also provides a +2 insight bonus to stealth.\nConstructionRequirements Craft Wondrous Item, Cat's Grace; Cost 2,500 gp"
+    },
+    {
+      "name": "Wand of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 1, Alchemist 1, Bard 1, Cleric 1, Druid 1, Hunter 1, Inquisitor 1, Investigator 1, Occultist 1, Oracle 1, Paladin 1, Ranger 2, Shaman 1, Skald 1, Spiritualist 1, Warpriest 1, Witch 1; Domain Healing 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Touch\n\n  \n  Targets living creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw Will half; see text;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionWhen laying your "
+    },
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet.\nConstructionRequirements Craft Wondrous Item, barkskin, creator's caster level must be at least three times the amulet's bonus; Cost 1,000 gp"
+    }
+  ]
+}

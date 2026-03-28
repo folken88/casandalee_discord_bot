@@ -1,0 +1,75 @@
+{
+  "name": "Brain Eye Sahuagin",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Dwarven Fire Ale",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Type ingested; Addiction moderate, Fortitude DC 20\nPrice 50 gp; Weight 0 lbs\nEffect 1d4 rounds; @Compendium[pf1.spells.8u1xa5javcxc6szk]{Rage} as per the spell\nEffect 1 hour; cold resistance 5\nDamage 1d2 Con damage"
+    },
+    {
+      "name": "Wand of Thunderstomp",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Evocation [earth]; Level Arcanist 1, Bloodrager 1, Druid 1, Hunter 1, Magus 1, Ranger 1, Sorcerer 1, Wizard 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range 25 ft\n\n  \n  Targets one creature\n\n  \n  Duration Instantaneous\n\n    Saving Throw None;\n    Spell Resistance yes\n    \n\n  \n\nYou stomp your foot or strike your weapon against the ground or floor, creating a ripple of power that you can use to trip a creature. Attempt the combat maneuver check to trip the target, but"
+    },
+    {
+      "name": "Sahuagin Scroll of Restoration, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Note: Sahuagin scrolls must be read underwater by a creature who is breathing water or similar liquid. They do not activate when read in air or other gasses & thin liquids.\nSchool Conjuration (Healing); Level Alchemist 2, Cleric 2, Druid 2, Hunter 2, Inquisitor 2, Investigator 2, Mesmerist 2, Oracle 2, Paladin 1, Shaman 2, Spiritualist 2, Warpriest 2\nCasting Time 3 Standard Actions\nComponents V, S\n\nRange Touch\nTargets creature touched\nDuration Instantaneous\nSaving Throw Will negates; Spell Resis"
+    },
+    {
+      "name": "Sahuagin Scroll of Reincarnate",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Note: Sahuagin scrolls must be read underwater by a creature who is breathing water or similar liquid. They do not activate when read in air or other gasses & thin liquids.\nSchool Transmutation; Level Druid 4, Hunter 4, Medium 4, Shaman 4, Witch 5\nCasting Time 10 Standard Actions\nComponents V, S, M (oils worth 1,000 gp), DF\n\nRange Touch\nTargets dead creature touched\nDuration Instantaneous\nSaving Throw none; see text; Spell Resistance yes \n\nDescriptionWith this spell, you bring back a dead creatu"
+    },
+    {
+      "name": "Potion of Restoration (418 Variant)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 4, Alchemist 4, Cleric 4, Inquisitor 4, Investigator 4, Mesmerist 4, Oracle 4, Paladin 4, Shaman 4, Spiritualist 4, Warpriest 4\nCasting Time 3 Standard Actions\nComponents V, S, M (psychadelic wildflower petals worth at least 1000gp)\n\nRange Personal\nTargets creature touched\nDuration Instantaneous\n\nDescriptionThis spell functions like lesser restoration, except that it also dispels temporary negative levels or one permanent negative level. If this spell is"
+    },
+    {
+      "name": "Blood Caimon Tacos",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners!\nEnjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes."
+    },
+    {
+      "name": "Lady Tukkar Boots",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Lady Tukkar Boots (Level 3 Wondrous Item)Price: 1,400 gp\nAura faint transmutation\nSlot feet\nCL 3rd\nWeight 3 lbs\nDescriptionCrafted from the dense, shaggy fur of the mighty tukkar, these enchanted boots offer resilience, stability, and an earth-shaking stomp. Despite their effectiveness, Thragorn, a 17-foot-tall forest giant, has no understanding of mortal fashion, leading to two distinct versions:\n\"Lady Tukkar\" Boots – After hearing complaints that his boots were \"not stylish,\" Thragorn attempte"
+    },
+    {
+      "name": "Potion of Remove Disease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 3, Alchemist 3, Cleric 3, Druid 3, Hunter 3, Inquisitor 3, Investigator 3, Oracle 3, Ranger 3, Shaman 3, Spiritualist 3, Warpriest 3, Witch 3; Subdomain Restoration 2\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nDescriptionRemove disease can cure all diseases from which the subject is suffering. You must make a caster level check (1d20 + caster level) against"
+    },
+    {
+      "name": "Sahuagin Scroll of Restoration",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Note: Sahuagin scrolls must be read underwater by a creature who is breathing water or similar liquid. They do not activate when read in air or other gasses & thin liquids.\nSchool Conjuration (Healing); Level Adept 4, Alchemist 4, Cleric 4, Inquisitor 4, Investigator 4, Mesmerist 4, Oracle 4, Paladin 4, Shaman 4, Spiritualist 4, Warpriest 4\nCasting Time 3 Standard Actions\nComponents V, S, M (diamond dust worth 100 gp or 1,000 gp, see text)\n\nRange Touch\nTargets creature touched\nDuration Instantan"
+    }
+  ]
+}

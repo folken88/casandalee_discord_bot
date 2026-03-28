@@ -1,0 +1,38 @@
+{
+  "name": "Poore Soldier",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Barbarian",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 56
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 14,
+    "con": 14,
+    "int": 9,
+    "wis": 9,
+    "cha": 9
+  },
+  "items": [
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Cold Iron Falcata",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This heavy blade has a single sharp edge, concave at the bottom and convex at the top, with a hook-shaped hilt. Its shape distributes the weight to give it the momentum of an axe with the cutting edge of a sword, much like a larger version of a kukri. The hooked hilt is sometimes carved to resemble the head of a horse or bird of prey, and may have a thin chain stretched across its opening, acting as a partial guard for the hand and fingers.\nCold Iron\n\nThis iron, mined deep underground and known "
+    }
+  ]
+}

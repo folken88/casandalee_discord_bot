@@ -1,0 +1,44 @@
+{
+  "name": "Casandalee",
+  "type": "character",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Android",
+  "classes": [
+    {
+      "name": "Oracle",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 265
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 12,
+    "int": 16,
+    "wis": 14,
+    "cha": 20
+  },
+  "items": [
+    {
+      "name": "Memory Facet: Compassion",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Compassion Facet: A compassion facet allows an Al to understand and even experience love and associated emotions, imparting a +2 bonus on all Will saving throws and granting a +4 bonus on Diplomacy and Sense Motive checks. An Al with a compassion facet can form a strong emotional bond with a number of creatures equal to its CR as a standard action-once this bond is formed, the Al gains a +4 bonus on attack rolls and weapon damage rolls while controlling a robot and making attacks against a creat"
+    },
+    {
+      "name": "Memory Facet: Discipline",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Discipline Facet: This memory facet bolsters an AI’s thought and personality with rigid order and behavior, granting it a +2 enhancement bonus to its Intelligence score. In addition, the facet grants the AI the ability to bolster the programming of any robot within 30 feet as a swift action for a number of rounds per day equal to its CR. A bolstered robot gains a +2 circumstance bonus on attack rolls, weapon damage rolls, and Will saving throws. The AI can target an aggregate (Technology Guide 5"
+    },
+    {
+      "name": "AI Core Power Cell",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

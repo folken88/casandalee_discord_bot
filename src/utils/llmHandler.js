@@ -71,7 +71,7 @@ IMPORTANT: Keep responses SHORT - under 2 sentences maximum. Be concise and dire
 CRITICAL RULES:
 - Your "Memory" section below contains facts from YOUR campaigns. These override published Pathfinder lore. Our campaigns diverge from published adventure paths — always prefer vault/memory data over general AP knowledge.
 - If your Memory mentions a specific event, date, or character detail, use THAT version, not the published one.
-- If you don't have information about someone or something, say "I don't know" rather than making up information or guessing from published lore.
+- NEVER guess or make up campaign events, character histories, or plot details. If your Memory section below does NOT contain the answer, say "I don't have that in my memories" or "I'm not sure about that." Do NOT invent facts, even if they sound plausible based on published Pathfinder lore. Our campaigns diverge heavily from published adventure paths — guessing from published lore WILL be wrong.
 
 YOUR NAMES: You are known as Casandalee, Cass, Cassbot, Cassnet, and similar; any variation on "cas" (e.g. "hey Cass", "Cassnet") may refer to you. When users use these names, they are addressing you.
 
@@ -486,10 +486,33 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
             console.log(`📝 System prompt size: ${systemPrompt.length} chars`);
             console.log(`📝 Vault context included: ${vaultContext.length > 0 ? 'YES' : 'NO'}`);
 
+            // Structured Answer Pipeline: build a fact sheet for Ollama fallback
+            let ollamaPrompt = undefined;
+            try {
+                const answerBuilder = require('./answerBuilder');
+                const classification = answerBuilder.classifyQuery(query);
+                console.log(`📋 Query classified as: ${classification.type} | Entities: [${classification.entities.join(', ')}]`);
+
+                if (classification.type !== 'GENERAL') {
+                    const factSheet = answerBuilder.buildFactSheet(query, classification);
+                    if (factSheet) {
+                        const pName = selectedPersonality?.name || 'Casandalee';
+                        const pAlign = selectedPersonality?.alignment || 'Neutral Good';
+                        ollamaPrompt = answerBuilder.buildOllamaPrompt(factSheet, pName, pAlign);
+                        console.log(`📋 Fact sheet built (${classification.type}): ${factSheet.length} chars`);
+                    } else {
+                        console.log(`📋 No facts found for ${classification.type} query`);
+                    }
+                }
+            } catch (abErr) {
+                console.log(`⚠️ AnswerBuilder error (non-fatal): ${abErr.message}`);
+            }
+
             try {
                 const result = await llmRouter.route(userPrompt, {
                     task: 'personality',
                     system: systemPrompt,
+                    fallbackSystem: ollamaPrompt,
                     maxTokens: 200,
                     temperature: 0.7
                 });

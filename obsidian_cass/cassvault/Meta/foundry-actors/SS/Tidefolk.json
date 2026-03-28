@@ -1,0 +1,32 @@
+{
+  "name": "Tidefolk",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Seaman",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 9
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A dagger is a fighting knife. Its blade is usually less than 1 foot long, and can be curved or straight, with one edge or two. Dagger designs vary widely, and can have many different names (such as a thrusting dagger being called a \"dirk\"). You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body."
+    }
+  ]
+}

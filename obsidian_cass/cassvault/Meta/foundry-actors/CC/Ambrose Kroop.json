@@ -1,0 +1,48 @@
+{
+  "name": "Ambrose Kroop",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Ranger",
+      "level": 3
+    },
+    {
+      "name": "Expert",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 16
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 13,
+    "int": 9,
+    "wis": 16,
+    "cha": 11
+  },
+  "items": [
+    {
+      "name": "Galley Key",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Chef's Cleaver",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Ambrose's \"Cleaver\" is massive, and absurdly sharp."
+    },
+    {
+      "name": "Desdemona",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

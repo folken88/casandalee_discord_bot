@@ -1,0 +1,50 @@
+{
+  "name": "Talisar",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Arcanist",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 21
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 12,
+    "int": 18,
+    "wis": 11,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Ring of the Chelish Agent",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This elegant ring is crafted of dark silver and etched with the emblem of House Thrune, the ruling family of Cheliax. It is a mark of authority and protection among agents of the Chelish government. The ring is often awarded to those who have proven their loyalty and prowess in the service of the infernal nation. The wearer feels a subtle aura of safety and strength, as if shielded by an unseen force."
+    },
+    {
+      "name": "Scroll of Mirror Image",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Illusion (Figment); Level Adept 2, Arcanist 2, Bard 2, Bloodrager 2, Magus 2, Medium 2, Mesmerist 2, Occultist 2, Psychic 2, Skald 2, Sorcerer 2, Wizard 2; Subdomain Deception 2\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 3 Minutes\n\n  \n\nDescriptionThis spell creates a number of illusory doubles of you that inhabit your square. These doubles make it difficult for enemies to precisely locate and attack you.\nWhen mirror image "
+    },
+    {
+      "name": "Scroll of Protection from Arrows",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Abjuration; Level Alchemist 2, Arcanist 2, Bloodrager 2, Investigator 2, Psychic 2, Sorcerer 2, Spiritualist 2, Summoner 2, Summoner (Unchained) 2, Wizard 2\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, F (a piece of tortoiseshell or turtle shell)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration 1 hour/level or until discharged\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionThe warded creature gains resistance to range"
+    },
+    {
+      "name": "Spellbook",
+      "type": "loot",
+      "equipped": true,
+      "description": "A spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells). A newly purchased spellbook contains no spells. A wizard character begins play with a spellbook containing the spells he knows."
+    }
+  ]
+}

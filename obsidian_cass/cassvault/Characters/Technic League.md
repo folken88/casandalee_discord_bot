@@ -1,17 +1,25 @@
 ---
 name: "Technic League"
 type: character
-campaign: "IG"
-tags: [character, ig]
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T03:18:42.462Z"
 ---
 
 # Technic League
 
-**Race:** Unknown | **Class:** Unknown | **Level:** ?
+**Race:** Unknown | **Class:** Unknown
 
+## Notes & Updates
+
+- Believes they are commanding the gearsman but Unity is actually doing it. *(youtube-transcript, 3/28/2026)*
+- Described as showing up with gearsmen, soldiers, and barbarians. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Iron Gods - Maze of Ecstasy 2024 04 04
-Mentioned as a reason why barbarians/Black Sovereign are paranoid about magic and resistant to magical effects. Party previously dismantled the organization.; Referenced as a previous encounter that the party learned from regarding strategy
-
+*Session activity from YouTube transcripts will appear here.*

@@ -1,0 +1,25 @@
+{
+  "name": "Chaos Spawn",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Aberration",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 24
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 10,
+    "con": 14,
+    "int": 11,
+    "wis": 11,
+    "cha": 18
+  },
+  "items": []
+}

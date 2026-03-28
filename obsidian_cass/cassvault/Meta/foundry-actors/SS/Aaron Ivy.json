@@ -1,0 +1,24 @@
+{
+  "name": "Aaron Ivy",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 16
+  },
+  "abilities": {
+    "str": 17,
+    "dex": 19,
+    "int": 17,
+    "wis": 18,
+    "cha": 18
+  },
+  "items": []
+}

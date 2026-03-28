@@ -1,0 +1,25 @@
+{
+  "name": "Windward Ankle Biter",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Race: Vermin",
+  "classes": [
+    {
+      "name": "Vermin",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 36
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 24,
+    "con": 18,
+    "int": 0,
+    "wis": 13,
+    "cha": 11
+  },
+  "items": []
+}

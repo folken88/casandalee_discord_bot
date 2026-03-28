@@ -1,0 +1,62 @@
+{
+  "name": "TL Trooper",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Tactician",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Heavy Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 142, Ultimate Equipment pg. 17\nStatisticsCost 50 gp Weight 8 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range 120 ft.; Type P; Special -\nCategory Ranged; Proficiency Simple\nWeapon Groups Crossbows\nDescriptionYou draw a heavy crossbow back by turning a small winch. Loading a heavy crossbow is a full-round action that provokes attacks of opportunity. A heavy crossbow fires crossbow bolts.\n\n Normally, operating a heavy cros"
+    },
+    {
+      "name": "Silverhawk Keep Cannon",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bastard Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, PRPG Core Rulebook pg. 143\nStatisticsCost 35 gp Weight 6 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Blades, Heavy\nDescriptionA bastard sword is about 4 feet in length, making it too large to use in one hand without special training; thus, it is an exotic weapon. You can use a bastard sword two-handed as a martial weapon."
+    },
+    {
+      "name": "Technic League Shield",
+      "type": "equipment",
+      "equipped": true,
+      "description": "High-grade steel made with a balance of lightness and protection in mind."
+    },
+    {
+      "name": "Technic League Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "High-grade steel made with a balance of lightness and protection in mind."
+    }
+  ]
+}

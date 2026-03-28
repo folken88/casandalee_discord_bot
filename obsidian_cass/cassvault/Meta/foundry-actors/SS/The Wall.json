@@ -1,0 +1,23 @@
+{
+  "name": "The Wall",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Construct",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 154
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 9,
+    "wis": 11,
+    "cha": 1
+  },
+  "items": []
+}

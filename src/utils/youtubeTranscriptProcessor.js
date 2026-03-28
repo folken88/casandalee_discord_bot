@@ -803,8 +803,8 @@ Respond ONLY with valid JSON. No markdown formatting, no code fences.`;
                 );
                 if (existing) {
                     // Append context if different
-                    if (!existing.context.includes(mention.context)) {
-                        existing.context += '; ' + mention.context;
+                    if (mention.context && !(existing.context || '').includes(mention.context)) {
+                        existing.context = (existing.context || '') + '; ' + mention.context;
                     }
                     // Escalate significance
                     if (mention.significance === 'high') existing.significance = 'high';
@@ -835,8 +835,8 @@ Respond ONLY with valid JSON. No markdown formatting, no code fences.`;
                     p => p.name?.toLowerCase() === place.name?.toLowerCase()
                 );
                 if (existing) {
-                    if (place.description && !existing.description.includes(place.description)) {
-                        existing.description += '; ' + place.description;
+                    if (place.description && !(existing.description || '').includes(place.description)) {
+                        existing.description = (existing.description || '') + '; ' + place.description;
                     }
                     if (!existing.country && place.country) existing.country = place.country;
                     if (!existing.city && place.city) existing.city = place.city;
@@ -1058,20 +1058,34 @@ ${extraction.summary || 'No summary generated.'}
     }
 
     /**
-     * Create/update per-character pages in Characters/ folder
+     * Create/update per-character pages in Characters/ folder.
+     * Uses nameResolver + vault filename search to avoid creating duplicates.
      */
     _updateCharacterVaultPages(extraction, campaignCode, video) {
         for (const mention of extraction.characterMentions) {
             if (!mention.name || mention.significance === 'low') continue;
 
             const safeName = mention.name.replace(/[^a-zA-Z0-9\s_-]/g, '').trim();
-            const charFile = path.join(VAULT_PATHS.characters, `${safeName}.md`);
+            if (!safeName) continue;
+
+            // Resolve canonical name via nameResolver (handles aliases like "Captain Plugg" → "Mr. Plugg")
+            const resolvedName = nameResolver.resolve(safeName) || safeName;
+            let charFile = path.join(VAULT_PATHS.characters, `${resolvedName}.md`);
+
+            // If resolved file doesn't exist, also try the original name, "The " prefix, etc.
+            if (!fs.existsSync(charFile)) {
+                const candidates = [
+                    path.join(VAULT_PATHS.characters, `${safeName}.md`),
+                    path.join(VAULT_PATHS.characters, `The ${safeName}.md`),
+                ];
+                const found = candidates.find(f => fs.existsSync(f));
+                if (found) charFile = found;
+            }
 
             let existing = '';
-            let isNew = true;
-            if (fs.existsSync(charFile)) {
+            let isNew = !fs.existsSync(charFile);
+            if (!isNew) {
                 existing = fs.readFileSync(charFile, 'utf8');
-                isNew = false;
             }
 
             if (isNew) {
@@ -1096,9 +1110,19 @@ ${mention.context}
 `;
                 fs.writeFileSync(charFile, md, 'utf8');
             } else {
-                const entry = `\n### ${video.title}\n${mention.context}\n`;
-                if (!existing.includes(video.title)) {
-                    fs.appendFileSync(charFile, entry, 'utf8');
+                // Append new session data to existing file's Notes & Updates section
+                const contextLine = `- ${mention.context} *(youtube-transcript, ${new Date().toLocaleDateString()})*`;
+                if (!existing.includes(mention.context.substring(0, 50))) {
+                    // Find Notes & Updates section, or append at end
+                    if (existing.includes('## Notes & Updates')) {
+                        const insertPoint = existing.indexOf('## Notes & Updates') + '## Notes & Updates'.length;
+                        const before = existing.substring(0, insertPoint);
+                        const after = existing.substring(insertPoint);
+                        const updated = before + '\n\n' + contextLine + after;
+                        fs.writeFileSync(charFile, updated, 'utf8');
+                    } else {
+                        fs.appendFileSync(charFile, `\n${contextLine}\n`, 'utf8');
+                    }
                 }
             }
         }

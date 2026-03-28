@@ -1,0 +1,25 @@
+{
+  "name": "Erelim",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Paladin",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 104
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 18,
+    "con": 18,
+    "int": 12,
+    "wis": 14,
+    "cha": 16
+  },
+  "items": []
+}

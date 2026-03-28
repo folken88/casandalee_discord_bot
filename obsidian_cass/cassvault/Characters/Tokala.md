@@ -1,29 +1,32 @@
 ---
 name: "Tokala"
 type: character
-race: "Half-Orc"
-class: "Warpriest"
-level: 15
-player: "Tracy"
-aliases: ["Mecha-Tokala"]
-tags: ["character", "pc"]
-created: "2026-02-14T00:00:00.000Z"
-updated: "2026-03-26T17:39:39.841Z"
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T02:50:01.972Z"
 ---
 
 # Tokala
 
-**Race:** Half-Orc | **Class:** Warpriest | **Level:** 15 | **Player:** Tracy
-
-HP 181/181. Warpriest of the Devourer; Weapon of the Chosen, Vital Strike. Weapons: Bleeder, Yaughadar Morndin, Plasma Shotgun. Cybernetics: Cyberfiber Muscles, Dermal Plating, Datajack. Synced from Foundry VTT.
+**Race:** Unknown | **Class:** Unknown
 
 ## Notes & Updates
 
-- [Foundry sync] Level 15 Half-Orc Warpriest. HP 181/181. Blessings: War Mind, Battle Lust; Robot Bane. Equipment: Dead Scar, Bracers of the Worldwound Templar, Ironhowl Helm, The Operative +4. *(foundry-sync, 2/13/2026)*
-- Mentioned as someone whose biometric data Casandalee measured to understand Numerian fluid effects.; Party member being discussed as potential challenger to the Black Sovereign in a one-on-one duel. Has healing abilities (8d6 fervor), can swift cast spells, and has armor class advantages but HP disadvantages compared to barbarian opponents.; Party member being discussed as a key target in combat strategy. Described as a glass cannon who gets hit frequently and goes down a lot. Party discussing ways to keep him alive during the fight against the Black Sovereign. *(youtube-transcript, 3/25/2026)*
-- Discussed as a potential target for maze spell; party considers disguising as him using alter self and mirror image to confuse enemies *(youtube-transcript, 3/25/2026)*
-- Killed Alfred with a lightsaber *(youtube-transcript, 3/25/2026)*
-- Participated in a battle, was next to Alfred during the fight.; Participating in the battle against Undead barbarians.; Part of the team assisting Torch. *(youtube-transcript, 3/26/2026)*
+- Possesses the last non-palace stored supply of the drug.; Discussed in relation to the IG Party's expedition to Black Hill Caves. *(youtube-transcript, 3/28/2026)*
+- Creating a tunnel and using her abilities to guide the group.; Tokala mentioned as part of the party and their location in the sewers.; Participated in the mission, used stealth and scouting.; Participated in the killing of a suspect and had a conversation with the player character.; Helped with the communication device. *(youtube-transcript, 3/28/2026)*
+
+## Notes & Updates
+
+- Possesses the last non-palace stored supply of the drug.; Discussed in relation to the IG Party's expedition to Black Hill Caves. *(youtube-transcript, 3/28/2026)*
+- Creating a tunnel and using her abilities to guide the group.; Tokala mentioned as part of the party and their location in the sewers.; Participated in the mission, used stealth and scouting.; Participated in the killing of a suspect and had a conversation with the player character.; Helped with the communication device. *(youtube-transcript, 3/28/2026)*
+- Discussed as being down and possibly deceased.; Player mentioning Tokala pacing around and planning an approach; Possibly mentioned as having the nodachi sword.; Not mentioned directly but implied to be present with Luna and Josh.; In a fight about 40 feet south of Namcath; Climbing up stairs, looking across the battlefield with Alfred and others, firing an arrow, blowing a horn in celebration.; Used a screaming megaphone horn to command the group to kill all enemies. *(youtube-transcript, 3/28/2026)*
+- Stealth check and perception *(youtube-transcript, 3/28/2026)*
+- A scrap wall Orc who drops down through the ceiling and identifies herself as someone important. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 

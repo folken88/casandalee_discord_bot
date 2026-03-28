@@ -1,0 +1,44 @@
+{
+  "name": "Bard",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Div-Spawn Tiefling",
+  "classes": [
+    {
+      "name": "Bard",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 24
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 12,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Rapier",
+      "type": "weapon",
+      "equipped": true,
+      "description": "You can use the @Compendium[pf1.feats.vWiTqHC4Y3Xn1Pme]{Weapon Finesse} feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn&rsquo;t a light weapon.\n\nYou can&rsquo;t wield a rapier in two hands in order to apply 1-1/2 times your Strength bonus to damage."
+    },
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    },
+    {
+      "name": "Musical instrument",
+      "type": "loot",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 77, PRPG Core Rulebook pg. 158\nPrice  5 gp (common),  100 gp (masterwork); Weight 3 lbs. (common), 3 lbs. (masterwork)\nDescriptionIf you want to perform using a Perform skill associated with a musical instrument (keyboard, percussion, string, or wind), you must have an appropriate musical instrument; otherwise you can't use the skill. The listed cost and weight is for a typical small instrument you could carry by hand, such as a drum, lyre, bell, harp, or flute; lar"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Mecha 3.4 Railgun Tank",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Divinity Construct",
+      "level": 14
+    }
+  ],
+  "hp": {
+    "max": 110
+  },
+  "abilities": {
+    "str": 32,
+    "dex": 14,
+    "con": 24,
+    "int": 26,
+    "wis": 14,
+    "cha": 8
+  },
+  "items": [
+    {
+      "name": "Hypervelocity Railgun Turret",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Slot: Turret-mounted heavy weaponLevel: Equivalent to a +4 siege weaponDamage Type: Ballistic (force and piercing)Range Increment: 300 ftMaximum Range: 1,200 ft (no penalty within this range)Line Penetration: Targets up to 3 creatures/objects in a straight line, each within the same line of fire, making a single attack roll compared to each ACBase Damage: 8d10 + Int modifier (robot) ballistic (counts as both force and piercing for DR/Hardness)Critical: 19–20/x4Firing Arc: 180° front-facing arcRe"
+    },
+    {
+      "name": "Glaucite Plating - Heavy",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    }
+  ]
+}

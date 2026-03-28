@@ -1,0 +1,38 @@
+{
+  "name": "Faithforged Disciple",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Faithforged",
+  "classes": [
+    {
+      "name": "Cleric",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 26
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 12,
+    "int": 12,
+    "wis": 16,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Faithforged Scepter",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Faithforged Scepter is a masterfully crafted war hammer made from the rare and durable metal known as glaucite. Its head shimmers with a faint divine glow, a testament to its holy creation. The handle is wrapped in white leather, and ancient runes of faith are etched along its length. Said to be forged by a devout sect of clerics, it is believed to carry the blessings of their deity, making it a revered artifact among the faithful. This hammer is often sought after by paladins and clerics wh"
+    },
+    {
+      "name": "Glaucite Plating - Heavy",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    }
+  ]
+}

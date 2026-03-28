@@ -1,0 +1,98 @@
+{
+  "name": "Jafo",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Goblin",
+  "classes": [
+    {
+      "name": "Gunslinger",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 15
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 17,
+    "con": 12,
+    "int": 10,
+    "wis": 16,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "+1 Warhammer",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 12 gp Weight 5 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type B; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Hammers\nDescriptionThis weapon consists of a wooden haft and a heavy, metal head. The head may be single (like a carpenter's hammer) or double (like a sledgehammer). The haft is long enough that you may wield it one- or two-handed. Though heavy and relatively slow to wield, "
+    },
+    {
+      "name": "Caromarc Guard Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Arrow of the Crusader",
+      "type": "loot",
+      "equipped": false,
+      "description": "Inscription written in flowing Taldane script down the shaft reads: \"Nothing will divert me from my purpose.\"\n\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\nUndead Bane\nA bane weapon excels against certain foes. Against a designated foe, the weapon's enhancement bonus is +2 better than its actual bonus. It also deals an extra 2d6 points of damage against such foes. To randoml"
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Pistol",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 43, Ultimate Combat pg. 138\n\nStatistics\nCost 1,000 gp Weight 4 lbs.\n\nDamage 1d6 (small), 1d8 (medium); Critical x4; Range 20 ft.; Type B and P; Special -\n\nMisfire 1 (5 ft.); Capacity 1\n\nCategory One-Handed; Proficiency Exotic\n\nDescription\nThe basic single-shot pistol is one of the most common firearms, although in most campaigns it is still rare enough to be an object of envy or curiosity to most. As such, it can take a variety of different forms, from wildly ornate"
+    },
+    {
+      "name": "Glaucite Handaxe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "GlauciteBoth ancient and modern metallurgists have devised numerous alloys that mix skymetals with other materials. Many of these are highly specialized, but one deserves special mention: glaucite. This dull gray metal is an alloy of adamantine and iron. Though it has hardness 15 and 30 hit points per inch of thickness, glaucite is half again as heavy as iron and difficult to work with. The material of choice for ship hulls and robot frames, but is generally sought after only by collectors and e"
+    },
+    {
+      "name": "Whiskifiss Arc Rifle",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This Arc-Rifle has been modified (by Dinvaya) with several attachments. The rifle has a hard-range cap of 300' and an increment of 100'. \n \nEnchanted Receiver: Runework details the hidden inner components of the rifle. Flowing elven script creates a permanent +1 enchantment for the weapon.\n \n6x Optical Scope with canted iron-sights:  Adds +2 to hit at all ranges and reduces incremental range penalties by 1 (so -1 per segment)."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Firearm Bullet",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 41, Pathfinder Campaign Setting pg. 211, Ultimate Combat pg. 141\nStatisticsCost 1 gp Weight -\nCategory Ammunition; Proficiency Exotic\nDescriptionThe ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound."
+    },
+    {
+      "name": "Welcome Mat Bedroll",
+      "type": "loot",
+      "equipped": false,
+      "description": "A welcome mat being used as a bedroll."
+    },
+    {
+      "name": "Telescope",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source: PZO9449\n\nPrice 2,000-8,000 gp; Weight 12-44 lbs.\n\nThis basic, semi-portable telescope allows the user to see greater detail on very distant objects. Telescopes can be built to a variety of specifications, but those most often used by adventuring stargazers are listed here. A telescope grants the listed circumstance bonus (+2, +4, or +6) on Perception checks (see table above) to discern celestial bodies and on Knowledge (geography) checks to learn about the planets when used at night.\n\nA "
+    },
+    {
+      "name": "Battery",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Most technological items are powered by electricity. While one can use the electricity provided by a generator, these are rare, expensive, and rarely portable. It’s more common and practical to charge such items with batteries. A battery looks like a small silver disk that’s etched with strange lines—the people have taken to calling batteries “silverdisks” and sometimes use them as coins. A battery contains 10 charges when full; to charge an item with a battery, one simply slips the disk-shaped "
+    }
+  ]
+}

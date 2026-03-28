@@ -1,0 +1,44 @@
+{
+  "name": "Kobra",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Sorcerer",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 5
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 17
+  },
+  "items": [
+    {
+      "name": "Potion of Levitate",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level alchemist 2, arcanist 2, investigator 2, magus 2, medium 2, mesmerist 2, occultist 2, psychic 2, shaman 2, sorcerer 2, spiritualist 2, summoner 2, summonerUnchained 2, witch 2, wizard 2; Domain Void 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, F (a leather loop or golden wire bent into a cup shape)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you or one willing creature or one object (total weight up to 100 lbs./level)\n\n  \n  Duration 1 min./level\n\n  \n\nLevitate a"
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level adept 1, alchemist 1, bard 1, cleric 1, druid 1, hunter 1, inquisitor 1, investigator 1, occultist 1, oracle 1, paladin 1, ranger 2, shaman 1, skald 1, spiritualist 1, warpriest 1, witch 1; Domain Healing 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 poi"
+    },
+    {
+      "name": "Scroll of Lightning Bolt",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Evocation [electricity]; Level adept 3, arcanist 3, bloodrager 3, magus 3, occultist 3, sorcerer 3, witch 3, wizard 3; Bloodline Stormborn 3\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M (fur and a glass rod)\n\n  \n\n  \n  Range 120 ft\n\n  Area 120-ft. line\n\n  \n  \n  Duration Instantaneous\n\n    Saving Throw Reflex half;\n    Spell Resistance yes\n    \n\n  \n\nYou release a powerful stroke of electrical energy that deals 1d6 points of electricity damage per caster level (maximum 10d6) to e"
+    }
+  ]
+}

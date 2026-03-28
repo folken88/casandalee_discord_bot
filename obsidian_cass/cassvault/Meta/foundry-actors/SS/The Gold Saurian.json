@@ -1,0 +1,36 @@
+{
+  "name": "The Gold Saurian",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Nagaji",
+  "classes": [
+    {
+      "name": "Monk (Unchained)",
+      "level": 1
+    },
+    {
+      "name": "Gold Golem",
+      "level": 10
+    }
+  ],
+  "hp": {
+    "max": 64
+  },
+  "abilities": {
+    "str": 28,
+    "dex": 14,
+    "con": 18,
+    "int": 8,
+    "wis": 18,
+    "cha": 8
+  },
+  "items": [
+    {
+      "name": "Gold Golem Plates",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A set of plates that function as full plate but weigh 150lbs on a medium sized creature."
+    }
+  ]
+}

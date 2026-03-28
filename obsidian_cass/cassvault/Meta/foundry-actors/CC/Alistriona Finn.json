@@ -1,0 +1,98 @@
+{
+  "name": "Alistriona Finn",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Magus",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 12
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 12,
+    "int": 16,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Sexy Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Finn's Backpack",
+      "type": "container",
+      "equipped": true,
+      "description": "This backpack has numerous pockets for storing items that might be needed while adventuring. Hooks are included for attaching items such as canteens, pouches, or even a rolled-up blanket. It has padded bands that strap across the chest and the waist to distribute its weight more evenly. Like a common backpack, it can hold about 2 cubic feet of material in its main container. When wearing a masterwork backpack, treat your Strength score as +1 higher than normal when calculating your carrying capa"
+    },
+    {
+      "name": "Outfit, Traveler's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PZO1110\n\nThis set of clothes consists of boots, a wool skirt or breeches, a sturdy belt, a shirt (perhaps with a vest or jacket), and an ample cloak with a hood."
+    },
+    {
+      "name": "Wand of Ray of Frost",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A ray of freezing air and ice projects from your pointing finger.\nYou must succeed on a ranged touch attack with the ray to deal damage to a target. The ray deals 1d3 points of cold damage."
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Endless Fury",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This long, thin, Estoc-Style sword is crafted of the finest mithral alloy. Intricate runework covers the blade tip to handle. It is +1 and keen.\n\nIt is empowered with a variant of the Conductive Weapon ability. When used by a Magus, Paladin, or Inquisitor of Lawful or Good alignment to confirm a crit vs an evil foe, it returns a charge of Spellstrike(whatever spell was used), Smite Evil for Paladins, or Bane for Inquisitors.\n\nWhen it confirms a crit vs any undead-target, it casts an instant\nCure"
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "CP-USS Badge, Officer",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Cologne: Musk, by Calvin Carpenter",
+      "type": "loot",
+      "equipped": false,
+      "description": "What drives him? His driver. Who clothes him? His tailor. Who shaves him? The barber. \n\nWho calls to her loins with the force of a hurricane's howl? \n\nHis Musk.....................................................\n\nThis scent smells of basil leaves, mint, and stinkbug because it is made from those things. It is -2 Diplomacy for 4 hours after applying unless a creature has no sense of smell or is powerfully attracted to teenage noblemen in which case they can hold their nose."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Haunt Siphon 2.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": "These glass vials are held within stylized cold-iron casings etched with strange runes, necromantic designs, or other eldritch markings. Within the vial roils a small wisp of white vapor, churning as if caught in a miniature vortex of air. To capture a haunt&rsquo;s energies within a haunt siphon, you need only twist the metal casing to open the vial in the same round that the haunt manifests (a standard action)&mdash;this can be before or after the haunt has acted. You must be within the haunt&"
+    },
+    {
+      "name": "Lorrimor Family Signet",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    }
+  ]
+}

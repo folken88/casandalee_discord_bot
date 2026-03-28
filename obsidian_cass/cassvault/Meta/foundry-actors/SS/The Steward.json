@@ -1,0 +1,36 @@
+{
+  "name": "The Steward",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Wood Golem",
+  "classes": [
+    {
+      "name": "Construct",
+      "level": 1
+    },
+    {
+      "name": "Wizard",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 24
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 14,
+    "int": 14,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Spellbook",
+      "type": "loot",
+      "equipped": false,
+      "description": "A spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells). A newly purchased spellbook contains no spells. A wizard character begins play with a spellbook containing the spells he knows."
+    }
+  ]
+}

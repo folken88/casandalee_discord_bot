@@ -1,0 +1,56 @@
+{
+  "name": "CAL-OPS Inspector",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Ranger",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 40
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 14,
+    "con": 10,
+    "int": 14,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "CAL-OPS 004 Inspector's Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Inspectors (\"CAL-OOPSIE!\"): A common saying along the lines of \"When the Oopsie bothers to show up, you know you're cooked!\""
+    },
+    {
+      "name": "CAL-OPS Officer's Cloak",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A symbol of rank and a magical charm to protect the wearer."
+    },
+    {
+      "name": "CAL-OPS Officer's Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This sword is about 3-1/2 feet in length."
+    },
+    {
+      "name": "CAL-OPS Officer's Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This sword is about 3-1/2 feet in length."
+    },
+    {
+      "name": "CAL-OPS Lieutenant's Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for Climb checks and Acrobatics checks made to jump is only –1 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty)."
+    }
+  ]
+}

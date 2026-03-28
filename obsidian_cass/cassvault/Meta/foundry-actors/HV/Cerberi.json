@@ -1,0 +1,25 @@
+{
+  "name": "Cerberi",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "outsider (evil,extraplanar,lawful)",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 76
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 14,
+    "con": 19,
+    "int": 6,
+    "wis": 15,
+    "cha": 9
+  },
+  "items": []
+}

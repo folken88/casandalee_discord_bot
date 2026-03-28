@@ -1,0 +1,152 @@
+{
+  "name": "Corrine",
+  "type": "character",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Enchantress",
+      "level": 13
+    }
+  ],
+  "hp": {
+    "max": 80
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 14,
+    "con": 14,
+    "int": 18,
+    "wis": 12,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Cloak of Resistance +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura moderate abjuration; CL 9th\n\nThis garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Wand of Infernal Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nYou anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment."
+    },
+    {
+      "name": "Potion of Protection from Energy",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 4th\n\nProtection from energy grants temporary immunity to the type of energy you specify when you cast it (acid, cold, electricity, fire, or sonic). When the spell absorbs 12 points per caster level of energy damage (to a maximum of 120 points at 10th level), it is discharged.\nProtection from energy overlaps (and does not stack with) resist energy. If a character is warded by protection from energy and resist energy, the protection spell absorbs damage until its power is"
+    },
+    {
+      "name": "Potion of Celestial Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nYou anoint a wounded creature with the blood of an outsider with the good subtype (such as an angel) or holy water, giving it fast healing 1. The target radiates the aura of a good creature for the duration of the spell and can sense the righteousness of the magic, though this has no long-term effect on the target's alignment. If the target has its own evil aura, this is not suppressed by celestial healing, and can also be detected normally."
+    },
+    {
+      "name": "Potion of Celestial Healing, Greater",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura moderate conjuration; CL 7th\n\nAs per celestial healing, except the target gains fast healing 4 and the target radiates the aura of a good cleric."
+    },
+    {
+      "name": "Amulet of Natural Armor +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura moderate transmutation; CL 9th\n\nThis amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Force Field [Black ]",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Black: Capacity 15, Temp HP 10, FH 2\n\n \n\nForce fields are powered by a surprisingly light pair of slender, silvery bracelets. When activated as a standard action, the device generates an invisible and intangible field of force around the target. The force field blocks solids and liquids, but not gases or light (including laser beams). The user of a force field can still breathe, but she cannot eat or drink .\n\nForce fields replenish their health via fast-healing if they are undamaged for 1 round."
+    },
+    {
+      "name": "Nanite Canister",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A nanite canister is used to power technological devices that use nanites—such items generally don’t require other sources of power, as the nanites themselves do the bulk of the work when the object is activated. The canister contains a small, independent power source and a supply of nanites. A single canister contains enough nanites to provide 10 charges for a nanotech item or weapon."
+    },
+    {
+      "name": "Wand of Disguise Self",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint illusion; CL 1st\n\nYou make yourself--including clothing, armor, weapons, and equipmen--look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender.\nThe spell does not provide the abilities or mannerisms of the chosen form, nor does i"
+    },
+    {
+      "name": "Belt of Con +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Infernal Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nYou anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment."
+    },
+    {
+      "name": "Potion of Expeditious Retreat",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint transmutation; CL 1st\n\nThis spell increases your base land speed by 30 feet. This adjustment is treated as an enhancement bonus. There is no effect on other modes of movement, such as burrow, climb, fly, or swim. As with any effect that increases your speed, this spell affects your jumping distance (see the Acrobatics skill)."
+    },
+    {
+      "name": "Headband of Int +6",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Ring of Wizardry II",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bracers of Armor +8",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Protection From Arrows",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 3rd\n\nThe warded creature gains resistance to ranged weapons.\nThe subject gains damage reduction 10/magic against ranged weapons. This spell doesn't grant you the ability to damage creatures with similar damage reduction. Once the spell has prevented a total of 10 points of damage per caster level (maximum 100 points), it is discharged."
+    },
+    {
+      "name": "Potion of Disguise Self",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint illusion; CL 1st\n\nYou make yourself--including clothing, armor, weapons, and equipmen--look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender.\nThe spell does not provide the abilities or mannerisms of the chosen form, nor does i"
+    },
+    {
+      "name": "Ring of Protection +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura moderate abjuration; CL 9th\n\nThis ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Potion of Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint illusion; CL 3rd\n\nThe creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisibl"
+    },
+    {
+      "name": "Potion of Spell Resistance",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura moderate abjuration; CL 9th\n\nThe target gains spell resistance equal to 12 + your caster level."
+    },
+    {
+      "name": "Potion of Nondetection",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 5th\n\nThe warded creature or object becomes difficult to detect by divination spells such as clairaudience/clairvoyance, locate object, and detect spells. Nondetection also prevents location by such magic items as crystal balls. If a divination is attempted against the warded creature or item, the caster of the divination must succeed on a caster level check (1d20 + caster level) against a DC of 11 + the caster level of the spellcaster who cast nondetection. If you cast "
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "name": "Bronze Fleet Navigator",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Seaman",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 8
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 10,
+    "int": 14,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Map Bundle: Bloodcove",
+      "type": "equipment",
+      "equipped": false,
+      "description": "These maps are made from high-quality parchment and feature vibrant inks that mark important points of interest. \n\nThis map bundle details the city of Bloodcove, both its geographic location, and a map detailing the city's many canals and docks."
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Firearm Bullet",
+      "type": "loot",
+      "equipped": false,
+      "description": "The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound."
+    },
+    {
+      "name": "Bronze Fleet Volver",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Bronze Fleet Volver is a highly crafted, ornate six-shot revolver favored by officers and slavers within the Bronze Fleet. Its barrel and frame are forged from polished bronze, etched with swirling nautical patterns that echo the waves. Embedded in the side of the chamber is a small, aquamarine gemstone that glints faintly in the light, often mistaken for a magical focus.\nThe revolver is balanced for expert accuracy and durability, and its elaborate design symbolizes both power and prestige "
+    },
+    {
+      "name": "Bronze Fleet Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Each Bronze Fleet Cutlass is a testament to the fleet’s ruthless efficiency and disregard for individuality. These weapons are forged from the scraps of defeated ships and prisoners’ shackles, resulting in a haphazard yet functional design. No two Bronze Fleet Cutlasses look the same, but they all reflect the grim legacy of the slave-trading fleet.\nThe blade is often jagged, with imperfections that hint at its brutal origins, while the hilt may feature chains, manacles, or other relics of captiv"
+    },
+    {
+      "name": "Map Bundle: Senghor",
+      "type": "equipment",
+      "equipped": false,
+      "description": "These maps are made from high-quality parchment and feature vibrant inks that mark important points of interest. \n\nThis map bundle details the city of Senghor, both its geographic location, and a map detailing the city's walls and docks. It has a pirate's mark on the Southwest side of the North bay."
+    }
+  ]
+}

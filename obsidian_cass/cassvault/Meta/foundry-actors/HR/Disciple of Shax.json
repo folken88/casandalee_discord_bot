@@ -1,0 +1,42 @@
+{
+  "name": "Disciple of Shax",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Tiefling",
+  "classes": [
+    {
+      "name": "Slayer",
+      "level": 5
+    },
+    {
+      "name": "Assassin",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 63
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 12,
+    "int": 12,
+    "wis": 10,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Katana +1",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Specifically constructed for samurai, katanas employ multiple types of steel combined in a distinctive forging process. The result are swords noted for their wickedly sharp yet slender, gently curved blades, designed to make graceful hacking strokes capable of severing opponents’ heads and limbs. Though finely balanced, these blades are difficult to master.\n\nBenefit: Characters can use a katana two-handed as a martial weapon, but must take the Exotic Weapon Proficiency (katana) feat to use it on"
+    },
+    {
+      "name": "Chain Shirt MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    }
+  ]
+}

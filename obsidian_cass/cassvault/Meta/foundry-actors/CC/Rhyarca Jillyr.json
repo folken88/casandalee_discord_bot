@@ -1,0 +1,290 @@
+{
+  "name": "Rhyarca Jillyr",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Catfolk",
+  "classes": [
+    {
+      "name": "Oracle",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 29
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 15,
+    "con": 12,
+    "int": 12,
+    "wis": 10,
+    "cha": 17
+  },
+  "items": [
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Scroll of Ant Haul, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Alchemist 2, Arcanist 2, Cleric 2, Druid 2, Hunter 2, Investigator 2, Occultist 2, Oracle 2, Psychic 2, Ranger 2, Sorcerer 2, Summoner 2, Summoner (Unchained) 2, Warpriest 2, Wizard 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M/DF (a small pulley)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creatures touched\n\n  \n  Duration 2 hours/level\n\n    Saving Throw Fortitude negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nThis spell functions like ant haul (see pa"
+    },
+    {
+      "name": "Boots of Landing",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These boots allow the wearer to recover instantly from a fall and can absorb some damage from falling once per day.\nThe wearer lands on her feet no matter how far she falls,\nand takes 2 fewer dice of damage from the fall than normal.\nConstruction\nRequirements Craft Wondrous Item, catfall; Cost 500 gp"
+    },
+    {
+      "name": "Firearm Bullet",
+      "type": "loot",
+      "equipped": false,
+      "description": "The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound."
+    },
+    {
+      "name": "Mulled Wine",
+      "type": "loot",
+      "equipped": true,
+      "description": "Mulled wine becomes a staple drink as the colder seasons begin. The wine is boiled and then infused with sugar, black pepper, cinnamon, cloves, and orange peels. Served hot, it is rumored to cure the common cold, though it is primarily enjoyed for its warming effect."
+    },
+    {
+      "name": "Scroll of See Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Divination; Level Adept 2, Alchemist 2, Arcanist 2, Bard 3, Bloodrager 2, Inquisitor 2, Investigator 2, Mesmerist 3, Occultist 2, Psychic 2, Skald 3, Sorcerer 2, Spiritualist 2, Summoner 2, Summoner (Unchained) 2, Witch 2, Wizard 2; Subdomain Revelation 2; Bloodline Marid 2\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (talc and powdered silver)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 30 Minutes\n\n  \n\nDescriptionYou can see any objects or beings that are invisibl"
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.\nConstructionRequirements Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring; Cost 1,000 gp"
+    },
+    {
+      "name": "Scroll of Raise Dead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level Adept 5, Cleric 5, Oracle 5, Shaman 6, Spiritualist 5, Warpriest 5, Witch 6; Subdomain Resurrection 5\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M (diamond worth 5,000 gp), DF\n\n  \n\n  \n  Range Touch\n\n  \n  Targets dead creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw none; see text;\n    Spell Resistance yes\n    \n\n  \n\nYou restore life to a deceased creature. You can raise a creature that has been dead for no longer than 1 day per caster"
+    },
+    {
+      "name": "Scroll of Neutralize Poison",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 3, Alchemist 4, Bard 4, Cleric 4, Druid 3, Hunter 3, Inquisitor 4, Investigator 4, Oracle 4, Paladin 4, Ranger 3, Shaman 4, Skald 4, Spiritualist 4, Warpriest 4, Witch 4; Subdomain Restoration 4\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M/DF (charcoal)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature or object of up to 1 cu. ft./level touched\n\n  \n  Duration instantaneous or 10 min./level; see text\n\n    Saving Throw Will negates (object);\n    Spell"
+    },
+    {
+      "name": "Scroll of Lightning Bolt",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Evocation [electricity]; Level Adept 3, Arcanist 3, Bloodrager 3, Magus 3, Occultist 3, Sorcerer 3, Witch 3, Wizard 3; Bloodline Stormborn 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (fur and a glass rod)\n\n  \n\n  \n  Range 120 ft\n\n  Area 120-ft. line\n\n  \n  \n  Duration Instantaneous\n\n    Saving Throw Reflex half;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionYou release a powerful stroke of electrical energy that deals 1d6 points of electricity damage per caster level (maximum 1"
+    },
+    {
+      "name": "Mulled Wine",
+      "type": "loot",
+      "equipped": true,
+      "description": "Mulled wine becomes a staple drink as the colder seasons begin. The wine is boiled and then infused with sugar, black pepper, cinnamon, cloves, and orange peels. Served hot, it is rumored to cure the common cold, though it is primarily enjoyed for its warming effect."
+    },
+    {
+      "name": "Scroll of Phantom Steed, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Creation); Level Arcanist 4, Bard 4, Occultist 4, Skald 4, Sorcerer 4, Spiritualist 4, Summoner 3, Summoner (Unchained) 3, Wizard 4\n    \n\n  \n  Casting Time 10 Standard Actions\n\n  Components V, S\n\n  \n\n  \n  Range Close (25 ft. + 5 ft./2 levels)\n\n  \n  \n  Effect up to six quasi-real, horselike creatures\n\n  Duration 7 Hours (D)\n\n    Saving Throw None;\n    Spell Resistance no\n    \n\n  \n\nDescriptionThis spell functions like phantom steed, except you can summon up to six steeds, and y"
+    },
+    {
+      "name": "Scroll of Prayer",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Enchantment (Compulsion) [mind-affecting]; Level Cleric 3, Inquisitor 3, Oracle 3, Paladin 3, Warpriest 3; Domain Community 3; Subdomain Archon 3, Leadership 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, DF\n\n  \n\n  \n  Range 40 ft\n\n  Area all allies and foes within a 40-ft.-radius burst centered on you\n\n  \n  \n  Duration 5 Rounds\n\n    Saving Throw None;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionYou bring special favor upon yourself and your allies while bringing disfavor to your"
+    },
+    {
+      "name": "Alchemist's Fire",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source PZO1110\n\nYou can throw a flask of alchemist's fire as a splash weapon with a range increment of 10 feet.\n\nA direct hit deals 1d6 points of fire damage. Every creature within 5 feet of the point where the flask hits takes 1 point of fire damage from the splash. On the round following a direct hit, the target takes an additional 1d6 points of damage. If desired, the target can use a full-round action to attempt to extinguish the flames before taking this additional damage. Extinguishing the"
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level adept 1, alchemist 1, bard 1, cleric 1, druid 1, hunter 1, inquisitor 1, investigator 1, occultist 1, oracle 1, paladin 1, ranger 2, shaman 1, skald 1, spiritualist 1, warpriest 1, witch 1; Domain Healing 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 poi"
+    },
+    {
+      "name": "Potion of Remove Disease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level adept 3, alchemist 3, cleric 3, druid 3, hunter 3, inquisitor 3, investigator 3, oracle 3, ranger 3, shaman 3, spiritualist 3, warpriest 3, witch 3; Subdomain Restoration 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nRemove disease can cure all diseases from which the subject is suffering. You must make a caster level check (1d20 + caster level) against the DC o"
+    },
+    {
+      "name": "Scroll of Beast Shape I",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation (Polymorph); Level Alchemist 3, Arcanist 3, Bloodrager 3, Investigator 3, Magus 3, Sorcerer 3, Wizard 3; Subdomain Fur 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (a piece of the creature whose form you plan to assume)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 5 Minutes\n\n  \n\nDescriptionWhen you cast this spell, you can assume the form of any Small or Medium creature of the animal type. If the form you assume has any of the following abilities, yo"
+    },
+    {
+      "name": "Scroll of Blink",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Arcanist 3, Bard 3, Magus 3, Psychic 3, Skald 3, Sorcerer 3, Wizard 3; Bloodline Starsoul 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 5 Rounds (D)\n\n  \n\nDescriptionYou \"blink\" quickly back and forth between the Material Plane and the Ethereal Plane and look as though you're winking in and out of reality at random. Blink has several effects, as follows.\nPhysical attacks against you have a 50% miss chanc"
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will).\nConstructionRequirements Craft Wondrous Item, resistance, creator's caster level must be at least three times the cloak's bonus; Cost 500 gp"
+    },
+    {
+      "name": "Scroll of Restoration",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 4, Alchemist 4, Cleric 4, Inquisitor 4, Investigator 4, Mesmerist 4, Oracle 4, Paladin 4, Shaman 4, Spiritualist 4, Warpriest 4\n    \n\n  \n  Casting Time 3 Standard Actions\n\n  Components V, S, M (diamond dust worth 100 gp or 1,000 gp, see text)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionThis spell functions like lesser restorat"
+    },
+    {
+      "name": "Corsair's Coat",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Corsair’s Coat is a stylish, weathered leather coat designed for swashbucklers and those who live by the sea. Light enough to move freely in battle, this coat is reinforced with hidden strips of flexible metal, offering protection without restricting the wearer’s agility.\nIt functions as a mithral chain shirt +1\n +2 on acrobatics - comfortable yet maneuverable feel\n+4 CMD - helping the wearer avoid many dangers of boarding"
+    },
+    {
+      "name": "Blood Caimon Tacos",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A famous recipe from Savage Sustenance, these spicy and flavorful tacos will surprise & delight any diners!\nEnjoyer of these tacos is granted the Caimon Taco Buff, which grants +20 movement on a charge attack, a 20 swim speed and the ability to charge through water, and the ability to hold one's breath for 30 minutes."
+    },
+    {
+      "name": "The Bank of Besmara",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Bank of Besmara is a locket on a gold chain in the shape of a coin with a woman wearing a pirate hat on it. This item radiates no magic, cannot be located by any finding-spells, and receives +5 to sleight of hand checks made to hide the item while worn.\nIt functions as a bag of holding that can only hold coins. Platinum, Gold, Silver, and Copper coins are the norm but it can hold other non-magical coin currency of a similar size. Using this, the wearer may always list all of their currency a"
+    },
+    {
+      "name": "Blood Caimon Hide",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Caimon Hide Armor is Buoyant and it bestows no armor check penalty on Swim checks attempted by the wearer. \nIt's smooth texture allows for smooth movement through water, granting a small swim-skill bonus.  \nIt is slightly lighter than conventional hide armor, and allows for greater dexterity. \nAll other armor check penalties apply as normal."
+    },
+    {
+      "name": "Rhy's Tukkaroo Sleeping Bag",
+      "type": "loot",
+      "equipped": true,
+      "description": "Tukkaroo Sleeping Bag (Level 3 Wondrous Item)Price: 1,500 gp\nAura faint transmutation\nSlot —\nCL 3rd\nWeight 7 lbs\nDescriptionThe Tukkaroo Sleeping Bag is a thick, yak-like fur bedroll, crafted from naturally shed tukkar wool and lined with woven seaweed fibers from the shores of Firegrass Island. Enchanted with druidic magic, this bedroll provides unparalleled warmth, resilience, and rejuvenation to those who rest within it.\nWhen a creature sleeps in a Tukkaroo Sleeping Bag for at least 4 hours, "
+    },
+    {
+      "name": "Real Housewives of Ustalav",
+      "type": "loot",
+      "equipped": true,
+      "description": "A book on various principles with supporting data & tables. This item grants +5 circumstance bonus on knowledge checks (referring to Ustalavian Nobility) when used to \"take 10\" or the book is consulted for at least 10 minutes."
+    },
+    {
+      "name": "Bullseye Rum",
+      "type": "consumable",
+      "equipped": true,
+      "description": "“It hits you right in the center, just not in a good way.”\nBullseye Rum is the drink of choice for the truly desperate, the miserly, or those who simply value quantity over quality. Its dark amber hue suggests a richness it absolutely does not deliver. The label, featuring a dartboard and the motto \"Bullseye,\" is both an ironic jab at the drink's questionable aftereffects and a promise of its unerring ability to ruin your stomach. Produced by dubious distilleries scattered across the Shackles, i"
+    },
+    {
+      "name": "Chocolate Chip Cookie",
+      "type": "loot",
+      "equipped": false,
+      "description": "The chocolate chip cookie is a sweet baked treat that is recognized by its buttery flavor and the inclusion of chocolate chips, which can be dark, milk, or white chocolate depending on personal preference. It's a classic favorite for people of all ages, not just young folk, and is often enjoyed with a cold glass of milk or a warm cup of coffee. Bakers may also experiment with different types of chocolate or cocoa, add nuts or other mix-ins, or even substitute some of the ingredients to create a "
+    },
+    {
+      "name": "Scroll of Slow",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Arcanist 3, Bard 3, Bloodrager 3, Magus 3, Medium 2, Occultist 3, Psychic 3, Skald 3, Sorcerer 3, Spiritualist 3, Summoner 2, Summoner (Unchained) 3, Wizard 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (a drop of molasses)\n\n  \n\n  \n  Range Close (25 ft. + 5 ft./2 levels)\n\n  \n  Targets one creature/level, no two of which can be more than 30 ft. apart\n\n  \n  Duration 4 Rounds\n\n    Saving Throw Will negates;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionAn affe"
+    },
+    {
+      "name": "Wand of Speak with Dead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Necromancy [language-dependent]; Level Cleric 3, Inquisitor 3, Medium 2, Oracle 3, Psychic 3, Shaman 3, Spiritualist 3, Warpriest 3, Witch 3; Domain Knowledge 3, Repose 3\n    \n\n  \n  Casting Time 10 Standard Actions\n\n  Components V, S, DF\n\n  \n\n  \n  Range 10 ft\n\n  \n  Targets one dead creature\n\n  \n  Duration 5 Minutes\n\n    Saving Throw Will negates; see text;\n    Spell Resistance no\n    \n\n  \n\nDescriptionYou grant the semblance of life to a corpse, allowing it to answer questions. You may ask"
+    },
+    {
+      "name": "Bronze War Medal",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This war medallion bears the sigil of the Shining Crusade."
+    },
+    {
+      "name": "Scroll of Air Walk",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation [air]; Level Alchemist 4, Cleric 4, Druid 4, Hunter 4, Investigator 4, Occultist 4, Oracle 4, Warpriest 4; Domain Air 4\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, DF\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature (Gargantuan or smaller) touched\n\n  \n  Duration 70 Minutes\n\n    Saving Throw None;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionThe subject can tread on air as if walking on solid ground. Moving upward is similar to walking up a hill. The maximum upward or d"
+    },
+    {
+      "name": "Wand of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level Adept 2, Alchemist 2, Bard 2, Cleric 2, Druid 3, Hunter 3, Inquisitor 2, Investigator 2, Occultist 2, Oracle 2, Paladin 3, Ranger 3, Shaman 2, Skald 2, Spiritualist 2, Warpriest 2, Witch 2; Domain Healing 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw Will half; see text;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nThis spell functions like cure li"
+    },
+    {
+      "name": "Scroll of Heroism",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Enchantment (Compulsion) [mind-affecting]; Level Alchemist 3, Arcanist 3, Bard 2, Bloodrager 3, Inquisitor 3, Investigator 3, Medium 2, Psychic 3, Skald 2, Sorcerer 3, Spiritualist 3, Summoner 3, Summoner (Unchained) 3, Witch 3, Wizard 3; Domain Charm 4; Subdomain Heroism 3; Bloodline Imperious 3, Martyred 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration 40 Minutes\n\n    Saving Throw Will negates;\n    Spell Resistance"
+    },
+    {
+      "name": "Wheel of Cheese",
+      "type": "loot",
+      "equipped": false,
+      "description": "While some may argue that what beats a slice of cheese, in most scenarios, the answer is indeed a wheel of cheese, and fortunately, most markets and taverns offer it for sale."
+    },
+    {
+      "name": "Scroll of Age Resistance, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Alchemist 3, Arcanist 4, Druid 4, Hunter 4, Investigator 3, Occultist 3, Psychic 4, Sorcerer 4, Witch 4, Wizard 4\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 24 Hours\n\n  \n\nDescriptionYou ignore the physical detriments of being middle-aged. This spell does not cause you to look younger, nor does it prevent you from dying of old age, but as long as the spell is in effect, you ignore the -1 penalties to St"
+    },
+    {
+      "name": "Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Adventurer's Armory 2 pg. 8, Pirates of the Inner Sea pg. 19, Skull and Shackles Player's Guide pg. 6, Villain Codex pg. 188\nStatisticsCost 15 gp Weight 4 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type S; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Blades, Heavy\nDescriptionThis short, curved sword is favored by seafarers for closequarters combat. It is treated as a scimitar for any effects that apply to scimitars."
+    },
+    {
+      "name": "Holy symbol (Besmara)",
+      "type": "loot",
+      "equipped": false,
+      "description": "A holy symbol focuses positive energy and is used by good clerics and paladins (or by neutral clerics who want to cast good spells or channel positive energy). Each religion has its own holy symbol. The material used to make the holy symbol has no effect on its powers, though a religion may place special significance on a particular material.\nUnholy Symbols: An unholy symbol is like a holy symbol except that it focuses negative energy and is used by evil clerics (or by neutral clerics who want t"
+    },
+    {
+      "name": "Scroll of Confusion",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Enchantment (Compulsion) [mind-affecting]; Level Arcanist 4, Bard 3, Bloodrager 4, Mesmerist 3, Occultist 4, Psychic 4, Skald 3, Sorcerer 4, Spiritualist 4, Witch 4, Wizard 4; Domain Madness 4, Trickery 4; Subdomain Entropy 5, Lust 4, Riot 4, Whimsy 4; Bloodline Impossible 4, Protean 4\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M/DF (three nutshells)\n\n  \n\n  \n  Range Medium (100 ft. + 10 ft./level)\n\n  \n  Targets all creatures in a 15-ft.-radius burst\n\n  \n  Duration 7 Rounds\n\n    "
+    },
+    {
+      "name": "Bronze Fleet Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Each Bronze Fleet Cutlass is a testament to the fleet’s ruthless efficiency and disregard for individuality. These weapons are forged from the scraps of defeated ships and prisoners’ shackles, resulting in a haphazard yet functional design. No two Bronze Fleet Cutlasses look the same, but they all reflect the grim legacy of the slave-trading fleet.\nThe blade is often jagged, with imperfections that hint at its brutal origins, while the hilt may feature chains, manacles, or other relics of captiv"
+    },
+    {
+      "name": "Scroll of Remove Disease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 3, Alchemist 3, Cleric 3, Druid 3, Hunter 3, Inquisitor 3, Investigator 3, Oracle 3, Ranger 3, Shaman 3, Spiritualist 3, Warpriest 3, Witch 3; Subdomain Restoration 2\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw Fortitude negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionRemove disease can cure all diseases from which the subject "
+    },
+    {
+      "name": "Scarlet Letters",
+      "type": "loot",
+      "equipped": false,
+      "description": "\"The Scarlet Letters\"A bundle of letters between a pirate and her Chelish lover, revealing high-level military secrets\nEffect: The book functions as a Decipher Script reference, allowing the user to take 10 on Linguistics checks to decode encrypted messages using Chelish encryption encoded in the time period between 4702 and present day.Lore: The Chelish navy would pay handsomely to recover this archive… or silence those who possess it."
+    },
+    {
+      "name": "Composite Shortbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsCost 75 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical x3; Range 70 ft.; Type P; Special -\nCategory Ranged; Proficiency Martial\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite shortbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier "
+    }
+  ]
+}

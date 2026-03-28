@@ -1,0 +1,627 @@
+{
+  "name": "Penitent Hearth",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Wand of Disguise Self",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint illusion; CL 1st\n\nYou make yourself--including clothing, armor, weapons, and equipmen--look different. You can seem 1 foot shorter or taller, thin, fat, or in between. You cannot change your creature type (although you can appear as another subtype). Otherwise, the extent of the apparent change is up to you. You could add or obscure a minor feature or look like an entirely different person or gender.\nThe spell does not provide the abilities or mannerisms of the chosen form, nor does i"
+    },
+    {
+      "name": "Service: Legend Lore",
+      "type": "loot",
+      "equipped": true,
+      "description": "Legend lore brings to your mind legends about an important person, place, or thing. If the person or thing is at hand, or if you are in the place in question, the casting time is only 1d4 x 10 minutes. If you have only detailed information on the person, place, or thing, the casting time is 1d10 days, and the resulting lore is less complete and specific (though it often provides enough information to help you find the person, place, or thing, thus allowing a better legend lore result next time)."
+    },
+    {
+      "name": "Painting of of the The Rogue Lord Caliphaszo",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Diamond",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Service: Prying Eyes",
+      "type": "loot",
+      "equipped": true,
+      "description": "School Divination; Level Arcanist 8, Psychic 8, Sorcerer 8, Witch 8, Wizard 8; Bloodline Starsoul 8\nCasting Time 1 Standard\nComponents V, S, M (a handful of crystal marbles)\nRange 1 mile per level\nEffect 10 or more levitating eyes\nDuration 1 hour/level; see text\nSaving Throw None; Spell Resistance no\nThis spell functions like prying eyes, except that the eyes can see all things as they actually are, just as if they had true seeing with a range of 120 feet. Thus, they can navigate darkened areas "
+    },
+    {
+      "name": "Scroll of Feeblemind",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Target creature's Intelligence and Charisma scores each drop to 1. The affected creature is unable to use Intelligence- or Charismabased skills, cast spells, understand language, or communicate coherently. Still, it knows who its friends are and can follow them and even protect them. The subject remains in this state until a heal, limited wish, miracle, or wish spell is used to cancel the of the feeblemind. A creature that can cast arcane spells, such as a sorcerer or a wizard, takes a -4 penalt"
+    },
+    {
+      "name": "Arrow +1",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Scroll of Scrying, Greater",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Divination (scrying); Level Arcanist 7, Bard 6, Cleric 7, Druid 7, Mesmerist 6, Occultist 6, Oracle 7, Psychic 7, Shaman 7, Skald 6, Sorcerer 7, Witch 7, Wizard 7\nCasting Time 1 Standard\nComponents V, S\n\nRange See Text\nEffect magical sensor\nDuration 1 hour/level\nSaving Throw Will negates; Spell Resistance yes \n\nThis spell functions like scrying, except as noted above.\nAdditionally, all of the following spells function reliably through the sensor: detect chaos, detect evil, detect good, de"
+    },
+    {
+      "name": "Wand of See Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can see any objects or beings that are invisible within your range of vision, as well as any that are ethereal, as if they were normally visible. Such creatures are visible to you as translucent shapes, allowing you easily to discern the difference between visible, invisible, and ethereal creatures.\nThe spell does not reveal the method used to obtain invisibility.\nIt does not reveal illusions or enable you to see through opaque objects. It does not reveal creatures who are simply hiding, con"
+    },
+    {
+      "name": "40mm Blast-Gang",
+      "type": "loot",
+      "equipped": true,
+      "description": "A 40mm High Explosive grenade with a 6, 12, 30, or 60 second timer."
+    },
+    {
+      "name": "Scroll of Grease, Greater",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like @Compendium[pf1.spells.ik9u3eel5vfwrtb5]{Grease}, except as noted here. When you use this spell to cover a solid surface with slippery grease, the 10-foot squares must form a continuous area, each part of which must be within the spell's range. When you use this spell to create a greasy coating on items, no two of the targeted items can be more than 30 feet apart. You cannot target both items and surfaces with a single casting of this spell."
+    },
+    {
+      "name": "+1 Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Holy water",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 107, PRPG Core Rulebook pg. 158Price 25 gp; Weight 1 lb.Category Alchemical Weapons\n\nDescription\nHoly water damages undead creatures and evil outsiders almost as if it were acid. A flask of holy water can be thrown as a splash weapon.Treat this attack as a ranged touch attack with a range increment of 10 feet. A flask breaks if thrown against the body of a corporeal creature, but to use it against an incorporeal creature, you must open the flask and pour the holy wa"
+    },
+    {
+      "name": "Emerald",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": ".308 762x51mm Blacksteel Deadslayer Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "7.62x51mm Nosler cartridge. The bullet is loaded with two separate lead cores with a solid partition between them. The front part is torn quickly, delivering great energy. The base remains intact and provides deep penetration, even when hitting bones. Vs Undead, it delivers Piercing, slashing, or bludgeoning damage, whichever is greater."
+    },
+    {
+      "name": "Mithril Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Service: Dispel Magic Greater",
+      "type": "loot",
+      "equipped": true,
+      "description": "School Abjuration; Level Arcanist 6, Bard 5, Cleric 6, Druid 6, Hunter 6, Inquisitor 6, Magus 6, Occultist 5, Oracle 6, Psychic 6, Shaman 6, Skald 5, Sorcerer 6, Spiritualist 6, Summoner 5, Summoner (Unchained) 5, Warpriest 6, Witch 6, Wizard 6; Domain Liberation 6; Bloodline Celestial 6, Oni 6\nCasting Time 1 Standard\nComponents V, S\nRange 210 ft\nArea 20-ft.-radius burst\nTargets one spellcaster, creature, or object\nDuration Instantaneous\nSaving Throw None; Spell Resistance no \nThis spell functio"
+    },
+    {
+      "name": "Paradise Lost B2",
+      "type": "loot",
+      "equipped": true,
+      "description": "Book II\n\nHigh on a throne of royal state, which far\nOutshone the wealth of Ormus and of Ind,\nOr where the gorgeous East with richest hand\nShowers on her kings barbaric pearl and gold,\nSatan exalted sat, by merit raised\nTo that bad eminence; and, from despair\nThus high uplifted beyond hope, aspires\nBeyond thus high, insatiate to pursue\nVain war with Heaven; and, by success untaught,\nHis proud imaginations thus displayed:—\n    “Powers and Dominions, Deities of Heaven!—\nFor, since no deep within he"
+    },
+    {
+      "name": "Technic League Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Service: Plane Shift",
+      "type": "loot",
+      "equipped": true,
+      "description": "You move yourself or some other creature to another plane of existence or alternate dimension. If several willing persons link hands in a circle, as many as eight can be affected by the plane shift at the same time. Precise accuracy as to a particular arrival location on the intended plane is nigh impossible. From the Material Plane, you can reach any other plane, though you appear 5 to 500 miles (5d%) from your intended destination. Plane shift transports creatures instantaneously and then ends"
+    },
+    {
+      "name": "Service: Stone to Flesh",
+      "type": "loot",
+      "equipped": true,
+      "description": "You move yourself or some other creature to another plane of existence or alternate dimension. If several willing persons link hands in a circle, as many as eight can be affected by the plane shift at the same time. Precise accuracy as to a particular arrival location on the intended plane is nigh impossible. From the Material Plane, you can reach any other plane, though you appear 5 to 500 miles (5d%) from your intended destination. Plane shift transports creatures instantaneously and then ends"
+    },
+    {
+      "name": "Scroll of Remove Curse",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Remove curse can remove all curses on an object or a creature. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each curse affecting the target.\nSuccess means that the curse is removed. Remove curse does not remove the curse from a cursed shield, weapon, or suit of armor, although a successful caster level check enables the creature afflicted with any such cursed item to remove and get rid of it.\nRemove curse counters and dispels bestow curs"
+    },
+    {
+      "name": ".308 762x51mm Nosler Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "7.62x51mm Nosler cartridge. The bullet is loaded with two separate lead cores with a solid partition between them. The front part is torn quickly, delivering great energy. The base remains intact and provides deep penetration, even when hitting bones."
+    },
+    {
+      "name": "Gloomgrape",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Experience the highs and lows that can only come from a wine aged in barrels made from trees splattered with the blood of demonic soldiers infected with an eternal curse. \nGloomgrape, you'll be sad you did!"
+    },
+    {
+      "name": "Crossbow Bolt +1",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Service: Teleport",
+      "type": "loot",
+      "equipped": true,
+      "description": "School Conjuration (teleportation); Level Sorcerer 5, Wizard 5, Summoner 4, Witch 5, Magus 5, Psychic 5, Medium 4, Occultist 5, Spiritualist 5, unchained Summoner 5; Domain Travel 5\nCasting Time 1 Standard\nComponents V\nRange Personal\nTargets you and touched objects or other touched willing creatures\nDuration Instantaneous\nThis spell instantly transports you to a designated destination, which may be as distant as 100 miles per caster level. Interplanar travel is not possible. You can bring along "
+    },
+    {
+      "name": "Dragon's Blood",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Dragonslayer's Handbook pg. 19\nPrice 60 gp; Weight 1 lb.\nCategory Dragoncraft\nDescriptionRenowned for its energizing and defensive properties, dragon's blood has a variety of effects, depending on how it's used. In addition to use in its raw form, it's also valuable as an alchemical ingredient. Below are two common uses for dragon's blood, but clever dragoncrafters may invent new uses as well.\n\n Drinking: When imbibed, a vial of dragon's blood heals 1d4 points of damage. It also grants a "
+    },
+    {
+      "name": "Brow Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town.\n@JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}"
+    },
+    {
+      "name": "Arrow +2",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Frankenstein Ch16",
+      "type": "loot",
+      "equipped": true,
+      "description": "Chapter 16“Cursed, cursed creator! Why did I live? Why, in that instant, did I not extinguish the spark of existence which you had so wantonly bestowed? I know not; despair had not yet taken possession of me; my feelings were those of rage and revenge. I could with pleasure have destroyed the cottage and its inhabitants and have glutted myself with their shrieks and misery.\n“When night came I quitted my retreat and wandered in the wood; and now, no longer restrained by the fear of discovery, I g"
+    },
+    {
+      "name": "Desert Coffee",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This particularly strong coffee is popular throughout the desert empires. A morning cup is a good cure for lack of rest, but many find that it becomes a habit.\nType ingested; Addiction minor, Fortitude DC 12\n8 hours; user ignores the effects of the fatigued condition.\nAfter 8 hours; the user becomes exhausted, which is reduced to fatigued only after at least 8 hours of rest (instead of 1 hour).\n1 Wis damage"
+    },
+    {
+      "name": "40mm Lubestorm",
+      "type": "loot",
+      "equipped": true,
+      "description": "This grenade releases a thick gel that coats everything it touches in a 10' radius for 10 rounds. This functions as a Grease spell, granting +10 on escape artist checks and causing bipeds to fall down."
+    },
+    {
+      "name": "Service: Discern Location",
+      "type": "loot",
+      "equipped": true,
+      "description": "School Divination; Level Arcanist 8, Psychic 8, Sorcerer 8, Witch 8, Wizard 8; Bloodline Starsoul 8\nCasting Time 1 Standard\nComponents V, S, M (a handful of crystal marbles)\nRange 1 mile per level\nEffect 10 or more levitating eyes\nDuration 1 hour/level; see text\nSaving Throw None; Spell Resistance no\nThis spell functions like prying eyes, except that the eyes can see all things as they actually are, just as if they had true seeing with a range of 120 feet. Thus, they can navigate darkened areas "
+    },
+    {
+      "name": "Wand of Daylight",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You touch an object when you cast this spell, causing the object to shed bright light in a 60-foot radius. This illumination increases the light level for an additional 60 feet by one step (darkness becomes dim light, dim light becomes normal light, and normal light becomes bright light). Creatures that take penalties in bright light take them while within the 60-foot radius of this magical light. Despite its name, this spell is not the equivalent of daylight for the purposes of creatures that a"
+    },
+    {
+      "name": "Greataxe MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsCost 20 gp Weight 12 lbs.\nDamage 1d10 (small), 1d12 (medium); Critical x3; Range -; Type S; Special -\nCategory Two-Handed; Proficiency Martial\nWeapon Groups Axes\nDescriptionThis two-handed battle axe is heavy enough that you can't wield it with one hand. The head may have one blade or two, and may be \"bearded\" (meaning hooked or trailing at the bottom) to increase cleaving power and help pull down enemy shields. The haft is u"
+    },
+    {
+      "name": "Adamantine Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Wand of Dispel Magic",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can use dispel magic to end one ongoing spell that has been cast on a creature or object, to temporarily suppress the magical abilities of a magic item, or to counter another spellcaster's spell. A dispelled spell ends as if its duration had expired. Some spells, as detailed in their descriptions, can't be defeated by dispel magic. Dispel magic can dispel (but not counter) spell-like effects just as it does spells. The of a spell with an instantaneous duration can't be dispelled, because the"
+    },
+    {
+      "name": "Outfit, Scholar's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PZO1110\n\nPerfect for a scholar, this outfit includes a robe, a belt, a cap, soft shoes, and possibly a cloak."
+    },
+    {
+      "name": "40mm Smoke",
+      "type": "loot",
+      "equipped": true,
+      "description": "Filled with pellets that ignite on impact, releasing a thick cloud of smoke."
+    },
+    {
+      "name": "Scroll of Discern Location",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Divination; Level Arcanist 8, Cleric 8, Oracle 8, Psychic 8, Shaman 8, Sorcerer 8, Summoner 6, Witch 8, Wizard 8; Domain Knowledge 8\nCasting Time 10 Standard Actions\nComponents V, S, DF\n\nRange Unlimited\nTargets one creature or object\nDuration Instantaneous\nSaving Throw None; Spell Resistance no \n\nA discern location spell is among the most powerful means of locating creatures or objects. Nothing short of a mind blank spell or the direct intervention of a deity keeps you from learning the e"
+    },
+    {
+      "name": "Bloodthirst Dagger",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This cursed blade grows hungrier over time. In addition to its enchantment, the dagger now allows its wielder to cast vampiric touch twice per day as a swift action and the next time it strikes a living target it begins siphoning life to heal its owner. \nThe weapon, originally crafted by a vampire assassin, was once used to betray allies during the Shining Crusade and has since passed through many hands. It radiates a sinister aura, feeding on the blood spilled by its wielder."
+    },
+    {
+      "name": "Outfit, Burglar's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PPZO94102\n\nThis outfit consists of fitted pants, a shirt, a hooded reversible cloak, soft leather boots, and a face mask, all in dark or neutral colors. The outfit's few buttons and rivets are wrapped in dull, dark cloth to avoid jingling or reflecting light. A number of loops and shallow pockets are also worked into the outfit, providing ample spaces for stashing small tools or weapons."
+    },
+    {
+      "name": "Scroll of Fireball",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A fireball spell generates a searing explosion of flame that detonates with a low roar and deals 1d6 points of fire damage per caster level (maximum 10d6) to every creature within the area.\nUnattended objects also take this damage. The explosion creates almost no pressure.\nYou point your finger and determine the range (distance and height) at which the fireball is to burst. A glowing, pea-sized bead streaks from the pointing digit and, unless it impacts upon a material body or solid barrier prio"
+    },
+    {
+      "name": "Northgarde Scout Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Numerian Compact Bow",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Pearl",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Service: Restoration Greater",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Overland Flight",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like a fly spell, except you can fly at a speed of 40 feet (30 feet if wearing medium or heavy armor, or if carrying a medium or heavy load) with a bonus on Fly skill checks equal to half your caster level. When using this spell for long-distance movement, you can hustle without taking nonlethal damage (a forced march still requires Constitution checks). This means you can cover 64 miles in an 8-hour period of flight (or 48 miles at a speed of 30 feet)."
+    },
+    {
+      "name": "Northgarde Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Nethys's Dagger",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Heroes of the Wild pg. 10\nPrice 50 gp; Weight -\nCategory Herbs\nGather DC 18\nTerrain deserts\nDescriptionFound most often in lands heavily modified by magic, this bulbous cactus is topped with twilight-blue flowers. The sap from the cactus can be used as an additive when crafting potions, causing all variable numeric effects of the potion to be determined as if the potion's caster level were 1 higher. When processed into a powder with a successful DC 15 Craft (alchemy) check, Nethys's dagge"
+    },
+    {
+      "name": "Crossbow Bolt +1 Undead Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "A bane weapon excels against certain foes.\nAgainst a designated foe, the weapon’s enhancement bonus is +2 better than its actual bonus.\nIt also deals an extra 2d6 points of damage against such foes."
+    },
+    {
+      "name": "40mm Gravity Flip",
+      "type": "loot",
+      "equipped": true,
+      "description": "This device reverses gravity in an area, causing unattached objects and creatures in the area to fall upward and reach the top of the area in 1 round. If a solid object (such as a ceiling) is encountered in this fall, falling objects and creatures strike it in the same manner as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, until the spell ends. At the end of the spell duration, af"
+    },
+    {
+      "name": "Arrow +1 Ghost Touch",
+      "type": "loot",
+      "equipped": false,
+      "description": "A ghost touch weapon deals damage normally against incorporeal creatures, regardless of its bonus. \nAn incorporeal creature’s 50% reduction in damage from corporeal sources does not apply to attacks made against it with ghost touch weapons. \nThe weapon can be picked up and moved by an incorporeal creature at any time. A manifesting ghost can wield the weapon against corporeal foes. Essentially, a ghost touch weapon counts as both corporeal or incorporeal."
+    },
+    {
+      "name": "Wand of Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint illusion; CL 3rd\n\nThe creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisibl"
+    },
+    {
+      "name": "Crossbow Bolt +2",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Everkeeps",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Everkeeps is a trail ration that never expires! This delicious and nutritious snack can maintain the body with carbs, proteins, vitamins, and minerals! Enjoy the sweet and spicy taste as you trudge through the barren wasteland! Using the finest ingredients, masterful cooking and preparation techniques, and dark magics, we craft this incredible portable meal you can rely on! You will expire before Everkeeps expire!"
+    },
+    {
+      "name": "Service: Break Enchantment",
+      "type": "loot",
+      "equipped": true,
+      "description": "School Abjuration; Level Adept 5, Arcanist 5, Bard 4, Cleric 5, Inquisitor 5, Medium 4, Mesmerist 4, Occultist 4, Oracle 5, Paladin 4, Psychic 4, Shaman 5, Skald 4, Sorcerer 5, Spiritualist 5, Warpriest 5, Witch 5, Wizard 5; Domain Liberation 5, Luck 5; Subdomain Restoration 5; Bloodline Destined 5\nCasting Time 1 Standard\nComponents V, S\nRange 40 ft\nTargets up to one creature per level, all within 30 ft. of each other\nDuration Instantaneous\nSaving Throw see text; Spell Resistance no \nThis spell "
+    },
+    {
+      "name": "Chainmail",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Unlike a chain shirt, which covers only the chest, chainmail protects the wearer with a complete mesh of chain links that cover the torso and arms, and extends below the waist. Multiple interconnected pieces offer additional protection over vital areas. The suit includes gauntlets."
+    },
+    {
+      "name": "Scroll of Plane Shift",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You move yourself or some other creature to another plane of existence or alternate dimension. If several willing persons link hands in a circle, as many as eight can be affected by the plane shift at the same time. Precise accuracy as to a particular arrival location on the intended plane is nigh impossible. From the Material Plane, you can reach any other plane, though you appear 5 to 500 miles (5d%) from your intended destination. Plane shift transports creatures instantaneously and then ends"
+    },
+    {
+      "name": "Hammock",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, Adventurer's Armory pg. 19\nPrice 1 sp; Weight 3 lbs.\nCategory Adventuring Gear\nDescriptionThis blanket or net is attached to strong ropes, allowing you to hang it from a heavy branch or two trees and sleep above the ground. Climbing into or out of a hammock is a full-round action. A successful DC 5 Dexterity check reduces this to a move action."
+    },
+    {
+      "name": "40mm Glitterbomb",
+      "type": "loot",
+      "equipped": true,
+      "description": "This 40mm grenade shell encloses a glitter-bomb, which releases the effect of a glitterdust spell on the target area. Center-target receives -2 to their save."
+    },
+    {
+      "name": "Service: Scrying, Greater",
+      "type": "loot",
+      "equipped": true,
+      "description": "School Divination (scrying); Level Arcanist 7, Bard 6, Cleric 7, Druid 7, Mesmerist 6, Occultist 6, Oracle 7, Psychic 7, Shaman 7, Skald 6, Sorcerer 7, Witch 7, Wizard 7\nCasting Time 1 Standard\nComponents V, S\nRange See Text\nEffect magical sensor\nDuration 1 hour/level\nSaving Throw Will negates; Spell Resistance yes \nThis spell functions like scrying, except as noted above.\nAdditionally, all of the following spells function reliably through the sensor: detect chaos, detect evil, detect good, dete"
+    },
+    {
+      "name": "Wack Juce",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Refreshingly intoxicating, Wack Juce is made with the finest synthetic oranges in Numeria, and the 3rd finest potato vodka in the world: Smashka Noble!\nEnjoy this sweet and soothing taste of home, you can almost hear the anthem of the Fatherland as you slurp!"
+    },
+    {
+      "name": "Scroll of Glitterdust",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A cloud of golden particles covers everyone and everything in the area, causing creatures to become blinded and visibly outlining invisible things for the duration of the spell. All within the area are covered by the dust, which cannot be removed and continues to sparkle until it fades. Each round at the end of their turn blinded creatures may attempt new saving throws to end the blindness effect.\nAny creature covered by the dust takes a -40 penalty on Stealth checks."
+    },
+    {
+      "name": "Wand of Ant Haul",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint transmutation; CL 1st\n\nThe target's carrying capacity triples (see Table 7-4: Carrying Capacity on page 171 of the Core Rulebook). This does not affect the creature's actual Strength in any way, merely the amount of material it can carry while benefiting from this spell. It also has no effect on encumbrance due to armor. If the creature wears armor it still takes the normal penalties for doing so regardless of how much weight the spell allows it to carry."
+    },
+    {
+      "name": "Obsidian",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Arrow +1 Dragon Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "A bane weapon excels against certain foes. \nAgainst a designated foe, the weapon’s enhancement bonus is +2 better than its actual bonus. \nIt also deals an extra 2d6 points of damage against such foes."
+    },
+    {
+      "name": "Service: Restoration Lesser",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Outfit, Peasant's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PZO1110\n\nThis set of clothes consists of a loose shirt and baggy breeches, or a loose shirt and skirt or overdress. Cloth wrappings are used for shoes."
+    },
+    {
+      "name": "Bracers Of Armor +6",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese items appear to be wrist or arm guards, sometimes etched with symbols of protection or depictions of vigilant-looking animals. Bracers of armor surround the wearer with an invisible but tangible field of force, granting him an armor bonus of +1 to +8, just as though he were wearing armor. Both bracers of armor must be worn for the magic to be effective.   Alternatively, bracers of armor can be enchanted with armor special abilities. See Table 3-3: Armor Special Abilities for a "
+    },
+    {
+      "name": "Arrow +1 Construct Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "A bane weapon excels against certain foes. \nAgainst a designated foe, the weapon’s enhancement bonus is +2 better than its actual bonus. \nIt also deals an extra 2d6 points of damage against such foes."
+    },
+    {
+      "name": "Wand of Infernal Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nYou anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment."
+    },
+    {
+      "name": "Scroll of Hellfire Ray",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A blast of hellfire blazes from your hands. You can fire one ray, plus one additional ray for every 4 caster levels beyond 11th (to a maximum of three rays at 19th level). Each ray requires a ranged touch attack to hit and deals 1d6 points of damage per caster level (maximum 15d6). Half the damage is fire damage, but the other half results directly from unholy power and is therefore not subject to being reduced by fire resistance. The rays can be fired at the same target or at different targets,"
+    },
+    {
+      "name": "Inheritor's Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A masterfully crafted blade made in homage to the inheritor's own, from the time before her ascension. This blade functions as a holy symbol for any Lawful-Good Divine Caster."
+    },
+    {
+      "name": "Arrow +1 Human Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "A bane weapon excels against certain foes. \nAgainst a designated foe, the weapon’s enhancement bonus is +2 better than its actual bonus. \nIt also deals an extra 2d6 points of damage against such foes."
+    },
+    {
+      "name": "Scroll of Lightning Bolt",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You release a powerful stroke of electrical energy that deals 1d6 points of electricity damage per caster level (maximum 10d6) to each creature within its area. The bolt begins at your fingertips.\nThe lightning bolt sets fire to combustibles and damages objects in its path. It can melt metals with a low melting point, such as lead, gold, copper, silver, or bronze. If the damage caused to an interposing barrier shatters or breaks through it, the bolt may continue beyond the barrier if the spell's"
+    },
+    {
+      "name": "Shogun of the Light",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Worn almost exclusively by highranking samurai, o-yoroi—or “great armor”—is a heavy combat armor that consists of various supplementary components that include both plate and lamellar elements. Each suit is crafted for a specific individual and displays the owner’s aesthetic.\n\n \n\nThis particular suit is +1 magic and has a \"Champion\" enchantment on it which grants +2ac vs any target the wearer uses Smite Evil, Challenge, or Bane type abilities against."
+    },
+    {
+      "name": "Haunt Siphon 3.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": "These glass vials are held within stylized cold-iron casings etched with strange runes, necromantic designs, or other eldritch markings. Within the vial roils a small wisp of white vapor, churning as if caught in a miniature vortex of air. To capture a haunt’s energies within a haunt siphon, you need only twist the metal casing to open the vial in the same round that the haunt manifests (a standard action)—this can be before or after the haunt has acted. You must be within the haunt’s area of in"
+    },
+    {
+      "name": "Outfit, Courtesan's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PPZO94102\n\nThis outfit includes fine silk or satin garments tailored to complement your figure. In addition, the outfit contains a loose shawl or robe with several discreet pockets for items such as perfume, massage oils, or even a small  dagger."
+    },
+    {
+      "name": "Captain's Lucky Hat",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This stylish hat gives the wearer a sense of confident authority and naval competence.  While aboard any sea going or flying vessel, if the wearer is the recognized captain, once per day when they issue a general order to the crew, all of their crew are affected by a @Compendium[pf1.spells.vqfrp8t0c1lw1jna]{Heroism} spell that lasts 1 hour per captain's level.\n\n \n\nJust wearing the hat grants one a circumstance bonus to pursuasion skills with any who recognize that it is a captain's hat."
+    },
+    {
+      "name": "Beast Brew",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This bubbling and glowing beverage tastes like a thick dark ale. While sipping, one can hear the authentic 'Call of the Beast of Lepidstadt' from somewhere out in the Northern Swamps where the creature still lurks today, waiting for his next victim!"
+    },
+    {
+      "name": "La Calstroix Bottle",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A bottle of sparkling water from La Calstroix river in Shudderwood."
+    },
+    {
+      "name": "Wand of Fireball",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A fireball spell generates a searing explosion of flame that detonates with a low roar and deals 1d6 points of fire damage per caster level (maximum 10d6) to every creature within the area.\nUnattended objects also take this damage. The explosion creates almost no pressure.\nYou point your finger and determine the range (distance and height) at which the fireball is to burst. A glowing, pea-sized bead streaks from the pointing digit and, unless it impacts upon a material body or solid barrier prio"
+    },
+    {
+      "name": "Scroll of Resist Energy, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like resist energy, except you divide the duration in 10-minute intervals among the creatures touched."
+    },
+    {
+      "name": ".308 762x51mm Wolfslayer",
+      "type": "loot",
+      "equipped": false,
+      "description": "7.62x51mm Nosler cartridge. The bullet is loaded with two separate silver cores with a solid partition between them. The front part is torn quickly, delivering great energy. The base remains intact and provides deep penetration, even when hitting bones.\n\nCreatures that are vulnerable to silver suffer a bane effect."
+    },
+    {
+      "name": "Technic League Chain Shirt +3",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Service: Raise Dead",
+      "type": "loot",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level Adept 5, Cleric 5, Oracle 5, Shaman 6, Spiritualist 5, Warpriest 5, Witch 6; Subdomain Resurrection 5\nCasting Time 1 Standard\nComponents V, S, M (diamond worth 5,000 gp), DF\nRange Touch\nTargets dead creature touched\nDuration Instantaneous\nSaving Throw none; see text; Spell Resistance yes \nYou restore life to a deceased creature. You can raise a creature that has been dead for no longer than 1 day per caster level. In addition, the subject's soul must be free a"
+    },
+    {
+      "name": "Wand of Heroism",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell imbues a single creature with great bravery and morale in battle. The target gains a +2 morale bonus on attack rolls, saves, and skill checks."
+    },
+    {
+      "name": "Pipebomb 2.0",
+      "type": "consumable",
+      "equipped": true,
+      "description": "BOOM"
+    },
+    {
+      "name": "Blackwood Repeating Heavy Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 33, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 21\nStatisticsDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range 120 ft.; Type P\nWeapon Groups Crossbows\nDescriptionThe repeating heavy crossbow holds 5 repeating crossbow bolts. As long as it holds bolts, you can reload it by pulling the reloading lever (a free action). Loading a new case of 5 bolts is a full-round action that provokes attacks of opportunity.\nYou can fire a repeating crossbow with o"
+    },
+    {
+      "name": "Arrow +1 Undead Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "A bane weapon excels against certain foes.\nAgainst a designated foe, the weapon’s enhancement bonus is +2 better than its actual bonus.\nIt also deals an extra 2d6 points of damage against such foes."
+    },
+    {
+      "name": "Service: Restoration",
+      "type": "loot",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Whispered Courage Whiskey",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Drink the blood of heroes.\"Whispered Courage is aged in barrels made from pines cut from the Stoneheart Massacre Glade.This powerful spirit grants +4 vs fear saves for 1 hour. The bonus is doubled if an ally who also drank the whiskey is threatened within your sight."
+    },
+    {
+      "name": "GBH Shafts",
+      "type": "loot",
+      "equipped": true,
+      "description": "Custom made +1 magic arrow shafts designed for a huge-bow. The primary focus of the enchantment placed upon these missiles is to ensure they survive being fired."
+    },
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet.\nConstructionRequirements Craft Wondrous Item, barkskin, creator's caster level must be at least three times the amulet's bonus; Cost 1,000 gp"
+    },
+    {
+      "name": "Slaver's Drops",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dropped into the eyes, this clear liquid awakens the senses but makes the user mentally pliant and open to suggestion. This drug is often used during interrogations or by slavers who seek to force compliance via enchantment effects or similar methods of mind-control.\nType drug (ingested); Addiction minor, Fortitude DC 13\n3 hours; –3 on Will saves, +3 on Perception checks\n1d2 Str damage"
+    },
+    {
+      "name": "Wand of Grease",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nA grease spell covers a solid surface with a layer of slippery grease. Any creature in the area when the spell is cast must make a successful Reflex save or fall. A creature can walk within or through the area of grease at half normal speed with a DC 10 Acrobatics check. Failure means it can't move that round (and must then make a Reflex save or fall), while failure by 5 or more means it falls (see the Acrobatics skill for details). Creatures that do not move on t"
+    },
+    {
+      "name": "Cloak of Resistance +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Wand of Fly",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load).\nIt can ascend at half speed and descend at double speed, and its maneuverability is good. Using a fly spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can charge but not run, and it cannot carry aloft more weight than its maximum load, plus any armor it wears. The subject gains a bonus"
+    },
+    {
+      "name": "Scroll of Prying Eyes, Greater",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Divination; Level Arcanist 8, Psychic 8, Sorcerer 8, Witch 8, Wizard 8; Bloodline Starsoul 8\nCasting Time 1 Standard\nComponents V, S, M (a handful of crystal marbles)\n\nRange 1 mi\nEffect 10 or more levitating eyes\nDuration 1 hour/level; see text\nSaving Throw None; Spell Resistance no \n\nThis spell functions like prying eyes, except that the eyes can see all things as they actually are, just as if they had true seeing with a range of 120 feet. Thus, they can navigate darkened areas at normal"
+    },
+    {
+      "name": "Service: Resurrection",
+      "type": "loot",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level Cleric 7, Oracle 7, Shaman 8, Witch 8; Subdomain Divine 7, Resurrection 7\nCasting Time 1 Standard\nComponents V, S, M (diamond worth 10,000 gp), DF\nRange Personal\nTargets dead creature touched\nDuration Instantaneous\nThis spell functions like raise dead, except that you are able to restore life and complete strength to any deceased creature.\nThe condition of the remains is not a factor. So long as some small portion of the creature's body still exists, it can be"
+    }
+  ]
+}

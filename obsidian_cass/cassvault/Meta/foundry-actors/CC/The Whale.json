@@ -1,0 +1,29 @@
+{
+  "name": "The Whale",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Grindylow",
+  "classes": [
+    {
+      "name": "Barbarian",
+      "level": 2
+    },
+    {
+      "name": "(Aquatic)",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 38
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 6,
+    "con": 21,
+    "int": 11,
+    "wis": 12,
+    "cha": 11
+  },
+  "items": []
+}

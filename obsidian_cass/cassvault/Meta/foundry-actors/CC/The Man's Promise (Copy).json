@@ -1,0 +1,38 @@
+{
+  "name": "The Man's Promise (Copy)",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Frigate",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 48
+  },
+  "abilities": {
+    "str": 40,
+    "dex": 14,
+    "con": 30,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Cannon ball",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Inner Sea World Guide pg. 293\nPrice 30 gp; Weight 25 lbs.\nCategory Adventuring Gear\nDescriptionA cannon ball is the ammunition of a cannon and many other siege firearms. Picking up or drawing a cannon ball requires a move action for Medium and Small creatures, but is a free action for Large and larger creatures."
+    },
+    {
+      "name": "9 Pound Cannon",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Combat pg. 162\nStatisticsDamage 6d6; Critical x4; Range 100 ft.; Type B and P\nCrew 2; Aim 1; Load 3; Speed 10 ft.\nCategory Direct-Fire (Large); Proficiency Siege Engine\nDescriptionCannons are crafted of metal-some are cast in one piece, others welded with iron bands-and mounted either in the ground or on wooden frames. Cannons use black powder to propel their projectiles with great force. A cannon has a misfire range of 1 (20 feet). Cannons have a hardness of 10 and 70 hit points"
+    }
+  ]
+}

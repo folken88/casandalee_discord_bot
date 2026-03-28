@@ -1,0 +1,48 @@
+{
+  "name": "Crux",
+  "type": "character",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Monk (Unchained)",
+      "level": 1
+    },
+    {
+      "name": "Barbarian",
+      "level": 17
+    }
+  ],
+  "hp": {
+    "max": 208
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 24,
+    "con": 24,
+    "int": 12,
+    "wis": 14,
+    "cha": 17
+  },
+  "items": [
+    {
+      "name": "Cloak of Resistance +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Belt of Mighty Constitution +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Celestial Aegis",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Crafted from mysterious Skymetal, the Celestial Aegis is an advanced piece of armor reflecting the cutting-edge engineering of Unity, a demigod-like AI within the technological landscapes of Numeria. Adorned with circuits that shimmer in iridescent blue, this armor integrates cybernetics seamlessly, enhancing Ophelia's capability as a gargoyle enforcer. This breastplate provides exceptional protection without sacrificing mobility, featuring sleek, overlapping plates that simulate the look of ang"
+    }
+  ]
+}

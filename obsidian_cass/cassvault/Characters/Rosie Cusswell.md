@@ -1,0 +1,28 @@
+---
+name: "Rosie Cusswell"
+type: character
+campaign: CC
+race: "Halfling"
+class: "Swashbuckler (Mouser) 4 / Rogue (Unchained) 1"
+hp: 58
+tags: ["character", "npc", "cc"]
+foundry_synced: "2026-03-28"
+---
+
+# Rosie Cusswell
+
+**Race:** Halfling | **Class:** Swashbuckler (Mouser) 4 / Rogue (Unchained) 1 | **HP:** 58
+**STR** 14 | **DEX** 16 | **CON** 14 | **INT** 10 | **WIS** 10 | **CHA** 14
+
+## Key Equipment
+- **Rapier** (weapon, equipped) — Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142 StatisticsCost 20 gp Weight 2 lbs. Damage 1d4 (small), 1d6 (medium); Critical 18-20/x2; Range -; Type P; Special - Category One-Handed; Proficiency Martial Weapon Groups Blades, Light DescriptionYou can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier to attack rolls with a rapier sized for you, even though it isn't a light weapon. You can't wield a rapier in two hands in order to apply 1-1
+- **Leather Armor** (equipment, equipped) — Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor.
+- **Buckler** (equipment, equipped) — This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a –1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you
+- **Sling** (weapon, equipped) — Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 142, Ultimate Equipment pg. 17 StatisticsCost - Weight - Damage 1d3 (small), 1d4 (medium); Critical x2; Range 50 ft.; Type B; Special - Category Ranged; Proficiency Simple Weapon Groups Thrown DescriptionA sling is little more than a leather cup attached to a pair of strings. Your Strength modifier applies to damage rolls when you use a sling, just as it does for thrown weapons. You can fire, but not load, a sling with one hand. Loading
+- **Belt Pouch** (container, equipped) — Source Ultimate Equipment pg. 56 Price 1 gp; Weight 1/2 lb. Category Adventuring Gear DescriptionA typical leather or cloth belt pouch has a leather cord to cinch it shut and another to tie it to your belt. It is large enough to hold 100-200 coins or two apples.
+- **Scarf** (equipment, equipped) — Source Ultimate Equipment pg. 89, Adventurer's Armory pg. 19, Varisia, Birthplace of Legends pg. 15 Price  1 sp-5 gp; Weight  1/2 lb. Category Clothing DescriptionEntertainers often employ seductive garb and entrancing props in their performances. Scarves of colorful cloth or transparent silk, often embroidered with elaborate scenes or motifs, are favorite accessories.
+- **Silver Drinking Stein** (loot) — Source Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158 Price 25 gp; Weight 1 lb. Category Adventuring Gear DescriptionWhether it is a simple pottery cup or an elaborate drinking stein with a handle and decorative lid that flips up, this cup may be used to hold any sort of beverage. Tankards are commonly made out of clay or tin.
+
+## Notes & Updates
+
+*No session notes yet.*

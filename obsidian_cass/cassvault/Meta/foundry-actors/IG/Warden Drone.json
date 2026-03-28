@@ -1,0 +1,25 @@
+{
+  "name": "Warden Drone",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Construct",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 18
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 22,
+    "con": 12,
+    "int": 14,
+    "wis": 22,
+    "cha": 10
+  },
+  "items": []
+}

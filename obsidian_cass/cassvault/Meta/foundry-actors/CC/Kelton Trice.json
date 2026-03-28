@@ -1,0 +1,48 @@
+{
+  "name": "Kelton Trice",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Tengu",
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 2
+    },
+    {
+      "name": "Ranger",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 28
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 16,
+    "con": 14,
+    "int": 11,
+    "wis": 14,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Bedroll",
+      "type": "loot",
+      "equipped": false,
+      "description": "This consists of two woolen sheets sewn together along the bottom and one side to create a bag for sleeping in. Some have cloth straps along the open side so the bedroll can be tied closed while you are sleeping. It can be rolled and tied into a tight coil for storage or transport. Most people use a blanket with the bedroll to stay warm or provide a ground cushion."
+    },
+    {
+      "name": "CP-USS Badge, Officer Kelton",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Silver Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows.\nSilver, Alchemical\nA complex process involving metallurgy and alchemy can bond silver to a weapon made of steel so that it"
+    }
+  ]
+}

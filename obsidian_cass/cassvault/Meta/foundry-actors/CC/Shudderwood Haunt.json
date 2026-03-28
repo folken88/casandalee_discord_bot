@@ -1,0 +1,25 @@
+{
+  "name": "Shudderwood Haunt",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Barbarian",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 47
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 20,
+    "con": 20,
+    "int": 20,
+    "wis": 20,
+    "cha": 20
+  },
+  "items": []
+}

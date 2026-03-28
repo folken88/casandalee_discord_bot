@@ -1,0 +1,45 @@
+{
+  "name": "Firebeard Metals",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Dragonlance",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A perfect weapon designed to pierce the hides of the most dangerous quarry known: dragons. It is functionally a +3 dragon-bane, keen heavy crossbow of impact.\nThis crossbow uses specialized ammo that can be crafted by very few weaponsmiths. Conventional crossbow bolts can be fired from it but deal only 1d10 damage.\nThe weapon has a potent elemental damage resistance enchantment upon it that grants the item itself Resist 20 vs Fire, Cold, Acid, and Electricity. This protection does not extend to "
+    },
+    {
+      "name": "Captain's Band",
+      "type": "equipment",
+      "equipped": false,
+      "description": "These rings were crafted for the Captains of the Shining Crusade in their war against the Whispering Tyrant. As the Crusaders incurred heavy losses and largely scattered after the Tyrant was finally put down, these rings are exceedingly rare and the secrets of their craft have been lost.\nThe item functions as both a ring of protection +2 and cloak of resistance +2, each effect is independently upgradeable. \nThe item also provides a 30' increase to the wearer's darkvision, and once per day can ca"
+    },
+    {
+      "name": "Grauthnir's Fang",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This black steel greatsword is permanently heated by the undying and endlessly furious soul of a greater pit fiend named Grauthnir. His spirit was trapped in this piece of metal he used to wield centuries ago, none can say how.\nIt is functionally a +3 flaming-burst greatsword, and always radiates heat off the blade at a minimum of 100 degrees, all the way up to 600 degrees when engaged in combat. It constantly gives off the light of a bright torch, and this light cannot be dampened or extinguish"
+    },
+    {
+      "name": "Dragonlance Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Specialized ammo for the Dragonlance Crossbow."
+    }
+  ]
+}

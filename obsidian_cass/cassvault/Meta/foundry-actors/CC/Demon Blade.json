@@ -1,0 +1,32 @@
+{
+  "name": "Demon Blade",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Skinwalker",
+  "classes": [
+    {
+      "name": "Slayer",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 19
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 18,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Jezeldan Moonfang",
+      "type": "weapon",
+      "equipped": true,
+      "description": "An alchemical silver two bladed sword, +1 enchantment."
+    }
+  ]
+}

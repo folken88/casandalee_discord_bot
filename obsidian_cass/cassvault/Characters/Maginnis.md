@@ -5,17 +5,20 @@ race: "Unknown"
 class: "Unknown"
 level: ?
 
-aliases: ["McGinnis", "Mcginnis"]
+aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T16:45:12.261Z"
+updated: "2026-03-28T02:50:01.871Z"
 ---
 
 # Maginnis
 
+**Race:** Unknown | **Class:** Unknown
+
 ## Notes & Updates
 
-- Referenced as someone who could potentially help arrange a meeting outside the palace *(youtube-transcript, 3/25/2026)*
+- Participated in the mission, used stealth and scouting. *(youtube-transcript, 3/28/2026)*
+- Suggested to be alive, in the Dreamscape. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 

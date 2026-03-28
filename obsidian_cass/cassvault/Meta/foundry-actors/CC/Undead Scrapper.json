@@ -1,0 +1,25 @@
+{
+  "name": "Undead Scrapper",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Zombie",
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 18
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 10,
+    "con": 0,
+    "int": 0,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": []
+}

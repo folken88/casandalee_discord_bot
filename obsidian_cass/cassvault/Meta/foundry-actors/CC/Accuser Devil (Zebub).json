@@ -1,0 +1,25 @@
+{
+  "name": "Accuser Devil (Zebub)",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "outsider (devil,evil,extraplanar,lawful)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 24
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 18,
+    "con": 14,
+    "int": 9,
+    "wis": 15,
+    "cha": 12
+  },
+  "items": []
+}

@@ -1,0 +1,224 @@
+{
+  "name": "Elfrip",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Goblin",
+  "classes": [
+    {
+      "name": "Oracle of Flame",
+      "level": 11
+    }
+  ],
+  "hp": {
+    "max": 43
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 12,
+    "int": 12,
+    "wis": 11,
+    "cha": 17
+  },
+  "items": [
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Wand of Infernal Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment."
+    },
+    {
+      "name": "Scroll of Raise Dead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You restore life to a deceased creature. You can raise a creature that has been dead for no longer than 1 day per caster level. In addition, the subject's soul must be free and willing to return.\nIf the subject's soul is not willing to return, the spell does not work; therefore, a subject that wants to return receives no saving throw.\nComing back from the dead is an ordeal. The subject of the spell gains two permanent negative levels when it is raised, just as if it had been hit by an energy-dra"
+    },
+    {
+      "name": "Wand of Air Bubble",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Creation); Level Arcanist 1, Cleric 1, Druid 1, Hunter 1, Oracle 1, Psychic 1, Ranger 1, Sorcerer 1, Warpriest 1, Witch 1, Wizard 1\n    \n\n  \n  Casting Time Standard\n\n  Components S, M/DF (a small bladder filled with air)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets one creature or one object no larger than a Large two-handed weapon\n\n  \n  Duration 1 Minutes\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionAir bubble creates a small pocket of b"
+    },
+    {
+      "name": "Whisperthread Cords",
+      "type": "equipment",
+      "equipped": true,
+      "description": "When donned, Whisperthread Cords function identically to muleback cords, granting the wearer a +8 enhancement bonus to Strength solely for the purpose of determining carrying capacity. However, their necromantic origins carry a shadowed side effect: when first attuned (worn for 24 hours), the cords whisper the names of those whose remains were desecrated in their making. The wearer must succeed at a DC 12 Will save or take a –1 penalty on saves against fear effects for 24 hours, as an uneasy chi"
+    },
+    {
+      "name": "Scroll of Restoration, Greater",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Cleric 7, Oracle 7, Shaman 7\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (diamond dust 5,000 gp)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionThis spell functions like lesser restoration, except that it dispels all permanent and temporary negative levels afflicting the healed creature. Greater restoration also dispels all "
+    },
+    {
+      "name": "Winter's Veil",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Made from a soft, grey fabric, this cloak has an almost imperceptible glimmer, like frost on a winter morning.\nPowers:\nWinter's Veil: Grants a +2 competence bonus to Survival checks.Cold Comfort: Provides resistance 15 to cold damage.History: Misty Snowfoot, the group's ranger, donned this cloak, allowing her to thrive in the harshest winter conditions and protect her friends from the cold."
+    },
+    {
+      "name": "Silver Holy Symbol of Saranrae",
+      "type": "loot",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 57Price 100 gp (gold), 5 gp (iron), 500 gp (platinum), 25 gp (silver), 1 gp (wooden); Weight 1 lb. (gold), 1 lb. (iron), 1 lb. (platinum), 1 lb. (silver), — (wooden)\n\nDescription\nA holy symbol focuses positive energy and is used by good clerics and paladins (or by neutral clerics who want to cast good spells or channel positive energy). Each religion has its own holy symbol. The material used to make the holy symbol has no effect on its powers, though a religion may"
+    },
+    {
+      "name": "Dorcroast",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Dorcroast, the invigorating cold brew coffee inspired by the triumph over darkness in Ustalav, awakens your senses with a bittersweet symphony. With a delightful spritz of energy, Dorcroast revitalizes your day, infusing it with the indomitable spirit that arises from the genocide of one's enemies. This remarkable brew serves as a tribute to the resilience of those who stood against evil, reminding you that even in the face of adversity, there is always room for celebration and the promise of a "
+    },
+    {
+      "name": "Challenge of the Herald",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This Shining Crusade era artifact is legendary amongst the Iomedaean and Sarenite paladin legions. It was worn by many champions during their long campaign against the tyrant. Each time the wearer was killed, it was picked up by their allies and worn to symbolize the Crusade's tireless pursuit of victory at any cost. The last to wear it was a mortal Iomedae, but she set it aside when she left for Absalom to take the test of the Starstone.\n\nThe helmets constant granted powers to any good-aligned "
+    },
+    {
+      "name": "Ustalav Marshal Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Icevein",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Frostbite Falchion is a masterfully crafted weapon, its blade perpetually sheathed in a thin layer of frost that never melts, even in the hottest of environments. The falchion's blade is wide and curved, designed for powerful, sweeping strikes. Etched into the steel are intricate runes of Ulfen origin, shimmering with a cold blue light.\nOver a millennium ago, this falchion was forged in the icy northern lands of the Ulfen people. It was created for Bjornolf Icevein, a renowned warrior champi"
+    },
+    {
+      "name": "Scroll of Raise Dead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level Adept 5, Cleric 5, Oracle 5, Shaman 6, Spiritualist 5, Warpriest 5, Witch 6; Subdomain Resurrection 5\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M (diamond worth 5,000 gp), DF\n\n  \n\n  \n  Range Touch\n\n  \n  Targets dead creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw none; see text;\n    Spell Resistance yes\n    \n\n  \n\nYou restore life to a deceased creature. You can raise a creature that has been dead for no longer than 1 day per caster"
+    },
+    {
+      "name": "Headband of Alluring Charisma +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This attractive silver headband is decorated with a number of small red and orange gemstones.\n\nThe headband grants the wearer an enhancement bonus to Charisma of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn."
+    },
+    {
+      "name": "Scroll of Restoration, Greater",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Cleric 7, Oracle 7, Shaman 7\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (diamond dust 5,000 gp)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionThis spell functions like lesser restoration, except that it dispels all permanent and temporary negative levels afflicting the healed creature. Greater restoration also dispels all "
+    },
+    {
+      "name": "Scroll of Hold Person",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Enchantment (compulsion) [mind-affecting]; Level Sorcerer 3, Wizard 3, Cleric 2, Oracle 2, Bard 2, Witch 2, Inquisitor 2, Antipaladin 2, Bloodrager 3, Shaman 2, Psychic 2, Medium 2, Mesmerist 2, Occultist 3\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, F/DF (a small, straight piece of iron)\n\n  \n\n  \n  Range 130 ft\n\n  \n  Targets one humanoid creature\n\n  \n  Duration 1 round/level; see text\n\n    Saving Throw Will negates; see text;\n    Spell Resistance yes\n    \n\n  \n\nThe subject becom"
+    },
+    {
+      "name": "Dark-Arts Instructor Robes",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Enchanted robes in the style of a college professors. Deep purple, heavily enchanted."
+    },
+    {
+      "name": "Scroll of Death Ward",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Necromancy; Level Alchemist 4, Cleric 4, Druid 5, Hunter 5, Inquisitor 4, Investigator 4, Medium 4, Occultist 4, Oracle 4, Paladin 4, Spiritualist 4, Warpriest 4, Witch 4; Domain Death 4, Repose 4\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, DF\n\n  \n\n  \n  Range Touch\n\n  \n  Targets living creature touched\n\n  \n  Duration 7 Minutes\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionThe subject gains a +4 morale bonus on saves against all death "
+    },
+    {
+      "name": "Scroll of Darkness",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Evocation [darkness]; Level adept 2, antipaladin 2, arcanist 2, bard 2, cleric 2, inquisitor 2, magus 2, occultist 2, oracle 2, shaman 2, skald 2, sorcerer 2, warpriest 2, wizard 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, M/DF (bat fur and a piece of coal)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets object touched\n\n  \n  Duration 1 min./level\n\n    Saving Throw None;\n    Spell Resistance no\n    \n\n  \n\nThis spell causes an object to radiate darkness out to a 20-foot radius. This darkness c"
+    },
+    {
+      "name": "Elven Sweetroll",
+      "type": "loot",
+      "equipped": false,
+      "description": "Elves favor soft trail bread made of oats mixed with other grains, berries, and nuts and sweetened with honey. They supplement this trail bread with dried fruits and nuts. If you are an elf who subsists on nothing but these rations for at least 1 week, you receive a +2 bonus on checks and saves that benefit from the Endurance feat. This benefit lasts until you eat a meal other than the rations or go for a full day without eating a day's worth."
+    },
+    {
+      "name": "Scroll of Monkey Fish",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level alchemist 1, arcanist 1, druid 1, hunter 1, investigator 1, magus 1, psychic 1, shaman 1, sorcerer 1, wizard 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 1 minute/level\n\n  \n\nYour hands and feet alter to make you better at climbing and swimming. You gain a 10 foot climb speed and swim speed. This spell has no effect if you are wearing medium or heavy armor or carrying a medium or heavy load."
+    },
+    {
+      "name": "Scroll of Fireball",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A fireball spell generates a searing explosion of flame that detonates with a low roar and deals 1d6 points of fire damage per caster level (maximum 10d6) to every creature within the area.\nUnattended objects also take this damage. The explosion creates almost no pressure.\nYou point your finger and determine the range (distance and height) at which the fireball is to burst. A glowing, pea-sized bead streaks from the pointing digit and, unless it impacts upon a material body or solid barrier prio"
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Scroll of Resurrection",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Cleric 7, Oracle 7, Shaman 8, Witch 8; Subdomain Divine 7, Resurrection 7\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, M (diamond worth 10,000 gp), DF\n\n  \n\n  \n  Range Touch\n\n  \n  Targets dead creature touched\n\n  \n  Duration Instantaneous\n\n    Saving Throw none; see text;\n    Spell Resistance yes\n    \n\n  \n\nDescriptionThis spell functions like raise dead, except that you are able to restore life and complete strength to any deceased creature.\nThe conditi"
+    },
+    {
+      "name": "Chainweave Bracer",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This single bracer appears to have an endlessly churning wall of chainmail for its texture, but feels like solid and smooth glass to the touch. When activated, its gemstone blinks momentarily and tendrils made of metal chains stream across the body, taking a number of forms according to the wearers desire.\nThe device can provide, as an immediate action, a suit of armor over the wearer. This armor functions as +2 mithral chain mail with minimal encumbrance penalties. The armor can be retracted ba"
+    },
+    {
+      "name": "Scroll of See Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Divination; Level adept 2, alchemist 2, arcanist 2, bard 3, bloodrager 2, inquisitor 2, investigator 2, mesmerist 3, occultist 2, psychic 2, skald 3, sorcerer 2, spiritualist 2, summoner 2, summonerUnchained 2, witch 2, wizard 2; Subdomain Revelation 2; Bloodline Marid 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M (talc and powdered silver)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 10 min./level\n\n  \n\nYou can see any objects or beings that are invisible within "
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Ring of Swimming",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This silver ring usually has fishlike designs and motifs etched into the band. It continually grants the wearer a +5 competence bonus on Swim checks."
+    },
+    {
+      "name": "Commset 1m",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a built-in camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile—beyond this range, communication is impossible without enhancing the signal strength with a signal booster. The price and cost listed for this item are for a"
+    },
+    {
+      "name": "Amulet of Natural Armor +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet.\nConstructionRequirements Craft Wondrous Item, barkskin, creator's caster level must be at least three times the amulet's bonus; Cost 4,000 gp"
+    },
+    {
+      "name": "Sarenite Kidpack",
+      "type": "container",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Dispel Evil",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Abjuration [good]; Level cleric 5, inquisitor 5, oracle 5, paladin 4, shaman 5, warpriest 5; Domain Good 5\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, DF\n\n  \n\n  \n  Range Touch\n\n  \n  Targets you and a touched evil creature from another plane, or you and an enchantment or evil spell on a touched creature or object\n\n  \n  Duration 1 round/level or until discharged, whichever comes first\n\n    Saving Throw see text;\n    Spell Resistance no\n    \n\n  \n\nShimmering, white holy energy surr"
+    },
+    {
+      "name": "La Calstroix Bottle",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A bottle of sparkling water from La Calstroix river in Shudderwood."
+    }
+  ]
+}

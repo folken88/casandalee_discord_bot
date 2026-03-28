@@ -1,0 +1,25 @@
+{
+  "name": "Dire Rat",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Animal",
+  "classes": [
+    {
+      "name": "Animal (Aquatic)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 9
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 17,
+    "con": 13,
+    "int": 2,
+    "wis": 13,
+    "cha": 4
+  },
+  "items": []
+}

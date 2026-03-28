@@ -1,0 +1,42 @@
+{
+  "name": "Medusa-Kin Archer",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Medusa-Kin",
+  "classes": [
+    {
+      "name": "Ranger",
+      "level": 6
+    },
+    {
+      "name": "Monk (Unchained)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 27
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Medusa-Kin Bow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 19\nStatisticsCost 100 gp Weight 3 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range 110 ft.; Type P; Special -\nCategory Ranged; Proficiency Martial\nWeapon Groups Bows\nDescriptionYou need at least two hands to use a bow, regardless of its size. You can use a composite longbow while mounted. All composite bows are made with a particular strength rating (that is, each requires a minimum Strength modifier"
+    }
+  ]
+}

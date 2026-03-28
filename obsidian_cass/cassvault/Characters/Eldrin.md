@@ -1,18 +1,18 @@
 ---
 name: "Eldrin"
-type: pc
-aliases: []
-campaign: ["IG"]
-mentions: 3
-tags: ["character", "pc", "ig"]
+type: character
+campaign: IG
+race: "Elf"
+class: "Investigator 8"
+hp: 52
+tags: ["character", "npc", "ig"]
+foundry_synced: "2026-03-28"
 ---
 
 # Eldrin
 
-**Type:** Player Character
-**Campaigns:** IG
-**Mentions:** 3 session(s)
-
+**Race:** Elf | **Class:** Investigator 8 | **HP:** 52
+**STR** 12 | **DEX** 14 | **CON** 13 | **INT** 18 | **WIS** 14 | **CHA** 10
 
 ## Notes & Updates
 

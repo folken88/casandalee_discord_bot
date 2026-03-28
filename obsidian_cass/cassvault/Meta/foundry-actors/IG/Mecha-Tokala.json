@@ -1,0 +1,248 @@
+{
+  "name": "Mecha-Tokala",
+  "type": "character",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Half-Orc",
+  "classes": [
+    {
+      "name": "Warpriest",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 78
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 18,
+    "cha": 8
+  },
+  "items": [
+    {
+      "name": "Rainbow Garb",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This long-cloak is knitted together from the scales of a variety of animals. It has a number of features:\nResistance +3 (this effect is upgradeable)\nAdaptive Absorption: Whenever the wearer suffers at least 10 elemental damage, the cloak shifts color to match that type and provides resistance 30 vs that element. Lasts 10 minutes and cannot be triggered again or have its color changed until this duration expires.\nColors are as follows:\nAcid: Green\nFire: Red\nCold: Blue\nElectricity: White\nForce: Bl"
+    },
+    {
+      "name": "Bracers of the Worldwound Templar",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These steel bracers have been destroyed and re-made numerous times. They function as a cloak of resistance +3 (this effect is upgradeable). \n \nWhenever their wearer casts certain spells, the bracers activate a spell-synergy with another spell and the wearer receives the benefits of both.\nShield of Faith / Divine Power\nBull's Strength / Eagle's Splendor\nCat's Grace / Owl's Wisdom\nBear's Endurance / Barkskin\nProtection from Evil / Resist Fire\nMagic Circle Against Evil / Resist Fire Communal (both "
+    },
+    {
+      "name": "Soothe",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This strange, pink, gel-like substance is generally contained in a small glass jar that holds 1 dose.\nA single dose of soothe dulls pain and creates a euphoric sensation, particularly when applied to an open wound. Rubbing a dose of soothe onto one's skin or imbibing the faintly citrusflavored stuff cures 1 point of damage, but rubbing a dose onto a wound received in the last minute heals the user of 1d8 points of damage.\nIn addition, for the next minute, the user becomes immune to bleed damage "
+    },
+    {
+      "name": "Bleeder",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Normally only occuring in melee weapons, arrows fired from Bleeder possess the \"wounding\" property.\n\n \n\nA wounding weapon deals 1 point of bleed damage when it hits a creature. Multiple hits from a wounding weapon increase the bleed damage. Bleeding creatures take the bleed damage at the start of their turns. Bleeding can be stopped by a successful DC 15 Heal check or through the application of any spell that cures hit point damage. A critical hit does not multiply the bleed damage. Creatures im"
+    },
+    {
+      "name": "Cyberfiber Muscles (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nCyberfiber muscles are powerful synthetic muscles that augment but do not replace existing muscle mass in a creature. Once installed, cyberfiber muscles grant an enhancement bonus to Strength. This enhancement bonus alters price, implantation value, install DCs, and Craft DCs as listed below."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "02 Black Card (Crew)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Access level designed for official Crew. Opens Black level security seals."
+    },
+    {
+      "name": "Plasma Shotgun",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Xenowardens bioengineered these large arthropod claws based on a creature from a lost world in the Vast—the claws create a burst of plasma as they snap shut. The organic plasma claw and biodynamic plasma claw models function most similarly to the original creature. Other manufacturers have created the slightly different electrocellular and synthecite models, which are less powerful versions of the two earlier models.\n\nPlasma Weapons\n\nSuperheated or electromagnetically charged gas becomes ion"
+    },
+    {
+      "name": "Scrap Horn",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This \"horn\" is more of a metal trumpet without the instrument bit. It is fashioned from re-purposed armor plates, many of which still have bullet/arrow holes and dents from battle.\nThe item is heavily enchanted by months of ritual prayer. The prayers focused on found-family unity and the device now provides several benefits.\nAll effects require yelling into the megaphone.\n1) Communal buff-spells have their duration doubled and affect twice as many targets. This includes communal cure-spells.\n2) "
+    },
+    {
+      "name": "Numerian Fluids",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A strange combination of fluids from wreckage in Numeria.\nNumerian Fluids Table 01"
+    },
+    {
+      "name": "Filter Mask",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A filter mask is a clear plastic shield worn over the entire face. The mask has ionized filters and scrubbers that purify the air the user breathes in and give the mask an unintentionally fearsome look. While the mask has power, the wearer is completely immune to inhaled toxins or diseases. Even when the mask has no power, it grants the wearer a +3 resistance bonus on all saving throws made to resist airborne toxins and diseases."
+    },
+    {
+      "name": "The Operative +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The tattoo grants the bearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.\nThe item also provides a +2 insight bonus to stealth.\nConstructionRequirements Craft Wondrous Item, Cat's Grace; Cost 2,500 gp"
+    },
+    {
+      "name": "Belt of Strength +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Tracker Chip",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Dead Scar",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This armor was crafted from the carapace of a fallen Dominion Neh-Thalguu, a Greater Sea Serpent that somehow found its way into a deep lake system in the Scar of the Spider, and it is lined with the hide of an ultra rare \"displacer beast.\"\n\nNeh-Thalguu Powers: the wearer is immune to the \"confusion\" effect.\nSea Serpent Powers: Resist Fire 20, Resist Cold 20\nDisplacer Beast Powers: Wearer gains Evasion\n\nAgile Breastplate Template:\nThis breastplate is specially crafted in a manner that allows ext"
+    },
+    {
+      "name": "Amulet of Natural Armor +2",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Ironhowl Helm",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Forged from the skull of a dire wolf and reinforced with cold iron, this snarling helm exudes an aura of wild ferocity. Its design is both intimidating and majestic, with fangs protruding on its forehead, adding to its fearsome appearance. When angered, the helm emits a low, menacing howl that unsettles onlookers. It is particularly favored by barbarian warriors and draws discomfort from wizards due to its savage nature."
+    },
+    {
+      "name": "obliterator.src",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Absolutely positively guaranteed to obliterate any lock you point it at. \n\n \n\n<<<please note do not point this device at yourself its not just a name you will obliterate yourself and we will not be held liable for any accidental obliterations your mileage may vary dont call us unless it doesnt obliterate but it will it always does>>>"
+    },
+    {
+      "name": "Muleback Cords",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint conjuration; CL 1st\n\nSpell Description\nWhen laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply Spell Resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Implant Mesh (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\n\nAn implant mesh is a cybernetic augmentation that enhanced other cybernetic implants, notably those that heighten their wearers' physical abilities. If used to enhance cyberfiber musclesTG, a thoracic nanite chamberTG, or wirejack tendonsTG, an implant mesh must be installed on that piece of cyberware before the item is implanted in a body. \n\n \n\nThis implant mesh supports up to 3 physical body mods with a maximum bonus of +2."
+    },
+    {
+      "name": "Nanite Canister",
+      "type": "consumable",
+      "equipped": true,
+      "description": "A nanite canister is used to power technological devices that use nanites—such items generally don’t require other sources of power, as the nanites themselves do the bulk of the work when the object is activated. The canister contains a small, independent power source and a supply of nanites. A single canister contains enough nanites to provide 10 charges for a nanotech item or weapon."
+    },
+    {
+      "name": "Yaughadar Morndin",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This weapon is the melding of several different machines recovered from Scrapwall to form a weapon known as a \"Chainsaw.\" It was wielded by the fearsome Warlord Kulgara, leader of the Lords of Rust.\nShe was defeated by Tokala, Warpriest of Gorum but in their battle she used her chainsaw to destroy Tokala's heirloom greatsword. Tokala took up the shards of his sword, and Kulgara's chainsaw and brought them to the weaponsmiths of Torch.\nThere Dinvaya, Priest of Brigh reforged the items together, a"
+    },
+    {
+      "name": "Belt of Mighty Constitution +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Beowolf",
+      "type": "loot",
+      "equipped": true,
+      "description": "LO, praise of the prowess of people-kings\nof spear-armed Danes, in days long sped,\nwe have heard, and what honor the athelings won!\nOft Scyld the Scefing from squadroned foes,\nfrom many a tribe, the mead-bench tore,\nawing the earls. Since erst he lay\nfriendless, a foundling, fate repaid him:\nfor he waxed under welkin, in wealth he throve,\ntill before him the folk, both far and near,\nwho house by the whale-path, heard his mandate,\ngave him gifts: a good king he!\nTo him an heir was afterward born,"
+    },
+    {
+      "name": "Elven Dancer's Delight",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These bright green boots are made of a natural plant fiber woven into an intricate fabric and then enchanted for strength and durability. Tree-sap hardened into shaped and treaded soles provide superior grip at all times and absorb the sound of footsteps to an impressive degree.\n\n \n\nThey provide the following benefits: \n\n1) The wearer receives +5 stealth (a limited silence effect) as their steps make no sounds unless they wish them to.\n\n2) The wearer leaves no tracks as pass-without-trace.\n\n3) T"
+    },
+    {
+      "name": "Wand of Infernal Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment."
+    },
+    {
+      "name": "Battery",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Most technological items are powered by electricity. While one can use the electricity provided by a generator, these are rare, expensive, and rarely portable. It’s more common and practical to charge such items with batteries. A battery looks like a small silver disk that’s etched with strange lines—the people have taken to calling batteries “silverdisks” and sometimes use them as coins. A battery contains 10 charges when full; to charge an item with a battery, one simply slips the disk-shaped "
+    },
+    {
+      "name": "Datajack",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Implanted at the base of the neck, this device allows direct mental connection to any compatible device. \n\n    If connected to a device, the wearer receives +5 on knowledge engineering checks to manipulate or diagnose that device."
+    },
+    {
+      "name": "Brown Cloak",
+      "type": "equipment",
+      "equipped": false,
+      "description": "A cloak that is dyed dirty brown on one side, and clean white on the other."
+    },
+    {
+      "name": "Black Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Whispered Courage Whiskey",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Drink the blood of heroes.\"Whispered Courage is aged in barrels made from pines cut from the Stoneheart Massacre Glade.This powerful spirit grants +4 vs fear saves for 1 hour. The bonus is doubled if an ally who also drank the whiskey is threatened within your sight."
+    },
+    {
+      "name": "Wirejack Tendons (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nWirejack tendons not only strengthen and enhance existing reflexes, but also enhance the transmission of nerve impulses to surrounding musculature. Once installed, wirejack tendons grant an enhancement bonus to Dexterity."
+    },
+    {
+      "name": "Dermal Plating (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese plates exist under the skin and provide increased resistance to physical attacks. They are undetectable normally, but are visible when struck and for a few moments afterwords."
+    },
+    {
+      "name": "Potion of Cure Serious Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 3d8 points of damage + 1 point per caster level (maximum +15)."
+    },
+    {
+      "name": "Gloves Of Dueling",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese supple gloves grant the wearer a +4 bonus to her CMD against disarm attacks, attempts to sunder her wielded weapons, and effects that cause her to lose her grip on her weapons (such as grease). The wearer doesn't drop held weapons when panicked or stunned. If the wearer has the weapon training class feature and is using an appropriate weapon, her weapon training bonus increases by +2.\n\nBase Item: \nRequirementsCraft Wondrous Item, greater magic weapon\nSource: Ultimate Equipment"
+    },
+    {
+      "name": "Cybernetic Eyes",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nA cybernetic eye can be enhanced by cyber art for no additional cost, giving it an unusual color or pattern. When a pair of eyes is installed, the user gains:\n\nDarkvision 60'\n+5 circumstance bonus on Perception checks\n+4 resistance bonus on saving throws against blindness or visual effects."
+    }
+  ]
+}

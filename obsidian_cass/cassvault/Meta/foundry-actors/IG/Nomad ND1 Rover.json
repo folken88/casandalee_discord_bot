@@ -1,0 +1,177 @@
+{
+  "name": "Nomad ND1 Rover",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "DNA Bonded Wirejack Tendons (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nWirejack tendons not only strengthen and enhance existing reflexes, but also enhance the transmission of nerve impulses to surrounding musculature. Once installed, wirejack tendons grant an enhancement bonus to Dexterity."
+    },
+    {
+      "name": "Shipmind Brain Fluid",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This strangely churning and glowing purple liquid has potent effects on biological organisms. It has no effect on constructs but can affect androids. \n\nThis substance tastes sweet and burns all the way down when imbibed. It causes internal damage which cannot be mitigated by any resistances and induces a manic state."
+    },
+    {
+      "name": "Implant Mesh (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\n\nAn implant mesh is a cybernetic augmentation that enhanced other cybernetic implants, notably those that heighten their wearers' physical abilities. If used to enhance cyberfiber musclesTG, a thoracic nanite chamberTG, or wirejack tendonsTG, an implant mesh must be installed on that piece of cyberware before the item is implanted in a body. \n\n \n\nThis implant mesh supports up to 3 physical body mods with a maximum bonus of +2."
+    },
+    {
+      "name": "Scroll of Undetectable Alignment",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 1st\n\nAn undetectable alignment spell conceals the alignment of an object or a creature from all forms of divination."
+    },
+    {
+      "name": "Cyberfiber Muscles (MarkII)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nCyberfiber muscles are powerful synthetic muscles that augment but do not replace existing muscle mass in a creature. Once installed, cyberfiber muscles grant an enhancement bonus to Strength. This enhancement bonus alters price, implantation value, install DCs, and Craft DCs as listed below."
+    },
+    {
+      "name": "Hemochem (Grade III)",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 34\nPrice 250 gp (Grade I), 500 gp (Grade II), 750 gp (Grade III), 1,000 gp (Grade IV), 1,250 gp (Grave V)\nDescriptionHemochem stops bleeding and promotes healing. A single dose of hemochem grants fast healing for 1 minute. Multiple doses injected do not stack, but they do reset the duration of the fast healing back to 1 minute. Five grades of hemochem exist; the fast healing granted by a dose depends on the pharmaceutical's grade, as detailed below.\n\n GradeFast Healin"
+    },
+    {
+      "name": "Thoracic Nanite Chamber (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nA thoracic nanite chamber augments the vital organs within a creature's chest, particularly its heart, lungs, and pulmonary system. Once installed, a thoracic nanite chamber grants an enhancement bonus to Constitution."
+    },
+    {
+      "name": "Book of letters",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 56\nPrice 50 gp; Weight 3 lbs.\nCategory Adventuring Gear\nDescriptionThis portfolio contains examples of official letters along with proper forms of address, etiquette, and turns of phrase. Used by bureaucrats, diplomats, and clerks, it's also useful for counterfeiting official correspondence. It provides a +2 circumstance bonus on Diplomacy checks when dealing with city officials and a +2 circumstance bonus on Linguistics checks when creating forgeries. A book of let"
+    },
+    {
+      "name": "Kulgara's Journal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "@JournalEntry[T0gsT51If6RLQQoH]{Kulgara's Journal (orcish)}"
+    },
+    {
+      "name": "DNA Bonded Implant Mesh (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\n\nAn implant mesh is a cybernetic augmentation that enhanced other cybernetic implants, notably those that heighten their wearers' physical abilities. If used to enhance cyberfiber musclesTG, a thoracic nanite chamberTG, or wirejack tendonsTG, an implant mesh must be installed on that piece of cyberware before the item is implanted in a body. \n\n \n\nThis implant mesh supports up to 3 physical body mods with a maximum bonus of +2."
+    },
+    {
+      "name": "DNA Bonded Dermal Plating (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese plates exist under the skin and provide increased resistance to physical attacks. They are undetectable normally, but are visible when struck and for a few moments afterwords."
+    },
+    {
+      "name": "VR Helmet",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This helmet, while well built, is not designed for defense. Instead it blocks out all external stimuli. While active, the wearer is blind and deaf and as such they are flatfooted to all attacks.\n\nThe helmet can be connected to compatible systems and enable the wearer to enter that system as an avatar. Less experienced wearers will suffer non-lethal damage equivalent to what they suffer in such a virtual environment. Those with more than 8-ranks in knowledge-engineering take half damage from VR e"
+    },
+    {
+      "name": "Wirejack Tendons (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nWirejack tendons not only strengthen and enhance existing reflexes, but also enhance the transmission of nerve impulses to surrounding musculature. Once installed, wirejack tendons grant an enhancement bonus to Dexterity."
+    },
+    {
+      "name": "Cybernetic Arm",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 36\n\nPrice 4,750 gp\n\nSlot arm; Weight 9 lbs.\n\nInstall DC 28; Implantation 2\n\nDescription\nA cybernetic arm completely replaces a normal arm, from the shoulder to the hand. It can take the place of an arm lost to a severing wound. The arm is fully functional and no different in appearance from a regular arm, although cyberart can be added to the arm at no additional cost. A cybernetic arm does not increase a user's Strength score. With two installed, they function as Mul"
+    },
+    {
+      "name": "Dermal Plating (Mark III)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese plates exist under the skin and provide increased resistance to physical attacks. They are undetectable normally, but are visible when struck and for a few moments afterwords."
+    },
+    {
+      "name": "Lord Caliphvaso's Journal",
+      "type": "loot",
+      "equipped": false,
+      "description": "Day 1 of my new life: I depart doldrums, I set sail for destiny! I have never felt so alive! We took what was rightfully mine, commanded my best carriage be readied, took her in my arms and left misery far behind.\n\nDay 2: I LOVE HER SHE IS EVERYTHING.\n\nDay 3: I LOVE HER SHE IS EVERYTHING.\n\nDay 4: I LOVE HER SHE IS EVERYTHING.\n\nDay 5: I LOVE HER SHE IS EVERYTHING.\n\nDay 6: I LOVE HER SHE IS EVERYTHING.\n\nDay 7: I LOVE HER SHE IS EVERYTHING.\n\nDay 8: The road. I'm so tired. Everything is a blur. I th"
+    },
+    {
+      "name": "Nomad Main Power Cell",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Neutralize Poison",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You detoxify any sort of venom in the creature or object touched. If the target is a creature, you must make a caster level check (1d20 + caster level) against the DC of each poison affecting the target. Success means that the poison is neutralized. A cured creature suffers no additional effects from the poison, and any temporary effects are ended, but the spell does not reverse instantaneous effects, such as hit point damage, temporary ability damage, or effects that don't go away on their own."
+    },
+    {
+      "name": "Chicken Noodle Hot Tub",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure serious wounds, healing 3d8+7 damage and also granting a new save vs poison and disease at +4."
+    },
+    {
+      "name": "Cologne: Musk, by Calvin Carpenter (50%)",
+      "type": "loot",
+      "equipped": false,
+      "description": "What drives him? His driver. Who clothes him? His tailor. Who shaves him? The barber. \n\nWho calls to her loins with the force of a hurricane's howl? \n\nHis Musk.....................................................\n\nThis scent smells of basil leaves, mint, and stinkbug because it is made from those things. It is -2 Diplomacy for 4 hours after applying unless a creature has no sense of smell or is powerfully attracted to teenage noblemen in which case they can hold their nose."
+    },
+    {
+      "name": "Cybernetic Ears",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Source Technology Guide pg. 37\nPrice 4,000 gp\nSlot ears; Weight 1 lb.\nInstall DC 28; Implantation 1\nDescriptionA cybernetic ear can be enhanced by cyberart at no additional cost, giving it an unusual color or shape. When a pair of ears is installed, the user gains a +2 circumstance bonus on Perception checks. This bonus stacks with circumstance bonuses on Perception checks from other cybernetic senses. Cybernetic ears grant a +4 resistance bonus on all saving throws against sonic effects.\n\n The "
+    },
+    {
+      "name": "The Travels of Thallion Steed Volume 04",
+      "type": "loot",
+      "equipped": false,
+      "description": "Excerpt from &ldquo;The Travels of Thallion Steed&rdquo;\n\n \n\nSnow crunching beneath my feet like broken shards of glass. Drifts of heavy snow fighting me every step like a thousand wet blankets after a long night run. Branches reaching out to tear at me, their long bony wood claws tearing at my cloak, trying to put out an eye.\n\n \n\nGreat stones beneath the snow won&rsquo;t let my heavy tread boots take hold. Every step is a balancing act in front of the world. Concentration on every muscle and si"
+    },
+    {
+      "name": "DNA Bonded Nanite Chamber (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nA thoracic nanite chamber augments the vital organs within a creature's chest, particularly its heart, lungs, and pulmonary system. Once installed, a thoracic nanite chamber grants an enhancement bonus to Constitution."
+    },
+    {
+      "name": "DNA Bonded Cyberfiber Muscles (MarkII)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nCyberfiber muscles are powerful synthetic muscles that augment but do not replace existing muscle mass in a creature. Once installed, cyberfiber muscles grant an enhancement bonus to Strength. This enhancement bonus alters price, implantation value, install DCs, and Craft DCs as listed below."
+    },
+    {
+      "name": "Xoud's Datapad",
+      "type": "equipment",
+      "equipped": true,
+      "description": "FURKAS XOUD: Who are you? \n\n \n\nCASANDALEE: I am not sure what you mean. I am Casandalee, I  am an android.\n\n \n\nFURKAS XOUD: Why were you killed in the Aurora? \n\n \n\nCASANDALEE: I betrayed my god Unity. Unity sent puppets to punish me, to prevent me from warning others of its plans. They slew me, but in doing this so far from their master, they doomed themselves.\n\n \n\nFURKAS XOUD: Who is Unity?\n\n \n\nCASANDALEE: Unity was my god. Unity spoke to my soul, and I was empowered through my faith. I worship"
+    },
+    {
+      "name": "Smoke Bomb",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Curse of the Crimson Throne (PFRPG) pg. 432\nPrice 100 gp; Weight 1 lb.\nCategory Alchemical Tools\nDescriptionA smoke bomb appears as a polished ceramic sphere that can be held comfortably in one hand. Many crafters of these alchemical weapons take pride in painting or etching these bombs with complex scenes, or even making them look like small humanoid skulls, despite the fact that the bombs shatter when thrown. When thrown as a splash weapon, a smoke bomb bursts and fills the 5-foot squar"
+    }
+  ]
+}

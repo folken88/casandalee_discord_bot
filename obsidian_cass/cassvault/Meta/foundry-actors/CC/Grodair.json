@@ -1,0 +1,25 @@
+{
+  "name": "Grodair",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Race: Magical Beast",
+  "classes": [
+    {
+      "name": "Magical Beast (Aquatic, Extraplanar)",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 98
+  },
+  "abilities": {
+    "str": 18,
+    "dex": 8,
+    "con": 19,
+    "int": 12,
+    "wis": 13,
+    "cha": 15
+  },
+  "items": []
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Sandara Quinn",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Cleric",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 63
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 17,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Hellchain",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Forged in the infernal forges of Cheliax, this chain-shirt is made from blacksteel, a rare material imbued with dark energies. The Blacksteel Chain-Shirt is favored by the contract devils, feared assassins in the service of Asmodeus, for its ability to blend seamlessly into the shadows and its protective enchantments. The links of the armor seem to absorb light, granting the wearer an ominous presence. Its intricate design features infernal runes and motifs of twisted iron.\nDue to its infernal o"
+    },
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Bolts come in a case or quiver that holds 10 bolts (or 5 for a repeating crossbow).\n\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (–4 penalty on attack rolls) and deals damage as a dagger of its size (crit ×2)."
+    },
+    {
+      "name": "Hand Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "You can draw a hand crossbow back by hand. Loading a hand crossbow is a move action that provokes attacks of opportunity. A hand crossbow fires standard crossbow bolts, like those used by light and heavy crossbows.\nYou can shoot, but not load, a hand crossbow with one hand at no penalty. You can shoot a hand crossbow with each hand, but you take a penalty on attack rolls as if attacking with two light weapons."
+    },
+    {
+      "name": "Ear Plugs",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Buckler",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a –1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you"
+    },
+    {
+      "name": "Besmara's Tricorne",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThis black leather tricorne hat is weather-beaten and salt-stained.  It grants its wearer a +2 competence bonus on Profession (sailor) and Swim checks.  If Besmara is the wearer's patron, once per day the wearer can speak a command word to transform the hat into a small ship's boat such as a cutter, jolly boat, or longboat (Skull & Shackles Player's Guide 25). The boat is 20 feet long, has two pairs of oars and a single mast with a square sail, and can carry up to 12 passengers and c"
+    },
+    {
+      "name": "Tools, Thieves' (Masterwork)",
+      "type": "loot",
+      "equipped": false,
+      "description": "This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.\n\nThis kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Device checks."
+    },
+    {
+      "name": "Chelish Blacksteel Katana",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Chelish Blacksteel Katana is forged in the fires of the Nine Hells, bestowing it with a dark, ominous gleam. Its blade is sharp enough to cut through the moral fabric between worlds. Often wielded by ninja assassin devils of Cheliax, this katana is a feared symbol of the infernal powers of House Thrune. The hilt is wrapped in black leather, and infernal runes adorn the blade. The weapon is perfectly balanced for both swift slashes and precise thrusts.\nAura: faint transmutation\nCaster Level: "
+    }
+  ]
+}

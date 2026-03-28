@@ -1,0 +1,25 @@
+{
+  "name": "Tidewater Goat",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 24
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 20,
+    "con": 10,
+    "int": 2,
+    "wis": 10,
+    "cha": 4
+  },
+  "items": []
+}

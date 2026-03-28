@@ -1,0 +1,56 @@
+{
+  "name": "WW Blade",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Magus",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 28
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 18,
+    "con": 12,
+    "int": 14,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level Adept 2, Alchemist 2, Bard 2, Cleric 2, Druid 3, Hunter 3, Inquisitor 2, Investigator 2, Occultist 2, Oracle 2, Paladin 3, Ranger 3, Shaman 2, Skald 2, Spiritualist 2, Warpriest 2, Witch 2; Domain Healing 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nThis spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level"
+    },
+    {
+      "name": "Robes of the Whispering Way",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These black and green traveling robes are enchanted for protection and durability. Even then, they are very worn from travel and use. They provide protection as light armor but do not interfere wtih spellcasting, item use, or general mobility.\nThe integrated mask also provides a constant air-bubble, and completely conceals the wearer's identity by covering every part of the body.\nThe suit increases Acid Resistance by 20."
+    },
+    {
+      "name": "Tyrant's Band",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring, forged from black steel and set with six deep emerald gems, exudes a sense of dark purpose and power. The centerpiece is a skull, its mouth gagged—an emblem reflecting the cult's reverence for silence and secrets, and their goal of serving the Whispering Tyrant, Tar-Baphon, the former ruler of Ustalav. Each gem could be said to represent an aspect of the Tyrant's power, and the gagged skull symbolizes the silence under which these powers must be reassembled.\nBase Ability: As a Ring of"
+    },
+    {
+      "name": "Whispering Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Potion of Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Illusion (glamer); Level Adept 2, Alchemist 2, Antipaladin 2, Arcanist 2, Bard 2, Inquisitor 2, Investigator 2, Magus 2, Medium 2, Mesmerist 2, Occultist 2, Psychic 2, Skald 2, Sorcerer 2, Spiritualist 2, Summoner 2, Summoner (Unchained) 2, Wizard 2; Domain Trickery 2; Bloodline Arcane 2, Djinni 2, Oni 2, Rakshasa 2\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M/DF (an eyelash encased in gum arabic)\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you or a creature or object weighing no m"
+    }
+  ]
+}

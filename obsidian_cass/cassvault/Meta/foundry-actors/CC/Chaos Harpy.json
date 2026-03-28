@@ -1,0 +1,25 @@
+{
+  "name": "Chaos Harpy",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": "Monstrous Humanoid",
+  "classes": [
+    {
+      "name": "Aberration",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 12
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 10,
+    "int": 7,
+    "wis": 12,
+    "cha": 14
+  },
+  "items": []
+}

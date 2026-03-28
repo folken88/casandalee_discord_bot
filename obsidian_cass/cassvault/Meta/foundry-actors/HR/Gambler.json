@@ -1,0 +1,25 @@
+{
+  "name": "Gambler",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Rogue (Unchained)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 10
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 14
+  },
+  "items": []
+}

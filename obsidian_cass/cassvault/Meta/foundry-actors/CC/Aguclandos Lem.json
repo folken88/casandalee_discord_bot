@@ -1,0 +1,68 @@
+{
+  "name": "Aguclandos Lem",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Elf",
+  "classes": [
+    {
+      "name": "Inquisitor",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 58
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 15,
+    "con": 14,
+    "int": 10,
+    "wis": 17,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Trail Rations",
+      "type": "loot",
+      "equipped": false,
+      "description": "The listed price is for a day's worth of food. This bland food is usually some kind of hard tack, jerky, and dried fruit, though the contents vary from region to region and the race of those creating it. As long as it stays dry, it can go for months without spoiling."
+    },
+    {
+      "name": "do not read this out loud",
+      "type": "loot",
+      "equipped": false,
+      "description": "Objective:Secure all artifacts from the dig site.Neutralize Professor Martin. Death must appear incidental to gang conflict.\nPayment:\nFull artifact recovery: 4,000 gp\nProfessor Martin confirmed dead: 4,000 gp\nPartial artifact recovery: 1,000 gp\nAssistants: Ignore unless operationally necessary.\nConditions:\nBlame must fall on Skanktown Killas or Crag Sons.\nNo witnesses to transaction.\nDeliver artifacts directly to designated drop.\nNotice:Fail, and forget you ever heard from us."
+    },
+    {
+      "name": "Elven Curve Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Essentially a longer version of a scimitar, but with a thinner blade, the elven curve blade is exceptionally rare. You receive a +2 circumstance bonus to your CMD whenever a foe attempts to sunder your elven curve blade because of its flexible metal.\nYou can use the Weapon Finesse feat to apply your Dexterity modifier instead of your Strength modifier on attack rolls with an elven curve blade that is sized for you, even though it isn't a light weapon."
+    },
+    {
+      "name": "Waterskin",
+      "type": "loot",
+      "equipped": false,
+      "description": "A water or wineskin holds 1/2 gallon of liquid and weighs 4 lb when full.\nEmpty Weight: -; Capacity: 1/2 gallon/4 lb.1\n1 When made for Medium characters. Weighs one-quarter the normal amount when made for Small characters. Weighs twice the normal amount when made for Large characters. Containers carry one-quarter the normal amount when made for Small characters."
+    },
+    {
+      "name": "Wand of Disguise Self",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Illusion (Glamer); Level Alchemist 1, Antipaladin 1, Arcanist 1, Bard 1, Inquisitor 1, Investigator 1, Medium 1, Mesmerist 1, Occultist 1, Psychic 1, Skald 1, Sorcerer 1, Wizard 1; Domain Trickery 1; Bloodline Div 1, Nanite 1\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 10 Minutes\n\n  \n\nDescriptionYou make yourself--including clothing, armor, weapons, and equipmen--look different. You can seem 1 foot shorter or taller, thin, "
+    },
+    {
+      "name": "Bedroll",
+      "type": "loot",
+      "equipped": false,
+      "description": "This consists of two woolen sheets sewn together along the bottom and one side to create a bag for sleeping in. Some have cloth straps along the open side so the bedroll can be tied closed while you are sleeping. It can be rolled and tied into a tight coil for storage or transport. Most people use a blanket with the bedroll to stay warm or provide a ground cushion."
+    }
+  ]
+}

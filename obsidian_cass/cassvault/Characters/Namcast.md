@@ -1,17 +1,22 @@
 ---
 name: "Namcast"
 type: character
-campaign: "SS"
-tags: [character, ss]
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T02:33:08.489Z"
 ---
 
 # Namcast
 
-**Race:** Unknown | **Class:** Unknown | **Level:** ?
+## Notes & Updates
 
+- Ripping out an earring that is actually an AI memory facet.; Accused Toca McGinnis of being a spy.; Having a conversation with Luna about their plans and the situation. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Shackles - No Concept of Personal Space 2025 04 24
-Casting spells to give perception bonus and emit light.
-
+*Session activity from YouTube transcripts will appear here.*

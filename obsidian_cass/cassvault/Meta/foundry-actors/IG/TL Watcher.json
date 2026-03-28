@@ -1,0 +1,44 @@
+{
+  "name": "TL Watcher",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Watcher (wizard)",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 14
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 12,
+    "con": 12,
+    "int": 16,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Mask of the Watcher",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This technological and magical device provides a number of benefits. \nHeightening both vision and aural perceptiveness, the wearer sees keenly into darkness, notices magical auras, and easily spots invisible beings. This state of awareness is addictive and has a strange effect on most wearers when they remove the device, which they must do to eat. \nIt provides constant See Invisibility, Darkvision, and Arcane Sight. \nAfter wearing the device for only 10 minutes, if the wearer takes the device of"
+    },
+    {
+      "name": "Technic League Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A small golden pin"
+    }
+  ]
+}

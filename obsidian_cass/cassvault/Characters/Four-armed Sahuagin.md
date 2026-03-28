@@ -1,0 +1,25 @@
+---
+name: "Four-armed Sahuagin"
+type: npc
+campaign: CC
+race: "Sahuagin"
+class: "Monstrous Humanoid (Aquatic) 2"
+hp: 24
+tags: ["character", "npc", "cc"]
+foundry_synced: "2026-03-28"
+---
+
+# Four-armed Sahuagin
+
+**Race:** Sahuagin | **Class:** Monstrous Humanoid (Aquatic) 2 | **HP:** 24
+**STR** 14 | **DEX** 13 | **CON** 14 | **INT** 14 | **WIS** 13 | **CHA** 10
+
+## Key Equipment
+- **Heavy Crossbow (Underwater)** (weapon, equipped) — Source Ranged Tactics Toolbox pg. 0, Advanced Race Guide pg. 195, Ultimate Equipment pg. 17 StatisticsCost 100 gp Weight 8 lbs. Damage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range 120 ft.; Type P; Special - Category Ranged; Proficiency Simple Weapon Groups Crossbows DescriptionAbove water, this weapon is identical to a heavy crossbow. You may use it underwater, where it has a range increment of 20 feet. It counts as a heavy crossbow for the purposes of proficiencies and special abilities
+- **Trident** (weapon, equipped) — Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142 StatisticsCost 15 gp Weight 4 lbs. Damage 1d6 (small), 1d8 (medium); Critical x2; Range 10 ft.; Type P; Special brace Category One-Handed; Proficiency Martial Weapon Groups Spears; Thrown DescriptionA trident has three metal prongs at end of a 4-foot-long shaft. This weapon can be thrown.
+- **Crossbow Bolt** (loot) — Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143  Statistics Cost 1 gp Weight 1 lb.  Category Ammunition; Proficiency Ammunition  Description A crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet
+- **Bracers Of Armor +2** (equipment, equipped) — Description These items appear to be wrist or arm guards, sometimes etched with symbols of protection or depictions of vigilant-looking animals. Bracers of armor surround the wearer with an invisible but tangible field of force, granting him an armor bonus of +1 to +8, just as though he were wearing armor. Both bracers of armor must be worn for the magic to be effective.   Alternatively, bracers of armor can be enchanted with armor special abilities. See Table 3-3: Armor Special Abilities for a 
+
+## Notes & Updates
+
+*No session notes yet.*

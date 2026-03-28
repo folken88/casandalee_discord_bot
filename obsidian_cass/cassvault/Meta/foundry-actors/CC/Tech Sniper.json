@@ -1,0 +1,92 @@
+{
+  "name": "Tech Sniper",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Magus",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 15
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 13,
+    "int": 16,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Grappling Hook",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice  1 gp (common),  2,001 gp (mithral); Weight 4 lbs. (common), 2 lbs. (mithral)\nDescriptionThrowing a grappling hook requires a ranged attack roll, treating the hook as a thrown weapon with a range increment of 10 feet. Objects with ample places to catch the hook have an AC of 5."
+    },
+    {
+      "name": "Manacles (Masterwork)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Path of the Hellknight pg. 15, Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice  15 gp (common),  50 gp (masterwork),  1,000 gp (mithral); Weight 2 lbs. (common), 2 lbs. (masterwork), 2 lbs. (mithral)\nDescriptionManacles can bind a Medium creature. A manacled creature can use the Escape Artist skill to slip free (DC 30, or DC 35 for masterwork manacles). Breaking the manacles requires a Strength check (DC 26, or DC 28 for masterwork manacles). Manacles have hardness 10 and 10 h"
+    },
+    {
+      "name": "TL Spellshot Rifle",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Carbon Steel Curved Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Compatible Proficiency: Cutlass, Scimitar, Falchion, Longsword.\n\n \n\nAdvanced alloy & construction process causes this blade to pierce DR as an adamantine weapon.  It's creation process is impossible with any known tech or craftsmen on Golarion.\n\n \n\nThis graceful, curving blade further increases the drama inherent in sword fighting."
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10)."
+    },
+    {
+      "name": "Everkeeps",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Everkeeps is a trail ration that never expires! This delicious and nutritious snack can maintain the body with carbs, proteins, vitamins, and minerals! Enjoy the sweet and spicy taste as you trudge through the barren wasteland! Using the finest ingredients, masterful cooking and preparation techniques, and dark magics, we craft this incredible portable meal you can rely on! You will expire before Everkeeps expire!"
+    },
+    {
+      "name": "Rope (50 Ft.)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 57, PRPG Core Rulebook pg. 158\nPrice 1 gp; Weight 10 lbs.\nCategory Adventuring Gear\nDescriptionThis 50-foot length of hemp rope has 2 hit points and can be burst with a DC 23 Strength check."
+    },
+    {
+      "name": "Wack Juce",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Refreshingly intoxicating, Wack Juce is made with the finest synthetic oranges in Numeria, and the 3rd finest potato vodka in the world: Smashka Noble!\nEnjoy this sweet and soothing taste of home, you can almost hear the anthem of the Fatherland as you slurp!"
+    },
+    {
+      "name": "Technic League Badge",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A small golden pin"
+    },
+    {
+      "name": "Backpack (masterwork)",
+      "type": "container",
+      "equipped": true,
+      "description": "BackpackSource Ultimate Equipment pg. 56, Adventurer's Armory pg. 19, Advanced Player's Guide pg. 181\nPrice   25 gp (carrier),    2 gp (common),   40 gp (hydration),    50 gp (masterwork),   25 gp (weaponrack); Weight 5 lbs. (carrier),  2 lbs. (common), 4 lbs. (hydration),  4 lbs. (masterwork), 5 lbs. (weaponrack)DescriptionThis leather knapsack has one large pocket that closes with a buckled strap and holds about 2 cubic feet of material. Some may have one or more smaller pockets on the sides.\n"
+    },
+    {
+      "name": "Technic League Chain Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    }
+  ]
+}

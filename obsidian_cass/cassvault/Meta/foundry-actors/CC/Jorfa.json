@@ -1,0 +1,48 @@
+{
+  "name": "Jorfa",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Dwarf",
+  "classes": [
+    {
+      "name": "Fighter",
+      "level": 2
+    },
+    {
+      "name": "Expert",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 23
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 10,
+    "con": 12,
+    "int": 10,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "+2 Chainmail",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Unlike a chain shirt, which covers only the chest, chainmail protects the wearer with a complete mesh of chain links that cover the torso and arms, and extends below the waist. Multiple interconnected pieces offer additional protection over vital areas. The suit includes gauntlets."
+    },
+    {
+      "name": "Haunt Siphon",
+      "type": "consumable",
+      "equipped": true,
+      "description": "These glass vials are held within stylized cold-iron casings etched with strange runes, necromantic designs, or other eldritch markings. Within the vial roils a small wisp of white vapor, churning as if caught in a miniature vortex of air. To capture a haunt&rsquo;s energies within a haunt siphon, you need only twist the metal casing to open the vial in the same round that the haunt manifests (a standard action)&mdash;this can be before or after the haunt has acted. You must be within the haunt&"
+    },
+    {
+      "name": "+1 Warhammer",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 12 gp Weight 5 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type B; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Hammers\nDescriptionThis weapon consists of a wooden haft and a heavy, metal head. The head may be single (like a carpenter's hammer) or double (like a sledgehammer). The haft is long enough that you may wield it one- or two-handed. Though heavy and relatively slow to wield, "
+    }
+  ]
+}

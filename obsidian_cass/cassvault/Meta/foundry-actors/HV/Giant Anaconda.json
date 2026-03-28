@@ -1,0 +1,25 @@
+{
+  "name": "Giant Anaconda",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 126
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 14,
+    "con": 23,
+    "int": 1,
+    "wis": 13,
+    "cha": 2
+  },
+  "items": []
+}

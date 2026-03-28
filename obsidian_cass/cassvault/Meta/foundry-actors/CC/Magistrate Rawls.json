@@ -1,0 +1,98 @@
+{
+  "name": "Magistrate Rawls",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Cleric",
+      "level": 14
+    }
+  ],
+  "hp": {
+    "max": 22
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 10,
+    "con": 12,
+    "int": 12,
+    "wis": 18,
+    "cha": 16
+  },
+  "items": [
+    {
+      "name": "God Did It",
+      "type": "loot",
+      "equipped": true,
+      "description": "A book on various principles with supporting data & tables. This item grants +5 circumstance bonus on knowledge checks when used to \"take 10\" or the book is consulted for at least 10 minutes."
+    },
+    {
+      "name": "Arcanarama",
+      "type": "loot",
+      "equipped": true,
+      "description": "A book on various arcana principles with supporting data & tables. This item grants +5 circumstance bonus on knowledge arcana checks when used to \"take 10\" or the book is consulted for at least 10 minutes."
+    },
+    {
+      "name": "Belt of Mighty Constitution +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt’s golden buckle depicts a bear’s head. The belt grants the wearer an enhancement bonus to Constitution of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Real Housewives of Ustalav",
+      "type": "loot",
+      "equipped": true,
+      "description": "A book on various principles with supporting data & tables. This item grants +5 circumstance bonus on knowledge checks (referring to Ustalavian Nobility) when used to \"take 10\" or the book is consulted for at least 10 minutes."
+    },
+    {
+      "name": "Natural Animosity",
+      "type": "loot",
+      "equipped": true,
+      "description": "A book on various principles with supporting data & tables. This item grants +5 circumstance bonus on knowledge nature checks when used to \"take 10\" or the book is consulted for at least 10 minutes."
+    },
+    {
+      "name": "Fruits of Planar Passion",
+      "type": "loot",
+      "equipped": true,
+      "description": "A book on various principles with supporting data & tables. This item grants +5 circumstance bonus on knowledge checks when used to \"take 10\" or the book is consulted for at least 10 minutes."
+    },
+    {
+      "name": "Bracers of Armor +4",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "That Will Buff Out",
+      "type": "loot",
+      "equipped": true,
+      "description": "A book on various engineering principles with supporting data & tables. This item grants +5 circumstance bonus on knowledge engineering checks when used to \"take 10\" or the book is consulted for at least 10 minutes."
+    },
+    {
+      "name": "Why's He Dead?",
+      "type": "loot",
+      "equipped": true,
+      "description": "A book on various principles with supporting data & tables. This item grants +5 circumstance bonus on heal checks when used to \"take 10\" or the book is consulted for at least 10 minutes."
+    },
+    {
+      "name": "Ustalav: Winner Takes All",
+      "type": "loot",
+      "equipped": true,
+      "description": "A book on various principles with supporting data & tables. This item grants +5 circumstance bonus on knowledge checks when used to \"take 10\" or the book is consulted for at least 10 minutes."
+    },
+    {
+      "name": "Headband of Inspired Wisdom +6",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This simple bronze headband is decorated with an intricate pattern of fine green etchings.\n\nThe headband grants the wearer an enhancement bonus to Wisdom of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn."
+    },
+    {
+      "name": "Outfit, Noble's",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source PZO1110\n\nThese clothes are designed specifically to be expensive and gaudy. Precious metals and gems are worked into the clothing. A would-be noble also needs a signet ring and jewelry (worth at least 100 gp) to accessorize this outfit.\n\nAs this outfit does not cost 10 gp or less, player characters can not choose this outfit for free when first beginning play."
+    }
+  ]
+}

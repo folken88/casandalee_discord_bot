@@ -1,0 +1,25 @@
+{
+  "name": "Marsh Giant",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Humanoid",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 102
+  },
+  "abilities": {
+    "str": 27,
+    "dex": 17,
+    "con": 19,
+    "int": 8,
+    "wis": 15,
+    "cha": 12
+  },
+  "items": []
+}

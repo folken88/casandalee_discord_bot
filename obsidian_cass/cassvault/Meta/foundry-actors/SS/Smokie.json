@@ -1,0 +1,32 @@
+{
+  "name": "Smokie",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Cat",
+  "classes": [
+    {
+      "name": "Animal Companion",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 15
+  },
+  "abilities": {
+    "str": 8,
+    "dex": 28,
+    "con": 12,
+    "int": 12,
+    "wis": 16,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Smokie's Bond",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This exquisite collar of braided silver and dark iron is inset with tiny arcane glyphs only visible in moonlight. A gleaming, golden emblem of Corentyn is centered on the front, while the back bears the name “Smokie” in a flowing Chelish cursive script. Subtle enchantments cause the collar to subtly resize itself to fit perfectly, never chafing or catching, no matter the size or species of its wearer.\n\nThe wearer is permanently dimensionally anchored as long as the collar is worn."
+    }
+  ]
+}

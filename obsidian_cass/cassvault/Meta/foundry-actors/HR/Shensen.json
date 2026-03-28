@@ -1,0 +1,68 @@
+{
+  "name": "Shensen",
+  "type": "character",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Aquatic Elf",
+  "classes": [
+    {
+      "name": "Bard",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 108
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 15,
+    "con": 13,
+    "int": 12,
+    "wis": 10,
+    "cha": 17
+  },
+  "items": [
+    {
+      "name": "Headband of Mental Prowess +4 (Wis & Cha)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This simple copper headband has a small yellow gem set so that when it rests upon the forehead of the wearer, the yellow gem sits perched on the wearer’s brow as if it were a third eye in the middle of her forehead. Often, the headband contains additional designs to further accentuate the appearance of a third, crystal eye.\nThe headband grants the wearer an enhancement bonus to two mental ability scores of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband"
+    },
+    {
+      "name": "Stirling",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Cloak of Resistance +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura moderate abjuration; CL 9th\n\nThis garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Ring of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura moderate abjuration; CL 6th\n\nThis ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Mithral Shirt +3",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "Amulet of Natural Armor +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura moderate transmutation; CL 6th\n\nThis amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    },
+    {
+      "name": "Belt of Physical Might +4 (Dex & Con)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt grants the wearer an enhancement bonus to two physical ability scores of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn. These bonuses are chosen when the belt is created and cannot be changed.\nConstructionRequirements Craft Wondrous Item, bear's endurance, cat's grace; Cost 20,000 gp"
+    }
+  ]
+}

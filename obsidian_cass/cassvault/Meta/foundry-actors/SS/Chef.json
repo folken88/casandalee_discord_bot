@@ -1,0 +1,230 @@
+{
+  "name": "Chef",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Swashbuckler",
+      "level": 2
+    },
+    {
+      "name": "Gunslinger",
+      "level": 1
+    },
+    {
+      "name": "Expert",
+      "level": 3
+    },
+    {
+      "name": "Barbarian",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 96
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 16,
+    "con": 16,
+    "int": 16,
+    "wis": 18,
+    "cha": 20
+  },
+  "items": [
+    {
+      "name": "Bubby-Stone",
+      "type": "equipment",
+      "equipped": true,
+      "description": "The Bubby-Stone is a smooth, palm-sized gemstone that glimmers with a faint azure light. Often sought by adventurers exploring the depths of the sea or venturing into airless caverns, the stone is said to be a gift from the elemental lords of air. When held in the mouth, it makes it difficult to speak as the stone constantly emits bubbles of breathable air. With practice, the owner can use this to breathe underwater or in poisonous gas clouds for up to 10 minutes. After use, the stone must be le"
+    },
+    {
+      "name": "Shadows Refuge",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This armor is made of hard plates taken from an umberhulk. When in use or in bright light, its plates appear more glass tinted dark purple. Even stranger, the material feels like suede or another smooth textured fabric to the touch, and the various pieces make no sound as they flex and move together with use.\nThe armor includes a full hood, which slides into place or retracts as an immediate action, even deploying an illusion of black smoke over their eyes to fully conceal their identity. This b"
+    },
+    {
+      "name": "Tally Buckle",
+      "type": "equipment",
+      "equipped": false,
+      "description": "The Belt of the Duelist is a finely crafted accessory embellished with images of legendary swordfighters locked in eternal combat. It is said to have been commissioned by a famous duelist from Taldor, known for his mastery in swordplay and elusive maneuvers. This belt gleams with an opalescent sheen and seems to adjust seamlessly around the waist of its wearer, infusing them with a heightened sense of agility and perception.\nUpon defeat or successful riposte of a worthy opponent, cast Blur on th"
+    },
+    {
+      "name": "Scar",
+      "type": "equipment",
+      "equipped": false,
+      "description": "This +1 War-Shield has a multitude of knicks, cuts, and dents in it that have been structurally repaired but deliberately left visible like battle scars.\nIf the wielder suffers a confirmed crit from a melee attack, it immediately emits a shower of spikes in a 15 foot cone directed by the wielder."
+    },
+    {
+      "name": "Meat of Blood Caiman",
+      "type": "loot",
+      "equipped": true,
+      "description": "Meat of an Ustalavian Blood Caiman."
+    },
+    {
+      "name": "Alkenstar Repeater",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The repeating heavy crossbow holds 15 repeating crossbow bolts. As long as it holds bolts, you can reload it by pulling the reloading lever (a free action). Loading a new case of 15 bolts is a full-round action that provokes attacks of opportunity.\nYou can fire a repeating crossbow with one hand or fire a repeating crossbow in each hand in the same manner as you would a normal crossbow of the same size. However, you must fire the weapon with two hands in order to use the reloading lever, and you"
+    },
+    {
+      "name": "Stolen Winds",
+      "type": "loot",
+      "equipped": true,
+      "description": "\"The Codex of Stolen Winds\"A mystical volume bound in blue sharkskin, containing arcane knowledge of wind and weather magic. The cover depicts a ship at sea in a storm, and changes every few days in subtle ways as the waves roll and the ship barely keeps ahead of the lightning.\nEffect: Allows the reader to prepare or cast control weather (once per week) if they have the ability to cast spells.Lore: Scholars believe this book was once kept aboard the flagship of a legendary elven pirate-lord, who"
+    },
+    {
+      "name": "12 Pound Grape Shot (Siege)",
+      "type": "loot",
+      "equipped": false,
+      "description": "Unlike solid cannonballs, grapeshot consists of a canvas bag or a metal canister filled with small metal balls or other projectiles. When fired, the canister bursts open, scattering the balls over a wide area, much like a giant shotgun. Here are some key points about grapeshot:"
+    },
+    {
+      "name": "Booch",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This vibrant green tea-based kombucha is a local specialty from the Tidewater Rock fortress in the dangerous seas of the southern Shackles, near Windward Isle. Crafted by combining island herbs with fermented tea, Booch serves to fortify sailors and sentries alike. Its tangy taste has a revitalizing quality, making it a popular drink among those who stand watch through the long nights. Folk tales suggest that this drink's unique recipe was a gift from a benevolent sea spirit keen on improving a "
+    },
+    {
+      "name": "Chelish Navy Pattern Heavy Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This finely wrought heavy crossbow is standard issue aboard Chelish naval vessels. Featuring burnished brass fittings, a reinforced steel prod, and a hardwood stock lacquered in crimson and black (the colors of House Thrune), it exemplifies both state pride and battlefield efficiency. Despite lacking magical enhancements, it is a weapon of superior construction, built to endure brutal salt-weathered campaigns and still punch through enemy hulls or pierce a pirate captain's throat at 120 feet."
+    },
+    {
+      "name": "Wandering Dreamer Boots",
+      "type": "loot",
+      "equipped": true,
+      "description": "These supple boots of purplish-brown leather gleam faintly with silvery trim that shimmers like starlight when moonlight strikes it. Winding silver thread traces intricate celestial patterns up the sides—stylized constellations of Desna’s sacred flight. The boots never scuff, no matter how far or hard they roam.\nDesna’s Mercy in Motion:When the wearer moves more than 10 feet in a round during combat and is either attacking or being attacked, the boots unleash a brief pulse of radiant energy. As "
+    },
+    {
+      "name": "12 Pound Chain Shot (Siege)",
+      "type": "loot",
+      "equipped": false,
+      "description": "This siege engine firearm ammunition can be loaded in a cannon or a fiend's mouth cannon. It is especially good at tearing through sails and dirigibles dealing double its normal damage to those forms of propulsion.\nWhen fired at a creature, on a hit, the creature must succeed at a DC 20 Fortitude saving throw or be knocked prone."
+    },
+    {
+      "name": "Red Sail Reserve",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Them sails wasn't always red.\"\n\nRed Sails Reserve is a bold, crimson wine known for its sharp, bracing flavor and faint smoky aftertaste, reminiscent of the fiery volcanic soil of Firegrass Island where its grapes are grown. The wine is a staple at Goatshead Port, where the iconic ship Red Courage protects the surrounding waters, ensuring safe trade and keeping smugglers and pirates in check.\nTavern keepers proudly display bottles of Red Sails Reserve, treating them as both a fine drink and a s"
+    },
+    {
+      "name": "Wave Whispers",
+      "type": "loot",
+      "equipped": true,
+      "description": "\"Whispers Beneath the Waves\"A collection of coded messages intercepted from sahuagin warbands\nEffect: Grants a +2 bonus on Sense Motive checks when interacting with sahuagin or their allies.Lore: Some pages detail dangerous, half-deciphered plans for an assault on an unspecified coastal settlement. The pages seem to rearrange themselves when viewed under moonlight."
+    },
+    {
+      "name": "Shudderwood Jons",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These flexible short-pants are divinely crafted out of the finest woven jean. They are so unimaginably comfortable that when worn under armor, they reduce the check penalty by 1. \nIf worn by a shapeshifter, they stretch and adapt to any size of bipedal form."
+    },
+    {
+      "name": "Stormsong",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This blade, when held out in front of the wielder, grants +5 base movement rate on land or when flying. \nIf used to \"cut\" through the air before a maneuver, it grants +2 acrobatics.\nIf twirled above the wielder's head, it creates a Feather Fall effect which works until the wielder has fallen 100 feet in a given day.\n\nStormsong is a beautiful yet deadly weapon of Tian-Xia origin, with a sleek, slightly curved blade that glows faintly with an ethereal blue energy. Intricate runes in the flowing Ti"
+    },
+    {
+      "name": "Thwonk",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Forged in the innovative forges of Alkenstar, Thwonk is a dwarven heavy crossbow renowned for its impeccable craftsmanship and advanced mechanical design. Crafted from high-quality steel and intricately etched with dwarven runes, it gleams with a metallic luster. The stock is made from fine darkwood to reduce weight, balanced precisely for the discerning shooter. Thwonk's unique feature is its ability to be wielded in one hand by those with the necessary strength (+3 or higher), allowing the oth"
+    },
+    {
+      "name": "Booger",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This prestigious vintage from the Konzdervoltz Estate—nestled in the limestone-rich hills outside Oppara—is known for its absurdly nasal pronunciation, its deeply complex notes of plums, cedar, and crushed violet, and its power to simultaneously elevate conversation and start duels. While outsiders might snicker at the name, among Taldan nobles, a bottle of Booger is a status symbol. No gala, diplomatic gathering, or high-stakes trade negotiation is considered truly respectable unless Booger is "
+    },
+    {
+      "name": "Graves Dare",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This +1 longsword is so perfectly balanced that it can be used as a finess weapon. It grants +2 to damage vs Chelish Naval Officers.\nThis was once the sword of Captain Rylan \"Blacktide\" Graves, a pirate who famously dared to raid Chelish shipping lanes. For years, he eluded capture, raiding the northern coasts before being pursued by the Chelish Navy. Forced to flee south into the pirate-infested Shackles, Graves led his pursuers on a wild chase through dangerous waters. His ship, The Widow’s Fo"
+    },
+    {
+      "name": "Plunderpress Merlot",
+      "type": "consumable",
+      "equipped": true,
+      "description": "\"Pressed with all the care and grace of a pirate’s boot—one sympathizes.\"\nPlunderpress is the Shackles’ answer to a sailor’s thirst: rough, inconsistent, and just barely deserving of the name \"wine.\" Made from a haphazard mix of grapes and other fruits crushed under less-than-ideal conditions (usually boots or crude shipboard presses), it’s a far cry from fine vintages. Yet, for many pirates, it’s better than risking bad water or enduring sobriety on a long voyage.\nEffectsWhile its quality leave"
+    },
+    {
+      "name": "Bouncing Rod, Lesser Metamagic",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Alters a spell of 3rd level or lower as per the feat:\nBouncing Spell"
+    },
+    {
+      "name": "Windapede Podbaby",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Tidewater Meat Stick",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A staple of the South Shackles, the Tidewater Meat Stick is both a beloved street food and a shockingly effective weapon. Crafted from tempered steel and loaded with expertly grilled cuts of fish, chicken, and lamb, this savory skewer is seasoned with tongue-numbing coastal spices said to ward off evil spirits—and Northerners with weak constitutions.\nFavored by sailors, dockside duelists, and spicy-food fanatics, the Meat Stick serves as a handy fallback when dinner turns dangerous. Why forge a "
+    },
+    {
+      "name": "Alkenstar Variable Scope",
+      "type": "loot",
+      "equipped": false,
+      "description": "This scope functions as a spyglass when detached from a rifle or other ranged weapon. While attached it has 2 modes and switching between them is a swift action.\nFar: functions as a +2 to hit scope that halves range penalties but causes -4 to hit within 30'\nClose: No bonus to hit and standard range penalties apply, but no penalty for close range and grants the Point-Blank Master feat by emitting a thin white laser that only the wielder can see."
+    },
+    {
+      "name": "Chef Ramsay's Cleaver",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This is a small axe balanced for throwing."
+    },
+    {
+      "name": "Repeating Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Bolts for a repeating crossbow are designed to fit the bolt case of a repeating crossbow. They are slightly more expensive than regular crossbow bolts and sold in increments of 5 instead of 10 (to match the capacity of the bolt case)."
+    },
+    {
+      "name": "Chelish Marine-Issue Long Gun",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This finely crafted flintlock long gun is the signature weapon of the Chelish Marines—the stern enforcers of order aboard imperial vessels and the first to spill blood during a boarding action. The rifle features a polished hardwood stock capped with gilded brass fittings and a long, rifled steel barrel designed for maximum stopping power at mid-range. Though not magical, its precision manufacturing and durability elevate it above common firearms.\nThese weapons are issued only to marines sworn t"
+    },
+    {
+      "name": "Infernal Scroll of Raise Dead",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This ancient scroll is penned on dark parchment with crimson ink, bearing the infernal sigils of Asmodeus, the Prince of Darkness. Its edges are adorned with golden flames, and a faint scent of brimstone clings to it. The scroll holds the power to restore life to the deceased, but whispers of infernal bargains accompany its use. Clerics of Asmodeus are known for their cunning and guile, and those who use this scroll may find themselves owing a favor to the dark god or bound by some unseen pact."
+    },
+    {
+      "name": "12 Pound Round Shot (Siege)",
+      "type": "loot",
+      "equipped": false,
+      "description": "A standard cannonball, also known as round shot, is a solid spherical projectile made of iron, used as ammunition for cannons."
+    },
+    {
+      "name": "Sea-Service Pistol",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This masterfully crafted flintlock-style pistol, issued exclusively to officers of the Chelish Navy, represents the height of their martial craftsmanship. The weapon's stock is made from lacquered darkheart rosewood and inlaid with infernal gold filigree, its grip engraved with the winged crown of House Thrune. Despite appearing archaic to Alkenstar engineers or Technic League scholars, it is a weapon of status, discipline, and deadly precision in Cheliax."
+    },
+    {
+      "name": "Arbalest Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "A larger, heavier variant of the crossbow-bolt."
+    },
+    {
+      "name": "Tukkar Horn",
+      "type": "loot",
+      "equipped": true,
+      "description": "Tukkar Horn of Vitality (Level 2 Wondrous Item)Price: 900 gp\nAura faint transmutation\nSlot —\nCL 2nd\nWeight 2 lbs\nDescriptionCarved from the naturally shed horn of a tukkar, this drinking vessel is reinforced with braided leather bands and etched with primal runes that resonate with life-giving energy. The horn retains the warmth of a living beast, faintly pulsing when filled with a healing potion.\nAny potion stored in the Tukkar Horn of Vitality for at least 1 round gains the following benefits "
+    }
+  ]
+}

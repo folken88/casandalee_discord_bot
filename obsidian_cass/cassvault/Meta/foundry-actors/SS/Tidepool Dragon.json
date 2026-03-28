@@ -1,0 +1,25 @@
+{
+  "name": "Tidepool Dragon",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Dragon",
+  "classes": [
+    {
+      "name": "Dragon (Aquatic)",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 52
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 13,
+    "con": 13,
+    "int": 8,
+    "wis": 14,
+    "cha": 14
+  },
+  "items": []
+}

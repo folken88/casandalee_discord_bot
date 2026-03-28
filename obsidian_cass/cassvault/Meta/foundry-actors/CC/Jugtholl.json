@@ -1,0 +1,32 @@
+{
+  "name": "Jugtholl",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 20
+    }
+  ],
+  "hp": {
+    "max": 350
+  },
+  "abilities": {
+    "str": 37,
+    "dex": 29,
+    "con": 35,
+    "int": 26,
+    "wis": 30,
+    "cha": 26
+  },
+  "items": [
+    {
+      "name": "Meteoric Flail",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A nunchaku is made up of two wooden or metal bars connected by a small length of rope or chain."
+    }
+  ]
+}

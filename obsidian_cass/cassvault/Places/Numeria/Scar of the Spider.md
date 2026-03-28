@@ -20,3 +20,6 @@ Location known to have sea serpents. A dead sea serpent has been there for month
 ### Iron Gods - Taxidermy Exploding Cow 2024 06 06
 Mentioned in this session.
 
+
+### Iron Gods - Measure Twice, Murder Once 2023 04 27
+Location of Halyard and Therus's doomed expedition.

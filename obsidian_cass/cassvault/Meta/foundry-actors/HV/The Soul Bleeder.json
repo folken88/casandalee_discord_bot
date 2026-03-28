@@ -1,0 +1,32 @@
+{
+  "name": "The Soul Bleeder",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Sorcerer",
+      "level": 11
+    }
+  ],
+  "hp": {
+    "max": 90
+  },
+  "abilities": {
+    "str": 22,
+    "dex": 20,
+    "con": 18,
+    "int": 14,
+    "wis": 18,
+    "cha": 22
+  },
+  "items": [
+    {
+      "name": "Erinyes Mithral Chain",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    }
+  ]
+}

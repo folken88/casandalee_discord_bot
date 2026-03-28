@@ -1,0 +1,64 @@
+{
+  "name": "Nigel",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Tiefling",
+  "classes": [
+    {
+      "name": "Arcane Trickster",
+      "level": 8
+    },
+    {
+      "name": "Evoker",
+      "level": 3
+    },
+    {
+      "name": "Rogue (Unchained)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 76
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 14,
+    "int": 18,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Headband of Int +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Senpai Gloves",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Lore: Crafted of the finest black fox-hide and engraved with beautiful golden stitched flowers, these loudly-elven gloves enhance the wearer's magical abilities noticeably. \n\n \n\nDisable Device +5\nSleight of Hand +5\nAttacks with Touch Spells: +2\nResistance: The gloves are indestructible. The wearer's hands are immune to fire, cold, shock, and acid damage and can handle cursed or cross-aligned items without effect.\nPotency: If the wearer delivers a touch attack via the gloves, that spell's DC is i"
+    },
+    {
+      "name": "Ring of Wizardry II",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Mask of the Unquenchable Fire",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Various lenses rotate into position over the eyes and change colors according to current function. \n\nThe Goggles are covered in tiny dark-grey runes that glow faintly white when unlocked. Categories are labelled in Elven. \n\nKnowledge:\nEyes of the Eagle: +5 perception. Always on.\nLow Light vision, activates if wearer does not possess this power.\nDarkvision, activates if wearer does not possess this power. 60' or extends 30'.\n\nLust:\nElvenkind: +5 spellcraft (must be able to speak Elven). Always on"
+    },
+    {
+      "name": "Belt of Dexterity +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    }
+  ]
+}

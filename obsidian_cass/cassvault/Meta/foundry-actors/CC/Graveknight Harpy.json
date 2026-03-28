@@ -1,0 +1,29 @@
+{
+  "name": "Graveknight Harpy",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Monstrous Humanoid",
+  "classes": [
+    {
+      "name": "Monstrous Humanoid (Mythic)",
+      "level": 2
+    },
+    {
+      "name": "Undead",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 56
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 10,
+    "int": 7,
+    "wis": 12,
+    "cha": 14
+  },
+  "items": []
+}

@@ -1,0 +1,44 @@
+{
+  "name": "Musket Maiden",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Gunslinger (Musket Master)",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 28
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 16,
+    "con": 14,
+    "int": 10,
+    "wis": 14,
+    "cha": 14
+  },
+  "items": [
+    {
+      "name": "Bolty",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    },
+    {
+      "name": "Boarding Axe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A boarding axe is similar to a handaxe, but features a spike that allows the weapon to do either slashing or piercing damage. When in hand, a boarding axe grants a +2 circumstance bonus on Climb checks to scale wooden or other penetrable surfaces, such as ice."
+    }
+  ]
+}

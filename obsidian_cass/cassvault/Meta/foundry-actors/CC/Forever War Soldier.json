@@ -1,0 +1,42 @@
+{
+  "name": "Forever War Soldier",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 1
+    },
+    {
+      "name": "Cavalier",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 18
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 28,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 18
+  },
+  "items": [
+    {
+      "name": "Ghostly Breastplate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A breastplate protects a wearer’s torso with a single piece of sculpted metal, similar to the core piece of a suit of full plate. Despite its sturdiness, its inflexibility and open back make it inferior to complete suits of metal armor, but still an improvement over most non-metal armors."
+    },
+    {
+      "name": "Crusader Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A bastard sword is about 4 feet in length, making it too large to use in one hand without special training; thus, it is an exotic weapon. You can use a bastard sword two-handed as a martial weapon."
+    }
+  ]
+}

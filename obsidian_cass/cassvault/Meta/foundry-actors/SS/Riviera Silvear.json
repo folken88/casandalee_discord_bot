@@ -1,0 +1,134 @@
+{
+  "name": "Riviera Silvear",
+  "type": "character",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Aquatic Elf",
+  "classes": [
+    {
+      "name": "Investigator",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 62
+  },
+  "abilities": {
+    "str": 7,
+    "dex": 16,
+    "con": 14,
+    "int": 17,
+    "wis": 14,
+    "cha": 7
+  },
+  "items": [
+    {
+      "name": "Scroll of Blink",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Arcanist 3, Bard 3, Magus 3, Psychic 3, Skald 3, Sorcerer 3, Wizard 3; Bloodline Starsoul 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets you\n\n  \n  Duration 5 Rounds (D)\n\n  \n\nDescriptionYou \"blink\" quickly back and forth between the Material Plane and the Ethereal Plane and look as though you're winking in and out of reality at random. Blink has several effects, as follows.\nPhysical attacks against you have a 50% miss chanc"
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.\nConstructionRequirements Forge Ring, shield of faith, caster must be of a level at least three times higher than the bonus of the ring; Cost 1,000 gp"
+    },
+    {
+      "name": "Wand of Infernal Healing",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing) [evil]; Level Arcanist 1, Bloodrager 1, Cleric 1, Magus 1, Oracle 1, Sorcerer 1, Summoner 1, Summoner (Unchained) 1, Warpriest 1, Witch 1, Wizard 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M (1 drop of devil blood or 1 dose of unholy water)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration 1 Minutes\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nYou anoint a wounded creature with devil's blood or unhol"
+    },
+    {
+      "name": "Wand of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Potion of Restoration, Lesser",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (healing); Level Alchemist 2, Cleric 2, Druid 2, Hunter 2, Inquisitor 2, Investigator 2, Mesmerist 2, Oracle 2, Paladin 1, Shaman 2, Spiritualist 2, Warpriest 2\n    \n\n  \n  Casting Time 3 Standard Actions\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nLesser restoration dispels any magical effects reducing one of the subject's ability scores or cures 1d4 points of temporary ability damage to one of the subject's abil"
+    },
+    {
+      "name": "Scroll of Returning Weapon, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Teleportation); Level Arcanist 3, Bard 3, Cleric 3, Hunter 2, Inquisitor 2, Magus 2, Occultist 2, Oracle 3, Psychic 3, Ranger 2, Skald 3, Sorcerer 3, Warpriest 3, Witch 3, Wizard 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Close (25 ft. + 5 ft./2 levels)\n\n  \n  Targets weapons that can be thrown\n\n  \n  Duration 4 Minutes\n\n    Saving Throw Will negates (object);\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionThis spell functions like return"
+    },
+    {
+      "name": "Tempest Veil",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This salt-crusted deep-blue cloak, adorned with faded embroidery of crashing waves and jagged lightning bolts, once belonged to the ill-fated pirate-adventurer Captain Jorren \"Squall\" Veyne. He sought lost knowledge in the depths of the Shackles but met his end beneath the unyielding fists of a golem guardian before he could reach the treasure halls beyond.\nThe Stormcaller's Shroud grants its wearer a +2 resistance bonus on all saving throws and crackles with protective energy against the storms"
+    },
+    {
+      "name": "Lady Tukkar Boots",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Lady Tukkar Boots (Level 3 Wondrous Item)Price: 1,400 gp\nAura faint transmutation\nSlot feet\nCL 3rd\nWeight 3 lbs\nDescriptionCrafted from the dense, shaggy fur of the mighty tukkar, these enchanted boots offer resilience, stability, and an earth-shaking stomp. Despite their effectiveness, Thragorn, a 17-foot-tall forest giant, has no understanding of mortal fashion, leading to two distinct versions:\n\"Lady Tukkar\" Boots – After hearing complaints that his boots were \"not stylish,\" Thragorn attempte"
+    },
+    {
+      "name": "Handy Haversack",
+      "type": "container",
+      "equipped": true,
+      "description": "A backpack of this sort appears to be well made, well used, and quite ordinary. It has two side pouches, each of which appears large enough to hold about a quart of material. In fact, each is like a bag of holding and can actually hold material of as much as 2 cubic feet in volume or 20 pounds in weight. The large central portion of the pack can contain up to 8 cubic feet or 80 pounds of material. Even when so filled, the backpack always weighs only 5 pounds. While such storage is useful enough,"
+    },
+    {
+      "name": "Potion of Cure Light Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage."
+    },
+    {
+      "name": "Tools, Thieves' (Masterwork)",
+      "type": "loot",
+      "equipped": true,
+      "description": "This kit contains lockpicks and other tools you need to use the Disable Device skill. Without these tools, you must use improvised tools, and you take a -2 circumstance penalty on Disable Device checks.\n\nThis kit contains extra tools and tools of better make, which grant a +2 circumstance bonus on Disable Device checks."
+    },
+    {
+      "name": ".308 762x51mm Nosler Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "7.62x51mm Nosler cartridge. The bullet is loaded with two separate lead cores with a solid partition between them. The front part is torn quickly, delivering great energy. The base remains intact and provides deep penetration, even when hitting bones."
+    },
+    {
+      "name": "+1 Numerian Bolt Action Rifle",
+      "type": "weapon",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Scroll of Protection from Arrows, Communal",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Abjuration; Level Alchemist 3, Arcanist 3, Investigator 3, Psychic 3, Sorcerer 3, Summoner 3, Summoner (Unchained) 3, Wizard 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S, F (a piece of tortoiseshell or turtle shell)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creatures touched\n\n  \n  Duration 1 hour/level or until discharged\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionThis spell functions like Protection from Arrows, except you divide the du"
+    },
+    {
+      "name": "Potion of Cure Moderate Wounds",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Conjuration (Healing); Level Adept 2, Alchemist 2, Bard 2, Cleric 2, Druid 3, Hunter 3, Inquisitor 2, Investigator 2, Occultist 2, Oracle 2, Paladin 3, Ranger 3, Shaman 2, Skald 2, Spiritualist 2, Warpriest 2, Witch 2; Domain Healing 2\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets living creature touched\n\n  \n  Duration Instantaneous\n\n  \n\nDescriptionThis spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point "
+    },
+    {
+      "name": "Scroll of Mage Armor",
+      "type": "consumable",
+      "equipped": true,
+      "description": "An invisible but tangible field of force surrounds the subject of a mage armor spell, providing a +4 armor bonus to AC.\nUnlike mundane armor, mage armor entails no armor check penalty, arcane spell failure chance, or speed reduction. Since mage armor is made of force, incorporeal creatures can't bypass it the way they do normal armor."
+    },
+    {
+      "name": "Scroll of Keen Edge",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Transmutation; Level Arcanist 3, Bloodrager 3, Inquisitor 3, Magus 3, Occultist 3, Sorcerer 3, Wizard 3; Subdomain Murder 3\n    \n\n  \n  Casting Time Standard\n\n  Components V, S\n\n  \n\n  \n  Range Close (25 ft. + 5 ft./2 levels)\n\n  \n  Targets one weapon or 50 projectiles, all of which must be together at the time of casting\n\n  \n  Duration 50 Minutes\n\n    Saving Throw Will negates (object);\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nDescriptionThis spell makes a weapon magically keen, imp"
+    },
+    {
+      "name": "Potion of Heroism",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Enchantment (compulsion) [mind-affecting]; Level alchemist 3, arcanist 3, bard 2, bloodrager 3, inquisitor 3, investigator 3, medium 2, psychic 3, skald 2, sorcerer 3, spiritualist 3, summoner 3, summonerUnchained 3, witch 3, wizard 3; Domain Charm 4; Subdomain Heroism 3; Bloodline Imperious 3, Martyred 3\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S\n\n  \n\n  \n  Range Personal\n\n  \n  Targets creature touched\n\n  \n  Duration 10 min./level\n\n  \n\nThis spell imbues a single creature with g"
+    }
+  ]
+}

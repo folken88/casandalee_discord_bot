@@ -1,0 +1,25 @@
+{
+  "name": "The Tears of St.Ilnea",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 16
+    }
+  ],
+  "hp": {
+    "max": 200
+  },
+  "abilities": {
+    "str": 36,
+    "dex": 24,
+    "con": 24,
+    "int": 10,
+    "wis": 20,
+    "cha": 11
+  },
+  "items": []
+}

@@ -1,0 +1,32 @@
+{
+  "name": "Fever Sea Buccaneer",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Half-Elf",
+  "classes": [
+    {
+      "name": "Seaman",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 11
+  },
+  "abilities": {
+    "str": 11,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 12
+  },
+  "items": [
+    {
+      "name": "Cutlass",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This short, curved sword is favored by seafarers for closequarters combat. It is treated as a scimitar for any effects that apply to scimitars."
+    }
+  ]
+}

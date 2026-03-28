@@ -1,0 +1,32 @@
+{
+  "name": "Human Farmer",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Expert",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 9
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 12,
+    "con": 14,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Club",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This weapon is usually just a shaped piece of wood, sometimes with a few nails or studs embedded in it."
+    }
+  ]
+}

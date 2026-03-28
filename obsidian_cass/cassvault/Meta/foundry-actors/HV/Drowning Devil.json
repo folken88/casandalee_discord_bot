@@ -1,0 +1,25 @@
+{
+  "name": "Drowning Devil",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 9
+    }
+  ],
+  "hp": {
+    "max": 103
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 25,
+    "con": 23,
+    "int": 16,
+    "wis": 20,
+    "cha": 19
+  },
+  "items": []
+}

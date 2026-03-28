@@ -1,0 +1,36 @@
+{
+  "name": "Saranrae",
+  "type": "character",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Champion",
+      "level": 10
+    },
+    {
+      "name": "Goddess",
+      "level": 20
+    }
+  ],
+  "hp": {
+    "max": 371
+  },
+  "abilities": {
+    "str": 35,
+    "dex": 35,
+    "con": 35,
+    "int": 35,
+    "wis": 35,
+    "cha": 35
+  },
+  "items": [
+    {
+      "name": "Spellbook",
+      "type": "loot",
+      "equipped": false,
+      "description": "A spellbook has 100 pages of parchment, and each spell takes up one page per spell level (one page each for 0-level spells). A newly purchased spellbook contains no spells. A wizard character begins play with a spellbook containing the spells he knows."
+    }
+  ]
+}

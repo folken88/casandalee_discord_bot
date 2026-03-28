@@ -1,0 +1,25 @@
+{
+  "name": "Goat",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Race: Animal",
+  "classes": [
+    {
+      "name": "Animal (Aquatic)",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 13
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 13,
+    "con": 12,
+    "int": 2,
+    "wis": 11,
+    "cha": 5
+  },
+  "items": []
+}

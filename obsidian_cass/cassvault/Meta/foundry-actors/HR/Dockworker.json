@@ -1,0 +1,38 @@
+{
+  "name": "Dockworker",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Expert",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 15
+  },
+  "abilities": {
+    "str": 14,
+    "dex": 12,
+    "con": 12,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Boarding Pike",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A boarding pike is an 8-foot-long pole topped with a foot-long tapered metal tip. Boarding pikes look much like longspears, but the metal pike is designed to flow into the wooden haft, leaving no grooves, collars, or spikes that could trap salt water and cause rust. Boarding pikes are mainly used defensively, to repel boarding actions. The pikes are kept in brackets around the mast, so sailors can quickly grab pikes and brace them against the gunwale to repel boarders."
+    },
+    {
+      "name": "Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    }
+  ]
+}

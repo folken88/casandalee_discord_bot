@@ -1,0 +1,25 @@
+{
+  "name": "Eldrin",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Elf",
+  "classes": [
+    {
+      "name": "Investigator",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 52
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 13,
+    "int": 18,
+    "wis": 14,
+    "cha": 10
+  },
+  "items": []
+}

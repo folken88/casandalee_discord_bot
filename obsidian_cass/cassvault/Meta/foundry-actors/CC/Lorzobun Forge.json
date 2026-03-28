@@ -1,0 +1,447 @@
+{
+  "name": "Lorzobun Forge",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Heavy Steel Shield",
+      "type": "equipment",
+      "equipped": true,
+      "description": "You strap a heavy steel shield to your forearm and grip it with your hand. A heavy steel shield is so heavy that you can’t use your shield hand for anything else. Whether wooden or steel, a heavy shield offers the same basic protection and attack benefits, though the two versions respond differently to some spells and effects (such as rusting grasp). A druid can use a heavy wooden shield, but not a heavy steel shield."
+    },
+    {
+      "name": "Upgrade Deflection AC: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Spyglass",
+      "type": "loot",
+      "equipped": true,
+      "description": "Price 1000 gp; Weight 1 lb.\n\r\nObjects viewed through a spyglass are magnified to twice their size. Characters using a spyglass take a -1 penalty on Perception skill checks per 20 feet of distance to the target, if the target is visible."
+    },
+    {
+      "name": "Silver Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Upgrade Armor: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Silver Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Natural Armor: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Armor: +1 from Masterwork",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Bronze Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "+1 Werewolf Bane Mithral Greatsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 143\nStatisticsDamage 1d10 (small), 2d6 (medium); Critical 19-20/x2; Range -; Type S\nWeapon Groups Blades, Heavy\nDescriptionThis immense two-handed sword is about 5 feet in length. A greatsword may have a dulled lower blade that can be gripped.\nMithral\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well."
+    },
+    {
+      "name": "+1 Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    },
+    {
+      "name": "+1 Ghost Touch Mithral Shortsword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsDamage 1d4 (small), 1d6 (medium); Critical 19-20/x2; Range -; Type P\nWeapon Groups Blades, Light\nDescriptionShort swords are some of the most common weapons found in any martial society, and thus designs are extremely varied, depending on the region and creator. Most are around 2 feet in length. Their blades can be curved or straight, single- or double-edged, and wide or narrow. Hilts may be ornate or simple, with crossguards"
+    },
+    {
+      "name": "Composite Shortbow MW",
+      "type": "weapon",
+      "equipped": true,
+      "description": "You need at least two hands to use a bow, regardless of its size. You can use a composite shortbow while mounted.\n\nAll composite bows are made with a particular Strength rating (that is, each requires a minimum Strength modifier to use with proficiency). If your Strength bonus is lower than the strength rating of the composite bow, you can’t effectively use it, so you take a –2 penalty on attacks with it. The default composite shortbow requires a Strength modifier of +0 or higher to use with pro"
+    },
+    {
+      "name": "Upgrade Weapon: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Phase Locking Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Phase Locking\n\nA phase locking weapon interferes with dimensional travel. A creature damaged by a phase locking weapon is affected as though by the dimensional anchor spell for 1 round."
+    },
+    {
+      "name": "Upgrade Resistance: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Resistance: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Weapon: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Blackwood Repeating Heavy Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 33, PRPG Core Rulebook pg. 143, Ultimate Equipment pg. 21\nStatisticsDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range 120 ft.; Type P\nWeapon Groups Crossbows\nDescriptionThe repeating heavy crossbow holds 5 repeating crossbow bolts. As long as it holds bolts, you can reload it by pulling the reloading lever (a free action). Loading a new case of 5 bolts is a full-round action that provokes attacks of opportunity.\nYou can fire a repeating crossbow with o"
+    },
+    {
+      "name": "+1 Warhammer",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 12 gp Weight 5 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type B; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Hammers\nDescriptionThis weapon consists of a wooden haft and a heavy, metal head. The head may be single (like a carpenter's hammer) or double (like a sledgehammer). The haft is long enough that you may wield it one- or two-handed. Though heavy and relatively slow to wield, "
+    },
+    {
+      "name": "+2 Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "+1 Mirrored Mithral O-Yoroi",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Worn almost exclusively by highranking samurai, o-yoroi—or “great armor”—is a heavy combat armor that consists of various supplementary components that include both plate and lamellar elements. Each suit is crafted for a specific individual and displays the owner’s aesthetic. Upon completion, the suit is colored and sealed with a final lacquer finish. The centerpiece of o-yoroi is a cuirass consisting of two parts—a separate reinforcement for the right side called a waidate, and a kikko cuirass."
+    },
+    {
+      "name": "+1 Light Crossbow",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ranged Tactics Toolbox pg. 0, PRPG Core Rulebook pg. 142, Ultimate Equipment pg. 17\nStatisticsCost 35 gp Weight 4 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical 19-20/x2; Range 80 ft.; Type P; Special -\nCategory Ranged; Proficiency Simple\nWeapon Groups Crossbows\nDescriptionYou draw a light crossbow back by pulling a lever. Loading a light crossbow is a move action that provokes attacks of opportunity. A light crossbow fires crossbow bolts.\n\n Normally, operating a light crossbow requires "
+    },
+    {
+      "name": "Heavy Wooden Shield",
+      "type": "equipment",
+      "equipped": true,
+      "description": "A heavy wooden shield is essentially the same as a heavy steel shield, except that it responds differently to some spells and effects (such as rusting grasp). A druid can use a heavy wooden shield, but not a heavy steel shield."
+    },
+    {
+      "name": "+1 Breastplate (Agile)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for Climb checks and Acrobatics checks made to jump is only –1 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty)."
+    },
+    {
+      "name": "40mm Blast-Gang",
+      "type": "loot",
+      "equipped": true,
+      "description": "A 40mm High Explosive grenade with a 6, 12, 30, or 60 second timer."
+    },
+    {
+      "name": "Crossbow Bolt",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 142, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 1 lb.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nA crossbow bolt used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2). Bolts come in a case or quiver that holds 10 bolts. All crossbows except repeating crossbows use these kinds of crossbow bolts, which are somet"
+    },
+    {
+      "name": "Upgrade Armor: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Studded Leather Armor",
+      "type": "equipment",
+      "equipped": false,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Upgrade Deflection AC: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "+1 Mithral Dwarven Waraxe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, PRPG Core Rulebook pg. 143\nStatisticsCost 30 gp Weight 8 lbs.\nDamage 1d8 (small), 1d10 (medium); Critical x3; Range -; Type S; Special -\nCategory One-Handed; Proficiency Exotic\nWeapon Groups Axes\nDescriptionA dwarven waraxe has a large, ornate head mounted on a thick handle, making it too large to use in one hand without special training; thus, it is an exotic weapon. A Medium character can use a dwarven waraxe two-handed as a martial weapon, or a Large creature"
+    },
+    {
+      "name": "Arrow of Undead Bane",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows.\nSilver, Alchemical\n\nA complex process involving metallurgy and alchemy can bond silver to a weapon made of steel so that i"
+    },
+    {
+      "name": "Battle Axe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 10 gp Weight 6 lbs.\nDamage 1d6 (small), 1d8 (medium); Critical x3; Range -; Type S; Special -\nCategory One-Handed; Proficiency Martial\nWeapon Groups Axes\nDescriptionThe handle of this axe is long enough that you can wield it one-handed or two-handed. The head may have one blade or two, with blade shapes ranging from half-moons to squared edges like narrower versions of woodcutting axes. The wooden haft may be protected a"
+    },
+    {
+      "name": "+1 Studded Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "An improved form of leather armor, studded leather armor is covered with dozens of metal protuberances. While these rounded studs offer little defense individually, in the numbers they are arrayed in upon such armor, they help catch lethal edges and channel them away from vital spots. The rigidity caused by the additional metal does, however, result in less mobility than is afforded by a suit of normal leather armor."
+    },
+    {
+      "name": "Iron Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Lesser Designating Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Lesser Designating\nThis special ability can only be placed on ranged weapons or ammunition. Each time a ranged weapon or ammunition with this ability hits a creature, its magic designates the target. Allies gain a +2 morale bonus on melee attack and melee damage rolls against the designated target for 1 round. Multiple successful shots fired at the same target do not increase the bonuses or their duration."
+    },
+    {
+      "name": "Upgrade Armor: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Signal horn",
+      "type": "loot",
+      "equipped": false,
+      "description": "Sounding a horn requires a DC 10 Perform (wind instruments) check and can convey concepts such as \"Attack!\", \"Help!\", \"Advance!\", \"Retreat!\", \"Fire!\", and, \"Alarm!\" The report of a signal horn can be clearly heard (Perception DC 0) up to a half-mile distant. For each quarter-mile beyond, Perception checks to hear the horn suffer a -1 penalty."
+    },
+    {
+      "name": "Arrow of the Crusader",
+      "type": "loot",
+      "equipped": false,
+      "description": "Inscription written in flowing Taldane script down the shaft reads: \"Nothing will divert me from my purpose.\"\n\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\nUndead Bane\nA bane weapon excels against certain foes. Against a designated foe, the weapon's enhancement bonus is +2 better than its actual bonus. It also deals an extra 2d6 points of damage against such foes. To randoml"
+    },
+    {
+      "name": "Upgrade Deflection AC: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Gold Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "40mm Haunt Siphon 3.0",
+      "type": "loot",
+      "equipped": true,
+      "description": "A custom 40mm grenade with a compacted, yet potent, haunt siphon. Utilizing ancient Ustalavian anti-undead magics and cutting edge Numerian engineering, this shell is guaranteed to absolutely positively blast those ghosties back into the nether realm."
+    },
+    {
+      "name": "+2 Keen Mithral Elven Curve Blade",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, Pathfinder Campaign Setting pg. 209, PRPG Core Rulebook pg. 143\nStatisticsDamage 1d8 (small), 1d10 (medium); Critical 18-20/x2; Range -; Type S\nWeapon Groups Blades, Heavy\nDescriptionEssentially a longer version of a scimitar, but with a thinner blade, the elven curve blade is exceptionally rare. You receive a +2 circumstance bonus to your CMD whenever a foe attempts to sunder your elven curve blade because of its flexible metal.\nYou can use the Weapon Finesse f"
+    },
+    {
+      "name": "Scroll of Shield of Faith",
+      "type": "consumable",
+      "equipped": true,
+      "description": "School Abjuration; Level cleric 1, oracle 1, inquisitor 1; Domain Glory 1; Subdomain Agathion 1\n    \n\n  \n  Casting Time 1 Standard\n\n  Components V, S, M (parchment with a holy text written on it)\n\n  \n\n  \n  Range Touch\n\n  \n  Targets creature touched\n\n  \n  Duration 1 min./level\n\n    Saving Throw Will negates;\n    Spell Resistance yes; Harmless yes\n    \n\n  \n\nThis spell creates a shimmering, magical field around the target that averts and deflects attacks. The spell grants the subject a +2 deflectio"
+    },
+    {
+      "name": "Adamantine Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Sniper Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "This arrow subtley guides the hand of the shooter. When knocked to the string of any magical bow, this arrow begins to hum so softly only the wielder can hear it.\nFor each round the wielder holds the arrow knocked and moves no more than 30' per round, they gain a stacking +1 to hit bonus. The maximum for this bonus is +5. \nSniper arrows function as if their wielder has the Improved Critical feat, granting +4 to confirm critical hits."
+    },
+    {
+      "name": "Copper Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Mithril Heavy Bar",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Ustalav Patriot Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Patriotic\nA patriotic weapon radiates with the collective power and strength of a particular nation of people. If the wielder is a member of that nationality, he gains several benefits.\nIf the owner's target is confirmed to be a traitor or aggressor against Ustalav, the arrow ignores any concealment chance of 80% or lower, and can even make up to two 90-degree turns to hit the target.\nUpon striking such an enemy, the arrow emits a flash of bright light, illuminating the area round them for a mom"
+    },
+    {
+      "name": "+2 Shock Mithral Dwarven Waraxe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, PRPG Core Rulebook pg. 143\nStatisticsDamage 1d8 (small), 1d10 (medium); Critical x3; Range -; Type S\nWeapon Groups Axes\nDescriptionA dwarven waraxe has a large, ornate head mounted on a thick handle, making it too large to use in one hand without special training; thus, it is an exotic weapon. A Medium character can use a dwarven waraxe two-handed as a martial weapon, or a Large creature can use it one-handed in the same way. A dwarf treats a dwarven waraxe as a"
+    },
+    {
+      "name": "Dwarven Longaxe",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Advanced Race Guide pg. 17\nStatisticsCost 50 gp Weight 14 lbs.\nDamage 1d10 (small), 1d12 (medium); Critical x3; Range -; Type S; Special reach\nCategory Two-Handed; Proficiency Exotic\nDescriptionThese ornate and heavy blades are mounted atop a long, steel-shod haft for greater reach. They are rare among cave-dwelling dwarves but common in mountain dwarf clans that commonly feud with giants."
+    },
+    {
+      "name": "Werewolf Bane Silver Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Silver, Alchemical\nA complex process involving metallurgy and alchemy can bond silver to a weapon made of steel so that it bypasses the damage reduction of creatures such as lycanthropes.\nBane\nA bane weapon excels against certain foes. Against a designated foe, the weapon's enhancement bonus is +2 better than its actual bonus. It also deals an extra 2d6 points of damage against such foes."
+    },
+    {
+      "name": "40mm Smoke",
+      "type": "loot",
+      "equipped": true,
+      "description": "Filled with pellets that ignite on impact, releasing a thick cloud of smoke."
+    },
+    {
+      "name": "Upgrade Natural Armor: +4 from +3",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows."
+    },
+    {
+      "name": "Upgrade Natural Armor: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Whisper Skin",
+      "type": "equipment",
+      "equipped": false,
+      "description": "Blacksteel chainmail shirt with integrated fully articulated greaves. When properly size-adjusted for a medium-sized wearer, this functions as a mithral chain shirt yet offers far greater protection.\nDepending on the wearers general health and experience, the item allows them a limited form of travel through the shadow-realm.\nThis armor was likely crafted for one of the Whispering Tyrant's most skilled and trusted assassins."
+    },
+    {
+      "name": "40mm Glitterbomb",
+      "type": "loot",
+      "equipped": true,
+      "description": "This 40mm grenade shell encloses a glitter-bomb, which releases the effect of a glitterdust spell on the target area. Center-target receives -2 to their save."
+    },
+    {
+      "name": "Upgrade Weapon: +1 from Masterwork",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Short Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 10 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 19-20/x2; Range -; Type P; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Blades, Light\nDescriptionShort swords are some of the most common weapons found in any martial society, and thus designs are extremely varied, depending on the region and creator. Most are around 2 feet in length. Their blades can be curved or straight, single- or double-ed"
+    },
+    {
+      "name": "Upgrade Resistance: +2 from +1",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "40mm HE",
+      "type": "loot",
+      "equipped": true,
+      "description": "A standard 40mm High Explosive grenade."
+    },
+    {
+      "name": "Drinking Horn",
+      "type": "loot",
+      "equipped": false,
+      "description": "A drinking horn is usually made from either animal horns or large tusks. Variants are known to be made from glass, wood, ceramics, or even metal by skilled silversmiths. Depending on the region, these horns can have ceremonial purposes, either acknowledging two newly-weds marriage, or a friend's passing."
+    },
+    {
+      "name": "40mm Gravity Flip",
+      "type": "loot",
+      "equipped": true,
+      "description": "This device reverses gravity in an area, causing unattached objects and creatures in the area to fall upward and reach the top of the area in 1 round. If a solid object (such as a ceiling) is encountered in this fall, falling objects and creatures strike it in the same manner as they would during a normal downward fall. If an object or creature reaches the top of the area without striking anything, it remains there, oscillating slightly, until the spell ends. At the end of the spell duration, af"
+    },
+    {
+      "name": "Bracers of Armor +5",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Upgrade Weapon: +3 from +2",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Thundering Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Thundering\nA thundering weapon creates a cacophonous roar like abilities thunder whenever it strikes a target with a successful critical hit. The sonic energy does not harm the wielder. A thundering weapon deals an extra 1d8 points of sonic damage on a successful critical hit. If the weapon's critical multiplier is x3, add an extra 2d8 points of sonic damage instead, and if the multiplier is x4, add an extra 3d8 points of sonic damage. Subjects dealt critical hits by a thundering weapon must mak"
+    },
+    {
+      "name": "Silver Arrow",
+      "type": "loot",
+      "equipped": false,
+      "description": "Source Ultimate Equipment pg. 22, PRPG Core Rulebook pg. 143\n\nStatistics\nCost 1 gp Weight 3 lbs.\n\nCategory Ammunition; Proficiency Ammunition\n\nDescription\nAn arrow used as a melee weapon is treated as a light improvised weapon (-4 penalty on attack rolls) and deals damage as a dagger of its size (critical multiplier x2).\n\nArrows come in a leather quiver that holds 20 arrows.\nSilver, Alchemical\nA complex process involving metallurgy and alchemy can bond silver to a weapon made of steel so that it"
+    },
+    {
+      "name": "Mithral Shirt",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Covering the torso, this shirt is made up of thousands of interlocking metal rings."
+    },
+    {
+      "name": "+1 Ghost Touch Mithral Dwarven Longhammer",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Advanced Race Guide pg. 17\nStatisticsDamage 1d10 (small), 2d6 (medium); Critical x3; Range -; Type B\nDescriptionThese heavy-headed bludgeons are often carved or cast with monstrous faces or drilled with tiny holes to create a menacing whistling as they are swung through the air.\nMithral\nMithral is a rare, silvery metal that is lighter than steel but just as hard. When worked like steel, it can be used to create amazing armor, and is occasionally used for other items as well. Most mithral "
+    },
+    {
+      "name": "+1 Short Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 18, PRPG Core Rulebook pg. 142\nStatisticsCost 10 gp Weight 2 lbs.\nDamage 1d4 (small), 1d6 (medium); Critical 19-20/x2; Range -; Type P; Special -\nCategory Light; Proficiency Martial\nWeapon Groups Blades, Light\nDescriptionShort swords are some of the most common weapons found in any martial society, and thus designs are extremely varied, depending on the region and creator. Most are around 2 feet in length. Their blades can be curved or straight, single- or double-ed"
+    }
+  ]
+}

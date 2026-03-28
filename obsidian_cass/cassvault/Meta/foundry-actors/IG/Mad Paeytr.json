@@ -1,0 +1,86 @@
+{
+  "name": "Mad Paeytr",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Druid",
+      "level": 13
+    }
+  ],
+  "hp": {
+    "max": 21
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 8,
+    "con": 12,
+    "int": 16,
+    "wis": 20,
+    "cha": 11
+  },
+  "items": [
+    {
+      "name": "Ring Of Protection +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "+3 Leather Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Leather armor is made up of multiple overlapping pieces of leather, boiled to increase their natural toughness and then deliberately stitched together. Although not as sturdy as metal armor, the flexibility it allows wearers makes it among the most widely used types of armor."
+    },
+    {
+      "name": "Quarterstaff",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 17, PRPG Core Rulebook pg. 142\nStatisticsCost - Weight 4 lbs.\nDamage 1d4/1d4 (small), 1d6/1d6 (medium); Critical x2; Range -; Type B; Special double, monk\nCategory Two-Handed; Proficiency Simple\nWeapon Groups Double; Monk\nDescriptionA quarterstaff is a simple piece of wood, about 5 feet in length. In battle, it's held with one hand at the butt and the other a quarter of the way up the staff, allowing it to block blows and make quick strikes."
+    },
+    {
+      "name": "Grape Tongue",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Greenchaw",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Thunderchonk",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Deer Shit",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Steelchew",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Nose Diamond",
+      "type": "consumable",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "Soothe",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Source Pathfinder #86: Lords of Rust pg. 63\nPrice 200 gp\nDescriptionThis strange, pink, gel-like substance is generally contained in a small glass jar that holds 1 dose. A single dose of soothe dulls pain and creates a euphoric sensation, particularly when applied to an open wound. Rubbing a dose of soothe onto one's skin or imbibing the faintly citrusflavored stuff cures 1 point of damage, but rubbing a dose onto a wound received in the last minute heals the user of 1d8 points of damage. In add"
+    }
+  ]
+}

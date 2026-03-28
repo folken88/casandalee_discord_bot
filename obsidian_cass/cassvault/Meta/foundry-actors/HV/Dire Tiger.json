@@ -1,0 +1,25 @@
+{
+  "name": "Dire Tiger",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Animal",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 60
+  },
+  "abilities": {
+    "str": 24,
+    "dex": 16,
+    "con": 16,
+    "int": 10,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": []
+}

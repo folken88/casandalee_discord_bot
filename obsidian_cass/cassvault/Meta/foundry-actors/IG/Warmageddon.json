@@ -1,0 +1,45 @@
+{
+  "name": "Warmageddon",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Great Buffalo Hunt",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Made from the horns of a great buffalo, this Orcish-Hornbow is a massive compound bow that requires a +4 strength bonus to use.\nIt also requires custom ammunition, as regular arrows are snapped into pieces by the greater forces exerted by this weapon. Properly built and treated arrows for GBH are enchanted at least +1 to survive being fired out of it. On impact, they explode in a small but potent 2' diameter orange fireball.\nThe noise of the impacts from this weapon can be heard for miles. It is"
+    },
+    {
+      "name": "Heart of Greed",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Heart of Greed is a +3 keen mithral-alloy rapier that provides Critical Focus to the wielder if they have at least +6 base attack. \n\nIf the wielder already has Improved Critical skill, the rapier casts Cure Light Wounds on a confirmed crit or Cure Moderate Wounds if the crit kills or downs an opponent of at least 5hd.\nIf the wielder achieves surprise by betraying an ally within melee combat and kills them, the weapon casts Remove Curse on the wielder at +10 caster level."
+    },
+    {
+      "name": "Blood Shard",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This massive weapon is of unknown construction. The metal haft appears to be a rare alloy of adamantine. The blade looks like glass but is harder than the metal that holds it. Looking into the depths of the red glass shows an ever flowing river of blood.\nThe weapon casts a potent-vampiric touch on confirmed critical results, and deals a small amount of life-stealing damage with every hit on a living target."
+    },
+    {
+      "name": "GBH Shafts",
+      "type": "loot",
+      "equipped": true,
+      "description": "Custom made +1 magic arrow shafts designed for a huge-bow. The primary focus of the enchantment placed upon these missiles is focused on ensuring they survive being fired."
+    }
+  ]
+}

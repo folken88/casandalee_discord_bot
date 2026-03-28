@@ -26,3 +26,18 @@ A location where Kai was killed.; A location in Numeria where the Beast of Lepid
 
 ### Carrion Crown - Trojan Corpse 2025 02 02
 Location of the interview and subsequent events.; A location where a battle is taking place.
+
+### Carrion Crown - Mind-Field 2025 01 26
+Location of the ancient evil tree battle and subsequent events.; Location where Kai was killed in a friendly-fire incident.; A location where the group encountered a Vasis spirit and dealt with the Beast of Lepidstadt.
+
+### Carrion Crown BHOL - Warehouse Waldo 2024 12 10
+The party is in a location with an ancient evil tree and Count Caromarc.
+
+### Carrion Crown - Say Less 2024 12 01
+Location of the battle with ghouls and Beast.
+
+### Carrion Crown - Trench Toast 2024 11 17
+Location where Count Caromarc was rescued but lost his mind after the destruction of the Promethean and the Beast.; Location where some events took place.
+
+### Carrion Crown - Danger Touches Grass 2024 11 10
+Location where Kai was killed and Count Caromarc rescued but lost his mind; Location where Kai was killed in a friendly-fire incident.

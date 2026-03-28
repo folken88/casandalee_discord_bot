@@ -1,0 +1,25 @@
+{
+  "name": "Sea Cat",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Magical Beast",
+  "classes": [
+    {
+      "name": "Magical Beast (Mythic, Swarm)",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 72
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 12,
+    "con": 15,
+    "int": 2,
+    "wis": 13,
+    "cha": 10
+  },
+  "items": []
+}

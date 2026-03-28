@@ -1,0 +1,140 @@
+{
+  "name": "Blackout",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Stygian Slayer",
+      "level": 14
+    }
+  ],
+  "hp": {
+    "max": 38
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 19,
+    "con": 14,
+    "int": 14,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Nose Diamond",
+      "type": "consumable",
+      "equipped": true,
+      "description": "Grants Darkvision 60' with light-sensitivity. Inhibits sense of smell, causing immunity to Nausea/Sickening conditions. 1d4 hours. Causes the user to sniff, itch their nose, and talk about crypto at every opportunity."
+    },
+    {
+      "name": "N7 Pirahna",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The N7 Pirahna is a semi-automatic, recoil-operated, magazine-fed, large-bore handgun that is controllable even during rapid fire, although at the cost of accuracy."
+    },
+    {
+      "name": "Scroll of Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "The creature or object touched becomes invisible. If the recipient is a creature carrying gear, that vanishes, too. If you cast the spell on someone else, neither you nor your allies can see the subject, unless you can normally see invisible things or you employ magic to do so.\nItems dropped or put down by an invisible creature become visible; items picked up disappear if tucked into the clothing or pouches worn by the creature. Light, however, never becomes invisible, although a source of light"
+    },
+    {
+      "name": "Backpack of the Tireless Assistant",
+      "type": "container",
+      "equipped": true,
+      "description": "This backpack increases the wearer's carry strength by 2, and reduces the weight of anything that can fit within it by 50%. It does not utilize dimensional magic for this, so it can cross such barriers without calamity."
+    },
+    {
+      "name": "Fancy Paper",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price (per sheet) 4 sp; Weight -\n\nA sheet of ordinary paper typically measures 9 inches by 6 inches and is unsuitable for making magical scrolls. It has hardness 0, 1 hit point, and a break DC of 5."
+    },
+    {
+      "name": "Belt of Incredible Dexterity +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This belt has a large silver buckle, usually depicting the image of a tiger.\n\nThe belt grants the wearer an enhancement bonus to Dexterity of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the belt is worn."
+    },
+    {
+      "name": "Cybernetic Ears",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Source Technology Guide pg. 37\nPrice 4,000 gp\nSlot ears; Weight 1 lb.\nInstall DC 28; Implantation 1\nDescriptionA cybernetic ear can be enhanced by cyberart at no additional cost, giving it an unusual color or shape. When a pair of ears is installed, the user gains a +2 circumstance bonus on Perception checks. This bonus stacks with circumstance bonuses on Perception checks from other cybernetic senses. Cybernetic ears grant a +4 resistance bonus on all saving throws against sonic effects.\n\n The "
+    },
+    {
+      "name": "Trooper Armor +2",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Plate vest from Highcom, popular among USEC PMCs. Lightweight AR500 4th-grade protection plates cover only the chest and back areas.\n\n \n\n+4 to touch AC"
+    },
+    {
+      "name": ".308 762x51mm Nosler Cartridge",
+      "type": "loot",
+      "equipped": false,
+      "description": "7.62x51mm Nosler cartridge. The bullet is loaded with two separate lead cores with a solid partition between them. The front part is torn quickly, delivering great energy. The base remains intact and provides deep penetration, even when hitting bones."
+    },
+    {
+      "name": "Boots",
+      "type": "loot",
+      "equipped": false,
+      "description": "Durable treads woven into soft leather combine to make these rugged boots warm, dry, and silent on most surfaces.\nProvides aural-stealth bonus, and Cold Resistance 10."
+    },
+    {
+      "name": "Amulet of the Designated Survivor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Functions as an Amulet of Natural Armor +2, this enchantment is upgradeable.\nOnce per week when the wearer is poisoned or diseased, this item attempts to remove that affliction with a dispel check of 1d20 + 15."
+    },
+    {
+      "name": "Torch",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 1 cp; Weight 1 lb.\n\nA torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage."
+    },
+    {
+      "name": "Scroll of Invisibility Sphere",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like invisibility, except that this spell confers invisibility upon all creatures within 10 feet of the recipient at the time the spell is cast. The center of the effect is mobile with the recipient.\nThose affected by this spell can see each other and themselves as if unaffected by the spell. Any affected creature moving out of the area becomes visible, but creatures moving into the area after the spell is cast do not become invisible.\nAffected creatures (other than the reci"
+    },
+    {
+      "name": "Scroll of See Invisibility",
+      "type": "consumable",
+      "equipped": true,
+      "description": "You can see any objects or beings that are invisible within your range of vision, as well as any that are ethereal, as if they were normally visible. Such creatures are visible to you as translucent shapes, allowing you easily to discern the difference between visible, invisible, and ethereal creatures.\nThe spell does not reveal the method used to obtain invisibility.\nIt does not reveal illusions or enable you to see through opaque objects. It does not reveal creatures who are simply hiding, con"
+    },
+    {
+      "name": "Stun Baton",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This weapon delivers a modest amount of blunt damage and a powerful shock. The shock is  non-lethal damage but is affected by shock resistance."
+    },
+    {
+      "name": "Blackshroud",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Functions as a Cloak of Resistance +2, this enchantment is upgradeable.\nCan cast Phantom Steed multiple times per day depending on the wearer's level.\nCan cast Feather Fall multiple times per day depending on the wearer's level."
+    },
+    {
+      "name": "SR-25 Marksman Rifle",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Tac30 Variable Scope adds 20 base range increment.\nBipod adds +2 attack bonus if bipod setup while prone, or on stable object.\nDuramag 20-round Magazines take a Standard action to remove, install, and rack the weapon. Move-action if the installed clip is simply ejected onto the ground. This is modifiable by rapid-reload down to Move-action and Swift, respectively.\nSling: The weapon can be dropped and will fall back into a hanging position instead of dropping onto the ground. While in this loose "
+    },
+    {
+      "name": "Lookout Band",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Functions as a Ring of Protection +2, this enchantment is upgradeable.\nCan cast Selective Alarm once per day at the wearer's level."
+    },
+    {
+      "name": "Scroll of Invisibility, Greater",
+      "type": "consumable",
+      "equipped": true,
+      "description": "This spell functions like @Compendium[pf1.spells.oylikodnyku2zewu]{Invisibility}, except that it doesn't end if the subject attacks."
+    }
+  ]
+}

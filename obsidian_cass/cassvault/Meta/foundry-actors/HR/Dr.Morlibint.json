@@ -1,0 +1,42 @@
+{
+  "name": "Dr.Morlibint",
+  "type": "npc",
+  "campaign": "HR",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Investigator",
+      "level": 6
+    },
+    {
+      "name": "Expert",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 16
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 18,
+    "wis": 15,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Formula Book",
+      "type": "loot",
+      "equipped": false,
+      "description": "A formula book has 100 pages of parchment, and each alchemical extract formula takes up one page per extract level. A newly purchased formula book contains no extract formulas. An alchemist character begins play with a formula book containing the extract formulae he knows (Advanced Player's Guide 32). This is the alchemist equivalent of a spellbook for wizards (a spellbook and a formula book are essentially the same item)."
+    },
+    {
+      "name": "Tools, Surgeon's",
+      "type": "loot",
+      "equipped": false,
+      "description": "Price 20 gp; Weight 5 lbs.\n\r\nWhen used in conjunction with a healer's kit, surgeon's tools raise the kit's bonus to a +3 circumstance bonus on Heal checks to treat wounds or deadly wounds."
+    }
+  ]
+}

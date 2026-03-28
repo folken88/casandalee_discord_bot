@@ -1,0 +1,32 @@
+{
+  "name": "Zangremach",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 70
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 14,
+    "con": 20,
+    "int": 6,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Glaive +1",
+      "type": "weapon",
+      "equipped": true,
+      "description": "A glaive is composed of a simple blade mounted on the end of a pole about 7 feet in length."
+    }
+  ]
+}

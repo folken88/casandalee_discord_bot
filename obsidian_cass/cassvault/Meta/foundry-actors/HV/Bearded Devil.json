@@ -1,0 +1,25 @@
+{
+  "name": "Bearded Devil",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "outsider (devil,evil,extraplanar,lawful)",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 57
+  },
+  "abilities": {
+    "str": 19,
+    "dex": 15,
+    "con": 19,
+    "int": 6,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": []
+}

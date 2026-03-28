@@ -1,0 +1,25 @@
+{
+  "name": "Operation Skelly-Bomb",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 6
+    }
+  ],
+  "hp": {
+    "max": 36
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 14,
+    "con": 22,
+    "int": 14,
+    "wis": 16,
+    "cha": 22
+  },
+  "items": []
+}

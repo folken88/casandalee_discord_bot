@@ -1,0 +1,56 @@
+{
+  "name": "Astral Deva",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 157
+  },
+  "abilities": {
+    "str": 26,
+    "dex": 19,
+    "con": 21,
+    "int": 18,
+    "wis": 18,
+    "cha": 23
+  },
+  "items": [
+    {
+      "name": "Breastplate (Agile) MW",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This breastplate is specially crafted in a manner that allows extra maneuverability for some physical activities. The armor check penalty for Climb checks and Acrobatics checks made to jump is only –1 (masterwork and mithral versions of this armor reduce this penalty as well as the normal penalty)."
+    },
+    {
+      "name": "Greatersword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "This immense two-handed sword is about 5 feet in length. A greatsword may have a dulled lower blade that can be gripped."
+    },
+    {
+      "name": "Cloak of Resistance +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 5th\n\nThis garment offers magic protection in the form of a +1 to +5 resistance bonus on all saving throws (Fortitude, Reflex, and Will)."
+    },
+    {
+      "name": "Ring of Protection +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura faint abjuration; CL 5th\n\nThis ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC."
+    },
+    {
+      "name": "Amulet of Natural Armor +1",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Aura faint transmutation; CL 5th\n\nThis amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet."
+    }
+  ]
+}

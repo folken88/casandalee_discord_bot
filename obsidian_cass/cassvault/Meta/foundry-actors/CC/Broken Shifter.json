@@ -1,0 +1,32 @@
+{
+  "name": "Broken Shifter",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Skinwalker",
+  "classes": [
+    {
+      "name": "Shifter",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 26
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 14,
+    "int": 12,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "+1 Eel Hide Hide Armor",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Hide armor is made from the tanned skin of particularly thickhided beasts, stitched with either multiple overlapping layers of crude leather or exterior pieces of leather stuffed with padding or fur. Damage to the armor is typically repaired by restitching gashes or adding new pieces of hide, giving the most heavily used suits a distinctively patchwork quality.\nEel Hide\nThis supple material offers as much protection as leather, but is more flexible and resistant to electricity. Leather, hide, or"
+    }
+  ]
+}

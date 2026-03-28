@@ -1,0 +1,48 @@
+{
+  "name": "Jophiel",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": "Celestial",
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 2
+    },
+    {
+      "name": "Oracle",
+      "level": 13
+    }
+  ],
+  "hp": {
+    "max": 105
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 12,
+    "con": 13,
+    "int": 12,
+    "wis": 14,
+    "cha": 22
+  },
+  "items": [
+    {
+      "name": "Hanzo Steel",
+      "type": "weapon",
+      "equipped": true,
+      "description": "The Hanzo is a perfect example of the katana. +5 and keen, it cannot be improved upon. \n \nSpecifically constructed for samurai, katanas employ multiple types of steel combined in a distinctive forging process. The result are swords noted for their wickedly sharp yet slender, gently curved blades, designed to make graceful hacking strokes capable of severing opponents’ heads and limbs. Though finely balanced, these blades are difficult to master.\nBenefit: Characters can use a katana two-handed as"
+    },
+    {
+      "name": "+2 Bastard Sword",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Source Ultimate Equipment pg. 20, PRPG Core Rulebook pg. 143\nStatisticsDamage 1d8 (small), 1d10 (medium); Critical 19-20/x2; Range -; Type S\nWeapon Groups Blades, Heavy\nDescriptionA bastard sword is about 4 feet in length, making it too large to use in one hand without special training; thus, it is an exotic weapon. You can use a bastard sword two-handed as a martial weapon."
+    },
+    {
+      "name": "+1 Mithral Full Plate",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This metal suit comprises multiple pieces of interconnected and overlaying metal plates, incorporating the benefits of numerous types of lesser armor. A complete suit of full plate (or platemail, as it is often called) includes gauntlets, heavy leather boots, a visored helmet, and a thick layer of padding that is worn underneath the armor. Each suit of full plate must be individually fitted to its owner by a master armorsmith, although a captured suit can be resized to fit a new owner at a cost "
+    }
+  ]
+}

@@ -1,0 +1,207 @@
+{
+  "name": "Half Foods",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Parsley",
+      "type": "loot",
+      "equipped": true,
+      "description": "An herb with a fresh and bright taste, used to garnish and add flavor to various dishes."
+    },
+    {
+      "name": "Chili Powder",
+      "type": "loot",
+      "equipped": false,
+      "description": "A pungent spice made from ground dried chili peppers, used sparingly to add heat to dishes."
+    },
+    {
+      "name": "Basil",
+      "type": "loot",
+      "equipped": false,
+      "description": "A fragrant herb used in cooking and medicine, believed to have medicinal properties and valued for its pleasant aroma."
+    },
+    {
+      "name": "Celery Salt",
+      "type": "loot",
+      "equipped": false,
+      "description": "A seasoning made from ground celery seeds and salt, used to enhance flavor and as a remedy for various ailments."
+    },
+    {
+      "name": "Curry",
+      "type": "loot",
+      "equipped": false,
+      "description": "An aromatic blend of various spices, used to flavor dishes and create complex, savory flavors."
+    },
+    {
+      "name": "Bread, Baguette",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Usable as a blunt-weapon 4 days after baking."
+    },
+    {
+      "name": "Cheese",
+      "type": "loot",
+      "equipped": true,
+      "description": "A delectable dairy product, enjoyed as a standalone snack or used for culinary creations."
+    },
+    {
+      "name": "Paprika",
+      "type": "loot",
+      "equipped": false,
+      "description": "A mild and colorful spice made from ground dried peppers, used for color and subtle flavor."
+    },
+    {
+      "name": "Ginger",
+      "type": "loot",
+      "equipped": false,
+      "description": "A pungent root with medicinal properties, used both as a spice and a remedy for various ailments."
+    },
+    {
+      "name": "Vanilla Extract",
+      "type": "loot",
+      "equipped": true,
+      "description": "An exotic and rare spice derived from vanilla beans, used to flavor desserts and beverages."
+    },
+    {
+      "name": "Salt",
+      "type": "loot",
+      "equipped": false,
+      "description": "A basic mineral used to enhance the flavor of foods and preserve them.\nSalt is a vital mineral commodity. It is most commonly used as a desiccant and as a catalyst.\nAlchemical Power Component:\nDoses 20 (10 gp); Spells necromancy school\nSpells of the necromancy school are cast at +1 caster level for the purpose of effects."
+    },
+    {
+      "name": "Oregano",
+      "type": "loot",
+      "equipped": false,
+      "description": "A fragrant herb commonly used in Mediterranean cuisine for its bold flavor."
+    },
+    {
+      "name": "Egg",
+      "type": "loot",
+      "equipped": true,
+      "description": "Likely chicken or other domestic fowl."
+    },
+    {
+      "name": "Pepper, Black",
+      "type": "loot",
+      "equipped": false,
+      "description": "A ubiquitous spice with a pungent flavor, highly valued for its ability to enhance the taste of foods."
+    },
+    {
+      "name": "Cinnamon",
+      "type": "loot",
+      "equipped": false,
+      "description": "An exotic and highly prized spice with a sweet and warm flavor, often used in desserts and beverages."
+    },
+    {
+      "name": "Flour, Bag O",
+      "type": "loot",
+      "equipped": true,
+      "description": "For the finest biscuits, cakes and pies."
+    },
+    {
+      "name": "Pepper, Cayenne",
+      "type": "loot",
+      "equipped": false,
+      "description": "A fiery spice made from ground dried cayenne peppers, used to add intense heat to dishes."
+    },
+    {
+      "name": "Rosemary",
+      "type": "loot",
+      "equipped": false,
+      "description": "An aromatic herb with a pine-like flavor, often used to season meats and roasted dishes."
+    },
+    {
+      "name": "Sugar",
+      "type": "loot",
+      "equipped": true,
+      "description": "A prized sweetener used in desserts and various dishes, often imported from exotic lands. Borrowable."
+    },
+    {
+      "name": "Butter",
+      "type": "loot",
+      "equipped": true,
+      "description": "A common cooking fat, adding richness to recipes."
+    },
+    {
+      "name": "Cumin",
+      "type": "loot",
+      "equipped": false,
+      "description": "A spice with a strong, earthy flavor, used in cooking and for its purported health benefits."
+    },
+    {
+      "name": "Thyme",
+      "type": "loot",
+      "equipped": false,
+      "description": "A fragrant herb used for seasoning and cooking due to its pleasant aroma and taste."
+    },
+    {
+      "name": "Nutmeg",
+      "type": "loot",
+      "equipped": false,
+      "description": "A sweet and aromatic spice derived from the seed of a tree, used in both savory and sweet dishes."
+    },
+    {
+      "name": "Ham, Pork Leg",
+      "type": "weapon",
+      "equipped": true,
+      "description": "Usable as a melee weapon."
+    },
+    {
+      "name": "The Brutal",
+      "type": "weapon",
+      "equipped": true,
+      "description": "By Brutal Blades, Absalom City."
+    },
+    {
+      "name": "Salt, Sea",
+      "type": "loot",
+      "equipped": false,
+      "description": "Salt obtained from evaporated seawater, considered a luxury item in the 15th century.\nSalt is a vital mineral commodity. It is most commonly used as a desiccant and as a catalyst.\nAlchemical Power Component:\nDoses 20 (10 gp); Spells necromancy school\nSpells of the necromancy school are cast at +1 caster level for the purpose of effects."
+    },
+    {
+      "name": "Pepper, White",
+      "type": "loot",
+      "equipped": false,
+      "description": "Similar to black pepper but milder, used to add flavor without altering the appearance of dishes."
+    },
+    {
+      "name": "Broth, Cup-O",
+      "type": "loot",
+      "equipped": true,
+      "description": "A savory and hearty broth made from simmering beef bones, vegetables, and herbs, used as a base for soups and stews."
+    },
+    {
+      "name": "Bacon",
+      "type": "loot",
+      "equipped": true,
+      "description": "Likely hog."
+    },
+    {
+      "name": "Tumeric",
+      "type": "loot",
+      "equipped": false,
+      "description": "A vibrant and earthy spice, used for both coloring and flavoring dishes."
+    },
+    {
+      "name": "Ground Beef",
+      "type": "loot",
+      "equipped": true,
+      "description": "Not necessarily beef…."
+    }
+  ]
+}

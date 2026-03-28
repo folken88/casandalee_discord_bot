@@ -1,0 +1,25 @@
+{
+  "name": "Great White Shark",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Race: Animal",
+  "classes": [
+    {
+      "name": "Animal (Aquatic)",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 65
+  },
+  "abilities": {
+    "str": 34,
+    "dex": 20,
+    "con": 20,
+    "int": 4,
+    "wis": 20,
+    "cha": 4
+  },
+  "items": []
+}

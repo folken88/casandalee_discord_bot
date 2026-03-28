@@ -1,0 +1,27 @@
+{
+  "name": "Papers",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 10,
+    "int": 10,
+    "wis": 10,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "handwritten note",
+      "type": "loot",
+      "equipped": true,
+      "description": "if its one of you reading this.\nFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOU\nFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOU\nFUCKYOUIWILLKILLYOURENTIREFAMILYFUCKYOUFUCKYOUFUCKYOU\nFUCKYOUFUCKYOUFUCKYOUTHEYWILLDIESCREAMINGFUCKYOU\nFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOU\nFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOU\nFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOU\nFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOUFUCKYOU\nFUCKYOU\nsee you soon."
+    }
+  ]
+}

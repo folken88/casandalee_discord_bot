@@ -1,0 +1,25 @@
+{
+  "name": "Bruebeck",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Half-Elf",
+  "classes": [
+    {
+      "name": "Seaman",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 12
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 14,
+    "con": 12,
+    "int": 10,
+    "wis": 16,
+    "cha": 11
+  },
+  "items": []
+}

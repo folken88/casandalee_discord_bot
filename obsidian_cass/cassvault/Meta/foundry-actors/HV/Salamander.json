@@ -1,0 +1,25 @@
+{
+  "name": "Salamander",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [
+    {
+      "name": "Outsider",
+      "level": 8
+    }
+  ],
+  "hp": {
+    "max": 76
+  },
+  "abilities": {
+    "str": 16,
+    "dex": 13,
+    "con": 18,
+    "int": 14,
+    "wis": 15,
+    "cha": 13
+  },
+  "items": []
+}

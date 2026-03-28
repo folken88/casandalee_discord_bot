@@ -8,14 +8,17 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T16:45:12.206Z"
+updated: "2026-03-28T03:18:42.416Z"
 ---
 
 # Mockery
 
+**Race:** Unknown | **Class:** Unknown
+
 ## Notes & Updates
 
-- Party has met him several times, always in disguise to some extent, looks different each time, appearance recently redrawn by GM; A character the party has met several times who always appears in disguise and looks different each time; Suggested as someone who might want the Black Sovereign healed, potentially an ally *(youtube-transcript, 3/25/2026)*
+- Potential buyer of fenced items from Starfall Underground Market. *(youtube-transcript, 3/28/2026)*
+- A character who will invite the players to the Underground Market. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 

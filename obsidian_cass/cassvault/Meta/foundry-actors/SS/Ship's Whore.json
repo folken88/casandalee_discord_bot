@@ -1,0 +1,24 @@
+{
+  "name": "Ship's Whore",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Undead",
+      "level": 2
+    }
+  ],
+  "hp": {
+    "max": 16
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 15,
+    "int": 13,
+    "wis": 14,
+    "cha": 14
+  },
+  "items": []
+}

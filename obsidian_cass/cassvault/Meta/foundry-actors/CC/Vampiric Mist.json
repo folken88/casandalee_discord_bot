@@ -1,0 +1,25 @@
+{
+  "name": "Vampiric Mist",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": null,
+  "classes": [
+    {
+      "name": "Vampire",
+      "level": 4
+    }
+  ],
+  "hp": {
+    "max": 20
+  },
+  "abilities": {
+    "str": 0,
+    "dex": 19,
+    "con": 16,
+    "int": 7,
+    "wis": 13,
+    "cha": 10
+  },
+  "items": []
+}

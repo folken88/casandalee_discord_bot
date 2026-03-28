@@ -1,0 +1,20 @@
+{
+  "name": "Warmonger Devil (Levaloch)",
+  "type": "npc",
+  "campaign": "HV",
+  "source": "world",
+  "race": null,
+  "classes": [],
+  "hp": {
+    "max": null
+  },
+  "abilities": {
+    "str": 20,
+    "dex": 17,
+    "con": 19,
+    "int": 14,
+    "wis": 16,
+    "cha": 15
+  },
+  "items": []
+}

@@ -1,0 +1,74 @@
+{
+  "name": "Sila Desaulis (MIA)",
+  "type": "character",
+  "campaign": "IG",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Sorcerer",
+      "level": 15
+    }
+  ],
+  "hp": {
+    "max": 21
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 14,
+    "con": 13,
+    "int": 10,
+    "wis": 10,
+    "cha": 18
+  },
+  "items": [
+    {
+      "name": "DNA Bonded Wirejack Tendons (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nWirejack tendons not only strengthen and enhance existing reflexes, but also enhance the transmission of nerve impulses to surrounding musculature. Once installed, wirejack tendons grant an enhancement bonus to Dexterity."
+    },
+    {
+      "name": "DNA Bonded Nanite Chamber (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nA thoracic nanite chamber augments the vital organs within a creature's chest, particularly its heart, lungs, and pulmonary system. Once installed, a thoracic nanite chamber grants an enhancement bonus to Constitution."
+    },
+    {
+      "name": "DNA Bonded Dermal Plating (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nThese plates exist under the skin and provide increased resistance to physical attacks. They are undetectable normally, but are visible when struck and for a few moments afterwords."
+    },
+    {
+      "name": "DNA Bonded Cybernetic Legs (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nA cybernetic leg completely replaces a normal leg, from the hip to the foot. It can take the place of a leg lost to a severing wound. The leg is fully functional and no different in appearance from a regular leg, although cyberart can be added to the leg at no additional cost. A cybernetic leg does not increase a user's Strength score. If both legs are replaced, they increase the user's base land speed by 10 feet and grant a +5 bonus to CMD against trip attempts and a +5 circumstance"
+    },
+    {
+      "name": "DNA Bonded Skillslot",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nA skillslot is implanted into the target's brain, leaving a small port at the base of the skull. This port is covered with a flap of skin when not in use. Once installed, a skillslot has no effect until a skillchip is inserted into the port (see page 52 for information on the various forms of available skillchips.) An inserted skillchip enhances the user's ability in the skill encoded on the chip; the magnitude to which the skill is enhanced depends on the power of the skillchip. Thi"
+    },
+    {
+      "name": "DNA Bonded Cyberfiber Muscles (Mark I)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\nCyberfiber muscles are powerful synthetic muscles that augment but do not replace existing muscle mass in a creature. Once installed, cyberfiber muscles grant an enhancement bonus to Strength. This enhancement bonus alters price, implantation value, install DCs, and Craft DCs as listed below."
+    },
+    {
+      "name": "DNA Bonded Tracker Chip",
+      "type": "equipment",
+      "equipped": true,
+      "description": ""
+    },
+    {
+      "name": "DNA Bonded Implant Mesh (Mark II)",
+      "type": "equipment",
+      "equipped": true,
+      "description": "Description\n\nAn implant mesh is a cybernetic augmentation that enhanced other cybernetic implants, notably those that heighten their wearers' physical abilities. If used to enhance cyberfiber musclesTG, a thoracic nanite chamberTG, or wirejack tendonsTG, an implant mesh must be installed on that piece of cyberware before the item is implanted in a body. \n\n \n\nThis implant mesh supports up to 3 physical body mods with a maximum bonus of +2."
+    }
+  ]
+}

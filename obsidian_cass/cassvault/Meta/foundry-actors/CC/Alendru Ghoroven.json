@@ -1,0 +1,25 @@
+{
+  "name": "Alendru Ghoroven",
+  "type": "character",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Wizard",
+      "level": 5
+    }
+  ],
+  "hp": {
+    "max": 11
+  },
+  "abilities": {
+    "str": 10,
+    "dex": 10,
+    "con": 12,
+    "int": 16,
+    "wis": 11,
+    "cha": 12
+  },
+  "items": []
+}

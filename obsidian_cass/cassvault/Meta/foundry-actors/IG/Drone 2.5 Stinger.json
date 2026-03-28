@@ -1,0 +1,25 @@
+{
+  "name": "Drone 2.5 Stinger",
+  "type": "npc",
+  "campaign": "IG",
+  "source": "world",
+  "race": "Android",
+  "classes": [
+    {
+      "name": "Construct",
+      "level": 3
+    }
+  ],
+  "hp": {
+    "max": 1
+  },
+  "abilities": {
+    "str": 6,
+    "dex": 24,
+    "con": 4,
+    "int": 8,
+    "wis": 14,
+    "cha": 1
+  },
+  "items": []
+}

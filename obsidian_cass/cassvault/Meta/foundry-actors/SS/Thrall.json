@@ -1,0 +1,29 @@
+{
+  "name": "Thrall",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "world",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Nidalese Undead",
+      "level": 1
+    },
+    {
+      "name": "Sailor",
+      "level": 1
+    }
+  ],
+  "hp": {
+    "max": 22
+  },
+  "abilities": {
+    "str": 13,
+    "dex": 12,
+    "con": 16,
+    "int": 10,
+    "wis": 11,
+    "cha": 12
+  },
+  "items": []
+}

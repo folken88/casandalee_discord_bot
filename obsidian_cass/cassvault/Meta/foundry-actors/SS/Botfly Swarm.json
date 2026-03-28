@@ -1,0 +1,24 @@
+{
+  "name": "Botfly Swarm",
+  "type": "npc",
+  "campaign": "SS",
+  "source": "compendium",
+  "race": "Race: Vermin",
+  "classes": [
+    {
+      "name": "Vermin",
+      "level": 7
+    }
+  ],
+  "hp": {
+    "max": 56
+  },
+  "abilities": {
+    "str": 1,
+    "dex": 13,
+    "con": 10,
+    "wis": 12,
+    "cha": 5
+  },
+  "items": []
+}

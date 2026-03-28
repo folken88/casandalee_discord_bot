@@ -1,0 +1,42 @@
+{
+  "name": "WW Practitioner",
+  "type": "npc",
+  "campaign": "CC",
+  "source": "compendium",
+  "race": "Human",
+  "classes": [
+    {
+      "name": "Alchemist",
+      "level": 8
+    },
+    {
+      "name": "Alchemist",
+      "level": 12
+    }
+  ],
+  "hp": {
+    "max": 44
+  },
+  "abilities": {
+    "str": 12,
+    "dex": 16,
+    "con": 12,
+    "int": 16,
+    "wis": 12,
+    "cha": 10
+  },
+  "items": [
+    {
+      "name": "Robes of the Whispering Way",
+      "type": "equipment",
+      "equipped": true,
+      "description": "These black and green traveling robes are enchanted for protection and durability. Even then, they are very worn from travel and use. They provide protection as light armor but do not interfere wtih spellcasting, item use, or general mobility.\nThe integrated mask also provides a constant air-bubble, and completely conceals the wearer's identity by covering every part of the body.\nThe suit increases Acid Resistance by 20."
+    },
+    {
+      "name": "Tyrant's Band",
+      "type": "equipment",
+      "equipped": true,
+      "description": "This ring, forged from black steel and set with six deep emerald gems, exudes a sense of dark purpose and power. The centerpiece is a skull, its mouth gagged—an emblem reflecting the cult's reverence for silence and secrets, and their goal of serving the Whispering Tyrant, Tar-Baphon, the former ruler of Ustalav. Each gem could be said to represent an aspect of the Tyrant's power, and the gagged skull symbolizes the silence under which these powers must be reassembled.\nBase Ability: As a Ring of"
+    }
+  ]
+}
