@@ -87,9 +87,14 @@ class NameResolver {
         }
 
         // 4. Fuzzy match using Levenshtein distance
+        // Skip fuzzy matching for very short inputs (≤3 chars) — too many false positives
+        // ("what" → "Chad", "tell" → "Hell", "coat" → "Goat")
+        if (lower.length <= 3) return null;
+
         let bestMatch = null;
         let bestDistance = Infinity;
-        const maxDistance = Math.max(2, Math.floor(lower.length * 0.4));
+        // Require at least 60% character overlap for short words, max distance 3
+        const maxDistance = Math.min(3, Math.max(1, Math.floor(lower.length * 0.3)));
 
         for (const [alias, canonical] of this.aliases.entries()) {
             const dist = this.editDistance(lower, alias);
@@ -214,7 +219,7 @@ class NameResolver {
                     name,
                     distance: this.editDistance(lower, name.toLowerCase())
                 }))
-                .filter(m => m.distance <= Math.max(2, Math.floor(lower.length * 0.4)))
+                .filter(m => m.distance <= Math.min(3, Math.max(1, Math.floor(lower.length * 0.3))))
                 .sort((a, b) => a.distance - b.distance);
 
             for (const match of fuzzyMatches) {

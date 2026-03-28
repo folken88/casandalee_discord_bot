@@ -101,8 +101,9 @@ class VaultSearch {
             mentions: [],    // Character/place names found in body
         };
 
-        // Parse YAML frontmatter
-        const fmMatch = content.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
+        // Parse YAML frontmatter (handle both \n and \r\n line endings)
+        const normalized = content.replace(/\r\n/g, '\n');
+        const fmMatch = normalized.match(/^---\n([\s\S]*?)\n---\n?([\s\S]*)$/);
         if (fmMatch) {
             note.body = fmMatch[2];
             const yaml = fmMatch[1];

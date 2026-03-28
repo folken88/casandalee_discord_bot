@@ -427,13 +427,17 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
                 }
             }
 
-            // Get current personality (may switch based on query count / time)
-            const selectedPersonality = this.getCurrentPersonality(query);
+            // Provider-aware personality selection:
+            // Claude gets high-INT past lives (wizards, archivists, goddess)
+            // Ollama gets low-INT past lives (fighters, barbarians, paladins)
+            const claudePersonality = personalityManager.selectForProvider('claude', query);
+            const ollamaPersonality = personalityManager.selectForProvider('ollama', query);
+
             const context = campaignContext.getContextForLLM();
-            
-            // Build personality-specific prompt using the new manager
-            let personalityPrompt = this.systemPrompt;
-            personalityPrompt += personalityManager.buildPromptFragment(selectedPersonality);
+
+            // Build personality-specific prompts for each provider tier
+            const claudePersonalityPrompt = this.systemPrompt + personalityManager.buildPromptFragment(claudePersonality);
+            const ollamaPersonalityPrompt = this.systemPrompt + personalityManager.buildPromptFragment(ollamaPersonality);
 
             // Check if we have dossier context for any mentioned character
             const characterName = this.extractCharacterNameFromQuery(query);
@@ -478,15 +482,22 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
                 console.log(`⚠️ Vault search error (non-fatal): ${err.message}`);
             }
 
-            // Use LLM Router: Claude Haiku for user-facing responses
-            const systemPrompt = `${personalityPrompt}\n\nCurrent Campaign Context:\n${context}${dossierContext}${learnedContext}${transcriptContext}${vaultContext}`;
+            // Claude system prompt: high-INT personality + full context
+            const systemPrompt = `${claudePersonalityPrompt}\n\nCurrent Campaign Context:\n${context}${dossierContext}${learnedContext}${transcriptContext}${vaultContext}`;
             // username is the speaker's display name (Iron Gods character name when mapped, else Discord username)
             const userPrompt = `${username} asks: ${query}`;
 
+            const claudeLabel = claudePersonality.type === 'goddess'
+                ? 'Goddess (INT 20)'
+                : `Life #${claudePersonality.lifeNumber} ${claudePersonality.name} (${claudePersonality.class}, INT ${claudePersonality.stats?.int ?? '?'})`;
+            const ollamaLabel = `Life #${ollamaPersonality.lifeNumber} ${ollamaPersonality.name} (${ollamaPersonality.class}, INT ${ollamaPersonality.stats?.int ?? '?'})`;
+            console.log(`🧠 Claude personality: ${claudeLabel}`);
+            console.log(`💪 Ollama personality: ${ollamaLabel}`);
             console.log(`📝 System prompt size: ${systemPrompt.length} chars`);
             console.log(`📝 Vault context included: ${vaultContext.length > 0 ? 'YES' : 'NO'}`);
 
             // Structured Answer Pipeline: build a fact sheet for Ollama fallback
+            // Uses the low-INT personality so the Ollama response is in-character
             let ollamaPrompt = undefined;
             try {
                 const answerBuilder = require('./answerBuilder');
@@ -496,13 +507,16 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
                 if (classification.type !== 'GENERAL') {
                     const factSheet = answerBuilder.buildFactSheet(query, classification);
                     if (factSheet) {
-                        const pName = selectedPersonality?.name || 'Casandalee';
-                        const pAlign = selectedPersonality?.alignment || 'Neutral Good';
-                        ollamaPrompt = answerBuilder.buildOllamaPrompt(factSheet, pName, pAlign);
+                        ollamaPrompt = answerBuilder.buildOllamaPrompt(factSheet, ollamaPersonality.name, ollamaPersonality.alignment);
                         console.log(`📋 Fact sheet built (${classification.type}): ${factSheet.length} chars`);
                     } else {
                         console.log(`📋 No facts found for ${classification.type} query`);
                     }
+                }
+
+                // If no structured facts, still give Ollama the low-INT personality + vault context
+                if (!ollamaPrompt) {
+                    ollamaPrompt = `${ollamaPersonalityPrompt}\n\nCurrent Campaign Context:\n${context}${dossierContext}${learnedContext}${transcriptContext}${vaultContext}`;
                 }
             } catch (abErr) {
                 console.log(`⚠️ AnswerBuilder error (non-fatal): ${abErr.message}`);
@@ -517,7 +531,9 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
                     temperature: 0.7
                 });
 
-                console.log(`🤖 Response from ${result.provider}: "${result.text?.substring(0, 100)}"`);
+                // Log which personality actually spoke
+                const actualPersonality = result.provider.includes('ollama') ? ollamaLabel : claudeLabel;
+                console.log(`🤖 Response from ${result.provider} as ${actualPersonality}: "${result.text?.substring(0, 100)}"`);
                 return result.text;
             } catch (routerError) {
                 console.error('LLM Router failed (Claude + Ollama both down):', routerError.message);

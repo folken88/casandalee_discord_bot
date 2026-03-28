@@ -20,7 +20,9 @@ const QUERY_PATTERNS = [
         /^who\s+is\s+/i, /^who'?s\s+/i, /^tell\s+me\s+about\s+/i,
         /^what\s+do\s+you\s+know\s+about\s+/i, /^describe\s+/i,
         /^what\s+(?:race|class|level)\s+is\s+/i,
-        /^what\s+can\s+you\s+tell\s+me\s+about\s+/i
+        /^what\s+can\s+you\s+tell\s+me\s+about\s+/i,
+        /^what\s+\w+\s+does\s+\w+\s+have/i,  // "what heads does rhyarca have"
+        /^what\s+(?:items?|gear|equipment|inventory|spells?|abilities?)\s+does\s+/i
     ]},
     { type: 'WHEN', patterns: [
         /^when\s+did\s+/i, /^what\s+(?:date|year|time)\s+/i,
@@ -47,7 +49,9 @@ const STOP_WORDS = new Set([
     'should','this','that','with','from','for','and','but','not','tell','me',
     'know','you','your','my','our','their','his','her','its','be','been','being',
     'get','got','say','said','like','just','also','very','really','please',
-    'happened','happen','start','started','die','died','killed','kill'
+    'happened','happen','start','started','die','died','killed','kill',
+    'class','race','level','play','plays','played','carry','carries','carried',
+    'item','items','many','much','does','some','any','all','head','heads'
 ]);
 
 class AnswerBuilder {
@@ -222,8 +226,25 @@ class AnswerBuilder {
             if (equipMatch) {
                 const itemNames = equipMatch[1].match(/\*\*([^*]+)\*\*/g);
                 if (itemNames && itemNames.length > 0) {
-                    const cleaned = itemNames.slice(0, 5).map(n => n.replace(/\*\*/g, ''));
+                    const cleaned = itemNames.slice(0, 8).map(n => n.replace(/\*\*/g, ''));
                     lines.push(`- Key items: ${cleaned.join(', ')}`);
+                }
+            }
+
+            // Extract Signature Maneuvers (e.g., The Elfrope)
+            const sigMatch = note.body.match(/## Signature Maneuvers\n([\s\S]*?)(?=\n## |$)/);
+            if (sigMatch) {
+                const maneuvers = sigMatch[1].trim().substring(0, 400);
+                lines.push(`- Signature maneuvers: ${maneuvers.replace(/### /g, '').replace(/\n/g, ' ')}`);
+            }
+
+            // Extract Key Abilities
+            const abilitiesMatch = note.body.match(/## Key Abilities\n([\s\S]*?)(?=\n## |$)/);
+            if (abilitiesMatch) {
+                const abilNames = abilitiesMatch[1].match(/\*\*([^*]+)\*\*/g);
+                if (abilNames && abilNames.length > 0) {
+                    const cleaned = abilNames.slice(0, 5).map(n => n.replace(/\*\*/g, ''));
+                    lines.push(`- Key abilities: ${cleaned.join(', ')}`);
                 }
             }
 
@@ -234,6 +255,23 @@ class AnswerBuilder {
                 if (bullets && bullets.length > 0) {
                     const recent = bullets[0].substring(0, 200);
                     lines.push(`- Recent: ${recent}`);
+                }
+            }
+
+            // Cross-reference: items owned by this character
+            // Check both full name ("Rhyarca Jillyr") and first name ("Rhyarca")
+            const idx = vaultSearch.buildIndex();
+            const entityLower = entity.toLowerCase();
+            const firstNameLower = entityLower.split(/\s+/)[0];
+            const ownedItems = idx.filter(n => {
+                if ((n.frontmatter.type || '').toLowerCase() !== 'item') return false;
+                const ownerLower = (n.frontmatter.owner || '').toLowerCase();
+                return ownerLower.includes(entityLower) || ownerLower.includes(firstNameLower);
+            });
+            if (ownedItems.length > 0) {
+                for (const item of ownedItems.slice(0, 3)) {
+                    const body = item.body.replace(/^#.+\n/gm, '').trim();
+                    lines.push(`- Owned item "${item.frontmatter.name}": ${body.substring(0, 500)}`);
                 }
             }
 

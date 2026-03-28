@@ -196,7 +196,8 @@ class PersonalityManager {
 
         // Extract stats (Pathfinder STR, DEX, CON, WIS, INT, CHA); fallback to full content if section match fails
         const getStatFromText = (text, key) => {
-            const re = new RegExp(`\\*\\*${key}\\*\\*:\\s*(\\d+)`, 'i');
+            // Handle both **INT**: 18 and **INT:** 18 (colon inside or outside bold)
+            const re = new RegExp(`\\*\\*${key}:?\\*\\*:?\\s*(\\d+)`, 'i');
             const m = text.match(re);
             return m ? parseInt(m[1], 10) : undefined;
         };
@@ -396,6 +397,80 @@ class PersonalityManager {
         }
 
         return this.current;
+    }
+
+    /**
+     * Select a personality filtered by provider intelligence tier.
+     * Claude = high INT (scholar/wizard/goddess), Ollama = low INT (fighter/barbarian/paladin).
+     * @param {'claude'|'ollama'} provider - Which LLM provider answered
+     * @param {string} [queryContext] - Optional query for context-aware selection
+     * @returns {Object} Selected personality data
+     */
+    selectForProvider(provider, queryContext = '') {
+        const isClaudeProvider = provider === 'claude';
+
+        // INT thresholds: Claude gets INT 14+, Ollama gets INT 12 or below
+        const intMin = isClaudeProvider ? 14 : 0;
+        const intMax = isClaudeProvider ? 99 : 12;
+
+        // Goddess form is always Claude-tier (INT 20)
+        if (isClaudeProvider) {
+            const roll = Math.floor(Math.random() * 100) + 1;
+            if (roll >= 72 && this.goddessForm) {
+                this.usageCounts.set(0, (this.usageCounts.get(0) || 0) + 1);
+                this.totalSelections++;
+                return { type: 'goddess', roll, ...this.goddessForm };
+            }
+        }
+
+        // Filter candidates by INT range
+        const candidates = [...this.personalities.entries()].filter(([, data]) => {
+            const int = data.stats?.int ?? 10;
+            return int >= intMin && int <= intMax;
+        });
+
+        if (candidates.length === 0) {
+            // Fallback: use any personality
+            logger.warn(`No personalities in INT range ${intMin}-${intMax} for ${provider}, using unfiltered`);
+            return this.select(queryContext);
+        }
+
+        // Weighted selection favoring underused, with context bonus
+        const avgUsage = this.totalSelections > 0
+            ? this.totalSelections / candidates.length
+            : 1;
+
+        const weights = candidates.map(([lifeNum, data]) => {
+            const usage = this.usageCounts.get(lifeNum) || 0;
+            let weight = Math.max(1, (avgUsage + 1) - usage) * 10;
+            if (queryContext) weight += this._contextBonus(data, queryContext);
+            return { lifeNum, data, weight };
+        });
+
+        const totalWeight = weights.reduce((sum, w) => sum + w.weight, 0);
+        let rand = Math.random() * totalWeight;
+
+        for (const entry of weights) {
+            rand -= entry.weight;
+            if (rand <= 0) {
+                this.usageCounts.set(entry.lifeNum, (this.usageCounts.get(entry.lifeNum) || 0) + 1);
+                this.totalSelections++;
+                const selected = {
+                    type: 'past_life',
+                    roll: 0,
+                    lifeNumber: entry.lifeNum.toString(),
+                    ...entry.data
+                };
+                const intScore = entry.data.stats?.int ?? 10;
+                logger.info(`Provider-aware personality: ${provider} → Life #${entry.lifeNum} ${entry.data.name} (${entry.data.class}, INT ${intScore})`);
+                return selected;
+            }
+        }
+
+        // Fallback
+        const first = candidates[0];
+        this.totalSelections++;
+        return { type: 'past_life', roll: 0, lifeNumber: first[0].toString(), ...first[1] };
     }
 
     /**

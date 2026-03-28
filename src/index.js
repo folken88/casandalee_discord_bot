@@ -171,7 +171,7 @@ client.once(Events.ClientReady, async readyClient => {
             { name: 'Gaspar', aliases: ['gaspar', 'william gaspar', 'william'] },          // Tim
             { name: 'Kovira', aliases: ['kovira'] },                                       // Sydney
             { name: 'Kai', aliases: ['kai', 'kai gin'] },                                  // Graham
-            { name: 'Elfrip', aliases: ['elfrip'] },                                       // Anna
+            { name: 'Elfrip', aliases: ['elfrip', 'elfrope', 'the elfrope'] },              // Anna
             { name: 'Dinvaya', aliases: ['dinvaya'] },                                     // Josh
             { name: 'Kate Blackwood', aliases: ['kate', 'kate-blackwood', 'blackwood', 'kate blackwood'] }, // Mandi
             { name: 'Rodney Danger Smith', aliases: ['rodney', 'rodney-danger-smith', 'danger smith', 'rds', 'rodney danger smith'] }, // Chris

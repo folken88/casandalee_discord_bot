@@ -9,8 +9,9 @@ const path = require('path');
 require('dotenv').config({ path: path.join(__dirname, '../.env'), override: true });
 
 // Override Docker-internal hostname for local testing
-if (process.env.OLLAMA_URL && process.env.OLLAMA_URL.includes('host.docker.internal')) {
-    process.env.OLLAMA_URL = process.env.OLLAMA_URL.replace('host.docker.internal', 'localhost');
+// Docker Ollama is mapped to port 5080 on the host
+if (process.env.OLLAMA_URL) {
+    process.env.OLLAMA_URL = 'http://localhost:5080';
 }
 
 const llmHandler = require('../src/utils/llmHandler');
