@@ -8,14 +8,17 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-28T02:54:24.416Z"
+updated: "2026-03-28T04:22:32.179Z"
 ---
 
 # V
 
+**Race:** Unknown | **Class:** Unknown
+
 ## Notes & Updates
 
 - Unknown, but mentioned as a potential source of Reincarnate spell knowledge. *(youtube-transcript, 3/28/2026)*
+- Running and punching a target in the noggin. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 

@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-28T03:22:49.596Z"
+updated: "2026-03-28T04:22:32.070Z"
 ---
 
 # Riviera
@@ -28,7 +28,7 @@ updated: "2026-03-28T03:22:49.596Z"
 - Will catch up if R shows up.; Character is mentioned as being involved in a fight with an officer.; Possibly having knowledge religion skill; Discussing the history of the island with knowledge local check; Navigator of the Pillager's Knife. *(youtube-transcript, 3/28/2026)*
 - Providing knowledge about trees, rolling for stealth and invisibility. *(youtube-transcript, 3/28/2026)*
 - Putting herself in range of enemies, trying to grapple an enemy behind cover *(youtube-transcript, 3/28/2026)*
-- Taking a shot at an enemy with a minus four modifier.; Dangling from the bow sprit firing on targets 100-200 feet Northwest of the main group.; Examined the stolen papers and kept one.; Discussed in relation to cannon firing and navigation; Shot one of their aft gun ports and caused a door to swing shut.; Helps with timing for boarding and provides buffs.; Attacking with a long rifle.; Using knowledge engineering to identify the source of gunfire.; Part of the crew *(youtube-transcript, 3/28/2026)*
+- Navigating through the channel to safely leave the harbor.; Training Louon to load Toran.; Loading her rifle and firing across the bay; Participated in the battle, received damage from a pistol shot.; Fighting on the pier and critically hitting a holding militia man. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 

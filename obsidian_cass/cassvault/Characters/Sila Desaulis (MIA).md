@@ -26,3 +26,5 @@ foundry_synced: "2026-03-28"
 ## Notes & Updates
 
 *No session notes yet.*
+
+- Technically Captain who has been missing for several months, specialist in robots and gearsman. *(youtube-transcript, 3/28/2026)*

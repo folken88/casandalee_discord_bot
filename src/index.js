@@ -154,11 +154,12 @@ client.once(Events.ClientReady, async readyClient => {
             { name: 'Mr Brow', aliases: ['brow', 'mr brow', 'mr. brow', 'augustus', 'augustus teabrow', 'mr augustus teabrow', 'teabrow'] }, // Enrique
             { name: 'Olbryn', aliases: ['olb', 'olbrynn', 'olbryn', 'drow'] },           // Josh
             { name: 'Akradenn', aliases: ['akrad', 'akradden', 'akradenn', 'akraden'] },  // Tim
+            { name: 'Maginnis', aliases: ['maginnis', 'mcginnis', 'mcginniss', 'toca mcginnis'] }, // Hans
             { name: 'Luna', aliases: ['luna'] },                                          // Rye
 
             // === Skull & Shackles PCs ===
             { name: 'Holden', aliases: ['holden', 'holden aleistair', 'aleistair', 'captain oblivious'] }, // Kip
-            { name: 'Storgrim', aliases: ['storgrim', 'stor', 'storgrim thunderbeard', 'thunderbeard'] }, // Daemon
+            { name: 'Storgrim', aliases: ['storgrim', 'stor', 'stor grim', 'store grim', 'storgrim thunderbeard', 'thunderbeard'] }, // Daemon
             { name: 'Sha-Feng', aliases: ['sha-feng', 'shafeng', 'sha feng', 'sha'] },   // Enrique
             { name: 'Ser-Toche', aliases: ['ser-toche', 'sertoche', 'ser toche', 'toche'] }, // Josh
             { name: 'Vaughan', aliases: ['vaughan', 'lil vaughan', 'lil vaughn'] },        // Tim
@@ -172,7 +173,7 @@ client.once(Events.ClientReady, async readyClient => {
             { name: 'Kovira', aliases: ['kovira'] },                                       // Sydney
             { name: 'Kai', aliases: ['kai', 'kai gin'] },                                  // Graham
             { name: 'Elfrip', aliases: ['elfrip', 'elfrope', 'the elfrope'] },              // Anna
-            { name: 'Dinvaya', aliases: ['dinvaya'] },                                     // Josh
+            { name: 'Dinvaya', aliases: ['dinvaya', 'denvaya', 'denva', 'dinvaya denva'] },   // Josh
             { name: 'Kate Blackwood', aliases: ['kate', 'kate-blackwood', 'blackwood', 'kate blackwood'] }, // Mandi
             { name: 'Rodney Danger Smith', aliases: ['rodney', 'rodney-danger-smith', 'danger smith', 'rds', 'rodney danger smith'] }, // Chris
             { name: 'Dismas', aliases: ['dismas', 'dismas aevrett', 'aevrett'] },          // Harrison

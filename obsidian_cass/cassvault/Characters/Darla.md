@@ -8,16 +8,17 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-25T16:31:45.759Z"
+updated: "2026-03-28T04:18:18.934Z"
 ---
 
 # Darla
 
-HP 84/84 | Halfling Negotiator (Bard) | Level 8
+**Race:** Unknown | **Class:** Unknown
 
 ## Notes & Updates
 
 - A player character involved in combat; other players are making tactical decisions to avoid forcing her to use move actions *(youtube-transcript, 3/25/2026)*
+- Gave a nagadashi sword and provided spell support. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 

@@ -1,17 +1,22 @@
 ---
 name: "Lorun"
 type: character
-campaign: "HV"
-tags: [character, hv]
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T04:22:32.145Z"
 ---
 
 # Lorun
 
-**Race:** Unknown | **Class:** Unknown | **Level:** ?
+## Notes & Updates
 
+- Experienced a roller coaster of emotions towards an NPC. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Hell's Vengeance -  Dropping The Rock 2023 10 08
-Swashbuckler with high armor class (28 touch AC). Gets flanked and power attacks the Redactor, missing by one. Described as bananas and crazy pants.
-
+*Session activity from YouTube transcripts will appear here.*

@@ -8,14 +8,17 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-28T03:22:49.688Z"
+updated: "2026-03-28T04:22:32.169Z"
 ---
 
 # Vau
 
+**Race:** Unknown | **Class:** Unknown
+
 ## Notes & Updates
 
 - Mentioned as the Captain for a gun; Shooting at the Red Courage crew and missing.; 20 ft more or less West of Holden, part of the crew. *(youtube-transcript, 3/28/2026)*
+- Blinded by glitter dust, critted by Sarah's sneak attack. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 

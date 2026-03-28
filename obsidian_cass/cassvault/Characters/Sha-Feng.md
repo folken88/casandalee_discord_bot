@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-28T03:22:49.627Z"
+updated: "2026-03-28T04:22:32.126Z"
 ---
 
 # Sha-Feng
@@ -28,7 +28,7 @@ updated: "2026-03-28T03:22:49.627Z"
 - Fell towards rocks but was caught by a web spell. *(youtube-transcript, 3/28/2026)*
 - Discussed as being taken by Sahuagin and later freed.; Taken by Sahuagin, later freed and reincarnated as a Hobgoblin.; Was taken by Sahuagin and later freed.; Taken by Sahuagin, freed from Gol Khazak.; Switching directions and using Marshall Flexibility; Taken by Sahuagin, killed and reincarnated as a Hobgoblin.; Reincarnated as an Iku-Turso, killed and reincarnated again as a Hobgoblin. *(youtube-transcript, 3/28/2026)*
 - Cook and later killed and reincarnated as a Hobgoblin. *(youtube-transcript, 3/28/2026)*
-- Mentioned as being taken by Sahuagin and later freed, then killed and reincarnated as a Hobgoblin.; Not mentioned directly, but implied as a crew member involved in the battle; Killed and reincarnated as a Hobgoblin. *(youtube-transcript, 3/28/2026)*
+- Punched a pistol guy in the face, was killed by Sahuagin; Reincarnated as a Hobgoblin and later killed; Freed from Sahuagin and reincarnated as a Hobgoblin. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 

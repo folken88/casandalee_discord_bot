@@ -22,3 +22,5 @@ foundry_synced: "2026-03-28"
 ## Notes & Updates
 
 *No session notes yet.*
+
+- Targeted by persistent Suffocation spell cast by Draymus, fails second Fortitude save and becomes incapacitated; Screamed at by Quapa, affected by haste, draws Rapier and charges into combat with Asmodian Bane *(youtube-transcript, 3/25/2026)*

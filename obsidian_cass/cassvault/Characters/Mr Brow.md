@@ -36,6 +36,7 @@ updated: "2026-03-26T17:02:44.488Z"
 - Offering friendly mental communication, has invisibility and perception on himself and CN viz; Comments on the mental sensitivity of certain races and the Technic League Captain's intellect; Mind sharing with the group; Discussed his life in Starfall and his views on the Technic League; Entering a mental communication network and having conversations with others; Killed Ster Clender and is known for being scary and having a high kill count.; Discussed as a potential spy and mentioned in conversation about the Black Sovereign's past; Propaganda leader, implanting memories; Absorbs history of people around him, curious about Torch and Scrap Wall *(youtube-transcript, 3/25/2026)*
 - Exploding with a need for kills. *(youtube-transcript, 3/26/2026)*
 
+- Disappointed that the mask isn't a cursed item that permanently attaches to the body. Fails a bluff check while trying to prove he doesn't need help with bluffing.; Player character whose maracas are joked about being tied to Storgrim's ankles as a speed enhancement. Has a peg leg that could be turned into a maraca.; Player whose character may have had their head blown off (GM joking about needing a new character) *(youtube-transcript, 3/25/2026)*
 ## Roll History
 
 - **Reincarnation (Standard)**: 20 → Dhampir (/reincarnate) *3/10/2026*

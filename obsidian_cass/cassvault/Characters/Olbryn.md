@@ -63,6 +63,7 @@ foundry_synced: "2026-03-28"
 - Character controlled by Josh; needs to roll initiative; Player character in combat, in front of Luna; Referenced as being in the party that Mr Brow is distancing himself from during combat; Player character considering tactical options including telekinetic charge, dispel magic, or targeting the blood sworn. *(youtube-transcript, 3/25/2026)*
 - Character being discussed as potential stealth crew member. Offering spell support for the mission.; Performs the assassination of a barbarian with a plasma blade, carefully concealing the wound *(youtube-transcript, 3/25/2026)*
 
+- Player character involved in leveling up and acquiring items; appears to be managing character sheet updates *(youtube-transcript, 3/25/2026)*
 ## Roll History
 
 - **Reincarnation (Standard)**: 35 → Nagaji (/reincarnate) *3/5/2026*

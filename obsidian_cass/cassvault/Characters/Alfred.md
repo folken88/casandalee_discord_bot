@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-28T03:22:57.433Z"
+updated: "2026-03-28T04:18:18.880Z"
 ---
 
 # Alfred
@@ -30,8 +30,7 @@ updated: "2026-03-28T03:22:57.433Z"
 - Considering positioning to use Chain Lightning spell; Placed a wall of shield to protect the party.; Involved in the anti-tech field discussion.; Character with cybernetics that could be affected by the strategy; Participated in combat against Luna and a wizard.; Player character named Alfred, involved in combat.; Suggested using Speak with Dead to uncover Black Cat's intentions. *(youtube-transcript, 3/27/2026)*
 - Observing guard patrols and noting the layout of the area.; Detecting Undead, considering spells, preparing to speak with animals; Decided the combat will begin with the party falling through a roof into a cafeteria.; Attacking debris and kicking it at the enemy.; Mentally suggested Alfred lean slightly north, causing the wall to be disintegrated.; Suggested to start smashing the Undead constructs.; Main target of the battle, described as being attacked by various enemies.; Calculates damage for a character *(youtube-transcript, 3/28/2026)*
 - Discussed bank and tattoo options with the group *(youtube-transcript, 3/28/2026)*
-- Part of the scouting party, reminded to wear a brown cloak for smog cover.; Assisting in scouting and disguising for the group; Talking about the Temple of Bry, admiring a junkyard.; The player character is trying to deceive him into leaving a gift of gold.; Staring out into the sea of junk thinking of home.; Told to stop showing his cockroach to strangers.; Part of the party, reacting to the situation.; Planned to get information on different captains.; Discussed with about fungus, disguise spell slot, and deer hunting.; Picked up a souvenir from Scrap Wall, planning to use it against Necromancers.; Possessing a bag of holding. *(youtube-transcript, 3/28/2026)*
-- His hands are taken by Cerona, and he is healed. *(youtube-transcript, 3/28/2026)*
+- Deciding which direction to go after receiving street meat.; Eating spicy sauce, crying into his beer.; Suggesting going to the Red River that evening.; Described as part of a paramilitary organization similar to the Mighty Ducks, discussing Starfall gangs and their tactics.; Watching from across the street *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 

@@ -8,7 +8,7 @@ level: ?
 aliases: []
 tags: ["character"]
 created: ""
-updated: "2026-03-28T04:10:37.000Z"
+updated: "2026-03-28T04:18:18.897Z"
 ---
 
 # Nomcath
@@ -24,7 +24,7 @@ updated: "2026-03-28T04:10:37.000Z"
 
 - Discussed scouting the palace and possibly killing Nomcath.; Returns to the group and discusses potential traps. *(youtube-transcript, 3/28/2026)*
 - Fought Riot suppressors before and heard one.; Choosing targets for an attack.; Invisible, unknown position relative to the others.; Used an invisible backpack to deal damage from a distance.; Character who had to detonate a robot due to Unity detection risks.; Fought through a windstorm with Luna, was nearly knocked off his feet.; Started covering up all the [__] to make it look goofy. *(youtube-transcript, 3/28/2026)*
-- Pulled back to life by Alfred's hand.; Suggests using a virtual flyover of Starfall for exploration.; Described as a watch dwarf, capable of telekinesis and using an AR helmet for enhanced perception.; Examining the lock with great care *(youtube-transcript, 3/28/2026)*
+- Exploration plan and mission details; Is going out to gather information and items for the team.; Interacting with Luna and answering questions about their location.; Followed the short-haired man through secret tunnels to a back room full of scrolls and papers.; Participating in a disguise check for Operation Red River Stakeout *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 

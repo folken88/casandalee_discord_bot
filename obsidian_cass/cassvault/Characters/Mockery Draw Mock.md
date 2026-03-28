@@ -1,17 +1,22 @@
 ---
 name: "Mockery Draw Mock"
 type: character
-campaign: "IG"
-tags: [character, ig]
+race: "Unknown"
+class: "Unknown"
+level: ?
+
+aliases: []
+tags: ["character"]
+created: ""
+updated: "2026-03-28T04:18:18.913Z"
 ---
 
 # Mockery Draw Mock
 
+## Notes & Updates
 
-
+- Recognized by Khonnir Baine for his intense eyes, he was an intelligence officer for the Black Sovereign's Barbarian armies. *(youtube-transcript, 3/28/2026)*
 
 ## Session Appearances
 
-### Iron Gods - Spare Parts, Bud 2024 03 28
-Black Sovereign's real best friend from his adventuring days; hasn't been to the palace in a year or two
-
+*Session activity from YouTube transcripts will appear here.*

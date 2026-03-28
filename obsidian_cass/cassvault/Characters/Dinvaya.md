@@ -1,7 +1,7 @@
 ---
 name: "Dinvaya"
 type: character
-campaign: CC
+campaign: ["IG","CC"]
 race: "Aasimar"
 class: "Cleric 11"
 hp: 43
@@ -92,6 +92,20 @@ foundry_synced: "2026-03-28"
 - Recruited to CP-USS and assigned to the Richton case *(youtube-transcript, 3/25/2026)*
 - Recruited to CP-USS *(youtube-transcript, 3/25/2026)*
 
+- Taking damage from an attack.; Fighting two dual wielding ghosts, nearly killed by them. *(youtube-transcript, 3/28/2026)*
+- Falls off her horse, hangs sideways on another's horse; Provided information about demon wolves bonding with demons.; Looked at Josh with silver eyes and said something about real names. *(youtube-transcript, 3/28/2026)*
 ## Session Appearances
 
-*Session activity from YouTube transcripts will appear here.*
+
+
+### Carrion Crown - Caws for Alarm 2024 11 23 15 14 45
+Flew through the air and was knocked prone by the statue's stomp, taking 47 electrical damage.
+
+### Carrion Crown - Danger Touches Grass 2024 11 10
+Evaluated the authenticity of guests and noted their payment for a weapon.
+
+### Carrion Crown - Pier Reviewed 2025 04 13
+Casted Freedom of Moon on Gaspar to prevent him from being captured by grabby corpses
+
+### Carrion Crown - Feldgrau Streetfight 2025 02 09
+Grabs and shakes violently as she is attacked by a strong arm wielding a great sword
