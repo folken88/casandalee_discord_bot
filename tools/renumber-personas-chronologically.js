@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 /**
- * Renumber persona lives chronologically: life 1 = first by birth year, life 72 = last.
+ * Renumber persona lives chronologically: life 1 = first by birth year, life 113 = last.
  * Canon: first chronologically is Cassula (Rain of Stars), last is Casandalee (oracle).
  * Updates each file's "Life Number" and "# Life N: Name" title, and renames files to
- * NN_suffix.md (e.g. 02_casandalee.md becomes 72_casandalee.md).
+ * NNN_suffix.md (e.g. 002_casandalee.md becomes 113_casandalee.md).
  * Uses a temp directory to avoid overwriting when new and old numbers differ.
  *
  * Run from repo root: node tools/renumber-personas-chronologically.js [--dry-run]
@@ -56,7 +56,7 @@ function updateContentLifeNumber(content, oldNum, newNum) {
 }
 
 function main() {
-    console.log('Renumber persona lives chronologically (life 1 = first by birth, life 72 = last)\n');
+    console.log('Renumber persona lives chronologically (life 1 = first by birth, life 113 = last)\n');
     if (DRY_RUN) console.log('DRY RUN — no files will be written or renamed.\n');
     if (!fs.existsSync(PERSONALITY_DIR)) {
         console.error('Missing data/personalities');
@@ -71,8 +71,8 @@ function main() {
         return { ...p, suffix: suffixFromFilename(f) };
     }).filter(p => p.lifeNumber != null && p.birthYear != null);
 
-    if (personas.length !== 72) {
-        console.error(`Expected 72 personas with birth year; found ${personas.length}`);
+    if (personas.length !== 113) {
+        console.error(`Expected 113 personas with birth year; found ${personas.length}`);
         process.exit(1);
     }
 

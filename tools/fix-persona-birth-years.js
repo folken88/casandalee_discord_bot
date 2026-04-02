@@ -1,11 +1,11 @@
 #!/usr/bin/env node
 /**
  * Fix persona birth/death years so lives do not overlap and are spread across
- * ~8000 years from Rain of Stars (-4363) to last body-death (4226).
+ * ~8000 years from Rain of Stars (-4363) to last body-death (4223).
  * - Life 1 (Cassula): canon -4363; left unchanged.
- * - Life 72 (Casandalee oracle): canon 3983–4226; left unchanged.
- * - Lives 2–71: assigned across the gap from life 1 end to life 72 start
- *   (-4362 to 3982) with even spacing (~119 years per slot, 80-year lifespans).
+ * - Life 113 (Casandalee oracle): canon 3983–4223; left unchanged.
+ * - Lives 2–112: assigned across the gap from life 1 end to life 113 start
+ *   (-4362 to 3982) with even spacing, 80-year lifespans.
  * Adds/updates Death Year in persona files when assigning.
  *
  * Run from repo root: node tools/fix-persona-birth-years.js [--dry-run]
@@ -20,14 +20,14 @@ const DRY_RUN = process.argv.includes('--dry-run');
 
 /** Life 1 death (Rain of Stars); life 3 starts the year after. */
 const LIFE_1_END = -4363;
-/** Life 72 (oracle) starts this year; life 71 must end the year before. */
-const LIFE_72_BIRTH = 3983;
+/** Life 113 (oracle) starts this year; life 112 must end the year before. */
+const LIFE_113_BIRTH = 3983;
 /** First year available for life 2 (first after Cassula). */
 const SPAN_START = LIFE_1_END + 1;
-/** Last year life 71 may end (year before life 72 starts). */
-const SPAN_END = LIFE_72_BIRTH - 1;
-/** Number of lives to place in the span (chronological lives 2–71). */
-const LIVES_IN_SPAN = 70;
+/** Last year life 112 may end (year before life 113 starts). */
+const SPAN_END = LIFE_113_BIRTH - 1;
+/** Number of lives to place in the span (chronological lives 2–112). */
+const LIVES_IN_SPAN = 111;
 
 /**
  * Parse life number, birth year, death year, and raw content from a persona file.
@@ -69,21 +69,21 @@ function setDeathYearInContent(content, year) {
 }
 
 /**
- * Compute canonical birth and death for a life in the middle span (chronological 2–71).
- * Spreads 70 lives across SPAN_START..SPAN_END with ~119-year spacing and 80-year lifespans.
- * @param {number} lifeNum - Life number (2..71)
+ * Compute canonical birth and death for a life in the middle span (chronological 2–112).
+ * Spreads 111 lives across SPAN_START..SPAN_END with even spacing and 80-year lifespans.
+ * @param {number} lifeNum - Life number (2..112)
  * @returns {{ birthYear: number, deathYear: number }}
  */
 function spreadYearsForLife(lifeNum) {
-    const index = lifeNum - 2; // 0..69
-    const slotYears = Math.floor((SPAN_END - SPAN_START + 1) / LIVES_IN_SPAN); // 119
+    const index = lifeNum - 2; // 0..110
+    const slotYears = Math.floor((SPAN_END - SPAN_START + 1) / LIVES_IN_SPAN); // ~75
     const birthYear = SPAN_START + index * slotYears;
     const deathYear = birthYear + LIFESPAN_YEARS - 1;
     return { birthYear, deathYear };
 }
 
 function main() {
-    console.log('Fix persona birth/death years — spread lives 3–72 across ~8000 years (Rain of Stars to 4226)\n');
+    console.log('Fix persona birth/death years — spread lives 2–112 across ~8000 years (Rain of Stars to 4223)\n');
     if (DRY_RUN) console.log('DRY RUN — no files will be written.\n');
     if (!fs.existsSync(PERSONALITY_DIR)) {
         console.error('Missing data/personalities');
@@ -98,11 +98,11 @@ function main() {
 
     let changed = 0;
     for (const [num, p] of ordered) {
-        if (num === 1 || num === 72) {
-            // Canon: do not change life 1 (Cassula) or life 72 (Casandalee oracle)
+        if (num === 1 || num === 113) {
+            // Canon: do not change life 1 (Cassula) or life 113 (Casandalee oracle)
             continue;
         }
-        if (num >= 2 && num <= 71) {
+        if (num >= 2 && num <= 112) {
             const { birthYear: newBirth, deathYear: newDeath } = spreadYearsForLife(num);
             const birthChanged = p.birthYear !== newBirth;
             const deathChanged = p.deathYear !== newDeath;
@@ -117,7 +117,7 @@ function main() {
             }
         }
     }
-    console.log(`\n${DRY_RUN ? 'Would change' : 'Changed'} ${changed} persona(s) (lives 2–71).`);
+    console.log(`\n${DRY_RUN ? 'Would change' : 'Changed'} ${changed} persona(s) (lives 2–112).`);
     if (changed > 0 && DRY_RUN) console.log('Run without --dry-run to apply.');
 }
 

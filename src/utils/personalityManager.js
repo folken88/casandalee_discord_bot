@@ -63,7 +63,7 @@ class PersonalityManager {
     }
 
     /**
-     * Get all loaded personalities (for editor/API). Goddess = life 0, past lives 1-72.
+     * Get all loaded personalities (for editor/API). Goddess = life 0, past lives 1-113.
      * @returns {{ lifeNumber: number, filename: string, data: Object }[]}
      */
     getAllForEditor() {
@@ -258,7 +258,7 @@ class PersonalityManager {
     /**
      * Select a personality using dynamic weighting
      * Underused personalities get a higher chance.
-     * Roll 1-100: 1-71 = past life, 72-100 = goddess form.
+     * Roll 1-100: 1-71 = past life, 72-100 = goddess form. (threshold is about frequency, not life count)
      * @param {string} [queryContext] - Optional query for context-aware selection
      * @returns {Object} Selected personality data
      */
@@ -555,6 +555,57 @@ class PersonalityManager {
             .map(([lifeNum, data]) => ({ lifeNum, ...data }));
         if (withContent.length === 0) return null;
         return withContent[Math.floor(Math.random() * withContent.length)];
+    }
+
+    /**
+     * Get multiple distinct random past-life personalities (for crosstalk conversations).
+     * Weighted by underuse, excludes goddess form by default.
+     * @param {number} [count=2] - Number of distinct personas to select
+     * @param {boolean} [excludeGoddess=true] - Whether to exclude the goddess form
+     * @returns {Object[]} Array of personality data objects
+     */
+    getMultipleRandom(count = 2, excludeGoddess = true) {
+        const candidates = [...this.personalities.entries()];
+        if (candidates.length < count) {
+            logger.warn(`getMultipleRandom: requested ${count} but only ${candidates.length} available`);
+            count = candidates.length;
+        }
+
+        const avgUsage = this.totalSelections > 0
+            ? this.totalSelections / candidates.length
+            : 1;
+
+        const selected = [];
+        const usedLifeNums = new Set();
+
+        for (let i = 0; i < count; i++) {
+            const available = candidates.filter(([lifeNum]) => !usedLifeNums.has(lifeNum));
+            if (available.length === 0) break;
+
+            const weights = available.map(([lifeNum, data]) => {
+                const usage = this.usageCounts.get(lifeNum) || 0;
+                const weight = Math.max(1, (avgUsage + 1) - usage) * 10;
+                return { lifeNum, data, weight };
+            });
+
+            const totalWeight = weights.reduce((sum, w) => sum + w.weight, 0);
+            let rand = Math.random() * totalWeight;
+
+            for (const entry of weights) {
+                rand -= entry.weight;
+                if (rand <= 0) {
+                    usedLifeNums.add(entry.lifeNum);
+                    selected.push({
+                        type: 'past_life',
+                        lifeNumber: entry.lifeNum.toString(),
+                        ...entry.data
+                    });
+                    break;
+                }
+            }
+        }
+
+        return selected;
     }
 
     /**

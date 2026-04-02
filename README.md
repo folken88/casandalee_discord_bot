@@ -1,6 +1,6 @@
 # Casandalee Discord Bot
 
-A sophisticated Discord bot for Pathfinder 1e campaigns, featuring multi-tier LLM intelligence, 72 unique personalities, character dossiers, and campaign timeline management.
+A sophisticated Discord bot for Pathfinder 1e campaigns, featuring multi-tier LLM intelligence, 113 unique personalities, character dossiers, and campaign timeline management.
 
 ## Features
 
@@ -14,7 +14,7 @@ A sophisticated Discord bot for Pathfinder 1e campaigns, featuring multi-tier LL
 - **Campaign Info** (`/campaign`) - Current campaign date, world state, and context
 - **Ask Casandalee** (`/ask`) - AI-powered Q&A about the campaign, rules, and world
 - **Daily History** (`/daily-history`, `/today`) - Historical events and campaign milestones
-- **Memory** (`/memory`) - Have Casandalee post a random in-character timeline quote from one of her 72 lives
+- **Memory** (`/memory`) - Have Casandalee post a random in-character timeline quote from one of her 113 lives
 
 ### Natural Language
 Mention Casandalee or use `/cass` for natural conversation:
@@ -35,7 +35,7 @@ Mention Casandalee or use `/cass` for natural conversation:
 **Obsidian Vault Brain (`obsidian_cass/cassvault/`):**
 Cass's entire knowledge base lives in an Obsidian-compatible markdown vault — browsable, editable, and version-controlled:
 - **Characters/** - 53 live read-write character dossiers
-- **Personas/** - 72 past-life personalities + goddess form
+- **Personas/** - 113 past-life personalities + goddess form
 - **Sessions/** - 239 raw YouTube session transcripts (auto-captions)
 - **Session Summaries/** - 234 Haiku-extracted summaries with key events, NPCs, locations
 - **Timeline/** - Per-campaign timeline files synced daily from Google Sheets
@@ -191,7 +191,7 @@ src/
 
 obsidian_cass/cassvault/       # Cass's Obsidian vault brain (git-tracked)
 ├── Characters/                # 53 character dossiers (live read-write)
-├── Personas/                  # 72 past-life personalities + goddess form
+├── Personas/                  # 113 past-life personalities + goddess form
 ├── Sessions/                  # 239 raw YouTube session transcripts
 ├── Session Summaries/         # 234 Haiku-extracted session summaries
 ├── Timeline/                  # Per-campaign timelines (synced from Google Sheets)

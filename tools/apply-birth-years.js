@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Add Birth Year to personality files when missing.
- * Life 1 (Rain of Stars) = -4363; lives 2-72 = random 2050-4717 AR.
+ * Life 1 (Rain of Stars) = -4363; lives 2-113 = random 2050-4717 AR.
  * Run: node tools/apply-birth-years.js
  */
 

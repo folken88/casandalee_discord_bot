@@ -5,7 +5,7 @@ The script `correlate-timeline-quotes.js` uses the secondary LLM (Ollama on RTX 
 ## What it does
 
 - Loads timeline events (Google Sheets if configured, else `pf_folkengames_timeline.csv`)
-- For each of Cass's 72 past lives (with a birth year):
+- For each of Cass's 113 past lives (with a birth year):
   - Reads the persona’s **Personality**, **Speech Style**, **Tone**, and **Alignment** from the `.md` file
   - Finds events in that life’s window: `[birthYear, birthYear + 80]` years
   - Calls Ollama with those events and the full persona (attitudes, worldview, voice)
