@@ -292,7 +292,7 @@ ${transcript}`;
 
         try {
             const response = await this.anthropic.messages.create({
-                model: 'claude-haiku-4-5-20251001',
+                model: 'claude-sonnet-4-20250514',
                 max_tokens: 4096,
                 messages: [{ role: 'user', content: prompt }]
             });
@@ -311,6 +311,20 @@ ${transcript}`;
             extraction.videoId = videoId;
             extraction.sourceFile = path.basename(filePath);
             extraction.processedAt = new Date().toISOString();
+
+            // Quality gate: if the transcript was too garbled to extract anything
+            // useful, return a minimal stub rather than hallucinated content.
+            const quality = (extraction.transcriptQuality || 'unknown').toLowerCase();
+            const eventCount = (extraction.keyEvents || []).length;
+            if (quality === 'poor' && eventCount === 0) {
+                console.log(`  Quality gate: "${title}" — transcript too garbled, saving minimal stub`);
+                extraction.summary = 'Transcript quality was too poor to extract reliable events. Cross-reference with timeline data or re-watch the session.';
+                extraction.keyEvents = [];
+                extraction.uncertainEvents = extraction.uncertainEvents || [];
+                extraction.combatEncounters = [];
+                extraction.itemsOrLoot = [];
+                extraction.quotes = [];
+            }
 
             return extraction;
         } catch (err) {
