@@ -41,7 +41,7 @@ function nowInTz() {
         timeZone: DAILY_POST_TIMEZONE,
         hour: 'numeric',
         minute: 'numeric',
-        hour12: false
+        hourCycle: 'h23'
     });
     const parts = fmt.formatToParts(new Date());
     const get = (type) => parseInt(parts.find(p => p.type === type)?.value || '0', 10);
