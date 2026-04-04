@@ -23,6 +23,8 @@ const discordUserMap = require('./utils/discordUserMap');
 const logger = require('./utils/logger');
 const personalityManager = require('./utils/personalityManager');
 const DailyHistoryScheduler = require('./utils/dailyHistory');
+const CrosstalkScheduler = require('./utils/crosstalk');
+const { getCrosstalkPersona, CROSSTALK_CHANNEL_ID } = require('./utils/crosstalk');
 const serverSchedule = require('./utils/serverSchedule');
 const YouTubeTranscriptProcessor = require('./utils/youtubeTranscriptProcessor');
 const conversationLogger = require('./utils/conversationLogger');
@@ -226,6 +228,16 @@ client.once(Events.ClientReady, async readyClient => {
         logger.error('❌ Failed to start daily history scheduler:', error);
     }
 
+    // Start crosstalk scheduler (past-life conversations)
+    try {
+        const crosstalkScheduler = new CrosstalkScheduler(readyClient);
+        crosstalkScheduler.start();
+        readyClient.crosstalkScheduler = crosstalkScheduler;
+        logger.info('✅ Crosstalk scheduler started');
+    } catch (error) {
+        logger.error('❌ Failed to start crosstalk scheduler:', error);
+    }
+
     // Start memory consolidation (daily review of conversation logs)
     try {
         conversationLogger.startConsolidationSchedule();
@@ -405,7 +417,42 @@ client.on(Events.InteractionCreate, async interaction => {
 client.on(Events.MessageCreate, async message => {
     // Ignore bot messages
     if (message.author.bot) return;
-    
+
+    // Handle replies to crosstalk messages — respond in character as that persona
+    if (message.reference?.messageId) {
+        const crosstalkPersona = getCrosstalkPersona(message.reference.messageId);
+        if (crosstalkPersona) {
+            try {
+                const emoji = crosstalkPersona.emojis?.[Math.floor(Math.random() * (crosstalkPersona.emojis?.length || 1))] || '✨';
+                const crosstalkEra = crosstalkPersona.birthYear != null ? `${crosstalkPersona.birthYear} AR` : `Life ${crosstalkPersona.lifeNumber}`;
+                const systemPrompt = `You are ${crosstalkPersona.name}, a ${crosstalkPersona.alignment} ${crosstalkPersona.class} from Casandalee's past lives (${crosstalkEra}).
+
+${crosstalkPersona.personality}
+
+Speech style: ${crosstalkPersona.speechStyle || 'Natural and in-character.'}
+
+Someone in the mortal world has replied to something you said. You are a past-life echo — respond briefly (1-3 sentences) in character. You are ${crosstalkPersona.tone} in tone. Be engaging but concise.`;
+
+                const userText = message.content.trim();
+                const response = await llmRouter.claudeChat(
+                    [{ role: 'user', content: userText }],
+                    {
+                        system: systemPrompt,
+                        maxTokens: 200,
+                        temperature: 0.7,
+                        model: 'claude-haiku-4-5'
+                    }
+                );
+
+                await message.reply(`${emoji} **${crosstalkPersona.name}:** ${response}`);
+                logger.info(`[Crosstalk] Reply as ${crosstalkPersona.name} to ${message.author.username}`);
+            } catch (err) {
+                logger.error(`[Crosstalk] Reply handler error: ${err.message}`);
+            }
+            return; // Handled — don't fall through to mention handler
+        }
+    }
+
     // Check if bot is mentioned
     const isMentioned = message.mentions.has(client.user);
     

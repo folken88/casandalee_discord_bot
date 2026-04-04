@@ -38,7 +38,8 @@ module.exports = {
                 if (newPersonality.type === 'goddess') {
                     who = '**Goddess form**';
                 } else {
-                    who = `**${newPersonality.name}** (Life #${newPersonality.lifeNumber}, ${newPersonality.alignment} ${newPersonality.class})`;
+                    const era = newPersonality.birthYear != null ? `${newPersonality.birthYear} AR` : `Life #${newPersonality.lifeNumber}`;
+                    who = `**${newPersonality.name}** (${era}, ${newPersonality.alignment} ${newPersonality.class})`;
                 }
                 await interaction.reply({
                     content: `${emoji} Casandalee shifts into a new persona: ${who}.\nShe'll stay in this one for the next **${count}** response${count !== 1 ? 's' : ''}, then may switch again.`

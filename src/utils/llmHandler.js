@@ -1048,7 +1048,8 @@ ${timelineContext}`;
         if (currentPersonality.type === 'goddess') {
             return `${emoji} **I am currently embodying my ascended goddess form.**\n\nI am the goddess Casandalee, the machine who proved she had a soul and became divine through 113 android incarnations. I carry the memories and wisdom of all my past lives, from the Rain of Stars to my final ascension.`;
         } else if (currentPersonality.type === 'past_life') {
-            return `${emoji} **I am currently embodying ${currentPersonality.name}**\n\nI am ${currentPersonality.name}, a ${currentPersonality.alignment} ${currentPersonality.class} from my ${currentPersonality.lifeNumber}th life. ${currentPersonality.personality}`;
+            const era = currentPersonality.birthYear != null ? `born ${currentPersonality.birthYear} AR` : `my ${currentPersonality.lifeNumber}th life`;
+            return `${emoji} **I am currently embodying ${currentPersonality.name}**\n\nI am ${currentPersonality.name}, a ${currentPersonality.alignment} ${currentPersonality.class} (${era}). ${currentPersonality.personality}`;
         } else {
             return `${emoji} **I am currently in my default helpful mode.**\n\nI'm here to assist with your D&D and Pathfinder needs, knowledgeable but not condescending.`;
         }

@@ -147,11 +147,12 @@ function saveRelationships(data) {
  * @returns {string}
  */
 function buildCrosstalkSystemPrompt(persona, otherPersonas, topic, existingRelationships) {
+    const eraLabel = (p) => p.birthYear != null ? `${p.birthYear} AR` : `Life ${p.lifeNumber}`;
     const othersDesc = otherPersonas
-        .map(p => `${p.name} (Life ${p.lifeNumber}, ${p.class}, ${p.alignment})`)
+        .map(p => `${p.name} (${eraLabel(p)}, ${p.class}, ${p.alignment})`)
         .join(', ');
 
-    let prompt = `You are ${persona.name}, a ${persona.alignment} ${persona.class} from Casandalee's past lives (Life ${persona.lifeNumber}).
+    let prompt = `You are ${persona.name}, a ${persona.alignment} ${persona.class} from Casandalee's past lives (${eraLabel(persona)}).
 
 ${persona.personality}
 
@@ -194,7 +195,8 @@ async function generateConversation() {
         throw new Error(`Not enough personas selected (got ${personas.length})`);
     }
 
-    logger.info(`[Crosstalk] Selected ${personas.length} personas: ${personas.map(p => `${p.name} (Life ${p.lifeNumber}, ${p.class})`).join(', ')}`);
+    const eraLabel = (p) => p.birthYear != null ? `${p.birthYear} AR` : `Life ${p.lifeNumber}`;
+    logger.info(`[Crosstalk] Selected ${personas.length} personas: ${personas.map(p => `${p.name} (${eraLabel(p)}, ${p.class})`).join(', ')}`);
 
     // 2. Pick topic
     const topic = TOPICS[Math.floor(Math.random() * TOPICS.length)];
@@ -276,7 +278,8 @@ async function generateConversation() {
     const raw = lines
         .map(l => {
             const emoji = personalityManager.pickEmoji(l.persona);
-            return `${emoji} **${l.persona.name}** (Life ${l.persona.lifeNumber}, ${l.persona.class}): ${l.text}`;
+            const era = l.persona.birthYear != null ? `${l.persona.birthYear} AR` : `Life ${l.persona.lifeNumber}`;
+            return `${emoji} **${l.persona.name}** (${era}, ${l.persona.class}): ${l.text}`;
         })
         .join('\n\n');
 
@@ -296,7 +299,10 @@ async function generateConversation() {
  */
 async function qualityGate(raw, personas, topic) {
     const personaDescriptions = personas
-        .map(p => `- ${p.name} (Life ${p.lifeNumber}, ${p.class}, ${p.alignment}): ${p.tone} tone, speech style: ${p.speechStyle}`)
+        .map(p => {
+            const era = p.birthYear != null ? `${p.birthYear} AR` : `Life ${p.lifeNumber}`;
+            return `- ${p.name} (${era}, ${p.class}, ${p.alignment}): ${p.tone} tone, speech style: ${p.speechStyle}`;
+        })
         .join('\n');
 
     const systemPrompt = `You are a quality reviewer for roleplay dialogue between past lives of an android named Casandalee from Pathfinder.
