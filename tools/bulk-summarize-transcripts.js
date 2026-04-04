@@ -1,8 +1,18 @@
 #!/usr/bin/env node
 /**
- * Bulk Transcript Summarizer
- * Reads raw transcripts from the vault, sends them to Haiku for extraction,
- * cross-references with Google Sheets timeline, and saves structured summaries.
+ * Bulk Transcript Summarizer — Ollama-Assisted Sonnet Pipeline
+ *
+ * Stage 1 (Ollama, free): Chunks long transcripts and distills each chunk into
+ * key events using the local qwen2.5:7b model on GPU. This pre-digest acts as
+ * a roadmap for the main summarizer — it does NOT resolve names or make
+ * editorial decisions (that's Sonnet's job).
+ *
+ * Stage 2 (Sonnet, ~$0.04): Gets BOTH the Ollama digest (as reference) and the
+ * full raw transcript (as authoritative source). Sonnet uses the digest to
+ * quickly locate key moments, then verifies everything against the raw text.
+ * Handles name resolution, garbled audio interpretation, and structured output.
+ *
+ * Falls back to direct Sonnet on truncated transcript if Ollama is unavailable.
  *
  * Conservative extraction: only includes high-confidence information.
  * Garbled/vague events are flagged as uncertain unless corroborated by timeline.
@@ -243,8 +253,90 @@ TRANSCRIPT:
 ${transcript}`;
     }
 
+    // ---------------------------------------------------------------------
+    // Stage 1: Ollama chunked distillation (free, local)
+    // Splits long transcripts into chunks and distills each into key events.
+    // Returns a condensed digest suitable for Stage 2.
+    // ---------------------------------------------------------------------
+
+    async _ollamaDistill(transcript, campaignCode, title) {
+        // Tools run on the host, not inside Docker, so always use localhost
+        const ollamaUrl = (process.env.OLLAMA_URL || 'http://localhost:11434').replace('host.docker.internal', 'localhost');
+        const ollamaModel = process.env.OLLAMA_MODEL_FAST || 'qwen2.5:7b';
+        const playerList = this._getPlayerList(campaignCode);
+
+        // Split transcript into ~20K char chunks (~5K tokens) with overlap
+        const CHUNK_SIZE = 20000;
+        const OVERLAP = 1000;
+        const chunks = [];
+        for (let i = 0; i < transcript.length; i += CHUNK_SIZE - OVERLAP) {
+            chunks.push(transcript.substring(i, i + CHUNK_SIZE));
+        }
+
+        console.log(`    Ollama: distilling ${chunks.length} chunks...`);
+        const digests = [];
+
+        for (let i = 0; i < chunks.length; i++) {
+            const chunkPrompt = `You are extracting key events from a Pathfinder RPG session transcript chunk.
+Campaign: ${CAMPAIGN_CODES[campaignCode] || campaignCode}
+Session: "${title}"
+The GM is Toby.
+
+This is chunk ${i + 1} of ${chunks.length} from an auto-generated YouTube transcript (garbled, no speaker IDs).
+
+EXTRACT from this chunk:
+- What happened (actions, combat, travel, discoveries, NPC interactions)
+- Who was involved — use the EXACT names as they appear in the transcript, even if misspelled. Do NOT correct or guess at names. Write "Togala" not "Tokala", "Stor Grim" not "Storgrim", etc.
+- Where it happened (named locations only)
+- Notable items found or discussed
+- Any verbatim funny/memorable quotes (keep exact wording)
+- If the text is too garbled to understand, say "GARBLED" and move on
+
+CRITICAL: Do NOT attempt to resolve or correct character names. A later stage handles name matching. Your job is to faithfully extract what the transcript says, garbled names and all.
+
+Be CONCISE. Only report clear events. Skip chatter, rules discussions, and unintelligible sections.
+Output a brief bullet-point list. If nothing useful is in this chunk, output "NO EVENTS".
+
+TRANSCRIPT CHUNK:
+${chunks[i]}`;
+
+            try {
+                const response = await fetch(`${ollamaUrl}/api/generate`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        model: ollamaModel,
+                        prompt: chunkPrompt,
+                        stream: false,
+                        options: { num_predict: 800, temperature: 0.2 }
+                    }),
+                    signal: AbortSignal.timeout(120000)
+                });
+
+                if (!response.ok) throw new Error(`Ollama HTTP ${response.status}`);
+                const data = await response.json();
+                const digest = (data.response || '').trim();
+                if (digest && !digest.includes('NO EVENTS')) {
+                    digests.push(`[Chunk ${i + 1}/${chunks.length}]\n${digest}`);
+                }
+            } catch (err) {
+                console.log(`    Ollama chunk ${i + 1} failed: ${err.message}`);
+                // If Ollama is down, fall back to truncation for this chunk
+            }
+        }
+
+        if (digests.length === 0) {
+            console.log('    Ollama: no usable digests — falling back to direct Haiku on truncated transcript');
+            return null; // Signal to use fallback
+        }
+
+        const combined = digests.join('\n\n');
+        console.log(`    Ollama: distilled ${transcript.length} chars → ${combined.length} chars (${((1 - combined.length / transcript.length) * 100).toFixed(0)}% reduction)`);
+        return combined;
+    }
+
     /**
-     * Process a single transcript file through Haiku
+     * Process a single transcript: Stage 1 (Ollama distill) → Stage 2 (Haiku extract)
      */
     async summarizeTranscript(filePath, campaignCode) {
         const content = fs.readFileSync(filePath, 'utf8');
@@ -281,14 +373,34 @@ ${transcript}`;
         // Get timeline events for this campaign
         const timelineEvents = this._getTimelineForCampaign(campaignCode);
 
-        // Truncate very long transcripts to fit Haiku's context
-        // Haiku handles ~200K tokens, but we want to be efficient
-        const maxChars = 150000; // ~37K tokens
+        // Stage 1: Ollama distillation (free, local)
+        // For long transcripts, chunk and distill locally before sending to Haiku
+        let inputForHaiku;
+        const ollamaDigest = await this._ollamaDistill(transcript, campaignCode, title);
+
+        // Ollama pre-distillation available as supplementary context
+        // but Sonnet gets the full transcript for best quality
+        const maxChars = 150000;
         const truncatedTranscript = transcript.length > maxChars
             ? transcript.substring(0, maxChars) + '\n\n[TRANSCRIPT TRUNCATED — session was very long]'
             : transcript;
 
-        const prompt = this._buildPrompt(truncatedTranscript, campaignCode, title, timelineEvents, sessionNumber);
+        // If Ollama produced a digest, include it as supplementary context
+        // to help Sonnet cross-reference against the raw transcript
+        let inputForSonnet = truncatedTranscript;
+        if (ollamaDigest) {
+            inputForSonnet = `LOCAL MODEL PRE-DIGEST (use as a reference to help identify key moments in the raw transcript — do NOT trust names or spellings from this digest, verify against the raw transcript):
+
+${ollamaDigest}
+
+---
+
+RAW TRANSCRIPT (authoritative source — use this for all names, quotes, and details):
+
+${truncatedTranscript}`;
+        }
+
+        const prompt = this._buildPrompt(inputForSonnet, campaignCode, title, timelineEvents, sessionNumber);
 
         try {
             const response = await this.anthropic.messages.create({
