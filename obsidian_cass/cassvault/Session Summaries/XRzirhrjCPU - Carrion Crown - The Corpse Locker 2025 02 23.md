@@ -72,12 +72,12 @@ Kate Blackwood decrypts a Whispering Way journal overnight, revealing a series o
 ## Items
 
 - Judge and Jury matching pistols - Claimed by Dinvaya
-- Belt of Mighty Con +2 - From Orin Rud's loot
+- Belt of Mighty Con +2 - From Auren Vrood's loot
 - Daggers of invisibility (dim light/darkness, 3 rounds once per day) - Kai takes one
 - Thundering Silencer rifle - Destroyed and parts used to upgrade Rev Vadra
 - Black Anvil of the Unquiet Engine - Evil book on creating advanced undead constructs
-- Robes of the Whispering Way +3 - Orin Rud's superior version
-- Orin Rud's Mask - Cannot be purified, only destroyed
+- Robes of the Whispering Way +3 - Auren Vrood's superior version
+- Auren Vrood's Mask - Cannot be purified, only destroyed
 - Mask of Pride - Cursed bone mask that sees the Ethereal plane, radiates dread
 - Ring of Feather Falling - Given to Dismas
 - Stroke Pit retired at approximately 100,000 gold value

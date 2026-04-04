@@ -30,7 +30,7 @@ CP-USS arrives at Ascanor Lodge as part of their investigation into Whispering W
 - CP-USS learns that an escort named Nama encountered a party of dangerous individuals (including someone called 'Fruit' with glowing eyes and a werewolf-like scent) approximately two months ago at Madame Ian's cabin. The encounter frightened her enough to seek out paladins.
   - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
   - Location: Ascanor Lodge / Madame Ian's cabin
-- CP-USS discovers Eston's private journal hidden in his locked library. The journal reveals: Eston has prior affiliations with the Whispering Way; representatives led by someone named 'Auren Brood' visited and demanded he arrange a meeting with werewolves; Mathus (Silverhide leader) attended a secret meeting; and the Whispering Way stole the heart of Vesik (a werewolf pack leader), triggering civil war among the packs.
+- CP-USS discovers Eston's private journal hidden in his locked library. The journal reveals: Eston has prior affiliations with the Whispering Way; representatives led by someone named 'Auren Vrood' visited and demanded he arrange a meeting with werewolves; Mathus (Silverhide leader) attended a secret meeting; and the Whispering Way stole the heart of Vesik (a werewolf pack leader), triggering civil war among the packs.
   - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood
   - Location: Ascanor Lodge - Eston's Library
   - Timeline: 4717.01.19 to 4717.04.01 - Various Whispering Way activities in Shudderwood
@@ -51,7 +51,7 @@ CP-USS arrives at Ascanor Lodge as part of their investigation into Whispering W
 - [[Nama (escort)]]
 - [[Madame Ian (escort service operator)]]
 - [[Mathus (Silverhide werewolf leader - mentioned)]]
-- [[Auren Brood / Brood (Whispering Way member - from journal)]]
+- [[Auren Vrood / Brood (Whispering Way member - from journal)]]
 - [[Delross Kerr (Hunt Master)]]
 
 ## Locations
@@ -94,7 +94,7 @@ CP-USS arrives at Ascanor Lodge as part of their investigation into Whispering W
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
 - Whether Eston deliberately vanished or used magic to flee when confronted is unclear; a mental disconnection sensation was detected
-- The exact nature and location of Auren Brood and the Whispering Way's current activities remains unclear, though they appear to be working toward some ritual involving the stolen Vesik heart and possibly the Stairs of the Moon artifact
+- The exact nature and location of Auren Vrood and the Whispering Way's current activities remains unclear, though they appear to be working toward some ritual involving the stolen Vesik heart and possibly the Stairs of the Moon artifact
 - Whether the Silverhide werewolves under Mathus are willing allies of the cult or were coerced into the meeting is uncertain
 - What specific goal the cult has for the Vesik heart and the Stairs of the Moon artifact is not definitively established
 

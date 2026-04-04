@@ -19,7 +19,7 @@ tags: ["summary", "cc", "session"]
 
 ## Summary
 
-CP-USS engages the Whispering Way in a major street battle in Feldgrau. The party defeats multiple Gunslinger constructs, several Whispering Way casters (including Auren Vrood and Orin Rud), and numerous undead minions. After a brutal combat, they recover significant magical loot and begin interrogating captured enemies.
+CP-USS engages the Whispering Way in a major street battle in Feldgrau. The party defeats multiple Gunslinger constructs, several Whispering Way casters including Auren Vrood himself, and numerous undead minions. After a brutal combat, they recover significant magical loot including Vrood's mask and encoded journal, and begin interrogating captured enemies.
 
 ## Key Events
 
@@ -27,23 +27,19 @@ CP-USS engages the Whispering Way in a major street battle in Feldgrau. The part
   - Characters: Gaspar, Kovira, Kai, Elfrip, Dinvaya, Kate Blackwood, Rodney Danger Smith, Dismas
   - Location: Feldgrau
   - Timeline: 4717.04.22
-- Danger uses Sylvia's aerial vision to phase-lock arrow Orin Rud, preventing his teleportation.
-  - Characters: Rodney Danger Smith, Orin Rud
+- Danger uses Sylvia's aerial vision to phase-lock arrow Auren Vrood, preventing his teleportation.
+  - Characters: Rodney Danger Smith, Auren Vrood
   - Location: Feldgrau
 - Three Gunslinger grave knights (Bet, Pride, Deadshot) are destroyed by party action. Danger kills Pride and Deadshot with arrows from extreme range (220+ feet).
   - Characters: Rodney Danger Smith, Pride, Deadshot, Bet
   - Location: Feldgrau
-- Auren Vrood is killed and arrested by the party during combat.
-  - Characters: Auren Vrood
+- Danger phase-locks Auren Vrood with an arrow preventing teleportation, then Vrood's fly spell is dispelled dropping him from the air. Gaspar finishes him with adamantine-bypassing judgment.
+  - Characters: Gaspar, Auren Vrood
   - Location: Feldgrau
-  - Timeline: 4717.04.22
-- Orin Rud is dropped from the air by dispelling his fly spell, then killed by Gaspar using adamantine-bypassing judgment.
-  - Characters: Gaspar, Orin Rud
-  - Location: Feldgrau
-- The party recovers Orin Rud's mask from his remains using Arcane Trickster disable device from range.
+- The party recovers Auren Vrood's mask from his remains using Arcane Trickster disable device from range.
   - Characters: Kovira
   - Location: Feldgrau
-- Party discovers Orin Rud's journal encoded with information about Warden soul, Pack Lord heart, bone shard, and workshop location.
+- Party discovers Auren Vrood's journal encoded with information about Warden soul, Pack Lord heart, bone shard, and workshop location.
   - Location: Feldgrau
 - Dismas is killed by blade master attacks during the battle but is revived by Sylvia's healing magic.
   - Characters: Dismas, Sylvia
@@ -62,8 +58,7 @@ CP-USS engages the Whispering Way in a major street battle in Feldgrau. The part
 
 ## NPCs Encountered
 
-- [[Orin Rud]]
-- [[Auren Vrood]]
+- [[Auren Vrood]] - Whispering Way leader, killed in this battle
 - [[Pride]]
 - [[Bet]]
 - [[Deadshot]]
@@ -81,21 +76,21 @@ CP-USS engages the Whispering Way in a major street battle in Feldgrau. The part
 ## Combat Encounters
 
 - Street battle against Whispering Way forces in Feldgrau featuring multiple zombie constructs, grave knights, blade masters, casters, and three Gunslinger constructs (Bet, Pride, Deadshot)
-- Encounter with Orin Rud and Whispering Way casters including multiple wizards and rogues
+- Encounter with Auren Vrood and Whispering Way casters including multiple wizards and rogues
 - Simultaneous werewolf battle on eastern flank where party allies (demon wolves) fight Whispering Way personnel
 
 ## Items & Loot
 
 - Judge and Jury pistols (Pride's weapons)
 - Thundering Silencer rifle (Deadshot)
-- Mask of Orin Rud (Orin's Skull Mask)
+- Mask of Auren Vrood (Orin's Skull Mask)
 - Plus Three Numerian Breastplate (Pride's Ending)
 - Cloak of Resistance +4
 - Belt of Mighty Constitution +4
 - Wand of Mount Communal (12 charges)
 - Multiple Whispering Way robes and silence daggers
 - Tyrant's Band rings
-- Orin Rud's encoded journal
+- Auren Vrood's encoded journal
 - Fire Giant full plate (400 lb, 5000 gold)
 - Multiple cold iron shortswords
 - Various potions (invis, cure moderate wounds, etc.)
@@ -121,7 +116,7 @@ CP-USS engages the Whispering Way in a major street battle in Feldgrau. The part
 
 - Exact nature and extent of injuries to werewolf allies (party notes multiple were killed and disintegrated)
 - Whether all Whispering Way forces in Feldgrau were eliminated or if some escaped
-- Details of what is actually encoded in Orin Rud's journal beyond references to warden soul, pack lord heart, and bone shard
+- Details of what is actually encoded in Auren Vrood's journal beyond references to warden soul, pack lord heart, and bone shard
 - Full details of the workshop mentioned in the journal and what threats it may contain
 - Status of undead enemies that were held or defeated - unclear if all were permanently destroyed
 - Exact number of Whispering Way personnel the party captured vs killed

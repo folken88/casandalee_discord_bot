@@ -29,8 +29,8 @@ CP-USS interrogates a captured Whispering Way cultist who is slowly turning into
 - The party forces whispered courage whiskey into the cultist to lower his will saves, making him easier for Kate to read with detect thoughts.
   - Characters: Kate Blackwood, Dismas
   - Location: Demon wolf fort
-- Kate Blackwood enters the cultist's mind and survives a Phantasmal Killer trap (save-or-die spell) embedded in his psyche by Orin Rud, resisting it with her high will save.
-  - Characters: Kate Blackwood, Orin Rud
+- Kate Blackwood enters the cultist's mind and survives a Phantasmal Killer trap (save-or-die spell) embedded in his psyche by Auren Vrood, resisting it with her high will save.
+  - Characters: Kate Blackwood, Auren Vrood
   - Location: Demon wolf fort
 - Kate extracts a vision of the Whispering Way's undead forces in Feldgrau: at least 7-8 spellcasters, two Paul Bearer hill giant undead, one fire giant undead, chain undead, digger undead, three-headed sword skeletons, and exploding fire skeletons called "Skelly Bombs."
   - Characters: Kate Blackwood
@@ -38,8 +38,8 @@ CP-USS interrogates a captured Whispering Way cultist who is slowly turning into
 - Kate sees a memory of the cultist receiving the green Effigy statue from the Beast of Lepidstadt at Lepidstadt University, confirming the cult's connection to that event.
   - Characters: Kate Blackwood
   - Location: Lepidstadt University (memory)
-- Kate sees a vision of Orin Rud putting on a black mask with drill-like bits on the inside that seals onto his face, revealing burning red eyes.
-  - Characters: Kate Blackwood, Orin Rud
+- Kate sees a vision of Auren Vrood putting on a black mask with drill-like bits on the inside that seals onto his face, revealing burning red eyes.
+  - Characters: Kate Blackwood, Auren Vrood
   - Location: Feldgrau (memory)
 - Dismas absorbs 95 points of cold damage via his oath of sacrifice ability to protect Kate from a trap spell triggered during interrogation.
   - Characters: Dismas, Kate Blackwood
@@ -65,7 +65,7 @@ CP-USS interrogates a captured Whispering Way cultist who is slowly turning into
 
 ## NPCs Encountered
 
-- [[Orin Rud]] (seen in cultist's memories)
+- [[Auren Vrood]] (seen in cultist's memories)
 - [[Adamaris]] (demon wolf leader, his notes examined)
 - [[Sabrisa]] (met the party in hybrid form)
 - [[Trall]] (part of the Vollensag pack)

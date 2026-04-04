@@ -99,8 +99,13 @@ const CHARACTER_ALIASES = {
         'Elfrip': ['Elfrip'],
         'Dinvaya': ['Dinvaya'],
         'Kate Blackwood': ['Kate Blackwood', 'Kate'],
-        'Rodney Danger Smith': ['Rodney', 'Rodney Danger Smith', 'RDS'],
-        'Dismas': ['Dismas']
+        'Rodney Danger Smith': ['Rodney', 'Rodney Danger Smith', 'RDS', 'Danger'],
+        'Dismas': ['Dismas'],
+        // Key CC NPCs with known auto-caption manglings
+        'Auren Vrood': ['Auren Vrood', 'Orin Rud', 'Oren Rud', 'Auren Brood', 'Orin Rude', 'Vrood'],
+        'Judge Daramid': ['Daramid', 'Darramid', 'Darameed'],
+        'Kendra Lorrimor': ['Kendra', 'Lorrimor', 'Lorremor'],
+        'Adamaris': ['Adamaris']
     },
     HV: {
         'Jamal': ['Jamal'],

@@ -26,7 +26,7 @@ Following the Battle of Feldgrau, the party destroys the Whispering Way's cult w
 - Party destroys the Whispering Way cult workshop in Feldgrau. Dinvaya fireballs every chamber, then they use one dose of silx explosive to collapse the building, and consecrate the wreckage to neutralize ghoul fever contamination.
   - Characters: Dinvaya, Elfrip, Gaspar
   - Location: Feldgrau - Cult Workshop
-- Kate Blackwood is teleported to Lepidstadt by Dinvaya to deliver a full report to Judge Daramid about Feldgrau, the Whispering Way, Orin Rud, and Auren Vrood. This costs two teleport spell slots (there and back). Kate will be picked up in a few days.
+- Kate Blackwood is teleported to Lepidstadt by Dinvaya to deliver a full report to Judge Daramid about Feldgrau, the Whispering Way, Auren Vrood, and Auren Vrood. This costs two teleport spell slots (there and back). Kate will be picked up in a few days.
   - Characters: Kate Blackwood, Dinvaya
   - Location: Feldgrau / Lepidstadt
 - Sirona previously came down during the Feldgrau battle, held Elfrip after his death, and breath of life was used to save him (he was dead for less than one round).
@@ -41,7 +41,7 @@ Following the Battle of Feldgrau, the party destroys the Whispering Way's cult w
 - Party identifies that the fleeing cultists were heading to trade the green statue with a local group in the southeastern swamps. The road passes through multiple ferry crossings in the river delta region.
   - Characters: Gaspar, Dinvaya
   - Location: Ustalav - Regional Map
-- Discussion of sending a warning to Lepidstadt about reactivated Whispering Way agents based on information from Orin Rud's journal. Kate can use sending (25 words) or Kendra may have teleport access.
+- Discussion of sending a warning to Lepidstadt about reactivated Whispering Way agents based on information from Auren Vrood's journal. Kate can use sending (25 words) or Kendra may have teleport access.
   - Characters: Dinvaya, Gaspar
   - Location: Travel
 
