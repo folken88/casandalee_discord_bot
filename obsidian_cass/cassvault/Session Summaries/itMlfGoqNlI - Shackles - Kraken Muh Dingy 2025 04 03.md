@@ -1,263 +1,90 @@
 ---
 title: "Shackles - Kraken Muh Dingy 2025 04 03"
 type: session-summary
-videoId: "itMlfGoqNlI"
 campaign: "SS"
-publishedAt: ""
-processedAt: "2026-03-26T19:02:52.376Z"
-characters: ["Josh", "Kip", "Holden", "Van", "Sana", "Rosie", "Buhan", "Sarah", "Raa", "Taylor", "Spice Rack", "Vaughn", "Ry", "Riviera", "Bria", "Radiance", "Tim", "Storrim", "Riarcha", "Shafong", "Buhon", "Riarka", "Shaong", "Stogram", "Vaughan", "Von", "Shaun", "__", "Mandy", "Enrique", "Gwen", "Billy", "Chef", "R", "Kale", "Sha Feng"]
-places: ["Windward Isle", "TPK", "Dinghy", "Underwater near the destroyed boat", "Underwater area", "Tidewater Rock", "Arrowhead Chain Island", "Sagan Nest Area", "TPK Cargo Hold", "Gol Khazak", "Unknown Location"]
-tags: ["ss", "session-summary", "josh", "kip", "holden", "van", "sana", "rosie", "buhan", "sarah", "raa", "taylor", "spice-rack", "vaughn", "ry", "riviera", "bria", "radiance", "tim", "storrim", "riarcha", "shafong", "buhon", "riarka", "shaong", "stogram", "vaughan", "von", "shaun", "__", "mandy", "enrique", "gwen", "billy", "chef", "r", "kale", "sha-feng"]
+campaignName: "Skull & Shackles"
+videoId: "itMlfGoqNlI"
+sourceFile: "SS - itMlfGoqNlI - Shackles - Kraken Muh Dingy 2025 04 03.md"
+processedAt: "2026-04-03T00:00:00.000Z"
+transcriptQuality: "fair"
+charactersPresent: ["Holden", "Storgrim", "Sha-Feng", "Ser-Toche", "Vaughan", "Riviera", "Bujon", "Rhyarca"]
+tags: ["summary", "ss", "session"]
 ---
 
 # Shackles - Kraken Muh Dingy 2025 04 03
 
-**Campaign:** SS | **Video:** [Watch on YouTube](https://youtube.com/watch?v=itMlfGoqNlI) | **Raw:** [[itMlfGoqNlI - Shackles - Kraken Muh Dingy 2025 04 03|Transcript]]
+**Campaign:** Skull & Shackles | **Video:** [Watch on YouTube](https://youtube.com/watch?v=itMlfGoqNlI)
+**Transcript Quality:** fair
+**Characters Present:** Holden, Storgrim, Sha-Feng, Ser-Toche, Vaughan, Riviera, Bujon, Rhyarca
 
 ## Summary
 
-Summary generation failed.
+The party's ship (TPK) is attacked by sahuagin forces while the group is 80 feet away in a dinghy. A massive 25-foot hammerhead shark rams and destroys the dinghy, forcing the party into the water. A sahuagin shaman casts deeper darkness, blinding the entire group underwater. The party fights sharks and sahuagin warriors in near-total blindness, with Vaughan's glowing sword Radiance providing the only light within 5 feet. Several party members are paralyzed by hold person spells during the chaotic underwater battle.
 
 ## Key Events
 
-- **The ship is being attacked by aquatic creatures**
-  - Location: [[Near Windward Isle]]
-  - Characters: [[TPK Crew]]
-- **A hammerhead shark attacked the party's dinghy, causing it to be destroyed and everyone to fall into the water.**
-  - Location: [[On a boat in the water]]
-  - Characters: [[Sarah]], [[Holden]], [[Raa]]
-- **Characters are underwater near a destroyed boat and need to decide whether to fight sharks or climb up on the ship.**
-  - Characters: [[Taylor]], [[Buhan]], [[Spice Rack]]
-- **Sagan warriors and shamans were described with specific details.**
-  - Location: [[Underwater area]]
-- **Tim attacked and stabbed a shark underwater using electrical and fire charges.**
-  - Characters: [[Tim]]
-- **A shark bit Vaughn in half, causing significant damage.**
-  - Characters: [[Vaughn]]
-- **Storrim was stabbed but survived due to his chain shirt and stubbornness.**
-  - Characters: [[Storrim]]
-- **Buhon attacking sharks and other combat actions**
-  - Characters: [[Buhon]], [[Holden]], [[Shaong]], [[Van]]
-- **Holden attacked a giant m and got paralyzed by it.**
-  - Characters: [[Holden]]
-- **Riarcha was paralyzed and nearly eaten by a shark.**
-  - Characters: [[Riarcha]]
-- **Shark attacking Holden**
-  - Characters: [[h]], [[large shark]]
-- **Holden was killed by a sagen rager while fighting a large shark.**
-  - Characters: [[Holden]], [[Von]], [[Sagen rager]]
-- **Characters are in a combat scenario with limited visibility due to deeper darkness.**
-  - Characters: [[Ry]], [[Holden]], [[Riviera]]
-- **Characters used spells and weapons to attack enemies in a underwater battle.**
-  - Characters: [[Van]], [[Shaun]], [[Stogram]]
-- **Characters were attacked by tentacles while trying to catch a shark.**
-  - Characters: [[Holden]], [[Riviera]], [[Mandy]], [[Enrique]]
-- **Characters used innovative tactics during combat.**
-  - Characters: [[Shaun]], [[Storrim]], [[Enrique]]
-- **Enrique attacked a heavily armored, very strong swagen and hit it with his sword.**
-  - Characters: [[Enrique]]
-- **Josh broke out of hold person and moved towards the fight.**
-  - Characters: [[Josh]]
-- **Riviera was trying to claw a heavily armored, very strong swagen.**
-  - Characters: [[Riviera]]
-- **The TPK crew surfaced after exploring an underwater cave and encountered Sahuagin.**
-  - Location: [[Underwater cave near Arrowhead Chain Island]]
-  - Characters: [[TPK Crew]]
-- **Found and discussed magical swords from Sahuagin.**
-  - Characters: [[__]]
-- **Discussion on how to handle Sagan prisoners and a potential prisoner trade for Shaong**
-  - Location: [[Cargo hold of TPK]]
-  - Characters: [[R]], [[Stogram]], [[Radiance]], [[Riviera]]
-- **Discussed using a speak with head spell and a wand to locate an undead nest.**
-  - Characters: [[Riarcha]], [[Riviera]]
-- **The crew discusses the direction to head based on the information from Kale.**
-  - Characters: [[Kale]], [[Riviera]]
-- **Sha Feng was taken by Sahuagin and later killed.** *(Timeline: 4717.04.12)*
-  - Location: [[Gol Khazak]]
-  - Characters: [[Sha Feng]]
-- **Discussion about a mission to infiltrate a cult of demon worshipers.**
-  - Characters: [[Riviera]], [[Shaun]]
+- Sahuagin forces attack the TPK while party members are on a dinghy 80 feet from the ship. Those with perception 20+ spot the aquatic creatures surfacing with spears.
+  - Characters: Ser-Toche, Vaughan, Bujon
+  - Location: Open ocean near the TPK
+- A 25-foot hammerhead shark slams through the dinghy at full speed, destroying it completely. Ser-Toche shoves party members apart to avoid direct impact.
+  - Characters: Holden, Ser-Toche
+  - Location: Open ocean
+- Sahuagin shaman casts deeper darkness underwater, blinding all party members including those with darkvision. Vaughan activates Radiance's light to push back the darkness within approximately 5 feet.
+  - Characters: Vaughan
+  - Location: Underwater, 50ft above sea floor
+- Sha-Feng uses martial flexibility to gain aquatic combat and later blind fight. Storgrim sinks toward the sea floor in chain mail. Holden uses ki pool abilities.
+  - Characters: Sha-Feng, Storgrim, Holden
+  - Location: Underwater
+- Vaughan stabs the shark with Radiance and fires shocking grasp through it. Rhyarca's spiritual weapon also hits. The shark bites Vaughan for 20 damage. Sharks have blindsense and ignore mirror image.
+  - Characters: Vaughan, Rhyarca
+  - Location: Underwater
+- Holden is paralyzed by hold person from the sahuagin shaman but breaks free on his next turn. Rhyarca is also paralyzed directly in front of the shark.
+  - Characters: Holden, Rhyarca
+  - Location: Underwater
+- Bujon jolts the shark with 11 electrical damage. Riviera is sent to help the surface team defending the TPK from boarders.
+  - Characters: Bujon, Riviera
+  - Location: Underwater / TPK deck
+- Party decides to fight underwater rather than climb aboard the TPK, as sahuagin are also attacking the underside of the ship. Two sharks confirmed present.
+  - Characters: Holden, Ser-Toche
+  - Location: Underwater
 
-## Deaths
+## NPCs Encountered
 
-- **[[Vaughn]]** — Bitten in half by a shark. (killed by A shark)
-- **[[None]]** — No one died in this session.
-- **[[Holden]]** — Killed by a sagen rager while fighting a large shark. (killed by Sagen rager)
-- **[[Shaun]]** — Attacked by a shark and survived. (killed by Shark)
-- **[[None mentioned]]** — No deaths reported
-- **[[Swagen]]** — Blasted to death by Josh's scorching ray spell. (killed by Josh)
-- **[[Sha Feng]]** — Was killed and reincarnated as a Hobgoblin. (killed by Sahuagin)
+- [[Sahuagin Shaman]] (casts deeper darkness, hold person, dispel magic)
+- [[Sahuagin Warriors]] (large, dark teal scales, hooked falchion blades)
+- [[Rosie]]
+- [[Sendara]]
+- [[Owlbear]]
+- [[Daryus]]
 
-## Acquisitions
+## Locations
 
-- **[[TPK Crew]]** acquired *Potions of lesser restoration, magical swords from Sahuagin* — Discussed and planned to use.
+- [[Open Ocean]]
+- [[TPK (ship)]]
+
+## Combat Encounters
+
+- Major underwater battle against sahuagin forces: multiple sahuagin warriors (large, heavily armored with falchions), sahuagin shaman (deeper darkness, hold person, dispel magic), and two enhanced hammerhead sharks (25ft, blindsense)
+- Simultaneous surface battle on the TPK deck against sahuagin boarders
+
+## Items & Loot
+
+- No loot acquired (combat ongoing)
 
 ## Notable Quotes
 
-> "Takala and the Mercy Stone is maybe a future episode of Iron Gods."
-> — [[Mandy]] (Discussing potential future content.)
+> Kraken my dingy
+> This combat sucks. I don't know whose idea this was. This is terrible
+> I six out of 10 death chances
+> We're going to die. But that is funny
+> I can't underwater, so that's great
 
-> "Will save DC16."
-> — [[Riarcha]] (Making a saving throw.)
+## Uncertain Events
 
-> "We're going to die. But that is funny."
-> — [[Vaughn]] (During combat with sharks.)
+*These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-> "Die shark."
-> — [[Buhon]] (Combat action)
-
-> "This combat sucks. This is really I just show Look, I just showed up."
-> — [[Buhon]] (Complaints about the combat setup)
-
-> "Oh, that's what I like to hear, baby."
-> — [[h]] (Player reacting positively)
-
-> "I'm okay with reincarnate. Yeah, that should be our team name."
-> — [[Enrique]] (Discussing a potential team name.)
-
-> "They worship a brutal shark god of aggression."
-> — [[Riviera]] (Explaining the beliefs of the Sagan prisoners)
-
-> "There's always a bigger fish."
-> — [[Stogram]] (Threatening the Sagan prisoners with potential consequences)
-
-## Campaign Knowledge
-
-- The TPK Crew is aware that their ship is under attack by aquatic creatures but cannot see them until they are closer.
-- Characters are aware of potential threats in the water and are preparing for combat.
-- The party encountered a hammerhead shark while in a dinghy, which caused their boat to be destroyed.
-- Characters are in a situation where they need to make decisions about fighting sharks or climbing onto a damaged ship.
-- The character learned that deeper darkness is a third-level spell and that their discovery torch (second level) was insufficient to light the area.
-- The group encountered sharks and had to fight them off in the dark.
-- Combat involving sharks and other creatures in an underwater setting
-- Player discussing a fishing lure spell and its effects on sharks
-- Player attempting to cast the spell while underwater
-- Characters are using spells and abilities to navigate and fight in deeper darkness.
-- Holden is the leader of the group
-- Riviera has healing capabilities
-- Characters are playing a game involving entanglement and combat underwater.
-- Characters used acid splash in underwater combat.
-- Storrim was sharknapped by a shark during the encounter.
-- It was revealed that Sahuagin nests are usually within 3-500 ft of the surface and can cover a wide area both underwater and on the surface.
-- Discussed the treatment of surface races by Sagans and potential strategies to locate a Sagan nest.
-- Learned about the properties of a specific type of sword used by Sahuagin.
-- Discussed plans for dealing with captured Sahuagin.
-- The Sagan prisoners worship a shark god and are not willing to negotiate. The party plans to confirm an escape route by releasing one of them.
-- Discussed developing a language for the campaign, using speak with head spell to locate an undead nest, and the importance of anti-undead gear.
-- Characters are aware of rumors about undead in another dwarven settlement nearby.
-- Holden has knowledge of stories and rumors but couldn't find recent ones for this area.
-- Dwarven tombs can be found in underwater caves, typically near tropical zones.
-- The crew's nest is likely far out to the east in deep water.
-- Discussed a mission to infiltrate a shark demon cult for Shaun's escape.
-- Shaun might be rescued or rescue himself during the mission.
-
-## Character Activity
-
-### [[Josh]]
-Rolling for perception checks; Deleting tokens accidentally, initiative order; Trying to break out of hold person and move towards the fight.; Rolled a high knowledge pirate check to understand the language and behavior of Sahuagin.
-
-### [[Kip]]
-Present but not rolling
-
-### [[Holden]]
-Noticing the attack and deciding on actions; Helped row the boat and was shoved by Sarah.; Next to Buhon, fighting the shark; Attacked a giant m and got paralyzed by it.; Part of the group, next to a large shark; Attacked by a large shark and later killed by a sagen rager.; Swam into Holden and Riviera on the right.; Asked about rumors of undead in the area.
-
-### [[Van]]
-Running up and down the mast screaming and pointing at fishmen in the water.; Stabbing a giant shark and being attacked by another one.; Stabbing a shark; Shot with fairy fire spell, marked as a silhouette.
-
-### [[Sana]]
-Sliding down the main deck to get ready to propel or repel something.
-
-### [[Rosie]]
-Getting her weapon out and having a bugged-out feed somewhere.
-
-### [[Buhan]]
-Yelling and pointing at something in the water, sounding relaxed but possibly drugged.; Noted for mentioning more swagen attacking the underside of the ship.; Thanked for something
-
-### [[Sarah]]
-Shoved Holden and Raa to avoid the shark.; Missed shocking grasp attack.
-
-### [[Raa]]
-Was also shoved by Sarah to avoid the shark.
-
-### [[Taylor]]
-Described as trying to climb up on the ship.
-
-### [[Spice Rack]]
-Suggested donating the brain to science.
-
-### [[Vaughn]]
-Casted mirror image and moved initiative.; Turned on his light, allowing others to see within five feet; Bitten in half by a shark.
-
-### [[Ry]]
-Not present, but expected to show up soon.; Doing math and casting spells
-
-### [[Riviera]]
-Sent to help the surface team.; Part of the group; Swam into Holden and Riviera on the right.; Trying to claw to death a heavily armored, very strong swagen.; Discussed about being a potential Sagan slave due to ability to breathe underwater.; Waking up one of the Sagan prisoners and translating; Suggested using the wand to ask about the location of the nest.; Provided information about potential ruins location and cult of demon worshipers.
-
-### [[Bria]]
-Called down a spiritual weapon to attack the shark
-
-### [[Radiance]]
-A character mentioned but not directly involved in the fight; Not mentioned directly, but implied to be involved in the discussion
-
-### [[Tim]]
-Punched and stabbed the shark underwater
-
-### [[Storrim]]
-Got stabbed straight in the chain shirt and survived.; Sharknapped by a shark
-
-### [[Riarcha]]
-Made it out of the situation alive with a natural 20 roll.; Paralyzed and nearly eaten by a shark.; Participated in a speak with head spell and rolled a natural 20.
-
-### [[Shafong]]
-Made a perception check to detect something coming through the water.
-
-### [[Buhon]]
-Flurry attacking a shark and other combat actions
-
-### [[Riarka]]
-Near the shark; Part of the group
-
-### [[Shaong]]
-Fighting a fishman
-
-### [[Stogram]]
-Daggered a dwarf, shield was damaged.; Located southwest of the party, heard making heavy strikes on something.; In charge of the situation with the Sagan prisoners
-
-### [[Vaughan]]
-Part of the group
-
-### [[Von]]
-Fighting the large shark with Holden.
-
-### [[Shaun]]
-Made a strength check to pull the shark closer.; Attacked by a shark and survived.; Underwater combat and paralysis; Dragged around by giant fish in the ship that got the ballro's blade from.; Planning to rescue himself or be rescued by the group for his mission.
-
-### [[__]]
-Placeholder for unknown characters or actions
-
-### [[Mandy]]
-Called out to save the fishing pole.
-
-### [[Enrique]]
-Suggested entanglement effects and actions.; Missed attack; Headventure taking, lathers stuff onto him to attract tentacles.
-
-### [[Gwen]]
-Received a negative result on the knowledge pirate check.
-
-### [[Billy]]
-Discussed as a type of damage, not a character.
-
-### [[Chef]]
-Secretly lathers stuff onto Enrique to attract tentacles.
-
-### [[R]]
-Translating for Stogram and the Sagan prisoners
-
-### [[Kale]]
-Said east is the direction they came from.
-
-### [[Sha Feng]]
-Was taken by Sahuagin and later killed and reincarnated as a Hobgoblin.
-
+- Whether the first shark was killed by end of session or combat continues
+- Exact HP status of party members at session end
+- Full outcome of the surface battle on the TPK
+- Whether additional enemies are yet to be revealed underwater
+- Nature of the large shape Bujon spotted to the south early in the encounter

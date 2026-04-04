@@ -5,90 +5,60 @@ campaign: "SS"
 campaignName: "Skull & Shackles"
 videoId: "1TVkAiSCsT8"
 sourceFile: "SS - 1TVkAiSCsT8 - Shackles - Drow Envy 2026 03 05.md"
-processedAt: "2026-04-03T16:53:28.516Z"
-transcriptQuality: "fair"
-charactersPresent: ["Storgrim", "Holden", "Sha-Feng", "Ser-Toche", "Vaughan", "Riviera", "Bujon", "Rhyarca"]
+processedAt: "2026-04-04T03:24:18.459Z"
+transcriptQuality: "poor"
+charactersPresent: ["Holden"]
 tags: ["summary", "ss", "session"]
 ---
 
 # Shackles - Drow Envy 2026 03 05
 
 **Campaign:** Skull & Shackles | **Video:** [Watch on YouTube](https://youtube.com/watch?v=1TVkAiSCsT8)
-**Transcript Quality:** fair
-**Characters Present:** Storgrim, Holden, Sha-Feng, Ser-Toche, Vaughan, Riviera, Bujon, Rhyarca
+**Transcript Quality:** poor
+**Characters Present:** Holden
 
 ## Summary
 
-The party negotiated treasure division from the Tidewater blockade battle, decided to take the Chelish frigate 'Veil of Dhelm' as their new ship, and sold the TPK to Goat's Head. They used skeleton crew spells on dead Chelish sailors to crew their new vessel and sailed to Goat's Head where Riviera was reincarnated as a drow. The session ended with them arriving at Rickety Squibs to begin ship modifications.
+Transcript quality was poor. The pre-distilled digest provided covers loot distribution, ship repair decisions, crew management (including creating skeleton crews), sailing to Goat's Head, a character resurrection event, and discussion of acquiring flying boots. Specific canonical events from the session could not be clearly verified due to transcript corruption.
 
 ## Key Events
 
-- Party negotiated division of 87,000 gold worth of cargo from captured ships, receiving 17,000+ gold as their share
-  - Characters: Storgrim, Holden
-  - Location: Tidewater Rock
-- Party decided to take the Chelish frigate 'Veil of Dhelm' as their new ship, estimated to need 40,000 gold for repairs and squibbing
-  - Characters: Storgrim, Holden
-  - Location: Tidewater Rock
-- TPK (The Pillager's Knife) was sold to Goat's Head for 21,000 gold
-  - Characters: Storgrim
-  - Location: Tidewater Rock
-- Sandara cast skeleton crew spells on dead Chelish sailors to create skilled undead crew with 19 sailing skill
-  - Characters: Sandara
-  - Location: Tidewater Rock
-- Party sailed from Tidewater to Goat's Head in company with damaged Goat's Head fleet ships
-  - Characters: Holden, Towa
-  - Location: The Fever Sea
-- Riviera was reincarnated as a drow by Thragorn and had negative levels removed with restoration scrolls
-  - Characters: Riviera, Thragorn
-  - Location: Firegrass Island
-- Party sailed the Veil to Rickety Squibs to begin ship modifications and disguising
-  - Location: Rickety Squibs
+- Party discusses loot distribution including 8 magic items and corsair coats, debating whether to repair TPK or sell it
+- Party has approximately 45,470 gold in the bank and discusses distributing 5,000 gold among crew members
+  - Characters: Holden
+- Party sails to Goat's Head to handle a reincarnation matter
+  - Location: Goat's Head
+  - Timeline: 4717.04.12 (Bujon was slain and reincarnated as an Iku-Turso)
+- A character is resurrected as a blue hobgoblin and receives new equipment including scrolls *(medium confidence)*
+- Party discusses obtaining flying boots by collecting Lykan from a volcano, requiring Resist Heat spell *(medium confidence)*
 
-## NPCs Encountered
-
-- [[Captain Poor]]
-- [[Bent Beak]]
-- [[Mara]]
-- [[Lady Augusta]]
-- [[Thragorn]]
-- [[Queen]]
-- [[Rickety Squib]]
-- [[Sandara]]
-- [[Towa]]
-- [[Ammani]]
 
 ## Locations
 
-- [[Tidewater Rock]]
-- [[Firegrass Island]]
 - [[Goat's Head]]
 - [[Rickety Squibs]]
 
 
 ## Items & Loot
 
-- Two Corsair's coats
-- Chelish oak planks
-- Mithril brick
-- Book of pawns
-- Spear of the mangrove watch
-- Ashwood bows
-- Reincarnate scrolls
-- Restoration scrolls
+- 8 magic items including Corsair's code
+- 2 Corsair coats
+- 12 chellish oak planks
+- 117 chellish oak planks
+- Scrolls (multiple, bound with cord)
+- Flying boots (being sought)
+- Lykan (volcanic material being sought)
 
-## Notable Quotes
-
-> We're going to treat the TPK as if she was present for the action.
-> [ __ ] the Chelish. That's all.
-> Holden. Yeah. Holden. I had set Holden to zero. Didn't save.
-> We accidentally go and uh bring our friend back. So, excuse us.
-> Goblin. No. Goblin. OH, YEAH. OH, that's hot. That's perfect.
 
 ## Uncertain Events
 
 *These events may have occurred but the transcript is too garbled to confirm. Cross-reference with timeline data.*
 
-- Discussion about volcanic mission for harpy feather boots
-- Plans for future ship naming and modifications
-- Mentions of leads pointing south to new regions
+- Whether TPK was ultimately repaired or sold
+- Details of the character resurrection and whether 'Riora' or another character was reincarnated
+- Whether the skeleton crew option was actually implemented
+- The exact nature and location of the volcano expedition
+- Ship redesign and renaming details
+- Whether the group visited Sangor Bay or Blood Cove
+- Details about any Drow encounter (title mentions 'Drow Envy' but no Drow are clearly mentioned in transcript)
 
