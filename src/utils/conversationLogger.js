@@ -147,8 +147,10 @@ tags: ["log"]
         logger.info(`Memory consolidation: Processing ${dateStr} (${logContent.length} chars)`);
 
         try {
+            // Use 'user-facing' tier (Haiku) — Ollama can't reliably produce valid JSON
+            // for structured extraction. This is a once-daily call on a small log, ~$0.001.
             const result = await llmRouter.route(this._buildConsolidationPrompt(logContent, dateStr), {
-                task: 'analysis',
+                task: 'user-facing',
                 system: `You are Casandalee's memory consolidation system. You review conversation logs and extract facts worth remembering permanently. You are skeptical of jokes and obvious nonsense but attentive to genuine information about characters, events, and player identities.`,
                 maxTokens: 2048,
                 temperature: 0.3
@@ -161,7 +163,11 @@ tags: ["log"]
                 return;
             }
 
-            const memories = JSON.parse(jsonMatch[0]);
+            // Strip common LLM JSON mistakes: trailing commas, // comments
+            const cleaned = jsonMatch[0]
+                .replace(/\/\/[^\n]*/g, '')       // remove // comments
+                .replace(/,\s*([}\]])/g, '$1');   // remove trailing commas
+            const memories = JSON.parse(cleaned);
             await this._applyMemories(memories, dateStr);
 
             logger.info(`Memory consolidation complete for ${dateStr}: ${memories.facts?.length || 0} facts, ${memories.playerMappings?.length || 0} player mappings`);
