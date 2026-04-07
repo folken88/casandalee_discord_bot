@@ -245,7 +245,7 @@ async function generateConversation() {
 
     // First turn: initiator poses the question
     const firstSystem = buildCrosstalkSystemPrompt(initiator, personas.filter(p => p.name !== initiator.name), topic.opener, relContext[initiatorIdx]);
-    const firstPrompt = `You are starting a conversation with ${target.name}. Ask them: "${topic.opener}" — but rephrase it in your own voice and style. Address them by name.`;
+    const firstPrompt = `Say this to ${target.name} in your own words (1 sentence, stay in character): "${topic.opener}"`;
 
     const firstResponse = await llmRouter.ollamaChat(
         [
@@ -271,10 +271,7 @@ async function generateConversation() {
 
         const system = buildCrosstalkSystemPrompt(speaker, others, topic.opener, relContext[personas.indexOf(speaker)]);
 
-        const isLastTurn = turn === totalTurns - 1;
-        const turnPrompt = isLastTurn
-            ? `Here is the conversation so far:\n${historyText}\n\nGive a brief closing thought or reflection to end this conversation naturally.`
-            : `Here is the conversation so far:\n${historyText}\n\nContinue the conversation naturally. Respond to what was just said.`;
+        const turnPrompt = `Here is the conversation so far:\n${historyText}\n\nRespond to what was just said. 1-2 sentences max.`;
 
         const response = await llmRouter.ollamaChat(
             [
