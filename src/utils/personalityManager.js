@@ -144,6 +144,8 @@ class PersonalityManager {
             memorySnippets: [],
             /** @type {number|null} Birth year (AR); -4363 = Rain of Stars, null = goddess/unknown */
             birthYear: null,
+            /** @type {number|null} Death year (AR); null = goddess/unknown */
+            deathYear: null,
             /** @type {string|null} Generated quote from timeline correlation (Ollama) */
             timelineQuote: null,
             /** @type {string[]} Extra in-character one-liners (generate-persona-lines.js) */
@@ -168,6 +170,12 @@ class PersonalityManager {
         if (birthYearMatch) {
             const y = parseInt(birthYearMatch[1] || birthYearMatch[2], 10);
             if (!isNaN(y)) data.birthYear = y;
+        }
+
+        const deathYearMatch = content.match(/\*\*Death Year:\*\*\s*(-?\d+)|Death Year:\s*(-?\d+)/i);
+        if (deathYearMatch) {
+            const y = parseInt(deathYearMatch[1] || deathYearMatch[2], 10);
+            if (!isNaN(y)) data.deathYear = y;
         }
 
         const timelineQuoteSection = content.match(/## Timeline Quote\s*\n([\s\S]*?)(?=\n\s*## |$)/);

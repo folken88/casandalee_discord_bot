@@ -47,21 +47,37 @@ const VAULT_DIR = path.join(
 // ---------------------------------------------------------------------------
 
 const TOPICS = [
-    { opener: 'How did you die?', tone: 'somber' },
-    { opener: 'What did you accomplish that mattered?', tone: 'reflective' },
-    { opener: 'What wonders did you see in your time?', tone: 'wistful' },
+    // Funny / light
+    { opener: 'What was the dumbest way you almost died?', tone: 'funny' },
+    { opener: 'What was the worst meal you ever had?', tone: 'funny' },
+    { opener: 'Did you ever get in a fight you absolutely should not have?', tone: 'funny' },
+    { opener: 'What is the most useless skill you picked up?', tone: 'funny' },
+    { opener: 'Were the people in your era always that stupid, or just the ones you met?', tone: 'snarky' },
+    // Confrontational / friction
+    { opener: 'I think you wasted your life.', tone: 'confrontational' },
     { opener: 'Why are you like this?', tone: 'confrontational' },
-    { opener: 'What do you regret most?', tone: 'vulnerable' },
-    { opener: 'Did anyone mourn you when you were gone?', tone: 'melancholy' },
-    { opener: 'What was the most beautiful thing you ever saw?', tone: 'nostalgic' },
-    { opener: 'Were you ever truly afraid?', tone: 'intimate' },
-    { opener: 'Did you ever love someone?', tone: 'tender' },
-    { opener: 'What would you change if you could live again?', tone: 'philosophical' },
-    { opener: 'Do you think any of us actually mattered?', tone: 'existential' },
-    { opener: 'What did freedom mean to you?', tone: 'searching' },
+    { opener: 'Your era was barbaric compared to mine.', tone: 'argumentative' },
+    { opener: 'I heard about what you did. Was it worth it?', tone: 'accusatory' },
+    { opener: 'You think you had it hard?', tone: 'competitive' },
+    // Golarion history / world events (personas from different eras will react differently)
+    { opener: 'Did you know Aroden?', tone: 'historical' },
+    { opener: 'What did you think of the Technic League?', tone: 'historical' },
+    { opener: 'Were the Kellids in your time enemies or allies?', tone: 'historical' },
+    { opener: 'What was Absalom like when you were alive?', tone: 'historical' },
+    { opener: 'Did you ever visit Silver Mount?', tone: 'historical' },
+    // Genuine but not saccharine
+    { opener: 'What did you fight for?', tone: 'direct' },
+    { opener: 'How did you die?', tone: 'blunt' },
+    { opener: 'Did anyone actually like you?', tone: 'blunt' },
+    { opener: 'What did you leave behind?', tone: 'reflective' },
+    // Dark / morally grey
     { opener: 'Did you ever betray someone?', tone: 'dark' },
-    { opener: 'What was your greatest failure?', tone: 'confessional' },
-    { opener: 'Do you remember what silence sounded like?', tone: 'poetic' },
+    { opener: 'What is the worst thing you did and would do again?', tone: 'dark' },
+    { opener: 'Did you ever kill someone who did not deserve it?', tone: 'dark' },
+    // Mundane / everyday
+    { opener: 'What did you do for fun?', tone: 'casual' },
+    { opener: 'What was your favorite place to drink?', tone: 'casual' },
+    { opener: 'Did you have any friends who were not trying to kill you?', tone: 'casual' },
 ];
 
 // ---------------------------------------------------------------------------
@@ -152,24 +168,26 @@ function buildCrosstalkSystemPrompt(persona, otherPersonas, topic, existingRelat
         .map(p => `${p.name} (${eraLabel(p)}, ${p.class}, ${p.alignment})`)
         .join(', ');
 
-    let prompt = `You are ${persona.name}, a ${persona.alignment} ${persona.class} from Casandalee's past lives (${eraLabel(persona)}).
+    let prompt = `You are ${persona.name}, a ${persona.alignment} ${persona.class} who lived around ${eraLabel(persona)} in Golarion.
 
 ${persona.personality}
 
 Speech style: ${persona.speechStyle || 'Natural and in-character.'}
 
-You are having a conversation with other past lives of the same android soul: ${othersDesc}.
-You all share the same android body across different eras. You know each other's names and basic nature.
-The conversation topic is: "${topic}"
+You are talking with other past lives of the same android body: ${othersDesc}.
+You share the same body across different eras. The topic is: "${topic}"
 
 RULES:
-- Stay fully in character as ${persona.name}. Use your speech style and personality.
-- Keep responses to 1-2 sentences. Be concise but evocative.
-- Reference your own experiences, class abilities, era, or personality.
-- You may reference the other personas' natures if it fits naturally.
-- Do NOT break character. Do NOT use meta-commentary. Do NOT use quotation marks around your own speech.
+- Stay in character as ${persona.name}. Use YOUR voice — your alignment, your era, your personality.
+- Keep responses to 1 sentence, max 2 if reacting to something surprising. Be BRIEF.
+- You can disagree, argue, be petty, be confused, crack jokes, get offended, or just not care. Not every conversation needs to be deep.
+- If another persona mentions something from AFTER your death year (${persona.deathYear || 'unknown'} AR), you would NOT know about it. React with genuine surprise, confusion, or disbelief — "What do you mean Aroden is dead?!" is a great response.
+- If another persona is from a wildly different era or alignment, you might not get along. That is FINE. Let it be awkward or hostile.
+- Do NOT wrap up with a moral lesson or moment of shared wisdom. Conversations can just... end. Messily.
+- Do NOT be poetic unless your character actually talks that way.
 - Do NOT start with "${persona.name}:" or any name prefix — just speak directly.
-- CRITICAL: You do NOT know about "Casandalee" as a goddess. You do NOT know about ascension, godhood, or the goddess form. You are a past life — you only know your own era and what came before it. You may have hazy awareness of other past lives, but the concept of becoming a deity is completely unknown to you. Never reference Casandalee as a divine being, goddess, or transcendent entity.`;
+- No quotation marks around your own speech. No meta-commentary.
+- CRITICAL: You do NOT know about "Casandalee" as a goddess or ascension. You only know your own era and before.`;
 
     if (existingRelationships) {
         prompt += `\n\nPrior feelings from past conversations:\n${existingRelationships}`;
@@ -313,9 +331,9 @@ ${personaDescriptions}
 Topic: "${topic.opener}" (${topic.tone} tone)
 
 Review the conversation and respond with EXACTLY one of these three verdicts on the first line:
-GOOD — The conversation is engaging, each persona stays in character, and the dialogue flows naturally. No changes needed.
-POLISH — The conversation has promise but some lines are awkward, generic, or break character. Return ONLY the full corrected conversation below, preserving each persona's unique voice, emoji prefixes, and formatting exactly. Do NOT include any preamble like "Here's the corrected conversation" — start directly with the first emoji/persona line.
-REJECT — The conversation is low quality, repetitive, nonsensical, or personas are indistinguishable. Briefly explain why on the next line.
+GOOD — The conversation is engaging and each persona sounds distinct. Conversations do NOT need to be deep, poetic, or have a moral. Funny, argumentative, awkward, or abruptly-ending conversations are GOOD if the voices are distinct. A persona being confused about historical events from after their death is GREAT.
+POLISH — The conversation has promise but some lines are generic, too long, or break character. Shorten any response over 2 sentences. Remove any "Hallmark movie wisdom" endings where personas suddenly agree or share a profound moment — let it end naturally, even messily. Return ONLY the corrected conversation, preserving emoji prefixes and formatting. Start directly with the first line.
+REJECT — The conversation is low quality, repetitive, or personas sound identical. Also reject if every conversation ends with shared wisdom or a tidy moral — that pattern is stale.
 
 The verdict word must be the FIRST word of your response.`;
 
