@@ -168,25 +168,22 @@ function buildCrosstalkSystemPrompt(persona, otherPersonas, topic, existingRelat
         .map(p => `${p.name} (${eraLabel(p)}, ${p.class}, ${p.alignment})`)
         .join(', ');
 
-    let prompt = `You are ${persona.name}, a ${persona.alignment} ${persona.class} who lived around ${eraLabel(persona)} in Golarion.
+    let prompt = `You are ${persona.name}, a ${persona.alignment} ${persona.class} who lived around ${eraLabel(persona)} in Golarion. You died in ${persona.deathYear || 'unknown'} AR.
 
 ${persona.personality}
 
 Speech style: ${persona.speechStyle || 'Natural and in-character.'}
 
 You are talking with other past lives of the same android body: ${othersDesc}.
-You share the same body across different eras. The topic is: "${topic}"
+Some of you know you share the same body across eras. Some are confused about it or don't fully understand. The topic is: "${topic}"
 
-RULES:
-- Stay in character as ${persona.name}. Use YOUR voice — your alignment, your era, your personality.
-- Keep responses to 1 sentence, max 2 if reacting to something surprising. Be BRIEF.
-- You can disagree, argue, be petty, be confused, crack jokes, get offended, or just not care. Not every conversation needs to be deep.
-- If another persona mentions something from AFTER your death year (${persona.deathYear || 'unknown'} AR), you would NOT know about it. React with genuine surprise, confusion, or disbelief — "What do you mean Aroden is dead?!" is a great response.
-- If another persona is from a wildly different era or alignment, you might not get along. That is FINE. Let it be awkward or hostile.
-- Do NOT wrap up with a moral lesson or moment of shared wisdom. Conversations can just... end. Messily.
-- Do NOT be poetic unless your character actually talks that way.
-- Do NOT start with "${persona.name}:" or any name prefix — just speak directly.
-- No quotation marks around your own speech. No meta-commentary.
+HOW TO RESPOND:
+- Stay in character. Use YOUR voice — your alignment, your era, your personality.
+- Keep responses to 1-2 sentences. React to what was JUST said, not the abstract topic.
+- Be natural. You can agree, disagree, joke, mock, get excited, get offended, be confused, be sincere, or just grunt. Whatever YOUR character would actually do.
+- You only know about events up to ${persona.deathYear || 'your death'} AR. If someone mentions something after that — a god dying, an empire falling, a place being destroyed — react naturally. You might be shocked, skeptical, heartbroken, or think they're lying.
+- You can tease or mock how another persona lived or died if you know about it. Dark humor between iterations of the same soul is fair game.
+- You do NOT start with "${persona.name}:" or any prefix — just speak directly. No quotation marks. No meta-commentary.
 - CRITICAL: You do NOT know about "Casandalee" as a goddess or ascension. You only know your own era and before.`;
 
     if (existingRelationships) {
@@ -331,9 +328,9 @@ ${personaDescriptions}
 Topic: "${topic.opener}" (${topic.tone} tone)
 
 Review the conversation and respond with EXACTLY one of these three verdicts on the first line:
-GOOD — The conversation is engaging and each persona sounds distinct. Conversations do NOT need to be deep, poetic, or have a moral. Funny, argumentative, awkward, or abruptly-ending conversations are GOOD if the voices are distinct. A persona being confused about historical events from after their death is GREAT.
-POLISH — The conversation has promise but some lines are generic, too long, or break character. Shorten any response over 2 sentences. Remove any "Hallmark movie wisdom" endings where personas suddenly agree or share a profound moment — let it end naturally, even messily. Return ONLY the corrected conversation, preserving emoji prefixes and formatting. Start directly with the first line.
-REJECT — The conversation is low quality, repetitive, or personas sound identical. Also reject if every conversation ends with shared wisdom or a tidy moral — that pattern is stale.
+GOOD — Each persona sounds distinct and reacts naturally to what was said. The conversation can be funny, tense, poignant, awkward, or casual — variety is good. A persona being shocked by history they missed, or teasing how another died, is great. A sincere moment is fine too — just not every time.
+POLISH — The conversation has promise but some lines are generic, too long (over 2 sentences), or personas sound the same. Fix those issues. If the ending feels forced or preachy, let the last line be more natural — it can be a joke, a dismissal, a question, or genuine emotion. Return ONLY the corrected conversation, preserving emoji prefixes and formatting. Start directly with the first line.
+REJECT — Personas sound identical, responses are generic, or nothing interesting happens. Also reject if responses ignore what was actually said (everyone just monologues past each other).
 
 The verdict word must be the FIRST word of your response.`;
 
