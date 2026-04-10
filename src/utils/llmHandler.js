@@ -547,6 +547,17 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
                 sections.push(`[SOURCE: Timeline Events — authoritative for what happened and when]\n${events}`);
                 console.log(`📚 Timeline events: ${timelineResults.length} found`);
             }
+            // Also search vault — "location_events" often means session summaries,
+            // especially for sub-campaigns like Justice Gorls that aren't in the timeline
+            try {
+                const vaultMemory = vaultSearch.contextFor(query, { discordUserId: userId, maxTokens: 4000 });
+                if (vaultMemory) {
+                    sections.push(`[SOURCE: Vault Session Notes]\n${vaultMemory}`);
+                    console.log(`📖 Vault context for location_events: ${vaultMemory.length} chars`);
+                }
+            } catch (err) {
+                console.log(`⚠️ Vault search error: ${err.message}`);
+            }
         }
 
         // ─── EVENT / TIMELINE QUERIES ───────────────────────────────
