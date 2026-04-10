@@ -95,16 +95,16 @@ Survivors from the shipwreck of the *Sunrise*, destroyed on rocks near Rickety S
 ## Justice Gorls (JG) — Carrion Crown Prequel
 *Set in 4707 AR, 10 years before the main CC campaign. Canon to CC — events here are part of the CC timeline.*
 
-| Player | Character(s) | Notes |
-|--------|-------------|-------|
-| Mandi | Antoinette (Toni) | Also plays Kate Blackwood (CC) and Rhyarca (SS) |
-| Graham | Kelda Ironglim | Also plays Kai (CC) and Bujon (SS) |
-| Kayla | Taelys | |
-| Anna | Lirienne + Crisp (pet raptor) | Also plays Elfrip (CC) |
-| Sarah | Lou Candlebean | Gnome |
-| Lydia | Agu | "Queen of Skanktown" |
-| Ashley | Tamsin | |
-| Toby | GM | |
+| Player | Character(s) | Race | Class | Lvl | Notes |
+|--------|-------------|------|-------|-----|-------|
+| Mandi | Antoinette Borden (Toni) | Human | Magus 5 | 5 | The Rose of Cheliax, Angel Wings, The Martin Phoenix. Also plays Kate Blackwood (CC) and Rhyarca (SS) |
+| Graham | Kelda Ironglim | Dwarf | Unchained Rogue 5 | 5 | Dual kukris, Thiefcoat, carries Martin's Journal. Also plays Kai (CC) and Bujon (SS) |
+| Kayla | Taelys of Starfall | Tiefling | Gunslinger 5 | 5 | Numerian Bolty 7.62 (.308 rifle), pipebombs, Pass for Human |
+| Anna | Lirienne Voss + Crisp (velociraptor) | Human | Courtly Hunter 5 | 5 | Light of the Dawn (repeating crossbow), Crisp has Evasion. Also plays Elfrip (CC) |
+| Sarah | Lou Candlebean | Gnome | Cavalier 5 | 5 | HAMMERTIME, Lioness Plate, Neverspill Goblet |
+| Lydia | Aguclandos Lem (Agu) | Elf | Inquisitor 5 | 5 | Elven Curve Blade, Clandestine Inquisition, Wand of Disguise Self. "Queen of Skanktown" |
+| Ashley | Dr. Tamsin Virelle | Human | Cleric 3 / Monk (UC) 1 | 4 | Disciple's Quarterstaff, Talking Aroden, Wand of Animate Dead, Amulet of Nethys' Embrace |
+| Toby | GM | | | | |
 
 ### Key NPCs
 - Professor Vellesca Martin — academic kidnapped by bandits, rescued by JG, later died
