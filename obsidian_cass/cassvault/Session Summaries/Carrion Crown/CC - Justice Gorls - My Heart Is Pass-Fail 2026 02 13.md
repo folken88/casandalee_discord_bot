@@ -51,13 +51,13 @@ A two-part session. In the first half, the Justice Gorls attend the funeral of P
 - Agu explains there is an entire underground smuggling system in Caliphas with established channels, bribes, and secret passages. Calops investigates deaths based on the victim's social standing -- a low-profile smuggler's death would be easy for them to close quickly.
 - Agu says the uncle dealt in things "so heinous they would send the Uslavian public into absolute panic." However, Agu's organization has no stake in this particular investigation.
 - Agu warns them to be careful what they touch at the house -- it could be a cursed item that killed him.
-- Dr. Tamsin's contacts reveal critical intelligence: the cops who responded to the death scene found all the uncle's servants dead. As they were carrying out his body, the servants rose as zombies and attacked them. The cops fled, chained the gates shut, and put it under Sepost (SEUS) jurisdiction -- the city's undead specialist squad, a subdivision of the police that answers to higher city officials like the judge corps.
-- SEUS is currently out of town and overdue from a mission. The property is sealed with chains and a "restricted" sign by SEUS order.
+- Dr. Tamsin's contacts reveal critical intelligence: the cops who responded to the death scene found all the uncle's servants dead. As they were carrying out his body, the servants rose as zombies and attacked them. The cops fled, chained the gates shut, and put it under CP-USS (City Police - Undead Specialist Squad) jurisdiction -- the same organization that the main Carrion Crown party works for 10 years later in 4717.
+- CP-USS is currently out of town and overdue from a mission. The property is sealed with chains and a "restricted" sign by CP-USS order.
 - The party visits Darkloaf Bakery, where Lirienne, Tamsin, and Crisp have a permanent discount on free rye bread from a previous adventure at the sewer docks. A young boy at the bakery feeds Crisp bacon strips.
 
 ### Part 4: The Anotep Villa -- Ground Floor & Exterior
 
-- The party arrives at the Anotep villa at 9 PM. It is in a medium-nice neighborhood with adobe walls and iron gates. The gates are chained shut with a SEUS restriction sign.
+- The party arrives at the Anotep villa at 9 PM. It is in a medium-nice neighborhood with adobe walls and iron gates. The gates are chained shut with a CP-USS restriction sign.
 - Kelda picks the padlock easily and they enter the grounds.
 - In the yard, old family graves have been recently dug up. They glow with a fading blue magical barrier. Tamsin identifies the barrier as a sanctify spell -- a circle of salt that prevents corpses within it from becoming undead. The wrapped bodies in the graves are old (possibly hundreds of years), predating the Anotep family's residence.
 - Toni's knowledge check reveals the house's foundation is pre-Shining Crusade (possibly 1,000+ years old, from the era of Tar-Baphon's rule), built with magic-enhanced stonework. The house itself is 100-200 years old.
@@ -120,7 +120,7 @@ A two-part session. In the first half, the Justice Gorls attend the funeral of P
 - [[Grad students (14 signed the invitation, seated behind party, sobbing)]]
 - [[Aguclandos Lem (Agu) - consulted about smuggling connections and Calops corruption]]
 - [[Darkloaf Bakery boy (feeds Crisp bacon)]]
-- [[SEUS - Caliphas undead specialist police squad, currently out of town and overdue]]
+- [[CP-USS - Caliphas undead specialist police squad, currently out of town and overdue]]
 
 ## Locations
 
@@ -128,7 +128,7 @@ A two-part session. In the first half, the Justice Gorls attend the funeral of P
 - [[Church of Abadar (cathedral in Caliphas, funeral venue)]]
 - [[Scarab Bean Tattoo Parlor (Khep Anotep's shop)]]
 - [[Darkloaf Bakery (party has permanent free rye bread discount)]]
-- [[Anotep Villa (three-story house, sealed by SEUS, explored floors 1-3)]]
+- [[Anotep Villa (three-story house, sealed by CP-USS, explored floors 1-3)]]
 - [[Caliphas]]
 
 ## Combat Encounters

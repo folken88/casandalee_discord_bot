@@ -150,6 +150,9 @@ The Justice Gorls formed as a band of misfits, took over the Clickboom Gang hide
 | von, Vaughn | Vaughan | SS |
 | Boo John, Boujon | Bujon | SS |
 | Conchobar | Conchobar the Smelly | SS |
+| SEUS, Sepost, sea post | CP-USS (City Police - Undead Specialist Squad) | CC |
+| Orin Rud, Oren Rud, Auren Brood | Auren Vrood | CC |
+| Calops, Calaps | Caliphas city police (Calops) | CC/JG |
 
 ## Campaign Timeline
 All campaigns take place within a ~2 year span (4716-4717 AR), except "Justice Gorls" events which occur in 4707 AR (10 years earlier).
