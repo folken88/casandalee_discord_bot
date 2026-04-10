@@ -286,17 +286,37 @@ class VaultSearch {
         const names = [];
         const words = query.replace(/[?!.,;:'"()]/g, '').split(/\s+/);
 
+        // Common English words that should NEVER be resolved as entity names
+        const skipWords = new Set([
+            'i', 'me', 'my', 'we', 'us', 'our', 'you', 'your', 'he', 'she', 'it', 'they', 'them',
+            'the', 'a', 'an', 'is', 'was', 'are', 'were', 'be', 'been', 'being',
+            'do', 'does', 'did', 'done', 'has', 'have', 'had', 'will', 'would', 'could', 'should',
+            'can', 'may', 'might', 'shall', 'must', 'need',
+            'what', 'who', 'where', 'when', 'why', 'how', 'which', 'whom', 'whose',
+            'this', 'that', 'these', 'those', 'there', 'here', 'then', 'than',
+            'not', 'no', 'yes', 'so', 'if', 'or', 'and', 'but', 'nor', 'yet',
+            'about', 'after', 'before', 'between', 'with', 'from', 'into', 'over', 'under',
+            'again', 'also', 'just', 'very', 'much', 'more', 'most', 'some', 'any', 'all',
+            'tell', 'know', 'think', 'said', 'say', 'called', 'asking', 'asked',
+            'weapon', 'sword', 'item', 'armor', 'shield', 'potion', 'spell',
+            'character', 'player', 'campaign', 'session', 'party', 'group',
+        ]);
+
         // Try multi-word combinations (e.g., "Khonnir Baine", "Sha-Feng")
         for (let i = 0; i < words.length; i++) {
+            if (skipWords.has(words[i].toLowerCase())) continue;
+
             // Try 2-word combo
-            if (i < words.length - 1) {
+            if (i < words.length - 1 && !skipWords.has(words[i + 1].toLowerCase())) {
                 const twoWord = `${words[i]} ${words[i + 1]}`;
                 const resolved = nameResolver.resolve(twoWord);
                 if (resolved) { names.push(resolved); i++; continue; }
             }
-            // Try single word
-            const resolved = nameResolver.resolve(words[i]);
-            if (resolved) { names.push(resolved); continue; }
+            // Try single word (min 3 chars to avoid noise)
+            if (words[i].length >= 3) {
+                const resolved = nameResolver.resolve(words[i]);
+                if (resolved) { names.push(resolved); continue; }
+            }
             // Keep capitalized non-stop words as potential names
             if (words[i].length > 2 && words[i][0] === words[i][0].toUpperCase() && words[i][0] !== words[i][0].toLowerCase()) {
                 names.push(words[i]);
@@ -389,7 +409,18 @@ class VaultSearch {
         // Use ANY-match with scoring: more matched terms = higher relevance
         const idx = this.buildIndex();
         const queryLower = query.toLowerCase();
-        const STOP_WORDS = new Set(['the','a','an','is','was','were','are','did','do','does','when','where','who','what','how','why','about','have','has','had','can','could','will','would','should','this','that','with','from','for','and','but','not','die','died','dies','kill','killed','happen','happened','start','started','tell','know']);
+        const STOP_WORDS = new Set([
+            'the','a','an','is','was','were','are','did','do','does','done',
+            'when','where','who','what','how','why','which','whom',
+            'about','have','has','had','can','could','will','would','should','shall','must',
+            'this','that','with','from','for','and','but','not','nor','or','yet','so',
+            'die','died','dies','kill','killed','happen','happened','start','started',
+            'tell','know','said','say','think','called','asking','asked',
+            'me','my','you','your','he','she','it','they','them','we','us','our','its',
+            'there','here','then','than','just','very','much','more','most','some','any','all',
+            'weapon','sword','item','armor','shield','potion','spell','character','player',
+            'give','gave','get','got','put','take','took','make','made','come','came','going',
+        ]);
         const queryTerms = queryLower.replace(/[?!.,;:'"()]/g, '').split(/\s+/).filter(t => t.length > 2 && !STOP_WORDS.has(t));
         const timelineNotes = idx.filter(n => (n.frontmatter.type || '').toLowerCase() === 'timeline');
 
@@ -448,6 +479,29 @@ class VaultSearch {
             }
         }
 
+        // 3b. Item search — search Items/ folder by filename match on query terms
+        //     Scores items by how many query terms match their filename, best matches first
+        const itemNotes = idx.filter(n => (n.frontmatter.type || '').toLowerCase() === 'item');
+        if (itemNotes.length > 0 && queryTerms.length > 0) {
+            const scoredItems = itemNotes
+                .map(note => {
+                    const nameLower = note.filename.toLowerCase();
+                    const score = queryTerms.filter(t => nameLower.includes(t)).length;
+                    return { note, score };
+                })
+                .filter(s => s.score > 0)
+                .sort((a, b) => b.score - a.score);
+
+            for (const { note } of scoredItems.slice(0, 3)) {
+                if (totalChars > maxTokens) break;
+                if (includedPaths.has(note.path)) continue;
+                const summary = this._summarizeNote(note);
+                sections.push(`[SOURCE: Item] ${note.filename}\n${summary}`);
+                totalChars += summary.length;
+                includedPaths.add(note.path);
+            }
+        }
+
         // 4. Full text search for session summaries and character notes
         const textHits = this.byText(query, 10);
         for (const note of textHits) {
@@ -470,7 +524,15 @@ class VaultSearch {
     }
 
     /**
-     * Summarize a note for context injection
+     * Check if a note has the gm-eyes tag (GM-only content, never share with players)
+     */
+    _isGmEyes(note) {
+        return (note.tags || []).some(t => t.toLowerCase().includes('gm-only') || t.toLowerCase().includes('gm-eyes'));
+    }
+
+    /**
+     * Summarize a note for context injection.
+     * Notes tagged gm-only/gm-eyes get a [GM-ONLY] prefix so the LLM knows not to share.
      */
     _summarizeNote(note, compact = false) {
         const parts = [];
@@ -493,19 +555,131 @@ class VaultSearch {
 
         // Body content — truncate for compact mode
         const bodyClean = note.body.replace(/^#+ .+$/gm, '').trim();
+        // Character dossiers need more space — equipment lists alone can be 5000+ chars
+        const isCharacter = (fm.type || '').toLowerCase() === 'character';
+        const isItem = (fm.type || '').toLowerCase() === 'item';
         if (compact) {
-            // Just first 300 chars of body
+            const limit = isCharacter ? 2000 : 500;
             if (bodyClean.length > 0) {
-                parts.push(bodyClean.substring(0, 300) + (bodyClean.length > 300 ? '...' : ''));
+                parts.push(bodyClean.substring(0, limit) + (bodyClean.length > limit ? '...' : ''));
             }
         } else {
-            // Full body up to 1000 chars
+            const limit = isCharacter ? 4000 : (isItem ? 2000 : 1500);
             if (bodyClean.length > 0) {
-                parts.push(bodyClean.substring(0, 1000) + (bodyClean.length > 1000 ? '...' : ''));
+                parts.push(bodyClean.substring(0, limit) + (bodyClean.length > limit ? '...' : ''));
             }
         }
 
-        return parts.join('\n');
+        let result = parts.join('\n');
+
+        // Tag GM-only content so the LLM knows never to share it with players
+        if (this._isGmEyes(note)) {
+            result = `[GM-ONLY — DO NOT share this with players]\n${result}`;
+        }
+
+        return result;
+    }
+
+    /**
+     * Get the full markdown content for a character file, no truncation.
+     * Used for equipment queries where we need the complete item list.
+     * @param {string} name - Character name (will be resolved via nameResolver)
+     * @returns {string|null} - Full markdown body or null if not found
+     */
+    getFullCharacterMarkdown(name) {
+        const idx = this.buildIndex();
+        const resolved = nameResolver.resolve(name);
+        const searchName = resolved || name;
+
+        const note = idx.find(n =>
+            (n.frontmatter.type || '').toLowerCase() === 'character' &&
+            (n.filename.toLowerCase() === searchName.toLowerCase() ||
+             (n.frontmatter.name && n.frontmatter.name.toLowerCase() === searchName.toLowerCase()))
+        );
+
+        if (!note) return null;
+
+        // Read the FULL file from disk (not the cached body, which may be truncated)
+        try {
+            const fullContent = fs.readFileSync(note.path, 'utf-8');
+            // Strip frontmatter, return everything after ---\n
+            const bodyMatch = fullContent.match(/^---[\s\S]*?---\n([\s\S]*)$/);
+            const body = bodyMatch ? bodyMatch[1].trim() : fullContent;
+
+            const fm = note.frontmatter;
+            const parts = [];
+            if (fm.name) parts.push(`Name: ${fm.name}`);
+            if (fm.race) parts.push(`Race: ${fm.race}`);
+            if (fm.class) parts.push(`Class: ${fm.class}`);
+            if (fm.level) parts.push(`Level: ${fm.level}`);
+            if (fm.player) parts.push(`Player: ${fm.player}`);
+            if (fm.campaign) parts.push(`Campaign: ${Array.isArray(fm.campaign) ? fm.campaign.join(', ') : fm.campaign}`);
+            parts.push('');
+            parts.push(body);
+
+            return parts.join('\n');
+        } catch (err) {
+            logger.warn(`Failed to read full markdown for ${searchName}: ${err.message}`);
+            return null;
+        }
+    }
+
+    /**
+     * Get the full markdown content for an item file, no truncation.
+     * @param {string} name - Item name
+     * @returns {string|null} - Full markdown body or null
+     */
+    getFullItemMarkdown(name) {
+        const idx = this.buildIndex();
+        const searchName = name.toLowerCase();
+
+        // Try exact match first, then substring
+        let note = idx.find(n =>
+            (n.frontmatter.type || '').toLowerCase() === 'item' &&
+            (n.filename.toLowerCase() === searchName ||
+             (n.frontmatter.name && n.frontmatter.name.toLowerCase() === searchName))
+        );
+
+        // Fallback: find best substring match
+        if (!note) {
+            const candidates = idx.filter(n =>
+                (n.frontmatter.type || '').toLowerCase() === 'item' &&
+                (n.filename.toLowerCase().includes(searchName) ||
+                 (n.frontmatter.name && n.frontmatter.name.toLowerCase().includes(searchName)))
+            );
+            if (candidates.length === 1) note = candidates[0];
+            else if (candidates.length > 1) {
+                // Pick the one with the closest name length (most specific match)
+                candidates.sort((a, b) => {
+                    const aLen = (a.frontmatter.name || a.filename).length;
+                    const bLen = (b.frontmatter.name || b.filename).length;
+                    return aLen - bLen;
+                });
+                note = candidates[0];
+            }
+        }
+
+        if (!note) return null;
+
+        // Read the FULL file from disk (not the cached body)
+        try {
+            const fullContent = fs.readFileSync(note.path, 'utf-8');
+            const bodyMatch = fullContent.match(/^---[\s\S]*?---\n([\s\S]*)$/);
+            const body = bodyMatch ? bodyMatch[1].trim() : fullContent;
+
+            const fm = note.frontmatter;
+            const parts = [];
+            if (fm.name) parts.push(`Item: ${fm.name}`);
+            if (fm.itemType) parts.push(`Type: ${fm.itemType}`);
+            if (fm.campaigns) parts.push(`Campaigns: ${Array.isArray(fm.campaigns) ? fm.campaigns.join(', ') : fm.campaigns}`);
+            parts.push('');
+            parts.push(body);
+
+            return parts.join('\n');
+        } catch (err) {
+            logger.warn(`Failed to read full item markdown for ${name}: ${err.message}`);
+            return null;
+        }
     }
 
     // ==================== VAULT STATS ====================
