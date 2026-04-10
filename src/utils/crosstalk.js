@@ -489,6 +489,175 @@ ${finalText}
 }
 
 // ---------------------------------------------------------------------------
+// Character Growth Distillation
+// ---------------------------------------------------------------------------
+
+const PERSONAS_DIR = path.join(
+    process.env.OBSIDIAN_VAULT_PATH || path.join(__dirname, '../../obsidian_cass/cassvault'),
+    'Personas'
+);
+const MAX_LEARNED_TRAITS = 10;
+const MAX_RELATIONSHIP_NOTES = 10;
+
+/**
+ * After a conversation, distill character growth and write it back to persona files.
+ * Extracts 0-2 new traits per persona and 0-1 relationship notes per pair.
+ * Haiku decides what's worth keeping; we cap sections to prevent bloat.
+ */
+async function distillCharacterGrowth(personas, lines) {
+    const dialogue = lines.map(l => `${l.persona.name}: ${l.text}`).join('\n');
+    const names = personas.map(p => `${p.name} (${p.class}, ${p.alignment})`).join(', ');
+
+    const prompt = `A conversation just happened between past lives of an android: ${names}.
+
+${dialogue}
+
+Extract ONLY genuinely interesting character details revealed in this conversation. Skip generic observations.
+
+Return JSON:
+{
+  "traits": {
+    "PersonaName": ["trait 1 — short, specific, in third person (e.g. 'Once tried to teach weeds binary syntax')"]
+  },
+  "relationships": {
+    "PersonaName": {"OtherName": "one-line dynamic (e.g. 'Finds her exasperating but secretly impressed')"}
+  }
+}
+
+RULES:
+- Only include traits that are NEW and SPECIFIC — not restatements of their existing personality
+- 0-2 traits per persona. 0 is fine if nothing new was revealed.
+- Relationship notes only if there was genuine chemistry, friction, or humor
+- Return empty objects if the conversation was bland
+- Return ONLY valid JSON`;
+
+    try {
+        const response = await llmRouter.claudeChat(
+            [{ role: 'user', content: prompt }],
+            { system: 'Extract character growth from roleplay dialogue. Be selective — only keep genuinely interesting details.', maxTokens: 800, temperature: 0.2, model: 'claude-haiku-4-5' }
+        );
+
+        const jsonMatch = response.match(/\{[\s\S]*\}/);
+        if (!jsonMatch) return;
+
+        const cleaned = jsonMatch[0].replace(/\/\/[^\n]*/g, '').replace(/,\s*([}\]])/g, '$1');
+        const growth = JSON.parse(cleaned);
+
+        // Apply traits and relationships to persona files
+        for (const persona of personas) {
+            const newTraits = growth.traits?.[persona.name] || [];
+            const newRels = growth.relationships?.[persona.name] || {};
+
+            if (newTraits.length === 0 && Object.keys(newRels).length === 0) continue;
+
+            await updatePersonaFile(persona, newTraits, newRels);
+        }
+
+        const traitCount = Object.values(growth.traits || {}).reduce((s, a) => s + a.length, 0);
+        const relCount = Object.values(growth.relationships || {}).reduce((s, r) => s + Object.keys(r).length, 0);
+        if (traitCount + relCount > 0) {
+            logger.info(`[Crosstalk] Character growth: ${traitCount} trait(s), ${relCount} relationship note(s)`);
+        }
+    } catch (err) {
+        logger.warn(`[Crosstalk] Character growth extraction failed: ${err.message}`);
+    }
+}
+
+/**
+ * Append learned traits and relationship notes to a persona's .md file.
+ * Creates sections if missing, caps at MAX to prevent bloat.
+ */
+async function updatePersonaFile(persona, newTraits, newRelationships) {
+    // Find the persona file
+    const lifeNum = persona.lifeNumber;
+    const files = fs.readdirSync(PERSONAS_DIR).filter(f => {
+        const match = f.match(/^(\d+)_/);
+        return match && parseInt(match[1]) === lifeNum;
+    });
+
+    if (files.length === 0) return;
+    const filePath = path.join(PERSONAS_DIR, files[0]);
+    let content = fs.readFileSync(filePath, 'utf8');
+
+    // --- Learned Traits ---
+    if (newTraits.length > 0) {
+        const traitSection = content.match(/## Learned Traits\n([\s\S]*?)(?=\n## |$)/);
+        let existingTraits = [];
+
+        if (traitSection) {
+            existingTraits = traitSection[1].trim().split('\n')
+                .filter(l => l.startsWith('- '))
+                .map(l => l.substring(2).trim());
+        }
+
+        // Add new traits, cap at MAX
+        for (const trait of newTraits) {
+            if (existingTraits.length >= MAX_LEARNED_TRAITS) {
+                // Drop the oldest (first) trait to make room
+                existingTraits.shift();
+            }
+            existingTraits.push(trait);
+        }
+
+        const traitBlock = `## Learned Traits\n${existingTraits.map(t => `- ${t}`).join('\n')}`;
+
+        if (traitSection) {
+            content = content.replace(/## Learned Traits\n[\s\S]*?(?=\n## |$)/, traitBlock);
+        } else {
+            // Insert before Flavor Notes (last section), or append
+            const flavorIdx = content.indexOf('## Flavor Notes');
+            if (flavorIdx > 0) {
+                content = content.substring(0, flavorIdx) + traitBlock + '\n\n' + content.substring(flavorIdx);
+            } else {
+                content = content.trimEnd() + '\n\n' + traitBlock + '\n';
+            }
+        }
+    }
+
+    // --- Relationship Notes ---
+    const relEntries = Object.entries(newRelationships);
+    if (relEntries.length > 0) {
+        const relSection = content.match(/## Persona Relationships\n([\s\S]*?)(?=\n## |$)/);
+        let existingRels = {};
+
+        if (relSection) {
+            const lines = relSection[1].trim().split('\n').filter(l => l.startsWith('- **'));
+            for (const line of lines) {
+                const match = line.match(/- \*\*(.+?)\*\*[:\s—–-]+(.+)/);
+                if (match) existingRels[match[1].trim()] = match[2].trim();
+            }
+        }
+
+        // Update or add relationships, cap at MAX
+        for (const [otherName, note] of relEntries) {
+            existingRels[otherName] = note; // Overwrite if exists (fresher take)
+        }
+
+        // Cap total
+        const relKeys = Object.keys(existingRels);
+        while (relKeys.length > MAX_RELATIONSHIP_NOTES) {
+            delete existingRels[relKeys.shift()];
+        }
+
+        const relBlock = `## Persona Relationships\n${Object.entries(existingRels).map(([name, note]) => `- **${name}** — ${note}`).join('\n')}`;
+
+        if (relSection) {
+            content = content.replace(/## Persona Relationships\n[\s\S]*?(?=\n## |$)/, relBlock);
+        } else {
+            const flavorIdx = content.indexOf('## Flavor Notes');
+            if (flavorIdx > 0) {
+                content = content.substring(0, flavorIdx) + relBlock + '\n\n' + content.substring(flavorIdx);
+            } else {
+                content = content.trimEnd() + '\n\n' + relBlock + '\n';
+            }
+        }
+    }
+
+    fs.writeFileSync(filePath, content, 'utf8');
+    logger.debug(`[Crosstalk] Updated persona file: ${files[0]}`);
+}
+
+// ---------------------------------------------------------------------------
 // Discord Posting
 // ---------------------------------------------------------------------------
 
@@ -654,9 +823,12 @@ async function runPipeline(client) {
             // Save to vault
             saveToVault(convo.personas, convo.topic, finalText, gate.verdict);
 
-            // Extract relationships (async, don't block)
+            // Extract relationships and character growth (async, don't block)
             extractRelationships(convo.personas, convo.lines).catch(err => {
                 logger.warn(`[Crosstalk] Relationship extraction error: ${err.message}`);
+            });
+            distillCharacterGrowth(convo.personas, convo.lines).catch(err => {
+                logger.warn(`[Crosstalk] Character growth error: ${err.message}`);
             });
 
             // Update state
