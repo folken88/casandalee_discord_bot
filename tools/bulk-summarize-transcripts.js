@@ -50,7 +50,10 @@ const PLAYER_MAP = {
     CC: {
         tim: 'Gaspar', sydney: 'Kovira', graham: 'Kai', anna: 'Elfrip',
         josh: 'Dinvaya', mandi: 'Kate Blackwood', chris: 'Rodney Danger Smith',
-        harrison: 'Dismas', toby: 'GM/NPCs', tobias: 'GM/NPCs'
+        harrison: 'Dismas', toby: 'GM/NPCs', tobias: 'GM/NPCs',
+        // Justice Gorls players (CC prequel, 4707 AR)
+        kayla: 'Taelys', sarah: 'Lou Candlebean', lydia: 'Agu', ashley: 'Tamsin'
+        // Note: mandi=Antoinette, graham=Kelda Ironglim, anna=Lirienne in JG context
     },
     HV: {
         tim: 'Jamal', harrison: 'Draymus', josh: 'Reese', chris: 'Bruce',
@@ -101,11 +104,21 @@ const CHARACTER_ALIASES = {
         'Kate Blackwood': ['Kate Blackwood', 'Kate'],
         'Rodney Danger Smith': ['Rodney', 'Rodney Danger Smith', 'RDS', 'Danger'],
         'Dismas': ['Dismas'],
+        // Justice Gorls characters (CC prequel, 4707 AR)
+        'Antoinette': ['Antoinette', 'Toni', 'Antoinett'],
+        'Kelda Ironglim': ['Kelda', 'Kella', 'Iron Glenn', 'Ironglim'],
+        'Taelys': ['Taelys', 'Taylor', 'Taelis'],
+        'Lirienne': ['Lirienne', 'Lirian', 'Lien', 'Lirien'],
+        'Crisp': ['Crisp'],
+        'Lou Candlebean': ['Lou', 'Candlebean', 'Lou Candlebean'],
+        'Agu': ['Agu', 'Agui'],
+        'Tamsin': ['Tamsin', 'Tamson'],
         // Key CC NPCs with known auto-caption manglings
         'Auren Vrood': ['Auren Vrood', 'Orin Rud', 'Oren Rud', 'Auren Brood', 'Orin Rude', 'Vrood'],
         'Judge Daramid': ['Daramid', 'Darramid', 'Darameed'],
         'Kendra Lorrimor': ['Kendra', 'Lorrimor', 'Lorremor'],
-        'Adamaris': ['Adamaris']
+        'Adamaris': ['Adamaris'],
+        'Professor Martin': ['Professor Martin', 'Vellesca Martin', 'Vellesca', 'the professor']
     },
     HV: {
         'Jamal': ['Jamal'],

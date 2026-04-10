@@ -92,6 +92,28 @@ Survivors from the shipwreck of the *Sunrise*, destroyed on rocks near Rickety S
 | Harrison | Dismas | |
 | Toby | GM | |
 
+## Justice Gorls (JG) — Carrion Crown Prequel
+*Set in 4707 AR, 10 years before the main CC campaign. Canon to CC — events here are part of the CC timeline.*
+
+| Player | Character(s) | Notes |
+|--------|-------------|-------|
+| Mandi | Antoinette (Toni) | Also plays Kate Blackwood (CC) and Rhyarca (SS) |
+| Graham | Kelda Ironglim | Also plays Kai (CC) and Bujon (SS) |
+| Kayla | Taelys | |
+| Anna | Lirienne + Crisp (pet raptor) | Also plays Elfrip (CC) |
+| Sarah | Lou Candlebean | Gnome |
+| Lydia | Agu | "Queen of Skanktown" |
+| Ashley | Tamsin | |
+| Toby | GM | |
+
+### Key NPCs
+- Professor Vellesca Martin — academic kidnapped by bandits, rescued by JG, later died
+- Slass Venton — contract broker who hired JG to rescue the professor
+- Craggy Sons / Cragfist Gang — smuggling operation in Caliphas
+
+### Plot Arc
+The Justice Gorls formed as a band of misfits, took over the Clickboom Gang hideout, and were contracted to rescue Professor Martin and her grad students. They cleared Skanktown, infiltrated the Craggy Sons' smuggling dungeon beneath Tong Hammer Smithy, and rescued the captives. The professor later died and the party attended her funeral at the Church of Abadar.
+
 ## Hells Rebels (HR)
 | Player | Character(s) | Notes |
 |--------|-------------|-------|
