@@ -47,37 +47,41 @@ const VAULT_DIR = path.join(
 // Conversation Topics
 // ---------------------------------------------------------------------------
 
+// Topics are conversation STARTERS, not taunts. The initiator shares their
+// own answer first; others relate, differ, or tangent naturally. Anything
+// phrased as an accusation or comparison ("your era was barbaric") tends to
+// produce defensive one-upping, so we keep them open-ended and personal.
 const TOPICS = [
     // Funny / light
     { opener: 'What was the dumbest way you almost died?', tone: 'funny' },
     { opener: 'What was the worst meal you ever had?', tone: 'funny' },
     { opener: 'Did you ever get in a fight you absolutely should not have?', tone: 'funny' },
     { opener: 'What is the most useless skill you picked up?', tone: 'funny' },
-    { opener: 'Were the people in your era always that stupid, or just the ones you met?', tone: 'snarky' },
-    // Confrontational / friction
-    { opener: 'I think you wasted your life.', tone: 'confrontational' },
-    { opener: 'Why are you like this?', tone: 'confrontational' },
-    { opener: 'Your era was barbaric compared to mine.', tone: 'argumentative' },
-    { opener: 'I heard about what you did. Was it worth it?', tone: 'accusatory' },
-    { opener: 'You think you had it hard?', tone: 'competitive' },
+    { opener: 'What is the strangest thing someone ever asked you to do?', tone: 'funny' },
+    { opener: 'What is the one thing from your era that future-you would find ridiculous?', tone: 'funny' },
     // Golarion history / world events (personas from different eras will react differently)
     { opener: 'Did you know Aroden?', tone: 'historical' },
     { opener: 'What did you think of the Technic League?', tone: 'historical' },
     { opener: 'Were the Kellids in your time enemies or allies?', tone: 'historical' },
     { opener: 'What was Absalom like when you were alive?', tone: 'historical' },
     { opener: 'Did you ever visit Silver Mount?', tone: 'historical' },
-    // Genuine but not saccharine
+    // Genuine — sharing, not interrogating
     { opener: 'What did you fight for?', tone: 'direct' },
     { opener: 'How did you die?', tone: 'blunt' },
-    { opener: 'Did anyone actually like you?', tone: 'blunt' },
     { opener: 'What did you leave behind?', tone: 'reflective' },
-    // Dark / morally grey
+    { opener: 'What is one thing from your era you wish had survived?', tone: 'reflective' },
+    { opener: 'Who did you trust the most?', tone: 'reflective' },
+    { opener: 'What did you believe in?', tone: 'reflective' },
+    // Dark / morally grey — still personal, not accusatory
     { opener: 'Did you ever betray someone?', tone: 'dark' },
     { opener: 'What is the worst thing you did and would do again?', tone: 'dark' },
     { opener: 'Did you ever kill someone who did not deserve it?', tone: 'dark' },
+    { opener: 'What is something you regret?', tone: 'dark' },
     // Mundane / everyday
     { opener: 'What did you do for fun?', tone: 'casual' },
     { opener: 'What was your favorite place to drink?', tone: 'casual' },
+    { opener: 'Who was the most interesting person you ever met?', tone: 'casual' },
+    { opener: 'What did home smell like?', tone: 'casual' },
     { opener: 'Did you have any friends who were not trying to kill you?', tone: 'casual' },
 ];
 
@@ -289,13 +293,16 @@ async function generateConversation() {
 
     // Initiator asks the question to a random target
     const initiatorIdx = Math.floor(Math.random() * personas.length);
-    const targetIdx = (initiatorIdx + 1) % personas.length;
     const initiator = personas[initiatorIdx];
-    const target = personas[targetIdx];
 
-    // First turn: initiator poses the question
+    // First turn: the initiator answers the question themselves.
+    // They are NOT accusing or confronting anyone — they're sharing their
+    // own experience first, as a conversation-starter. Other personas will
+    // relate, differ, or tangent in later turns.
     const firstSystem = buildCrosstalkSystemPrompt(initiator, personas.filter(p => p.name !== initiator.name), topic.opener, relContext[initiatorIdx]);
-    const firstPrompt = `Say this to ${target.name} in your own words (1 sentence, stay in character): "${topic.opener}"`;
+    const firstPrompt = `You're sitting with the others and someone asks the group: "${topic.opener}"
+
+Answer the question yourself, from your own life. 1-2 sentences. Share a specific memory, thought, or reaction — something that's actually true of YOU. Do not direct it at anyone or challenge anyone. You're just answering the question.`;
 
     const firstResponse = await generateTurn(firstSystem, firstPrompt);
 
@@ -318,7 +325,19 @@ async function generateConversation() {
 
         const system = buildCrosstalkSystemPrompt(speaker, others, topic.opener, relContext[personas.indexOf(speaker)]);
 
-        const turnPrompt = `Here is the conversation so far:\n${historyText}\n\nRespond to what was just said. 1-2 sentences max.`;
+        const turnPrompt = `The group was asked: "${topic.opener}"
+
+The conversation so far:
+${historyText}
+
+Now it's your turn. You can:
+- Answer the original question from YOUR own life
+- Share a memory something they said reminded you of
+- Ask a curious follow-up about what someone said
+- Agree with them ("yeah, same for me")
+- Just react honestly — surprise, sympathy, confusion, amusement
+
+Do NOT one-up them, do NOT compare whose era was harder, do NOT critique their worldview. This is a conversation between people, not a competition. 1-2 sentences max. Speak directly (no name prefix, no quotation marks).`;
 
         const response = await generateTurn(system, turnPrompt);
 
