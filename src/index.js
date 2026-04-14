@@ -423,7 +423,8 @@ client.on(Events.MessageCreate, async message => {
         const crosstalkPersona = getCrosstalkPersona(message.reference.messageId);
         if (crosstalkPersona) {
             try {
-                const emoji = crosstalkPersona.emojis?.[Math.floor(Math.random() * (crosstalkPersona.emojis?.length || 1))] || '✨';
+                // Use the same emoji that was used in the conversation, or fall back to first emoji
+                const emoji = crosstalkPersona.conversationEmoji || crosstalkPersona.emojis?.[0] || '✨';
                 const crosstalkEra = crosstalkPersona.birthYear != null ? `${crosstalkPersona.birthYear} AR` : `Life ${crosstalkPersona.lifeNumber}`;
                 const systemPrompt = `You are ${crosstalkPersona.name}, a ${crosstalkPersona.alignment} ${crosstalkPersona.class} from Casandalee's past lives (${crosstalkEra}).
 
@@ -434,15 +435,40 @@ Speech style: ${crosstalkPersona.speechStyle || 'Natural and in-character.'}
 Someone in the mortal world has replied to something you said. You are a past-life echo — respond briefly (1-3 sentences) in character. You are ${crosstalkPersona.tone} in tone. Be engaging but concise.`;
 
                 const userText = message.content.trim();
-                const response = await llmRouter.claudeChat(
-                    [{ role: 'user', content: userText }],
-                    {
-                        system: systemPrompt,
-                        maxTokens: 200,
-                        temperature: 0.7,
-                        model: 'claude-haiku-4-5'
+                // Use Gemini (free, good at dialogue) for crosstalk replies.
+                // Fall back to Ollama then Claude if needed.
+                let response;
+                try {
+                    response = await llmRouter.geminiChat(
+                        [
+                            { role: 'system', content: systemPrompt },
+                            { role: 'user', content: userText }
+                        ],
+                        { maxTokens: 200, temperature: 0.9, timeout: 30000 }
+                    );
+                } catch (geminiErr) {
+                    logger.warn(`[Crosstalk] Reply Gemini failed (${geminiErr.message}), falling back to Ollama`);
+                    try {
+                        response = await llmRouter.ollamaChat(
+                            [
+                                { role: 'system', content: systemPrompt },
+                                { role: 'user', content: userText }
+                            ],
+                            { maxTokens: 200, temperature: 0.7, timeout: 30000 }
+                        );
+                    } catch (ollamaErr) {
+                        logger.warn(`[Crosstalk] Reply Ollama failed (${ollamaErr.message}), falling back to Claude`);
+                        response = await llmRouter.claudeChat(
+                            [{ role: 'user', content: userText }],
+                            {
+                                system: systemPrompt,
+                                maxTokens: 200,
+                                temperature: 0.7,
+                                model: 'claude-haiku-4-5'
+                            }
+                        );
                     }
-                );
+                }
 
                 await message.reply(`${emoji} **${crosstalkPersona.name}:** ${response}`);
                 logger.info(`[Crosstalk] Reply as ${crosstalkPersona.name} to ${message.author.username}`);
@@ -478,9 +504,12 @@ Someone in the mortal world has replied to something you said. You are a past-li
                 return;
             }
             
-            // Use Iron Gods character name when mapped, else Discord username
-            const speakerName = discordUserMap.getCharacterByDiscordId(message.author.id) || message.author.username;
-            logger.info('Processing query with LLM', { query, speakerName, userId: message.author.id });
+            // Use campaign-specific character name when in a campaign channel,
+            // otherwise use player display name (e.g. "Graham") or Discord username
+            const characterName = discordUserMap.getCharacterByDiscordId(message.author.id, message.channelId);
+            const playerName = discordUserMap.getPlayerByDiscordId(message.author.id);
+            const speakerName = characterName || playerName || message.author.username;
+            logger.info('Processing query with LLM', { query, speakerName, playerName, characterName, userId: message.author.id });
             
             // Show typing indicator (refresh every 8s so it doesn't expire during LLM fallback)
             await message.channel.sendTyping();

@@ -18,6 +18,9 @@ class LLMRouter {
         this.openrouterApiKey = process.env.OPENROUTER_API_KEY || null;
         this.openrouterBaseUrl = 'https://openrouter.ai/api/v1';
         this.openrouterModel = process.env.OPENROUTER_MODEL || 'anthropic/claude-haiku-4-5';
+        this.geminiApiKey = process.env.GEMINI_API_KEY || null;
+        this.geminiModel = process.env.GEMINI_MODEL || 'gemini-2.0-flash';
+        this.geminiBaseUrl = 'https://generativelanguage.googleapis.com/v1beta/models';
 
         // Lazy-loaded clients
         this._anthropicClient = null;
@@ -26,7 +29,8 @@ class LLMRouter {
         this.stats = {
             ollama: { calls: 0, errors: 0, totalTokens: 0 },
             claude: { calls: 0, errors: 0, totalTokens: 0 },
-            openrouter: { calls: 0, errors: 0, totalTokens: 0 }
+            openrouter: { calls: 0, errors: 0, totalTokens: 0 },
+            gemini: { calls: 0, errors: 0, totalTokens: 0 }
         };
     }
 
@@ -450,6 +454,90 @@ class LLMRouter {
         } catch (err) {
             this.stats.openrouter.errors++;
             logger.error(`OpenRouter Vision error [${model}]:`, err.message);
+            throw err;
+        }
+    }
+
+    /**
+     * Send a chat request to Google Gemini (free tier)
+     * Best for: natural dialogue, crosstalk generation, in-character replies
+     * Free tier: 1500 requests/day on gemini-2.0-flash
+     */
+    async geminiChat(messages, options = {}) {
+        if (!this.geminiApiKey) {
+            throw new Error('Gemini API not configured');
+        }
+
+        const model = options.model || this.geminiModel;
+
+        // Convert messages to Gemini's format.
+        // Gemini uses 'user' / 'model' roles and separates system instructions.
+        let systemInstruction = null;
+        const contents = [];
+        for (const msg of messages) {
+            if (msg.role === 'system') {
+                // Append to system instruction
+                systemInstruction = systemInstruction
+                    ? `${systemInstruction}\n\n${msg.content}`
+                    : msg.content;
+            } else {
+                contents.push({
+                    role: msg.role === 'assistant' ? 'model' : 'user',
+                    parts: [{ text: msg.content }]
+                });
+            }
+        }
+        // Allow options.system to override/augment
+        if (options.system) {
+            systemInstruction = systemInstruction
+                ? `${options.system}\n\n${systemInstruction}`
+                : options.system;
+        }
+
+        try {
+            const body = {
+                contents,
+                generationConfig: {
+                    temperature: options.temperature ?? 0.7,
+                    maxOutputTokens: options.maxTokens || 500,
+                    // Disable Gemini 2.5's thinking mode by default — it consumes output token
+                    // budget before producing the actual response, and our prompts don't need
+                    // deep reasoning. Caller can override via options.thinkingBudget.
+                    thinkingConfig: {
+                        thinkingBudget: options.thinkingBudget ?? 0
+                    }
+                }
+            };
+            if (systemInstruction) {
+                body.systemInstruction = { parts: [{ text: systemInstruction }] };
+            }
+
+            const url = `${this.geminiBaseUrl}/${model}:generateContent?key=${this.geminiApiKey}`;
+            const response = await fetch(url, {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(body),
+                signal: AbortSignal.timeout(options.timeout || 60000)
+            });
+
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`Gemini HTTP ${response.status}: ${errorText}`);
+            }
+
+            const data = await response.json();
+            this.stats.gemini.calls++;
+            this.stats.gemini.totalTokens += (data.usageMetadata?.totalTokenCount || 0);
+
+            const text = data.candidates?.[0]?.content?.parts?.[0]?.text?.trim() || '';
+            if (!text) {
+                // Log the raw response if empty — may indicate safety block
+                logger.warn(`Gemini returned empty response: ${JSON.stringify(data).substring(0, 300)}`);
+            }
+            return text;
+        } catch (err) {
+            this.stats.gemini.errors++;
+            logger.error(`Gemini chat error [${model}]:`, err.message);
             throw err;
         }
     }

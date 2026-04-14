@@ -25,8 +25,11 @@ module.exports = {
 
         try {
             const question = interaction.options.getString('question');
-            // Use Iron Gods character name when mapped, else Discord username
-            const speakerName = discordUserMap.getCharacterByDiscordId(interaction.user.id) || interaction.user.username;
+            // Use campaign-specific character name when in a campaign channel,
+            // otherwise use player display name or Discord username
+            const speakerName = discordUserMap.getCharacterByDiscordId(interaction.user.id, interaction.channelId)
+                || discordUserMap.getPlayerByDiscordId(interaction.user.id)
+                || interaction.user.username;
 
             // Show typing indicator
             await interaction.deferReply();

@@ -409,7 +409,8 @@ class PersonalityManager {
 
     /**
      * Select a personality filtered by provider intelligence tier.
-     * Claude = high INT (scholar/wizard/goddess), Ollama = low INT (fighter/barbarian/paladin).
+     * Claude = high INT (goddess, top scholars/wizards INT 17+).
+     * Ollama (Gemma 4) = INT 0-16 (fighters, rogues, mid-tier casters).
      * @param {'claude'|'ollama'} provider - Which LLM provider answered
      * @param {string} [queryContext] - Optional query for context-aware selection
      * @returns {Object} Selected personality data
@@ -417,9 +418,9 @@ class PersonalityManager {
     selectForProvider(provider, queryContext = '') {
         const isClaudeProvider = provider === 'claude';
 
-        // INT thresholds: Claude gets INT 14+, Ollama gets INT 12 or below
-        const intMin = isClaudeProvider ? 14 : 0;
-        const intMax = isClaudeProvider ? 99 : 12;
+        // INT thresholds: Claude gets INT 17+ (and goddess), Ollama gets INT 0-16
+        const intMin = isClaudeProvider ? 17 : 0;
+        const intMax = isClaudeProvider ? 99 : 16;
 
         // Goddess form is always Claude-tier (INT 20)
         if (isClaudeProvider) {

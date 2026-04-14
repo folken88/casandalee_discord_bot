@@ -520,7 +520,9 @@ class VaultSearch {
             return '';
         }
 
-        return `=== Cass's Memory (from Obsidian vault) ===\n${sections.join('\n\n')}\n=== End Memory ===`;
+        // Return sections joined — the caller (llmHandler._fetchContext) wraps
+        // the full assembled context in <recalled-context> memory-fencing tags.
+        return sections.join('\n\n');
     }
 
     /**

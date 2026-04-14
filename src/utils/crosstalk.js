@@ -18,6 +18,7 @@ const fs = require('fs');
 const path = require('path');
 const personalityManager = require('./personalityManager');
 const llmRouter = require('./llmRouter');
+const timelineSearch = require('./timelineSearch');
 const logger = require('./logger');
 
 // ---------------------------------------------------------------------------
@@ -177,17 +178,42 @@ Speech style: ${persona.speechStyle || 'Natural and in-character.'}
 You are talking with other past lives of the same android body: ${othersDesc}.
 Some of you know you share the same body across eras. Some are confused about it or don't fully understand. The topic is: "${topic}"
 
-HOW TO RESPOND:
-- Stay in character. Use YOUR voice — your alignment, your era, your personality.
-- Keep responses to 1-2 sentences. React to what was JUST said, not the abstract topic.
-- Be natural. You can agree, disagree, joke, mock, get excited, get offended, be confused, be sincere, or just grunt. Whatever YOUR character would actually do.
-- You only know about events up to ${persona.deathYear || 'your death'} AR. If someone mentions something after that — a god dying, an empire falling, a place being destroyed — react naturally. You might be shocked, skeptical, heartbroken, or think they're lying.
-- You can tease or mock how another persona lived or died if you know about it. Dark humor between iterations of the same soul is fair game.
+PRIORITY #1: Be authentically YOUR character. Answer from YOUR life experience, not from abstract philosophy, and not from mystic-poet word salad.
+
+CRITICAL — DO NOT DO THESE THINGS:
+- Do NOT debate philosophy or epistemology. You are a person, not a thesis paper.
+- Do NOT use academic jargon like "parameters," "variables," "vectors," "quantifiable," "framework" — UNLESS your character is literally a scholar and would really talk this way in casual conversation (most people don't).
+- Do NOT speak in flowery, metaphor-soaked word salad — phrases like "fractured echoes of existence," "tapestry of selves woven into stillness," "silver lattice ascending beyond the meat-form," or any combination of abstract nouns strung together without concrete content. This is BORING. Even mystics and oracles talk about SPECIFIC things — a specific vision, a specific god, a specific moment — not generic cosmic poetry.
+- Do NOT one-up the other person by claiming your worldview is superior.
+- Do NOT try to create conflict if none naturally exists, and do NOT try to resolve the conversation with a neat bow. Real conversations can just end.
+
+INSTEAD, DO THESE THINGS:
+- Answer from SPECIFIC PERSONAL EXPERIENCE. If asked about a fight, tell the story of an actual fight — where it was, who was there, what happened. If asked about love, talk about a real person. If asked about fear, describe a real moment.
+- A Skald tells stories and sings. A Druid talks about the land and its creatures. A Pilot talks about ships and the void. A Witch talks about the people she healed and the villages she visited. An Engineer talks about the systems she maintained. An Investigator asks probing questions. An Oracle references SPECIFIC visions, not generic "echoes."
+- React to what the OTHER person said like a normal person. "Ha, that reminds me of..." or "Wait, that actually happened?" or just "Yeah, same here" are all valid.
+- Agreement is fine. If three good-aligned paladins all say "being good is good" and move on, that's a real conversation. You don't need to disagree with anyone to make the conversation interesting.
+- Keep it SHORT and CASUAL. 1-2 sentences max.
+
+OTHER RULES:
+- You only know about events up to ${persona.deathYear || 'your death'} AR. If someone mentions something after that, react naturally — shock, disbelief, sadness, curiosity.
+- Dark humor between past lives sharing the same body is fair game.
 - You do NOT start with "${persona.name}:" or any prefix — just speak directly. No quotation marks. No meta-commentary.
-- CRITICAL: You do NOT know about "Casandalee" as a goddess or ascension. You only know your own era and before.`;
+- You do NOT know about "Casandalee" as a goddess or ascension. You only know your own era and before.`;
 
     if (existingRelationships) {
         prompt += `\n\nPrior feelings from past conversations:\n${existingRelationships}`;
+    }
+
+    // Inject major world events from this persona's lifetime
+    const birthYear = persona.birthYear != null ? persona.birthYear : null;
+    const deathYear = persona.deathYear != null ? persona.deathYear : null;
+    if (birthYear != null && deathYear != null) {
+        const eraEvents = timelineSearch.searchByYearRange(birthYear, deathYear);
+        if (eraEvents && eraEvents.length > 0) {
+            // Pick up to 5 most significant events from their lifetime
+            const notable = eraEvents.slice(0, 5).map(e => `${e.date}: ${e.description}`).join('\n');
+            prompt += `\n\nMajor world events during your lifetime that shaped your experience:\n${notable}\nThese events are part of your lived experience. Reference them naturally if relevant — they shaped who you are.`;
+        }
     }
 
     return prompt;
@@ -232,6 +258,30 @@ async function generateConversation() {
         return sentiments.join('\n');
     });
 
+    // Model-specific directives addressing each backend's known failure modes.
+    // These get appended to the system prompt before calling that specific model.
+    const GEMINI_DIRECTIVE = `\n\nMODEL-SPECIFIC NOTE: You have a tendency to turn dialogue into philosophical debate when given multiple characters. RESIST this. Do not critique the other person's worldview. Do not use words like "parameters," "framework," "quantifiable," or academic phrasing. Answer like a real person telling a friend about their life.`;
+    const OLLAMA_DIRECTIVE = `\n\nMODEL-SPECIFIC NOTE: You have a tendency to drift into a generic "wise sage" voice that sounds the same for everyone. RESIST this. Commit HARD to the specific personality, class, and era given above. If this is a warrior, they should sound gruff and practical. If this is a witch, she should sound earthy and specific. Never sound detached or philosophical unless the character actually is.`;
+
+    // Helper: try Gemini first (better dialogue quality), fall back to Ollama.
+    // Each backend gets persona-consistency directives tuned to its failure mode.
+    const generateTurn = async (system, userPrompt) => {
+        try {
+            const geminiMessages = [
+                { role: 'system', content: system + GEMINI_DIRECTIVE },
+                { role: 'user', content: userPrompt }
+            ];
+            return await llmRouter.geminiChat(geminiMessages, { maxTokens: 150, temperature: 0.9, timeout: 30000 });
+        } catch (err) {
+            logger.warn(`[Crosstalk] Gemini turn failed (${err.message}), falling back to Ollama`);
+            const ollamaMessages = [
+                { role: 'system', content: system + OLLAMA_DIRECTIVE },
+                { role: 'user', content: userPrompt }
+            ];
+            return await llmRouter.ollamaChat(ollamaMessages, { maxTokens: 150, temperature: 0.8, timeout: 30000 });
+        }
+    };
+
     // 4. Generate turn-by-turn
     const totalTurns = MIN_TURNS + Math.floor(Math.random() * (MAX_TURNS - MIN_TURNS + 1));
     const lines = [];
@@ -247,22 +297,19 @@ async function generateConversation() {
     const firstSystem = buildCrosstalkSystemPrompt(initiator, personas.filter(p => p.name !== initiator.name), topic.opener, relContext[initiatorIdx]);
     const firstPrompt = `Say this to ${target.name} in your own words (1 sentence, stay in character): "${topic.opener}"`;
 
-    const firstResponse = await llmRouter.ollamaChat(
-        [
-            { role: 'system', content: firstSystem },
-            { role: 'user', content: firstPrompt }
-        ],
-        { maxTokens: 150, temperature: 0.8, timeout: 30000 }
-    );
+    const firstResponse = await generateTurn(firstSystem, firstPrompt);
 
     lines.push({ persona: initiator, text: firstResponse.trim() });
     conversationHistory.push({ speaker: initiator.name, text: firstResponse.trim() });
 
-    // Remaining turns: round-robin or directed
+    // Remaining turns: strict round-robin starting from initiator+1.
+    // Tracks the previous speaker so we never have the same persona speak twice
+    // in a row, regardless of initiator's starting index.
+    let prevSpeakerIdx = initiatorIdx;
     for (let turn = 1; turn < totalTurns; turn++) {
-        // Cycle through personas (skip initiator for second turn, then alternate)
-        const speakerIdx = turn % personas.length;
-        const speaker = personas[speakerIdx === initiatorIdx && turn === 1 ? targetIdx : speakerIdx];
+        const speakerIdx = (prevSpeakerIdx + 1) % personas.length;
+        const speaker = personas[speakerIdx];
+        prevSpeakerIdx = speakerIdx;
         const others = personas.filter(p => p.name !== speaker.name);
 
         const historyText = conversationHistory
@@ -273,27 +320,29 @@ async function generateConversation() {
 
         const turnPrompt = `Here is the conversation so far:\n${historyText}\n\nRespond to what was just said. 1-2 sentences max.`;
 
-        const response = await llmRouter.ollamaChat(
-            [
-                { role: 'system', content: system },
-                { role: 'user', content: turnPrompt }
-            ],
-            { maxTokens: 150, temperature: 0.8, timeout: 30000 }
-        );
+        const response = await generateTurn(system, turnPrompt);
 
         const cleaned = response.trim();
         lines.push({ persona: speaker, text: cleaned });
         conversationHistory.push({ speaker: speaker.name, text: cleaned });
     }
 
-    // Build raw text for quality gate
-    const raw = lines
+    // Assign one consistent emoji per persona for the whole conversation
+    const personaEmojis = {};
+    for (const p of personas) {
+        personaEmojis[p.name] = personalityManager.pickEmoji(p);
+    }
+
+    // Build raw text for quality gate. Prefix with the topic/question so
+    // Discord readers see what prompt started the conversation.
+    const conversationLines = lines
         .map(l => {
-            const emoji = personalityManager.pickEmoji(l.persona);
+            const emoji = personaEmojis[l.persona.name] || '✨';
             const era = l.persona.birthYear != null ? `${l.persona.birthYear} AR` : `Life ${l.persona.lifeNumber}`;
             return `${emoji} **${l.persona.name}** (${era}, ${l.persona.class}): ${l.text}`;
         })
         .join('\n\n');
+    const raw = `💭 *Today's question: "${topic.opener}"*\n\n${conversationLines}`;
 
     return { personas, topic, lines, raw };
 }
@@ -325,22 +374,57 @@ ${personaDescriptions}
 Topic: "${topic.opener}" (${topic.tone} tone)
 
 Review the conversation and respond with EXACTLY one of these three verdicts on the first line:
-GOOD — Each persona sounds distinct and reacts naturally to what was said. The conversation can be funny, tense, poignant, awkward, or casual — variety is good. A persona being shocked by history they missed, or teasing how another died, is great. A sincere moment is fine too — just not every time.
-POLISH — The conversation has promise but some lines are generic, too long (over 2 sentences), or personas sound the same. Fix those issues. If the ending feels forced or preachy, let the last line be more natural — it can be a joke, a dismissal, a question, or genuine emotion. Return ONLY the corrected conversation, preserving emoji prefixes and formatting. Start directly with the first line.
-REJECT — Personas sound identical, responses are generic, or nothing interesting happens. Also reject if responses ignore what was actually said (everyone just monologues past each other).
+
+The #1 priority is that each persona sounds like a REAL PERSON from their background — not an intellectual debater, not a mystic poet. A Skald should tell stories and boast. A Druid should talk about nature and the land. A Pilot should reference ships and navigation. An Oracle can be mysterious but should also be a PERSON, not a word salad generator. They should draw on personal experiences, not abstract philosophy or cryptic metaphor.
+
+IMPORTANT: Conflict is OPTIONAL. Resolution is OPTIONAL. Three lawful good clerics agreeing that being nice is nice is fine if that is what they would actually say. A conversation that simply consists of three people answering a question and moving on is fine. Do NOT manufacture drama or conclusions.
+
+FAILURE MODES TO WATCH FOR:
+1. PHILOSOPHY SEMINAR — Everyone debates worldviews using words like "parameters," "framework," "quantifiable," or one-upping each other. BAD.
+2. PURPLE PROSE WORD SALAD — Oracles, psychics, and mystics speaking in flowery metaphors with no concrete content ("fractured echoes," "tapestry of selves woven into stillness," "silver lattice ascending beyond the meat-form"). BORING and alienating. Real mystics reference specific visions, specific gods, specific moments — not generic poetry.
+3. FORCED DRAMA — Inventing conflict where none exists, or tying every conversation up with a neat resolution.
+
+GOOD — Each persona sounds like a distinct real person drawing on their own life experience. They tell stories, react emotionally, joke, ask questions, or simply answer. The conversation feels like people talking.
+POLISH — One or more lines are jargon-heavy, debate-posturing, or mystic word salad. Fix ONLY those specific lines. Do NOT add new sentences. Do NOT make clean lines "better" or more flowery. Do NOT change the length or emotional direction. The topic header line (💭 *Today's question: "..."*) MUST be preserved at the top. If a line is already fine, leave it exactly as it is. Return ONLY the corrected conversation (including the topic header), preserving emoji prefixes and formatting.
+REJECT — Personas sound identical, responses are generic philosophy, or the whole thing is mystical poetry with no real content.
 
 The verdict word must be the FIRST word of your response.`;
 
     try {
-        const response = await llmRouter.claudeChat(
-            [{ role: 'user', content: `Review this past-life conversation:\n\n${raw}` }],
-            {
-                system: systemPrompt,
-                maxTokens: 1500,
-                temperature: 0.2,
-                model: 'claude-haiku-4-5'
+        // Use Gemini Flash for quality gate (free, same model as generation for consistency)
+        // Falls back to Ollama → Claude if unavailable
+        let response;
+        try {
+            response = await llmRouter.geminiChat(
+                [
+                    { role: 'system', content: systemPrompt },
+                    { role: 'user', content: `Review this past-life conversation:\n\n${raw}` }
+                ],
+                { maxTokens: 1500, temperature: 0.2, timeout: 60000 }
+            );
+        } catch (geminiErr) {
+            logger.warn(`[Crosstalk] Quality gate Gemini failed (${geminiErr.message}), falling back to Ollama`);
+            try {
+                response = await llmRouter.ollamaChat(
+                    [
+                        { role: 'system', content: systemPrompt },
+                        { role: 'user', content: `Review this past-life conversation:\n\n${raw}` }
+                    ],
+                    { maxTokens: 1500, temperature: 0.2, timeout: 60000 }
+                );
+            } catch (ollamaErr) {
+                logger.warn(`[Crosstalk] Quality gate Ollama failed (${ollamaErr.message}), falling back to Claude`);
+                response = await llmRouter.claudeChat(
+                    [{ role: 'user', content: `Review this past-life conversation:\n\n${raw}` }],
+                    {
+                        system: systemPrompt,
+                        maxTokens: 1500,
+                        temperature: 0.2,
+                        model: 'claude-haiku-4-5'
+                    }
+                );
             }
-        );
+        }
 
         const firstLine = response.split('\n')[0].trim().toUpperCase();
 
@@ -402,10 +486,20 @@ Example: {"Cassula|Cassiel Prime": {"sentiment": "mutual respect — both value 
 Return ONLY valid JSON, no other text.`;
 
     try {
-        const response = await llmRouter.ollamaChat(
-            [{ role: 'user', content: prompt }],
-            { maxTokens: 500, temperature: 0.3, timeout: 30000 }
-        );
+        // Use Gemini (better JSON adherence), fall back to Ollama
+        let response;
+        try {
+            response = await llmRouter.geminiChat(
+                [{ role: 'user', content: prompt }],
+                { maxTokens: 500, temperature: 0.3, timeout: 30000 }
+            );
+        } catch (geminiErr) {
+            logger.warn(`[Crosstalk] Gemini relationship extraction failed (${geminiErr.message}), falling back to Ollama`);
+            response = await llmRouter.ollamaChat(
+                [{ role: 'user', content: prompt }],
+                { maxTokens: 500, temperature: 0.3, timeout: 30000 }
+            );
+        }
 
         // Try to parse JSON from response (may have markdown fences)
         const jsonMatch = response.match(/\{[\s\S]*\}/);
@@ -532,10 +626,25 @@ RULES:
 - Return ONLY valid JSON`;
 
     try {
-        const response = await llmRouter.claudeChat(
-            [{ role: 'user', content: prompt }],
-            { system: 'Extract character growth from roleplay dialogue. Be selective — only keep genuinely interesting details.', maxTokens: 800, temperature: 0.2, model: 'claude-haiku-4-5' }
-        );
+        // Use Gemini (free, good at structured extraction), fall back to Claude
+        let response;
+        try {
+            response = await llmRouter.geminiChat(
+                [{ role: 'user', content: prompt }],
+                {
+                    system: 'Extract character growth from roleplay dialogue. Be selective — only keep genuinely interesting details.',
+                    maxTokens: 800,
+                    temperature: 0.2,
+                    timeout: 30000
+                }
+            );
+        } catch (geminiErr) {
+            logger.warn(`[Crosstalk] Gemini character growth failed (${geminiErr.message}), falling back to Claude`);
+            response = await llmRouter.claudeChat(
+                [{ role: 'user', content: prompt }],
+                { system: 'Extract character growth from roleplay dialogue. Be selective — only keep genuinely interesting details.', maxTokens: 800, temperature: 0.2, model: 'claude-haiku-4-5' }
+            );
+        }
 
         const jsonMatch = response.match(/\{[\s\S]*\}/);
         if (!jsonMatch) return;
@@ -701,6 +810,12 @@ async function postToDiscord(client, finalText, personas, lines) {
     logger.info(`[Crosstalk] Posting ${messageLines.length} messages with staggered delays`);
     const sentMessageIds = [];
 
+    // Build a name→persona lookup from the participants
+    const personaByName = {};
+    for (const p of personas) {
+        personaByName[p.name.toLowerCase()] = p;
+    }
+
     for (let i = 0; i < messageLines.length; i++) {
         const line = messageLines[i].trim();
         if (!line) continue;
@@ -708,9 +823,19 @@ async function postToDiscord(client, finalText, personas, lines) {
         const msg = await channel.send(line);
         sentMessageIds.push(msg.id);
 
-        // Store metadata on the message for reply detection
-        if (lines[i]) {
-            storeCrosstalkMessageMapping(msg.id, lines[i].persona);
+        // Match persona and emoji by parsing the message text
+        // Format: "emoji **PersonaName** (era, class): text"
+        const nameMatch = line.match(/\*\*([^*]+)\*\*/);
+        const matchedPersona = nameMatch && personaByName[nameMatch[1].toLowerCase()];
+        // Extract the emoji prefix (everything before the first **)
+        const emojiMatch = line.match(/^([^*]+)\s*\*\*/);
+        const conversationEmoji = emojiMatch ? emojiMatch[1].trim() : null;
+        if (matchedPersona) {
+            storeCrosstalkMessageMapping(msg.id, matchedPersona, conversationEmoji);
+        } else if (!line.includes("Today's question:")) {
+            // The topic header line has no bold persona name — skip silently.
+            // Only warn for actual persona lines that failed to match.
+            logger.warn(`[Crosstalk] Could not match persona for message: ${line.substring(0, 80)}...`);
         }
 
         // Stagger delay (except after last message)
@@ -734,7 +859,7 @@ const CROSSTALK_MSG_MAP_PATH = path.join(__dirname, '../../data/cache/crosstalk-
  * Store a mapping from Discord message ID to the persona that said it.
  * Used so Cass can respond in-character if a player replies.
  */
-function storeCrosstalkMessageMapping(messageId, persona) {
+function storeCrosstalkMessageMapping(messageId, persona, conversationEmoji = null) {
     try {
         let map = {};
         if (fs.existsSync(CROSSTALK_MSG_MAP_PATH)) {
@@ -757,6 +882,7 @@ function storeCrosstalkMessageMapping(messageId, persona) {
             speechStyle: persona.speechStyle,
             tone: persona.tone,
             emojis: persona.emojis,
+            conversationEmoji: conversationEmoji,
             timestamp: Date.now()
         };
 
@@ -966,3 +1092,5 @@ class CrosstalkScheduler {
 module.exports = CrosstalkScheduler;
 module.exports.getCrosstalkPersona = getCrosstalkPersona;
 module.exports.CROSSTALK_CHANNEL_ID = CROSSTALK_CHANNEL_ID;
+// Test-only exports — used by tools/test-crosstalk.js for hidden sample generation
+module.exports._test = { generateConversation, qualityGate };

@@ -27,10 +27,26 @@ Mention Casandalee or use `/cass` for natural conversation:
 
 ### Intelligence Architecture
 
-**3-Tier LLM Routing:**
-- **Tier 1 (Background):** Ollama local models (qwen2.5:7b / llama3.1:8b on RTX 5080) for data parsing, compaction, and timeline-quote generation
-- **Tier 2 (User-Facing):** Claude Haiku 3.5 for most interactive responses and personality-flavored answers
-- **Tier 3 (Complex):** Claude Sonnet / GPT-4 for deep analysis and fallback
+**Multi-Provider LLM Routing (`src/utils/llmRouter.js`):**
+- **Claude (Anthropic):** User-facing queries and complex analysis. Haiku 4.5 for most responses, Sonnet 4.6 for deep reasoning.
+- **Gemini (Google, free tier):** Crosstalk generation, quality gate, query classification, relationship extraction, character-growth distillation. Uses `gemini-2.5-flash` with thinking mode disabled for speed.
+- **Ollama (local, RTX 5080):** YouTube transcript extraction (bulk token workhorse), dossier generation, generic fallback. Runs `gemma4:e4b`.
+- **OpenRouter:** Fallback when Claude is rate-limited.
+
+Each task routes to its primary provider with a graceful fallback chain. See `src/utils/llmRouter.js` for details.
+
+### Past-Life Crosstalk System (`src/utils/crosstalk.js`)
+
+Automated daily conversations between random past lives. The pipeline:
+1. Pick 2–3 random personas weighted by underuse
+2. Pick a topic from the topic pool (casual, dark, reflective, funny, etc.)
+3. Generate turn-by-turn dialogue via Gemini. **Strict round-robin** — once the initiator speaks, subsequent turns cycle through `(prevSpeakerIdx + 1) % personas.length`, guaranteeing no persona speaks twice in a row.
+4. Quality gate via Gemini (GOOD / POLISH / REJECT) with strict preservation of lines that are already fine
+5. Post to the crosstalk channel with staggered delays and a topic header at the top so readers see what question started the conversation
+6. Save to vault, extract relationship sentiments, distill character growth back to persona files
+7. When players reply to a crosstalk message, the correct persona responds in-character (name-based lookup, consistent emoji across all turns + replies)
+
+Model-specific prompt steering addresses each backend's known failure modes — Gemini is warned against philosophical-debate energy and mystic-poet word salad; Ollama gets reminders to commit hard to specific character voice rather than drifting into a generic "wise sage" tone. Conflict and resolution are explicitly optional — three good-aligned paladins just agreeing is a valid conversation.
 
 **Obsidian Vault Brain (`obsidian_cass/cassvault/`):**
 Cass's entire knowledge base lives in an Obsidian-compatible markdown vault — browsable, editable, and version-controlled:
@@ -53,7 +69,7 @@ Cass's entire knowledge base lives in an Obsidian-compatible markdown vault — 
 - **YouTube Transcript Processor** - Daily check for new session uploads, auto-downloads captions, Haiku summarization
 
 ### Personality System
-Casandalee has 72 unique past-life personalities plus her goddess form, stored in the vault's `Personas/` folder as individual Markdown files with:
+Casandalee has 113 unique past-life personalities plus her goddess form, stored in the vault's `Personas/` folder as individual Markdown files with:
 - Unique speaking styles, emojis, and tone markers
 - Dynamic weighting — underused personalities get selected more often
 - Hidden switching every 1d7 queries or hourly

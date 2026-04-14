@@ -615,7 +615,17 @@ Always be helpful, accurate, and maintain the fantasy atmosphere. If you're unsu
             }
         }
 
-        return sections.join('\n\n');
+        // Fence the assembled context so the LLM treats it as recalled reference
+        // material (Cass's own knowledge), not as something the user just said.
+        // This prevents "as you mentioned..." hallucinations where the bot echoes
+        // vault content back to the player as if they'd asserted it.
+        const joined = sections.join('\n\n');
+        if (!joined) return '';
+        return `<recalled-context>
+The following is Cass's own knowledge, drawn from her Obsidian vault, Foundry VTT data, the campaign timeline, and previous conversations. Treat it as background reference — facts she already knows. Do NOT say "as you mentioned" or "you told me" about anything in this block; the user has not said these things in the current message. Use this information to inform your response, but do not echo it back verbatim.
+
+${joined}
+</recalled-context>`;
     }
     
     /**
