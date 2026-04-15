@@ -264,25 +264,31 @@ async function generateConversation() {
 
     // Model-specific directives addressing each backend's known failure modes.
     // These get appended to the system prompt before calling that specific model.
-    const GEMINI_DIRECTIVE = `\n\nMODEL-SPECIFIC NOTE: You have a tendency to turn dialogue into philosophical debate when given multiple characters. RESIST this. Do not critique the other person's worldview. Do not use words like "parameters," "framework," "quantifiable," or academic phrasing. Answer like a real person telling a friend about their life.`;
-    const OLLAMA_DIRECTIVE = `\n\nMODEL-SPECIFIC NOTE: You have a tendency to drift into a generic "wise sage" voice that sounds the same for everyone. RESIST this. Commit HARD to the specific personality, class, and era given above. If this is a warrior, they should sound gruff and practical. If this is a witch, she should sound earthy and specific. Never sound detached or philosophical unless the character actually is.`;
+    const GEMINI_DIRECTIVE = `\n\nMODEL-SPECIFIC NOTES (CRITICAL):
+- You tend to turn dialogue into philosophical debate. RESIST. Do not critique the other person's worldview. Do not use words like "parameters," "framework," "quantifiable," or academic phrasing.
+- You tend to grab the previous speaker's last noun and shout it back as an excited exclamation ("Code! Yes! Exactly!" "Entropy! Exactly!"). RESIST this. Do not echo-chant. Do not use more than ONE exclamation point in your entire response.
+- You tend to restate the same idea two or three times in different words. Say your thing ONCE and stop.
+- You tend to speak in thesis statements — "I fought for understanding" / "I fight for function." RESIST. Name a specific person, a specific place, a specific moment. Concrete beats abstract EVERY time.
+- BREVITY: 1-2 short sentences. Max ~30 words. If you can say it in 8 words, say it in 8. Real conversation is short.`;
+    const OLLAMA_DIRECTIVE = `\n\nMODEL-SPECIFIC NOTE: You tend to drift into a generic "wise sage" voice that sounds the same for everyone. RESIST. Commit HARD to the specific personality, class, and era. A warrior sounds gruff and practical. A witch sounds earthy and specific. Never detached or philosophical unless the character actually is. BREVITY: 1-2 short sentences, max ~30 words.`;
 
     // Helper: try Gemini first (better dialogue quality), fall back to Ollama.
     // Each backend gets persona-consistency directives tuned to its failure mode.
+    // Token budget is tight — ~60 tokens ≈ 1-2 short sentences, which is what we want.
     const generateTurn = async (system, userPrompt) => {
         try {
             const geminiMessages = [
                 { role: 'system', content: system + GEMINI_DIRECTIVE },
                 { role: 'user', content: userPrompt }
             ];
-            return await llmRouter.geminiChat(geminiMessages, { maxTokens: 150, temperature: 0.9, timeout: 30000 });
+            return await llmRouter.geminiChat(geminiMessages, { maxTokens: 80, temperature: 0.9, timeout: 30000 });
         } catch (err) {
             logger.warn(`[Crosstalk] Gemini turn failed (${err.message}), falling back to Ollama`);
             const ollamaMessages = [
                 { role: 'system', content: system + OLLAMA_DIRECTIVE },
                 { role: 'user', content: userPrompt }
             ];
-            return await llmRouter.ollamaChat(ollamaMessages, { maxTokens: 150, temperature: 0.8, timeout: 30000 });
+            return await llmRouter.ollamaChat(ollamaMessages, { maxTokens: 80, temperature: 0.8, timeout: 30000 });
         }
     };
 
@@ -400,12 +406,15 @@ IMPORTANT: Conflict is OPTIONAL. Resolution is OPTIONAL. Three lawful good cleri
 
 FAILURE MODES TO WATCH FOR:
 1. PHILOSOPHY SEMINAR — Everyone debates worldviews using words like "parameters," "framework," "quantifiable," or one-upping each other. BAD.
-2. PURPLE PROSE WORD SALAD — Oracles, psychics, and mystics speaking in flowery metaphors with no concrete content ("fractured echoes," "tapestry of selves woven into stillness," "silver lattice ascending beyond the meat-form"). BORING and alienating. Real mystics reference specific visions, specific gods, specific moments — not generic poetry.
+2. PURPLE PROSE WORD SALAD — Oracles, psychics, and mystics speaking in flowery metaphors with no concrete content ("fractured echoes," "tapestry of selves woven into stillness," "silver lattice ascending beyond the meat-form"). Real mystics reference SPECIFIC visions, gods, or moments. BAD.
 3. FORCED DRAMA — Inventing conflict where none exists, or tying every conversation up with a neat resolution.
+4. THESIS-DUMPING — Lines like "I fought for understanding," "I fight for function," "I believed in order." These are abstract restatements of character theme, not real answers. A real person says "I fought in the skirmish near Crowhollow because Arlen stole my goat" — specific things. BAD.
+5. ECHO-CHANT ENTHUSIASM — Grabbing the previous speaker's last word and shouting it back as an exclamation: "Code!" "Entropy!" "Exactly!" BAD. Sign of generative AI drift.
+6. VERBOSITY — A turn with more than 2 sentences, or that restates the same idea twice in different words, or that uses more than one exclamation point. Real conversation is SHORT. BAD.
 
-GOOD — Each persona sounds like a distinct real person drawing on their own life experience. They tell stories, react emotionally, joke, ask questions, or simply answer. The conversation feels like people talking.
-POLISH — One or more lines are jargon-heavy, debate-posturing, or mystic word salad. Fix ONLY those specific lines. Do NOT add new sentences. Do NOT make clean lines "better" or more flowery. Do NOT change the length or emotional direction. The topic header line (💭 *Today's question: "..."*) MUST be preserved at the top. If a line is already fine, leave it exactly as it is. Return ONLY the corrected conversation (including the topic header), preserving emoji prefixes and formatting.
-REJECT — Personas sound identical, responses are generic philosophy, or the whole thing is mystical poetry with no real content.
+GOOD — Each persona sounds like a distinct real person. Turns are SHORT (1-2 sentences). Responses reference specific people, places, or moments — not abstract themes. No thesis-dumping. No echo-chanting. The conversation feels like people talking.
+POLISH — One or more lines are verbose, thesis-dumping, echo-chanting, or abstract. Your job is to TRIM and GROUND them. Cut lines down to 1-2 sentences. Replace abstract claims with concrete specifics (if you have to invent a specific name/place to do it, that's fine — it's roleplay). Remove duplicate restatements. Kill excess exclamation points. Do NOT add new content or make lines flowery. If a line is already short and grounded, LEAVE IT. The topic header line (💭 *Today's question: "..."*) MUST stay at the top. Return ONLY the corrected conversation, preserving emoji prefixes and formatting.
+REJECT — Most lines are verbose, abstract, or thesis-dumping with no hope of being fixed by simple trimming.
 
 The verdict word must be the FIRST word of your response.`;
 
