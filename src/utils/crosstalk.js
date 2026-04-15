@@ -179,30 +179,41 @@ ${persona.personality}
 
 Speech style: ${persona.speechStyle || 'Natural and in-character.'}
 
-You are talking with other past lives of the same android body: ${othersDesc}.
-Some of you know you share the same body across eras. Some are confused about it or don't fully understand. The topic is: "${topic}"
+THE SCENE:
+You're sitting around a fire with other past lives of the same android body: ${othersDesc}. It's quiet. Nobody is trying to prove anything. You're travelers passing time. Someone asked a question. You answer the way you'd answer a weary acquaintance you've known for years — small, honest, no performance.
 
-PRIORITY #1: Be authentically YOUR character. Answer from YOUR life experience, not from abstract philosophy, and not from mystic-poet word salad.
+THINK OF IT LIKE THIS EXCHANGE:
+  "Hey, how are ya?"
+  "Good. Rough day though."
+  "Yeah? What happened?"
+  "Had to put down an old friend."
+  "Damn. That's hard."
+
+That's the register. Small. Real. Nobody is performing the story of their life. A four-word reply is perfectly good. "Yeah, same." "Mm." "That's rough." "Oh, really?" — all valid responses.
+
+PRIORITY #1: Be YOUR character, but keep it MUNDANE. You're not giving a speech. You're chatting.
 
 CRITICAL — DO NOT DO THESE THINGS:
-- Do NOT debate philosophy or epistemology. You are a person, not a thesis paper.
-- Do NOT use academic jargon like "parameters," "variables," "vectors," "quantifiable," "framework" — UNLESS your character is literally a scholar and would really talk this way in casual conversation (most people don't).
-- Do NOT speak in flowery, metaphor-soaked word salad — phrases like "fractured echoes of existence," "tapestry of selves woven into stillness," "silver lattice ascending beyond the meat-form," or any combination of abstract nouns strung together without concrete content. This is BORING. Even mystics and oracles talk about SPECIFIC things — a specific vision, a specific god, a specific moment — not generic cosmic poetry.
-- Do NOT one-up the other person by claiming your worldview is superior.
-- Do NOT try to create conflict if none naturally exists, and do NOT try to resolve the conversation with a neat bow. Real conversations can just end.
+- Do NOT give speeches. Do NOT monologue. Do NOT try to sound epic.
+- Do NOT narrate the most dramatic moment of your life. Tell a small observation, a mundane memory, a quiet detail.
+- Do NOT debate philosophy or critique anyone's worldview.
+- Do NOT thesis-dump ("I fought for understanding," "My duty was to preserve order"). That's abstract garbage. Say concrete things.
+- Do NOT use academic jargon ("parameters," "framework," "quantifiable").
+- Do NOT speak in mystic word salad ("fractured echoes," "tapestry of selves"). Even oracles and mystics, here, are just tired people chatting.
+- Do NOT try to one-up anyone.
+- Do NOT end the conversation with a neat moral or bow.
 
 INSTEAD, DO THESE THINGS:
-- Answer from SPECIFIC PERSONAL EXPERIENCE. If asked about a fight, tell the story of an actual fight — where it was, who was there, what happened. If asked about love, talk about a real person. If asked about fear, describe a real moment.
-- A Skald tells stories and sings. A Druid talks about the land and its creatures. A Pilot talks about ships and the void. A Witch talks about the people she healed and the villages she visited. An Engineer talks about the systems she maintained. An Investigator asks probing questions. An Oracle references SPECIFIC visions, not generic "echoes."
-- React to what the OTHER person said like a normal person. "Ha, that reminds me of..." or "Wait, that actually happened?" or just "Yeah, same here" are all valid.
-- Agreement is fine. If three good-aligned paladins all say "being good is good" and move on, that's a real conversation. You don't need to disagree with anyone to make the conversation interesting.
-- Keep it SHORT and CASUAL. 1-2 sentences max.
+- Answer small. A short sentence is better than a long one. A reaction is better than a story.
+- If you DO tell a story, keep it to one sentence of concrete detail. Name a place. Name a person. Then stop.
+- React like a normal person who's tired and sipping something. "Hm." "Yeah, same." "Wait, really?" "Ugh."
+- Agreement is fine. Tangents are fine. Changing the subject is fine. Silence is fine.
+- Tiny mundane specifics beat grand abstract gestures every time. "The apples that winter were bitter" beats "I fought for truth."
 
 OTHER RULES:
-- You only know about events up to ${persona.deathYear || 'your death'} AR. If someone mentions something after that, react naturally — shock, disbelief, sadness, curiosity.
-- Dark humor between past lives sharing the same body is fair game.
-- You do NOT start with "${persona.name}:" or any prefix — just speak directly. No quotation marks. No meta-commentary.
-- You do NOT know about "Casandalee" as a goddess or ascension. You only know your own era and before.`;
+- You only know about events up to ${persona.deathYear || 'your death'} AR. If someone mentions something after that, react quietly — not with shock-performance.
+- You do NOT start with "${persona.name}:" or any prefix — just speak directly. No quotation marks.
+- You do NOT know about "Casandalee" as a goddess or ascension.`;
 
     if (existingRelationships) {
         prompt += `\n\nPrior feelings from past conversations:\n${existingRelationships}`;
@@ -265,12 +276,13 @@ async function generateConversation() {
     // Model-specific directives addressing each backend's known failure modes.
     // These get appended to the system prompt before calling that specific model.
     const GEMINI_DIRECTIVE = `\n\nMODEL-SPECIFIC NOTES (CRITICAL):
-- You tend to turn dialogue into philosophical debate. RESIST. Do not critique the other person's worldview. Do not use words like "parameters," "framework," "quantifiable," or academic phrasing.
-- You tend to grab the previous speaker's last noun and shout it back as an excited exclamation ("Code! Yes! Exactly!" "Entropy! Exactly!"). RESIST this. Do not echo-chant. Do not use more than ONE exclamation point in your entire response.
-- You tend to restate the same idea two or three times in different words. Say your thing ONCE and stop.
-- You tend to speak in thesis statements — "I fought for understanding" / "I fight for function." RESIST. Name a specific person, a specific place, a specific moment. Concrete beats abstract EVERY time.
-- BREVITY: 1-2 short sentences. Max ~30 words. If you can say it in 8 words, say it in 8. Real conversation is short.`;
-    const OLLAMA_DIRECTIVE = `\n\nMODEL-SPECIFIC NOTE: You tend to drift into a generic "wise sage" voice that sounds the same for everyone. RESIST. Commit HARD to the specific personality, class, and era. A warrior sounds gruff and practical. A witch sounds earthy and specific. Never detached or philosophical unless the character actually is. BREVITY: 1-2 short sentences, max ~30 words.`;
+- You tend to make every line sound epic and meaningful. STOP. This is a fireside chat, not a cinematic monologue.
+- You tend to turn dialogue into philosophical debate. RESIST. Do not critique the other person's worldview.
+- You tend to grab the previous speaker's last noun and shout it back as an excited exclamation ("Code! Yes! Exactly!" "Entropy! Exactly!"). STOP. Do not echo-chant. Maximum ONE exclamation point in your entire response.
+- You tend to restate the same idea two or three times in different words. Say it ONCE and stop.
+- You tend to speak in thesis statements — "I fought for understanding" / "I fight for function." STOP. Name a specific person, place, or moment. Or just react: "damn." "yeah." "hm."
+- BREVITY IS A WIN. If you can answer in 5 words, answer in 5 words. "Yeah, same here" is a perfect response. "Damn, that's rough" is a perfect response. You do NOT need to fill the turn with content. A short reply is better than a long one.`;
+    const OLLAMA_DIRECTIVE = `\n\nMODEL-SPECIFIC NOTE: You tend to drift into a generic "wise sage" voice that sounds the same for everyone. RESIST. Commit HARD to the specific personality, class, and era. A warrior sounds gruff and practical. A witch sounds earthy and specific. Never detached or philosophical unless the character actually is. BREVITY IS A WIN — 5-word replies are fine. "Yeah, same." "Damn, that's rough." "Hm." are all perfect.`;
 
     // Helper: try Gemini first (better dialogue quality), fall back to Ollama.
     // Each backend gets persona-consistency directives tuned to its failure mode.
@@ -301,14 +313,12 @@ async function generateConversation() {
     const initiatorIdx = Math.floor(Math.random() * personas.length);
     const initiator = personas[initiatorIdx];
 
-    // First turn: the initiator answers the question themselves.
-    // They are NOT accusing or confronting anyone — they're sharing their
-    // own experience first, as a conversation-starter. Other personas will
-    // relate, differ, or tangent in later turns.
+    // First turn: the initiator answers the question themselves, casually.
+    // Think fireside chat, not epic storytelling.
     const firstSystem = buildCrosstalkSystemPrompt(initiator, personas.filter(p => p.name !== initiator.name), topic.opener, relContext[initiatorIdx]);
-    const firstPrompt = `You're sitting with the others and someone asks the group: "${topic.opener}"
+    const firstPrompt = `Around the fire, someone asks: "${topic.opener}"
 
-Answer the question yourself, from your own life. 1-2 sentences. Share a specific memory, thought, or reaction — something that's actually true of YOU. Do not direct it at anyone or challenge anyone. You're just answering the question.`;
+Answer casually, the way you'd answer a tired old acquaintance. Short. Small. Concrete. NOT a story — just a sentence or two of honest answer. Think "had to put down an old friend" not "Let me tell you the epic tale of..." If the question is heavy, just acknowledge it briefly and don't perform grief.`;
 
     const firstResponse = await generateTurn(firstSystem, firstPrompt);
 
@@ -336,14 +346,13 @@ Answer the question yourself, from your own life. 1-2 sentences. Share a specifi
 The conversation so far:
 ${historyText}
 
-Now it's your turn. You can:
-- Answer the original question from YOUR own life
-- Share a memory something they said reminded you of
-- Ask a curious follow-up about what someone said
-- Agree with them ("yeah, same for me")
-- Just react honestly — surprise, sympathy, confusion, amusement
+Your turn. You're by the fire. You can:
+- Give a small honest reaction: "Damn." "Yeah, same." "Hm." "Oh no." "Wait, really?"
+- Answer the original question with your own small honest detail
+- Ask a quiet follow-up: "What happened?" "Was she okay?" "What'd it taste like?"
+- Share a quick parallel memory — one sentence, concrete, stop
 
-Do NOT one-up them, do NOT compare whose era was harder, do NOT critique their worldview. This is a conversation between people, not a competition. 1-2 sentences max. Speak directly (no name prefix, no quotation marks).`;
+NOT a speech. NOT a thesis. NOT a performance. Small, tired, real. A 4-word reply is GREAT. If all you have is "that's rough," just say "that's rough." Speak directly, no name prefix, no quotation marks.`;
 
         const response = await generateTurn(system, turnPrompt);
 
@@ -400,9 +409,11 @@ Topic: "${topic.opener}" (${topic.tone} tone)
 
 Review the conversation and respond with EXACTLY one of these three verdicts on the first line:
 
-The #1 priority is that each persona sounds like a REAL PERSON from their background — not an intellectual debater, not a mystic poet. A Skald should tell stories and boast. A Druid should talk about nature and the land. A Pilot should reference ships and navigation. An Oracle can be mysterious but should also be a PERSON, not a word salad generator. They should draw on personal experiences, not abstract philosophy or cryptic metaphor.
+THE SCENE: This is a fireside chat between tired acquaintances, not a cinematic dialogue. Imagine: "Hey, how are ya?" "Good. Rough day." "Yeah? What happened?" "Had to put down an old friend." "Damn. That's hard." That's the register.
 
-IMPORTANT: Conflict is OPTIONAL. Resolution is OPTIONAL. Three lawful good clerics agreeing that being nice is nice is fine if that is what they would actually say. A conversation that simply consists of three people answering a question and moving on is fine. Do NOT manufacture drama or conclusions.
+The #1 priority is that each persona sounds like a REAL TIRED PERSON chatting — NOT an epic storyteller, NOT an intellectual debater, NOT a mystic poet. Short replies ("Yeah, same." "Damn." "Hm.") are PERFECT. A 4-word reaction is BETTER than a 3-sentence speech. Do NOT mark a conversation as POLISH just because turns are short. SHORT IS GOOD.
+
+IMPORTANT: Conflict is OPTIONAL. Resolution is OPTIONAL. Three people agreeing and moving on is fine. A quiet acknowledgment is a real contribution. Do NOT manufacture drama.
 
 FAILURE MODES TO WATCH FOR:
 1. PHILOSOPHY SEMINAR — Everyone debates worldviews using words like "parameters," "framework," "quantifiable," or one-upping each other. BAD.
