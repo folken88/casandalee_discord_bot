@@ -42,10 +42,10 @@ nurturing
 - **An Androffan seed-pod** — A sealed bio-container recovered from Divinity wreckage, containing seeds engineered for alien atmospheres. She never opened it, believing the seeds were sacred -- a promise from another world that life would continue, no matter what.
 
 ## Echoes in History
-- *"A Chelish colonist -- one of the first Taldans to settle the southern coast -- came north seeking exotic plants for the Grand Prince's gardens. She wept when she saw my groves. She said they were the most beautiful thing she had ever seen. She asked for a cutting. I gave her three. I wonder if they still grow in Cheliax."*
+- *"A Taldan colonist -- one of the first Taldans to settle the southern coast -- came north seeking exotic plants for the Grand Prince's gardens. She wept when she saw my groves. She said they were the most beautiful thing she had ever seen. She asked for a cutting. I gave her three. I wonder if they still grow in Taldor."*
 
 ## Era / Major Events
-Lived during the Age of Enthronement as Taldor reached its golden age of expansion. In Numeria's Felldales and the irradiated plains, alien terraforming tech from scattered Divinity wreckage had begun transforming pockets of wilderness into strange hybrid ecosystems. The early foundations of what would become Cheliax were being laid as a Taldan province far to the south.
+Lived during the Age of Enthronement as Taldor reached its golden age of expansion. In Numeria's Felldales and the irradiated plains, alien terraforming tech from scattered Divinity wreckage had begun transforming pockets of wilderness into strange hybrid ecosystems. Taldor's southern provinces were expanding, with new settlements being established along the coast.
 
 ## Timeline Quote
 The stars brought us both light and darkness, weaving their magic through my groves.

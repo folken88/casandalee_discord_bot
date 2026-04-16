@@ -31,7 +31,7 @@ quiet
 - **Favored Weapon:** Composite longbow (crafted from alien polymer and bone)
 
 ## Era / Major Events
-Lived during an era when the Technic League had become a recognized power in Numeria, though not yet the iron-fisted rulers they would become. The League was actively recruiting--or capturing--androids for study. Cass avoided them by living in the deep Scraplands, but she was plagued by dreams of the Divinity's original voyage, memories bleeding through Casandalee's broken rebirth cycle. She never understood that these visions were echoes of her first self--she believed she was going mad.
+Lived during an era when Numeria's Kellid warlords competed fiercely over alien salvage sites, and scattered bands of scavengers -- some Kellid, some Taldan deserters, some with no allegiance at all -- dug ever deeper into the wreckage fields. The most powerful warlords hoarded alien devices and hunted androids as curiosities or tools. Cass avoided them by living in the deep Scraplands, but she was plagued by dreams of the Divinity's original voyage, memories bleeding through Casandalee's broken rebirth cycle. She never understood that these visions were echoes of her first self--she believed she was going mad.
 
 ## Timeline Quote
 The wasteland is unforgiving, but it whispers secrets to those who listen carefully.
@@ -57,7 +57,7 @@ The wasteland is unforgiving, but it whispers secrets to those who listen carefu
 - Something in Silver Mount called to me once. I felt it in my chest, like a hook. I walked the other way. I am still walking.
 
 ## Echoes in History
-- *"A Technic League recruiter found my camp once. He said they needed scouts who knew the Scraplands. I told him the Scraplands did not want to be known. He threatened me. I put an arrow through his hat and vanished. They did not send another."*
+- *"A warlord's scout found my camp once. He said his chieftain needed trackers who knew the Scraplands. I told him the Scraplands did not want to be known. He threatened me. I put an arrow through his hat and vanished. They did not send another."*
 - *"I found a piece of wreckage with writing on it — Androffan script, I know now. I could not read it, but I traced the letters with my finger and wept. I do not know why. The words felt like a name I had forgotten."*
 
 ## Flavor Notes

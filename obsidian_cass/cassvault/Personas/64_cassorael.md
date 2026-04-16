@@ -45,7 +45,7 @@ intense
 - *"A Taldan trade delegation came to Scrapwall once, seeking to negotiate skymetal exports for the Grand Prince's armories. I melted their lead negotiator's sword from across the room and told them my export terms were 'leave or burn.' They left. I kept the molten sword as a paperweight."*
 
 ## Era / Major Events
-Lived during the height of Taldor's imperial power, as its provinces -- including the region that would one day become Cheliax -- grew restless under distant rule. In Numeria, tribal warlords and machine-cultists warred over salvage territories, and Scrapwall's reputation as a lawless haven attracted the desperate and the mad.
+Lived during the height of Taldor's imperial power, as its far-flung provinces grew restless under distant rule. In Numeria, tribal warlords and machine-cultists warred over salvage territories, and Scrapwall's reputation as a lawless haven attracted the desperate and the mad.
 
 ## Timeline Quote
 The world was young, full of promise and ruin.

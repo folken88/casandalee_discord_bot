@@ -31,7 +31,7 @@ righteous
 - **Favored Weapon:** Longsword (blessed at Brigh's altar in Hajoth Hakados)
 
 ## Era / Major Events
-Lived during the consolidation of Chelish power under Taldor, as the empire's reach extended ever further. In Numeria, scavenger bands around Silver Mount were beginning to organize into something more structured--proto-League warlords who hoarded alien technology and controlled access to the mountain's chambers. Sandrel noticed that some gearsmen near Silver Mount behaved with disturbing coordination, as if something inside the mountain was watching through their eyes.
+Lived during the consolidation of Taldan power, as the empire's reach extended ever further. In Numeria, scavenger bands around Silver Mount were beginning to organize into something more structured--proto-League warlords who hoarded alien technology and controlled access to the mountain's chambers. Sandrel noticed that some gearsmen near Silver Mount behaved with disturbing coordination, as if something inside the mountain was watching through their eyes.
 
 ## Timeline Quote
 The machines are not mere tools; they are kin.
@@ -58,7 +58,7 @@ The machines are not mere tools; they are kin.
 
 ## Echoes in History
 - *"I met a Brigh priestess at the forge-temple in Hajoth Hakados who wept when she saw me heal a broken gearsman. She said Brigh herself must have sent me. I told her I was sent by my own conscience. She blessed me anyway."*
-- *"A Chelish agent passed through Hajoth Hakados recruiting for the empire's expansion. He offered me a commission. I told him I already served a cause worth more than any empire. He laughed. I did not."*
+- *"A Taldan agent passed through Hajoth Hakados recruiting for the empire's expansion. He offered me a commission. I told him I already served a cause worth more than any empire. He laughed. I did not."*
 
 ## Flavor Notes
 - When this personality is active, subtly incorporate their speaking style

@@ -32,7 +32,7 @@ steadfast
 - **INT:** 11
 - **CHA:** 16
 - **Key Skills:** Ride, Diplomacy, Knowledge (Nobility)
-- **Favored Weapon:** "Oath-Edge" -- a Taldan cavalry lance with a haft of ironwood and a head forged from Androffan alloy, blessed by a cleric of Iomedae
+- **Favored Weapon:** "Oath-Edge" -- a Taldan cavalry lance with a haft of ironwood and a head forged from Androffan alloy, blessed by a cleric of Aroden
 
 ## Timeline Quote
 I held the ford at Vergan for six hours. Constance fell in the fourth. I do not know if the civilians escaped. I choose to believe they did.

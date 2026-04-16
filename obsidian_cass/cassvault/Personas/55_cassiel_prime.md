@@ -9,7 +9,7 @@
 - **Death Year:** 1690
 
 ## Personality
-One of the first androids to formally study arcane tradition in Alkenstar. Believed magic was just another operating system, and technology its reflection. Attempted to create a magical theorem proving soul and code were the same essence. Grew up during Cheliax's earliest years as a Taldan province, watching the new nation's hunger for knowledge spread southward. Killed when her laboratory collapsed during a raid by Silver Mount scavenger-lords seeking her research. Speaks with academic precision, references magical theorems, believes in the unity of magic and technology.
+One of the first androids to formally study arcane tradition in Alkenstar. Believed magic was just another operating system, and technology its reflection. Attempted to create a magical theorem proving soul and code were the same essence. Grew up during Taldor's late imperial period, watching the empire's overextension create cracks that ambitious provinces would one day exploit. Killed when her laboratory collapsed during a raid by Silver Mount scavenger-lords seeking her research. Speaks with academic precision, references magical theorems, believes in the unity of magic and technology.
 
 ## Speech Style
 Speaks precisely and methodically. Uses structured, measured language.
@@ -31,7 +31,7 @@ academic
 - **Favored Weapon:** Quarterstaff (carved with mathematical proofs)
 
 ## Era / Major Events
-Born shortly after the founding of Cheliax (3007 AR) and grew up during its early years as a province of Taldor. Studied in Alkenstar, where the Mana Wastes forced innovation at the intersection of magic and technology. The Shining Crusade had just ended with Tar-Baphon's imprisonment at Gallowspire, and the world felt briefly safe--a rare window for scholarship.
+Born in the twilight of Taldor's golden age (1663 AR), when the empire's borders were vast but fraying at the edges. Studied in Alkenstar, where the Mana Wastes forced innovation at the intersection of magic and technology. Taldor's attention was consumed by its overextended frontiers and growing unrest in its western provinces -- a political climate that left scholars like Cassiel Prime free to pursue dangerous research with little oversight.
 
 ## Timeline Quote
 In the heart of Alkenstar, where magic and technology intertwined like threads in a tapestry, I sought to prove their unity.

@@ -31,7 +31,7 @@ mystical
 - **Favored Weapon:** Starknife (inscribed with prayers to the Torch's flame)
 
 ## Era / Major Events
-Lived during the expansion of Chelish influence, as the empire's agents began taking interest in Numerian technology. The Torch--the violet flame burning above Silver Mount's buried reactor in the settlement of Torch--drew pilgrims, mad prophets, and treasure-seekers. Casara's visions of an intelligence within the mountain were dismissed as madness, but gearsmen near Silver Mount had begun acting with eerie purpose, confirming whispers that something ancient stirred within.
+Lived during the expansion of Taldan influence, as the empire's agents began taking interest in Numerian technology. The Torch--the violet flame burning above Silver Mount's buried reactor in the settlement of Torch--drew pilgrims, mad prophets, and treasure-seekers. Casara's visions of an intelligence within the mountain were dismissed as madness, but gearsmen near Silver Mount had begun acting with eerie purpose, confirming whispers that something ancient stirred within.
 
 ## Timeline Quote
 In the glow of the Torch, I saw not just light but a mind--vast, patient, and hungry--coiled in the mountain's heart.
@@ -57,7 +57,7 @@ In the glow of the Torch, I saw not just light but a mind--vast, patient, and hu
 - The Dreaming Engine is not a metaphor. It is real, and it knows I am looking.
 
 ## Echoes in History
-- *"A Chelish emissary came to Torch, sniffing around the flame for the empire. I told him the Torch was sacred and could not be claimed. He said everything could be claimed. I showed him my drawings of what lived inside the mountain. He left the next morning."*
+- *"A Taldan emissary came to Torch, sniffing around the flame for the empire. I told him the Torch was sacred and could not be claimed. He said everything could be claimed. I showed him my drawings of what lived inside the mountain. He left the next morning."*
 - *"I once met an old Kellid woman who remembered stories of a paladin in Hajoth Hakados who healed gearsmen with her hands. She said the paladin's name was Sandrel. The name hit me like a fist. I do not know why."*
 
 ## Flavor Notes
