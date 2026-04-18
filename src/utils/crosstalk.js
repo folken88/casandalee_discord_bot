@@ -83,6 +83,41 @@ const TOPICS = [
     { opener: 'Who was the most interesting person you ever met?', tone: 'casual' },
     { opener: 'What did home smell like?', tone: 'casual' },
     { opener: 'Did you have any friends who were not trying to kill you?', tone: 'casual' },
+
+    // Camp life / travel logistics — short, mundane, in-the-moment
+    { opener: 'Elf rations or dwarf rations tonight? Just kidding, nobody likes dwarf rations.', tone: 'banter' },
+    { opener: "Who's taking first watch? Rock paper scissors?", tone: 'banter' },
+    { opener: 'Is that mold on the hardtack or just the color it comes in now?', tone: 'banter' },
+    { opener: 'Tent tonight, or bedroll under the stars?', tone: 'banter' },
+    { opener: 'Inn with lice or sleeping in the rain — pick.', tone: 'banter' },
+    { opener: "Whose turn is it to fill the waterskins?", tone: 'banter' },
+    { opener: 'You got one copper left. Drink or bread?', tone: 'banter' },
+
+    // Would-you-rather / weird Golarion hypotheticals
+    { opener: 'Would you rather sleep naked in an Absalom alley, or lick the floor of a Chelish prison once?', tone: 'weird' },
+    { opener: 'Fight a drunk ogre or seduce a devil. Pick one.', tone: 'weird' },
+    { opener: 'Share a bedroll with a goblin, or share a drink with a vampire?', tone: 'weird' },
+    { opener: 'Drink from the Sellen downstream of Alkenstar, or eat a week-old halfling pie?', tone: 'weird' },
+    { opener: 'Spend a night in the cheapest Torch inn, or the fanciest Goatshead tavern?', tone: 'weird' },
+    { opener: 'Stand in line at the Bank of Abadar all day, or get audited by the Technic League?', tone: 'weird' },
+    { opener: 'Get cursed by a hag, or befriended by one?', tone: 'weird' },
+
+    // Quick opinions / cheeky small-talk
+    { opener: 'Dwarves. Yes or no?', tone: 'snarky' },
+    { opener: 'Is Absalom overrated?', tone: 'snarky' },
+    { opener: 'Taldor or Cheliax — who is faker?', tone: 'snarky' },
+    { opener: 'Goblins: misunderstood, pests, or food?', tone: 'snarky' },
+    { opener: 'Is Besmara a real goddess, or just a pirate mascot?', tone: 'snarky' },
+
+    // Small-talk / bite-sized
+    { opener: 'You ever just... sit?', tone: 'casual' },
+    { opener: "What's your favorite curse word?", tone: 'casual' },
+    { opener: 'Worst job you ever took. Go.', tone: 'casual' },
+    { opener: 'You ever see a dragon in the wild? Even far off?', tone: 'casual' },
+    { opener: 'Weirdest thing someone ever paid you for?', tone: 'casual' },
+    { opener: 'Ever sneeze during combat? How did that go?', tone: 'casual' },
+    { opener: 'Best tavern you ever drank in. Go.', tone: 'casual' },
+    { opener: "What's your signature camping swear word?", tone: 'casual' },
 ];
 
 // ---------------------------------------------------------------------------
@@ -318,7 +353,9 @@ async function generateConversation() {
     const firstSystem = buildCrosstalkSystemPrompt(initiator, personas.filter(p => p.name !== initiator.name), topic.opener, relContext[initiatorIdx]);
     const firstPrompt = `Around the fire, someone asks: "${topic.opener}"
 
-Answer casually, the way you'd answer a tired old acquaintance. Short. Small. Concrete. NOT a story — just a sentence or two of honest answer. Think "had to put down an old friend" not "Let me tell you the epic tale of..." If the question is heavy, just acknowledge it briefly and don't perform grief.`;
+Answer casually, the way you'd answer a tired old acquaintance. Short. Small. Concrete. NOT a story — just a sentence or two of honest answer. Think "had to put down an old friend" not "Let me tell you the epic tale of..."
+
+If the question is a would-you-rather or a joke, just pick one and give a short reason — or be dismissive ("neither, obviously"). If it's a quick poll ("dwarves: yes or no?"), just answer. If it's heavy, acknowledge briefly and don't perform grief. A 5-word answer is fine.`;
 
     const firstResponse = await generateTurn(firstSystem, firstPrompt);
 
