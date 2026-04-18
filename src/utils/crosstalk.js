@@ -372,13 +372,32 @@ If the question is a would-you-rather or a joke, just pick one and give a short 
         prevSpeakerIdx = speakerIdx;
         const others = personas.filter(p => p.name !== speaker.name);
 
+        // Count how many times this speaker has already spoken. Second-round
+        // turns need DIFFERENT instructions — they must NOT re-answer the
+        // original question, they must react to others or add a new detail.
+        const previousTurnCount = lines.filter(l => l.persona.name === speaker.name).length;
+        const isReturnTurn = previousTurnCount > 0;
+
         const historyText = conversationHistory
             .map(h => `${h.speaker}: ${h.text}`)
             .join('\n');
 
         const system = buildCrosstalkSystemPrompt(speaker, others, topic.opener, relContext[personas.indexOf(speaker)]);
 
-        const turnPrompt = `The group was asked: "${topic.opener}"
+        const turnPrompt = isReturnTurn
+            ? `The conversation so far:
+${historyText}
+
+You already answered the original question ("${topic.opener}") earlier in this conversation. DO NOT repeat your previous answer. DO NOT re-emit the same lines. React to what the OTHER people just said instead.
+
+Your turn. You can:
+- React to someone else's answer: "Damn." "Yeah, same here." "Wait, really?" "Oh, shit." "Hm."
+- Ask a quiet follow-up about what they said: "What happened after?" "Was she okay?" "Did it work?"
+- Add a small NEW detail — something you forgot to mention, or something their answer reminded you of
+- Change the subject briefly if the energy has run out
+
+CRITICAL: Do not restate what you already said. Do not re-answer the original question. If you genuinely have nothing to add, a single short reaction like "Hm." or "Yeah." is fine. Speak directly, no name prefix, no quotation marks.`
+            : `The group was asked: "${topic.opener}"
 
 The conversation so far:
 ${historyText}
@@ -391,9 +410,37 @@ Your turn. You're by the fire. You can:
 
 NOT a speech. NOT a thesis. NOT a performance. Small, tired, real. A 4-word reply is GREAT. If all you have is "that's rough," just say "that's rough." Speak directly, no name prefix, no quotation marks.`;
 
-        const response = await generateTurn(system, turnPrompt);
+        let response = await generateTurn(system, turnPrompt);
+        let cleaned = response.trim();
 
-        const cleaned = response.trim();
+        // Repetition guard: on return turns, if the model emits something
+        // suspiciously close to a previous line by this same speaker
+        // (>70% character overlap), retry once with a stronger "do not repeat"
+        // instruction. This catches the failure mode where Gemini just re-emits
+        // its earlier answer when it runs out of things to say.
+        if (isReturnTurn) {
+            const priorLines = lines.filter(l => l.persona.name === speaker.name).map(l => l.text);
+            const isNearDuplicate = priorLines.some(prev => {
+                if (!prev || !cleaned) return false;
+                // Simple similarity: shared character count vs total
+                const shorter = prev.length < cleaned.length ? prev : cleaned;
+                const longer = prev.length < cleaned.length ? cleaned : prev;
+                if (shorter.length === 0) return false;
+                // If the shorter string is mostly a substring of the longer one, treat as duplicate
+                const firstFewWords = shorter.split(/\s+/).slice(0, 6).join(' ');
+                return longer.includes(firstFewWords) && firstFewWords.length > 15;
+            });
+            if (isNearDuplicate) {
+                logger.warn(`[Crosstalk] ${speaker.name} near-duplicated a prior line, retrying`);
+                const retryPrompt = `You already said:
+${priorLines.map(t => `- "${t}"`).join('\n')}
+
+Do NOT repeat that. Instead, react to what someone else just said with a short, different response. Examples: "Hm." "Damn." "Yeah, same." "Really?" "Oh, shit." "What happened after?" — or a single NEW small detail you forgot to mention. 1 short sentence max. Speak directly.`;
+                response = await generateTurn(system, retryPrompt);
+                cleaned = response.trim();
+            }
+        }
+
         lines.push({ persona: speaker, text: cleaned });
         conversationHistory.push({ speaker: speaker.name, text: cleaned });
     }
