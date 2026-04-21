@@ -51,40 +51,65 @@ const VAULT_DIR = path.join(
 // own answer first; others relate, differ, or tangent naturally. Anything
 // phrased as an accusation or comparison ("your era was barbaric") tends to
 // produce defensive one-upping, so we keep them open-ended and personal.
+//
+// minYear (optional): the earliest AR date at which the topic's subject
+// existed / was well-known. Personas whose deathYear is BEFORE this year
+// couldn't meaningfully answer the question. When no minYear is set, the
+// topic is timeless (personal experience, universal to any era).
+//
+// Key Golarion dates for reference:
+//   -4363  Rain of Stars (Silver Mount crashes)
+//       0  Absalom founded (Aroden raises the Starstone)
+//    1893  Norgorber ascends
+//    2765  Cayden Cailean ascends
+//    3007  Cheliax founded
+//    3637  Karamoss siege of Absalom
+//    3754  Shining Crusade begins
+//    3832  Iomedae ascends
+//    4501  Technic League founded
+//    4604  Torch founded
+//    4606  Aroden dies, Cheliax civil war, Worldwound opens
+//    4640  House Thrune takes Cheliax; Goatshead founded
+//    4661  Alkenstar founded
+//    4688  Kevoth-Kul becomes Black Sovereign
 const TOPICS = [
-    // Funny / light
+    // Funny / light — timeless
     { opener: 'What was the dumbest way you almost died?', tone: 'funny' },
     { opener: 'What was the worst meal you ever had?', tone: 'funny' },
     { opener: 'Did you ever get in a fight you absolutely should not have?', tone: 'funny' },
     { opener: 'What is the most useless skill you picked up?', tone: 'funny' },
     { opener: 'What is the strangest thing someone ever asked you to do?', tone: 'funny' },
     { opener: 'What is the one thing from your era that future-you would find ridiculous?', tone: 'funny' },
-    // Golarion history / world events (personas from different eras will react differently)
-    { opener: 'Did you know Aroden?', tone: 'historical' },
-    { opener: 'What did you think of the Technic League?', tone: 'historical' },
-    { opener: 'Were the Kellids in your time enemies or allies?', tone: 'historical' },
-    { opener: 'What was Absalom like when you were alive?', tone: 'historical' },
-    { opener: 'Did you ever visit Silver Mount?', tone: 'historical' },
-    // Genuine — sharing, not interrogating
+
+    // Golarion history / world events
+    { opener: 'Did you know Aroden?', tone: 'historical', minYear: 0, maxYear: 4606 },
+    { opener: 'What did you think of the Technic League?', tone: 'historical', minYear: 4501 },
+    { opener: 'Were the Kellids in your time enemies or allies?', tone: 'historical' }, // Kellids always existed
+    { opener: 'What was Absalom like when you were alive?', tone: 'historical', minYear: 0 },
+    { opener: 'Did you ever visit Silver Mount?', tone: 'historical', minYear: -4363 },
+
+    // Genuine — sharing, not interrogating (timeless)
     { opener: 'What did you fight for?', tone: 'direct' },
     { opener: 'How did you die?', tone: 'blunt' },
     { opener: 'What did you leave behind?', tone: 'reflective' },
     { opener: 'What is one thing from your era you wish had survived?', tone: 'reflective' },
     { opener: 'Who did you trust the most?', tone: 'reflective' },
     { opener: 'What did you believe in?', tone: 'reflective' },
-    // Dark / morally grey — still personal, not accusatory
+
+    // Dark / morally grey — still personal, not accusatory (timeless)
     { opener: 'Did you ever betray someone?', tone: 'dark' },
     { opener: 'What is the worst thing you did and would do again?', tone: 'dark' },
     { opener: 'Did you ever kill someone who did not deserve it?', tone: 'dark' },
     { opener: 'What is something you regret?', tone: 'dark' },
-    // Mundane / everyday
+
+    // Mundane / everyday (timeless)
     { opener: 'What did you do for fun?', tone: 'casual' },
     { opener: 'What was your favorite place to drink?', tone: 'casual' },
     { opener: 'Who was the most interesting person you ever met?', tone: 'casual' },
     { opener: 'What did home smell like?', tone: 'casual' },
     { opener: 'Did you have any friends who were not trying to kill you?', tone: 'casual' },
 
-    // Camp life / travel logistics — short, mundane, in-the-moment
+    // Camp life / travel logistics — timeless (any era has camps, rations, watches)
     { opener: 'Elf rations or dwarf rations tonight? Just kidding, nobody likes dwarf rations.', tone: 'banter' },
     { opener: "Who's taking first watch? Rock paper scissors?", tone: 'banter' },
     { opener: 'Is that mold on the hardtack or just the color it comes in now?', tone: 'banter' },
@@ -93,23 +118,23 @@ const TOPICS = [
     { opener: "Whose turn is it to fill the waterskins?", tone: 'banter' },
     { opener: 'You got one copper left. Drink or bread?', tone: 'banter' },
 
-    // Would-you-rather / weird Golarion hypotheticals
-    { opener: 'Would you rather sleep naked in an Absalom alley, or lick the floor of a Chelish prison once?', tone: 'weird' },
-    { opener: 'Fight a drunk ogre or seduce a devil. Pick one.', tone: 'weird' },
-    { opener: 'Share a bedroll with a goblin, or share a drink with a vampire?', tone: 'weird' },
-    { opener: 'Drink from the Sellen downstream of Alkenstar, or eat a week-old halfling pie?', tone: 'weird' },
-    { opener: 'Spend a night in the cheapest Torch inn, or the fanciest Goatshead tavern?', tone: 'weird' },
-    { opener: 'Stand in line at the Bank of Abadar all day, or get audited by the Technic League?', tone: 'weird' },
-    { opener: 'Get cursed by a hag, or befriended by one?', tone: 'weird' },
+    // Would-you-rather / weird hypotheticals
+    { opener: 'Would you rather sleep naked in an Absalom alley, or lick the floor of a Chelish prison once?', tone: 'weird', minYear: 3007 }, // both exist
+    { opener: 'Fight a drunk ogre or seduce a devil. Pick one.', tone: 'weird' }, // timeless
+    { opener: 'Share a bedroll with a goblin, or share a drink with a vampire?', tone: 'weird' }, // timeless
+    { opener: 'Drink from the Sellen downstream of Alkenstar, or eat a week-old halfling pie?', tone: 'weird', minYear: 4661 },
+    { opener: 'Spend a night in the cheapest Torch inn, or the fanciest Goatshead tavern?', tone: 'weird', minYear: 4645 },
+    { opener: 'Stand in line at the Bank of Abadar all day, or get audited by the Technic League?', tone: 'weird', minYear: 4501 },
+    { opener: 'Get cursed by a hag, or befriended by one?', tone: 'weird' }, // timeless
 
     // Quick opinions / cheeky small-talk
-    { opener: 'Dwarves. Yes or no?', tone: 'snarky' },
-    { opener: 'Is Absalom overrated?', tone: 'snarky' },
-    { opener: 'Taldor or Cheliax — who is faker?', tone: 'snarky' },
-    { opener: 'Goblins: misunderstood, pests, or food?', tone: 'snarky' },
-    { opener: 'Is Besmara a real goddess, or just a pirate mascot?', tone: 'snarky' },
+    { opener: 'Dwarves. Yes or no?', tone: 'snarky' }, // timeless
+    { opener: 'Is Absalom overrated?', tone: 'snarky', minYear: 0 },
+    { opener: 'Taldor or Cheliax — who is faker?', tone: 'snarky', minYear: 3007 },
+    { opener: 'Goblins: misunderstood, pests, or food?', tone: 'snarky' }, // timeless
+    { opener: 'Is Besmara a real goddess, or just a pirate mascot?', tone: 'snarky' }, // timeless pirate goddess
 
-    // Small-talk / bite-sized
+    // Small-talk / bite-sized (timeless)
     { opener: 'You ever just... sit?', tone: 'casual' },
     { opener: "What's your favorite curse word?", tone: 'casual' },
     { opener: 'Worst job you ever took. Go.', tone: 'casual' },
@@ -119,6 +144,47 @@ const TOPICS = [
     { opener: 'Best tavern you ever drank in. Go.', tone: 'casual' },
     { opener: "What's your signature camping swear word?", tone: 'casual' },
 ];
+
+/**
+ * Filter topics to those that all selected personas could meaningfully answer.
+ * A topic's minYear/maxYear constraints are checked against each persona's
+ * deathYear — if a persona died before the topic's subject existed (or after
+ * the subject was destroyed), they can't answer.
+ *
+ * @param {Object[]} personas - The selected participants
+ * @returns {Object[]} Filtered topic list
+ */
+function filterTopicsForEra(personas) {
+    const deaths = personas
+        .map(p => p.deathYear)
+        .filter(d => d != null && !isNaN(d));
+    // If we can't determine any death years, don't filter — just return all
+    if (deaths.length === 0) return TOPICS;
+
+    // The EARLIEST death among the group — this is the limiting factor. A
+    // topic's minYear must be <= earliest death for everyone to know about it.
+    const earliestDeath = Math.min(...deaths);
+    // The LATEST death — a topic's maxYear must be >= latest birth (or at
+    // least everyone's birth) so people don't ask about things that were
+    // destroyed before they lived.
+    const birthsWithDeaths = personas
+        .filter(p => p.birthYear != null && p.deathYear != null)
+        .map(p => ({ birth: p.birthYear, death: p.deathYear }));
+
+    return TOPICS.filter(t => {
+        // minYear check: every persona must have died AFTER this date
+        // (so they could have known the subject)
+        if (t.minYear != null && earliestDeath < t.minYear) return false;
+        // maxYear check: at least one persona must have lived before this date
+        // (if maxYear is set, the subject ended at that year — nobody born
+        // after could know it firsthand)
+        if (t.maxYear != null) {
+            const anyBornBefore = birthsWithDeaths.some(p => p.birth <= t.maxYear);
+            if (!anyBornBefore) return false;
+        }
+        return true;
+    });
+}
 
 // ---------------------------------------------------------------------------
 // Timezone Helpers (same pattern as dailyHistory.js)
@@ -289,9 +355,13 @@ async function generateConversation() {
     const eraLabel = (p) => p.birthYear != null ? `${p.birthYear} AR` : `Life ${p.lifeNumber}`;
     logger.info(`[Crosstalk] Selected ${personas.length} personas: ${personas.map(p => `${p.name} (${eraLabel(p)}, ${p.class})`).join(', ')}`);
 
-    // 2. Pick topic
-    const topic = TOPICS[Math.floor(Math.random() * TOPICS.length)];
-    logger.info(`[Crosstalk] Topic: "${topic.opener}" (${topic.tone})`);
+    // 2. Pick topic — filter by era first so we don't ask personas about
+    // things that didn't exist in their lifetime (e.g. Alkenstar to a -3000 AR
+    // persona, or the Technic League to someone from 1500 AR).
+    const eligibleTopics = filterTopicsForEra(personas);
+    const topicPool = eligibleTopics.length > 0 ? eligibleTopics : TOPICS;
+    const topic = topicPool[Math.floor(Math.random() * topicPool.length)];
+    logger.info(`[Crosstalk] Topic: "${topic.opener}" (${topic.tone}) — filtered pool ${eligibleTopics.length}/${TOPICS.length}`);
 
     // 3. Load existing relationship context
     const relData = loadRelationships();
