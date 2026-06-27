@@ -31,9 +31,10 @@ recognize, paired with a quote from one of her past lives.
 
 ## What is added
 
-A single **Daily Recollection** post per day at **7:00 AM America/Chicago**
-(reuses the existing morning gate, retimed from 7:30 to 7:00). It is an
-**embed** combining a campaign event and a past-life quote.
+A single **Daily Recollection** post per day at a **random time between 6:00
+and 8:00 AM America/Chicago** — a fresh drop time is rolled each morning so
+Cass shows small natural variation in when she posts. It is an **embed**
+combining a campaign event and a past-life quote.
 
 ### Event selection — `pickRecognizableEvent(state)`
 
@@ -109,7 +110,11 @@ footer: Casandalee Historical Archive
 ## State changes — `data/cache/daily-state.json`
 
 - **Replace** `dailyHistoryDate` and `randomMessagesDate` with a single
-  `dailyRecollectionDate` (YYYY-MM-DD in the post timezone).
+  `dailyRecollectionDate` (YYYY-MM-DD in the post timezone — set once the post
+  actually goes out).
+- **Add** `recollectionTargetDate` (YYYY-MM-DD) and `recollectionTargetMin`
+  (integer minutes-of-day, 360–480) — the random drop time rolled for that day.
+  Persisted so a restart does not re-roll and double-post.
 - **Add** `recentEventKeys: string[]` (max 30).
 - `loadState`/`saveState` updated; old keys ignored if present (no migration
   needed — stale keys are harmless).
@@ -117,11 +122,20 @@ footer: Casandalee Historical Archive
 ## Scheduler flow (`_tick`)
 
 - Drop the 6am–6pm random-message scheduling branch entirely.
-- Keep the morning gate, retimed to **7:00 AM** (`past7` = `hour >= 7`): if past
-  7:00 AM and `dailyRecollectionDate !== today`, run `_runDailyRecollection()`
-  (build event +
-  persona quote, post embed to the general channel `303941538021638164`, then
-  stamp `dailyRecollectionDate` and save).
+- Each tick (runs every 60 s):
+  1. **Roll the drop time** if today has no target yet: when
+     `recollectionTargetDate !== today`, set `recollectionTargetMin` to a random
+     integer in `[360, 480]` (6:00–8:00 AM) and `recollectionTargetDate = today`,
+     then save. (If the bot starts after the rolled time, the target is already
+     in the past → it posts immediately as catch-up. If it starts before 6:00,
+     the target is rolled and simply waits.)
+  2. **Fire when due:** if `dailyRecollectionDate !== today` **and**
+     `nowMinutes >= recollectionTargetMin`, run `_runDailyRecollection()` (build
+     event + persona quote, post embed to the general channel
+     `303941538021638164`), then stamp `dailyRecollectionDate = today` and save.
+- This is fully restart-safe: the target is persisted, so a mid-morning restart
+  reuses the same drop time and the `dailyRecollectionDate` stamp prevents a
+  second post.
 
 ## Public API / call sites
 
