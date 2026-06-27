@@ -31,9 +31,9 @@ recognize, paired with a quote from one of her past lives.
 
 ## What is added
 
-A single **Daily Recollection** post per day at **7:30 AM America/Chicago**
-(reuses the existing `past730` gate). It is an **embed** combining a campaign
-event and a past-life quote.
+A single **Daily Recollection** post per day at **7:00 AM America/Chicago**
+(reuses the existing morning gate, retimed from 7:30 to 7:00). It is an
+**embed** combining a campaign event and a past-life quote.
 
 ### Event selection — `pickRecognizableEvent(state)`
 
@@ -117,8 +117,9 @@ footer: Casandalee Historical Archive
 ## Scheduler flow (`_tick`)
 
 - Drop the 6am–6pm random-message scheduling branch entirely.
-- Keep the `past730` branch, renamed intent: if past 7:30 AM and
-  `dailyRecollectionDate !== today`, run `_runDailyRecollection()` (build event +
+- Keep the morning gate, retimed to **7:00 AM** (`past7` = `hour >= 7`): if past
+  7:00 AM and `dailyRecollectionDate !== today`, run `_runDailyRecollection()`
+  (build event +
   persona quote, post embed to the general channel `303941538021638164`, then
   stamp `dailyRecollectionDate` and save).
 
