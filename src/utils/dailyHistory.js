@@ -1,10 +1,14 @@
 /**
- * Daily History Scheduler
- * Posts "Today in Golarion History" at 7:30 AM and 1–2 random timeline-quote
- * messages at random times between 6 AM and 6 PM (America/Chicago by default).
+ * Daily Recollection Scheduler
+ * Once per day, at a random time between 6:00 and 8:00 AM (America/Chicago by
+ * default), Casandalee posts a single "Recollection": one campaign event the
+ * players might recognize (a random date in 4700–4717.06, any campaign) paired
+ * with a quote from one of her past lives.
  *
- * Uses data/cache/daily-state.json to remember what was already done today so
- * restarts do NOT re-post or re-schedule things that already happened.
+ * A fresh drop time is rolled each morning so she shows small natural variation
+ * in when she posts. Uses data/cache/daily-state.json to remember the rolled
+ * drop time and whether today's post already went out, so restarts never
+ * re-roll or double-post.
  */
 
 const fs = require('fs');
@@ -15,27 +19,47 @@ const { getAlignmentEmojiForGuild } = require('./alignmentEmoji');
 const { appendTimelineEntityEmojis } = require('./timelineEmoji');
 const logger = require('./logger');
 
-/** Timezone for daily post and quote schedule (needs tzdata in Docker Alpine). */
+/** Timezone for the daily drop-time window (needs tzdata in Docker Alpine). */
 const DAILY_POST_TIMEZONE = process.env.DAILY_POST_TIMEZONE || 'America/Chicago';
 
 const STATE_PATH = path.join(__dirname, '../../data/cache/daily-state.json');
 
+/** Drop-time window, in minutes-of-day (06:00–08:00). */
+const WINDOW_START_MIN = 6 * 60;   // 360
+const WINDOW_END_MIN = 8 * 60;     // 480
+
+/** Golarion (Absalom Reckoning) month names, 1-indexed. */
+const GOLARION_MONTHS = [
+    '', 'Abadius', 'Calistril', 'Pharast', 'Gozran', 'Desnus', 'Sarenith',
+    'Erastus', 'Arodus', 'Rova', 'Lamashan', 'Neth', 'Kuthona'
+];
+
+/** Campaign code → readable name (falls back to the raw code if unknown). */
+const CAMPAIGN_NAMES = {
+    IG: 'Iron Gods',
+    CC: 'Carrion Crown',
+    HR: "Hell's Rebels",
+    HV: "Hell's Vengeance",
+    SS: 'Skull & Shackles',
+    IS: 'Inner Sea',
+    JG: 'Justice Gorls',
+    TALDOR: 'Taldor',
+    GM: 'GM Lore'
+};
+
+/** How many recently-posted events to remember (avoid near-term repeats). */
+const RECENT_EVENT_MEMORY = 30;
+
 // ---------------------------------------------------------------------------
-// Helpers
+// Time helpers
 // ---------------------------------------------------------------------------
 
-/**
- * Get the current date string (YYYY-MM-DD) in the configured timezone.
- * @returns {string}
- */
+/** Current date string (YYYY-MM-DD) in the configured timezone. */
 function todayDateKey() {
     return new Intl.DateTimeFormat('en-CA', { timeZone: DAILY_POST_TIMEZONE, dateStyle: 'short' }).format(new Date());
 }
 
-/**
- * Get current { hour, minute } in the configured timezone.
- * @returns {{ hour: number, minute: number }}
- */
+/** Current { hour, minute } in the configured timezone. */
 function nowInTz() {
     const fmt = new Intl.DateTimeFormat('en-US', {
         timeZone: DAILY_POST_TIMEZONE,
@@ -48,15 +72,13 @@ function nowInTz() {
     return { hour: get('hour'), minute: get('minute') };
 }
 
-/**
- * Milliseconds from now until 6 PM in the configured timezone (0 if already past).
- * @returns {number}
- */
-function msUntil6pm() {
-    const { hour, minute } = nowInTz();
-    const nowMs = hour * 3600000 + minute * 60000;
-    const sixPmMs = 18 * 3600000;
-    return Math.max(0, sixPmMs - nowMs);
+/** Format minutes-of-day as h:mm AM/PM for logging. */
+function fmtMinutes(min) {
+    const h24 = Math.floor(min / 60);
+    const m = min % 60;
+    const ampm = h24 < 12 ? 'AM' : 'PM';
+    const h12 = ((h24 + 11) % 12) + 1;
+    return `${h12}:${String(m).padStart(2, '0')} ${ampm}`;
 }
 
 // ---------------------------------------------------------------------------
@@ -64,24 +86,37 @@ function msUntil6pm() {
 // ---------------------------------------------------------------------------
 
 /**
- * Load daily state from disk.
- * @returns {{ dailyHistoryDate: string|null, randomMessagesDate: string|null }}
+ * @typedef {Object} DailyState
+ * @property {string|null} dailyRecollectionDate  Date the post last went out.
+ * @property {string|null} recollectionTargetDate  Date the drop time was rolled.
+ * @property {number|null} recollectionTargetMin   Rolled drop time (minutes-of-day).
+ * @property {string[]} recentEventKeys            Recently posted event keys.
  */
+
+/** @returns {DailyState} */
 function loadState() {
     try {
         if (fs.existsSync(STATE_PATH)) {
-            return JSON.parse(fs.readFileSync(STATE_PATH, 'utf8'));
+            const raw = JSON.parse(fs.readFileSync(STATE_PATH, 'utf8'));
+            return {
+                dailyRecollectionDate: raw.dailyRecollectionDate ?? null,
+                recollectionTargetDate: raw.recollectionTargetDate ?? null,
+                recollectionTargetMin: raw.recollectionTargetMin ?? null,
+                recentEventKeys: Array.isArray(raw.recentEventKeys) ? raw.recentEventKeys : []
+            };
         }
     } catch (err) {
         logger.warn('daily-state.json unreadable, starting fresh', { error: err.message });
     }
-    return { dailyHistoryDate: null, randomMessagesDate: null };
+    return {
+        dailyRecollectionDate: null,
+        recollectionTargetDate: null,
+        recollectionTargetMin: null,
+        recentEventKeys: []
+    };
 }
 
-/**
- * Save daily state to disk.
- * @param {{ dailyHistoryDate: string|null, randomMessagesDate: string|null }} state
- */
+/** @param {DailyState} state */
 function saveState(state) {
     try {
         fs.mkdirSync(path.dirname(STATE_PATH), { recursive: true });
@@ -92,52 +127,68 @@ function saveState(state) {
 }
 
 // ---------------------------------------------------------------------------
-// Random message generator (also used by /memory)
+// Persona quote (shared by the Recollection embed and the /memory command)
 // ---------------------------------------------------------------------------
 
 /**
- * Generate one random in-character message using a timeline quote from a past life.
+ * Pick a random past life and pull a timeline quote (or one-liner) from it,
+ * returning the pieces needed to render it in either a flat string or an embed.
+ * @param {import('discord.js').Client} [client]
+ * @returns {Promise<{displayName:string, yearLabel:string, quoteText:string, emoji:string, prefix:string, guild:import('discord.js').Guild|null}|null>}
+ */
+async function pickPersonaQuote(client) {
+    const personality = personalityManager.getRandomPersonalityWithTimelineQuote();
+    const hasQuote = personality?.timelineQuote && !personalityManager.constructor._isPlaceholderTimelineQuote(personality.timelineQuote);
+    const hasLines = personality?.oneLiners?.length > 0;
+    if (!personality || (!hasQuote && !hasLines)) {
+        logger.warn('No personality with timeline quote or one-liners available');
+        return null;
+    }
+
+    const useOneLiner = hasLines && (!hasQuote || Math.random() < 0.35);
+    const quoteText = useOneLiner
+        ? personality.oneLiners[Math.floor(Math.random() * personality.oneLiners.length)].trim()
+        : personality.timelineQuote.trim();
+
+    const emoji = personalityManager.pickEmoji(personality);
+    const displayName = personality.name || 'Cass';
+    const yearLabel = personality.birthYear != null ? String(personality.birthYear) : `life ${personality.lifeNumber}`;
+
+    let prefix = emoji;
+    let guild = null;
+    if (client) {
+        const guildId = process.env.GUILD_ID?.trim();
+        guild = guildId ? await client.guilds.fetch(guildId).catch(() => null) : null;
+        if (guild && personality.alignment) {
+            const alignmentEmoji = getAlignmentEmojiForGuild(guild, personality.alignment);
+            if (alignmentEmoji) prefix = `${alignmentEmoji} ${emoji}`;
+        }
+    }
+
+    return { displayName, yearLabel, quoteText, emoji, prefix, guild };
+}
+
+/**
+ * Generate one random in-character message using a timeline quote from a past
+ * life. Used by the /memory command. Output format is unchanged.
  * @param {import('discord.js').Client} [client]
  * @returns {Promise<string|null>}
  */
 async function generateRandomMessageContent(client) {
     try {
         logger.info('💬 Generating random Cass message (timeline quote)...');
-        const personality = personalityManager.getRandomPersonalityWithTimelineQuote();
-        const hasQuote = personality?.timelineQuote && !personalityManager.constructor._isPlaceholderTimelineQuote(personality.timelineQuote);
-        const hasLines = personality?.oneLiners?.length > 0;
-        if (!personality || (!hasQuote && !hasLines)) {
-            logger.warn('No personality with timeline quote or one-liners available, skipping');
-            return null;
-        }
-        const useOneLiner = hasLines && (!hasQuote || Math.random() < 0.35);
-        const quoteText = useOneLiner
-            ? personality.oneLiners[Math.floor(Math.random() * personality.oneLiners.length)].trim()
-            : personality.timelineQuote.trim();
+        const p = await pickPersonaQuote(client);
+        if (!p) return null;
 
-        const emoji = personalityManager.pickEmoji(personality);
-        const displayName = personality.name || 'Cass';
-        const yearLabel = personality.birthYear != null ? String(personality.birthYear) : `life ${personality.lifeNumber}`;
-        const message = `${displayName} ${yearLabel}, ${quoteText}`;
-
+        const message = `${p.displayName} ${p.yearLabel}, ${p.quoteText}`;
         if (!message || message.length < 5) {
             logger.warn('Random message too short, skipping');
             return null;
         }
 
-        let prefix = emoji;
-        let guild = null;
-        if (client) {
-            const guildId = process.env.GUILD_ID?.trim();
-            guild = guildId ? await client.guilds.fetch(guildId).catch(() => null) : null;
-            if (guild && personality.alignment) {
-                const alignmentEmoji = getAlignmentEmojiForGuild(guild, personality.alignment);
-                if (alignmentEmoji) prefix = `${alignmentEmoji} ${emoji}`;
-            }
-        }
-        let out = `${prefix} ${message}`;
-        if (guild && quoteText) out = appendTimelineEntityEmojis(out, guild, quoteText);
-        logger.info(`💬 Using timeline quote for ${displayName} ${yearLabel}`);
+        let out = `${p.prefix} ${message}`;
+        if (p.guild && p.quoteText) out = appendTimelineEntityEmojis(out, p.guild, p.quoteText);
+        logger.info(`💬 Using timeline quote for ${p.displayName} ${p.yearLabel}`);
         return out;
     } catch (error) {
         logger.error('Error generating random message:', error.message);
@@ -146,239 +197,252 @@ async function generateRandomMessageContent(client) {
 }
 
 // ---------------------------------------------------------------------------
-// Scheduler class
+// Event selection
+// ---------------------------------------------------------------------------
+
+/**
+ * Parse a "YYYY.MM.DD" timeline date into numeric parts. Month/day may be 0.
+ * @param {string} dateString
+ * @returns {{year:number, month:number, day:number}|null}
+ */
+function parseEventDate(dateString) {
+    if (!dateString) return null;
+    const parts = String(dateString).split('.');
+    if (parts.length < 2) return null;
+    const year = parseInt(parts[0], 10);
+    const month = parseInt(parts[1], 10);
+    const day = parts[2] != null ? parseInt(parts[2], 10) : 0;
+    if (Number.isNaN(year)) return null;
+    return { year, month: Number.isNaN(month) ? 0 : month, day: Number.isNaN(day) ? 0 : day };
+}
+
+/**
+ * Is this event within the "players might recognize" window?
+ * 4700 ≤ year ≤ 4716 (any month), or 4717 up to and including Sarenith (month 6).
+ * @param {{date:string}} event
+ */
+function inWindow(event) {
+    const p = parseEventDate(event.date);
+    if (!p) return false;
+    if (p.year >= 4700 && p.year <= 4716) return true;
+    if (p.year === 4717 && (p.month === 0 || p.month <= 6)) return true;
+    return false;
+}
+
+/** Stable-ish key for repeat avoidance. */
+function eventKey(event) {
+    return `${event.date}|${(event.description || '').slice(0, 40)}`;
+}
+
+/**
+ * Pick a random in-window event, avoiding the last RECENT_EVENT_MEMORY posts.
+ * Mutates state.recentEventKeys (caller persists state).
+ * @param {DailyState} state
+ * @returns {{date:string, location:string, ap:string, description:string}|null}
+ */
+function pickRecognizableEvent(state) {
+    const all = timelineSearch.timeline || [];
+    const pool = all.filter(ev => ev && ev.description && ev.description.trim() && inWindow(ev));
+    if (pool.length === 0) return null;
+
+    const recent = new Set(state.recentEventKeys || []);
+    let candidates = pool.filter(ev => !recent.has(eventKey(ev)));
+    if (candidates.length === 0) candidates = pool; // everything seen recently — allow repeats
+
+    const chosen = candidates[Math.floor(Math.random() * candidates.length)];
+
+    const keys = Array.isArray(state.recentEventKeys) ? state.recentEventKeys : [];
+    keys.push(eventKey(chosen));
+    while (keys.length > RECENT_EVENT_MEMORY) keys.shift();
+    state.recentEventKeys = keys;
+
+    return chosen;
+}
+
+// ---------------------------------------------------------------------------
+// Formatting
+// ---------------------------------------------------------------------------
+
+/**
+ * Render a timeline date in the Golarion calendar.
+ *   "4716.06.18" → "18 Sarenith, 4716"
+ *   "4716.06.00" → "Sarenith 4716"
+ *   "4716.00.00" → "sometime in 4716"
+ * @param {string} dateString
+ */
+function formatGolarionDate(dateString) {
+    const p = parseEventDate(dateString);
+    if (!p) return String(dateString || '');
+    if (!p.month || p.month < 1 || p.month > 12) return `sometime in ${p.year}`;
+    const monthName = GOLARION_MONTHS[p.month];
+    if (p.day && p.day > 0) return `${p.day} ${monthName}, ${p.year}`;
+    return `${monthName} ${p.year}`;
+}
+
+/** Campaign code → readable name (raw code if unknown). */
+function campaignName(ap) {
+    if (!ap) return null;
+    const key = String(ap).trim().toUpperCase();
+    return CAMPAIGN_NAMES[key] || String(ap).trim();
+}
+
+/**
+ * Build the Recollection embed from an event and (optional) persona quote.
+ * @param {{date:string, location:string, ap:string, description:string}} event
+ * @param {Awaited<ReturnType<typeof pickPersonaQuote>>} personaParts
+ * @returns {import('discord.js').EmbedBuilder}
+ */
+function buildRecollectionEmbed(event, personaParts) {
+    const { EmbedBuilder } = require('discord.js');
+
+    const dateStr = formatGolarionDate(event.date);
+    const camp = campaignName(event.ap);
+    const loc = event.location && event.location.trim();
+
+    let header = `**${dateStr}**`;
+    if (loc) header += ` · *${loc}*`;
+    if (camp) header += ` (${camp})`;
+
+    const embed = new EmbedBuilder()
+        .setColor(0x8B4513)
+        .setTitle('📜 Casandalee\'s Recollection')
+        .setDescription(`${header}\n${event.description.trim()}`.slice(0, 4096))
+        .setTimestamp()
+        .setFooter({ text: 'Casandalee Historical Archive' });
+
+    if (personaParts) {
+        const fieldName = `${personaParts.prefix} ${personaParts.displayName}, ${personaParts.yearLabel}`.slice(0, 256);
+        let quote = personaParts.quoteText;
+        if (personaParts.guild && quote) {
+            quote = appendTimelineEntityEmojis(quote, personaParts.guild, personaParts.quoteText);
+        }
+        embed.addFields({ name: fieldName, value: `*"${quote}"*`.slice(0, 1024), inline: false });
+    }
+
+    return embed;
+}
+
+// ---------------------------------------------------------------------------
+// Scheduler
 // ---------------------------------------------------------------------------
 
 class DailyHistoryScheduler {
-    /**
-     * @param {import('discord.js').Client} client
-     */
+    /** @param {import('discord.js').Client} client */
     constructor(client) {
         this.client = client;
         this.generalChannelId = '303941538021638164';
         this.isRunning = false;
-        /** @type {NodeJS.Timeout[]} */
-        this.randomMessageTimeouts = [];
         /** @type {NodeJS.Timeout|null} */
         this.heartbeatInterval = null;
         this.state = loadState();
     }
 
-    // -------------------------------------------------------------------------
-    // Lifecycle
-    // -------------------------------------------------------------------------
-
     start() {
         if (this.isRunning) {
-            logger.warn('Daily history scheduler is already running');
+            logger.warn('Daily Recollection scheduler is already running');
             return;
         }
         this.isRunning = true;
-        logger.info(`📅 Daily history scheduler started - will post at 7:30 AM daily (${DAILY_POST_TIMEZONE})`);
-        logger.info(`💬 Random timeline-quote messages: 1–2 per day, random time between 6am–6pm`);
+        logger.info(`📅 Daily Recollection scheduler started — posts once daily at a random time between 6–8 AM (${DAILY_POST_TIMEZONE})`);
 
         // Tick immediately (handles catch-up on startup), then every 60 seconds.
-        // setInterval is far more reliable than node-cron for long-running processes;
-        // it doesn't drift or silently stop after multi-day uptimes.
         this._tick();
         this.heartbeatInterval = setInterval(() => this._tick(), 60_000);
     }
 
     stop() {
         if (!this.isRunning) return;
-        for (const id of this.randomMessageTimeouts) clearTimeout(id);
-        this.randomMessageTimeouts = [];
         if (this.heartbeatInterval) {
             clearInterval(this.heartbeatInterval);
             this.heartbeatInterval = null;
         }
         this.isRunning = false;
-        logger.info('📅 Daily history scheduler stopped');
+        logger.info('📅 Daily Recollection scheduler stopped');
     }
 
-    // -------------------------------------------------------------------------
-    // Heartbeat — runs every 60 s, decides what (if anything) to do right now
-    // -------------------------------------------------------------------------
-
     /**
-     * Called every 60 seconds. Checks the current local time and state to
-     * decide whether to post the daily history or schedule random quotes.
-     * Idempotent: daily-state.json prevents duplicate posts across restarts.
+     * Runs every 60 seconds. Rolls today's random drop time once, then posts the
+     * Recollection when the clock passes it. Idempotent across restarts.
      */
     _tick() {
         const today = todayDateKey();
         const { hour, minute } = nowInTz();
+        const nowMin = hour * 60 + minute;
 
-        // 6 AM–6 PM window: schedule today's random quote(s) if not yet done
-        if (hour >= 6 && hour < 18 && this.state.randomMessagesDate !== today) {
-            logger.info('💬 Within 6am–6pm window: scheduling today\'s random quote(s) on startup');
-            this._scheduleRandomMessages();
+        // Roll today's drop time once per day.
+        if (this.state.recollectionTargetDate !== today) {
+            const span = WINDOW_END_MIN - WINDOW_START_MIN; // 120
+            this.state.recollectionTargetMin = WINDOW_START_MIN + Math.floor(Math.random() * (span + 1));
+            this.state.recollectionTargetDate = today;
+            saveState(this.state);
+            logger.info(`📅 Today's Recollection will drop around ${fmtMinutes(this.state.recollectionTargetMin)} (${DAILY_POST_TIMEZONE})`);
         }
 
-        // Past 7:30 AM: post daily history if not yet done today
-        const past730 = hour > 7 || (hour === 7 && minute >= 30);
-        if (past730 && this.state.dailyHistoryDate !== today) {
-            logger.info('📅 Past 7:30 AM: posting daily history on startup (catch-up)');
-            this._runDailyHistory().catch(err => logger.error('📅 Daily history failed:', err));
+        // Fire when due and not already posted today.
+        if (this.state.dailyRecollectionDate !== today && nowMin >= (this.state.recollectionTargetMin ?? WINDOW_END_MIN)) {
+            this._runDailyRecollection().catch(err => logger.error('📅 Daily Recollection failed:', err));
         }
     }
 
-    // -------------------------------------------------------------------------
-    // Daily history
-    // -------------------------------------------------------------------------
-
-    async _runDailyHistory() {
+    async _runDailyRecollection() {
         const today = todayDateKey();
-        await this.postDailyHistory();
-        this.state.dailyHistoryDate = today;
+        await this.postDailyRecollection();
+        this.state.dailyRecollectionDate = today;
         saveState(this.state);
     }
 
-    /** Public — also called by /daily-history post command. */
-    async postDailyHistory() {
+    /** Build and post one Recollection to the general channel. */
+    async postDailyRecollection() {
         try {
-            logger.info('📅 Generating daily history post...');
-            const todayEvents = await this.getTodaysEvents();
-            if (todayEvents.length === 0) {
-                logger.info('📅 No historical events found for today');
+            logger.info('📅 Generating daily Recollection...');
+            const event = pickRecognizableEvent(this.state);
+            saveState(this.state); // persist recentEventKeys update
+            if (!event) {
+                logger.warn('📅 No in-window timeline events available; skipping Recollection');
                 return;
             }
-            await this.postToChannel(this.generalChannelId, todayEvents);
-            logger.info(`📅 Posted ${todayEvents.length} historical events for today`);
-        } catch (error) {
-            logger.error('❌ Error posting daily history:', error);
-        }
-    }
+            const personaParts = await pickPersonaQuote(this.client);
+            const embed = buildRecollectionEmbed(event, personaParts);
 
-    // -------------------------------------------------------------------------
-    // Random messages
-    // -------------------------------------------------------------------------
-
-    _scheduleRandomMessages() {
-        // Clear any pending timeouts from a previous schedule attempt today
-        for (const id of this.randomMessageTimeouts) clearTimeout(id);
-        this.randomMessageTimeouts = [];
-
-        const windowMs = msUntil6pm();
-        if (windowMs < 60 * 1000) {
-            logger.info('💬 Already past 6 PM or <1 min left; skipping random quote schedule');
-            return;
-        }
-
-        const numMessages = Math.random() < 0.5 ? 1 : 2;
-        for (let i = 0; i < numMessages; i++) {
-            const delayMs = Math.floor(Math.random() * windowMs);
-            const id = setTimeout(async () => {
-                await this.postRandomMessage();
-                this.randomMessageTimeouts = this.randomMessageTimeouts.filter(t => t !== id);
-            }, delayMs);
-            this.randomMessageTimeouts.push(id);
-        }
-
-        const today = todayDateKey();
-        this.state.randomMessagesDate = today;
-        saveState(this.state);
-        logger.info(`💬 Scheduled ${numMessages} random quote(s) (window closes 6 PM ${DAILY_POST_TIMEZONE})`);
-    }
-
-    async postRandomMessage() {
-        try {
-            const content = await generateRandomMessageContent(this.client);
-            if (!content) return;
             const channel = await this.client.channels.fetch(this.generalChannelId);
-            if (channel) {
-                await channel.send(content);
-                logger.info('💬 Random message posted');
-            }
-        } catch (error) {
-            logger.error('Error posting random message:', error.message);
-        }
-    }
-
-    // -------------------------------------------------------------------------
-    // Timeline helpers
-    // -------------------------------------------------------------------------
-
-    async getTodaysEvents() {
-        const today = new Date();
-        const month = today.getMonth() + 1;
-        const day = today.getDate();
-        const allEvents = timelineSearch.timeline || [];
-        const todaysEvents = allEvents.filter(event => {
-            if (!event.date) return false;
-            const parsed = this.parseEventDate(event.date);
-            return parsed && parsed.month === month && parsed.day === day;
-        });
-        todaysEvents.sort((a, b) => {
-            const yA = this.parseEventDate(a.date)?.year || 0;
-            const yB = this.parseEventDate(b.date)?.year || 0;
-            return yB - yA;
-        });
-        logger.info(`📅 Found ${todaysEvents.length} events for ${month}/${day}`);
-        return todaysEvents;
-    }
-
-    parseEventDate(dateString) {
-        try {
-            const parts = dateString.split('.');
-            if (parts.length >= 2) {
-                return {
-                    year: parseInt(parts[0]),
-                    month: parseInt(parts[1]),
-                    day: parts[2] ? parseInt(parts[2]) : 1
-                };
-            }
-        } catch (_) { /* ignore */ }
-        return null;
-    }
-
-    async postToChannel(channelId, events) {
-        try {
-            const channel = await this.client.channels.fetch(channelId);
             if (!channel) {
-                logger.error(`❌ Channel ${channelId} not found`);
+                logger.error(`❌ Channel ${this.generalChannelId} not found`);
                 return;
-            }
-            const { EmbedBuilder } = require('discord.js');
-            const embed = new EmbedBuilder()
-                .setColor(0x8B4513)
-                .setTitle('📜 Today in Golarion History')
-                .setDescription(`Historical events that occurred on ${new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric' })}`)
-                .setTimestamp()
-                .setFooter({ text: 'Casandalee Historical Archive' });
-
-            const maxEvents = Math.min(events.length, 10);
-            for (let i = 0; i < maxEvents; i++) {
-                const event = events[i];
-                const parsed = this.parseEventDate(event.date);
-                embed.addFields({
-                    name: `${parsed?.year ?? 'Unknown'} - ${event.location}`,
-                    value: `${event.description}`,
-                    inline: false
-                });
-            }
-            if (events.length > maxEvents) {
-                embed.addFields({
-                    name: 'Note',
-                    value: `Showing ${maxEvents} of ${events.length} events. Use \`/timeline\` to search for more!`,
-                    inline: false
-                });
             }
             await channel.send({ embeds: [embed] });
+            logger.info(`📅 Recollection posted (${event.date} — ${campaignName(event.ap) || 'unknown'})`);
         } catch (error) {
-            logger.error('❌ Error posting to channel:', error);
+            logger.error('❌ Error posting Recollection:', error);
         }
     }
 
-    // -------------------------------------------------------------------------
-    // Test / manual trigger (admin command)
-    // -------------------------------------------------------------------------
+    /** Build a Recollection embed without posting (for /daily-history preview). */
+    async buildRecollectionPreview() {
+        const event = pickRecognizableEvent(this.state);
+        saveState(this.state);
+        if (!event) return null;
+        const personaParts = await pickPersonaQuote(this.client);
+        return buildRecollectionEmbed(event, personaParts);
+    }
 
+    // --- Back-compat aliases for the /daily-history command ------------------
+
+    /** Manual trigger (admin) — posts a Recollection to the general channel. */
+    async postDailyHistory() {
+        return this.postDailyRecollection();
+    }
+
+    /** Test trigger (admin) — posts a Recollection to the general channel. */
     async testDailyHistory() {
-        logger.info('🧪 Testing daily history feature...');
-        await this.postDailyHistory();
+        logger.info('🧪 Testing Recollection feature...');
+        return this.postDailyRecollection();
     }
 }
 
 module.exports = DailyHistoryScheduler;
 module.exports.generateRandomMessageContent = generateRandomMessageContent;
+// Exposed for testing / reuse:
+module.exports.pickRecognizableEvent = pickRecognizableEvent;
+module.exports.formatGolarionDate = formatGolarionDate;
+module.exports.campaignName = campaignName;
+module.exports.inWindow = inWindow;
