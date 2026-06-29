@@ -228,12 +228,18 @@ client.once(Events.ClientReady, async readyClient => {
         logger.error('❌ Failed to start daily history scheduler:', error);
     }
 
-    // Start crosstalk scheduler (past-life conversations)
+    // Crosstalk (past-life conversations). Daily auto-posting is OFF by default —
+    // set CROSSTALK_ENABLED=true to re-enable. The scheduler instance is still
+    // created so the manual /crosstalk command and reply handling keep working.
     try {
         const crosstalkScheduler = new CrosstalkScheduler(readyClient);
-        crosstalkScheduler.start();
         readyClient.crosstalkScheduler = crosstalkScheduler;
-        logger.info('✅ Crosstalk scheduler started');
+        if (process.env.CROSSTALK_ENABLED === 'true') {
+            crosstalkScheduler.start();
+            logger.info('✅ Crosstalk scheduler started (daily auto-post enabled)');
+        } else {
+            logger.info('⏸️  Daily crosstalk disabled (set CROSSTALK_ENABLED=true to re-enable); /crosstalk still works');
+        }
     } catch (error) {
         logger.error('❌ Failed to start crosstalk scheduler:', error);
     }
