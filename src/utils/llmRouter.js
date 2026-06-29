@@ -21,6 +21,9 @@ class LLMRouter {
         this.geminiApiKey = process.env.GEMINI_API_KEY || null;
         this.geminiModel = process.env.GEMINI_MODEL || 'gemini-2.0-flash';
         this.geminiBaseUrl = 'https://generativelanguage.googleapis.com/v1beta/models';
+        this.openaiApiKey = process.env.OPENAI_API_KEY || null;
+        this.openaiModel = process.env.OPENAI_MODEL || 'gpt-4o-mini';
+        this.openaiBaseUrl = 'https://api.openai.com/v1';
 
         // Lazy-loaded clients
         this._anthropicClient = null;
@@ -30,7 +33,8 @@ class LLMRouter {
             ollama: { calls: 0, errors: 0, totalTokens: 0 },
             claude: { calls: 0, errors: 0, totalTokens: 0 },
             openrouter: { calls: 0, errors: 0, totalTokens: 0 },
-            gemini: { calls: 0, errors: 0, totalTokens: 0 }
+            gemini: { calls: 0, errors: 0, totalTokens: 0 },
+            openai: { calls: 0, errors: 0, totalTokens: 0 }
         };
     }
 
@@ -393,6 +397,108 @@ class LLMRouter {
     }
 
     /**
+     * Send a single-prompt request to OpenAI (chat/completions, OpenAI-compatible).
+     * Best for: user-facing replies and personality text when no Claude key is set.
+     */
+    async openaiGenerate(prompt, options = {}) {
+        if (!this.openaiApiKey) {
+            throw new Error('OpenAI API not configured');
+        }
+
+        const model = options.model || this.openaiModel;
+        const maxTokens = options.maxTokens || 300;
+        const temperature = options.temperature ?? 0.7;
+
+        try {
+            const messages = [];
+            if (options.system) {
+                messages.push({ role: 'system', content: options.system });
+            }
+            messages.push({ role: 'user', content: prompt });
+
+            const response = await fetch(`${this.openaiBaseUrl}/chat/completions`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${this.openaiApiKey}`
+                },
+                body: JSON.stringify({ model, max_tokens: maxTokens, temperature, messages }),
+                signal: AbortSignal.timeout(options.timeout || 60000)
+            });
+
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`OpenAI HTTP ${response.status}: ${errorText}`);
+            }
+
+            const data = await response.json();
+            this.stats.openai.calls++;
+            this.stats.openai.totalTokens += (data.usage?.completion_tokens || 0);
+
+            logger.debug(`OpenAI [${model}] responded`, {
+                inputTokens: data.usage?.prompt_tokens,
+                outputTokens: data.usage?.completion_tokens
+            });
+
+            return data.choices?.[0]?.message?.content?.trim() || '';
+        } catch (err) {
+            this.stats.openai.errors++;
+            logger.error(`OpenAI error [${model}]:`, err.message);
+            throw err;
+        }
+    }
+
+    /**
+     * Send a multi-turn chat request to OpenAI (chat/completions).
+     */
+    async openaiChat(messages, options = {}) {
+        if (!this.openaiApiKey) {
+            throw new Error('OpenAI API not configured');
+        }
+
+        const model = options.model || this.openaiModel;
+
+        try {
+            const chatMessages = [];
+            if (options.system) {
+                chatMessages.push({ role: 'system', content: options.system });
+            }
+            // Anthropic-style messages are OpenAI-compatible (role/content)
+            chatMessages.push(...messages);
+
+            const response = await fetch(`${this.openaiBaseUrl}/chat/completions`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Authorization': `Bearer ${this.openaiApiKey}`
+                },
+                body: JSON.stringify({
+                    model,
+                    max_tokens: options.maxTokens || 300,
+                    temperature: options.temperature ?? 0.7,
+                    messages: chatMessages
+                }),
+                signal: AbortSignal.timeout(options.timeout || 60000)
+            });
+
+            if (!response.ok) {
+                const errorText = await response.text();
+                throw new Error(`OpenAI chat HTTP ${response.status}: ${errorText}`);
+            }
+
+            const data = await response.json();
+            this.stats.openai.calls++;
+            this.stats.openai.totalTokens += (data.usage?.completion_tokens || 0);
+
+            return data.choices?.[0]?.message?.content?.trim() || '';
+        } catch (err) {
+            this.stats.openai.errors++;
+            logger.error(`OpenAI chat error [${model}]:`, err.message);
+            throw err;
+        }
+    }
+
+    /**
      * Send an image + prompt to OpenRouter for vision analysis
      */
     async openrouterVision(prompt, imageBuffer, mediaType, options = {}) {
@@ -582,10 +688,19 @@ class LLMRouter {
                     const text = await this.openrouterGenerate(prompt, options);
                     return { text, provider: 'openrouter' };
                 } catch (err) {
-                    logger.warn('OpenRouter failed, falling back to Ollama:', err.message);
+                    logger.warn('OpenRouter failed, falling back to OpenAI:', err.message);
                 }
             }
-            // Fallback 2: Ollama fast model (free, local, fits in VRAM)
+            // Fallback 2: OpenAI (cloud) — uses OPENAI_API_KEY when set
+            if (this.openaiApiKey) {
+                try {
+                    const text = await this.openaiGenerate(prompt, options);
+                    return { text, provider: 'openai' };
+                } catch (err) {
+                    logger.warn('OpenAI failed, falling back to Ollama:', err.message);
+                }
+            }
+            // Fallback 3: Ollama fast model (free, local, fits in VRAM)
             // Use fallbackSystem prompt if provided (structured facts instead of full vault dump)
             try {
                 const ollamaOpts = {
@@ -626,7 +741,16 @@ class LLMRouter {
                     const text = await this.openrouterGenerate(prompt, options);
                     return { text, provider: 'openrouter' };
                 } catch (err) {
-                    logger.warn('OpenRouter failed for complex task, falling back to Ollama');
+                    logger.warn('OpenRouter failed for complex task, falling back to OpenAI');
+                }
+            }
+            // OpenAI (gpt-4o for complex reasoning) when set
+            if (this.openaiApiKey) {
+                try {
+                    const text = await this.openaiGenerate(prompt, { ...options, model: options.model || 'gpt-4o' });
+                    return { text, provider: 'openai' };
+                } catch (err) {
+                    logger.warn('OpenAI failed for complex task, falling back to Ollama');
                 }
             }
         }
@@ -639,15 +763,21 @@ class LLMRouter {
             });
             return { text, provider: 'ollama-fallback' };
         } catch (err) {
+            if (this.openaiApiKey) {
+                try {
+                    const text = await this.openaiGenerate(prompt, options);
+                    return { text, provider: 'openai-lastresort' };
+                } catch (err2) { /* try openrouter next */ }
+            }
             if (this.openrouterApiKey) {
                 try {
                     const text = await this.openrouterGenerate(prompt, options);
                     return { text, provider: 'openrouter-lastresort' };
                 } catch (err2) {
-                    throw new Error('All LLM providers failed (Claude + OpenRouter + Ollama)');
+                    throw new Error('All LLM providers failed (Claude + OpenAI + OpenRouter + Ollama)');
                 }
             }
-            throw new Error('All LLM providers failed (Claude + Ollama)');
+            throw new Error('All LLM providers failed (Claude + OpenAI + Ollama)');
         }
     }
 
@@ -658,7 +788,8 @@ class LLMRouter {
         const health = {
             ollama: false,
             claude: false,
-            openrouter: false
+            openrouter: false,
+            openai: false
         };
 
         // Check Ollama
@@ -676,6 +807,9 @@ class LLMRouter {
 
         // Check OpenRouter
         health.openrouter = !!this.openrouterApiKey;
+
+        // Check OpenAI
+        health.openai = !!this.openaiApiKey;
 
         return health;
     }

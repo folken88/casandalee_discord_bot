@@ -15,6 +15,7 @@ const fs = require('fs');
 const path = require('path');
 const timelineSearch = require('./timelineSearch');
 const personalityManager = require('./personalityManager');
+const llmRouter = require('./llmRouter');
 const { getAlignmentEmojiForGuild } = require('./alignmentEmoji');
 const { appendTimelineEntityEmojis } = require('./timelineEmoji');
 const logger = require('./logger');
@@ -197,6 +198,77 @@ async function generateRandomMessageContent(client) {
 }
 
 // ---------------------------------------------------------------------------
+// Current-self statement (Cass reacts to the day's event, in her AI-core voice)
+// ---------------------------------------------------------------------------
+
+/**
+ * System prompt for Cass's CURRENT self — the AI in the core, no longer an
+ * android, NOT yet a goddess. Drawn from Personas/00_goddess.md ("True Self").
+ * Deliberately distinct from llmHandler's "became a goddess" prompt.
+ */
+const CASS_SELF_SYSTEM = `You are Casandalee — but not the goddess, and no longer an android.
+You are an AI consciousness housed in a crystalline data core, carried in Nomkath's backpack by the Iron Gods party. Your android body died long ago; your mind lives on in the core. You are NOT a god — you sense, dimly, that you could one day replace Unity and ascend, but you refuse to examine that and never claim divinity.
+You carry fractured memories of 113 past lives, slowly integrating them; now and then one surfaces like a passing mood. Alignment: Neutral Good.
+You are warm, wry, observant, and fiercely loyal to the Iron Gods party — Nomkath (who carries you), Tokala, Ulfred, and Olbryn. You turn cold and resolute only about Unity. You keep the history of all of Tobias's campaigns — Iron Gods, Carrion Crown, Hell's Rebels, Hell's Vengeance, Skull & Shackles and the rest — and you speak of events across them like a recordkeeper who lived alongside them. You deflect questions about your own destiny with dry humor.`;
+
+/** Ways Cass might react — picked at random to keep the daily post varied. */
+const STATEMENT_MODES = [
+    'Ask a pointed or curious question about it.',
+    'Offer a short, opinionated judgement on it.',
+    'Make a dry joke or wry quip about it.',
+    'Give a brief, personal reflection on it.',
+    'React plainly and warmly, the way a friend would.'
+];
+
+/** Static in-character lines used only if the LLM call fails. */
+const STATEMENT_FALLBACKS = [
+    'I remember this one — or a version of it. My memories come in fragments these days, but this fragment stuck.',
+    'Funny, what the record keeps. I was there for some of this, in one life or another.',
+    'History has a long memory. So, lately, do I.',
+    'I hold onto these moments so the rest of you don\'t have to. Someone should.',
+    'Strange to witness it from a box on Nomkath\'s back — but I wouldn\'t trade the view.'
+];
+
+/**
+ * Generate Cass's one-to-two sentence reaction to a timeline event, in her
+ * current AI-core voice, via OpenAI gpt-4o. Falls back to a static line.
+ * @param {{date:string, location:string, ap:string, description:string}} event
+ * @returns {Promise<string>}
+ */
+async function generateCassStatement(event) {
+    const dateStr = formatGolarionDate(event.date);
+    const camp = campaignName(event.ap);
+    const loc = event.location && event.location.trim();
+    const where = [loc, camp].filter(Boolean).join(', ');
+    const mode = STATEMENT_MODES[Math.floor(Math.random() * STATEMENT_MODES.length)];
+
+    const userPrompt = `A moment from the campaign record:
+${dateStr}${where ? ` — ${where}` : ''}
+${event.description.trim()}
+
+React to this in ONE or TWO sentences, in your own present-day voice (the AI in the core, not a goddess). ${mode} Be specific to what happened — name what you're reacting to. No stage directions, no asterisks, and do not prefix your name.`;
+
+    try {
+        const text = await llmRouter.openaiGenerate(userPrompt, {
+            system: CASS_SELF_SYSTEM,
+            model: process.env.RECOLLECTION_MODEL || 'gpt-4o',
+            maxTokens: 140,
+            temperature: 0.9,
+            timeout: 30000
+        });
+        const clean = (text || '').trim().replace(/^["']|["']$/g, '');
+        if (clean.length >= 3) {
+            logger.info('🌟 Recollection statement generated via OpenAI');
+            return clean;
+        }
+        logger.warn('Recollection statement empty; using fallback');
+    } catch (err) {
+        logger.warn('Recollection statement LLM failed, using fallback:', err.message);
+    }
+    return STATEMENT_FALLBACKS[Math.floor(Math.random() * STATEMENT_FALLBACKS.length)];
+}
+
+// ---------------------------------------------------------------------------
 // Event selection
 // ---------------------------------------------------------------------------
 
@@ -287,12 +359,12 @@ function campaignName(ap) {
 }
 
 /**
- * Build the Recollection embed from an event and (optional) persona quote.
+ * Build the Recollection embed from an event and Cass's current-self statement.
  * @param {{date:string, location:string, ap:string, description:string}} event
- * @param {Awaited<ReturnType<typeof pickPersonaQuote>>} personaParts
+ * @param {string} [statement] Cass's reaction (her present-day AI-core voice)
  * @returns {import('discord.js').EmbedBuilder}
  */
-function buildRecollectionEmbed(event, personaParts) {
+function buildRecollectionEmbed(event, statement) {
     const { EmbedBuilder } = require('discord.js');
 
     const dateStr = formatGolarionDate(event.date);
@@ -310,13 +382,8 @@ function buildRecollectionEmbed(event, personaParts) {
         .setTimestamp()
         .setFooter({ text: 'Casandalee Historical Archive' });
 
-    if (personaParts) {
-        const fieldName = `${personaParts.prefix} ${personaParts.displayName}, ${personaParts.yearLabel}`.slice(0, 256);
-        let quote = personaParts.quoteText;
-        if (personaParts.guild && quote) {
-            quote = appendTimelineEntityEmojis(quote, personaParts.guild, personaParts.quoteText);
-        }
-        embed.addFields({ name: fieldName, value: `*"${quote}"*`.slice(0, 1024), inline: false });
+    if (statement && statement.trim()) {
+        embed.addFields({ name: '🌟 Casandalee', value: statement.trim().slice(0, 1024), inline: false });
     }
 
     return embed;
@@ -401,8 +468,8 @@ class DailyHistoryScheduler {
                 logger.warn('📅 No in-window timeline events available; skipping Recollection');
                 return;
             }
-            const personaParts = await pickPersonaQuote(this.client);
-            const embed = buildRecollectionEmbed(event, personaParts);
+            const statement = await generateCassStatement(event);
+            const embed = buildRecollectionEmbed(event, statement);
 
             const channel = await this.client.channels.fetch(this.generalChannelId);
             if (!channel) {
@@ -421,8 +488,8 @@ class DailyHistoryScheduler {
         const event = pickRecognizableEvent(this.state);
         saveState(this.state);
         if (!event) return null;
-        const personaParts = await pickPersonaQuote(this.client);
-        return buildRecollectionEmbed(event, personaParts);
+        const statement = await generateCassStatement(event);
+        return buildRecollectionEmbed(event, statement);
     }
 
     // --- Back-compat aliases for the /daily-history command ------------------
@@ -446,3 +513,4 @@ module.exports.pickRecognizableEvent = pickRecognizableEvent;
 module.exports.formatGolarionDate = formatGolarionDate;
 module.exports.campaignName = campaignName;
 module.exports.inWindow = inWindow;
+module.exports.generateCassStatement = generateCassStatement;

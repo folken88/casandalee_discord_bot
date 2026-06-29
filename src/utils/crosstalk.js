@@ -405,7 +405,15 @@ async function generateConversation() {
                 { role: 'system', content: system + OLLAMA_DIRECTIVE },
                 { role: 'user', content: userPrompt }
             ];
-            return await llmRouter.ollamaChat(ollamaMessages, { maxTokens: 80, temperature: 0.8, timeout: 30000 });
+            try {
+                return await llmRouter.ollamaChat(ollamaMessages, { maxTokens: 80, temperature: 0.8, timeout: 30000 });
+            } catch (ollamaErr) {
+                logger.warn(`[Crosstalk] Ollama turn failed (${ollamaErr.message}), falling back to OpenAI`);
+                return await llmRouter.openaiChat(
+                    [{ role: 'system', content: system }, { role: 'user', content: userPrompt }],
+                    { maxTokens: 80, temperature: 0.9, timeout: 30000 }
+                );
+            }
         }
     };
 
@@ -607,15 +615,23 @@ The verdict word must be the FIRST word of your response.`;
                 );
             } catch (ollamaErr) {
                 logger.warn(`[Crosstalk] Quality gate Ollama failed (${ollamaErr.message}), falling back to Claude`);
-                response = await llmRouter.claudeChat(
-                    [{ role: 'user', content: `Review this past-life conversation:\n\n${raw}` }],
-                    {
-                        system: systemPrompt,
-                        maxTokens: 1500,
-                        temperature: 0.2,
-                        model: 'claude-haiku-4-5'
-                    }
-                );
+                try {
+                    response = await llmRouter.claudeChat(
+                        [{ role: 'user', content: `Review this past-life conversation:\n\n${raw}` }],
+                        {
+                            system: systemPrompt,
+                            maxTokens: 1500,
+                            temperature: 0.2,
+                            model: 'claude-haiku-4-5'
+                        }
+                    );
+                } catch (claudeErr) {
+                    logger.warn(`[Crosstalk] Quality gate Claude failed (${claudeErr.message}), falling back to OpenAI`);
+                    response = await llmRouter.openaiChat(
+                        [{ role: 'user', content: `Review this past-life conversation:\n\n${raw}` }],
+                        { system: systemPrompt, maxTokens: 1500, temperature: 0.2 }
+                    );
+                }
             }
         }
 
@@ -688,10 +704,18 @@ Return ONLY valid JSON, no other text.`;
             );
         } catch (geminiErr) {
             logger.warn(`[Crosstalk] Gemini relationship extraction failed (${geminiErr.message}), falling back to Ollama`);
-            response = await llmRouter.ollamaChat(
-                [{ role: 'user', content: prompt }],
-                { maxTokens: 500, temperature: 0.3, timeout: 30000 }
-            );
+            try {
+                response = await llmRouter.ollamaChat(
+                    [{ role: 'user', content: prompt }],
+                    { maxTokens: 500, temperature: 0.3, timeout: 30000 }
+                );
+            } catch (ollamaErr) {
+                logger.warn(`[Crosstalk] Ollama relationship extraction failed (${ollamaErr.message}), falling back to OpenAI`);
+                response = await llmRouter.openaiChat(
+                    [{ role: 'user', content: prompt }],
+                    { maxTokens: 500, temperature: 0.3, timeout: 30000 }
+                );
+            }
         }
 
         // Try to parse JSON from response (may have markdown fences)
@@ -833,10 +857,18 @@ RULES:
             );
         } catch (geminiErr) {
             logger.warn(`[Crosstalk] Gemini character growth failed (${geminiErr.message}), falling back to Claude`);
-            response = await llmRouter.claudeChat(
-                [{ role: 'user', content: prompt }],
-                { system: 'Extract character growth from roleplay dialogue. Be selective — only keep genuinely interesting details.', maxTokens: 800, temperature: 0.2, model: 'claude-haiku-4-5' }
-            );
+            try {
+                response = await llmRouter.claudeChat(
+                    [{ role: 'user', content: prompt }],
+                    { system: 'Extract character growth from roleplay dialogue. Be selective — only keep genuinely interesting details.', maxTokens: 800, temperature: 0.2, model: 'claude-haiku-4-5' }
+                );
+            } catch (claudeErr) {
+                logger.warn(`[Crosstalk] Claude character growth failed (${claudeErr.message}), falling back to OpenAI`);
+                response = await llmRouter.openaiChat(
+                    [{ role: 'user', content: prompt }],
+                    { system: 'Extract character growth from roleplay dialogue. Be selective — only keep genuinely interesting details.', maxTokens: 800, temperature: 0.2 }
+                );
+            }
         }
 
         const jsonMatch = response.match(/\{[\s\S]*\}/);

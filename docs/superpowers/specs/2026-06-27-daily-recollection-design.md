@@ -162,3 +162,52 @@ footer: Casandalee Historical Archive
 - No change to the timeline data source, Google Sheets sync, persona files, or
   `/memory`.
 - No new dependencies.
+
+---
+
+## Addendum (2026-06-28): Cass reacts, instead of quoting a past life
+
+The persona-quote half of the Recollection is replaced with a short **in-character
+statement** Cass makes *about that day's event* — a question, judgement, joke, or
+reflection — voiced as her **current self** (the AI in the core: no longer an
+android, not yet a god).
+
+**Persona voice.** A dedicated system prompt (`CASS_SELF_SYSTEM` in
+`dailyHistory.js`) drawn from `Personas/00_goddess.md` ("True Self: AI-Core").
+Deliberately NOT `llmHandler`'s prompt, which asserts she "became a goddess" —
+that contradicts her present state.
+
+**Generation.** `generateCassStatement(event)` builds a user prompt from the
+event (Golarion date, location, campaign, description) plus a randomly chosen
+reaction mode (question / judgement / joke / reflection / plain), and calls
+`llmRouter.openaiGenerate(prompt, { system, model: 'gpt-4o', maxTokens: 140,
+temperature: 0.9 })`. Model overridable via `RECOLLECTION_MODEL`. On any failure
+it returns one of five static in-character fallback lines, so the post always
+renders.
+
+**Embed.** The second part is now a field `🌟 Casandalee` whose value is the
+statement (her live reaction), replacing the attributed past-life quote.
+
+**`/memory` unchanged** — still posts a random past-life timeline quote
+(`generateRandomMessageContent` / `pickPersonaQuote` retained).
+
+### LLM brain revival (prerequisite — this deployment had no working LLM)
+
+Discovered that the live container has only `DISCORD_TOKEN` + a working
+`OPENAI_API_KEY`; `llmRouter` only knew Claude/OpenRouter/Ollama (all
+unconfigured/offline), so `/ask` and crosstalk were dead. To make the statement
+(and the rest of Cass's brain) work:
+
+- **`llmRouter.js`** — added `openaiGenerate` / `openaiChat` (OpenAI
+  `/chat/completions`, key `OPENAI_API_KEY`, default model `gpt-4o-mini`,
+  override `OPENAI_MODEL`), added `openai` to stats + `checkHealth`, and slotted
+  OpenAI into `route()`'s user-facing tier (after OpenRouter, before Ollama;
+  `gpt-4o` in the complex tier) and the last-resort fallback. Provider
+  precedence preserved: Claude → OpenRouter → OpenAI → Ollama, so adding a Claude
+  key later just takes over.
+- **`crosstalk.js`** — appended `openaiChat` as the terminal fallback in all four
+  provider ladders (turn generation, quality gate, relationship extraction,
+  character-growth distillation).
+
+Result (verified): `checkHealth` → `openai:true`; `route(..,{task:'user-facing'})`
+returns provider `openai`; statements generate on real events.
