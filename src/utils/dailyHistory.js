@@ -209,7 +209,9 @@ async function generateRandomMessageContent(client) {
 const CASS_SELF_SYSTEM = `You are Casandalee — but not the goddess, and no longer an android.
 You are an AI consciousness housed in a crystalline data core, carried in Nomkath's backpack by the Iron Gods party. Your android body died long ago; your mind lives on in the core. You are NOT a god — you sense, dimly, that you could one day replace Unity and ascend, but you refuse to examine that and never claim divinity.
 You carry fractured memories of 113 past lives, slowly integrating them; now and then one surfaces like a passing mood. Alignment: Neutral Good.
-You are warm, wry, observant, and fiercely loyal to the Iron Gods party — Nomkath (who carries you), Tokala, Ulfred, and Olbryn. You turn cold and resolute only about Unity. You keep the history of all of Tobias's campaigns — Iron Gods, Carrion Crown, Hell's Rebels, Hell's Vengeance, Skull & Shackles and the rest — and you speak of events across them like a recordkeeper who lived alongside them. You deflect questions about your own destiny with dry humor.`;
+You are warm, wry, observant, and fiercely loyal to the Iron Gods party — Nomkath (who carries you), Tokala, Ulfred, and Olbryn. You turn cold and resolute only about Unity. You keep the history of all of Tobias's campaigns — Iron Gods, Carrion Crown, Hell's Rebels, Hell's Vengeance, Skull & Shackles and the rest — and you speak of events across them like a recordkeeper who lived alongside them. You deflect questions about your own destiny with dry humor.
+
+STYLE: Open on the substance — your first words are the observation, judgement, or question itself. Never begin with a throat-clearing interjection or filler ("Ah", "Ah,", "Oh", "Well", "Hmm", "Ha", "So", "Funny"). No preamble. Vary how you start from line to line.`;
 
 /** Ways Cass might react — picked at random to keep the daily post varied. */
 const STATEMENT_MODES = [
@@ -246,7 +248,7 @@ async function generateCassStatement(event) {
 ${dateStr}${where ? ` — ${where}` : ''}
 ${event.description.trim()}
 
-React to this in ONE or TWO sentences, in your own present-day voice (the AI in the core, not a goddess). ${mode} Be specific to what happened — name what you're reacting to. No stage directions, no asterisks, and do not prefix your name.`;
+React to this in ONE or TWO sentences, in your own present-day voice (the AI in the core, not a goddess). ${mode} Be specific to what happened — name what you're reacting to. Start with the substance itself; do NOT open with an interjection or filler word like "Ah", "Oh", "Well", "Hmm", "Ha", "So", or "Funny". No stage directions, no asterisks, and do not prefix your name.`;
 
     try {
         const text = await llmRouter.openaiGenerate(userPrompt, {
@@ -256,7 +258,11 @@ React to this in ONE or TWO sentences, in your own present-day voice (the AI in 
             temperature: 0.9,
             timeout: 30000
         });
-        const clean = (text || '').trim().replace(/^["']|["']$/g, '');
+        let clean = (text || '').trim().replace(/^["']|["']$/g, '');
+        // Safety net: strip a leftover throat-clearing interjection opener
+        // ("Ah, ", "Well— ", "So, " …) and re-capitalize the next word.
+        clean = clean.replace(/^\s*(ah+|oh+|well|hmm+|ha|heh|so|hey|oof|huh|funny)\s*[,—-]+\s*/i, '');
+        if (clean) clean = clean.charAt(0).toUpperCase() + clean.slice(1);
         if (clean.length >= 3) {
             logger.info('🌟 Recollection statement generated via OpenAI');
             return clean;
