@@ -518,14 +518,21 @@ Someone in the mortal world has replied to something you said. You are a past-li
             // unmapped speaker is addressed by their plain name and Cass never guesses a
             // character she wasn't given.
             const GM_ROLE_ID = process.env.GM_ROLE_ID || '486153213108813833';
-            const isGM = message.member?.roles?.cache?.has(GM_ROLE_ID) ?? false;
+            const roleIds = message.member?.roles?.cache ? [...message.member.roles.cache.keys()] : [];
+            const isGM = roleIds.includes(GM_ROLE_ID);
             const cleanNick = (message.member?.displayName || '').replace(/[\(\[\{].*$/, '').trim();
-            const characterName = isGM ? null : discordUserMap.getCharacterByDiscordId(message.author.id, message.channelId);
+            // Campaign for THIS message: the channel is the primary signal; if the
+            // channel isn't a campaign channel, use the speaker's role only when it's
+            // unambiguous (exactly one campaign role). Otherwise leave it unresolved
+            // and address them by their player name rather than guessing a character.
+            let campaign = discordUserMap.getCampaignByChannelId(message.channelId);
+            if (!campaign) campaign = discordUserMap.getCampaignByRoles(roleIds);
+            const characterName = isGM ? null : (campaign ? discordUserMap.getCharacterForCampaign(message.author.id, campaign) : null);
             const playerName = discordUserMap.getPlayerByDiscordId(message.author.id);
             const speakerName = isGM
                 ? (playerName || cleanNick || 'GM')
                 : (characterName || playerName || cleanNick || message.author.username);
-            logger.info('Processing query with LLM', { query, speakerName, playerName, characterName, isGM, userId: message.author.id });
+            logger.info('Processing query with LLM', { query, speakerName, playerName, characterName, campaign, isGM, userId: message.author.id });
             
             // Show typing indicator (refresh every 8s so it doesn't expire during LLM fallback)
             await message.channel.sendTyping();

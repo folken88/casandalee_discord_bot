@@ -1,10 +1,20 @@
 {
-  "_comment": "Discord user ID -> character (canonical dossier name) and player display name. Use for resolving who plays which PC.",
-  "492444287267504136": { "character": "Ulfred", "player": null },
-  "465315249407655936": { "character": "Nomkath", "player": null },
-  "272939496205713408": { "character": "Akradenn", "player": "Tim" },
-  "184456562213912577": { "character": "Tokala", "player": "Tracy" },
-  "223551354545766400": { "character": "Luna", "player": "Rhy" },
-  "327920844158533633": { "character": "Olbryn", "player": "Josh" },
-  "315548395202936862": { "character": "Augustus", "player": "Enrique" }
+  "_comment": "Discord user ID -> { player, characters:{campaign:characterName}, role? }. Campaign codes: ig=Iron Gods, ss=Skull & Shackles, cc=Carrion Crown, jg=Justice Gorls (Caliphas Vice), hr=Hell's Rebels, hv=Hell's Vengeance, km=Kingmaker, oa=Outlaws of Alkenstar. Resolution is campaign-aware (channel-campaign-map.json, then role-campaign-map.json). GM role -> addressed as GM, never a character. Cells omitted = unknown -> Cass falls back to the player name.",
+  "303941189332107264": { "player": "Toby", "role": "GM", "characters": {} },
+  "492444287267504136": { "player": "Kip", "characters": { "ig": "Ulfred", "ss": "Holden" } },
+  "465315249407655936": { "player": "Daemon", "characters": { "ig": "Nomkath", "ss": "Storgrim" } },
+  "184456562213912577": { "player": "Tracy", "characters": { "ig": "Tokala", "ss": "Alexios" } },
+  "315548395202936862": { "player": "Enrique", "characters": { "ig": "Augustus", "ss": "Sha-Feng" } },
+  "272939496205713408": { "player": "Tim", "characters": { "ig": "Akradenn", "cc": "Gaspar", "hr": "Celeb", "hv": "Jmal" } },
+  "327920844158533633": { "player": "Josh", "characters": { "ig": "Olbryn", "hr": "Gabriel", "hv": "Reese" } },
+  "705562972944334889": { "player": "Mandi", "characters": { "ss": "Rhyarca", "cc": "Kate Blackwood", "jg": "Toni" } },
+  "1011824066442838066": { "player": "Graham", "characters": { "ss": "Bujon" } },
+  "139544847500443648": { "player": "Chris", "characters": { "cc": "Danger", "hr": "Nigel", "hv": "Bruce" } },
+  "887510507483987978": { "player": "Elfrip", "characters": { "cc": "Elfrip", "jg": "Elfrip" } },
+  "476646347668324352": { "player": "Hans", "characters": { "ig": "Maginnis" } },
+  "188510652225159168": { "player": "Charles", "characters": { "hr": "Azwraith", "hv": "Jason" } },
+  "202791383550001152": { "player": "Harrison", "characters": { "hr": "Femmik", "hv": "Draymus" } },
+  "693280284770304012": { "player": "Syd", "characters": { "cc": "Kovira" } },
+  "957730488804593736": { "player": "Syd", "characters": { "cc": "Kovira" } },
+  "831362450921881650": { "player": "Lydia", "characters": { "jg": "Agu" } }
 }

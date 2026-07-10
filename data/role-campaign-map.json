@@ -1,0 +1,11 @@
+{
+  "_comment": "Discord role ID -> campaign code. Backup campaign signal: used only when the channel isn't a campaign channel AND the speaker has exactly ONE campaign role. GM handled separately in index.js.",
+  "742564898034417755": "ig",
+  "1127252397731885107": "ss",
+  "962350989392900096": "cc",
+  "1345629032607383602": "jg",
+  "742565108022247435": "hr",
+  "843840322710798364": "hv",
+  "1367625725527461992": "km",
+  "1398469139282137098": "oa"
+}
