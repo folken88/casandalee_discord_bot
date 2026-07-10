@@ -8,8 +8,20 @@
 const fs = require('fs');
 const path = require('path');
 
-const USER_MAP_PATH = path.join(__dirname, '../../data/discord-user-map.json');
+// The canonical map is the Obsidian vault file Tobias maintains; fall back to a
+// data/ copy if the vault isn't present. (Previously only data/ was read — and
+// it didn't exist — so NO player ever resolved and Cass guessed character names.)
+const VAULT_USER_MAP_PATH = path.join(__dirname, '../../obsidian_cass/cassvault/Meta/discord-user-map.json');
+const DATA_USER_MAP_PATH = path.join(__dirname, '../../data/discord-user-map.json');
 const CHANNEL_MAP_PATH = path.join(__dirname, '../../data/channel-campaign-map.json');
+
+/** Return the first path that exists, or the last one as a fallback. */
+function firstExisting(paths) {
+    for (const p of paths) {
+        try { if (fs.existsSync(p)) return p; } catch (_) { /* ignore */ }
+    }
+    return paths[paths.length - 1];
+}
 
 /** @type {Record<string, { player: string, characters: Record<string, string> }>} */
 let userMap = {};
@@ -20,26 +32,32 @@ let channelMap = {};
 function load() {
     // Load user map
     try {
-        const raw = fs.readFileSync(USER_MAP_PATH, 'utf8');
+        const userMapPath = firstExisting([VAULT_USER_MAP_PATH, DATA_USER_MAP_PATH]);
+        const raw = fs.readFileSync(userMapPath, 'utf8');
         const parsed = JSON.parse(raw);
         userMap = {};
         for (const [id, value] of Object.entries(parsed)) {
             if (id.startsWith('_')) continue;
-            if (value && typeof value === 'object') {
-                // Support new format: { player, characters: { campaign: charName } }
-                if (value.characters && typeof value.characters === 'object') {
-                    userMap[id] = {
-                        player: value.player ?? null,
-                        characters: value.characters
-                    };
-                }
-                // Support legacy format: { character, player }
-                else if (typeof value.character === 'string') {
-                    userMap[id] = {
-                        player: value.player ?? null,
-                        characters: { _default: value.character }
-                    };
-                }
+            if (!value || typeof value !== 'object') continue;
+
+            // New format: { player, characters: { campaign: charName } }
+            // Legacy format: { character, player } — character may be null (the GM).
+            let characters = {};
+            if (value.characters && typeof value.characters === 'object') {
+                characters = value.characters;
+            } else if (typeof value.character === 'string' && value.character.trim()) {
+                characters = { _default: value.character };
+            }
+
+            // Register the entry as long as we know the player OR a character, so
+            // character-less players (e.g. the GM) still resolve by player name
+            // instead of falling through to a hallucinated character.
+            if (value.player || Object.keys(characters).length > 0) {
+                userMap[id] = {
+                    player: value.player ?? null,
+                    characters,
+                    role: value.role ?? null
+                };
             }
         }
     } catch (err) {
