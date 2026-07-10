@@ -510,12 +510,22 @@ Someone in the mortal world has replied to something you said. You are a past-li
                 return;
             }
             
-            // Use campaign-specific character name when in a campaign channel,
-            // otherwise use player display name (e.g. "Graham") or Discord username
-            const characterName = discordUserMap.getCharacterByDiscordId(message.author.id, message.channelId);
+            // Resolve who is speaking. Priority:
+            //   1. GM role  -> address as the GM, NEVER a player-character
+            //   2. mapped character -> player name -> cleaned server nick -> username
+            // The Discord "GM" role is the authoritative GM signal. Server nicks often
+            // carry the character in brackets ("Chris (Danger)"); we strip that so an
+            // unmapped speaker is addressed by their plain name and Cass never guesses a
+            // character she wasn't given.
+            const GM_ROLE_ID = process.env.GM_ROLE_ID || '486153213108813833';
+            const isGM = message.member?.roles?.cache?.has(GM_ROLE_ID) ?? false;
+            const cleanNick = (message.member?.displayName || '').replace(/[\(\[\{].*$/, '').trim();
+            const characterName = isGM ? null : discordUserMap.getCharacterByDiscordId(message.author.id, message.channelId);
             const playerName = discordUserMap.getPlayerByDiscordId(message.author.id);
-            const speakerName = characterName || playerName || message.author.username;
-            logger.info('Processing query with LLM', { query, speakerName, playerName, characterName, userId: message.author.id });
+            const speakerName = isGM
+                ? (playerName || cleanNick || 'GM')
+                : (characterName || playerName || cleanNick || message.author.username);
+            logger.info('Processing query with LLM', { query, speakerName, playerName, characterName, isGM, userId: message.author.id });
             
             // Show typing indicator (refresh every 8s so it doesn't expire during LLM fallback)
             await message.channel.sendTyping();
