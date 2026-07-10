@@ -1,8 +1,9 @@
 {
-  "_comment": "Discord channel ID -> campaign code. The per-message campaign signal for character resolution. (hells-bubbies is shared HR+HV so it is intentionally omitted; lastwall/pathfinderchat unmapped.)",
+  "_comment": "Discord channel ID -> campaign code. The per-message campaign signal for character resolution. (hells-bubbies is shared HR+HV so it is intentionally omitted; pathfinderchat is rules discussion, not a campaign.)",
   "714193013089370132": "ig",
   "1127252298209427607": "ss",
   "962350930999783514": "cc",
+  "1469129766098440365": "cc",
   "1345627371675324487": "jg",
   "1508690392525176952": "jg",
   "1398469083112017930": "oa"
