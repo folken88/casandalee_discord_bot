@@ -365,6 +365,22 @@ function campaignName(ap) {
 }
 
 /**
+ * Reverse of campaignName: a readable campaign name (as shown in a Recollection
+ * embed, e.g. "Carrion Crown") → lowercase campaign code ("cc"), matching the
+ * codes used by discordUserMap. Returns null if unknown.
+ * @param {string} name
+ * @returns {string|null}
+ */
+function campaignCodeFromName(name) {
+    if (!name) return null;
+    const target = String(name).trim().toLowerCase();
+    for (const [code, nm] of Object.entries(CAMPAIGN_NAMES)) {
+        if (nm.toLowerCase() === target) return code.toLowerCase();
+    }
+    return null;
+}
+
+/**
  * Build the Recollection embed from an event and Cass's current-self statement.
  * @param {{date:string, location:string, ap:string, description:string}} event
  * @param {string} [statement] Cass's reaction (her present-day AI-core voice)
@@ -518,5 +534,6 @@ module.exports.generateRandomMessageContent = generateRandomMessageContent;
 module.exports.pickRecognizableEvent = pickRecognizableEvent;
 module.exports.formatGolarionDate = formatGolarionDate;
 module.exports.campaignName = campaignName;
+module.exports.campaignCodeFromName = campaignCodeFromName;
 module.exports.inWindow = inWindow;
 module.exports.generateCassStatement = generateCassStatement;

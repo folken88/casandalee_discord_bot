@@ -521,11 +521,28 @@ Someone in the mortal world has replied to something you said. You are a past-li
             const roleIds = message.member?.roles?.cache ? [...message.member.roles.cache.keys()] : [];
             const isGM = roleIds.includes(GM_ROLE_ID);
             const cleanNick = (message.member?.displayName || '').replace(/[\(\[\{].*$/, '').trim();
-            // Campaign for THIS message: the channel is the primary signal; if the
-            // channel isn't a campaign channel, use the speaker's role only when it's
-            // unambiguous (exactly one campaign role). Otherwise leave it unresolved
-            // and address them by their player name rather than guessing a character.
-            let campaign = discordUserMap.getCampaignByChannelId(message.channelId);
+            // If this is a reply to one of Cass's own Recollection posts, inherit
+            // that Recollection's campaign — so replying to a Carrion Crown event
+            // addresses the player by their Carrion Crown character even in #general.
+            let replyCampaign = null;
+            if (message.reference?.messageId) {
+                try {
+                    const ref = await message.fetchReference();
+                    if (ref?.author?.id === client.user.id && ref.embeds?.length) {
+                        const emb = ref.embeds[0];
+                        if (/Recollection/i.test(emb.title || '')) {
+                            const firstLine = (emb.description || '').split('\n')[0];
+                            const mm = firstLine.match(/\(([^)]+)\)\s*$/);
+                            if (mm) replyCampaign = DailyHistoryScheduler.campaignCodeFromName(mm[1]);
+                        }
+                    }
+                } catch (_) { /* referenced message unavailable */ }
+            }
+            // Campaign for THIS message: a replied-to Recollection wins; else the
+            // channel; else the speaker's role only when it's unambiguous (exactly
+            // one campaign role). Otherwise leave it unresolved and use the player
+            // name rather than guessing a character.
+            let campaign = replyCampaign || discordUserMap.getCampaignByChannelId(message.channelId);
             if (!campaign) campaign = discordUserMap.getCampaignByRoles(roleIds);
             const characterName = isGM ? null : (campaign ? discordUserMap.getCharacterForCampaign(message.author.id, campaign) : null);
             const playerName = discordUserMap.getPlayerByDiscordId(message.author.id);
