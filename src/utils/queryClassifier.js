@@ -79,8 +79,19 @@ class QueryClassifier {
                     });
                     result = this._parseResponse(raw, query);
                 } catch (err3) {
-                    logger.warn(`QueryClassifier: all providers failed, returning unknown`);
-                    result = { intent: 'unknown', entities: [], data_needed: ['vault_search'] };
+                    logger.debug(`QueryClassifier: OpenRouter failed (${err3.message}), trying OpenAI`);
+                    try {
+                        const raw = await llmRouter.openaiGenerate(query, {
+                            system: SYSTEM_PROMPT,
+                            maxTokens: 200,
+                            temperature: 0.0,
+                            timeout: 30000,
+                        });
+                        result = this._parseResponse(raw, query);
+                    } catch (err4) {
+                        logger.warn(`QueryClassifier: all providers failed, returning unknown`);
+                        result = { intent: 'unknown', entities: [], data_needed: ['vault_search'] };
+                    }
                 }
             }
         }

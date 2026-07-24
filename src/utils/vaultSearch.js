@@ -201,9 +201,19 @@ class VaultSearch {
      * Full-text search across note content (case-insensitive)
      */
     byText(query, maxResults = 20) {
-        const idx = this.buildIndex();
-        const STOP_WORDS = new Set(['the','a','an','is','was','were','are','did','do','does','when','where','who','what','how','why','about','have','has','had','can','could','will','would','should','this','that','with','from','for','and','but','not','die','died','dies','kill','killed','happen','happened','start','started','tell','know']);
-        const terms = query.toLowerCase().replace(/[?!.,;:'"()]/g, '').split(/\s+/).filter(t => t.length > 2 && !STOP_WORDS.has(t));
+        // GM plot secrets must never surface through retrieval
+        const idx = this.buildIndex().filter(n => !/gm.?eyes.?only/i.test(n.filename || ''));
+        const STOP_WORDS = new Set(['the','a','an','is','was','were','are','did','do','does','when','where','who','what','how','why','about','have','has','had','can','could','will','would','should','this','that','with','from','for','and','but','not','die','died','dies','kill','killed','happen','happened','start','started','tell','know',
+            'her','him','his','she','they','them','their','let','cannot','certainly','very','more','than','also','even','still','again','always','never','really','because','shit','yeah','well','okay','though','being','been']);
+        // Prefer proper nouns (names/places) when the query contains any — far less noisy
+        // than raw prose words. Fall back to full extraction for all-lowercase queries.
+        const properNouns = [...new Set(
+            [...query.matchAll(/\b[A-Z][a-zA-Z''-]{2,}\b/g)]
+                .map(m => m[0].toLowerCase())
+                .filter(t => !STOP_WORDS.has(t))
+        )];
+        const allTerms = query.toLowerCase().replace(/[?!.,;:'"()]/g, '').split(/\s+/).filter(t => t.length > 2 && !STOP_WORDS.has(t));
+        const terms = properNouns.length >= 1 ? properNouns : allTerms;
 
         if (terms.length === 0) return [];
 
@@ -407,7 +417,8 @@ class VaultSearch {
 
         // 1. TIMELINE — search timeline files for matching rows
         // Use ANY-match with scoring: more matched terms = higher relevance
-        const idx = this.buildIndex();
+        // (GM plot secrets are excluded — they must never reach player-facing context)
+        const idx = this.buildIndex().filter(n => !/gm.?eyes.?only/i.test(n.filename || ''));
         const queryLower = query.toLowerCase();
         const STOP_WORDS = new Set([
             'the','a','an','is','was','were','are','did','do','does','done',
@@ -420,8 +431,20 @@ class VaultSearch {
             'there','here','then','than','just','very','much','more','most','some','any','all',
             'weapon','sword','item','armor','shield','potion','spell','character','player',
             'give','gave','get','got','put','take','took','make','made','come','came','going',
+            'her','him','his','hers','their','theirs','she','let','cannot','certainly','very',
+            'more','than','when','also','even','still','again','always','never','really','because',
+            'shit','fuck','damn','yeah','well','okay','though','being','been','both','each','own',
         ]);
-        const queryTerms = queryLower.replace(/[?!.,;:'"()]/g, '').split(/\s+/).filter(t => t.length > 2 && !STOP_WORDS.has(t));
+        // Prefer proper nouns (capitalized mid-sentence words) when present — they are
+        // names/places and give far better retrieval than raw prose words. Fall back to
+        // full term extraction for all-lowercase queries.
+        const properNouns = [...new Set(
+            [...query.matchAll(/\b[A-Z][a-zA-Z''-]{2,}\b/g)]
+                .map(m => m[0].toLowerCase())
+                .filter(t => !STOP_WORDS.has(t))
+        )];
+        const allTerms = queryLower.replace(/[?!.,;:'"()]/g, '').split(/\s+/).filter(t => t.length > 2 && !STOP_WORDS.has(t));
+        const queryTerms = properNouns.length >= 1 ? properNouns : allTerms;
         const timelineNotes = idx.filter(n => (n.frontmatter.type || '').toLowerCase() === 'timeline');
 
         logger.debug(`🔍 Vault search terms: [${queryTerms.join(', ')}]`);

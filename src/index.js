@@ -20,6 +20,32 @@ const llmRouter = require('./utils/llmRouter');
 const googleSheetsIntegration = require('./utils/googleSheetsIntegration');
 const llmHandler = require('./utils/llmHandler');
 const discordUserMap = require('./utils/discordUserMap');
+const conversation = require('./utils/conversation');
+
+/** Render a Discord message (content + embeds) as one line of plain text. */
+function renderMessageText(m, botUserId) {
+    const name = m.author?.id === botUserId ? 'Casandalee' : (m.member?.displayName || m.author?.username || 'unknown');
+    let text = (m.content || '').replace(/<@!?\d+>/g, '').trim();
+    for (const e of m.embeds || []) {
+        const bits = [e.title, e.description, ...(e.fields || []).map(f => `${f.name}: ${f.value}`)].filter(Boolean).join(' | ');
+        if (bits) text += `${text ? ' ' : ''}[embed] ${bits}`;
+    }
+    return text ? `${name}: ${text.slice(0, 400)}` : '';
+}
+
+/** Build a short transcript of the channel messages preceding `message`. */
+async function buildTranscript(message, botUserId, limit = 8) {
+    try {
+        const fetched = await message.channel.messages.fetch({ limit, before: message.id });
+        const lines = [...fetched.values()]
+            .sort((a, b) => a.createdTimestamp - b.createdTimestamp)
+            .map(m => renderMessageText(m, botUserId))
+            .filter(Boolean);
+        return lines.join('\n').slice(-2600);
+    } catch (_) {
+        return '';
+    }
+}
 const logger = require('./utils/logger');
 const personalityManager = require('./utils/personalityManager');
 const DailyHistoryScheduler = require('./utils/dailyHistory');
@@ -525,15 +551,19 @@ Someone in the mortal world has replied to something you said. You are a past-li
             // that Recollection's campaign — so replying to a Carrion Crown event
             // addresses the player by their Carrion Crown character even in #general.
             let replyCampaign = null;
+            let repliedTo = '';
             if (message.reference?.messageId) {
                 try {
                     const ref = await message.fetchReference();
-                    if (ref?.author?.id === client.user.id && ref.embeds?.length) {
-                        const emb = ref.embeds[0];
-                        if (/Recollection/i.test(emb.title || '')) {
-                            const firstLine = (emb.description || '').split('\n')[0];
-                            const mm = firstLine.match(/\(([^)]+)\)\s*$/);
-                            if (mm) replyCampaign = DailyHistoryScheduler.campaignCodeFromName(mm[1]);
+                    if (ref) {
+                        repliedTo = renderMessageText(ref, client.user.id);
+                        if (ref.author?.id === client.user.id && ref.embeds?.length) {
+                            const emb = ref.embeds[0];
+                            if (/Recollection/i.test(emb.title || '')) {
+                                const firstLine = (emb.description || '').split('\n')[0];
+                                const mm = firstLine.match(/\(([^)]+)\)\s*$/);
+                                if (mm) replyCampaign = DailyHistoryScheduler.campaignCodeFromName(mm[1]);
+                            }
                         }
                     }
                 } catch (_) { /* referenced message unavailable */ }
@@ -558,8 +588,18 @@ Someone in the mortal world has replied to something you said. You are a past-li
             }, 8000);
 
             try {
-                // Process the query with LLM (Cass will address speaker by speakerName)
-                const response = await llmHandler.processQuery(query, speakerName, message.author.id, message.channel.name);
+                // Conversation pipeline v2: transcript + reply context + current-self voice
+                const transcript = await buildTranscript(message, client.user.id);
+                const response = await conversation.respond({
+                    query,
+                    speakerName,
+                    userId: message.author.id,
+                    channelName: message.channel.name,
+                    campaign,
+                    isGM,
+                    transcript,
+                    repliedTo
+                });
                 clearInterval(typingInterval);
 
                 logger.info('LLM response generated', { responseLength: response.length });

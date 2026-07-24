@@ -1,5 +1,5 @@
 const { SlashCommandBuilder, EmbedBuilder } = require('discord.js');
-const llmHandler = require('../utils/llmHandler');
+const conversation = require('../utils/conversation');
 const discordUserMap = require('../utils/discordUserMap');
 const logger = require('../utils/logger');
 
@@ -25,17 +25,30 @@ module.exports = {
 
         try {
             const question = interaction.options.getString('question');
-            // Use campaign-specific character name when in a campaign channel,
-            // otherwise use player display name or Discord username
-            const speakerName = discordUserMap.getCharacterByDiscordId(interaction.user.id, interaction.channelId)
-                || discordUserMap.getPlayerByDiscordId(interaction.user.id)
-                || interaction.user.username;
+            // Resolve speaker: GM role wins; else campaign-aware character; else player name
+            const GM_ROLE_ID = process.env.GM_ROLE_ID || '486153213108813833';
+            const roleIds = interaction.member?.roles?.cache ? [...interaction.member.roles.cache.keys()] : [];
+            const isGM = roleIds.includes(GM_ROLE_ID);
+            let campaign = discordUserMap.getCampaignByChannelId(interaction.channelId);
+            if (!campaign) campaign = discordUserMap.getCampaignByRoles(roleIds);
+            const characterName = isGM ? null : (campaign ? discordUserMap.getCharacterForCampaign(interaction.user.id, campaign) : null);
+            const playerName = discordUserMap.getPlayerByDiscordId(interaction.user.id);
+            const speakerName = isGM
+                ? (playerName || 'GM')
+                : (characterName || playerName || interaction.user.username);
 
             // Show typing indicator
             await interaction.deferReply();
-            
-            // Process with LLM (Cass will address speaker by speakerName)
-            const response = await llmHandler.processQuery(question, speakerName, interaction.user.id, interaction.channel?.name);
+
+            // Conversation pipeline v2 (no transcript for slash commands)
+            const response = await conversation.respond({
+                query: question,
+                speakerName,
+                userId: interaction.user.id,
+                channelName: interaction.channel?.name,
+                campaign,
+                isGM
+            });
             
             // Create simple response (no embed, just text)
             await interaction.editReply(response);
