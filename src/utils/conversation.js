@@ -44,8 +44,8 @@ function heuristicUnderstanding(query, transcript) {
 }
 
 /** Step 1 — understand the message in context. */
-async function understand(query, transcript) {
-    const userPrompt = `${transcript ? `CONVERSATION:\n${transcript}\n\n` : ''}NEW MESSAGE:\n${query}`;
+async function understand(query, transcript, repliedTo = '') {
+    const userPrompt = `${transcript ? `CONVERSATION:\n${transcript}\n\n` : ''}${repliedTo ? `THE MESSAGE REPLIES TO:\n${repliedTo}\n\n` : ''}NEW MESSAGE:\n${query}`;
     try {
         const result = await llmRouter.route(userPrompt, {
             task: 'user-facing',
@@ -99,10 +99,12 @@ function captureGmLore(query, speakerName, campaign) {
  * @param {boolean} [opts.isGM]       Speaker holds the GM role
  * @param {string} [opts.transcript]  Recent channel messages, "Name: text" lines
  * @param {string} [opts.repliedTo]   Rendered content of the message replied to
+ * @param {boolean} [opts.noLog]      Test mode: skip conversation logging AND GM
+ *                                    lore capture (used by tools/cass-probe.js)
  * @returns {Promise<string>}
  */
 async function respond(opts) {
-    const { query, speakerName, userId = null, channelName = null, campaign = null, isGM = false, transcript = '', repliedTo = '' } = opts;
+    const { query, speakerName, userId = null, channelName = null, campaign = null, isGM = false, transcript = '', repliedTo = '', noLog = false } = opts;
 
     // Fast path: personality/meta queries keep their instant handler
     const llmHandler = require('./llmHandler');
@@ -111,7 +113,7 @@ async function respond(opts) {
     }
 
     // 1. UNDERSTAND
-    const u = await understand(query, transcript);
+    const u = await understand(query, transcript, repliedTo);
     logger.info(`[Conversation] intent=${u.intent} entities=[${u.entities.join(', ')}] terms=[${u.search_terms.join(', ')}]`);
 
     // 2. RETRIEVE — search on resolved entities/terms, not raw prose
@@ -153,23 +155,29 @@ async function respond(opts) {
         response = `My connection to the archives is flickering, ${speakerName} — give me a moment and ask again.`;
     }
 
-    // 4. LEARN — GM statements become durable knowledge
-    if (isGM && u.intent === 'lore_statement') {
+    // 4. LEARN — GM statements become durable knowledge (skipped in test mode)
+    if (!noLog && isGM && u.intent === 'lore_statement') {
         captureGmLore(query, speakerName, campaign);
     }
 
     // Log the conversation to the vault (feeds nightly memory consolidation)
-    try {
-        conversationLogger.log({
-            discordUsername: speakerName,
-            discordId: userId || 'unknown',
-            query,
-            response,
-            channel: channelName,
-            handlerType: 'conversation-v2'
-        });
-    } catch (_) { /* non-fatal */ }
+    if (!noLog) {
+        try {
+            conversationLogger.log({
+                discordUsername: speakerName,
+                discordId: userId || 'unknown',
+                query,
+                response,
+                channel: channelName,
+                handlerType: 'conversation-v2'
+            });
+        } catch (_) { /* non-fatal */ }
+    }
 
+    // Test/debug mode returns the pipeline internals alongside the response
+    if (opts.debug) {
+        return { response, understanding: u, contextChars: context.length, wouldCaptureLore: !!(isGM && u.intent === 'lore_statement') };
+    }
     return response;
 }
 
