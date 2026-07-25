@@ -200,9 +200,20 @@ class VaultSearch {
     /**
      * Full-text search across note content (case-insensitive)
      */
+    /**
+     * GM plot secrets must never surface through player-facing retrieval:
+     * the gm-eyes-only file itself, and ANY note tagged "gm-only".
+     */
+    _isGmSecret(note) {
+        if (/gm.?eyes.?only/i.test(note.filename || '')) return true;
+        const tags = note.frontmatter?.tags;
+        const list = Array.isArray(tags) ? tags : (typeof tags === 'string' ? [tags] : []);
+        return list.some(t => /^gm.?only$/i.test(String(t).trim()));
+    }
+
     byText(query, maxResults = 20) {
         // GM plot secrets must never surface through retrieval
-        const idx = this.buildIndex().filter(n => !/gm.?eyes.?only/i.test(n.filename || ''));
+        const idx = this.buildIndex().filter(n => !this._isGmSecret(n));
         const STOP_WORDS = new Set(['the','a','an','is','was','were','are','did','do','does','when','where','who','what','how','why','about','have','has','had','can','could','will','would','should','this','that','with','from','for','and','but','not','die','died','dies','kill','killed','happen','happened','start','started','tell','know',
             'her','him','his','she','they','them','their','let','cannot','certainly','very','more','than','also','even','still','again','always','never','really','because','shit','yeah','well','okay','though','being','been']);
         // Prefer proper nouns (names/places) when the query contains any — far less noisy
@@ -418,7 +429,7 @@ class VaultSearch {
         // 1. TIMELINE — search timeline files for matching rows
         // Use ANY-match with scoring: more matched terms = higher relevance
         // (GM plot secrets are excluded — they must never reach player-facing context)
-        const idx = this.buildIndex().filter(n => !/gm.?eyes.?only/i.test(n.filename || ''));
+        const idx = this.buildIndex().filter(n => !this._isGmSecret(n));
         const queryLower = query.toLowerCase();
         const STOP_WORDS = new Set([
             'the','a','an','is','was','were','are','did','do','does','done',

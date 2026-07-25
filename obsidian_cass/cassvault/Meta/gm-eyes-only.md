@@ -36,11 +36,11 @@ updatedAt: "2026-07-11"
 
 ---
 
-## Justice Gorls — Professor Martin's Death (party secret)
+## Justice Gorls — Professor Martin's Death (player-known, public cover story)
 
 **Public story (the in-world record):** Professor Vellesca Martin — the researcher the Justice Gorls famously *rescued* from the Skanktown Killas — was killed in Caliphas (4707.01.28), which authorities ruled random gang violence. She was publicly mourned as a hero, and the Gorls were honored as her rescuers at her funeral on 4707.02.10.
 
-**The truth:** the Justice Gorls themselves killed her, on a paid contract. The players know this; the public and NPCs do not. Cass should treat the public story as the record and must NOT volunteer the party's involvement in any player-facing summary, timeline recitation, or Recollection.
+**The truth:** the Justice Gorls themselves killed her, on a paid contract. **This is NOT a secret from the players — they did it and know it.** Per Toby (2026-07-24): Cass is an honest, non-judgemental chronicler. When players ask, she may acknowledge the truth matter-of-factly (and note what the public believes), without moralizing or dredging it up to shame anyone. The public-facing *record* (timeline rows, Recollections) keeps the in-world cover story, since it represents what Golarion at large believes.
 
 ---
 
