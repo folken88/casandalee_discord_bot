@@ -206,15 +206,104 @@ async function generateRandomMessageContent(client) {
  * (also used by the conversation pipeline).
  */
 const { CASS_SELF_SYSTEM } = require('./cassVoice');
+const vaultSearch = require('./vaultSearch');
 
 /** Ways Cass might react — picked at random to keep the daily post varied. */
 const STATEMENT_MODES = [
-    'Ask a pointed or curious question about it.',
-    'Offer a short, opinionated judgement on it.',
-    'Make a dry joke or wry quip about it.',
-    'Give a brief, personal reflection on it.',
-    'React plainly and warmly, the way a friend would.'
+    'Trace where this moment led — connect it to what it became.',
+    'Name the irony or reversal hiding in this moment, if the arc holds one.',
+    'Reflect personally — if this touches you or people you love, say so.',
+    'Offer a short, opinionated judgement on it, informed by how it turned out.',
+    'Make a dry, wry observation about it — hindsight makes some moments funny.',
+    'Wonder aloud about fate: how much of what followed was visible in this moment?'
 ];
+
+/**
+ * Proper-noun entities from an event description (names, places, factions).
+ * @param {string} text
+ * @returns {string[]}
+ */
+function eventEntities(text) {
+    const SKIP = new Set(['The', 'A', 'An', 'In', 'At', 'On', 'After', 'Before', 'When', 'While', 'They', 'He', 'She', 'It', 'His', 'Her', 'Their', 'PLAN', 'TODO']);
+    return [...new Set(
+        [...String(text || '').matchAll(/\b[A-Z][a-zA-Z''-]{2,}\b/g)]
+            .map(m => m[0])
+            .filter(w => !SKIP.has(w))
+    )];
+}
+
+/**
+ * Build Cass's hindsight context for an event: the arc of timeline events that
+ * involve the same people/places (before and, especially, after this moment),
+ * plus vault knowledge (dossiers, session lore). GM-secret notes are already
+ * excluded at the vaultSearch layer; GM PLAN rows are skipped here.
+ * @param {{date:string, location:string, ap:string, description:string}} event
+ * @returns {string}
+ */
+function buildHindsightContext(event) {
+    const entities = eventEntities(`${event.description} ${event.location || ''}`);
+    if (entities.length === 0) return '';
+
+    const parts = [];
+
+    // 1. The arc: other timeline rows mentioning these entities, in date order
+    try {
+        const all = timelineSearch.timeline || [];
+        const lowered = entities.map(e => e.toLowerCase());
+        const related = all.filter(ev =>
+            ev && ev.description && ev !== event
+            && !/^\s*(PLAN|TODO|GM)\s*:/i.test(ev.description)
+            && lowered.some(ent => `${ev.description} ${ev.location || ''}`.toLowerCase().includes(ent))
+        );
+        related.sort((a, b) => (parseEventDate(a.date)?.year * 10000 + (parseEventDate(a.date)?.month || 0) * 100 + (parseEventDate(a.date)?.day || 0))
+                             - (parseEventDate(b.date)?.year * 10000 + (parseEventDate(b.date)?.month || 0) * 100 + (parseEventDate(b.date)?.day || 0)));
+        const thisKey = parseEventDate(event.date);
+        const thisNum = thisKey ? thisKey.year * 10000 + thisKey.month * 100 + thisKey.day : 0;
+        const before = related.filter(ev => { const p = parseEventDate(ev.date); return p && (p.year * 10000 + p.month * 100 + p.day) < thisNum; }).slice(-4);
+        const after = related.filter(ev => { const p = parseEventDate(ev.date); return p && (p.year * 10000 + p.month * 100 + p.day) >= thisNum; }).slice(0, 10);
+        const arcRows = [...before, ...after];
+        if (arcRows.length > 0) {
+            parts.push(`THE ARC (other recorded events involving ${entities.slice(0, 4).join(', ')}):\n` +
+                arcRows.map(ev => `- ${formatGolarionDate(ev.date)}: ${ev.description.trim().slice(0, 220)}`).join('\n'));
+        }
+    } catch (err) {
+        logger.warn(`Hindsight arc build failed: ${err.message}`);
+    }
+
+    // 2. Character dossiers for the key entities — the long arcs live here
+    //    (who they were, who they became). GM-secret notes are skipped.
+    //    byName returns an array (or {note,score} wrappers), and filenames carry
+    //    .md — normalize both; prefer an exact filename match from the index.
+    try {
+        const idx = vaultSearch.buildIndex();
+        let added = 0;
+        for (const ent of entities) {
+            if (added >= 2) break;
+            let note = idx.find(n => (n.filename || '').toLowerCase().replace(/\.md$/, '') === ent.toLowerCase());
+            if (!note) {
+                const hits = vaultSearch.byName(ent);
+                const first = Array.isArray(hits) ? hits[0] : hits;
+                note = first?.note || first;
+            }
+            if (note && note.body && !vaultSearch._isGmSecret(note)) {
+                parts.push(`DOSSIER — ${note.filename || ent}:\n${note.body.trim().slice(0, 1800)}`);
+                added++;
+            }
+        }
+    } catch (err) {
+        logger.warn(`Hindsight dossier fetch failed: ${err.message}`);
+    }
+
+    // 3. Broader vault knowledge (session lore, places) on the key entities
+    try {
+        const ctx = vaultSearch.contextFor(entities.slice(0, 5).join(' '), { maxTokens: 1100 });
+        if (ctx && ctx.trim()) parts.push(`ARCHIVE NOTES:\n${ctx.trim().slice(0, 2200)}`);
+    } catch (err) {
+        logger.warn(`Hindsight vault context failed: ${err.message}`);
+    }
+
+    return parts.join('\n\n').slice(0, 6500);
+}
 
 /** Static in-character lines used only if the LLM call fails. */
 const STATEMENT_FALLBACKS = [
@@ -237,20 +326,21 @@ async function generateCassStatement(event) {
     const loc = event.location && event.location.trim();
     const where = [loc, camp].filter(Boolean).join(', ');
     const mode = STATEMENT_MODES[Math.floor(Math.random() * STATEMENT_MODES.length)];
+    const hindsight = buildHindsightContext(event);
 
     const userPrompt = `A moment from the campaign record:
 ${dateStr}${where ? ` — ${where}` : ''}
 ${event.description.trim()}
-
-React to this in ONE or TWO sentences, in your own present-day voice (the AI in the core, not a goddess). ${mode} Be specific to what happened — name what you're reacting to. Start with the substance itself; do NOT open with an interjection or filler word like "Ah", "Oh", "Well", "Hmm", "Ha", "So", or "Funny". No stage directions, no asterisks, and do not prefix your name.`;
+${hindsight ? `\nWHAT YOU KNOW WITH HINDSIGHT (the arc around this moment, and your archive notes):\n${hindsight}\n` : ''}
+React to this moment in TWO to FOUR sentences, in your own present-day voice (the AI in the core, not a goddess). You are remembering it from the present — you know how it turned out. ${mode} Draw a real connection across time when the record supports one: what this moment set in motion, what it grew into, who these people became. If the arc holds a reversal — an enemy who became a friend, a small act with enormous consequences — that is the gold: name it. Stay within what the record establishes; do not invent outcomes. Be specific with names. Start with the substance itself; do NOT open with an interjection or filler word like "Ah", "Oh", "Well", "Hmm", "Ha", "So", or "Funny". No stage directions, no asterisks, and do not prefix your name.`;
 
     try {
         const text = await llmRouter.openaiGenerate(userPrompt, {
             system: CASS_SELF_SYSTEM,
             model: process.env.RECOLLECTION_MODEL || 'gpt-4o',
-            maxTokens: 140,
-            temperature: 0.9,
-            timeout: 30000
+            maxTokens: 280,
+            temperature: 0.85,
+            timeout: 45000
         });
         let clean = (text || '').trim().replace(/^["']|["']$/g, '');
         // Safety net: strip a leftover throat-clearing interjection opener
@@ -314,7 +404,8 @@ function eventKey(event) {
  */
 function pickRecognizableEvent(state) {
     const all = timelineSearch.timeline || [];
-    const pool = all.filter(ev => ev && ev.description && ev.description.trim() && inWindow(ev));
+    const pool = all.filter(ev => ev && ev.description && ev.description.trim() && inWindow(ev)
+        && !/^\s*(PLAN|TODO|GM)\s*:/i.test(ev.description)); // GM planning rows are not memories
     if (pool.length === 0) return null;
 
     const recent = new Set(state.recentEventKeys || []);
