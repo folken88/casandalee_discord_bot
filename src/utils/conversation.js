@@ -116,17 +116,28 @@ async function respond(opts) {
     const u = await understand(query, transcript, repliedTo);
     logger.info(`[Conversation] intent=${u.intent} entities=[${u.entities.join(', ')}] terms=[${u.search_terms.join(', ')}]`);
 
-    // 2. RETRIEVE — search on resolved entities/terms, not raw prose
-    const searchText = [...new Set([...u.entities, ...u.search_terms])].join(' ');
+    // 2. RETRIEVE — cross-referenced, multi-hop: entity dossiers, their
+    //    date-ordered event arcs, entities DISCOVERED in those results (the
+    //    killer, the item's wielder, where the artifacts went), and session
+    //    lore. Falls back to plain contextFor if the graph comes up empty.
+    const allEntities = [...new Set([...u.entities, ...u.search_terms])];
     let context = '';
     try {
-        context = vaultSearch.contextFor(searchText || query, {
-            campaign,
-            discordUserId: userId,
-            maxTokens: 3500
-        }) || '';
+        const crossReference = require('./crossReference');
+        context = crossReference.buildContext(allEntities, { fallbackQuery: query, maxChars: 7000 }) || '';
     } catch (err) {
-        logger.warn(`[Conversation] Vault retrieval failed: ${err.message}`);
+        logger.warn(`[Conversation] Cross-reference retrieval failed: ${err.message}`);
+    }
+    if (!context || context.length < 200) {
+        try {
+            context = vaultSearch.contextFor(allEntities.join(' ') || query, {
+                campaign,
+                discordUserId: userId,
+                maxTokens: 3500
+            }) || '';
+        } catch (err) {
+            logger.warn(`[Conversation] Vault retrieval failed: ${err.message}`);
+        }
     }
 
     // 3. RESPOND — current-self voice, provider-agnostic
