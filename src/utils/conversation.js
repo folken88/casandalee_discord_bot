@@ -26,8 +26,8 @@ const { CASS_SELF_SYSTEM, CONVERSATION_RULES } = require('./cassVoice');
 const GM_LORE_PATH = path.join(__dirname, '../../obsidian_cass/cassvault/Learned/gm-lore.md');
 
 const UNDERSTAND_SYSTEM = `You classify a Discord message for a Pathfinder campaign assistant. Using the conversation for context (resolve pronouns like "she"/"him" to actual names), return STRICT JSON only, no prose:
-{"intent":"question|lore_statement|greeting|banter|command","entities":["proper names/places the message is about, resolved from context"],"search_terms":["3-8 concrete retrieval keywords (names, places, factions, events)"],"wants_timeline":true|false}
-"lore_statement" = the speaker is TELLING facts/backstory rather than asking. Prefer resolved names over pronouns in entities.`;
+{"intent":"question|lore_statement|greeting|banter|command","entities":["proper names/places the message is about, resolved from context"],"search_terms":["3-8 concrete retrieval keywords"],"wants_timeline":true|false}
+"lore_statement" = the speaker is TELLING facts/backstory rather than asking. Prefer resolved names over pronouns in entities. search_terms must be CONCRETE proper nouns (people, places, factions, named events) — never generic words like killer, murder, death, investigation, battle, mystery.`;
 
 /** Heuristic fallback when the understanding call fails: proper nouns from text. */
 function heuristicUnderstanding(query, transcript) {
@@ -142,12 +142,17 @@ async function respond(opts) {
 
     let response;
     try {
-        const result = await llmRouter.route(userPrompt, {
+        const routeOpts = {
             task: 'user-facing',
             system,
             maxTokens: 500,
             temperature: 0.7
-        });
+        };
+        // Optional model override for conversation quality (e.g. gpt-4o).
+        // NOTE: provider-specific model names — unset this env if switching the
+        // primary provider away from OpenAI.
+        if (process.env.CONVERSATION_MODEL) routeOpts.model = process.env.CONVERSATION_MODEL;
+        const result = await llmRouter.route(userPrompt, routeOpts);
         response = (result.text || '').trim();
         logger.info(`[Conversation] Response via ${result.provider} (${response.length} chars)`);
     } catch (err) {

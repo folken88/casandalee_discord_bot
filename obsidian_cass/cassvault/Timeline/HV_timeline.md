@@ -1,16 +1,16 @@
 ---
-title: "Hells Vengeance Timeline"
+title: "Hell's Vengeance Timeline"
 type: timeline
 campaign: "HV"
-campaignName: "Hells Vengeance"
+campaignName: "Hell's Vengeance"
 eventCount: 81
-lastSync: "2026-03-28T04:13:11.858Z"
+lastSync: "2026-08-08T12:56:32.897Z"
 tags: ["timeline", "hv"]
 ---
 
-# Hells Vengeance Timeline
+# Hell's Vengeance Timeline
 
-*Synced from Google Sheets — 81 events. This file is authoritative for dated campaign events.*
+*Synced automatically from the campaign timeline. Edit the timeline source (CSV/Sheet), not this file.*
 
 | Date | Location | Event |
 |------|----------|-------|
@@ -23,7 +23,7 @@ tags: ["timeline", "hv"]
 | 3831.00.00 | Kantaria | Iomedae completes her tenth act, ruling Kantaria for a year and a day. She gives Heart's Edge to House Narikopolus. |
 | 4081.00.00 | Taldor | Taldan Governor Aspex creates the new nation of Cheliax from Andoran, Cheliax, Galt, and Isger. |
 | 4137.00.00 | Cheliax | Chelish Army and Navy repel Garund and win control of the Arch of Aroden. Cheliax controls the entrance to the Inner Sea. |
-| 4305.00.00 | Cheliax | Everwar begins.  |
+| 4305.00.00 | Cheliax | Everwar begins. |
 | 4338.00.00 | Cheliax | Cheliax conquers Nidal. |
 | 4606.00.00 | Cheliax | Aroden's death. Chelish Civil War begins. |
 | 4623.00.00 | Mendev | Seldinin Chonaz Hellknight of the Pyre founds the HK Order of the Godclaw. |
@@ -43,11 +43,11 @@ tags: ["timeline", "hv"]
 | 4716.11.18 | Longacre | Severed rebel heads are stolen at night. A bloody battle at the Church ensues. Riley Kels the ghast is killed again. |
 | 4716.11.19 | Longacre | Church of Iomedae converted to Temple of Asmodeus. |
 | 4716.11.21 | Longacre | El Guapo arrives by mule in Longacre. He is destitute (again) and on the run from Naval authorities (again). |
-| 4716.11.23 | Longacre | Rebel Stronghold at "Court of Spears" is destroyed. Lencia Visserene escapes. Former Sheriff Rhona Staelish is killed. |
+| 4716.11.23 | Longacre | Rebel Stronghold at Court of Spears is destroyed. Lencia Visserene escapes. Former Sheriff Rhona Staelish is killed. |
 | 4716.11.26 | Longacre | Archbaron Fex of Longacre declares the rebellion has been driven out of his province. Gives Freya's team 3 weeks off. |
 | 4716.12.11 | Egorian | Captain Freya's team is attacked at their Inn in the capital. El Guapo fights off several assassins while naked. |
-| 4716.12.17 | Kantaria | Captain Freya's "private security firm" is hired by Loredana Viorica of the Uskwood Inn, Kantaria. |
-| 4716.12.21 | Kantaria | The Glorious Reclamation prison "Hardship's Hearth" is attacked. Zara Orcelani escapes to the Uskwood Inn. |
+| 4716.12.17 | Kantaria | Captain Freya's private security firm is hired by Loredana Viorica of the Uskwood Inn, Kantaria. |
+| 4716.12.21 | Kantaria | The Glorious Reclamation prison Hardship's Hearth is attacked. Zara Orcelani escapes to the Uskwood Inn. |
 | 4716.12.23 | Kantaria | Kantaria docks burned. Dockmaster Jonas escaped. Defensive towers are also burned or sabotaged. Angel-Bro defeated. |
 | 4716.12.24 | Kantaria | Freya & Co. lay low in the Fungus Caves. Corrine assigned to Captain Freya's team as liaison. |
 | 4716.12.25 | Kantaria | Captain Freya Kusanagi inducted into the Hell Knight Order and granted the rank of signifier. |
@@ -57,7 +57,7 @@ tags: ["timeline", "hv"]
 | 4717.01.14 | Egorian | Signifier Freya Kusanagi promoted to Hellknight in the Order of the Rack. |
 | 4717.01.15 | Egorian | Public Execution of Oppian Nevilindor & assassination of Duke Fellatio. J'mal goes missing. |
 | 4717.01.22 | Egorian | Freya & Co. depart the capital en route to Senara at the request of Archbaron Fex. |
-| 4717.01.25 | Senara | Senara thieves guild "Blood Daggers" defeated by Draymus. Freya spares them and forms an alliance. |
+| 4717.01.25 | Senara | Senara thieves guild Blood Daggers defeated by Draymus. Freya spares them and forms an alliance. |
 | 4717.01.29 | Whisperwood | Blessing of Unicorns assaulted by Freya & Co. 3 Unicorns killed in initial assault, 4 more in later battles. 4 horns recovered. |
 | 4717.02.01 | Whisperwood | Suriel banished to Abaddon where he meets Shensen. |
 | 4717.02.04 | Senara | Balisse angel in the service of the Glorious Reclamation is killed and defiled (heart removed). |
@@ -70,7 +70,7 @@ tags: ["timeline", "hv"]
 | 4717.02.20 | Westcrown | Brado Pachia hires Freya & Co. for a series of small favors. |
 | 4717.02.23 | Egorian | Freya & Co. battle Efisio Pera, Chief Spy for Visperthul. Freya follows him out a 5th story window and defeats him in the street. |
 | 4717.02.24 | Cheliax | The top 4 agents of Visperthul in Cheliax are arrested/killed in a sting orchestrated by Corrine. Freya promoted to Major. |
-| 4717.02.28 | Egorian | Freya & Co. invited to Night of the Pale Ball. Introduced to Count Sethic and Baroness Lesvion.  |
+| 4717.02.28 | Egorian | Freya & Co. invited to Night of the Pale Ball. Introduced to Count Sethic and Baroness Lesvion. |
 | 4717.02.30 | Egorian | Paracount Sethic's pig farm destroyed |
 | 4717.03.01 | Egorian | The Gray Men attempt to assassinate the Lord Mayor's Son, Nicolo but they are foiled by Freya & Co. |
 | 4717.03.08 | Egorian | Night of the Pale Ball. Vokadus Fex attacks Freya but is defeated and killed. Party meets Abrogail 2. Mysterio's magic show. |

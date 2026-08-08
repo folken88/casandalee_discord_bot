@@ -231,10 +231,13 @@ class VaultSearch {
         const scored = [];
         for (const note of idx) {
             const searchText = `${note.filename} ${Object.values(note.frontmatter).join(' ')} ${note.body}`.toLowerCase();
+            // Hyphen-normalized copy so "cpuss" matches "CP-USS", "tarbaphon" matches "Tar-Baphon", etc.
+            const searchTextNorm = searchText.replace(/[-–—]/g, '');
             let score = 0;
             let matchedTerms = 0;
             for (const term of terms) {
-                const count = (searchText.match(new RegExp(term.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi')) || []).length;
+                const termNorm = term.replace(/[-–—]/g, '');
+                const count = (searchTextNorm.match(new RegExp(termNorm.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi')) || []).length;
                 if (count > 0) {
                     matchedTerms++;
                     score += count;
@@ -466,21 +469,25 @@ class VaultSearch {
             for (const line of lines) {
                 if (!line.startsWith('|') || line.startsWith('| Date') || line.startsWith('|---')) continue;
                 const lineLower = line.toLowerCase();
-                // Score each row by how many query terms it matches
-                const matchCount = queryTerms.filter(t => lineLower.includes(t)).length;
+                const lineNorm = lineLower.replace(/[-–—]/g, '');
+                // Score each row by how many query terms it matches (hyphen-normalized)
+                const matchCount = queryTerms.filter(t => lineNorm.includes(t.replace(/[-–—]/g, ''))).length;
                 // Require at least 2 terms OR >50% of terms to match
                 const threshold = Math.max(2, Math.ceil(queryTerms.length * 0.4));
                 if (matchCount >= threshold) {
-                    matchingRows.push({ line: line.trim(), score: matchCount });
+                    const dateKey = (line.match(/\|\s*(-?[\d.]+)/) || [])[1] || '';
+                    matchingRows.push({ line: line.trim(), score: matchCount, dateKey });
                 }
             }
         }
 
-        // Sort by match score (most relevant first)
-        matchingRows.sort((a, b) => b.score - a.score);
+        // Sort by match score, then RECENCY on ties — outcomes and resolutions
+        // ("X was caught/killed/became Y") live in later rows, and the old
+        // file-order tiebreak systematically dropped them at the row cap.
+        matchingRows.sort((a, b) => b.score - a.score || String(b.dateKey).localeCompare(String(a.dateKey)));
 
         if (matchingRows.length > 0) {
-            const timelineContext = `[TIMELINE — Verified canonical events]\n| Date | Location | Event |\n|------|----------|-------|\n${matchingRows.slice(0, 15).map(r => r.line).join('\n')}`;
+            const timelineContext = `[TIMELINE — Verified canonical events]\n| Date | Location | Event |\n|------|----------|-------|\n${matchingRows.slice(0, 20).map(r => r.line).join('\n')}`;
             sections.push(timelineContext);
             totalChars += timelineContext.length;
             logger.debug(`🧠 Timeline matches: ${matchingRows.length} rows (top score: ${matchingRows[0].score}/${queryTerms.length} terms)`);
@@ -519,8 +526,8 @@ class VaultSearch {
         if (itemNotes.length > 0 && queryTerms.length > 0) {
             const scoredItems = itemNotes
                 .map(note => {
-                    const nameLower = note.filename.toLowerCase();
-                    const score = queryTerms.filter(t => nameLower.includes(t)).length;
+                    const nameLower = note.filename.toLowerCase().replace(/[-–—]/g, '');
+                    const score = queryTerms.filter(t => nameLower.includes(t.replace(/[-–—]/g, ''))).length;
                     return { note, score };
                 })
                 .filter(s => s.score > 0)

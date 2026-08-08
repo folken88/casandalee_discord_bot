@@ -3,14 +3,14 @@ title: "Iron Gods Timeline"
 type: timeline
 campaign: "IG"
 campaignName: "Iron Gods"
-eventCount: 90
-lastSync: "2026-03-28T04:13:11.856Z"
+eventCount: 88
+lastSync: "2026-08-08T12:56:32.896Z"
 tags: ["timeline", "ig"]
 ---
 
 # Iron Gods Timeline
 
-*Synced from Google Sheets — 90 events. This file is authoritative for dated campaign events.*
+*Synced automatically from the campaign timeline. Edit the timeline source (CSV/Sheet), not this file.*
 
 | Date | Location | Event |
 |------|----------|-------|
@@ -21,12 +21,12 @@ tags: ["timeline", "ig"]
 | 1305.00.00 | Numeria | Aaramor construction begins to prevent giant population from reaching dangerous numbers again. |
 | 1521.00.00 | Numeria | Lord of Aaramor orders the demolition of cities stone bridges in favor of wood to deter giant attacks. |
 | 2009.00.00 | Numeria | Taldor's 5th Army of Exploration expands nearby but ignores Numeria. |
-| 3007.00.00 | Taldor | Taldor founds its westernmost colony, Cheliax |
 | 3441.00.00 | Numeria | Battle of Falheart. Prince Rathorn and Sabline the Traitor charge in but their entire armies mysteriously die before battle begins. |
 | 3637.00.00 | Absalom | Karamoss creates the Red Redoubt and begins his siege of Absalom. |
+| 4221.00.00 | Taldor | Taldor founds its westernmost colony, Cheliax |
 | 4221.06.18 | Numeria | Casandalee rebels against Unity and flees. She is eventually killed but not before making a backup of her mind. |
 | 4222.04.26 | Numeria | Casandalee transfers her mind to the AI-Core and hides it in the Scar of the Spider. |
-| 4223.01.20 | Numeria | Casandalee is killed near in the spaceship wreck beneath Iadenveigh |
+| 4223.01.20 | Numeria | Casandalee is killed in the spaceship wreck beneath Iadenveigh. Her body does not reboot; her brain is dissected later. Her existence had already been transferred to the AI-core (4222); she continues as that iteration until rescued and eventually ascends (late 4717). |
 | 4308.00.00 | Silver Mount | Gojan the Sharp, a pathfinder, travels to Numeria and requests permission to enter Silver Mount. |
 | 4318.00.00 | Silver Mount | Gojan enters Silver Mount. |
 | 4319.00.00 | Absalom | Gojan returns to Abaslom with his findings. |
@@ -93,14 +93,12 @@ tags: ["timeline", "ig"]
 | 4717.01.02 | Torch | IG Party returns to Torch to 'vacation' |
 | 4717.01.05 | Torch | Maginnis leaves the party, and Numeria. |
 | 4717.02.04 | Starfall | IG Party journeys to Starfall in disguise. |
-| 4717.02.08 | Starfall | Technic League Captain "The Shade" is killed during an illegal night auction in Starfall sewers. |
-| 4717.02.14 | Starfall | Technic League Captain "Avernethy" is killed. |
-| 4717.02.22 | Starfall | Technic League Captain "Nalkii" investigates Avernethy's disappearance and reports her findings. |
-| 4717.03.02 | Starfall | Technic League Captain "Krastus"'s Rust-Risen facility assaulted. Krastus killed. |
+| 4717.02.08 | Starfall | Technic League Captain The Shade is killed during an illegal night auction in Starfall sewers. |
+| 4717.02.14 | Starfall | Technic League Captain Avernethy is killed. |
+| 4717.02.22 | Starfall | Technic League Captain Nalkii investigates Avernethy's disappearance and reports her findings. |
+| 4717.03.02 | Starfall | Technic League Captain Krastus's Rust-Risen facility assaulted. Krastus killed. |
 | 4717.03.07 | Starfall | Technic League Captain Ghartone killed. |
 | 4717.03.09 | Starfall | Technic League Compound assaulted, Ozmyn and his inner-circle are killed. Kroktah killed. |
 | 4717.03.11 | Starfall | Party infiltrates Palace of Fallen Stars. Learns of Black Sovereign's addiction to numerian fluids. |
 | 4717.03.12 | Numeria | Party embarks to hunt the Juvi-Tarrasque, a creature they need to make a powerful cure for the Black Sovereign. |
 | 4717.03.14 | Starfall | The Black Sovereign eats a healburger and is cured of his addiction to Numerian Fluids. Unity attacks the Palace of Fallen Stars. |
-| 4717.03.16 | Starfall | The Black Sovereign makes Tokala, Brow, Ulfred, Luna, Nomkath, and Olbryn War Chiefs of Numeria. Matriarch's Tiara purchased. |
-| 4717.03.19 | Silver Mount | Nomkath, Tokala, Ulfred, Olbryn, Luna, Akraden, Mr Brow, and Casandalee sneak into Silvermount via Entryway 40. |

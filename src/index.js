@@ -117,6 +117,16 @@ client.once(Events.ClientReady, async readyClient => {
     try {
         await timelineSearch.initialize();
         logger.info('✅ Timeline search initialized successfully');
+        // Regenerate the vault Timeline/*.md files from the loaded timeline so
+        // conversational RAG sees current data (they were previously only
+        // written by the unconfigured Google Sheets sync and had gone stale).
+        try {
+            const timelineVaultSync = require('./utils/timelineVaultSync');
+            timelineVaultSync.sync(timelineSearch.timeline);
+            require('./utils/vaultSearch').buildIndex(true); // refresh RAG index
+        } catch (syncErr) {
+            logger.error('❌ Timeline vault sync failed:', syncErr.message);
+        }
     } catch (error) {
         logger.error('❌ Failed to initialize timeline search:', error);
     }

@@ -1,0 +1,24 @@
+services:
+  cass-bot:
+    build: .
+    container_name: cass-discord-bot
+    restart: unless-stopped
+    extra_hosts:
+      - "host.docker.internal:host-gateway"   # reach Ollama on the 5080 box / host
+    volumes:
+      - ./logs:/app/logs
+      - ./data:/app/data
+      - ./obsidian_cass:/app/obsidian_cass
+    env_file:
+      - .env
+    environment:
+      - BOT_NAME=Casandalee
+      - BOT_PREFIX=/cass
+      - CAMPAIGN_YEAR=4717
+      - CAMPAIGN_MONTH=April
+      - CONVERSATION_MODEL=gpt-4o
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "10m"
+        max-file: "3"
