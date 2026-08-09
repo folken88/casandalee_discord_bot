@@ -4,7 +4,7 @@ type: timeline
 campaign: "SS"
 campaignName: "Skull & Shackles"
 eventCount: 23
-lastSync: "2026-08-08T12:56:32.897Z"
+lastSync: "2026-08-09T14:09:53.997Z"
 tags: ["timeline", "ss"]
 ---
 

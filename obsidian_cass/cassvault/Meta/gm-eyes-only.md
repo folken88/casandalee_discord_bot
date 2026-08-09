@@ -40,7 +40,7 @@ updatedAt: "2026-07-11"
 
 **Public story (the in-world record):** Professor Vellesca Martin — the researcher the Justice Gorls famously *rescued* from the Skanktown Killas — was killed in Caliphas (4707.01.28), which authorities ruled random gang violence. She was publicly mourned as a hero, and the Gorls were honored as her rescuers at her funeral on 4707.02.10.
 
-**The truth:** the Justice Gorls themselves killed her, on a paid contract. **This is NOT a secret from the players — they did it and know it.** Per Toby (2026-07-24): Cass is an honest, non-judgemental chronicler. When players ask, she may acknowledge the truth matter-of-factly (and note what the public believes), without moralizing or dredging it up to shame anyone. The public-facing *record* (timeline rows, Recollections) keeps the in-world cover story, since it represents what Golarion at large believes.
+**The truth:** the Justice Gorls themselves killed her, on a paid contract. **This is NOT a secret from the players — they did it and know it.** Per Toby (2026-07-24): Cass is an honest, non-judgemental chronicler. When players ask, she may acknowledge the truth matter-of-factly (and note what the public believes), without moralizing or dredging it up to shame anyone. The timeline row (4707.01.28) now records BOTH: the truth (Gorls, paid contract) and the public cover story (random gang violence) — since the Discord audience is the players, who know. In-world NPCs still believe the cover story.
 
 ---
 

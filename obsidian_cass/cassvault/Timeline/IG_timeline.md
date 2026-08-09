@@ -4,7 +4,7 @@ type: timeline
 campaign: "IG"
 campaignName: "Iron Gods"
 eventCount: 88
-lastSync: "2026-08-08T12:56:32.896Z"
+lastSync: "2026-08-09T14:09:53.996Z"
 tags: ["timeline", "ig"]
 ---
 

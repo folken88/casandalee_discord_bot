@@ -30,16 +30,31 @@ function dateKey(d) {
     return parseInt(m[1], 10) * 10000 + (parseInt(m[2] || '0', 10) * 100) + parseInt(m[3] || '0', 10);
 }
 
+/**
+ * Word-set needles: a multi-word entity matches when ALL its words appear —
+ * "Professor Martin" must match "Professor Vellesca Martin" (middle names,
+ * epithets, and reordered titles would defeat contiguous-phrase matching).
+ */
+function toNeedles(entities) {
+    return entities
+        .map(e => String(e || '').split(/\s+/).map(norm).filter(w => w.length > 2))
+        .filter(words => words.length > 0);
+}
+
+function matchesNeedles(hay, needles) {
+    return needles.some(words => words.every(w => hay.includes(w)));
+}
+
 /** Timeline events mentioning any of the entities, date-sorted. */
 function eventsFor(entities, cap) {
     const all = timelineSearch.timeline || [];
-    const needles = entities.map(norm).filter(n => n.length > 2);
+    const needles = toNeedles(entities);
     if (needles.length === 0) return [];
     const hits = all.filter(ev => {
         if (!ev || !ev.description) return false;
         if (/^\s*(PLAN|TODO|GM)\s*:/i.test(ev.description)) return false;
         const hay = norm(`${ev.description} ${ev.location || ''}`);
-        return needles.some(n => hay.includes(n));
+        return matchesNeedles(hay, needles);
     });
     hits.sort((a, b) => dateKey(a.date) - dateKey(b.date));
     if (hits.length <= cap) return hits;
@@ -57,8 +72,21 @@ function dossierFor(entity) {
     try {
         const idx = vaultSearch.buildIndex();
         const target = norm(entity);
-        const note = idx.find(n => norm((n.filename || '').replace(/\.md$/, '')) === target
+        // Exact filename/frontmatter-name match first
+        let note = idx.find(n => norm((n.filename || '').replace(/\.md$/, '')) === target
             || norm(n.frontmatter?.name) === target);
+        // Fallback: every word of the entity appears in the filename — so
+        // "Professor Martin" finds "Vellesca Martin.md", "Justice" finds
+        // exact-only (single words must fully match to avoid false hits).
+        if (!note) {
+            const words = String(entity).split(/\s+/).map(norm).filter(w => w.length > 2);
+            if (words.length >= 2) {
+                note = idx.find(n => {
+                    const fname = norm(n.filename || '');
+                    return words.every(w => fname.includes(w));
+                });
+            }
+        }
         if (note && note.body && !vaultSearch._isGmSecret(note)) return note;
     } catch (_) { /* ignore */ }
     return null;
