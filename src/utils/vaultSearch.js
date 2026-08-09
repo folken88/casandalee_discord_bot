@@ -206,6 +206,9 @@ class VaultSearch {
      */
     _isGmSecret(note) {
         if (/gm.?eyes.?only/i.test(note.filename || '')) return true;
+        // gm_only frontmatter FIELD (a third marking convention seen on dossiers)
+        const field = note.frontmatter?.gm_only ?? note.frontmatter?.gmOnly;
+        if (field === true || String(field).trim().toLowerCase() === 'true') return true;
         const tags = note.frontmatter?.tags;
         const list = Array.isArray(tags) ? tags : (typeof tags === 'string' ? [tags] : []);
         return list.some(t => /^gm.?only$/i.test(String(t).trim()));
@@ -224,7 +227,11 @@ class VaultSearch {
                 .filter(t => !STOP_WORDS.has(t))
         )];
         const allTerms = query.toLowerCase().replace(/[?!.,;:'"()]/g, '').split(/\s+/).filter(t => t.length > 2 && !STOP_WORDS.has(t));
-        const terms = properNouns.length >= 1 ? properNouns : allTerms;
+        // Proper nouns anchor the search, but keep a few lowercase content words
+        // too — "Auren Vrood's mask" must rank the note that mentions the MASK
+        // above every other Vrood note.
+        const extras = allTerms.filter(t => !properNouns.includes(t)).slice(0, 3);
+        const terms = properNouns.length >= 1 ? [...properNouns, ...extras] : allTerms;
 
         if (terms.length === 0) return [];
 
@@ -458,7 +465,10 @@ class VaultSearch {
                 .filter(t => !STOP_WORDS.has(t))
         )];
         const allTerms = queryLower.replace(/[?!.,;:'"()]/g, '').split(/\s+/).filter(t => t.length > 2 && !STOP_WORDS.has(t));
-        const queryTerms = properNouns.length >= 1 ? properNouns : allTerms;
+        // Proper nouns anchor; keep a few content words so the discriminating
+        // noun ("mask", "tattoo") isn't discarded with the noise.
+        const extrasCF = allTerms.filter(t => !properNouns.includes(t)).slice(0, 3);
+        const queryTerms = properNouns.length >= 1 ? [...properNouns, ...extrasCF] : allTerms;
         const timelineNotes = idx.filter(n => (n.frontmatter.type || '').toLowerCase() === 'timeline');
 
         logger.debug(`🔍 Vault search terms: [${queryTerms.join(', ')}]`);
