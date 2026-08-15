@@ -1,76 +1,100 @@
 ---
 name: "Olbryn"
+aliases: ["old brain", "auburn"]
 type: character
+character_type: pc
+status: active
+campaigns: ["IG"]
+primary_campaign: "IG"
 player: "Josh"
-campaign: CC
+discord_id: "327920844158533633"
 race: "Drow"
-class: "Sorcerer 14"
-hp: 48
-tags: ["character", "pc", "cc"]
-foundry_synced: "2026-03-28"
+gender: "male"
+class: "Sorcerer"
+class_archetype: "Chronomancer"
+level: 14
+alignment: null
+signature_items: []
+relationships:
+  - { name: "Nomkath", type: ally, current: true, notes: "shared perspective on imprisonment and slavery" }
+  - { name: "Hilltrip", type: ally, current: true, notes: "took watch together; offered home at the manor" }
+factions: []
+last_seen_ig: "4717.03"
+last_session_irl: "2026-05-07"
+tags: ["character", "pc", "ig", "active"]
+updated: "2026-05-08T11:54:26.455Z"
 ---
 
 # Olbryn
 
-**Race:** Drow | **Class:** Sorcerer 14 | **HP:** 48
-**STR** 10 | **DEX** 14 | **CON** 16 | **INT** 12 | **WIS** 10 | **CHA** 18
+**Gender:** Male (he/him). Not to be confused with his twin sister **Tatia**, who was later also rescued from Scrapwall.
 
-## Key Equipment
-- **Wand of Cure Light Wounds** (consumable, equipped) — When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage + 1 point per caster level (maximum +5). Since undead are powered by negative energy, this spell deals damage to them instead of curing their wounds. An undead creature can apply spell resistance, and can attempt a Will save to take half damage.
-- **Wand of Enlarge Person** (consumable, equipped) — Aura faint transmutation; CL 1st  This spell causes instant growth of a humanoid creature, doubling its height and multiplying its weight by 8. This increase changes the creature's size category to the next larger one. The target gains a +2 size bonus to Strength, a -2 size penalty to Dexterity (to a minimum of 1), and a -1 penalty on attack rolls and AC due to its increased size. A humanoid creature whose size increases to Large has a space of 10 feet and a natural reach of 10 feet. This spell 
-- **Scroll of Overland Flight** (consumable, equipped) — This spell functions like a fly spell, except you can fly at a speed of 40 feet (30 feet if wearing medium or heavy armor, or if carrying a medium or heavy load) with a bonus on Fly skill checks equal to half your caster level. When using this spell for long-distance movement, you can hustle without taking nonlethal damage (a forced march still requires Constitution checks). This means you can cover 64 miles in an 8-hour period of flight (or 48 miles at a speed of 30 feet).
-- **Scroll of Fog Cloud** (consumable, equipped) — A bank of fog billows out from the point you designate. The fog obscures all sight, including darkvision, beyond 5 feet. A creature within 5 feet has concealment (attacks have a 20% miss chance). Creatures farther away have total concealment (50% miss chance, and the attacker can't use sight to locate the target). A moderate wind (11+ mph) disperses the fog in 4 rounds; a strong wind (21+ mph) disperses the fog in 1 round. The spell does not function underwater.
-- **Wand of Color Spray** (consumable, equipped) — Aura faint illusion; CL 1st  A vivid cone of clashing colors springs forth from your hand, causing creatures to become stunned, perhaps also blinded, and possibly knocking them unconscious. Each creature within the cone is affected according to its HD. 2 HD or less: The creature is unconscious, blinded, and stunned for 2d4 rounds, then blinded and stunned for 1d4 rounds, and then stunned for 1 round. (Only living creatures are knocked unconscious.) 3 or 4 HD: The creature is blinded and stunned 
-- **Scroll of Comprehend Languages** (consumable, equipped) — You can understand the spoken words of creatures or read otherwise incomprehensible written messages. The ability to read does not necessarily impart insight into the material, merely its literal meaning. The spell enables you to understand or read an unknown language, not speak or write it. Written material can be read at the rate of one page (250 words) per minute. Magical writing cannot be read, though the spell reveals that it is magical. This spell can be foiled by certain warding magic (su
-- **Ring of Wizardry I** (equipment, equipped) — This special ring comes in four varieties, all of them useful only to arcane spellcasters. The wearer&rsquo;s arcane spells per day are doubled for one specific spell level. A ring of wizardry I doubles 1st-level spells, a ring of wizardry II doubles 2nd-level spells, a ring of wizardry III doubles 3rd-level spells, and a ring of wizardry IV doubles 4th-level spells. Bonus spells from high ability scores or school specialization are not doubled.
-- **Wand of Resist Energy** (consumable, equipped) — Aura faint abjuration; CL 1st  This abjuration grants a creature limited protection from damage of whichever one of five energy types you select: acid, cold, electricity, fire, or sonic. The subject gains resist energy 10 against the energy type chosen, meaning that each time the creature is subjected to such damage (whether from a natural or magical source), that damage is reduced by 10 points before being applied to the creature's hit points. The value of the energy resistance granted increase
-- **Wand of Cure Moderate Wounds** (consumable, equipped) — This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10).
-- **Amulet of Natural Armor +2** (equipment, equipped) — This amulet, usually containing some type of magically preserved monster hide or other natural armor—such as bone, horn, carapace, or beast scales—toughens the wearer’s body and flesh, giving him an enhancement bonus to his natural armor from +1 to +5, depending on the kind of amulet.
-- **Headband of Vast Intelligence +2** (equipment, equipped) — This intricate gold headband is decorated with several small blue and deep purple gemstones.  The headband grants the wearer an enhancement bonus to Intelligence of +2, +4, or +6. Treat this as a temporary ability bonus for the first 24 hours the headband is worn. A headband of vast intelligence has one skill associated with it per +2 bonus it grants. After being worn for 24 hours, the headband grants a number of skill ranks in those skills equal to the wearer’s total Hit Dice. These ranks do no
-- **Scroll of Mount** (consumable, equipped) — You summon a light horse or a pony (your choice) to serve you as a mount (see the Pathfinder RPG Bestiary). The steed serves willingly and well. The mount comes with a bit and bridle and a riding saddle.
-- **Wand of Rope Trick (8th)** (consumable, equipped) — When this spell is cast upon a piece of rope from 5 to 30 feet long, one end of the rope rises into the air until the whole rope hangs perpendicular to the ground, as if affixed at the upper end. The upper end is, in fact, fastened to an extradimensional space that is outside the usual multiverse of extradimensional spaces. Creatures in the extradimensional space are hidden, beyond the reach of spells (including divinations), unless those spells work across planes. The space holds as many as eig
-- **Scroll of Charm Monster** (consumable, equipped) — This spell functions like charm person, except that the effect is not restricted by creature type or size.
-- **Scroll of Teleport** (consumable, equipped) — This spell instantly transports you to a designated destination, which may be as distant as 100 miles per caster level. Interplanar travel is not possible. You can bring along objects as long as their weight doesn't exceed your maximum load. You may also bring one additional willing Medium or smaller creature (carrying gear or objects up to its maximum load) or its equivalent per three caster levels. A Large creature counts as two Medium creatures, a Huge creature counts as four Medium creatures
-- **Scroll of Wind Wall** (consumable, equipped) — An invisible vertical curtain of wind appears. It is 2 feet thick and of considerable strength. It is a roaring blast sufficient to blow away any bird smaller than an eagle, or tear papers and similar materials from unsuspecting hands. (A Reflex save allows a creature to maintain its grasp on an object.) Tiny and Small flying creatures cannot pass through the barrier. Loose materials and cloth garments fly upward when caught in a wind wall. Arrows and bolts are deflected upward and miss, while a
-- **Scroll of Gaseous Form** (consumable, equipped) — The subject and all its gear become insubstantial, misty, and translucent. Its material armor (including natural armor) becomes worthless, though its size, Dexterity, deflection bonuses, and armor bonuses from force effects still apply. The subject gains DR 10/ magic and becomes immune to poison, sneak attacks, and critical hits. It can't attack or cast spells with verbal, somatic, material, or focus components while in gaseous form. This does not rule out the use of certain spells that the subj
-- **Arcane family workbook** (loot, equipped) — Source Advanced Race Guide pg. 27 Price 300 gp; Weight 3 lbs. Category Tools DescriptionThe elven predilection for becoming wizards and the social benefits that elven wizards enjoy often encourages families to dedicate themselves to wizardly studies for multiple generations. Older elven wizards take note of their own insights into the secrets of arcane magic and compile these thoughts with the ideas of earlier generations to form family workbooks. When used as a reference (an action that typical
-- **Tattoo of Sustenance** (equipment, equipped) — This tattoo continually provides its wearer with life-sustaining nourishment. The tattoo also refreshes the body and mind; its wearer needs only sleep 2 hours per day to gain the benefit of 8 hours of sleep. This allows a spellcaster that requires rest to prepare spells to do so after only 2 hours, but this does not allow a spellcaster to prepare spells more than once per day. The tattoo must be finished for a full week before it begins to work. If it is removed, the effect is lost.
-- **Potion of Infernal Healing** (consumable, equipped) — Aura faint conjuration; CL 1st  You anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment.
-- **Ring of Protection +2** (equipment, equipped) — This ring offers continual magical protection in the form of a deflection bonus of +1 to +5 to AC.
-- **Hipfire Band** (equipment, equipped) — This belt allows the wearer to use their Wisdom, Intelligence, or Charisma modifier in place of dex when targeting with touch or ranged touch spells.
-- **Guards of the Silent People** (equipment, equipped) — These bracers of armor +6 also grant constant use of the "Silent Spell" feat. If the wearer already has that feat, they allow for 2 uses of the silent-spell feat per day without increasing the spell slot cost.
-- **Torch** (loot) — Price 1 cp; Weight 1 lb.  A torch burns for 1 hour, shedding normal light in a 20-foot radius and increasing the light level by one step for an additional 20 feet beyond that area (darkness becomes dim light and dim light becomes normal light). A torch does not increase the light level in normal light or bright light. If a torch is used in combat, treat it as a one-handed improvised weapon that deals bludgeoning damage equal to that of a gauntlet of its size, plus 1 point of fire damage.
-- **Maura's Wayfinder** (equipment, equipped) — The inside of this gold-alloy container holds a detailed sketch of a handsome man wielding a pair of pistols and the inscription:  "To my darling Maura, may you always find your way to me."  Acts as a 3rd level Pearl of Power and is a semi-functional compass, though it does not point North.      Description Once per day on command, a pearl of power enables the possessor to recall any one spell that she cast that day. The spell must be of a particular level, depending on the pearl.
-- **Princely Groomsman** (equipment, equipped) — This gown is made for a male elf physique and adjusts its wrists, hips, waste, shoulders, arms, and chest to any elf or half-elf who dons it.   It always leaves the chest open to reveal cleavage to just above the navel.   The gown is affected by a persistent prestidigitation-cleaning effect and no dirt or stain will stay upon it for more than a moment. It always feels of soft silk, never bunches up, and smells freshly laundered.  It provides +3 resistance to saves and +2 enhancement bonus to CON
-- **Commset** (equipment, equipped) — This handheld device allows for communication between two commset users. A commset carries audio and visual signals, and includes a built-in camera that can record all communications being broadcast. Communication between two commsets requires both users to tune their individual devices to the same frequency. A commset has a range of 1 mile&mdash;beyond this range, communication is impossible without enhancing the signal strength with a signal booster. The price and cost listed for this item are
-- **Longsword, microserrated** (weapon, equipped) — The single edge of this sword looks homogeneous to the naked eye, but it is actually made of thousands of microscopic teeth. The teeth tear through organic matter, causing significant damage and bleeding.
-- **Potion of Protection From Arrows** (consumable, equipped) — Aura faint abjuration; CL 3rd  The warded creature gains resistance to ranged weapons. The subject gains damage reduction 10/magic against ranged weapons. This spell doesn't grant you the ability to damage creatures with similar damage reduction. Once the spell has prevented a total of 10 points of damage per caster level (maximum 100 points), it is discharged.
-- **Crackling Staff** (consumable, equipped) — This staff appears to be made of recycled tech from various gearsman, weapons, and devices. Regardless of its technological appearance, it is a potent magical item.  Careful examination by a highly competent magical craftsman reveals that it formerly functioned as a staff of @Compendium[pf1.spells.m84969gni5iu4bdt]{Lightning Bolt}, storing up to 50 charges of an 8d6 lighting bolt. The repeatedly altered, repaired, and amended runework along its length along with clearly scuffed, damanged, and re
-- **Brown Cloak** (equipment) — A cloak that is dyed dirty brown on one side, and clean white on the other.
-- **Wand of Infernal Healing** (consumable, equipped) — You anoint a wounded creature with devil's blood or unholy water, giving it fast healing 1. This ability cannot repair damage caused by silver weapons, good-aligned weapons, or spells or effects with the good descriptor. The target detects as an evil creature for the duration of the spell and can sense the evil of the magic, though this has no long-term effect on the target's alignment.
-- **Potion of Cure Moderate Wounds** (consumable, equipped) — This spell functions like cure light wounds, except that it cures 2d8 points of damage + 1 point per caster level (maximum +10).
-- **Scroll of Technomancy** (consumable, equipped) — Aura faint divination; CL 1st  This spell functions as detect magic, except it detects the presence of technological objects instead of magical objects. The spell grants you the Technologist feat for the purposes of attempting Knowledge (engineering) checks to identify the properties of technological items in your possession. If you already possess this feat, you gain a +10 bonus on Knowledge (engineering) checks to identify item properties.
-- **Brow Brew** (consumable, equipped) — Brow Brew is an oddity of beers, being produced primarily from grapes harvested from the vineyard of the Numerian town of Iadenveigh. The tough grapes are practically inedible, but are fermented with a particular yeast, grain and wood mushrooms to make a distinctive and rough beer considered an 'acquired taste' by visitors to the town.     @JournalEntry[1q4qELaModYr9BoL]{Drinking Rules}
-- **Efficient Quiver** (equipment, equipped) — Aura moderate conjuration; CL 9th; Slot &mdash;; Price 1,800 gp; Weight 2 lbs.  DESCRIPTION  This appears to be a typical arrow container capable of holding about 20 arrows. It has three distinct portions, each with a nondimensional space allowing it to store far more than would normally be possible.  The first and smallest one can contain up to 60 objects of the same general size and shape as an arrow. The second slightly longer compartment holds up to 18 objects of the same general size and sh
-- **Long Kiss Crossbow** (weapon, equipped) — Long Kiss is a masterpiece of weapon engineering. The foregrip is made of wood from the rare Beau DeArc tree and the stock being composite steel with silver inlay.   The weapon is fitted with a custom scope based on a variable spyglass. It halves the normal range penalty for a light crossbow from -2 to -1. A move-action flips the scope into 2x mode, granting +4 vs any range penalties.      Long Kiss is a +1, vampire-bane weapon.     Load: Loading a light crossbow is a move action that provokes a
-- **Thunderchonk** (consumable, equipped) — Blue crystals taste bitter when chewed and crunch very loudly. User's voice is amplified to extreme volume. Double range and +2DC for any voice-attacks or spells with Verbal components. +5 for giving speeches. -10 stealth. Lasts 1d3 hours.
-- **Wand of Fly** (consumable, equipped) — The subject can fly at a speed of 60 feet (or 40 feet if it wears medium or heavy armor, or if it carries a medium or heavy load). It can ascend at half speed and descend at double speed, and its maneuverability is good. Using a fly spell requires only as much concentration as walking, so the subject can attack or cast spells normally. The subject of a fly spell can charge but not run, and it cannot carry aloft more weight than its maximum load, plus any armor it wears. The subject gains a bonus
+**Race:** Drow | **Class:** Sorcerer 14 (Chronomancer archetype) | **Player:** Josh
+**Status:** Active | **Last seen:** 4717.03 (Chair-Henge, Silvermount interior)
 
-## Notes & Updates
+## Backstory
 
-- [Foundry sync] Level 15 Drow Sorcerer. HP 195/195. Astral bloodline; Quicken, Intensified. Key items: Rod of Metamagic Quicken, The Operative +6, Matriarch's Tiara, Maura's Wayfinder. *(foundry-sync, 2/13/2026)*
-- Planning to teleport to Slaying Pipe to meet with cat folk caravans and gather information about rumors from grafers *(youtube-transcript, 3/25/2026)*
-- Player character, part of the disguised group trying to move through the palace; Josh's character, mentioned in context of the GM asking for perception checks and knowledge engineering rolls.; Mentioned as having a powerful cleric who can cast healing spells. Involved in the plan to cure someone. *(youtube-transcript, 3/25/2026)*
-- Character controlled by Josh; needs to roll initiative; Player character in combat, in front of Luna; Referenced as being in the party that Mr Brow is distancing himself from during combat; Player character considering tactical options including telekinetic charge, dispel magic, or targeting the blood sworn. *(youtube-transcript, 3/25/2026)*
-- Character being discussed as potential stealth crew member. Offering spell support for the mission.; Performs the assassination of a barbarian with a plasma blade, carefully concealing the wound *(youtube-transcript, 3/25/2026)*
+*(to be filled)*
 
-- Player character involved in leveling up and acquiring items; appears to be managing character sheet updates *(youtube-transcript, 3/25/2026)*
-## Roll History
+## Major Events
 
-- **Reincarnation (Standard)**: 35 → Nagaji (/reincarnate) *3/5/2026*
-- **Reincarnation (Standard)**: 24 → Fetchling (/reincarnate) *3/5/2026*
-- **Reincarnation (Standard)**: 22 → Drow (/reincarnate) *3/10/2026*
+*(to be filled from session summaries)*
+
+## Relationships
+
+### Nomkath (ally)
+Shared perspective on imprisonment and slavery; bonded over nomadic culture and freedom.
+
+### Hilltrip (ally)
+Took watches together; offered home at the manor.
+
+### Family (sister)
+Offered a home for himself and his sister, free from his people, with ability to subjugate them.
+
+## Inventory & Gear
+
+### Signature items
+*(to be filled — chainsaw weapon used in combat)*
+
+### Carried inventory
+- Chainsaw weapon (critically killed a cat man for 63 damage during Doppel encounter)
+- Higgs Bows / Higgs Boson exoskeleton — extendable exoskeleton with prehensile tentacles; full plate armor with no encumbrance; +2 all saves; climbing and acrobatics enhanced
+- Alchemical grease (carried since Choking Tower; used to escape black tentacles)
+- Rifle (used at distance to put a bullet exactly where Ulfred's hammer struck)
+
+## Spells / Abilities
+
+Olbryn is a **chronomancer sorcerer** — his spell list is themed around **lightning, time manipulation, and teleportation**. He does NOT have *Explode Head*; that's Mr Brow's signature spell. Auto-summarizers occasionally misattribute Brow's head-pop kills to Olbryn — those should be corrected to Mr Brow.
+
+Known/typical spells: chain lightning, lightning bolt, shocking grasp, haste, slow, time stop, dimension door, teleport, mirror image, mage armor, dispel magic, magic missile, hungry earth, scorching ray, bear's endurance, bless, invisibility, grease, acid splash.
+
+Wild magic sorcerer / keyboardist flavor in play.
+
+## Quirks / Habits
+
+- Drow sign language (uses with Ulfred on watch).
+- Selfish but loyal in a self-serving way ("Olbryn hates everybody but is selfish").
+- Has cackleburst burrs stuck on his wedding gown.
+
+## Notable Quotes
+
+*(to be filled)*
+
+## Goals & Hooks
+
+*(to be filled — sister, freedom from drow society, possible manor home with party)*
 
 ## Session Appearances
 
-*Session activity from YouTube transcripts will appear here.*
+- **4/13/2026** — Takes second watch with Hilltrip; brand new to Torch, unsure where to go or what to do; addressed directly about being a true companion and friend; offered home at the manor.
+- **4/12/2026** — Helping Tokala put on armor inside, will be a round or two behind Ulfred coming out; stranger to Iadenveigh guards.
+- **4/7/2026** — Takes first watch. On watch with Ulfred; receives information about smoke and strange feeling from the west; uses drow sign language to acknowledge understanding. Stays at top of cliff to hold horses and watch from vantage point.
+- **4/6/2026** — Being dragged up to the wall by another party member. Staying near Ulfred; has bless, mage armor, and temporary HP buffs; positioned defensively. Cast scorching rays in combat (effectiveness vs undead uncertain). Affected by confusion, rolled a 1 on attack. Half-orc character in melee with a zombie. Babbling incoherently about the Dodgers. Wizard character who cast grease and is confused about positioning; punches himself in the face for 1d8 damage.
+- **4/5/2026** — Has prepared spells including mage armor, haste, magic missile, lightning bolt, slow, invisibility, and shocking grasp. Was confused during the last fight and punched himself in the face due to haste effects. Made a good search check. Referred to as potentially a specialist trained in controlling undead — an "agent of the grave." Has cackleburst burrs on his wedding gown. On the raft; becomes seasick. Olbryn absent from session due to Josh's computer troubles and personal matters.
+- **4/4/2026** — Previously figured out with Kroktah that the tentacle monsters disguised as trees are not natural creatures with no DNA in common with any creature from this world. On audio/in Foundry during the session. Identifies the dead magus and discusses enhanced deer droppings from his tribe's practices. On second watch with Ulfred, practicing sign language; receives report of the flying creature sighting. Discussing druid abilities and wild empathy. Discussed having Speak with Animals cast on him; mentioned not casting it in about 6-7 levels.
+- **4/2/2026** — Examined and identified the magical items, particularly knowledgeable about drow weapons. Along with Maginnis, notices the desiccated corpse in the ruins. Rolled an 11 on singing check; participated in funeral dirge.
+- **3/30/2026** — Takes second watch with Nomkath; wins perception check; notices the forest feels normal again. Speaks about nomadic culture and freedom; relates to Nomkath's perspective on imprisonment and slavery. Observing surgery procedure with Kroktah. Present during Ulfred's surgery recovery, wearing scrubs in the medical facility.
+- **3/29/2026** — Electrocuted by the electrical discharge from the creature. Party performing surgery/harvesting on a creature specifically because Olbryn is upset about a portal; he wanted this organ removed. Previously hit by the creature that activates the panel via high electrical damage. Takes a shot at the activated machine but the attack bounces off its face; receives a drow gesture of contempt from the machine.
+- **3/29/2026** — Real Olbryn at 28 HP, being attacked by Doppel Olbryn. Takes two hits from Doppel Kroktah. Leaped from a giant ape and swung a chainsaw, critically hitting and killing a cat man for 63 damage. Encounters Nomkath and Tokala in the hallway. Points out strange pink sigil on the floor at the base of stairs. Examined a fear-based orb called the Higgs Boson; learned it pulls the user into a virtual space where they appear as a floating orb of darkness; functions as full plate with no encumbrance and +2 to all saves. Equipped with Higgs bows, climbing and acrobatics enhanced, extendable exoskeleton with prehensile tentacles. Offered a home for himself and his sister. Uses haste buff and charges across the room at a large crystalline creature. Lifeless body being attacked by Maginnis during the psychic battle. Pulled from mindscape, laying on back in water staring at sky; Isuma holds his head out of water to prevent drowning. Later healed by Isuma for 18 HP. Knowledge Plane check. Preparing chainsaw attack. Behind Tokala, near a giant creature being killed. Grappled by black tentacles spell, takes 8 damage; used alchemical grease to escape (carried since Choking Tower).
+- **3/29/2026** — Player character who had third level spells restored by the GM; currently has 6 third-level spell slots available. Failed a Will save against confusion; started babbling incoherently while driving; punched himself for 7 damage. Put up Bear's Endurance, health reduced by half. Under confusion, making caster level checks to potentially dispel it. Cast Dispel Magic to remove confusion. Cast Hungry Earth (5th level) centered on an orc, using CMB check of 28 against CMD. Dispels a curse affecting Maginnis using a third-level spell slot. Fired a rifle from distance, putting a bullet exactly where Ulfred's hammer struck, drawing blood.
+- **5/8/2026** — Scanned by Akradenn; experiencing static emotions, looking at his wedding dress reflection and tiara in the glass floor, occasionally wishing for Tokala's boots. Casts acid splash at planter on right side, rolls natural 1 and nearly hits Akradenn instead. Realizes Akradenn can cast disintegrate. Positioned 10 feet north of Ulfred and Nomkath. Wild magic sorcerer/keyboardist casts Mirror Image; kills an enemy with full damage impact reducing them to 3 HP — then Mr Brow exploded their head (correction: head-pop kill belongs to Brow, not Olbryn).

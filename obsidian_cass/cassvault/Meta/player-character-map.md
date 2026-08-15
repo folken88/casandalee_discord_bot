@@ -13,7 +13,7 @@ updatedAt: "2026-03-25"
 | Kip | Ulfred | Active, joined after early sessions |
 | Daemon | Nomkath | Active, original roster |
 | Enrique | Gavrilo → Eldrin → Kroktah → Mr Brow | 4 characters (each died, prefers new chars over resurrection). Mr Brow = Augustus Teabrow, halfling psychic |
-| Josh | Olbryn (also called Tatia) | Active |
+| Josh | Olbryn (male; his twin sister Tatia was later rescued from Scrapwall) | Active |
 | Tim | Akradenn | Was an NPC Technic League captain, defected and became Tim's PC |
 | Rye | Luna | Active |
 | Tracy | Tokala, Blackout | Original roster, retires/unretires multiple times. Half-drow, patron Zernabeth |
@@ -62,13 +62,24 @@ updatedAt: "2026-03-25"
 | Tim | Vaughan | Active |
 | Rye | Riviera, later Towa | Active |
 | Graham | Bujon (PC) + Kwami (henchman) | Bujon was killed, reincarnated as Iku-Turso (eel-man). Kwami is one of "the Rizzen" |
-| Mandi | Rhyarca | Active |
+| Mandi | Rhyarca | Killed in naval engagement near Tidewater Rock 4717.04.28 |
 | Tracy | Alexios (druid, retired), Kaelin Kringle (tiefling witch, briefly) | Pops in and out |
+| Harrison | Jeanine | Pathfinder Society agent. Joined Kill-Steal crew 4717.05.07 after surviving the kobold ambush at Turwa Uplands that killed her companions. |
 | Toby | GM | All NPCs |
 
 ### Ships
 1. **The Pillager's Knife (TPK)** — first ship, renamed from Man's Promise after the mutiny
-2. **Kill Steal** — current ship
+2. **Kill-Steal** — current ship
+
+### Ship Kill Records
+
+A "kill" only counts if the enemy vessel was **armed and dangerous** — capable of meaningfully fighting back. Disabled ships, weaponless prizes, and vastly under-armed targets do **not** count. Every ship has a name; record it.
+
+**Kill-Steal kills:**
+
+| # | Enemy ship | Faction | Location | How it went down |
+|---|-----------|---------|----------|------------------|
+| 1 | *Dirty Bird* | Bronze Fleet brigantine | South Shackles, near Island 418 | Refused surrender; sunk by close-range broadside (Yeah Naw Yeah, ~4717.04) |
 
 ### The Rizzen
 Survivors from the shipwreck of the *Sunrise*, destroyed on rocks near Rickety Squibs months before the party arrived. Recruited as crew. Kwami is a Rizzen member controlled by Graham as a henchman.
@@ -143,12 +154,14 @@ The Justice Gorls formed as a band of misfits, took over the Clickboom Gang hide
 | McGinnis | Maginnis | IG |
 | Cckatha, Kokatha, Croctaw | Kroktah | IG |
 | Akraden | Akradenn | IG |
+| Osman, Ozman, Ozmin, Osmun | Ozmyn (Zaidow) | IG |
 | Bry, bry | Brigh (goddess) | All |
 | Store grim, storm grim | Storgrim | SS |
 | hold in | Holden | SS |
 | sure tosh, certoche | Ser-Toche | SS |
 | von, Vaughn | Vaughan | SS |
 | Boo John, Boujon | Bujon | SS |
+| Rowan Oak, Rowanoak | Roanoke (lich) | SS |
 | Conchobar | Conchobar the Smelly | SS |
 | SEUS, Sepost, sea post | CP-USS (City Police - Undead Specialist Squad) | CC |
 | Orin Rud, Oren Rud, Auren Brood | Auren Vrood | CC |
