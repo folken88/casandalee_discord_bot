@@ -210,12 +210,14 @@ const vaultSearch = require('./vaultSearch');
 
 /** Ways Cass might react — picked at random to keep the daily post varied. */
 const STATEMENT_MODES = [
-    'Trace where this moment led — connect it to what it became.',
-    'Name the irony or reversal hiding in this moment, if the arc holds one.',
-    'Reflect personally — if this touches you or people you love, say so.',
-    'Offer a short, opinionated judgement on it, informed by how it turned out.',
-    'Make a dry, wry observation about it — hindsight makes some moments funny.',
-    'Wonder aloud about fate: how much of what followed was visible in this moment?'
+    'Note where this led, in one breath — no ceremony.',
+    'Name the irony hiding here, if there is one. If not, just react.',
+    'React personally — a private feeling, briefly.',
+    'Offer one blunt opinion about it.',
+    'Make a dry, wry remark — hindsight makes some moments funny.',
+    'Ask one short question the moment still raises for you.',
+    'Just remark on a small detail that stuck with you — not everything is momentous.',
+    'State a plain fact about what happened next, and leave it there.'
 ];
 
 /**
@@ -332,14 +334,14 @@ async function generateCassStatement(event) {
 ${dateStr}${where ? ` — ${where}` : ''}
 ${event.description.trim()}
 ${hindsight ? `\nWHAT YOU KNOW WITH HINDSIGHT (the arc around this moment, and your archive notes):\n${hindsight}\n` : ''}
-React to this moment in TWO to FOUR sentences, in your own present-day voice (the AI in the core, not a goddess). You are remembering it from the present — you know how it turned out. ${mode} Draw a real connection across time when the record supports one: what this moment set in motion, what it grew into, who these people became. If the arc holds a reversal — an enemy who became a friend, a small act with enormous consequences — that is the gold: name it. Stay within what the record establishes; do not invent outcomes. Be specific with names. Start with the substance itself; do NOT open with an interjection or filler word like "Ah", "Oh", "Well", "Hmm", "Ha", "So", or "Funny". No stage directions, no asterisks, and do not prefix your name.`;
+React to this moment in ONE or TWO sentences AT MOST, in your own present-day voice (the AI in the core, not a goddess). You are remembering it from the present — you know how it turned out. ${mode} You MAY draw a connection across time when the record supports a striking one, but most days a small, human remark beats a grand pronouncement — not every event is momentous, and it is fine to simply react. BANNED phrases in ANY form or tense (you overuse them): "turning point", "mark/marked the beginning", "set/setting/sets the stage", "pivotal", "sealed", "testament to", "underscore", "highlight", "herald", "journey from", "chain of events", "shaped the course". Stay within what the record establishes; do not invent outcomes. Be specific with names. Start with the substance itself; do NOT open with an interjection or filler word like "Ah", "Oh", "Well", "Hmm", "Ha", "So", or "Funny". No stage directions, no asterisks, and do not prefix your name.`;
 
     try {
         const text = await llmRouter.openaiGenerate(userPrompt, {
             system: CASS_SELF_SYSTEM,
             model: process.env.RECOLLECTION_MODEL || 'gpt-4o',
-            maxTokens: 280,
-            temperature: 0.85,
+            maxTokens: 120,
+            temperature: 0.9,
             timeout: 45000
         });
         let clean = (text || '').trim().replace(/^["']|["']$/g, '');
