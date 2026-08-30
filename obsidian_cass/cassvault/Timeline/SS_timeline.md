@@ -3,8 +3,8 @@ title: "Skull & Shackles Timeline"
 type: timeline
 campaign: "SS"
 campaignName: "Skull & Shackles"
-eventCount: 25
-lastSync: "2026-08-30T20:20:53.823Z"
+eventCount: 27
+lastSync: "2026-08-30T20:33:10.638Z"
 tags: ["timeline", "ss"]
 ---
 
@@ -39,3 +39,5 @@ tags: ["timeline", "ss"]
 | 4717.04.12 | The Dreaming Deep | Bujon is slain in combat vs the undead dwarves of Gol Khazak. The Sahuagin reincarnate him as an Iku-Turso (Eel man). Sha Feng is freed. |
 | 4701.02.07 | Boali | Senghor attacks and destroys Boali, whose religion sustained reincarnation through mass human sacrifice at the Boali Soul Well. The harbor is blocked with sunken ships and raised stones; official Senghor records declare the city abandoned and the danger ended. |
 | 4717.05.18 | Boali | The Kill-Steal crew arrives at the ruins of Boali by small boat (the sabotaged harbor is still unnavigable) and discovers the city is not empty: cursed undead Boali emerge from the Soul Well nightly to hunt. The tree-dwelling Charau-Ka brief the crew on the horrors. |
+| 4717.05.20 | Boali | Ser scouts the Boali Soul Well under magical concealment and encounters Chief Bello, leader of the cursed undead Boali. Unable to see her but sensing her presence, he threatens to eat her and declares that the Boali are twice cursed. |
+| 4717.05.21 | Boali | By night, with the Charau-Ka luring the undead horde away, the Kill-Steal crew descends the Soul Well shaft and defeats Chief Bello and his guards. At the Well's heart they find a strange sphere artifact of unknown origin corrupting the site. |
