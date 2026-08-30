@@ -4,7 +4,7 @@ type: timeline
 campaign: "IG"
 campaignName: "Iron Gods"
 eventCount: 88
-lastSync: "2026-08-09T14:09:53.996Z"
+lastSync: "2026-08-30T20:20:53.823Z"
 tags: ["timeline", "ig"]
 ---
 
@@ -74,7 +74,7 @@ tags: ["timeline", "ig"]
 | 4716.08.08 | Scrapwall | IG Party kills Marrow, frees Whiskifiss and befriends the Redtooth Raiders. |
 | 4716.08.12 | Scrapwall | IG Party travels across Southern Scrapwall and defeats the Manticore. |
 | 4716.08.21 | Scrapwall | IG Party defeats the wraiths in Southeastern Scrapwall. Eldrin Discovered. |
-| 4716.08.24 | Scrapwall | IG Party assauts the Junk Mines, frees Olbryn, and retreats back South. |
+| 4716.08.24 | Scrapwall | IG Party assaults the Junk Mines, frees Olbryn, and retreats back South. |
 | 4716.08.26 | Scrapwall | IG Party visits Redtooth warren but finds it destroyed by Lords of Rust. |
 | 4716.08.29 | Scrapwall | IG Party assaults Scrapwall Arena, kills Helskarg, frees Cuha. |
 | 4716.08.30 | Scrapwall | IG Party defeats Nalakai and the Cult of Hellion. |

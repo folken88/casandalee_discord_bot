@@ -4,7 +4,7 @@ type: timeline
 campaign: "JG"
 campaignName: "Justice Gorls"
 eventCount: 12
-lastSync: "2026-08-09T14:09:53.997Z"
+lastSync: "2026-08-30T20:20:53.824Z"
 tags: ["timeline", "jg"]
 ---
 

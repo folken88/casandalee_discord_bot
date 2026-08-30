@@ -3,8 +3,8 @@ title: "Skull & Shackles Timeline"
 type: timeline
 campaign: "SS"
 campaignName: "Skull & Shackles"
-eventCount: 23
-lastSync: "2026-08-09T14:09:53.997Z"
+eventCount: 25
+lastSync: "2026-08-30T20:20:53.823Z"
 tags: ["timeline", "ss"]
 ---
 
@@ -37,3 +37,5 @@ tags: ["timeline", "ss"]
 | 4717.04.10 | Windward Isle | The TPK is attacked by Sahuagin and fights them off but Sha Feng is taken by them. |
 | 4717.04.11 | Gol Khazak | TPK Command Crew follows the Sahuagin to an underwater cave which is the lost dwarven settlement of Gol Khazak. An alliance is forged with the Sahuagin. |
 | 4717.04.12 | The Dreaming Deep | Bujon is slain in combat vs the undead dwarves of Gol Khazak. The Sahuagin reincarnate him as an Iku-Turso (Eel man). Sha Feng is freed. |
+| 4701.02.07 | Boali | Senghor attacks and destroys Boali, whose religion sustained reincarnation through mass human sacrifice at the Boali Soul Well. The harbor is blocked with sunken ships and raised stones; official Senghor records declare the city abandoned and the danger ended. |
+| 4717.05.18 | Boali | The Kill-Steal crew arrives at the ruins of Boali by small boat (the sabotaged harbor is still unnavigable) and discovers the city is not empty: cursed undead Boali emerge from the Soul Well nightly to hunt. The tree-dwelling Charau-Ka brief the crew on the horrors. |
